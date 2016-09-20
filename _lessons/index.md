@@ -113,11 +113,18 @@ These are the notes, and *they can* be in markdown too.
 # Columns
 
 .two-third[
+
+It is possible to have columns or various widths in the presentation. The
+columns should be wrapped the following way:
 ~~~
 .one-third[
   content
 ]
 ~~~
+
+You can chain columns in any way you want, *e.g.* 1/3 then 2/3, 1/4 then 1/2
+then 1/2. As long as it sums to one, it's fine.
+
 ]
 
 .one-third[

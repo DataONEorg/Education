@@ -8,3 +8,10 @@ h1, h2, h3 {
   font-weight: normal;
 }
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+.remark-slide {
+  background-image: url("resources/logo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left bottom;
+}

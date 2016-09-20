@@ -56,4 +56,11 @@ becomes
 
 ---
 
-# OVER!
+# Notes
+
+Notes are everything that comes below `???`. Press **P** to toggle presenter
+mode.
+
+???
+
+These are the notes, and *they can* be in markdown too.

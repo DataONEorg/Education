@@ -8,9 +8,3 @@ h1, h2, h3 {
   font-weight: normal;
 }
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
-
-thead {
-  border-bottom: 1px solid;
-}
-
-th, td { padding: 4px 4px;}

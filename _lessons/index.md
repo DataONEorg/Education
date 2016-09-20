@@ -142,11 +142,21 @@ then 1/2. As long as it sums to one, it's fine.
 # Nested columns
 
 .three-fourth[
+
+This is a three-fourth column, and splitted in two.
+
 .one-half[
-X
+~~~ R
+for (i in c(1:10)) {
+  print(i)
+}
+~~~
 ]
 .one-half[
-Y
+~~~ python
+for i in xrange(10):
+  print i
+~~~
 ]
 ]
 

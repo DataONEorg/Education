@@ -47,6 +47,32 @@ Lists:
 
 ---
 
+# Quotes
+
+~~~
+> Text goes here
+~~~
+
+> Text goes here
+
+---
+
+# Syntax highlighting
+
+```
+~~~ R
+plot(runif(100))
+~~~
+```
+
+renders as
+
+~~~ R
+plot(runif(100))
+~~~
+
+---
+
 # Tables
 
 This bit of code...

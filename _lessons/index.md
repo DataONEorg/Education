@@ -61,14 +61,18 @@ Lists:
 
 ```
 ~~~ R
-plot(runif(100))
+<your code here>
 ~~~
 ```
 
 renders as
 
 ~~~ R
-plot(runif(100))
+random_thing <- function(x, r, ...) {
+  return(r(x, ...))
+}
+
+plot(random_thing(100, runif))
 ~~~
 
 ---

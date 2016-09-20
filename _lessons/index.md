@@ -47,16 +47,6 @@ Lists:
 
 ---
 
-# Definitions
-
-gif
-: An animated picture
-
-metadata
-: LOL who knows?
-
----
-
 # Tables
 
 This bit of code...

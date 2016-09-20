@@ -4,22 +4,24 @@ update: Sept. 20, 2016
 layout: slides
 ---
 
-# Slide 1
+# It's working!
 
-- with
-- a
-  - nested
-  - list
+- The lesson goes in `docs/index.html`
+- That's it.
 
 ---
 
 # Slide 2
 
-## Sub-title
+Lesson title and metadata go in the `yaml` header:
 
-| Tables | Yeah! | TABLES |
-|:-------|:-----:|-------:|
-| a      |   b   |      c |
+~~~ yaml
+---
+title: Lesson title
+update: Sept. 20, 2016
+layout: slides
+---
+~~~
 
 ---
 

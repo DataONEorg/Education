@@ -27,6 +27,9 @@ class: center, middle
 
 {{content | markdownify}}
 
+{% capture my_include %}{% include a_markdown_file.md %}{% endcapture %}
+{{ my_include | markdownify }}
+
   </textarea>
   <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
   </script>

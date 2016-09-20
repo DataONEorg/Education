@@ -9,7 +9,7 @@ h1, h2, h3 {
 }
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
 
-.remark-slide {
+.remark-slide-content {
   background-image: url("logo.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;

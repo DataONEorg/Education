@@ -35,3 +35,6 @@ h1, h2, h3 {
 
 tr:nth-child(odd)		{ background-color:#eee; }
 tr:nth-child(even)		{ background-color:#fff; }
+td {
+  padding: 0.5em;
+}

@@ -33,6 +33,28 @@ Everything *below* that is markdown.
 - `*italics*` is *italics*
 - `**bold**` is **bold**
 
+Lists:
+
+~~~
+- List item 1
+- List item 2
+  - Nested list item
+
+1. Enumerated list
+2. Second item
+  - We can mix both
+~~~
+
+---
+
+# Definitions
+
+gif
+: An animated picture
+
+metadata
+: LOL who knows?
+
 ---
 
 # Tables

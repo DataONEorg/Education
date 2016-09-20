@@ -1,13 +1,14 @@
 ---
-title: Lesson title
+title: Moving the lessons to github
 update: Sept. 20, 2016
 layout: slides
 ---
 
 # It's working!
 
-- The lesson goes in `docs/lesson_name.md`
-- That's it.
+- Each lesson is its own `lesson_name.md` file in the github repository
+- The maintainer ensures that the github pages are built from the `master` branch
+- That's it
 
 ---
 

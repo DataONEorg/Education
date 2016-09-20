@@ -23,6 +23,7 @@ h1, h2, h3 {
   clear: right;
   float: left;
   padding: 1em;
+  box-sizing: border-box;
 }
 .one-third {width: 33%;}
 .two-third {width: 67%;}

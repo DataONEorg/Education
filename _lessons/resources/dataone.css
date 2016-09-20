@@ -11,6 +11,7 @@ h1, h2, h3 {
 
 .remark-slide-content {
   background-image: url("logo.jpg");
+  background-size: 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left bottom;

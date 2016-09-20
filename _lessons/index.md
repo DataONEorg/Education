@@ -56,14 +56,4 @@ becomes
 
 ---
 
-# Columns
-
-.left-column[
-  Left column
-]
-.right-column[
-  Right column
-]
----
-
 # OVER!

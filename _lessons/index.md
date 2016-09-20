@@ -112,7 +112,7 @@ These are the notes, and *they can* be in markdown too.
 
 # Columns
 
-.one-third[
+.two-third[
 ~~~
 .one-third[
   content
@@ -120,7 +120,7 @@ These are the notes, and *they can* be in markdown too.
 ~~~
 ]
 
-.two-third[
+.one-third[
 **Possible values**
 
 - `.one-third`

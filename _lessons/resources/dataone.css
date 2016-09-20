@@ -23,11 +23,8 @@ h1, h2, h3 {
   clear: right;
   float: left;
 }
-
-.one-third {
-  width: 33%;
-}
-
-.two-third {
-  width: 67%;
-}
+.one-third {width: 33%;}
+.two-third {width: 67%;}
+.one-half {width: 50%;}
+.one-fourth {width: 25%;}
+.three-fourth {width: 75%;}

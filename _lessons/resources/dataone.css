@@ -16,3 +16,18 @@ h1, h2, h3 {
   background-attachment: fixed;
   background-position: left bottom;
 }
+
+/* Grid system */
+
+.one-third, .two-third, .one-half, .two-third, .one-fourth, .three-fourth {
+  clear: right;
+  float: left;
+}
+
+.one-third {
+  width: 33%;
+}
+
+.two-third {
+  width: 67%;
+}

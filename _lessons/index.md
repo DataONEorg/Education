@@ -107,3 +107,25 @@ mode.
 ???
 
 These are the notes, and *they can* be in markdown too.
+
+---
+
+# Columns
+
+.one-third[
+~~~
+.one-third[
+  content
+]
+~~~
+]
+
+.two-third[
+**Possible values**
+
+- `.one-third`
+- `.two-third`
+- `.one-half`
+- `.one-fourth`
+- `.three-fourth`
+]

@@ -25,8 +25,7 @@ class: center, middle
 
 ---
 
-{% capture raw_content %}{% include index.md %}{% endcapture %}
-{{ raw_content | markdownify }}
+{{content | inspect}}
 
   </textarea>
   <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">

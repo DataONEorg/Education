@@ -136,3 +136,20 @@ then 1/2. As long as it sums to one, it's fine.
 - `.one-fourth`
 - `.three-fourth`
 ]
+
+---
+
+# Nested columns
+
+.three-fourth[
+.one-half[
+X
+]
+.one-half[
+Y
+]
+]
+
+.one-fourth[
+**It works!**
+]

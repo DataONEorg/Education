@@ -13,11 +13,11 @@ h1, h2, h3 {
 
 .logo {
   position: absolute;
-  left: 1em;
-  bottom: 1em;
+  right: 1em;
+  top: 1em;
 }
 
-.logo img {width: 3em;}
+.logo img {width: 4em;}
 
 /* Grid system */
 

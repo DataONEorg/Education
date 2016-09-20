@@ -9,12 +9,13 @@ h1, h2, h3 {
 }
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
 
-.remark-slide-content {
-  background-image: url("logo.jpg");
-  background-size: 20%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left bottom;
+/* Logo */
+
+.logo {
+  position: absolute;
+  left: 1em;
+  bottom: 1em;
+  width: 5em;
 }
 
 /* Grid system */

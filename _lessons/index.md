@@ -153,11 +153,15 @@ for (i in c(1:10)) {
 ~~~
 ]
 .one-half[
-~~~ python
-for i in xrange(10):
-  print i
+~~~ julia
+for i in 1:10
+  print(i)
+end
 ~~~
 ]
+
+Then the column resumes after the split.
+
 ]
 
 .one-fourth[

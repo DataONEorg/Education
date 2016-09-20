@@ -22,6 +22,7 @@ h1, h2, h3 {
 .one-third, .two-third, .one-half, .two-third, .one-fourth, .three-fourth {
   clear: right;
   float: left;
+  padding: 1em;
 }
 .one-third {width: 33%;}
 .two-third {width: 67%;}

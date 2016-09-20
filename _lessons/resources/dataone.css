@@ -33,9 +33,14 @@ h1, h2, h3 {
 .one-fourth {width: 25%;}
 .three-fourth {width: 75%;}
 
+table {
+  border-collapse: collapse;
+}
+
 tr:nth-child(odd)		{ background-color:#eff4f5; }
 tr:nth-child(even)		{ background-color:#d9ebf2; }
-tr { background-color: #698487; color: white;}
+tr { color: black;}
+th { background-color: #698487; color: white;}
 td, th {
   padding: 0.4em;
 }

@@ -1,15 +1,5 @@
 .remark-code, .remark-inline-code { font-family: 'Hack', monospace; }
 
-/* Logo */
-
-.logo {
-  position: absolute;
-  bottom: 15px;
-  left: 80px;
-}
-
-.logo img {width: 4em;}
-
 /* Progress bar */
 
 .progressbar {

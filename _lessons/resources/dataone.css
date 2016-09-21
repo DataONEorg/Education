@@ -100,3 +100,6 @@ td, th {
   font-size: 1.2em !important;
   font-weight: normal !important;
 }
+
+/* Images */<
+img {max-width: 100%;}

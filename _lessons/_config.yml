@@ -3,11 +3,3 @@ baseurl: /hide-yo-jekyll
 
 # Format for the slides, can be either 16:9 or 4:3
 format: '4:3'
-
-# Default layout for all lessons
-defaults:
-  -
-    scope:
-      path: "lessons"
-    value:
-      layout: slides

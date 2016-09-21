@@ -7,7 +7,7 @@ layout: slides
 
 # Why Data Management?
 
- ![Image Caption Here](./images/intro-data-mgt/slide-1-intro.jpg)
+ ![Image Caption Here](images/slide-1-intro.jpg)
 
 
 ???
@@ -42,7 +42,7 @@ The topics covered in this module will answer the questions:
 
 ---
 
- ![Magazines](./images/intro-data-mgt/Slide05.jpg)
+ ![Magazines](images/Slide05.jpg)
 
 
 The world today is filled with science news, from climate change to hurricanes â€“ and it all affects the people inhabiting the earth.
@@ -53,13 +53,13 @@ The world today is filled with science news, from climate change to hurricanes â
 Data is collected from sensors, sensor networks, remote sensing, observations,
 and more -  this calls for increased attention to data management and stewardship.
 
- ![Magazines](./images/intro-data-mgt/data-deluge.jpg)
+ ![Magazines](images/data-deluge.jpg)
 
 ---
 
 ## A World of Data
 
-![data around us](./images/intro-data-mgt/data-around-us.png)
+![data around us](images/data-around-us.png)
 
 The amount of available storage is not keeping up with the amount of data flooding in daily. How do we decide what data we keep?
 
@@ -85,7 +85,7 @@ The amount of available storage is not keeping up with the amount of data floodi
 * Loss of financial stability
 * Changes in user expectations and requirements
 
-![](./images/intro-data-mgt/data-loss.jpg)
+![](images/data-loss.jpg)
 
 ---
 

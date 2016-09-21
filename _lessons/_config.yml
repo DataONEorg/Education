@@ -6,7 +6,8 @@ format: '4:3'
 
 # Default layout for all lessons
 defaults:
-  - scope:
+  -
+    scope:
      path: ""
     value:
-      layout: "slides"
+      layout: slides

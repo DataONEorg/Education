@@ -33,6 +33,7 @@ Everything *below* that is markdown.
 .one-half[
 - `*italics*` is *italics*
 - `**bold**` is **bold**
+- `***bold italics***` is ***bold italics***
 ]
 
 .one-half[

@@ -1,17 +1,12 @@
 ---
 title: DataONE lessons
+layout: index
 ---
 
 # List of lessons
 
-<ul>
-{% for lesson in site.lessons %}
-  <li>
-    <a
-      href="{{ site.baseurl }}/{{ lesson.url }}"
-      title = "{{ lesson.title }}">
-        {{ lesson.title }}
-      </a>
-  </li>
-{% endfor %}
-</ul>
+- [Markdown basics][00]
+- [Data sharing][02]
+
+[00]: lessons/00_markdown/
+[02]: lessons/02_datasharing/

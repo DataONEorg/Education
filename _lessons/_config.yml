@@ -2,15 +2,7 @@ title: 		Slide Template
 description:
 
 # This should be the repo name WITHOUT the host
-baseurl: /hide-yo-jekyll
+baseurl: /dataone_lessons
 
 # Format for the slides, can be either 16:9 or 4:3
 format: '4:3'
-
-# Collections
-collections:
-  lessons:
-    output: true
-    defaults:
-      - values:
-        layout: slides

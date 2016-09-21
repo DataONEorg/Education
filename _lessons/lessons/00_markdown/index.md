@@ -2,6 +2,7 @@
 title: Moving the lessons to github
 author: DataONE Community Engagement & Outreach
 update: Sept. 20, 2016
+layout: slides
 ---
 
 # It's working!
@@ -28,7 +29,7 @@ update: Sept. 20, 2016
 
 # General infos
 
-.one-third[
+.one-half[
 Lesson title and metadata go in the `yaml` header:
 
 ~~~ yaml
@@ -42,7 +43,7 @@ layout: slides
 Everything *below* that is markdown.
 ]
 
-.two-third[
+.one-half[
 The `yaml` header is the first element of a presentation, and will give the
 title, date of latest update, and (possibly) other data. The line `layout:
 slides` is **very important** because it allows to render the slides themselves.
@@ -112,7 +113,7 @@ This is `inline` code.
 
 # Tables
 
-.one-half[
+.two-third[
 Markdown can do tables:
 
 ~~~ md
@@ -124,7 +125,7 @@ Markdown can do tables:
 ~~~
 ]
 
-.one-half[
+.one-third[
 This renders as:
 
 |   Animal | Diet      | Fuzzy? |

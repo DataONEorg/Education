@@ -1,14 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+@import url(//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css);
+@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Cabin);
 
-body { font-family: 'Droid Serif';}
+body { font-family: 'Cabin'; }
 h1, h2, h3 {
-  font-family: 'Yanone Kaffeesatz';
-  font-weight: normal;
-}
-.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
-  font-family: 'Roboto Condensed';
+  font-family: 'Cabin Condensed';
 }
 
 h1 {
@@ -20,7 +16,12 @@ h1 {
   margin-bottom: 0.7em;
 }
 
-.remark-code, .remark-inline-code { font-family: 'Roboto Mono'; }
+.remark-code, .remark-inline-code { font-family: 'Hack', monospace; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
 
 /* Logo */
 
@@ -98,11 +99,11 @@ td, th {
 
 .title h1 {
   color: white !important;
-  font-family: 'Roboto' !important;
+  font-family: 'Cabin' !important;
   font-weight: bold;
 }
 
-.title h2 {
+.title h2 {
   .full-width, .one-third, .two-third, .one-half, .two-third, .one-fourth, .three-fourthfont-size: 1.2em !important;
   font-weight: normal !important;
 }
@@ -111,4 +112,10 @@ td, th {
 img {
   max-width: 100%;
   max-height: 100%;
+}
+
+img:after {
+  content: attr(title);
+  position:relative;
+  bottom: 2em;
 }

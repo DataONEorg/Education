@@ -53,9 +53,15 @@ td, th {
   display: inline-block;
 }
 
-.step5 {
-    background-color: #ddd;
-    width: 100%;
-    display: inline-block;
-    height: 1em;
+.step1, .step2, .step3, .step4, .step5, .step6, .step7, .step8, .step9, .step10 {
+  background-color: #ddd;
+  display: inline-block;
+  height: 1em;
+  border-radius: 5px;
 }
+
+.step1 {width: 10%;}
+.step2 {width: 20%;}
+.step3 {width: 30%;}
+.step4 {width: 40%;}
+.step5 {width: 50%;}

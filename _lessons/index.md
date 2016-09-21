@@ -114,6 +114,7 @@ This is `inline` code.
 
 # Tables
 
+.one-half[
 This bit of code...
 
 ~~~ md
@@ -123,7 +124,9 @@ This bit of code...
 |   Racoon | garbage   |  meh   |
 |      Cat | hairballs |  yup   |
 ~~~
+]
 
+.one-half[
 becomes
 
 |   Animal | Diet      | Fuzzy? |
@@ -131,6 +134,7 @@ becomes
 | Hedgehog | rings     |   no   |
 |   Racoon | garbage   |  meh   |
 |      Cat | hairballs |  yup   |
+]
 
 ---
 

@@ -115,6 +115,6 @@ img {
 }
 
 
-img + .legend {
+img + em {
   color: #555;
 }

@@ -9,5 +9,4 @@ defaults:
   - scope:
      path: ""
     value:
-      layout: "default"
-  layout: slides
+      layout: "slides"

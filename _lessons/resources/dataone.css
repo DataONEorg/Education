@@ -93,9 +93,10 @@ td, th {
 
 .title h1 {
   color: white !important;
+  font-family: 'Roboto' !important;
 }
 
 .title h2 {
-  font-size: 1.2em;
-  font-weight: normal;
+  font-size: 1.2em !important;
+  font-weight: normal !important;
 }

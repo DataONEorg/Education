@@ -35,9 +35,9 @@ table {
 }
 
 tr:nth-child(odd)		{ background-color:#eff4f5; }
-tr:nth-child(even)		{ background-color:#d9ebf2; }
+tr:nth-child(even)		{ background-color:#d6dee0; }
 tr { color: black;}
-th { background-color: #698487; color: white;}
+th { background-color: #858585; color: white;}
 td, th {
   padding: 0.4em;
 }

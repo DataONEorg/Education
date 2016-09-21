@@ -160,9 +160,13 @@ It's one thing to be questioned by a college student who is working on a project
 
 # Importance of Data Management
 
+.one-third[
 The climate scientists at the centre of a media storm over leaked emails were yesterday cleared of accusations that they fudged their results and silenced critics, but a review found they had failed to be open enough about their work.
+]
 
+.two-third[
 ![](images/datamgt-import.png)
+]
 
 ---
 
@@ -185,6 +189,7 @@ Manage your data for yourself:
  and recognition for your science efforts!
 
  ![CC image by UWW ResNet on Flickr](images/master-backup.png)
+ *CC Image by UWW ResNet on Flickr*
 
 
  ---
@@ -242,6 +247,7 @@ There is an abundance of data and metadata (if it is done) end up in filing cabi
 Data should be properly managed and eventually be placed where they are accessible, understandable, and re-usable.
 
 ---
+
 # Well managed, publically accessible data is important: why?
 
 * Increases the impact and visibility of research
@@ -262,12 +268,13 @@ Data should be properly managed and eventually be placed where they are accessib
 A new image processing technique reveals something not before seen in this Hubble Space Telescope image taken 11 years ago: A faint planet (arrows), the outermost of three discovered with ground-based telescopes last year around the young star HR 8799.D. Lafrenière et al., Astrophysical Journal Letters
 
 ![D. Lafrenière et al., ApJ Letters](images/hubble.png)
-
+*D. Lafrenière et al., ApJ Letters*
 ---
 
 # New Discoveries
 
 ![D. Lafrenière et al., ApJ Letters](images/hubble.png)
+*D. Lafrenière et al., ApJ Letters*
 
 > “The first thing it tells you is how valuable maintaining long-term archives can be. Here is a major discovery that’s been lurking in the data for about 10 years!” comments Matt Mountain, director of the Space Telescope Science Institute in Baltimore, which operates Hubble.
 

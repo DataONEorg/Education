@@ -15,7 +15,7 @@ layout: slides
 ]
 
 .one-fourth[
-![]({{ site.baseurl }}/images/lesson_02/folders.png)
+![](../images/lesson_02/folders.png)
 ]
 
 ---

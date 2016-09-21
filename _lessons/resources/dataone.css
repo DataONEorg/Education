@@ -120,4 +120,10 @@ img + em {
   font-size: 1em;
   color: #ccc;
   font-style: italic;
+  display: block;
+}
+
+/* make sure links within attribution are grey too */
+em a:link {
+    color: #ccc;
 }

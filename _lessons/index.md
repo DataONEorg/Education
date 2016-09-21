@@ -14,7 +14,15 @@ layout: slides
 
 .one-fourth[]
 .one-half[
-  Test
+  All sides start with a title, and end with a `---` :
+
+  ~~~ md
+  # This is a slide title
+
+  This is the content of a slide, and it will end now.
+
+  ---
+  ~~~
 ]
 
 ---

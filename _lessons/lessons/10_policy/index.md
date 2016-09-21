@@ -33,7 +33,38 @@ After completing this lesson, participants will be able to:
   * e.g., Paperwork Reduction Act
   
 	-- Definitions from Dictionary.com
-	
+
+???
+
+IRB stands for Institutional Review Board and IACUC stands for Institutional Animal Care and Use Committee. Both are institutional structures, which exist to ensure that research meets the ethical standards of that institution and the scientific community.
+
+The purpose of the  Paperwork Reduction Act remains to ensure that federal agencies do not overburden the public with federally sponsored data collections.
+
+Resource for PRA: http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html
+
 ---
+
+# Intellectual Property (IP)
+
+![Photo Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png](images/slide-1-intro.jpg)
+  *Photo Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png*
+
+“Intellectual property refers to creations of the mind, such as inventions; literary and artistic works; designs; and symbols, names and images used in commerce.”
+-- World Intellectual Property Organization
+
+---
+
+# What does IP include?
+
+![Photo Attribution: http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg](images/slide-1-intro.jpg)
+  *Photo Attribution: http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg*
+  
+* Copyright
+* Patents
+* Trademarks
+* Industrial Designs
+
+---
+
 
 

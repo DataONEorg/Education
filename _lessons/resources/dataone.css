@@ -1,0 +1,84 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Condensed';
+
+body { font-family: 'Roboto'; }
+h1, h2, h3 {
+  font-weight: bold;
+  font-family: 'Roboto Condensed';
+}
+
+h1 {
+  color: #006666;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  font-weight: normal !important;
+  margin-top: 1em;
+  margin-bottom: 0.7em;
+}
+
+.remark-code, .remark-inline-code { font-family: 'Roboto Mono'; }
+
+/* Logo */
+
+.logo {
+  position: absolute;
+  bottom: 15px;
+  left: 80px;
+}
+
+.logo img {width: 4em;}
+
+/* Grid system */
+
+.full-width, .one-third, .two-third, .one-half, .two-third, .one-fourth, .three-fourth {
+  clear: right;
+  float: left;
+  padding: 0.6em;
+  box-sizing: border-box;
+}
+.one-third {width: 33%;}
+.two-third {width: 67%;}
+.one-half {width: 50%;}
+.one-fourth {width: 25%;}
+.three-fourth {width: 75%;}
+.full-width {width: 100%;}
+
+table {
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd)		{ background-color:#eeeeee; }
+tr:nth-child(even)		{ background-color:#fcfcfc; }
+tr { color: black;}
+th { background-color: #858585; color: white;}
+td, th {
+  padding: 0.4em;
+}
+
+
+/* Progress bar */
+
+.progressbar {
+  width: 5em;
+  height: 0.5em;
+  border-radius: 5px;
+  background-color: #eee;
+  display: inline-block;
+}
+
+.step1, .step2, .step3, .step4, .step5, .step6, .step7, .step8, .step9, .step10 {
+  background-color: #006666;
+  display: inline-block;
+  height: 0.5em;
+  border-radius: 5px;
+}
+
+.step1 {width: 10%;}
+.step2 {width: 20%;}
+.step3 {width: 30%;}
+.step4 {width: 40%;}
+.step5 {width: 50%;}
+.step6 {width: 60%;}
+.step7 {width: 70%;}
+.step8 {width: 80%;}
+.step9 {width: 90%;}
+.step10 {width: 100%;}

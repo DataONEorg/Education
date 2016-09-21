@@ -3,7 +3,7 @@
 <head>
   <title>dataONE - {{page.title}}</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="./_resources/dataone.css">
+  <link rel="stylesheet" type="text/css" href="resources/dataone.css">
 </head>
 <body>
   <textarea id="source">
@@ -14,13 +14,27 @@ class: center, middle
 
 ---
 
+layout: true
+
+.logo[
+![logo](resources/logo.jpg)
+]
+
+---
+
 {{ page.content }}
 
   </textarea>
   <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
   </script>
   <script>
-  var slideshow = remark.create();
+  var slideshow = remark.create({
+    ratio: '16:9',
+    slideNumberFormat: function (current, total) {
+      return '<span class="progressbar"><span class="step' + Math.round(current/total*11-1) + '">&nbsp;</span></span>';
+    },
+    countIncrementalSlides: false
+  });
   </script>
 </body>
 </html>

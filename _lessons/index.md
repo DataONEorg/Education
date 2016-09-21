@@ -7,7 +7,11 @@ title: DataONE lessons
 <ul>
 {% for lesson in site.lessons %}
   <li>
-    {{ lesson.title }} -- {{ lesson.url }}
+    <a
+      href="{{ lesson.url }}"
+      title = "{{ lesson.title }}">
+        {{ lesson.title }}
+      </a>
   </li>
 {% endfor %}
 </ul>

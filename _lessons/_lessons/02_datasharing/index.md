@@ -14,7 +14,7 @@ update: Sept. 20, 2016
 ]
 
 .one-fourth[
-![](images/folders.png)
+![Folders picture](images/folders.png)
 ]
 
 ---

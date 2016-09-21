@@ -16,7 +16,6 @@ layout: slides
 
 .one-fourth[
 ![Folders picture](images/folders.png)
-*legend goes here*
 ]
 
 ---

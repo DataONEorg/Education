@@ -15,7 +15,8 @@ layout: slides
 ]
 
 .one-fourth[
-![Folders picture](images/folders.png)
+![Folders picture](images/folders.png "title")
+.legend[Legend test]
 ]
 
 ---

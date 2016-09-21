@@ -10,4 +10,4 @@ collections:
     output: true
     defaults:
       - values:
-        layout: slides
+          layout: slides

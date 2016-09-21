@@ -11,7 +11,8 @@ h1 {
   text-transform: uppercase;
   font-size: 1.6em;
   font-weight: normal !important;
-  margin-top: 0px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .remark-code, .remark-inline-code { font-family: 'Roboto Mono'; }

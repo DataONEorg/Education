@@ -27,7 +27,7 @@ layout: slides
 
 ---
 
-# General infos
+# General info
 
 .one-half[
 Lesson title and metadata go in the `yaml` header:

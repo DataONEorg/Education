@@ -90,3 +90,7 @@ td, th {
   background-color: #006666;
   color: white !important;
 }
+
+.title h1 {
+  color: white !important;
+}

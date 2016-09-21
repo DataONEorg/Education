@@ -19,9 +19,7 @@ layout: slides
   ~~~ md
   # This is a slide title
 
-  This is the content of a slide, and it will end now.
-
-  ---
+  This is the content of the slide.
   ~~~
 ]
 .one-fourth[]

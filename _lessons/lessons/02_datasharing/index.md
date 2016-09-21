@@ -15,17 +15,18 @@ This is Lesson 2 of the DataONE Data Management learning series. This lesson cov
 
 # Lesson topics
 
-.three-fourth[
+.two-third[
 - Data sharing within the data lifecycle
 - Value of data sharing
 - Concerns about data sharing
 - Methods for making data sharable
 ]
 
-.one-fourth[
-![](images/folders.png)
-]
 
+.one-third[
+![Folders picture](images/folders.png "Figure title goes here")
+
+]
 ???
 
 The topics covered in this lesson  include: the role of data sharing within the lifecycle, the value of data sharing, concerns about data sharing, and methods for making data sharable.

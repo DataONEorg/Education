@@ -11,6 +11,6 @@ collections:
 
 defaults:
   - scope:
-      collection: slides
+      collection: lessons
     values:
       layout: slides

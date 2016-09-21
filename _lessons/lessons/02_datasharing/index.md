@@ -15,8 +15,7 @@ layout: slides
 ]
 
 .one-third[
-![Folders picture](images/folders.png "title")
-.legend[Legend test]
+![Folders picture](images/folders.png "Figure title goes here")
 ]
 
 ---

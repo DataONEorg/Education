@@ -8,6 +8,6 @@ format: '4:3'
 defaults:
   -
     scope:
-     path: ""
+      path: "lessons"
     value:
       layout: slides

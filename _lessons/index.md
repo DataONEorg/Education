@@ -8,5 +8,5 @@ layout: index
 - [Markdown basics][00]
 - [Data sharing][02]
 
-[00]: lesson/00_markdown/
-[02]: lesson/02_datasharing/
+[00]: lessons/00_markdown/
+[02]: lessons/02_datasharing/

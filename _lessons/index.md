@@ -14,7 +14,7 @@ layout: slides
 
 .one-fourth[]
 .one-half[
-  All sides start with a title, and end with a `---` :
+  All slides start with a title, and end with a `---` :
 
   ~~~ md
   # This is a slide title
@@ -24,11 +24,13 @@ layout: slides
   ---
   ~~~
 ]
+.one-fourth[]
 
 ---
 
 # General infos
 
+.one-fourth[
 Lesson title and metadata go in the `yaml` header:
 
 ~~~ yaml
@@ -40,6 +42,13 @@ layout: slides
 ~~~
 
 Everything *below* that is markdown.
+]
+
+.three-fourth[
+The `yaml` header is the first element of a presentation, and will give the
+title, date of latest update, and (possibly) other data. The line `layout:
+slides` is **very important** because it allows to render the slides themselves.
+]
 
 ---
 
@@ -94,6 +103,8 @@ random_thing <- function(x, r, ...) {
 
 plot(random_thing(100, runif))
 ~~~
+
+You can also put code inline, using backticks: ``code`` is `code`.
 
 ---
 

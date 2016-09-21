@@ -2,7 +2,6 @@
 
 body { font-family: 'Roboto'; }
 h1, h2, h3 {
-  font-weight: bold;
   font-family: 'Roboto Condensed';
 }
 
@@ -94,6 +93,7 @@ td, th {
 .title h1 {
   color: white !important;
   font-family: 'Roboto' !important;
+  font-weight: bold;
 }
 
 .title h2 {

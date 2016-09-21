@@ -115,7 +115,7 @@ This is `inline` code.
 # Tables
 
 .one-half[
-This bit of code...
+Markdown can do tables:
 
 ~~~ md
 |   Animal | Diet      | Fuzzy? |
@@ -127,7 +127,7 @@ This bit of code...
 ]
 
 .one-half[
-becomes
+This renders as:
 
 |   Animal | Diet      | Fuzzy? |
 |---------:|:----------|:------:|
@@ -140,12 +140,25 @@ becomes
 
 # Notes
 
+.two-third[
 Notes are everything that comes below `???`. Press **P** to toggle presenter
 mode.
 
 ???
 
 These are the notes, and *they can* be in markdown too.
+]
+
+.one-third[
+~~~ md
+Notes are everything that comes below `???`. Press **P** to toggle presenter
+mode.
+
+???
+
+These are the notes, and *they can* be in markdown too.
+~~~
+]
 
 ---
 

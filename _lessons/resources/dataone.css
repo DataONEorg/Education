@@ -34,10 +34,21 @@ table {
   border-collapse: collapse;
 }
 
-tr:nth-child(odd)		{ background-color:#eff4f5; }
-tr:nth-child(even)		{ background-color:#f2f4f5; }
+tr:nth-child(odd)		{ background-color:#eeeeee; }
+tr:nth-child(even)		{ background-color:#fcfcfc; }
 tr { color: black;}
 th { background-color: #858585; color: white;}
 td, th {
   padding: 0.4em;
+}
+
+
+/* Progress bar */
+
+.progressbar {
+  width: 3em;
+  height: 1em;
+  border-radius: 5px;
+  background-color: #eee;
+  display: inline-block;
 }

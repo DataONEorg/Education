@@ -31,7 +31,7 @@ layout: true
   var slideshow = remark.create({
     ratio: '16:9',
     slideNumberFormat: function (current, total) {
-      return '<b class="progress' + Math.round(current/total*5) + '">current</b>';
+      return '<span class="progressbar"><span class="step' + Math.round(current/total*5) + '">current</span></span>';
     },
     countIncrementalSlides: false
   });

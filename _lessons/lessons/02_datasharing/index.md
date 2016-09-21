@@ -138,6 +138,7 @@ Niu, J. (2006). Reward and Punishment Mechanisms for Research Data Sharing. IASS
   * new research and increased return on investment
   * advancement of the science
   * reduced data duplication expenditures
+  * enhancing and extending the record of science
 
 ???
 
@@ -345,18 +346,21 @@ Step 3: Be sure to have data contributors review their metadata to ensure validi
 
 **Step Four:**
 
-## Publish your metadata via:
+## Publish your metadata and/or data via:
 
-* Data Portals / Clearinghouses
-
-### Federal
-* geodata.gov
-* data.gov
-* USGS Core Science Metadata Clearinghouse 	 (mercury.ornl.gov/clearinghouse)
-
-## Communities of Practice
+### e.g. Federal Data Catalogs
+    * data.gov
+### e.g. Data Repositories
 * Knowledge Network for Biodiversity (KNB) Data Portal
-* Long Term Ecological  Research (LETR) Network Data Portal
+* Long Term Ecological  Research (LTER) Network Data Portal
+* Institutional data repositories
+### e.g. Other Online Resources
+* Project and/or Program websites
+* Web-accessible folders (WAF)
+* Community or Public Cloud
+
+Searchable directory of repositories for publishing your data
+* http://service.re3data.org/search
 
 ???
 

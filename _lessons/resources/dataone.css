@@ -94,3 +94,8 @@ td, th {
 .title h1 {
   color: white !important;
 }
+
+.title h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+}

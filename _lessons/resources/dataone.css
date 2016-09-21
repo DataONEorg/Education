@@ -46,8 +46,8 @@ td, th {
 /* Progress bar */
 
 .progressbar {
-  width: 3em;
-  height: 1em;
+  width: 5em;
+  height: 0.5em;
   border-radius: 5px;
   background-color: #eee;
   display: inline-block;
@@ -56,7 +56,7 @@ td, th {
 .step1, .step2, .step3, .step4, .step5, .step6, .step7, .step8, .step9, .step10 {
   background-color: #ddd;
   display: inline-block;
-  height: 1em;
+  height: 0.5em;
   border-radius: 5px;
 }
 

@@ -291,4 +291,48 @@ A data lifecycle illustrates stages thru which well-managed data passes from the
 
 * There are best practices…..and….tools to help!
 * The following data management lessons will illustrate in detail each stage of the data lifecycle
-* Your well-managed and accessible data can contribute to science in ways you may not even imagine today! 
+* Your well-managed and accessible data can contribute to science in ways you may not even imagine today!
+
+
+???
+
+The rest of the DataONE Education Modules, handouts, and hands-on exercises are available at: https://www.dataone.org/education-modules
+
+
+---
+
+# Summary
+
+If data are:
+
+* Well-organized
+* Documented
+* Preserved
+* Accessible
+* Verified as to accuracy and validity
+
+Result is:
+
+* High quality data
+* Easy to share and re-use in science
+* Citation and credibility to the researcher
+* Cost-savings to science
+
+
+---
+
+# Summary
+
+* The data deluge has created a surge of information that needs to be well-managed and made accessible.
+* The cost of not doing data management can be very high.
+* Be cognizant of best practices and tools associated with the data lifecycle to manage your data well.
+* Many benefits are associated with the act of managing data, including the ability to find, access, understand, integrate, and re-use data.
+
+---
+
+# Resources
+
+1. Chatfield, T., Selbach, R. February 2011. Data Management Training Workshop. Bureau of Land Management (BLM).
+1. [Strasser, Carly. February 2012. Data Management for Scientists.](http://www.slideshare.net/carlystrasser/oceansciences2012workshop)
+1. [UK Data Archive. May 2011. Managing and Sharing Data: Best Practices for Researchers.](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf)
+1.  [DAMA International, The DAMA Guide to the Data Management Body of Knowledge.](https://www.dama.org/content/body-knowledge)

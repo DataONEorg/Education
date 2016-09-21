@@ -2,7 +2,6 @@
 
 body { font-family: 'Roboto'; }
 h1, h2, h3 {
-  font-weight: bold;
   font-family: 'Roboto Condensed';
 }
 
@@ -82,3 +81,22 @@ td, th {
 .step8 {width: 80%;}
 .step9 {width: 90%;}
 .step10 {width: 100%;}
+
+/* Title page */
+
+.title .progressbar { display: none; }
+.title {
+  background-color: #006666;
+  color: white !important;
+}
+
+.title h1 {
+  color: white !important;
+  font-family: 'Roboto' !important;
+  font-weight: bold;
+}
+
+.title h2 {
+  font-size: 1.2em !important;
+  font-weight: normal !important;
+}

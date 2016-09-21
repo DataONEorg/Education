@@ -1,5 +1,6 @@
 ---
 title: Moving the lessons to github
+author: DataONE Community Engagement & Outreach
 update: Sept. 20, 2016
 layout: slides
 ---

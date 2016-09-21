@@ -6,6 +6,15 @@
 
   <title>{{ page.title }}</title>
 
+
+  <h2>Education Modules</h2>
+    {% for post in site.categories['ed-module'] limit:3 %}
+    <article>
+        <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+    </article>
+    {% endfor %}
+
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->

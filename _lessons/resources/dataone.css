@@ -7,7 +7,7 @@ h1, h2, h3 {
 
 h1 {
   color: #006666;
-  font-variant: small-caps;
+  text-transform: uppercase;
   font-size: 2.2em;
   font-weight: normal !important;
   margin-top: 0px;

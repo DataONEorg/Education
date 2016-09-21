@@ -1,3 +1,7 @@
+---
+title: DataONE lessons
+---
+
 # List of lessons
 
 1. [Markdown basics][l0]

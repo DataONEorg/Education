@@ -112,18 +112,4 @@ td, th {
 img {
   max-width: 100%;
   max-height: 100%;
-  z-index: 10000000000000000 !important;
-}
-
-img::after {
-  content: attr(title);
-  position: absolute;
-  background: #99be00;
-  background: rgba(204, 255, 0, 0.7);
-  padding: 5px;
-  right: 0;
-  bottom: 0;
-  color: #000;
-  left: 0;
-  text-align: center;
 }

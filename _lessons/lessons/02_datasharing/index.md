@@ -24,8 +24,7 @@ This is Lesson 2 of the DataONE Data Management learning series. This lesson cov
 
 
 .one-third[
-![Folders picture](images/folders.png "Figure title goes here")
-
+![Folders picture](images/folders.png
 ]
 ???
 
@@ -69,18 +68,18 @@ Data sharing should be addressed throughout the Data Life Cycle
 
 Several stages require critical attention to ensure effective data sharing
 
-|   Step |   Action    |
-|:---------|:----------|
-| **Describe** | document the data content, character and process     |
-| **Deposit**  | store the data in a location from which it can be accessed   |
-| **Preserve** | select storage formats and media with long term use in mind |
-| **Discover** | publish information about the data so that others can find it|
+| Step         | Action                                                        |
+|:-------------|:--------------------------------------------------------------|
+| **Describe** | document the data content, character and process              |
+| **Deposit**  | store the data in a location from which it can be accessed    |
+| **Preserve** | select storage formats and media with long term use in mind   |
+| **Discover** | publish information about the data so that others can find it |
 
 ???
 
 Effective data sharing requires careful thought during each stage of the data development process including:
 
-* description and documentation of the data process, content, and character;  
+* description and documentation of the data process, content, and character;
 * deposition and storage of the data in a location from which it can be accessed or shared;
 * preservation of the data using a format and media that enable long term reuse; and
 * making the data discoverable by publishing information about the data in research publications, data clearinghouses and data distribution portals.
@@ -230,12 +229,12 @@ Even if the value of data sharing is recognized, concerns remain as to the impac
 
 # Concerns About Data Sharing
 
-|  Problem | Solution      |
-|:---------|:----------|
-| inappropriate use due to misunderstanding of research purpose or parameters |  **?**  |
-| security and confidentiality of sensitive data | **?** |
-| lack of acknowledgement / credit | **?** |
-| loss of advantage when competing for research dollars | **?** |
+| Problem                                                                     | Solution |
+|:----------------------------------------------------------------------------|:---------|
+| inappropriate use due to misunderstanding of research purpose or parameters | **?**    |
+| security and confidentiality of sensitive data                              | **?**    |
+| lack of acknowledgement / credit                                            | **?**    |
+| loss of advantage when competing for research dollars                       | **?**    |
 
 ???
 
@@ -250,12 +249,12 @@ Researchers may worry that the data will be taken out of context, misinterpreted
 # Concerns About Data Sharing
 
 
-|  Problem | Solution      |
-|:---------|:----------|
-| inappropriate use due to misunderstanding of research purpose or parameters |  **metadata** |
-| security and confidentiality of sensitive data | **metadata** |
-| lack of acknowledgement / credit | **metadata** |
-| loss of advantage when competing for research dollars | **metadata** |
+| Problem                                                                     | Solution     |
+|:----------------------------------------------------------------------------|:-------------|
+| inappropriate use due to misunderstanding of research purpose or parameters | **metadata** |
+| security and confidentiality of sensitive data                              | **metadata** |
+| lack of acknowledgement / credit                                            | **metadata** |
+| loss of advantage when competing for research dollars                       | **metadata** |
 
 ???
 
@@ -270,12 +269,12 @@ Each of these issues can, in great part, be addressed by providing rich data doc
 # Concerns About Data Sharing
 
 
-|  Problem | Solution      |
-|:---------|:----------|
-| inappropriate use due to misunderstanding of research purpose or parameters |  provide rich Abstract, Purpose, Use Constraints and Supplemental Information where needed|
-| security and confidentiality of sensitive data | the metadata does NOT contain the data Use Constraints specify who may access the data and how |
-| lack of acknowledgement / credit | specify a required data citation within the Use Constraints  |
-| loss of advantage when competing for research dollars | create second, public version with generalized Data Processing Description |
+| Problem                                                                     | Solution                                                                                       |
+|:----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
+| inappropriate use due to misunderstanding of research purpose or parameters | provide rich Abstract, Purpose, Use Constraints and Supplemental Information where needed      |
+| security and confidentiality of sensitive data                              | the metadata does NOT contain the data Use Constraints specify who may access the data and how |
+| lack of acknowledgement / credit                                            | specify a required data citation within the Use Constraints                                    |
+| loss of advantage when competing for research dollars                       | create second, public version with generalized Data Processing Description                     |
 
 
 
@@ -293,7 +292,7 @@ Each of these issues can, in great part, be addressed by providing rich data doc
 
 ???
 
-The more robust your metadata, the easier your data will be discovered and the more appropriately it will be applied. Making data sharable involves the following steps.  
+The more robust your metadata, the easier your data will be discovered and the more appropriately it will be applied. Making data sharable involves the following steps.
 
 Step 1: Create robust metadata that will be discoverable.  Be specific in regards to geography and time periods. Use discipline specific themes, place names, and keywords.  Describe any attributes and include links to associated data catalogues, data downloads, and project websites.
 
@@ -410,7 +409,7 @@ Piwowar HA, Becich MJ, Bilofsky H, Crowley RS, on behalf of the caBIG Data Shari
 
 # Data in Real Life
 
-* In 2003, a group of scientists from the National Institutes of Health, the Food and Drug  Administration, drug and medical imaging industries, universities, and nonprofit groups joined in a collaborative effort to find the biological markers  that show the progression of Alzheimer’s disease in the human brain.        
+* In 2003, a group of scientists from the National Institutes of Health, the Food and Drug  Administration, drug and medical imaging industries, universities, and nonprofit groups joined in a collaborative effort to find the biological markers  that show the progression of Alzheimer’s disease in the human brain.
 * The goal of this project was to do research on a massive scale that would involve sharing and making accessible all the data uncovered to anyone in the world with a computer.
 * Dr. John Trojanowski an Alzheimer’s researcher at the University of Pennsylvania stated,  “It’s not science the way most of us have practiced it in our careers. But we all realized that we would never get biomarkers unless all of us parked our egos and intellectual-property noses outside the door and
 agreed that all of our data would be made public immediately.”
@@ -418,13 +417,13 @@ http://www.nytimes.com/2010/08/13/health/research/13alzheimer.html
 
 ???
 
-In 2003, a group of scientists from the National Institutes of Health, the Food and Drug Administration, drug and medical imaging industries, universities, and nonprofit groups joined in a collaborative effort to find the biological markers that show the progression of Alzheimer’s disease in the human brain.         
+In 2003, a group of scientists from the National Institutes of Health, the Food and Drug Administration, drug and medical imaging industries, universities, and nonprofit groups joined in a collaborative effort to find the biological markers that show the progression of Alzheimer’s disease in the human brain.
 
 The goal of this project was to do research on a massive scale that would involve sharing and making accessible all the data available to anyone in the world with a computer.
 
-Dr. John Trojanowski, an Alzheimer’s researcher at the University of Pennsylvania, stated “It’s not science the way most of us have practiced it in our careers. But we all realized that we would never get biomarkers unless all of us parked our egos and intellectual-property noses outside the door and agreed that all of our data would be made public immediately.”  
+Dr. John Trojanowski, an Alzheimer’s researcher at the University of Pennsylvania, stated “It’s not science the way most of us have practiced it in our careers. But we all realized that we would never get biomarkers unless all of us parked our egos and intellectual-property noses outside the door and agreed that all of our data would be made public immediately.”
 
-[Our “Data in Real Life” segment features a news report on this research. (?)]  
+[Our “Data in Real Life” segment features a news report on this research. (?)]
 
 ---
 
@@ -440,7 +439,7 @@ Dr. John Trojanowski, an Alzheimer’s researcher at the University of Pennsylva
 
 In summary, data sharing adds value to the data. As such, it is the responsibility of the researcher to share their data. Metadata should be created for data resources to support data accountability, liability and usability. Research sponsors expect, and increasingly require, data to be shared.
  
-THIS CONCLUDES Lesson 2.  
+THIS CONCLUDES Lesson 2.
 
 To assess your learning on the content presented in this lesson, proceed to the next slide take the quiz.
 

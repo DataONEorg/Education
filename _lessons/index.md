@@ -88,7 +88,7 @@ Lists:
 
 # Syntax highlighting
 
-```
+``` md
 ~~~ R
 <your code here>
 ~~~
@@ -104,7 +104,11 @@ random_thing <- function(x, r, ...) {
 plot(random_thing(100, runif))
 ~~~
 
-You can also put code inline, using backticks: ``code`` is `code`.
+You can also put code inline, using backticks:
+
+~~~ md
+This is `inline` code.
+~~~
 
 ---
 

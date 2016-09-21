@@ -5,16 +5,8 @@ layout: index
 
 # List of lessons
 
-<ul>
-{% for lesson in site.lessons %}
-  <li>
-    <a
-      href = "{{ site.baseurl }}/{{ lesson.url }}"
-      title = "{{ lesson.title }}"
-      target = "_blank"
-      >
-        {{ lesson.title }}
-      </a>
-  </li>
-{% endfor %}
-</ul>
+- [Markdown basics][00]
+- [Data sharing][02]
+
+[00]: lesson/00_markdown/
+[02]: lesson/02_datasharing/

@@ -6,8 +6,8 @@ format: '4:3'
 
 # Default layout for all lessons
 defaults:
+  - scope:
+     path: ""
+    value:
+      layout: "default"
   layout: slides
-
-lessons:
-  - 00_markdown
-  - 02_datasharing

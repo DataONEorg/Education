@@ -11,7 +11,4 @@ collections:
     permalink: /lessons/:title/
 
 defaults:
-  - scope:
-      collection: lessons
-    values:
-      layout: slides
+  layout: slides

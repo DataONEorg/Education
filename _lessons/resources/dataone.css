@@ -116,8 +116,7 @@ img {
 
 img[title]:after {
   content: attr(title);
-  z-index: 100000002;
-  display: inline-block;
+  z-index: 100000002 !important;
   color: red;
   position: relative;
   top: -5em;

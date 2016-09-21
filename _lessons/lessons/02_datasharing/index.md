@@ -26,6 +26,7 @@ This is Lesson 2 of the DataONE Data Management learning series. This lesson cov
 .one-third[
 ![Folders picture](images/folders.png)
 ]
+
 ???
 
 The topics covered in this lesson  include: the role of data sharing within the lifecycle, the value of data sharing, concerns about data sharing, and methods for making data sharable.

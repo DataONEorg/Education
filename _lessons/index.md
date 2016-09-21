@@ -30,9 +30,12 @@ Everything *below* that is markdown.
 
 # Markdown ?
 
+.one-half[
 - `*italics*` is *italics*
 - `**bold**` is **bold**
+]
 
+.one-half[
 Lists:
 
 ~~~
@@ -44,6 +47,7 @@ Lists:
 2. Second item
   - We can mix both
 ~~~
+]
 
 ---
 

@@ -2,7 +2,6 @@
 title: Data sharing
 author: DataONE Community Engagement & Outreach
 update: Sept. 20, 2016
-layout: slides
 ---
 
 # Lesson topics
@@ -15,7 +14,7 @@ layout: slides
 ]
 
 .one-fourth[
-![](../images/lesson_02/folders.png)
+![](images/folders.png)
 ]
 
 ---

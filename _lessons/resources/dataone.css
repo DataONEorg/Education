@@ -97,9 +97,12 @@ td, th {
 }
 
 .title h2 {
-  font-size: 1.2em !important;
+  .full-width, .one-third, .two-third, .one-half, .two-third, .one-fourth, .three-fourthfont-size: 1.2em !important;
   font-weight: normal !important;
 }
 
-/* Images */<
-img {max-width: 100%;}
+/* Images */
+img {
+  max-width: 100%;
+  max-height: 100%;
+}

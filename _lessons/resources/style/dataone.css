@@ -1,27 +1,4 @@
-@import url(//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css);
-@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
-@import url(https://fonts.googleapis.com/css?family=Cabin);
-
-body { font-family: 'Cabin'; }
-h1, h2, h3 {
-  font-family: 'Cabin Condensed';
-}
-
-h1 {
-  color: #006666;
-  text-transform: uppercase;
-  font-size: 1.6em;
-  font-weight: normal !important;
-  margin-top: 1em;
-  margin-bottom: 0.7em;
-}
-
 .remark-code, .remark-inline-code { font-family: 'Hack', monospace; }
-
-pre {
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
 
 /* Logo */
 

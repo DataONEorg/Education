@@ -113,7 +113,7 @@ This is `inline` code.
 
 # Tables
 
-.one-half[
+.two-third[
 Markdown can do tables:
 
 ~~~ md
@@ -125,7 +125,7 @@ Markdown can do tables:
 ~~~
 ]
 
-.one-half[
+.one-third[
 This renders as:
 
 |   Animal | Diet      | Fuzzy? |

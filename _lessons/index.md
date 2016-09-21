@@ -160,6 +160,15 @@ These are the notes, and *they can* be in markdown too.
 
 These are the notes, and *they can* be in markdown too.
 
+**It is very important** that the notes are the *last* things on the slide.
+
+Look a table!
+
+| x | y |
+|:--|:--|
+| 1 | 2 |
+| 3 | 4 |
+
 ---
 
 # Columns

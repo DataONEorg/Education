@@ -56,4 +56,6 @@ td, th {
 .step5 {
     background-color: #ddd;
     width: 100%;
+    display: inline-block;
+    height: 1em;
 }

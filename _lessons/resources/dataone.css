@@ -1,13 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+@import 'https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans:400,400i,700,700i&subset=greek';
 
-body { font-family: 'Droid Serif'; }
+body { font-family: 'Open Sans'; }
 h1, h2, h3 {
-  font-family: 'Yanone Kaffeesatz';
-  font-weight: normal;
+  font-weight: bold;
 }
-.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+.remark-code, .remark-inline-code { font-family: 'Inconsolata'; }
 
 /* Logo */
 

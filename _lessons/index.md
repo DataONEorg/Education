@@ -8,7 +8,7 @@ title: DataONE lessons
 {% for lesson in site.lessons %}
   <li>
     <a
-      href="{{ lesson.url }}"
+      href="{{ site.baseurl }}/{{ lesson.url }}"
       title = "{{ lesson.title }}">
         {{ lesson.title }}
       </a>

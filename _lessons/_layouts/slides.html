@@ -28,7 +28,13 @@ layout: true
   <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
   </script>
   <script>
-  var slideshow = remark.create();
+  var slideshow = remark.create({
+    ratio: '16:9',
+    slideNumberFormat: function (current, total) {
+      return '<b class="' + current + '">current</b>';
+    }
+    countIncrementalSlides: false
+  });
   </script>
 </body>
 </html>

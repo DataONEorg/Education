@@ -7,14 +7,14 @@ layout: slides
 
 # Lesson topics
 
-.three-fourth[
+.two-third[
 - Data sharing within the data lifecycle
 - Value of data sharing
 - Concerns about data sharing
 - Methods for making data sharable
 ]
 
-.one-fourth[
+.one-third[
 ![Folders picture](images/folders.png "title")
 .legend[Legend test]
 ]

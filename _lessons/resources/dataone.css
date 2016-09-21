@@ -1,8 +1,10 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Condensed';
+@import url(//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css);
+@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Cabin);
 
-body { font-family: 'Roboto'; }
+body { font-family: 'Cabin'; }
 h1, h2, h3 {
-  font-family: 'Roboto Condensed';
+  font-family: 'Cabin Condensed';
 }
 
 h1 {
@@ -14,7 +16,7 @@ h1 {
   margin-bottom: 0.7em;
 }
 
-.remark-code, .remark-inline-code { font-family: 'Roboto Mono'; }
+.remark-code, .remark-inline-code { font-family: 'Hack', monospace; }
 
 pre {
   white-space: pre-wrap;
@@ -97,7 +99,7 @@ td, th {
 
 .title h1 {
   color: white !important;
-  font-family: 'Roboto' !important;
+  font-family: 'Cabin' !important;
   font-weight: bold;
 }
 

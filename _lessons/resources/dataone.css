@@ -4,17 +4,7 @@
 
 body { font-family: 'Cabin'; }
 h1, h2, h3 {
-<<<<<<< HEAD
   font-family: 'Cabin Condensed';
-=======
-<<<<<<< HEAD
-  font-family: 'Yanone Kaffeesatz';
-  font-weight: normal;
-}
-.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
-=======
-  font-family: 'Roboto Condensed';
->>>>>>> tpoisot-master
 }
 
 h1 {
@@ -123,13 +113,9 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
-<<<<<<< HEAD
 
 img:after {
   content: attr(title);
   position:relative;
   bottom: 2em;
 }
-=======
->>>>>>> c7946fc0d6bad7c01689219081baf0dc7b06b944
->>>>>>> tpoisot-master

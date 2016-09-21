@@ -6,7 +6,9 @@ format: '4:3'
 
 # Collections
 collections:
-  - lessons
+  lessons:
+    output: true
+    permalink: /lessons/:title/
 
 defaults:
   - scope:

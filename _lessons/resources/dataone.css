@@ -1,8 +1,9 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono';
+@import 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Condensed';
 
 body { font-family: 'Roboto'; }
 h1, h2, h3 {
   font-weight: bold;
+  font-family: 'Roboto Condensed';
 }
 
 h1 {

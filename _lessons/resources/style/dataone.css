@@ -33,34 +33,6 @@ pre {
 
 .logo img {width: 4em;}
 
-/* Grid system */
-
-.full-width, .one-third, .two-third, .one-half, .two-third, .one-fourth, .three-fourth {
-  clear: right;
-  float: left;
-  padding: 0.6em;
-  box-sizing: border-box;
-}
-.one-third {width: 33%;}
-.two-third {width: 67%;}
-.one-half {width: 50%;}
-.one-fourth {width: 25%;}
-.three-fourth {width: 75%;}
-.full-width {width: 100%;}
-
-table {
-  border-collapse: collapse;
-}
-
-tr:nth-child(odd)		{ background-color:#eeeeee; }
-tr:nth-child(even)		{ background-color:#fcfcfc; }
-tr { color: black;}
-th { background-color: #858585; color: white;}
-td, th {
-  padding: 0.4em;
-}
-
-
 /* Progress bar */
 
 .progressbar {

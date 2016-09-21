@@ -1,9 +1,15 @@
-.full-width, .one-third, .two-third, .one-half, .two-third, .one-fourth, .three-fourth {
+// These will be common to all columns
+.columns {
   clear: right;
   float: left;
-  padding: 0.6em;
+  padding: 0.4em;
   box-sizing: border-box;
 }
+
+.full-width, .one-third, .two-third, .one-half, .two-third, .one-fourth, .three-fourth {
+  .columns;
+}
+
 .one-third {width: 33%;}
 .two-third {width: 67%;}
 .one-half {width: 50%;}

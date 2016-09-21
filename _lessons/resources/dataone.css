@@ -16,6 +16,11 @@ h1 {
 
 .remark-code, .remark-inline-code { font-family: 'Roboto Mono'; }
 
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
 /* Logo */
 
 .logo {

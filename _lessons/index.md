@@ -6,9 +6,16 @@ layout: slides
 
 # It's working!
 
+.full-width[
 - Each lesson is its own `lesson_name.md` file in the github repository
 - The maintainer ensures that the github pages are built from the `master` branch
 - That's it
+]
+
+.one-fourth[]
+.one-half[
+  Test
+]
 
 ---
 
@@ -28,7 +35,7 @@ Everything *below* that is markdown.
 
 ---
 
-# Markdown ?
+# Markdown 101
 
 .one-half[
 - `*italics*` is *italics*
@@ -140,6 +147,7 @@ then 1/2. As long as it sums to one, it's fine.
 - `.one-half`
 - `.one-fourth`
 - `.three-fourth`
+- `.full-width`
 ]
 
 ---

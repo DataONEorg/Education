@@ -3,7 +3,7 @@
 <head>
   <title>dataONE - {{page.title}}</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="resources/dataone.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/resources/dataone.css">
 </head>
 <body>
   <textarea id="source">
@@ -19,7 +19,7 @@ class: center, middle, title
 layout: true
 
 .logo[
-![logo](resources/logo.jpg)
+![logo]({{ site.baseurl }}/resources/logo.jpg)
 ]
 
 ---
@@ -31,7 +31,7 @@ layout: true
   </script>
   <script>
   var slideshow = remark.create({
-    ratio: '16:9',
+    ratio: '{{ site.format }}',
     slideNumberFormat: function (current, total) {
       return '<span class="progressbar"><span class="step' + Math.round(current/total*11-1) + '">&nbsp;</span></span>';
     },

@@ -1,12 +1,15 @@
-
 title: 		Slide Template
 description:
-#Comment out url when working locally to resolve base urls correctly ok
-#use this when pushing to git for live version
 
-# url:      http://lwasser.github.io
-# baseurl:	http://lwasser.github.io
+# This should be the repo name WITHOUT the host
+baseurl: /hide-yo-jekyll
 
-# use this when working locally
-url: http://localhost:4000
-# baseurl: http://localhost:4000
+# Format for the slides, can be either 16:9 or 4:3
+format: '4:3'
+
+# Collections
+collections:
+  lessons:
+    defaults:
+      - values:
+        layout: slides

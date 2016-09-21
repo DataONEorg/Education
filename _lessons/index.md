@@ -143,22 +143,22 @@ This renders as:
 .one-third[
 Notes are everything that comes below `???`. Press **P** to toggle presenter
 mode.
-
-???
-
-These are the notes, and *they can* be in markdown too.
 ]
 
 .two-third[
 ~~~ md
-Notes are everything that comes below `???`. Press **P** to toggle presenter
-mode.
+Notes are everything that comes below `???`.
+Press **P** to toggle presenter mode.
 
 ???
 
 These are the notes, and *they can* be in markdown too.
 ~~~
 ]
+
+???
+
+These are the notes, and *they can* be in markdown too.
 
 ---
 

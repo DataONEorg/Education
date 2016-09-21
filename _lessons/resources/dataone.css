@@ -10,8 +10,8 @@ h1, h2, h3 {
 
 .logo {
   position: absolute;
-  right: 1em;
-  top: 1em;
+  bottom: 20px;
+  left: 80px;
 }
 
 .logo img {width: 4em;}

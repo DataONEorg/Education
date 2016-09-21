@@ -10,5 +10,7 @@ collections:
     output: true
 
 defaults:
-  - values:
+  - scope:
+      collection: slides
+    values:
       layout: slides

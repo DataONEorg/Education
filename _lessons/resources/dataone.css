@@ -114,7 +114,7 @@ img {
   max-height: 100%;
 }
 
-img[title]:after {
+img[title]::after {
   content: attr(title);
   z-index: 100000002 !important;
   color: red;

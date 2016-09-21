@@ -24,7 +24,7 @@ This is Lesson 2 of the DataONE Data Management learning series. This lesson cov
 
 
 .one-third[
-![Folders picture](images/folders.png
+![Folders picture](images/folders.png)
 ]
 ???
 

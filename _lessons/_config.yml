@@ -8,6 +8,7 @@ format: '4:3'
 collections:
   lessons:
     output: true
-    defaults:
-      - values:
-          layout: slides
+
+defaults:
+  - values:
+      layout: slides

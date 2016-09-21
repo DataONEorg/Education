@@ -1,5 +1,6 @@
 ---
 title: DataONE lessons
+layout: index
 ---
 
 # List of lessons

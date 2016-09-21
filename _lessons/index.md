@@ -28,7 +28,7 @@ layout: slides
 
 # General infos
 
-.one-fourth[
+.one-third[
 Lesson title and metadata go in the `yaml` header:
 
 ~~~ yaml
@@ -42,7 +42,7 @@ layout: slides
 Everything *below* that is markdown.
 ]
 
-.three-fourth[
+.two-third[
 The `yaml` header is the first element of a presentation, and will give the
 title, date of latest update, and (possibly) other data. The line `layout:
 slides` is **very important** because it allows to render the slides themselves.

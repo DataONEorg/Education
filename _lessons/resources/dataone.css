@@ -12,7 +12,7 @@ h1 {
   font-size: 1.6em;
   font-weight: normal !important;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 0.7em;
 }
 
 .remark-code, .remark-inline-code { font-family: 'Roboto Mono'; }

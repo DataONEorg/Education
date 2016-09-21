@@ -82,3 +82,11 @@ td, th {
 .step8 {width: 80%;}
 .step9 {width: 90%;}
 .step10 {width: 100%;}
+
+/* Title page */
+
+.title .progressbar { display: none; }
+.title {
+  background-color: #006666;
+  color: white !important;
+}

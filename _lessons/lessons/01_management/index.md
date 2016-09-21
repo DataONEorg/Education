@@ -2,7 +2,6 @@
 title: Intro to Data Management
 update: Sept. 20, 2016
 layout: slides
-permalink: /intro-data-mgt
 ---
 
 
@@ -94,7 +93,7 @@ The amount of available storage is not keeping up with the amount of data floodi
 
 
 **AUDIT:  JUSTICE STATS ON ANTI-TERROR CASES FLAWED” (AP) February 2007**
-> The Justice Department Inspector General found only two sets of data out of 26  
+> The Justice Department Inspector General found only two sets of data out of 26
 > concerning terrorism attacks were accurate. The Inspector General said the data “appear to be
 > the result of decentralized and haphazard methods of collections … and do not appear
 > to be intentional.”
@@ -104,7 +103,7 @@ The amount of available storage is not keeping up with the amount of data floodi
 # Poor Data Management Affects Everyone
 
 **OOPS! TECH ERROR WIPES OUT Alaska Info” (AP) March 2007**
-> A technician managed to delete the data and backup for the $38 billion Alaska oil   
+> A technician managed to delete the data and backup for the $38 billion Alaska oil
 > revenue fund – money received by residents of the State. Correcting the errors cost the
 > State an additional $220,700.
 
@@ -148,9 +147,9 @@ Cost: Estimated 9 work months/inventory
 
 Please forgive my paranoia about protocols, standards, and data review.  I'm in the latter stages of a long career with USGS (30 years, and counting), and have experienced much.  Experience is the knowledge you get just after you needed it.
 
-Several times, I've seen colleagues called to court in order to testify about conditions they have observed.  
+Several times, I've seen colleagues called to court in order to testify about conditions they have observed.
 
-Without a strong tradition of constant review and approval of basic data, they would've been in deep trouble under cross-examination.  Instead, they were able to produce field notes, data approval records, and the like, to back up their testimony.  
+Without a strong tradition of constant review and approval of basic data, they would've been in deep trouble under cross-examination.  Instead, they were able to produce field notes, data approval records, and the like, to back up their testimony.
 
 It's one thing to be questioned by a college student who is working on a project for school.  It's another entirely to be grilled by an attorney under oath with the media present.”
 

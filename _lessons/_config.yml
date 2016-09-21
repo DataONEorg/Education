@@ -4,11 +4,10 @@ baseurl: /hide-yo-jekyll
 # Format for the slides, can be either 16:9 or 4:3
 format: '4:3'
 
-# Collections
-collections:
-  lessons:
-    output: true
-    permalink: /lessons/:title/
-
+# Default layout for all lessons
 defaults:
   layout: slides
+
+lessons:
+  - 00_markdown
+  - 02_datasharing

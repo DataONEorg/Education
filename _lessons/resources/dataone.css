@@ -116,8 +116,13 @@ img {
 
 img::after {
   content: attr(title);
-  z-index: 100000002 !important;
-  color: red;
-  position: relative;
-  top: -5em;
+  position: absolute;
+  background: #99be00;
+  background: rgba(204, 255, 0, 0.7);
+  padding: 5px;
+  right: 0;
+  bottom: 0;
+  color: #000;
+  left: 0;
+  text-align: center;
 }

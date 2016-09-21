@@ -140,7 +140,7 @@ This renders as:
 
 # Notes
 
-.two-third[
+.one-third[
 Notes are everything that comes below `???`. Press **P** to toggle presenter
 mode.
 
@@ -149,7 +149,7 @@ mode.
 These are the notes, and *they can* be in markdown too.
 ]
 
-.one-third[
+.two-third[
 ~~~ md
 Notes are everything that comes below `???`. Press **P** to toggle presenter
 mode.

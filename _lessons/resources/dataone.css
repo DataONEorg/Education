@@ -1,6 +1,6 @@
-@import 'https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans:400,400i,700,700i&subset=greek';
+@import 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono';
 
-body { font-family: 'Open Sans'; }
+body { font-family: 'Roboto'; }
 h1, h2, h3 {
   font-weight: bold;
 }
@@ -8,12 +8,12 @@ h1, h2, h3 {
 h1 {
   color: #006666;
   text-transform: uppercase;
-  font-size: 2.2em;
+  font-size: 1.6em;
   font-weight: normal !important;
   margin-top: 0px;
 }
 
-.remark-code, .remark-inline-code { font-family: 'Inconsolata'; }
+.remark-code, .remark-inline-code { font-family: 'Roboto Mono'; }
 
 /* Logo */
 

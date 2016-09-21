@@ -1,4 +1,4 @@
----
+  ---
 title: Data sharing
 author: DataONE Community Engagement & Outreach
 update: Sept. 20, 2016
@@ -16,6 +16,7 @@ layout: slides
 
 .one-fourth[
 ![Folders picture](images/folders.png)
+.legend[Legend for this figure]
 ]
 
 ---

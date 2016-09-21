@@ -115,8 +115,6 @@ img {
 }
 
 
-img:after {
-  content: attr(alt);
-  text-align: center;
+img + .legend {
   color: #555;
 }

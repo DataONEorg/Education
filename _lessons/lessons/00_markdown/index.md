@@ -228,3 +228,16 @@ Then the column resumes after the split.
 .one-fourth[
 **It works!**
 ]
+
+
+---
+
+# Image Captions
+
+~~~ md
+![D. Lafrenière et al., ApJ Letters](https://dataoneorg.github.io/dataone_lessons/lessons/01_management/images/data-loss.jpg)
+*D. Lafrenière et al., ApJ Letters*
+~~~
+
+![D. Lafrenière et al., ApJ Letters](https://dataoneorg.github.io/dataone_lessons/lessons/01_management/images/data-loss.jpg)
+*D. Lafrenière et al., ApJ Letters*

@@ -199,6 +199,71 @@ Another strategy for quality control after data are entered is to look for outli
 
 ---
 
+# QA/QC  After Data Entry
+
+.one-half[
+Methods to look for outliers
+* Graphical 
+  * Normal probability plots
+  * Regression
+  * Scatter plots
+* Maps
+* Subtract values from mean
+]
+
+.one-half[
+![](images/Map.png)
+]
+
+???
+
+One common strategy for identifying outliers is using graphical methods, for instance normal probability plots, regression (as in the previous slide), or scatter plots>  If data are geographical, mapping the points can be to ensure latitude and longitude were correctly entered. This map shows an example of an error that is the result of mis-entering latitude data.
+ 
+Another method for identifying outliers is using statistics. By subtracting values from the mean of the data set, the presence of outliers or faulty data points can become apparent.
+
+---
+
+# Summary
+
+* Data contamination is data that results from a factor not examined by the study that results in altered data values
+* Data error types: commission or omission
+* Quality assurance and quality control are strategies for 
+  * preventing errors from entering a dataset 
+  * ensuring data quality for entered data
+  * monitoring, and maintaining data quality throughout the project 
+* Identify and enforce quality assurance and quality control measures throughout the Data Life Cycle
+
+???
+
+During this tutorial we first defined several concepts important for understanding quality assurance and quality control. This included data contamination and the types of data errors that can result in poor quality data.
+We then covered best practices for quality assurance and quality control. These strategies prevent errors from entering a dataset, or identifying those errors if they are present in the data.
+
+It is important to define and enforce quality assurance and quality control standards before, during, and after the collection and entry of data.
+
+---
+
+# References
+
+1. D. Edwards, in Ecological Data: Design, Management and Processing, WK Michener and JW Brunt, Eds. (Blackwell, New York, 2000), pp. 70-91. Available at www.ecoinformatics.org/pubs
+2. R. B. Cook, R. J. Olson, P. Kanciruk, L. A. Hook, Best practices for preparing ecological data sets to share and archive. Bull. Ecol. Soc. Amer. 82, 138-141 (2001).
+3. A. D. Chapman, “Principles of Data Quality:. Report for the Global Biodiversity Information Facility” (Global Biodiversity Information Facility, Copenhagen, 2004). Available at http://www.gbif.org/communications/resources/print-and-online-resources/download-publications/bookelets/
+
+---
+
+The full slide deck may be downloaded from:
+http://www.dataone.org/education-modules
+
+Suggested citation:
+DataONE Education Module: Data Quality Control and Assurance. DataONE. Retrieved Nov12, 2012. From http://www.dataone.org/sites/all/documents/L05_DataQualityControlAssurance.pptx 
+
+![](images/image12.png)
+
+
+Copyright license information:
+No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
+
+---
+
 
 
 

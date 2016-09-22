@@ -491,9 +491,13 @@ We will now focus on NSF’s data management plans.  As of January 2011 NSF requ
 **4. Dissemination and Sharing of Research Results**
 
 a. Promptly publish with appropriate authorship
+
 b. Share data, samples, physical collections, and supporting materials with others, within a reasonable timeframe 
+
 c. Share software and inventions 
+
 d. Investigators can keep their legal rights over their intellectual property, but they still have to make their results, data, and collections available to others 
+
 e. Policies will be implemented via 
   - Proposal review
   - Award negotiations and conditions
@@ -504,7 +508,63 @@ http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/aag_6.jsp#VID4
 ???
 
 There is more information from NSF about requirements in section 4 of the Award and Administration guide. It states that research results should be promptly published, data should be shared, software and inventions should be shared, and describes some intellectual property and policy issues.
-
+ 
 In addition to these general requirements, there are directorate- and division-specific requirements that will likely be updated in the near future. Not all directorates and divisions have DMP requirements available yet.
+
+---
+
+# Summary
+
+.two-third[
+DMPs are an important part of the data life cycle. They save time and effort in the long run, and ensure that data are relevant and useful for others.
+Most funding agencies (all federal*) now require DMPs
+
+Major components of a DMP:
+1. Information about data type & data format
+2. Metadata content and format
+3. Policies for access, sharing and re-use
+4. Long-term storage and data management
+5. Budget
+
+*http://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf*
+] 
+
+.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image26.png)
+*Photo Attribution: CC0 image from The Noun Project*
+]
+
+---
+
+# DMP Resources
+
+University of Virginia Library
+- http://data.library.virginia.edu/data-management/plan/
+
+Digital Curation Centre
+- http://www.dcc.ac.uk/resources/data-management-plans 
+
+Oregon State University Library
+- http://guides.library.oregonstate.edu/dmp/policies
+
+NSF Grant Proposal Guidelines
+- http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/gpg_2.jsp#dmp 
+
+Inter-University Consortium for Political and Social Research
+- http://www.icpsr.umich.edu/icpsrweb/ICPSR/dmp/index.jsp 
+
+DataONE
+- https://www.dataone.org/data-management-planning 
+
+---
+
+The full slide deck may be downloaded from:
+
+http://www.dataone.org/education-modules
+
+Suggested citation:
+DataONE Education Module: Data Management Planning. DataONE. Retrieved MM/DD/YYYY. From http://www.dataone.org/sites/all/documents/L03_DataManagementPlanning.pptx 
+
+Copyright license information:
+No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
 ---

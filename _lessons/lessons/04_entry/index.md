@@ -241,6 +241,51 @@ At times you will need to combine multiple datasets into a superset in order to 
   - Automate the integration as much as possible
     - Especially when integrating many datasets or large datasets
 ---
+# Data Integration Best Practices
+- Ensure attribution of original dataset owners and respect data usage agreements
+  - Example resource: 
+    - Jones et al. (2006) The New Bioinformatics: Integrating ecological data from the gene to the biosphere. Annual Review of Ecology and Systematics 37:519-544
+- Example citation to the related dataset from the Dryad repository:
+  - Jones, Matthew B., Schildahuer, Mark P., Reichman, O. J., and Bowers, Shawn. 2012. Data from: The new bioinformatics: integrating ecological data from the gene to the biosphere. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.qb0d6?ver=2012-07-16T14:42:48.559-04:00. 
+
+---
+# Data Manipulation
+- Useful for analyzing, subsetting and transforming data
+- Can be used to check and assure quality data
+- Options include SAS, SPSS, R, and Matlab
+  - Not Free
+    - SAS:  Has comprehensive support
+    - SPSS:  Has a user-friendly GUI
+    - Matlab: Analysis and Visualization platform that has “toolboxes” available for different disciplines, such as modeling or genomic analyses
+---
+# Using R
+- Free (http://www.r-project.org/index.html)
+- Produces publication quality graphics
+- Lots of forums from which to get help
+- Software (such as Kepler for developing workflows) will integrate analytical components written in R 
+
+---
+# Review: Selecting tools for data storage and use
+- Tools such as (but not limited to) spreadsheet tools such as MS Excel and relational databases (MS Access, MySQL, and more) can provide structure, flexibility and potential for working more easily with datasets but also require planning
+- Selection of a database or spreadsheet tool depends on the relationships between the data, and how it will be used, as well as other considerations re: time, resources, output.
+
+---
+# Review: Data Integration & Manipulation
+- Maintaining provenance (a trail of custody and decisions) is important when integrating more than one dataset
+- Documenting and understanding context and relationships, as well as changes is crucial when creating a new dataset (any time you combine two or more disparate datasets)
+- Create a transparent, reproducible workflow
+- Make sure to provide proper attribution and citation to all resources, including the original dataset. 
+- Tools such as R, Matlab, and others can be useful in establishing workflows and accessing datasets
+
+---
+The full slide deck may be downloaded from: http://www.dataone.org/education-modules
+
+Suggested citation:
+DataONE Education Module: Data Entry and Manipulation. DataONE. Retrieved Sept 22 2016. From http://www.dataone.org/sites/all/documents/L04_DataEntryManipulation.pptx 
+
+Copyright license information:
+No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
+---
 
 
 

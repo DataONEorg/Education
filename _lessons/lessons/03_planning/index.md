@@ -160,3 +160,86 @@ The slides that follow will go into more detail for each of the general categori
 
 ---
 
+# 1. Information About Data & Data Format
+
+.one-half[
+## 1.1  Description of data to be produced
+  - Experimental
+  - Observational
+  - Raw or derived
+  - Physical collections
+  - Models and their outputs
+  - Simulation outputs
+  - Curriculum materials
+  - Software
+  - Images
+  - Etc…
+]
+
+.one-half[
+[![Photo Attribution: CC image by Jeffery Beall on Flickr](images/image9.jpeg)
+*Photo Attribution: CC image by Jeffery Beall on Flickr*
+]
+
+???
+
+There are many different types of data that may be produced by a research study. Consider this list when describing data that will be produced by the project. These include experimental and observational data, raw or derived data, physical collections, models and their outputs, outputs from simulations, curriculum materials for courses, software, images, etcetera.
+
+More information can be found at https://library.uoregon.edu/datamanagement/datadefined.html 
+
+---
+
+# 1. Information About Data & Data Format
+
+.one-half[
+## 1.2  How data will be acquired
+  - When?
+  - Where?
+  
+## 1.3 How data will be processed
+  - Software used
+  - Algorithms
+  - Workflows
+]
+
+.one-half[
+[![Photo Attribution: CC image by Ryan Sandridge on Flickr](images/image10.jpeg)
+*Photo Attribution: CC image by Ryan Sandridge on Flickr*
+]
+
+???
+
+In addition to a description of the data that will be generated, the methods of data acquisition should be specified.  Include the who, what, when, where of your collection.
+
+How will the data be processed once it is acquired? This step is important to consider before the project since it may affect how data are organized, what formats are used, and how much should be budgeted for hardware and software. Things to consider are what software may be used, what algorithms will be employed, how these fit into the overall workflow of the project. 
+
+---
+
+# 1. Information About Data & Data Format
+
+.one-half[
+## 1.4  File formats
+  - Justification
+  - Naming conventions
+
+## 1.5  Quality assurance & control during 
+  - sample  collection, analysis, and 
+  - processing
+]
+
+.one-half[
+[![Photo Attribution: CC0 image from The Noun Project](images/image11.png)
+*Photo Attribution: CC0 image from The Noun Project*
+]
+
+???
+
+You should also describe the file formats you plan to use for the data. When saving files for the long term, it’s best to use standard formats such as dot csv  or dot txt. These are nonproprietary and likely to be readable in the future, regardless of software availability.
+
+Whatever format you choose, you should justify your choice. Consider what standards are commonly used in your scientific discipline when deciding. 
+
+Also describe the naming conventions that will be used for the data sets, files, and folders. By determining these conventions ahead of time, you are less likely to need to change or reorganize files during the project.
+
+You should also identify what quality assurance and control measures you plan to take. Include what will be done during data collection, after data collection, and in the course of data analysis.
+
+---

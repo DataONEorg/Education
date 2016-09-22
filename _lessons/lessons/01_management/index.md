@@ -2,6 +2,7 @@
 title: Intro to Data Management
 update: Sept. 20, 2016
 layout: slides
+categories: ed-module
 ---
 
 
@@ -154,9 +155,191 @@ Without a strong tradition of constant review and approval of basic data, they w
 It's one thing to be questioned by a college student who is working on a project for school.  It's another entirely to be grilled by an attorney under oath with the media present.”
 
 - Nelson Williams, Scientist US Geological Survey
+
 ---
-## Importance of Data Management
 
+# Importance of Data Management
+
+.one-third[
 The climate scientists at the centre of a media storm over leaked emails were yesterday cleared of accusations that they fudged their results and silenced critics, but a review found they had failed to be open enough about their work.
+]
 
+.two-third[
 ![](images/datamgt-import.png)
+]
+
+---
+
+# Why Manage Data: Researcher Perspective
+
+Manage your data for yourself:
+* Keep yourself organized – be able to find your files (data inputs, analytic scripts, outputs at various stages of the analytic process, etc)
+* Track your science processes for reproducibility – be able to match up your outputs with exact inputs and transformations that produced them
+* Better control versions of data – identify easily versions that can be periodically purged
+* Quality control your data more efficiently
+
+---
+
+# Why Data Management: Researcher Perspective
+
+* Make backups to avoid data loss
+* Format your data for re-use (by yourself or others)
+* Be prepared: Document your data for your own recollection, accountability, and re-use (by yourself or others)
+* Prepare it to share it – gain credibility
+ and recognition for your science efforts!
+
+ ![CC image by UWW ResNet on Flickr](images/master-backup.png)
+ *CC Image by UWW ResNet on Flickr*
+
+
+ ---
+
+ # Why Data Management: Foundation to Advance Science
+
+* Data are a valuable asset – it is expensive and time consuming to collect
+* Data should be managed to:
+  * Maximize the effective use and value of data and information assets
+  * Continually improve the quality including: data accuracy, integrity, integration, timeliness of data capture and presentation, relevance and usefulness
+  * Ensure appropriate use of data and information
+  * Facilitate data sharing
+  * Ensure sustainability and accessibility in long term for re-use in science
+
+
+---
+
+# Data Management Facilitates Sharing and Re-use
+
+![CC image by UWW ResNet on Flickr](images/data-mgt-graphic.png)
+
+???
+Data management and organization facilitate archiving, sharing and publishing data. These activities feed data re-use and reproducibility in science.
+
+---
+
+# Well-Managed Data Can Result in Re-use, Integration and New Science
+
+![](images/data-integration.png)
+
+???
+By re-using data collected from a variety of sources – eBird database, land cover data, meteorology, and remotely sensed -- this project was able to compile and process the data using supercomputering to determine bird migration routes for particular species.
+
+# Data integration
+
+![](images/data-integration2.png)
+
+---
+
+# Where a majority of data end up now…
+
+![Recreated from Klump et al 2006](images/where-data-end.png)
+
+???
+There is an abundance of data and metadata (if it is done) end up in filing cabinets, on discarded hard drives, in hard-copy journals on the library shelves -- or on the web, but many are subscription only journals.
+
+
+---
+
+# Imagine if data were more accessible….
+
+![Recreated from Klump et al 2006](images/data-more-accessible.png)
+
+???
+Data should be properly managed and eventually be placed where they are accessible, understandable, and re-usable.
+
+---
+
+# Well managed, publically accessible data is important: why?
+
+* Increases the impact and visibility of research
+* Promotes innovation and potential new data uses
+* Leads to new collaborations between data users and creators
+* Maximizes transparency and accountability
+* Enables scrutiny of research findings
+* Encourages improvement and validation of research methods
+* Reduces cost of duplicating data collection
+* Provides important resources for education and training
+
+--UK Data Archive
+
+---
+
+# New Discoveries
+
+A new image processing technique reveals something not before seen in this Hubble Space Telescope image taken 11 years ago: A faint planet (arrows), the outermost of three discovered with ground-based telescopes last year around the young star HR 8799.D. Lafrenière et al., Astrophysical Journal Letters
+
+![D. Lafrenière et al., ApJ Letters](images/hubble.png)
+*D. Lafrenière et al., ApJ Letters*
+---
+
+# New Discoveries
+
+![D. Lafrenière et al., ApJ Letters](images/hubble.png)
+*D. Lafrenière et al., ApJ Letters*
+
+> “The first thing it tells you is how valuable maintaining long-term archives can be. Here is a major discovery that’s been lurking in the data for about 10 years!” comments Matt Mountain, director of the Space Telescope Science Institute in Baltimore, which operates Hubble.
+
+> “The second thing its tells you is having a well calibrated archive is necessary but not sufficient to make breakthroughs — it also takes a very innovative group of people to develop very smart extraction routines that can get rid of all the artifacts to reveal the planet hidden under all that telescope and detector structure.”
+
+
+
+---
+
+# What is the Data Life Cycle?
+
+![](images/data-life-cycle.png)
+
+???
+A data lifecycle illustrates stages thru which well-managed data passes from the inception of a research project to its conclusion. In the reality of science research, the stages do not always follow a continuous circle.
+
+
+---
+
+# For Each Stage of the Data Lifecycle
+
+* There are best practices…..and….tools to help!
+* The following data management lessons will illustrate in detail each stage of the data lifecycle
+* Your well-managed and accessible data can contribute to science in ways you may not even imagine today!
+
+
+???
+
+The rest of the DataONE Education Modules, handouts, and hands-on exercises are available at: https://www.dataone.org/education-modules
+
+
+---
+
+# Summary
+
+If data are:
+
+* Well-organized
+* Documented
+* Preserved
+* Accessible
+* Verified as to accuracy and validity
+
+Result is:
+
+* High quality data
+* Easy to share and re-use in science
+* Citation and credibility to the researcher
+* Cost-savings to science
+
+
+---
+
+# Summary
+
+* The data deluge has created a surge of information that needs to be well-managed and made accessible.
+* The cost of not doing data management can be very high.
+* Be cognizant of best practices and tools associated with the data lifecycle to manage your data well.
+* Many benefits are associated with the act of managing data, including the ability to find, access, understand, integrate, and re-use data.
+
+---
+
+# Resources
+
+1. Chatfield, T., Selbach, R. February 2011. Data Management Training Workshop. Bureau of Land Management (BLM).
+1. [Strasser, Carly. February 2012. Data Management for Scientists.](http://www.slideshare.net/carlystrasser/oceansciences2012workshop)
+1. [UK Data Archive. May 2011. Managing and Sharing Data: Best Practices for Researchers.](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf)
+1.  [DAMA International, The DAMA Guide to the Data Management Body of Knowledge.](https://www.dama.org/content/body-knowledge)

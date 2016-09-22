@@ -36,6 +36,9 @@ pages, which builds the site from the `master` branch. You can build the site
 locally with `jekyll serve -w`, and it will be available at
 [http://localhost:4000] for you to review.
 
+The stylesheets are defined in `resources/styles`, and rendered to
+`resources/dataone.css` using `lessc` (just type `make` from the root).
+
 ## How to contribute
 
 ### Adding content

@@ -1,4 +1,4 @@
-..
+
 ---
 title: Data Management Planning
 update: Sept. 20, 2016
@@ -22,7 +22,8 @@ categories: ed-module
 ]
 
 <!-- These are notes for the presenter -->
-???  
+
+???
 
 - The topics covered in this module will answer the questions: 
 - What is a data management plan, or DMP? 
@@ -56,7 +57,8 @@ categories: ed-module
 *Photo Attribution: https://www.dataone.org/data-life-cycle*
 
 <!-- These are notes for the presenter -->
-??? 
+
+???
 
 Data management planning is the starting point in the data life cycle. 
 However the plan should be revisited often throughout the project to ensure proper data documentation and management.
@@ -72,6 +74,7 @@ However the plan should be revisited often throughout the project to ensure prop
 *From University of Virginia Library*
 
 <!-- These are notes for the presenter -->
+
 ???
 
 A DMP is a formal document that outlines what you will do with the data both during and after your research project.  
@@ -93,6 +96,7 @@ Data management plans are meant to ensure that the data will be preserved and us
 ]
 
 <!-- These are notes for the presenter -->
+
 ???
 
 Why would you want to prepare a data management plan? First and foremost, they save you time. If your data organization scheme is decided on early in the project, or even before data collection begins, you are less likely to spend time organizing the data later. 
@@ -119,6 +123,7 @@ If data are documented well both before and during data collection, it prevents 
 ]
 
 <!-- These are notes for the presenter -->
+
 ???
 
 Another reason to prepare a DMP is that it makes the data easier to preserve and archive.  Some data centers and repositories have specific requirements for data documentation, and knowing these requirements in advance saves time and effort that might be spent trying to append data after they are collected. 
@@ -146,9 +151,11 @@ Finally, data management plans are now required by most funding agencies. In 201
 *Photo Attribution: CC0 image from The Noun Project*
 
 <!-- These are notes for the presenter -->
+
 ???
 
 For a general DMP, there are five main categories of information that should be included.  Some funders or institutions may require specific elements in a data management plan; you should check with the agency or group for which you are preparing your DMP before beginning.
+
 The slides that follow will go into more detail for each of the general categories on this slide.
 
 ---

@@ -243,3 +243,32 @@ Also describe the naming conventions that will be used for the data sets, files,
 You should also identify what quality assurance and control measures you plan to take. Include what will be done during data collection, after data collection, and in the course of data analysis.
 
 ---
+
+# 1. Information About Data & Data Format
+
+## 1.6  Existing data
+  - If existing data are used, what are their origins?
+  - Will the data be combined with existing data?
+  - What is the relationship between new data and existing data?
+
+## 1.7  How data will be managed in short-term
+  - Version control
+  - Backing up
+  - Security & protection
+  - Who will be responsible
+
+[![Photo Attribution: CC0 image from The Noun Project](images/image12_rotated.png)
+*Photo Attribution: CC0 image from The Noun Project*
+
+???
+
+It is also important to identify any existing data you may use, including their origins, and how the data you collect will relate to those data. 
+
+If the dataset will be combined in the future with existing data, how you will ensure that formats are compatible? What is the relationship between the data you are collecting and what already exists?
+
+You should describe how data will be managed in the short term.  How will you keep track of different versions of the data and analyses? How will you back up the data?  Are servers available at your institution? Consider both on-site and off-site backup options.  Describe how you will ensure the security of the data, especially if the data are sensitive. Who will have access to the data? 
+
+Be sure to identify who will be responsible for short-term data management. Assign roles and responsibilities for data management, archiving, version control, and backing up.
+
+---
+

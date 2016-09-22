@@ -1,7 +1,6 @@
 ---
 title: Data Management Planning
 update: Sept. 20, 2016
-author: DataONE Community Education and Outreach Working Group
 layout: slides
 categories: ed-module
 ---
@@ -51,7 +50,7 @@ categories: ed-module
 
 # The Data Life Cycle
 
-![Photo Attribution: https://www.dataone.org/data-life-cycle](images/DataONE_lifecycle.png)
+![Photo Attribution: https://www.dataone.org/data-life-cycle](images/DataONE_Module3_LifeCycle.png)
 *Photo Attribution: https://www.dataone.org/data-life-cycle*
 
 ???
@@ -79,9 +78,10 @@ Data management plans are meant to ensure that the data will be preserved and us
 # Why Prepare a DMP? (1)
 
 .two-third[
-- Save time
+Save time
   - Less reorganization later
-- Increase research efficiency
+
+Increase research efficiency
  - Ensures you and others will be able to understand and use data in future
 ]
 
@@ -244,6 +244,7 @@ You should also identify what quality assurance and control measures you plan to
 
 [![Photo Attribution: CC0 image from The Noun Project](images/image12_rotated.png)
 *Photo Attribution: CC0 image from The Noun Project*
+]
 
 ???
 
@@ -259,14 +260,17 @@ Be sure to identify who will be responsible for short-term data management. Assi
 
 # 2. Metadata Content & Format
 
+.one-half[
 **Metadata** defined: 
 - Documentation and reporting of data
 - Contextual details: Critical information about the dataset
 - Information important for using the data
 - Descriptions of temporal and spatial details, instruments, parameters, units, files, etc. 
+]
 
-[![Photo Attribution: CC0 image from The Noun Project](images/image13.png)
+.one-half[![Photo Attribution: CC0 image from The Noun Project](images/image13.png)
 *Photo Attribution: CC0 image from The Noun Project*
+]
 
 ???
 
@@ -378,6 +382,8 @@ You should also describe how the data should be cited when used. It is best to e
 
 4.4 Who will be responsible
   - Contact person for archive
+
+<!-- needs image-->
   
 ???
   
@@ -393,3 +399,112 @@ Fourth, identify the person who will be responsible for maintaining contact info
 
 ---
 
+# 5. Roles and responsibilities
+
+.two-third[
+5.1 Outline the roles and responsibilities for implementing this data management plan.
+- For example:
+  - Who will be responsible for data management and for monitoring the data management plan?
+  - How will adherence to this data management plan be checked or demonstrated?
+  - What process is in place for transferring responsibility for the data?
+  - Who will have responsibility over time for decisions about the data once the original personnel are no longer available?
+]
+
+.one-third[![Photo Attribution: https://thenounproject.com/term/team/542374](images/team.png)
+*Photo Attribution: Chameleon Design on the NounProject*
+]
+  
+???
+  
+Explain how the responsibilities regarding the management of your data will be delegated. This should include time allocations, project management of technical aspects, training requirements, and contributions of non-project staff - individuals should be named where possible. Remember that those responsible for long-term decisions about your data will likely be the custodians of the repository/archive you choose to store your data. While the costs associated with your research (and the results of your research) must be specified in the Budget Justification portion of the proposal, you may want to reiterate who will be responsible for funding the management of your data. [from DMPTool, NSF-ENG template]
+
+---
+
+# 6. Budget
+
+6.1  Anticipated costs
+- Time for data preparation & documentation
+- Hardware/software for data preparation & documentation
+- Personnel
+- Archive costs
+
+6.2  How costs will be paid
+
+[![Photo Attribution: CC0 image from The Noun Project](images/image21.png)
+*Photo Attribution: CC0 image from The Noun Project*
+]
+
+???
+
+The fifth and final component of a general DMP is budget.  Although most proposals have separate budget requirements and do not require a budget as part of the DMP, it is important to consider costs that might be incurred in the process of managing and preserving the data. 
+ 
+Consider costs such as salary time needed for data preparation and documentation, hardware and software requirements, personnel needed to prepare data, and costs associated with archiving the data. 
+ 
+You should identify how the costs associated with your DMP will be paid.
+
+---
+
+# Tools for Creating Data Management Plans
+
+.one-third[# DMPTool
+
+
+# DMPOnline
+]
+
+.two-third[![dmptool.org](images/DMPTool_web.png)
+
+![dmponline.dcc.ac.uk](images/DMPOnline_web.png)
+]
+
+???
+
+There are several tools available for creating data management plans. Two of the most commonly used are the DMPTool (US funders only) and DMP Online (UK/EU funders only).  
+
+Both operate as “wizards” and provide prompts for the user to fill out in order to create their data management plan. You can save your plan, print it, or export it to your computer.  
+
+---
+
+# NSF DMP Requirements
+
+***From Grant Proposal Guidelines:***
+
+> Plans for data management and sharing of the products of research. Proposals must include a supplementary document of no more than two pages labeled “Data Management Plan”. This supplement should describe how the proposal will conform to NSF policy on the dissemination and sharing of research results (in AAG), and may include:
+>
+> 1. the **types of data**, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project
+> 2. the **standards to be used for data and metadata format** and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies)
+> 3. **policies for access and sharing**, including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements
+> 4. policies and **provisions for re-use, re-distribution**, and the production of **derivatives**	
+> 5. **plans for archiving** data, samples, and other research products, and for preservation of access to them
+> http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/gpg_2.jsp#dmp
+
+???
+
+We will now focus on NSF’s data management plans.  As of January 2011 NSF requires that a two page data management plan be included with submitted proposals. This is in addition to the 15 pages for the proposal.
+
+---
+
+# NSF DMP Requirements
+
+***Summarized from Award & Administration Guide:***
+
+**4. Dissemination and Sharing of Research Results**
+
+a. Promptly publish with appropriate authorship
+b. Share data, samples, physical collections, and supporting materials with others, within a reasonable timeframe 
+c. Share software and inventions 
+d. Investigators can keep their legal rights over their intellectual property, but they still have to make their results, data, and collections available to others 
+e. Policies will be implemented via 
+  - Proposal review
+  - Award negotiations and conditions
+  - Support/incentives
+
+http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/aag_6.jsp#VID4
+
+???
+
+There is more information from NSF about requirements in section 4 of the Award and Administration guide. It states that research results should be promptly published, data should be shared, software and inventions should be shared, and describes some intellectual property and policy issues.
+
+In addition to these general requirements, there are directorate- and division-specific requirements that will likely be updated in the near future. Not all directorates and divisions have DMP requirements available yet.
+
+---

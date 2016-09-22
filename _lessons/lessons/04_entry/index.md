@@ -21,6 +21,9 @@ In this module we will be looking at best practices as related to the creation o
 - Identify validation measures that can be performed as data is entered
 - Review best practices for data integration
 - Describe the basic components of a relational database
+
+
+
 ---
 # Goals of Data Entry
 - Create quality data sets that are:
@@ -31,6 +34,7 @@ In this module we will be looking at best practices as related to the creation o
 The goals of data entry are to create data that are valid, or have gone through a process to assure quality, and are organized to support use of the data or for ease of archiving.   
 ---
 # Example: Poor Data Entry
+
 
 
 ???
@@ -100,6 +104,80 @@ A best practice is to enter complete lines of data, so that the data are sorted 
 
 ???
 Archiving your data publicly will require that it be stored in a non-proprietary format such as ASCII.   A common practice is to store data in a comma-delimited text file.   There have been many instances where data sets have been lost because they were stored in a proprietary format which becomes obsolete.  
+---
+# References
+1. Best Practices for Preparing Environmental Data Sets to Share and Archive. September 2010. Les A. Hook, Suresh K. Santhana Vannan, Tammy W. Beaty, Robert B. Cook, and Bruce E. Wilson. http://daac.ornl.gov/PI/BestPractices-2010.pdf
+---
+# Data Entry Tools
+- Two common tools: Google Docs, Excel
+- Data entry tools typically perform data validation which allows you to control the kind of information that is entered. With data validation, you can:
+  - provide users with a list of choices 
+  - restrict entries to a specific type or size
+- Using data validation improves the quality of data by preventing the entry of errors.  
+
+---
+# Google Docs Forms
+
+???
+This is an example of a data entry form created in Googledocs.  Such forms are easy to create, and free.   Here, a form field is being created that will allow the user to select from three locations where data were collected.   In practice, GoogleDocs work best for entering survey data, or entering lots of text data.  
+
+The advantages to using a data entry form, as opposed to entering data directly in to a spreadsheet, is that the form can enforce data entry rules – that is, you can create a pick-list of items for a user to select from.  That way, you have consistent info being entered, as a user will always enter Deep Well, instead of DW.    
+
+---
+- Data entered into a Google doc form is stored in a spreadsheet.  
+
+---
+# Excel
+
+
+
+???
+Excel is a very popular data entry tool.   It also allows you to enforce data validation rules.   Here, a dropdown list has been generated that allows the user to only select entries from this list.   In this way, only defined species codes get entered, and the data is consistent.     
+---
+# Excel: Data Validation
+
+???
+Here is another example of data validation using Excel.  Height has been defined to contain values between 11 and 15.  When 20 is entered, the user is told that they have entered an illegal value.   
+---
+# Spreadsheet versus Relational Database
+.one-half[
+- Great for charts, graphs, calculations
+- Flexible about cell content type—cells in same column can contain numbers or text
+- Lack record integrity--can sort a column independently of all others
+- Easy to use – but harder to maintain as complexity and size of data grows
+]
+.one-half[
+- Easy to query to select portions of data
+- Data fields are typed – For example, only integers are allowed in integer fields
+- Columns cannot be sorted independently of each other
+- Steeper learning curve than a spreadsheet
+
+???
+Some researchers are turning to database software instead of spreadsheets for their data management needs.   Databases are a powerful option for storing and manipulating datasets.   Here, we list some of the pros and cons of spreadsheets vs. databases (which include software such as Oracle, MySQL, SQL Server and Microsoft Access).  Spreadsheets are good at making charts and graphs, and doing calculations.  They are easy to use, but they become unwieldly as the number of records grows and a dataset becomes complex.  Databases, on the other hand, work well with high volumes of data, and they are much easier to query in order to select data having particular characteristics.   They also maintain data integrity – that is, one column cannot be sorted separately of all others, as spreadsheets can.  Databases also enforce data typing, which is a best practice.  This means that only data of type ‘text’, for example, can be entered in to a column of type ‘text’.  This helps prevents data entry errors.    Databases do have a steeper learning curve than a spreadsheet such as Excel does, but there are many benefits
+---
+# What is a relational database?
+
+
+???
+A relational database matches data stored in tables by using common characteristics found within the data set.  This helps preserve data integrity and also makes it possible to flexibly mix and match data to get different combinations of information.   A database consists of a set of tables, defined relationships between them (which table is related to which other table), and also a powerful command language that facilitates data manipulation.   
+
+Here, a dataset for plant phenology has been divided into three tables, one describing site information, one describing characteristics of each sample, and one describing the plant species found.   
+
+Relational databases are currently the predominant choice in storing data like financial records, medical records, personal information and manufacturing and logistical data.
+---
+# Database Features: Explicit control over data types
+
+
+???
+Database features includes explicit control over data types and has the advantages of quality control and performance.   Here, in the plant phenology table, only dates are allowed in the Date column, only text is allows in the site column, only real numbers are allowed in the Height column.   If a user tries to enter a ? Under flowering, the database will reject the entry.   This is useful for defining how data is to be entered.   
+
+---
+# Relationships are defined between tables
+
+
+
+???
+Relationships can be defined between two sets of data or in this example between two tables.  Suppose that you have two tables used in the plant phenology study, one for observations and one for sites, and you want a table that contains both observations and the latitude and longitude of your sites.   Because both tables contain Site info, they can be joined to create a table containing the info you want.   
 ---
 
 

@@ -29,7 +29,7 @@ categories: ed-module
 - What are the components of a DMP? And
 - What are the requirements for DMPs prepared for National Science Foundation (or NSF) proposals?  
 - We will also go over an example of a data management plan.
-~~~
+
 
 ---
 

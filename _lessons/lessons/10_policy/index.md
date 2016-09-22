@@ -6,7 +6,7 @@ layout: slides
 
 # Legal and Policy Issues
 
- ![Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](images/slide-1-intro.jpg)
+ ![Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](images/image12.jpg)
   *Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*
 ---
 
@@ -46,23 +46,35 @@ Resource for PRA: http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html
 
 # Intellectual Property (IP)
 
-![Photo Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png](images/slide-1-intro.jpg)
+.one-half[
+![Photo Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png](images/image10.png)
   *Photo Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png*
+]
 
+.one-half[
 “Intellectual property refers to creations of the mind, such as inventions; literary and artistic works; designs; and symbols, names and images used in commerce.”
 -- World Intellectual Property Organization
+]
 
 ---
 
 # What does IP include?
 
-![Photo Attribution: http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg](images/slide-1-intro.jpg)
+.one-half[
+![Photo Attribution: http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg](images/image04.jpg)
   *Photo Attribution: http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg*
-  
+]
+
+.one-half[
 * Copyright
 * Patents
 * Trademarks
 * Industrial Designs
+]
+
+???
+
+Resource:  http://www.wipo.int/edocs/pubdocs/en/intproperty/450/wipo_pub_450.pdf
 
 ---
 

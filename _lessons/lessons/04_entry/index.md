@@ -179,7 +179,37 @@ Database features includes explicit control over data types and has the advantag
 ???
 Relationships can be defined between two sets of data or in this example between two tables.  Suppose that you have two tables used in the plant phenology study, one for observations and one for sites, and you want a table that contains both observations and the latitude and longitude of your sites.   Because both tables contain Site info, they can be joined to create a table containing the info you want.   
 ---
+# Powerful Command Language called Structured Query Language (SQL)
 
+???
+Database features also includes a powerful command language called Structured Query Language (SQL)
+
+The table at the top of this slide is named SoilTemp in the database.  The first example SQL command returns all records collected on 2010-02-01.   
+
+The second select statement, returns all records from table SoilTemp where treatment is N and SensorDepth is 0.   From this example you can get a sense of how easy SQL is to use to subset data based on different criteria.  This is only very simple SQL.   There is much, much more than can be done with it.   
+
+---
+# Data Entry with a Database
+- Forms can be created that make entering data in to a relational database as easy as entering it in to Excel.  The screenshot below shows embedded forms that were quickly generated in MS Access for adding data to three tables in a database of plant cover measurements
+
+---
+# Review: Planning for Data Entry
+- Be aware of Best Practices in your domain when designing data file structures
+- Choose a data entry method that allows some validation of data as it is entered
+- Consider investing time in learning how to use a database if datasets are large or complex
+
+???
+Be aware of best practices when designing data file structures. Choose a data entry method that allows validation of data entered and be sure to invest time in learning how to use a database especially if the dataset are large or complex. 
+---
+# If you want to try a database:
+- Consider trying one of these:
+  - Personal, single-user databases can be developed in MS Access, which is stored as a file on the user’s computer.  MS Access comes with easy GUI tools to create databases, run queries, and write reports.   
+  - A more robust database that is free, accommodates multiple users and will run on Windows or Linux is MySQL.   GUI interfaces for MySQL include phpMyadmin (free) and Navicat (inexpensive). 
+---
+# To learn more about designing a relational database:
+1. Database Design for Mere Mortals: A Hands-On Guide to Relational Database Design (2nd Edition)  by Michael J. Hernandez.  Addison-Wesley.  2003.  
+2. Fundamentals of Relational Database Design by Paul Litwin. http://r937.com/relational.html. (Accessed May 12, 2016). 
+---
 
 
 

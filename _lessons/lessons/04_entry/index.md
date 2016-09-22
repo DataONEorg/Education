@@ -151,6 +151,7 @@ Here is another example of data validation using Excel.  Height has been defined
 - Data fields are typed – For example, only integers are allowed in integer fields
 - Columns cannot be sorted independently of each other
 - Steeper learning curve than a spreadsheet
+]
 
 ???
 Some researchers are turning to database software instead of spreadsheets for their data management needs.   Databases are a powerful option for storing and manipulating datasets.   Here, we list some of the pros and cons of spreadsheets vs. databases (which include software such as Oracle, MySQL, SQL Server and Microsoft Access).  Spreadsheets are good at making charts and graphs, and doing calculations.  They are easy to use, but they become unwieldly as the number of records grows and a dataset becomes complex.  Databases, on the other hand, work well with high volumes of data, and they are much easier to query in order to select data having particular characteristics.   They also maintain data integrity – that is, one column cannot be sorted separately of all others, as spreadsheets can.  Databases also enforce data typing, which is a best practice.  This means that only data of type ‘text’, for example, can be entered in to a column of type ‘text’.  This helps prevents data entry errors.    Databases do have a steeper learning curve than a spreadsheet such as Excel does, but there are many benefits

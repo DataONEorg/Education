@@ -1,4 +1,3 @@
-..
 ---
 title: Data Management Planning
 update: Sept. 20, 2016

@@ -1,6 +1,6 @@
 ---
-title: Legal & Policy Issues
-update: Sept. 21, 2016
+title: Data Quality Control and Assurance
+update: Sept. 22, 2016
 layout: slides
 ---
 

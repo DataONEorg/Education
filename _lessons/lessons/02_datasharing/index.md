@@ -9,6 +9,8 @@ layout: slides
 
 ## Lesson 2: Data Sharing
 
+![](images/image3.png)
+
 ???
 
 This is Lesson 2 of the DataONE Data Management learning series. This lesson covers Data Management: Data Sharing
@@ -21,7 +23,6 @@ This is Lesson 2 of the DataONE Data Management learning series. This lesson cov
 - Concerns about data sharing
 - Methods for making data sharable
 ]
-
 
 .one-third[
 ![Folders picture](images/folders.png)
@@ -36,7 +37,7 @@ The topics covered in this lesson  include: the role of data sharing within the 
 
 # Learning objectives
 
-
+.two-third[
 **After completing this lesson,** the participant will be able to
 
 - discuss data sharing considerations within the data lifecycle
@@ -44,6 +45,9 @@ The topics covered in this lesson  include: the role of data sharing within the 
 - address concerns about sharing data
 - outline a process for making data sharable
 - identify mechanisms for sharing data
+]
+
+.one-third[![](images/image5.jpeg)]
 
 ???
 
@@ -90,6 +94,7 @@ Effective data sharing requires careful thought during each stage of the data de
 
 # Why share data
 
+.two-third[
 Data sharing requires effort, resources, and faith in others. Why do it?
 
 For the benefit of:
@@ -98,6 +103,12 @@ For the benefit of:
 * the research sponsor
 * the research community
 * the researcher
+]
+.one-third[
+![CC image by Jessica Lucia on Flickr](images/image6.jpeg)
+*CC image by Jessica Lucia on Flickr*
+]
+
 
 ???
 
@@ -107,12 +118,16 @@ Why expend the extra effort to share data? Because it benefits the public, the r
 
 # Value of Data Sharing: **To the Public**
 
+.two-third[
 A better informed public yields better decision making with regard to:
 
 * Environmental and economic planning
 * Federal, state, and local policies
 * social choices such as use of tax dollars and education options
 * personal lifestyle and health such as nutrition and recreation
+]
+
+.one-third[ ![](images/image7.jpeg) ]
 
 ???
 
@@ -154,10 +169,17 @@ Piwowar, H.A. (2011). A new task for NSF reviewers:  Recognizing the value of d
 
 # Value of Data Sharing: **To Scientific Community**
 
+
+.two-third[
 Access to related research enables community members to:
 * build upon the work of others and further, rather than repeat, the science4
 * perform meta analyses that cannot be performed with individual datasets or laboratories
-* share resources and perspectives so that comprehension is expanded and enhanced5
+* share resources and perspectives so that comprehension is expanded and enhanced]
+
+.one-third[
+![CC image by Lawrence Berkeley National Laboratory on Flickr](images/image8.jpeg)
+*CC image by Lawrence Berkeley National Laboratory on Flickr*
+]
 
 
 ???
@@ -203,12 +225,20 @@ Borgman, C.L. Research Data: Who will share what, with whom, when, and why? In P
 
 # Value of Data Sharing: **To the Scientist**
 
+.two-third[
 Scientists that share data gain the benefit of:
 
 * research sponsor recognition as an authoritative source and wise investment
 * improved data quality due to expanded use, field checks, and feedback
 * greater opportunity for data exchange
 * improved connections to scientific network, peers, and potential collaborators
+]
+
+.one-third[
+![CC image by SLU Madrid  Campus
+ on Flickr](images/image9.jpeg)
+]
+*CC image by SLU Madrid Campus on Flickr*
 
 ???
 
@@ -225,6 +255,8 @@ And finally, how does the independent researcher benefit from data sharing? When
 # Concerns About Data Sharing
 
 Even if the value of data sharing is recognized, concerns remain as to the impacts of increased data exposure.
+
+![](images/image10.jpeg)
 
 ---
 
@@ -419,6 +451,8 @@ Piwowar HA, Becich MJ, Bilofsky H, Crowley RS, on behalf of the caBIG Data Shari
 * Dr. John Trojanowski an Alzheimer’s researcher at the University of Pennsylvania stated,  “It’s not science the way most of us have practiced it in our careers. But we all realized that we would never get biomarkers unless all of us parked our egos and intellectual-property noses outside the door and
 agreed that all of our data would be made public immediately.”
 http://www.nytimes.com/2010/08/13/health/research/13alzheimer.html
+
+![](/images/image13.png)
 
 ???
 

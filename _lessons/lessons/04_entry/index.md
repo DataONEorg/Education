@@ -57,12 +57,15 @@ To analyze all these data using statistical software, and to make it much easier
 - Consistent Names, Codes, Formats (date) used in each column
 - Data are all in one table, which is much easier for a statistical program to work with than multiple small tables which each require human intervention
 
+
 ???
 This shows the same data entered in a way that would make it easy to understand and analyze.  
 The data are not entered in separate blocks arrayed in a single worksheet.  They are entered in one table with columns defined by variables Date, Site, Plot, Species, and Weight, Adult, and Comments that are recorded for each sampling event.  
 
 The columns of data have consistent types.   Each column contains only numbers, dates, or text.
 There are consistent names, codes, and formats used in each column.  For instance, all dates are in the same format (mm/dd/yyyy), and there are no typos in the Site Names.  Species are all referred to by standard codes.  Therefore, if the user wanted to subset the data for species = `PERO`, they could easily filter the file for just those data.  Additionally,  there are only numeric data in the Weight column, so a statistical program or Excel could readily calculate statistics on this column.    Preparing metadata for this file would also be straightforward.   
+
+
 ---
 # Recommended Practices, continued
 - Create descriptive column names without spaces or special characters
@@ -72,6 +75,8 @@ There are consistent names, codes, and formats used in each column.  For instanc
 
 ???
 One best practice in data entry is to create descriptive column names without spaces or special characters.  Sometimes statistical programs have special uses for some characters, so you should avoid using them in your data file.   
+
+
 ---
 # Recommended Practices, continued
 - Missing data
@@ -84,6 +89,9 @@ One best practice in data entry is to create descriptive column names without sp
 ???
 A preferred way to identify missing data is with an empty field. If for some reason an empty cell is not possible then use an impossible value such as 9999 in numeric fields and in text fields use NA.
 Use data flags in a separate column to qualify empty cells.  For instance, in this example of stream chemistry data, the flag M1 indicates that the sample was not collected at that interval.   
+
+
+
 ---
 # Recommended Practices, continued
 - Enter complete lines of data
@@ -91,8 +99,12 @@ Use data flags in a separate column to qualify empty cells.  For instance, in th
 ???
 There are a lot of great things about spreadsheets, but one must be wary of problems that can arise from their use.  Spreadsheets, for instance, can sort one column independently of all others.   The data entry person for the upper spreadsheet elected to leave empty cells for site, treat, web, plot, quad.  It’s obvious why and doesn’t cause the human reader any problems.  But if someone happens to decide to sort on Species, it is no longer clear which species maps to which time period or to which measurements.  This could make the spreadsheet unusable.   It is good practice to fill in all cells when using a spreadsheet for data entry.   
 A best practice is to enter complete lines of data, so that the data are sorted on one column without loss of information
+
+
 ---
+
 # Best Practices
+
 - For the long term, store data in a consistent format that can be read well in to the future and that can be used by any application now or in the future 
 - Appropriate file types include:
   - Non-proprietary: use an open, documented standard 
@@ -104,11 +116,16 @@ A best practice is to enter complete lines of data, so that the data are sorted 
 
 ???
 Archiving your data publicly will require that it be stored in a non-proprietary format such as ASCII.   A common practice is to store data in a comma-delimited text file.   There have been many instances where data sets have been lost because they were stored in a proprietary format which becomes obsolete.  
+
 ---
 # References
+
 1. Best Practices for Preparing Environmental Data Sets to Share and Archive. September 2010. Les A. Hook, Suresh K. Santhana Vannan, Tammy W. Beaty, Robert B. Cook, and Bruce E. Wilson. http://daac.ornl.gov/PI/BestPractices-2010.pdf
+
+
 ---
 # Data Entry Tools
+
 - Two common tools: Google Docs, Excel
 - Data entry tools typically perform data validation which allows you to control the kind of information that is entered. With data validation, you can:
   - provide users with a list of choices 
@@ -138,23 +155,32 @@ Excel is a very popular data entry tool.   It also allows you to enforce data va
 
 ???
 Here is another example of data validation using Excel.  Height has been defined to contain values between 11 and 15.  When 20 is entered, the user is told that they have entered an illegal value.   
+
+
 ---
+
 # Spreadsheet versus Relational Database
+
+
 .one-half[
 - Great for charts, graphs, calculations
 - Flexible about cell content type—cells in same column can contain numbers or text
 - Lack record integrity--can sort a column independently of all others
 - Easy to use – but harder to maintain as complexity and size of data grows
 ]
+
 .one-half[
 - Easy to query to select portions of data
 - Data fields are typed – For example, only integers are allowed in integer fields
 - Columns cannot be sorted independently of each other
 - Steeper learning curve than a spreadsheet
+]
 
 ???
 Some researchers are turning to database software instead of spreadsheets for their data management needs.   Databases are a powerful option for storing and manipulating datasets.   Here, we list some of the pros and cons of spreadsheets vs. databases (which include software such as Oracle, MySQL, SQL Server and Microsoft Access).  Spreadsheets are good at making charts and graphs, and doing calculations.  They are easy to use, but they become unwieldly as the number of records grows and a dataset becomes complex.  Databases, on the other hand, work well with high volumes of data, and they are much easier to query in order to select data having particular characteristics.   They also maintain data integrity – that is, one column cannot be sorted separately of all others, as spreadsheets can.  Databases also enforce data typing, which is a best practice.  This means that only data of type ‘text’, for example, can be entered in to a column of type ‘text’.  This helps prevents data entry errors.    Databases do have a steeper learning curve than a spreadsheet such as Excel does, but there are many benefits
+
 ---
+
 # What is a relational database?
 
 
@@ -164,7 +190,9 @@ A relational database matches data stored in tables by using common characterist
 Here, a dataset for plant phenology has been divided into three tables, one describing site information, one describing characteristics of each sample, and one describing the plant species found.   
 
 Relational databases are currently the predominant choice in storing data like financial records, medical records, personal information and manufacturing and logistical data.
+
 ---
+
 # Database Features: Explicit control over data types
 
 
@@ -172,6 +200,7 @@ Relational databases are currently the predominant choice in storing data like f
 Database features includes explicit control over data types and has the advantages of quality control and performance.   Here, in the plant phenology table, only dates are allowed in the Date column, only text is allows in the site column, only real numbers are allowed in the Height column.   If a user tries to enter a ? Under flowering, the database will reject the entry.   This is useful for defining how data is to be entered.   
 
 ---
+
 # Relationships are defined between tables
 
 
@@ -179,6 +208,7 @@ Database features includes explicit control over data types and has the advantag
 ???
 Relationships can be defined between two sets of data or in this example between two tables.  Suppose that you have two tables used in the plant phenology study, one for observations and one for sites, and you want a table that contains both observations and the latitude and longitude of your sites.   Because both tables contain Site info, they can be joined to create a table containing the info you want.   
 ---
+
 # Powerful Command Language called Structured Query Language (SQL)
 
 ???
@@ -189,27 +219,137 @@ The table at the top of this slide is named SoilTemp in the database.  The first
 The second select statement, returns all records from table SoilTemp where treatment is N and SensorDepth is 0.   From this example you can get a sense of how easy SQL is to use to subset data based on different criteria.  This is only very simple SQL.   There is much, much more than can be done with it.   
 
 ---
+
 # Data Entry with a Database
+
 - Forms can be created that make entering data in to a relational database as easy as entering it in to Excel.  The screenshot below shows embedded forms that were quickly generated in MS Access for adding data to three tables in a database of plant cover measurements
 
 ---
+
 # Review: Planning for Data Entry
+
 - Be aware of Best Practices in your domain when designing data file structures
 - Choose a data entry method that allows some validation of data as it is entered
 - Consider investing time in learning how to use a database if datasets are large or complex
 
 ???
 Be aware of best practices when designing data file structures. Choose a data entry method that allows validation of data entered and be sure to invest time in learning how to use a database especially if the dataset are large or complex. 
+
 ---
+
 # If you want to try a database:
+
 - Consider trying one of these:
   - Personal, single-user databases can be developed in MS Access, which is stored as a file on the user’s computer.  MS Access comes with easy GUI tools to create databases, run queries, and write reports.   
   - A more robust database that is free, accommodates multiple users and will run on Windows or Linux is MySQL.   GUI interfaces for MySQL include phpMyadmin (free) and Navicat (inexpensive). 
+  
 ---
+
 # To learn more about designing a relational database:
 1. Database Design for Mere Mortals: A Hands-On Guide to Relational Database Design (2nd Edition)  by Michael J. Hernandez.  Addison-Wesley.  2003.  
 2. Fundamentals of Relational Database Design by Paul Litwin. http://r937.com/relational.html. (Accessed May 12, 2016). 
+
+
 ---
+
+# Data Integration Best Practices
+
+- Maintain dataset provenance
+  - Document transformations
+  - Beware of accidental duplication
+- Review metadata for compatibility of context, methods, and meaning
+  - For what purpose was the data collected?
+  - How was the data collected?
+  - Is it sensible to combine these datasets?
+
+???
+At times you will need to combine multiple datasets into a superset in order to address your research question.  Here are the best practices that should be followed when integrating two or more datasets.
+
+---
+
+# Data Integration Best Practices
+
+- Ensure compatibility
+  - Convert to common units
+  - Choose appropriate numeric precision
+  - Evaluate and standardize missing value codes
+- Document all assumptions
+  - What assumptions underlie the original datasets?
+  - What assumptions did you make in combining the datasets?
+
+---
+
+# Data Integration Best Practices
+
+- Recognize that you are creating a new dataset
+  - Revisit the data life cycle to ensure the new dataset is properly documented, validated, and preserved
+- Use reproducible workflows
+  - Enable transparency and reproducibility in the integration process
+  - Ensure others understand and can evaluate your decision making process.
+  - Automate the integration as much as possible
+    - Especially when integrating many datasets or large datasets
+
+---
+
+# Data Integration Best Practices
+
+- Ensure attribution of original dataset owners and respect data usage agreements
+  - Example resource: 
+    - Jones et al. (2006) The New Bioinformatics: Integrating ecological data from the gene to the biosphere. Annual Review of Ecology and Systematics 37:519-544
+- Example citation to the related dataset from the Dryad repository:
+  - Jones, Matthew B., Schildahuer, Mark P., Reichman, O. J., and Bowers, Shawn. 2012. Data from: The new bioinformatics: integrating ecological data from the gene to the biosphere. Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.qb0d6?ver=2012-07-16T14:42:48.559-04:00. 
+
+---
+
+# Data Manipulation
+
+- Useful for analyzing, subsetting and transforming data
+- Can be used to check and assure quality data
+- Options include SAS, SPSS, R, and Matlab
+  - Not Free
+    - SAS:  Has comprehensive support
+    - SPSS:  Has a user-friendly GUI
+    - Matlab: Analysis and Visualization platform that has “toolboxes” available for different disciplines, such as modeling or genomic analyses
+
+---
+
+# Using R
+
+- Free (http://www.r-project.org/index.html)
+- Produces publication quality graphics
+- Lots of forums from which to get help
+- Software (such as Kepler for developing workflows) will integrate analytical components written in R 
+
+---
+
+# Review: Selecting tools for data storage and use
+
+- Tools such as (but not limited to) spreadsheet tools such as MS Excel and relational databases (MS Access, MySQL, and more) can provide structure, flexibility and potential for working more easily with datasets but also require planning
+- Selection of a database or spreadsheet tool depends on the relationships between the data, and how it will be used, as well as other considerations re: time, resources, output.
+
+---
+
+# Review: Data Integration & Manipulation
+
+- Maintaining provenance (a trail of custody and decisions) is important when integrating more than one dataset
+- Documenting and understanding context and relationships, as well as changes is crucial when creating a new dataset (any time you combine two or more disparate datasets)
+- Create a transparent, reproducible workflow
+- Make sure to provide proper attribution and citation to all resources, including the original dataset. 
+- Tools such as R, Matlab, and others can be useful in establishing workflows and accessing datasets
+
+---
+
+The full slide deck may be downloaded from: http://www.dataone.org/education-modules
+
+Suggested citation:
+DataONE Education Module: Data Entry and Manipulation. DataONE. Retrieved Sept 22 2016. From http://www.dataone.org/sites/all/documents/L04_DataEntryManipulation.pptx 
+
+Copyright license information:
+No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
+
+---
+
+
 
 
 

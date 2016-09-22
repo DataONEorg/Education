@@ -137,7 +137,7 @@ Finally, data management plans are now required by most funding agencies. In 201
 5. Roles and responsibilities
 6. Budget
 
-[![Photo Attribution: CC0 image from The Noun Project](images/image8.png)
+![Photo Attribution: CC0 image from The Noun Project](images/image8.png)
 *Photo Attribution: CC0 image from The Noun Project*
 
 ???
@@ -242,9 +242,9 @@ You should also identify what quality assurance and control measures you plan to
   - Security & protection
   - Who will be responsible
 
-[![Photo Attribution: CC0 image from The Noun Project](images/image12_rotated.png)
+![Photo Attribution: CC0 image from The Noun Project](images/image12_rotated.png)
 *Photo Attribution: CC0 image from The Noun Project*
-]
+
 
 ???
 
@@ -430,9 +430,8 @@ Explain how the responsibilities regarding the management of your data will be d
 
 6.2  How costs will be paid
 
-[![Photo Attribution: CC0 image from The Noun Project](images/image21.png)
+![Photo Attribution: CC0 image from The Noun Project](images/image21.png)
 *Photo Attribution: CC0 image from The Noun Project*
-]
 
 ???
 
@@ -490,15 +489,15 @@ We will now focus on NSF’s data management plans.  As of January 2011 NSF requ
 
 **4. Dissemination and Sharing of Research Results**
 
-a. Promptly publish with appropriate authorship
-
-b. Share data, samples, physical collections, and supporting materials with others, within a reasonable timeframe 
-
-c. Share software and inventions 
-
-d. Investigators can keep their legal rights over their intellectual property, but they still have to make their results, data, and collections available to others 
-
-e. Policies will be implemented via 
+  a. Promptly publish with appropriate authorship
+  
+  b. Share data, samples, physical collections, and supporting materials with others, within a reasonable timeframe 
+  
+  c. Share software and inventions 
+  
+  d. Investigators can keep their legal rights over their intellectual property, but they still have to make their results, data, and collections available to others 
+  
+  e. Policies will be implemented via 
   - Proposal review
   - Award negotiations and conditions
   - Support/incentives
@@ -532,8 +531,6 @@ Major components of a DMP:
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image26.png)
 *Photo Attribution: CC0 image from The Noun Project*
 ]
-
----
 
 # DMP Resources
 

@@ -3,7 +3,7 @@ title: DataONE lessons
 layout: index
 ---
 
-# DataOne Data Management Education Modules
+# DataONE Data Management Education Modules
 
 - [Markdown basics][00]
 - [Data management][01]

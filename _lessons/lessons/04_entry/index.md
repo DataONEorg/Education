@@ -140,12 +140,15 @@ Excel is a very popular data entry tool.   It also allows you to enforce data va
 Here is another example of data validation using Excel.  Height has been defined to contain values between 11 and 15.  When 20 is entered, the user is told that they have entered an illegal value.   
 ---
 # Spreadsheet versus Relational Database
+
+
 .one-half[
 - Great for charts, graphs, calculations
 - Flexible about cell content type—cells in same column can contain numbers or text
 - Lack record integrity--can sort a column independently of all others
 - Easy to use – but harder to maintain as complexity and size of data grows
 ]
+
 .one-half[
 - Easy to query to select portions of data
 - Data fields are typed – For example, only integers are allowed in integer fields

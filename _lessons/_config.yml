@@ -1,5 +1,5 @@
 # This should be the repo name WITHOUT the host
-baseurl:  https://dataoneorg.github.io/dataone_lessons
+baseurl: /dataone_lessons
 
 # Format for the slides, can be either 16:9 or 4:3
 format: '4:3'

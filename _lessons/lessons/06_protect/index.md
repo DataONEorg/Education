@@ -285,13 +285,15 @@ A design firm was handling their own backups.  The system was working and the ba
 ![backup](images/image7.jpg)
 ![backup](images/image8.jpg)
 ![backup](images/image10.jpg)
+
+
 ---
 
 # Data in Real Life
 
 The administrator checked the backups immediately after they were done and confirmed they were good.
 
-![Backup](https://dataoneorg.github.io/dataone_lessons/lessons/06_protect/images/image11.jpg)
+![backup](images/image11.jpg)
 
 ---
 
@@ -477,7 +479,7 @@ Suggested citation:
 DataONE Education Module: Data Protection. DataONE. Retrieved Sept 21, 2016. From http://www.dataone.org/sites/all/documents/L06_DataProtection.pptx 
 
 
-![Backup](https://dataoneorg.github.io/dataone_lessons/lessons/06_protect/images/image13.jpg)
+![backup](images/image13.jpg)
 
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 ---

@@ -1,4 +1,3 @@
-
 ---
 title: Data Management Planning
 update: Sept. 20, 2016
@@ -31,6 +30,10 @@ categories: ed-module
 - What are the components of a DMP? And
 - What are the requirements for DMPs prepared for National Science Foundation (or NSF) proposals?  
 - We will also go over an example of a data management plan.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 12a25b90bbd00bd79257dd2cef4bdc125659d6fc
 
 ---
 

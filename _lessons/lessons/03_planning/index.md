@@ -18,6 +18,7 @@ categories: ed-module
 
 .one-third[
 ![CC image by Darla Hueske on Flickr](images/image4.jpeg)
+*CC image by Darla Hueske on Flickr*
 ]
 
 <!-- These are notes for the presenter -->
@@ -44,6 +45,7 @@ categories: ed-module
 
 .one-third[
  ![CC image by cybrarian77 on Flickr](images/image5.jpeg)
+ *CC image by cybrarian77 on Flickr*
 ]
 
 ---
@@ -87,6 +89,7 @@ Data management plans are meant to ensure that the data will be preserved and us
 ]
 
 .one-third[![Photo Attribution: CC image Cathdew on Flickrby](images/image6.jpeg)
+*Photo Attribution: CC image Cathdew on Flickrby*
 ]
 
 <!-- These are notes for the presenter -->
@@ -100,5 +103,53 @@ If data are documented well both before and during data collection, it prevents 
 
 ---
 
+# Why Prepare a DMP? (2)
 
+.two-third[
+- Easier to preserve data
+- Prevents duplication of effort
+- Can lead to new, unanticipated discoveries
+- Increases visibility of research
+- Makes research and data more relevant
+- Funding agency requirement
+]
+
+.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image7.png)
+*Photo Attribution: CC0 image from The Noun Project*
+]
+
+<!-- These are notes for the presenter -->
+???
+
+Another reason to prepare a DMP is that it makes the data easier to preserve and archive.  Some data centers and repositories have specific requirements for data documentation, and knowing these requirements in advance saves time and effort that might be spent trying to append data after they are collected. 
+
+By preserving and archiving the data, you are benefiting both yourself and others in your field. If others can easily find and use the data, it might prevent duplication of scientific efforts to re-collect the data. 
+
+Data that you preserve can lead to new, unanticipated discoveries you might not predict. 
+
+It also increases your research visibility and makes your work more relevant. 
+
+Finally, data management plans are now required by most funding agencies. In 2013 the Office of Science and Technology Policy issued a memo to all federal agencies that, among other things, requires them to include a DMP with their proposals. http://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf 
+
+---
+
+# Components of a General DMP
+
+1. Information about data type & data format
+2. Metadata content and format
+3. Policies for access, sharing and re-use
+4. Long-term storage and preservation
+5. Roles and responsibilities
+6. Budget
+
+[![Photo Attribution: CC0 image from The Noun Project](images/image8.png)
+*Photo Attribution: CC0 image from The Noun Project*
+
+<!-- These are notes for the presenter -->
+???
+
+For a general DMP, there are five main categories of information that should be included.  Some funders or institutions may require specific elements in a data management plan; you should check with the agency or group for which you are preparing your DMP before beginning.
+The slides that follow will go into more detail for each of the general categories on this slide.
+
+---
 

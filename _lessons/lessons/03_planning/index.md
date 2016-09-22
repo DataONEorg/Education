@@ -1,6 +1,7 @@
 ---
 title: Data Management Planning
 update: Sept. 20, 2016
+author: DataONE Community Education and Outreach Working Group
 layout: slides
 categories: ed-module
 ---
@@ -15,8 +16,7 @@ categories: ed-module
 - Example of an NSF DMP
 ]
 
-.one-third[
-![CC image by Darla Hueske on Flickr](images/image4.jpeg)
+.one-third[![CC image by Darla Hueske on Flickr](images/image4.jpeg)
 *CC image by Darla Hueske on Flickr*
 ]
 
@@ -47,8 +47,7 @@ categories: ed-module
   - Recognize the DMP elements required for an NSF proposal
 ]
 
-.one-third[
- ![CC image by cybrarian77 on Flickr](images/image5.jpeg)
+.one-third[![CC image by cybrarian77 on Flickr](images/image5.jpeg)
  *CC image by cybrarian77 on Flickr*
 ]
 
@@ -156,7 +155,7 @@ The slides that follow will go into more detail for each of the general categori
 # 1. Information About Data & Data Format
 
 .one-half[
-## 1.1  Description of data to be produced
+1.1 Description of data to be produced
   - Experimental
   - Observational
   - Raw or derived
@@ -169,8 +168,7 @@ The slides that follow will go into more detail for each of the general categori
   - Etc…
 ]
 
-.one-half[
-[![Photo Attribution: CC image by Jeffery Beall on Flickr](images/image9.jpeg)
+.one-half[![Photo Attribution: CC image by Jeffery Beall on Flickr](images/image9.jpeg)
 *Photo Attribution: CC image by Jeffery Beall on Flickr*
 ]
 
@@ -185,18 +183,17 @@ More information can be found at https://library.uoregon.edu/datamanagement/data
 # 1. Information About Data & Data Format
 
 .one-half[
-## 1.2  How data will be acquired
+1.2 How data will be acquired
   - When?
   - Where?
   
-## 1.3 How data will be processed
+1.3 How data will be processed
   - Software used
   - Algorithms
   - Workflows
 ]
 
-.one-half[
-[![Photo Attribution: CC image by Ryan Sandridge on Flickr](images/image10.jpeg)
+.one-half[![Photo Attribution: CC image by Ryan Sandridge on Flickr](images/image10.jpeg)
 *Photo Attribution: CC image by Ryan Sandridge on Flickr*
 ]
 
@@ -211,17 +208,16 @@ How will the data be processed once it is acquired? This step is important to co
 # 1. Information About Data & Data Format
 
 .one-half[
-## 1.4  File formats
+1.4 File formats
   - Justification
   - Naming conventions
 
-## 1.5  Quality assurance & control during 
+1.5 Quality assurance & control during 
   - sample  collection, analysis, and 
   - processing
 ]
 
-.one-half[
-[![Photo Attribution: CC0 image from The Noun Project](images/image11.png)
+.one-half[![Photo Attribution: CC0 image from The Noun Project](images/image11.png)
 *Photo Attribution: CC0 image from The Noun Project*
 ]
 
@@ -239,12 +235,12 @@ You should also identify what quality assurance and control measures you plan to
 
 # 1. Information About Data & Data Format
 
-## 1.6  Existing data
+1.6 Existing data
   - If existing data are used, what are their origins?
   - Will the data be combined with existing data?
   - What is the relationship between new data and existing data?
 
-## 1.7  How data will be managed in short-term
+1.7 How data will be managed in short-term
   - Version control
   - Backing up
   - Security & protection
@@ -285,20 +281,19 @@ The second major category for a DMP is metadata content and format. First, we sh
 # 2. Metadata Content & Format
 
 .two-third[
-## 2.1  What metadata are needed
+2.1 What metadata are needed
   - Any details that make data meaningful
 
-## 2.2  How metadata will be created and/or captured
+2.2 How metadata will be created and/or captured
   - Lab notebooks? GPS units? 
   - Auto-saved on instrument?
 
-## 2.3   What format will be used for the metadata
+2.3 What format will be used for the metadata
   - Standards for community
   - Justification for format chosen
 ]
 
-.one-third[
-[![Photo Attribution: CC0 image from The Noun Project](images/image14.png)
+.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image14.png)
 *Photo Attribution: CC0 image from The Noun Project*
 ]
 
@@ -313,23 +308,22 @@ Indicate what format, or metadata standard, will be used.  There are many differ
 # 3. Policies for Access, Sharing, Reuse
 
 .two-third[
-## 3.1  Obligations for sharing
+3.1 Obligations for sharing
   - Funding agency
   - Institution
   - Other organization
   - Legal
 
-## 3.2  Details of data sharing
+3.2 Details of data sharing
   - How long?
   - When? 
   - How access can be gained?
   - Data collector rights
 
-## 3.3  Ethical/privacy issues with data sharing
+3.3 Ethical/privacy issues with data sharing
 ]
 
-.one-third[
-[![Photo Attribution: CC0 image from The Noun Project](images/image15.png)
+.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image15.png)
 *Photo Attribution: CC0 image from The Noun Project*
 ]
 
@@ -342,6 +336,64 @@ What obligations do you have to share the data? Sharing requirements may come fr
 You should also describe the details of how you will share the data.  How long after collection will data be available? When will access be granted to interested users?  Who will have access to those data? How will they gain access?  Will the data collector, creator, or PI have exclusive rights to data for a certain period of time?
 
 Be sure to address any ethical or and privacy issues associated with the data. For example, If the data involves human subjects, endangered species, or locations of sensitive habitats, you may have special considerations for data sharing.
+
+---
+
+# 3. Policies for Access, Sharing, Reuse
+
+.two-third[
+3.4 Intellectual property & copyright issues
+  - Who owns the copyright?
+  - Institutional policies
+  - Funding agency policies
+  - Embargos for political/commercial reasons
+
+3.5 Intended future uses/users for data
+
+3.6 Citation
+  - How should data be cited when used?
+  - Persistent citation?
+]
+
+.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image16.png)
+*Photo Attribution: CC0 image from The Noun Project*
+]
+
+???
+
+Describe any intellectual property or copyright issues associated with the data.  Who owns the copyright to the data? Institutions and/or funding agencies often have a policy for intellectual property and copyright. There may be other considerations such as embargos on data due to patents, politics, or journal requirements.
+ 
+Be prepared to describe the intended future uses and users of the data. This helps determine the most appropriate data center to archive the data.
+ 
+You should also describe how the data should be cited when used. It is best to establish a persistent identifier or citation, such as a DOI, or digital object identifier.  Consult policies and options with the data archive you choose.
+
+---
+
+# 4. Long-term Storage & Data Management
+
+4.1 What data will be preserved
+
+4.2 Where will it be archived
+  - Most appropriate archive for data
+  - Community standards
+
+4.3 Data transformations/formats needed
+  - Consider archive policies
+
+4.4 Who will be responsible
+  - Contact person for archive
+  
+???
+  
+The fourth major section of a data management plan describes plans for long term storage and data management. 
+ 
+First, you should describe what data will be preserved. Not all data should necessarily be preserved. In general, any raw data should be kept.  Also, any data products that were particularly expensive or time consuming to obtain should be preserved. Any data that is not easily replaceable should be kept.
+ 
+Second, identify where you will archive the data. Find out what archives or data centers are commonly used in your discipline. Data centers usually last longer than lab or personal websites. Check to see if your institution has a repository available to researchers. Also, ask colleagues in your field where data are commonly archived.
+ 
+Third, your data management plan should describe what data transformations and formats need to be preserved to ensure future usability of the data. Contact the data repository you will use early in the project to be sure you have data in the correct format. This will save time later.
+ 
+Fourth, identify the person who will be responsible for maintaining contact information with the data center. This is especially important if there are restrictions on data use, for instance a requirement that potential users contact the data collector before reusing data.
 
 ---
 

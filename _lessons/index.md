@@ -6,11 +6,11 @@ layout: index
 # DataONE Data Management Education Modules
 
 - [Markdown basics][00]
-- [Data management][01]
-- [Data sharing][02]
-- [Data planning][03]
-- [Protect][06]
-- [Data Policy][10]
+- [Why Data Management][01]
+- [Data Sharing][02]
+- [Data Management Planning][03]
+- [Data Protection and Backups][06]
+- [Legal and Policy Issues][10]
 
 [00]: lessons/00_markdown/
 [01]: lessons/01_management/

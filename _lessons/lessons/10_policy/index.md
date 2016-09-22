@@ -8,6 +8,9 @@ layout: slides
 
  ![Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](images/image12.jpg)
   *Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*
+  
+ ![](images/image03.png)
+ 
 ---
 
 # Learning Outcomes
@@ -200,7 +203,247 @@ Miller v. Universal City Studios, Inc., is a case where an appeals court found t
 
 ---
 
+# Choosing an open license
 
+.two-third[
+* Why use an open license?
+   * Facilitate data sharing and discovery
+   * Increase visibility of your data
+   * Advance knowledge
+* Creative Commons
+   * CC0 (not a license, but a waiver)
+   * CC BY (Attribution)
+   * CC BY-ND (Attribution-NoDerivs)
+   * CC BY-NC (Attribution-NonCommercial)
+   * CC BY-SA (Attribution-ShareAlike)
+]
+
+.one-third[
+![](images/image07.png)
+]
+
+???
+
+BY, NC, SA, and ND are not licenses.  They are restrictions that, when used individually or together create to create a license.  Thus CC-NC is the license, while NC is a restriction.
+
+If you choose to make your data open, you have many options:
+CC0 is a waiver and waives all your rights to the data;
+CC BY allows anyone to use, change or distribute your work for any purpose as long as attribution is given;
+CC BY-ND allows anyone to use or distribute your work in its unchanged form, with attribution;
+CC BY-NC allows anyone to share or modify your work for non-commercial purposes, with attribution;
+CC BY-SA allows anyone to edit your work for commercial purposes, with attribution, but any redistribution must be under the same license as the original.
+CC licenses BY, ND, NC, and SA may be combined to create aggregated licenses, such as CC BY-NC-SA.
+Resource: https://creativecommons.org/
+
+Attribution Stacking:  http://wir.okfn.org/2012/01/27/attribution-stacking-as-a-barrier-to-reuse/http://wir.okfn.org/2012/01/27/attribution-stacking-as-a-barrier-to-reuse/
+
+---
+
+# Other Considerations
+
+.two-third[
+* Copyright vs. Copyleft
+   * “a strategy of utilizing copyright law to pursue the policy goal of fostering and encouraging the equal and inalienable right to copy, share, modify and improve creative works of authorship.” (copyleft.org)
+* Attribution Stacking
+   * CC BY requires all derivative works to acknowledge all contributors to all works from which they are derived.
+* Redistribution
+   * CC BY-SA requires all works that derive from a work designated BY-SA must be distributed under the same license.
+]
+
+.one-third[
+![](images/image09.png)
+]
+
+???
+
+CC BY allows anyone to use, change or distribute your work for any purpose as long as attribution is given;
+CC BY-SA allows anyone to edit your work for commercial purposes, with attribution, but any redistribution must be under the same license as the original.
+Resource: https://creativecommons.org/
+
+Attribution stacking can be a serious impediment to reuse. It occurs when multiple data sets with attribution (or other) licensing requirements are combined. For example, the share-alike requirement can be applied to licenses that allow OR prohibit commercial uses of the content, and a prospective user can't possibly share a derivative data set with a license that satisfies both sets of requirements. A simpler but still potentially cumbersome example of attribution stacking occurs when many data sets are combined and require individual attribution in derivatives.
+
+http://wir.okfn.org/2012/01/27/attribution-stacking-as-a-barrier-to-reuse/
+http://www.dcc.ac.uk/resources/how-guides/license-research-data
+http://discovery.ac.uk/files/pdf/Licensing_Open_Data_A_Practical_Guide.pdf
+
+
+Copyleft:
+https://copyleft.org/
+https://www.gnu.org/copyleft/gpl.html
+
+---
+
+# Norms for Data Use
+
+.one-half[
+When using data
+* Give credit to the data authors
+* Be responsible with the data
+* Share what you learned
+* Respect the Data License or Waiver
+* Understand and follow any restrictions or regulations
+]
+
+.one-half[
+![Photo Attribution: http://soctheory.iheartsociology.com/wp-content/uploads/2011/10/IMG02369-20111028-1602.jpg](images/image11.jpg)
+*Photo Attribution: http://soctheory.iheartsociology.com/wp-content/uploads/2011/10/IMG02369-20111028-1602.jpg*
+]
+
+???
+
+Norms are standards agreed upon by the community to guide behaviors and conduct. 
+Resource: http://www.vertnet.org/resources/norms.html
+
+---
+
+# Ethical Use of Data
+
+.one-half[
+![Photo Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/](images/image14.jpg)
+*Photo Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/*
+]
+
+.one-half[
+* Understand your funder/institution policies on data sharing
+   * Review your IRB protocols and approvals
+   * Remove personal data
+* Using someone else’s data
+   * Give credit
+   * Respect the license
+   * Protect the data appropriately
+]
+
+---
+
+# Why might data use or sharing be restricted?
+
+.two-third[
+* Threatened and endangered species
+* National security and classified research
+* Export controls
+   * Can apply to technologies and data
+* Use of Human Subjects
+   * Personally identifiable information of any kind
+   * E.g., HIPAA as governing law for personal health information
+]
+
+.one-third[
+![Photo Attribution: https://www.iconfinder.com/icons/40968/folder_red_restricted_icon](images/image13.png)
+*Photo Attribution: https://www.iconfinder.com/icons/40968/folder_red_restricted_icon*
+]
+
+???
+
+Threatened and endangered species
+Usually, when applying to work with endangered species, you will need to apply for permits from US Fish and Wildlife Service, which will determine what data you can or cannot release
+
+National Security
+The restrictions surrounding this data should be explicitly understood from the beginning of your research
+
+Export controls
+These regulations are crafted in such a manner that publicly available, fundamental research results are excluded from the regulatory requirements for approvals or licenses. 
+Reference: http://vcresearch.berkeley.edu/export-controls
+
+Human subjects
+A researcher must follow specific procedures which ensure that the rights of the individuals from protected groups, including children and prisoners, involved will be protected. This is typically part of an institution's IRB process.
+
+
+Reference: http://www.hhs.gov/ohrp/policy/index/index.html
+
+
+There are guidelines related to the type of research which can be performed according to the benefits a child might receive from the experiment and any possibility of danger to the child.
+
+Guidelines protect the rights of the prisoner and to ensure that a prisoner has not been coerced into participation and is volunteering to participate in the experiment.
+
+Reference: http://www.uidaho.edu/ora/committees/irb/protectedgroups.
+
+Personal Health Information
+Check IRB recommendations and http://www.hhs.gov/ocr/privacy/
+HIPAA requires the removal of 18 personal identifiers.  
+
+---
+
+# Be Aware of Regulations
+
+* Range of regulations mediating how researchers interact with data or objects of data collection (e.g., humans, animals; consult IRB or IACUC)
+* Constraints around data management (e.g., cloud services, software agreements, etc.)
+* Institutional policy review processes (e.g. Paperwork Reduction Act)
+* Open vs. proprietary – some institutions (e.g., universities) may need to waive rights to permit open access.
+
+???
+
+Paperwork Reduction Act (PRA) clearance is the term used for the process of obtaining approval from the Office of Management and Budget (OMB) for federally sponsored data collections as required by the PRA.
+Software agreements ---  SaaS like Google Docs, DropBox, Box.net, etc.
+Re: Open vs. Proprietary.  Universities and other umbrella entities may retain ownership rights over products and other content created while the creator is employed by the institution.  Creators may not have the right to distribute products and other content without the permission of the institution or their office of technology transfer.
+
+---
+
+# Privacy and Security
+
+.one-half[
+![Photo Attribution: http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg](images/image15.jpg)
+*Photo Attribution: http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg*
+]
+
+.one-half[
+* What we can collect and how 
+* How we share data, results and outcomes
+* Reuse of human subject data
+* Data storage and destruction
+* IRB interpretations and review across institutions are not always consistent
+]
+
+???
+
+IRB committees are responsible for reviewing and approving data handling and use in research studies.
+
+There are likely to be separate policies and procedures related to animal research at your institution.
+
+IRB approvals must be re-reviewed if the study changes in a meaningful way.
+
+---
+
+# Privacy vs. Confidentiality
+
+* Privacy
+   * Protects access to individuals (or entities)
+
+* Confidentiality
+   * Protects access to information about individuals
+   * Can be thought of as information privacy
+
+???
+
+A lot of people don’t know the difference between privacy and confidentiality in a research context, and in many fields, these terms are used interchangeably. However, it’s useful to keep in mind that access to individuals, or entities like plants and animals, is a complicated matter.
+
+Locking doors and drawing curtains are actions to control others’ access to ourselves physically – part of what we consider privacy. Anonymizing data and reporting in aggregate are moves to keep information about individuals confidential. Maintaining data confidentiality helps maintain personal privacy because sometimes data can be traced back to the individual, so if data are not confidential, personal privacy can be compromised.  Be mindful of the possible limitations of anonymization when data sets are combined with other data sets.
+
+---
+
+# Summary
+ 
+* Know who can claim ownership or control over data products
+* Assign licenses or waivers appropriately
+* Behave ethically and in accordance with established community norms
+* Respect the licenses or waivers assigned
+* Protect privacy and confidentiality
+* Know what restrictions and liabilities apply to products and processes
+
+---
+
+# Resources
+
+1. Frequently asked questions about PRA / Information Collection. Accessed June 26, 2015 at http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html.
+2. Creative Commons. Accessed June 26, 2015 at https://creativecommons.org.
+3. Norms for data use and publication. Accessed June 26, 2015 at http://www.Vertnet.org/resources/norms.html.
+4. Export controls. Accessed June 26, 2015 at http://vcresearch.berkeley.edu/export-controls.
+5. Protected groups. Accessed June 26, 2015 at http://www.uidaho.edu/ora/committees/irb/protectedgroups.
+6. Health information privacy. Accessed June 26, 2015 at http://www.hhs.gov/ocr/privacy.  
+7. Protecting personal health information in research: understanding the HIPAA privacy rule. Accessed June 26, 2015 athttp://privacyruleandresearch.nih.gov/pr_02.asp.
+8. Information Liability. Accessed June 26, 2015 at http://www.law.fsu.edu/journals/lawreview/downloads/263/phil.pdf.
+9. Guidelines for Responsible Data Management in Scientific Research. Accessed June 26, 2015 at http://ori.hhs.gov/education/products/clinicaltools/data.pdf
+10. Who Owns Research Data? Accessed June 26, 2015 at http://ori.dhhs.gov/education/products/columbia_wbt/rcr_data/case/index.html#2 
+11. Constructing Access Permissions. Accessed June 26, 2015 at http://libweb.uoregon.edu/datamanagement/sharingdata.html#three
 
 
 

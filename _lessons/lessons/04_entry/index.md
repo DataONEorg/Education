@@ -210,6 +210,39 @@ Be aware of best practices when designing data file structures. Choose a data en
 1. Database Design for Mere Mortals: A Hands-On Guide to Relational Database Design (2nd Edition)  by Michael J. Hernandez.  Addison-Wesley.  2003.  
 2. Fundamentals of Relational Database Design by Paul Litwin. http://r937.com/relational.html. (Accessed May 12, 2016). 
 ---
+# Data Integration Best Practices
+- Maintain dataset provenance
+  - Document transformations
+  - Beware of accidental duplication
+- Review metadata for compatibility of context, methods, and meaning
+  - For what purpose was the data collected?
+  - How was the data collected?
+  - Is it sensible to combine these datasets?
+
+???
+At times you will need to combine multiple datasets into a superset in order to address your research question.  Here are the best practices that should be followed when integrating two or more datasets.
+---
+# Data Integration Best Practices
+- Ensure compatibility
+  - Convert to common units
+  - Choose appropriate numeric precision
+  - Evaluate and standardize missing value codes
+- Document all assumptions
+  - What assumptions underlie the original datasets?
+  - What assumptions did you make in combining the datasets?
+
+---
+# Data Integration Best Practices
+- Recognize that you are creating a new dataset
+  - Revisit the data life cycle to ensure the new dataset is properly documented, validated, and preserved
+- Use reproducible workflows
+  - Enable transparency and reproducibility in the integration process
+  - Ensure others understand and can evaluate your decision making process.
+  - Automate the integration as much as possible
+    - Especially when integrating many datasets or large datasets
+---
+
+
 
 
 

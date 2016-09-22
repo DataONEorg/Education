@@ -141,7 +141,6 @@ Here is another example of data validation using Excel.  Height has been defined
 ---
 # Spreadsheet versus Relational Database
 
-
 .one-half[
 - Great for charts, graphs, calculations
 - Flexible about cell content type—cells in same column can contain numbers or text

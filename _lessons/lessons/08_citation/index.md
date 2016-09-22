@@ -131,13 +131,36 @@ Easier to discover existing data relevant to a particular question
 
 # How to Cite Data
 
+* Similar to citing a published article or book
+ * Provide information necessary to identify and locate the work cited
+* Broadly-applicable data citation standards have not yet been established; use standards adopted by relevant academic journal, data repository, or professional organization
+* In "Achieving human and machine accessibility of cited data in scholarly publications" Starr et al. (2015) begin to lay out implementation guidelines across disciplines1
+doi: [10.7717/peerj-cs.1](https://doi.org/10.7717/peerj-cs.1)
+
+![screenshot of Starr et al. paper](images/slide10.png)
+
 ---
 
 # Examples of information needed in a citation 
 
+* **Author/Principal Investigator/Data Creator**
+* **Release Date/Year of Publication** – year of release, for a completed dataset 
+* **Title of Data Source** – formal title of the dataset
+* **Version/Edition Number** – the version of the dataset used in the study
+* **Format of the Data** – physical format of the data
+* **3rd Party Data Producer** – refers to data accessed from a 3rd party repository 
+* **Archive and/or Distributor** – the location that holds the dataset
+
 ---
 
 # Examples of information needed in a citation, continued
+
+* **Locator or Identifier** – includes Digital Object Identifiers (DOI), Handles, Archival Resource Key (ARK), etc.
+* **Access Date and Time** – when data is accessed online
+* **Subset of Data Used** – description based on organization of the larger dataset
+* **Editor or Contributor** – reference to a person who compiled data, or performed value-added functions
+* **Publication Place** – city and state and country of the distributor of the data
+* **Data within a Larger Work** – refers to the use of data in a compilation or a data supplement (such as published in a peer-reviewed paper)
 
 ---
 
@@ -146,8 +169,232 @@ Easier to discover existing data relevant to a particular question
 * **DataCite**: Creator (Publication Year): Title. Publisher. Identifier
 * **Dryad**: Author (Date of Article Publication) Data from: Article name. Dryad Digital Repository. doi: DOI number
 
+![CC image by Paxsimius on Flickr](images/slide13.jpg)
+*Image attribution: CC image by Paxsimius on Flickr*
 
+---
 
+# Examples of Data Citation Formats, continued
 
+* **Earth Science Information Partners (ESIP)<sup>1</sup>**:
+ * Required citation elements: Author. Release date. Title. Version. Archive/Distributor. Locator/Identifier. Access date and time.
+ * Optional citation elements: Subset Used; Editor, Compiler, or other important role; Distributor, Associate Archive, or other Institutional Role; Data Within a Larger Work
+ * Example citation: 
+   * Zwally, H. J., R. Schutz, C. Bentley, J. Bufton, T. Herring, J. Minster, J. Spinhirne, and R. Thomas. 2011. GLAS/ICESat L1A Global Altimetry Data, Version 33. [Indicate subset used]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. doi: http://dx.doi.org/10.5067/ICESAT/GLAS/DATA121. [Date Accessed].
 
+???
 
+More guidelines/suggestions from ESIP: http://wiki.esipfed.org/index.php/Interagency_Data_Stewardship/Citations/provider_guidelines
+
+---
+
+# Examples of Data Citation Formats, continued
+
+* **Research Data Alliance (RDA)**:
+ * The RDA Working Group on Data Citation (WG-DC)1 aims to bring together a group of experts to discuss the issues, requirements, advantages and shortcomings of existing approaches for efficiently citing subsets of data.
+ * Final recommendations of the WG-DC were published in “Data Citation of Evolving Data” in 20152.
+ * *Recommended citation elements*: persistent query identification and storage on versioned data; based on timestamping, a specific subset can be retrieved by re-executing the query. 
+ * Example citation:
+   * Stefan Proell (2015) “Austria Facts” created at 2015-10-07 10:51:55:0, PID[ark:12345/qmZi2wO2vv]. Subset of CIA: “The CIA World Factbook”, PID[ark:12345/cLfH9FjxnA].
+
+???
+
+1. https://www.rd-alliance.org/groups/data-citation-wg.html
+2. https://www.rd-alliance.org/system/files/documents/RDA-DC-Recommendations_150609.pdf
+
+---
+# What are examples of Persistent Identifiers?
+
+A **persistent identifier** should be included in the citation:
+
+* DOI (Digital Object Identifier)
+ * Globally unique, alphanumeric string assigned by a registration agency to identify content and provide a persistent link to its location. 
+ * May be assigned to any item of intellectual property that is defined by structured metadata
+ * Examples:10.1234/NP5678, 10.5678/ISBN-0-7645-4889-4; 10.2224/2004-10-ISO-DOI
+
+* ARK (Archival Resource Key)
+ * URL designed to support long-term access to information objects
+ * Can refer to digital, physical, or intangible objects or living beings and groups
+ * Example: http://ark.cdlib.org/ark:/13030/tf5p30086k
+
+???
+
+DOIs always start with 10.
+http://www.doi.org
+https://wiki.ucop.edu/display/Curation/ARK
+
+---
+
+# What are examples of Persistent Identifiers?
+
+More persistent identifiers:
+
+* UUID (Universally Unique Identifier)
+ * 'practically unique' identifiers that can be generated by distributed systems but later combined into a single database without needing to resolve identifier (ID) conflicts
+ * 32 hexadecimal digits, displayed in five groups separated by hyphens, in the form 8-4-4-4-12 for a total of 36 characters
+ * Example: 550e8400-e29b-41d4-a716-446655440000
+
+* Researcher identifier: ORCID (Open Researcher & Contributor ID)
+ * Central registry of unique identifiers for individual researchers to address author name ambiguity
+ * Transparent linking mechanism between ORCID and other author ID schemes
+
+???
+
+http://www.doi.org
+https://wiki.ucop.edu/display/Curation/ARK
+
+---
+
+# How to obtain a DOI for a dataset
+
+* Contact organization/institution that can create DOIs
+ * Organization hierarchy
+ 
+![diagram of organization/hierarchy for obtaining a DOI](images/slide18.png)
+
+* 20+ services registered through DataCite include
+ * California Digital Library’s EZID
+ * ANDS Cite My Data Service
+ * DataCite Canada
+
+???
+
+http://n2t.net/ezid
+
+Note: DOI's imply a long term commitment to making the data accessible and that the data should go to/be in a place willing to make that commitment.
+
+---
+
+# How to obtain a DOI for a dataset, continued
+
+.one-half[
+* Provide data and necessary citation profile (metadata)
+ * DataCite: creator, title, publisher, publication year
+ * Dublin Core: creator, title, publisher, date
+ * ERC: who, what, when
+ * Additional information: owner, owner group, co-owners
+* Receive DOI to be used for citation purposes
+]
+
+.one-half[
+![screenshot of UC3EZID interface](images/slide19.jpg)
+]
+
+???
+
+http://n2t.net/ezid
+
+Note: DOI's imply a long term commitment to making the data accessible and that the data should go to/be in a place willing to make that commitment.
+
+---
+
+# Collaborative effort
+
+* Requires participation of a variety of individuals and institutions
+ * Journal publishers
+ * Data publishers/repositories
+ * Data authors
+ * Data managers
+ * Data users
+ * Professional organizations
+ 
+![CC image via Wikimedia Commons (Masur, derivative of Al Maghi)](images/slide20.png)
+*Image attribution: CC image via Wikimedia Commons (Masur, derivative of Al Maghi)*
+
+---
+
+# Collaborating with publishers
+
+.two-third[
+* Data authors and managers should
+ * Choose appropriate repository for data publication
+ * Use common standards for data and metadata
+ * Work data up to publication standard
+ * Obtain citation information from data publisher and include it in associated paper in accordance with journal’s citation standards
+ * Include citations for any prior datasets used in research
+ * Notify data publisher (e.g., data center or repository) about associated paper(s)
+]
+
+.one-third[
+![logos of repositories and publishers](images/slide21.png)
+]
+
+???
+
+Work data up to publication standard – what does this mean? 
+
+Dryad
+
+Knowledge Network for Biocomplexity (KNB)
+
+Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)
+
+South Africa National Parks
+
+United States Geological Survey
+
+UC Curation Center Merritt
+
+---
+ 
+# Collaborating with publishers
+
+* Data centers or distributors should
+ * Ensure that data and metadata remain accessible, robust, and usable over time
+ * Assign persistent and unique identifiers so that data are discoverable
+ * Make data citation information easily findable by data users
+ 
+* Journal publishers should
+ * Provide clear guidance on how and where data sets should be cited
+ * Be responsive to needs of authors, funding agencies, and data repositories
+ * Alert data publisher when publishing a paper that cites a data set
+ 
+![Image courtesy of https://pixabay.com/en/collaboration-collaborator-book-1106196/](images/slide22.jpg)
+*Image attribution: https://pixabay.com/en/collaboration-collaborator-book-1106196/*
+
+---
+
+# Best Practices to Support Data Citation
+
+* To support access to your data:
+ * Use application that supports metadata creation for environmental data sets
+    * Morpho
+    * Metavist (USDA Forest Service)
+    * Mermaid (NOAA)
+ * Use standardized keywords to describe your data
+    * Biocomplexity Thesaurus (USGS)
+    * Global Change Master Directory (NASA)
+ * Use a persistent identifier such as DOI or ARK
+
+---
+
+# Best Practices to Support Data Citation, continued
+
+* Work with journal publishers and data repositories to archive data during the publication process
+ * Allows information about how to access your data set to be published with your article
+   * Note: Data repositories typically offer to embargo archived data for a pre-determined time period after publication
+ * Allows article citation/DOI to be included with archived data set
+
+* Encourage other data authors to cite data and to make their own data available for reuse:
+ * Provide full citation information for data whenever you publish work that makes use of another author’s data
+ * Archive your own data in a repository that supports data discovery and reuse
+ * Update your archived data sets when newer versions are available
+ 
+---
+
+# Citation of Scientific Software
+
+![Image courtesy of https://pixabay.com/en/code-programming-hacking-html-web-820275/](images/slide25.jpg)
+*Image attribution: https://pixabay.com/en/code-programming-hacking-html-web-820275/*
+
+*"Software citation is an evolving area. A web search for ‘how to cite software’ and its variants shows that this is a popular question. The answers can broadly be classed into citation formats recommended by journals, citation formats recommended/mandated by software providers and, most contentious, the view that software is not a citable output."*
+
+`- Mike Jackson, Software Sustainability Institute`
+
+???
+
+http://www.software.ac.uk/how-cite-and-describe-software?mpw
+
+---
+
+# 

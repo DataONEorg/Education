@@ -137,11 +137,11 @@ Most universities and government agencies have written policies that state that 
 # Why Does Ownership & Control Matter?
 
 .one-half[
-For Creators
-to derive benefit as a result of their work
-For others
-To avoid potential legal trouble
-To know where to get permission for use.
+* For Creators
+   * to derive benefit as a result of their work
+* For others
+   * To avoid potential legal trouble
+   * To know where to get permission for use.
 ]
 
 .one-half[
@@ -175,11 +175,11 @@ Reference: http://fairuse.stanford.edu/overview/faqs/copyright-basics/
 
 # Fact and Copyright
 
-Facts cannot be protected by copyright, but what is a fact?
-Current case law determines the limits.
-Feist Publications, Inc. vs. Rural Telephone Service Co.
-Baker v. Seldon
-Miller v. Universal Studios
+* Facts cannot be protected by copyright, but what is a fact?
+* Current case law determines the limits.
+   * Feist Publications, Inc. vs. Rural Telephone Service Co.
+   * Baker v. Seldon
+   * Miller v. Universal Studios
 
 ![Photo Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg](images/image06.jpg)
   *Photo Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg*

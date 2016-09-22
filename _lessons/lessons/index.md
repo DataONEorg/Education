@@ -5,7 +5,7 @@ categories: ed-module
 ---
 
 * [Module 1 - Data Management](01_management)
-* [Module 2 - Data Sharing](02_sharing)
+* [Module 2 - Data Sharing](02_datasharing)
 * [Module 3 - Data Management Planning ](03_planning)
 * [Module 4 - Data entry and manipulation](04_entry)
 * [Module 5 - Data quality control and assurance](05_qaqc)

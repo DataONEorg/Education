@@ -420,7 +420,7 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 
 ---
 
- # Summary
+# Summary
  
 * Know who can claim ownership or control over data products
 * Assign licenses or waivers appropriately

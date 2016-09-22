@@ -56,8 +56,6 @@ categories: ed-module
 ![Photo Attribution: https://www.dataone.org/data-life-cycle](images/DataONE_lifecycle.png)
 *Photo Attribution: https://www.dataone.org/data-life-cycle*
 
-<!-- These are notes for the presenter -->
-
 ???
 
 Data management planning is the starting point in the data life cycle. 
@@ -72,8 +70,6 @@ However the plan should be revisited often throughout the project to ensure prop
 - Ensures the data is safe for the **present** and the **future**
 
 *From University of Virginia Library*
-
-<!-- These are notes for the presenter -->
 
 ???
 
@@ -94,8 +90,6 @@ Data management plans are meant to ensure that the data will be preserved and us
 .one-third[![Photo Attribution: CC image Cathdew on Flickrby](images/image6.jpeg)
 *Photo Attribution: CC image Cathdew on Flickrby*
 ]
-
-<!-- These are notes for the presenter -->
 
 ???
 
@@ -122,8 +116,6 @@ If data are documented well both before and during data collection, it prevents 
 *Photo Attribution: CC0 image from The Noun Project*
 ]
 
-<!-- These are notes for the presenter -->
-
 ???
 
 Another reason to prepare a DMP is that it makes the data easier to preserve and archive.  Some data centers and repositories have specific requirements for data documentation, and knowing these requirements in advance saves time and effort that might be spent trying to append data after they are collected. 
@@ -149,8 +141,6 @@ Finally, data management plans are now required by most funding agencies. In 201
 
 [![Photo Attribution: CC0 image from The Noun Project](images/image8.png)
 *Photo Attribution: CC0 image from The Noun Project*
-
-<!-- These are notes for the presenter -->
 
 ???
 
@@ -269,6 +259,86 @@ If the dataset will be combined in the future with existing data, how you will e
 You should describe how data will be managed in the short term.  How will you keep track of different versions of the data and analyses? How will you back up the data?  Are servers available at your institution? Consider both on-site and off-site backup options.  Describe how you will ensure the security of the data, especially if the data are sensitive. Who will have access to the data? 
 
 Be sure to identify who will be responsible for short-term data management. Assign roles and responsibilities for data management, archiving, version control, and backing up.
+
+---
+
+# 2. Metadata Content & Format
+
+**Metadata** defined: 
+- Documentation and reporting of data
+- Contextual details: Critical information about the dataset
+- Information important for using the data
+- Descriptions of temporal and spatial details, instruments, parameters, units, files, etc. 
+
+[![Photo Attribution: CC0 image from The Noun Project](images/image13.png)
+*Photo Attribution: CC0 image from The Noun Project*
+
+???
+
+The second major category for a DMP is metadata content and format. First, we should define metadata. Metadata is data documentation. It includes contextual details about data collection and any information that is important for using and understanding the data. Examples of some of the many components of metadata are temporal and spatial details, instruments used, parameters, units, etcetera. 
+
+---
+
+# 2. Metadata Content & Format
+
+.two-third[
+## 2.1  What metadata are needed
+  - Any details that make data meaningful
+
+## 2.2  How metadata will be created and/or captured
+  - Lab notebooks? GPS units? 
+  - Auto-saved on instrument?
+
+## 2.3   What format will be used for the metadata
+  - Standards for community
+  - Justification for format chosen
+]
+
+.one-third[
+[![Photo Attribution: CC0 image from The Noun Project](images/image14.png)
+*Photo Attribution: CC0 image from The Noun Project*
+]
+
+???
+
+This section of the DMP should first describe how the metadata will be created or captured.  For instance, will field or lab notebooks be used to record critical information? Will instruments such as GPS units be implemented for data collection? Will metadata be saved automatically by the instrument you are using?
+
+Indicate what format, or metadata standard, will be used.  There are many different metadata standards available. Ask colleagues about what is commonly used in your discipline. Also, check with the repository or data center with which you plan to archive the data - many have metadata format requirements.   Justify the format you choose for your metadata, considering your research community, the data center you will use, and the nature of the project.
+
+---
+
+# 3. Policies for Access, Sharing, Reuse
+
+.two-third[
+## 3.1  Obligations for sharing
+  - Funding agency
+  - Institution
+  - Other organization
+  - Legal
+
+## 3.2  Details of data sharing
+  - How long?
+  - When? 
+  - How access can be gained?
+  - Data collector rights
+
+## 3.3  Ethical/privacy issues with data sharing
+]
+
+.one-third[
+[![Photo Attribution: CC0 image from The Noun Project](images/image15.png)
+*Photo Attribution: CC0 image from The Noun Project*
+]
+
+???
+
+The third section of a data management plan should describe policies for access, sharing, and reuse of the data. 
+
+What obligations do you have to share the data? Sharing requirements may come from your institution, your funder, or your professional society. There may also be legal obligations for sharing the data. 
+
+You should also describe the details of how you will share the data.  How long after collection will data be available? When will access be granted to interested users?  Who will have access to those data? How will they gain access?  Will the data collector, creator, or PI have exclusive rights to data for a certain period of time?
+
+Be sure to address any ethical or and privacy issues associated with the data. For example, If the data involves human subjects, endangered species, or locations of sensitive habitats, you may have special considerations for data sharing.
 
 ---
 

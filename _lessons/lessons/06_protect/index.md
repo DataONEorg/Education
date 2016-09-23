@@ -49,7 +49,7 @@ Q4: What are some good practices to follow when naming files?  Suggested answers
 ---
 # The DataONE Data Life Cycle
 
-
+![Image Caption Here](images/dlc.png)
 
 ???
 In this lesson we will be focusing on data protection and backup which is associated with the categories assure and preserve in the data life cycle.  For definitions of the DataONE Data Life Cycle, see: dataone.org/data-life-cycle
@@ -58,6 +58,7 @@ In this lesson we will be focusing on data protection and backup which is associ
 
 ---
 # Data Protection, Backups, Archiving, Preservation:
+
 Differences at a Glance
 - Data Protection
   - Includes topics such as backups,  archives, and preservation; also includes physical security, encryption, and others not addressed here
@@ -74,8 +75,11 @@ The terms data protection, data backups, data archiving, and data preservation a
 The terms data backups and data archiving are often used interchangeably as they both relate to saving a specific version of a file, but they do convey different processes.  The term “backup” is used specifically when making copies of various files with the knowledge that the files may change.  Backups are kept for a certain amount of time, but can be discarded after a specified time has passed.  Archiving is used when a file is to be preserved as-is, often at the end of a project and acts as a static (and usually final) record.
 
 Data preservation encompasses many of these same methodologies, but can also include things like data rescue, reformatting of files, converting data, and the creation of metadata.  These first three topics will be discuss briefly in this lesson; however, metadata will be covered in another lesson.
+
 ---
+
 # A Closer Look: Backups vs. Archiving
+
 - Backups
   - Used to take periodic snapshots of data in case the current version is destroyed or lost
   - Backups are copies of files stored for short or near-long-term
@@ -94,8 +98,12 @@ For example, when a user performs a backup, they are in essence taking a snapsho
 Archiving deals more with records that could be used to create a historical snapshot of the data. This provides for preservation of the data for future needs.  Usually, archives are made when  a project ends, or when appropriate.
 
 Regardless of whether you are dealing with backups or archives, you should have multiple copies in multiple places in case one (or many) versions fail.
+
 ---
+
 # Why Perform Backups?
+
+.two-thirds[
 - Limit or negate loss of data, some of which may not be reproducible
 - Save time, money, productivity
 - Help prepare for disasters
@@ -105,6 +113,10 @@ Regardless of whether you are dealing with backups or archives, you should have 
 - Reproduce results of past procedures (if they were based on older files)
 - Respond to data requests
 - Limit liability
+]
+
+![backup](images/image6.jpg)
+
 
 ???
 There are many reasons to perform backups including:
@@ -114,8 +126,11 @@ There are many reasons to perform backups including:
  - allows you to go back to earlier versions and see what your results were.  For example, if you are creating models and used data from an earlier model run, the most recent file you have on your computer may not have the same data as when you first created the model output.
  - provides for the ability to send older files to others, regardless of the current version or state (for example, if the current version has been corrupted)
  - may allow you to respond during times when questioned results were based on older versions of files.  For example, you may find that you will have to justify your results in court or to other scientists.  By having access to older files, you may be able to respond to their requests for information.  Or, you may not be able to reproduce the data, and the original copy may be the only evidence of the data collection.
+ 
 ---
+
 # Backups: Things to Consider
+
 - What are the existing policies that might affect how and when you do data backups?
   - May be separate project, office, department, funding source, or organizational polices
     - Policies may differ between groups; which has precedence?
@@ -136,8 +151,11 @@ data backups are often a small part of a good and comprehensive data management 
 Many offices already have backup systems in place, managed by IT staff.  But before you assume backups are being performed for you, you should confirm someone is responsible.  Even if there is a backup system available, it may only cover certain enterprise-wide systems (like servers), and not desktops.  And many offices have little or no IT staff, so performing backups may be solely up to you.
 You should identify and review the various policies (if available) and ensure they fit your needs and requirements.  If they don’t, you may need to discuss this with those involved in managing the backups or, establish your own schedule and plan.
 You should identify and contact the person(s) in your institution or organization is responsible for overall data stewardship and data management planning.
+
 ---
+
 # Backups: Things to Consider; continued
+
 - How often should you do backups to capture significant change?
   - Cost versus benefit
   - Continually? Daily? Weekly? Monthly?
@@ -163,8 +181,11 @@ How often and what kind of backups you have depend upon how important your data 
 You should also think about how non-electronic files are backed up.  A disaster damages all files – not just electronic ones.
 You may want to consider digitizing non-digital files so that they can be managed by an electronic backup system.  Make sure if you scan in the non-digital files that you scan them at a high DPI so that you do not lose any information.
 Even if the information contained in a non-digital file (such as a field notebook) is entered into an electronic system, you may still want to scan in the paper copy so that the format and presentation of the original file is preserved.
+
 ---
+
 # Backups: Things to Consider, continued
+
 - Where will you backup your files?
   - May depend upon project requirements, etc. 
     - Personal external disk, centralized computer storage (Dropbox), “cloud” storage (Amazon, Google)
@@ -182,8 +203,10 @@ Where you backup your files depends on a variety of things:
  - While CDs and DVDs are cheap and frequently used to copy and share data, they have limited shelf-life and therefore are not reliable.
  Some repositories may require some form of metadata in order for you to upload your data.  If you have been creating metadata records during the lifecycle of your project, then this information will be handy and accurate. Metadata should also be created for backup copies.  For more information about creating metadata, see the learning module on “Metadata.”
 - Even if you already have one backup in place, you may want to make sure your data is backed up in another location.  If you backup your data to an external drive attached to your desktop computer and there’s a fire in your office, both versions of your data will be destroyed.  Also, there’s no guarantee that your backups are reliable or safe.  Failures can happen on any system.
+
 ---
 # Considerations
+
 - How are backups carried out?
   - Manually may work for single files, but requires that the user remembers to perform regular backups and can be time-consuming
   - Automated backups can be run on a set schedule that doesn’t require the user to remember
@@ -201,8 +224,10 @@ Many computers come with their own backup software, as do external hard drives.
 Creating the backups is just part of the process.  You need to know how to get the data off of the backups.  If the files are located locally (for example on an external drive on your machine), then a user will probably be able to access the files.  But if the system is handled by someone else, such as IT staff, there may be restrictions on who can access the files.  If this is the case, do you know how to contact this person?  Do you know who this person is?
 
 If only one member of the IT staff handles this task, and they are unavailable, how will you access your files then?  In addition, some systems create backups that mirror the file structure of the source data.  But some backup systems create one massive file that requires software or programming in order to access files.  Make sure more than one person knows how to perform this task.  Often when you need a file off of backup, it is during an emergency.
+
 ---
 # Considerations
+
 - How do you verify a backup has been successfully performed?
   - Most backup software will have a log file that contains details of the backup (which files, when the backup was created)
   - However, don’t rely solely on the log file 
@@ -220,6 +245,7 @@ A log file can report a successful backup, but it may be backing up the wrong fi
 ---
 
 # Considerations
+
 - If you are working with someone, such as an IT group, who helps manage and perform backups, confirm and verify that the backup process has been successfully completed
 - How do you verify a backup has been successfully performed? 
   - Since manual checks of all of the files in your backup is probably not possible, you should utilize other methods such as checking file sizes, date stamps, and checksum values.
@@ -228,8 +254,12 @@ A log file can report a successful backup, but it may be backing up the wrong fi
 ???
 Since you will probably not be able to manually verify all of the files, you should explore and understand some other methods such as checking and comparing file sizes, file dates, and checksum values.
 Checksum values are numeric numbers that are based upon mathematical calculations.  You use a program to calculate the checksum on the original file, then calculate the checksum on the backup copy.  If the values match, then it’s quite likely the files are the same. There are various programs available to calculate checksums on files. 
+
+
 ---
+
 # Considerations
+
 - Are there backups of the backups?
   - Necessary for high-value data 
   - Usually different copies of backups are kept in different locations
@@ -245,23 +275,40 @@ As a reminder, you will want to make sure that there are multiple versions of yo
 You also want to consider how long to keep your backups.  You may keep full backups for a month, but with incremental backups you may need to do  only once a week.  You may also keep the current backup onsite for a week, but keep the previous three backups offsite, rotating the backups as new ones are made.
 
 Finally, what will happen to backups (or archives) once the project has ended or the funding runs out?  Will your office or program take ownership of the files?
+
 ---
+
 # Data in Real Life
+
 A design firm was handling their own backups.  The system was working and the backup software was reporting that the data was successfully backed up. 
 
----
-# Data in Real Life
-The administrator checked the backups immediately after they were done and confirmed they were good.
+![backup](images/image7.jpg)
+![backup](images/image8.jpg)
+![backup](images/image10.jpg)
+
 
 ---
+
 # Data in Real Life
+
+The administrator checked the backups immediately after they were done and confirmed they were good.
+
+![backup](images/image11.jpg)
+
+---
+
+# Data in Real Life
+
 After a computer virus erased most of their files, they went back to their backups.  Unfortunately they found that the backups were all blank and all of the data was gone.  Only after some investigation did they discover that the computer tapes (which contained the backups) were placed against a wall that had an elevator on the other side of it.  When the elevator went past, the magnets inside erased all of the tapes.
 - Had they checked their backups properly, they probably would have noticed this before there was an emergency
 
 ???
 Unfortunately their computer system became infected with a virus and erased much of their data.  They went back to their backups and found that the backups were all blank and all of the data was gone.  Only after some investigation did they discover that the computer tapes (which contained the backups) were placed against a wall that had an elevator on the other side of it.  When the elevator went past, the magnets inside erased all of the tapes.  Had they checked their backups properly, they probably would have noticed this before there was an emergency.
+
 ---
+
 # Final Considerations
+
 - Can you read data from older backups?
   - Media changes. You may no longer be able to  read older versions and formats such as floppy disks, Jazz  and Zip drives, WordPerfect files, etc.
 - Media can degrade quickly, unexpectedly, inconsistently
@@ -280,8 +327,11 @@ You will also want to consider what will happen to older backups.  Do you want t
 How long  you keep your backups are up to you and your specific circumstance.  But generally it’s best to keep backups for weeks to months, as often you don’t find you need a file off of a backup until weeks after the fact.
 
 A good rule of thumb is: only backup the data you can’t afford to lose.  For many of us, that is the majority of our files.
+
 ---
+
 # Data Preservation
+
 - By managing and preserving your data well, data rescue may not be necessary.  Why? 
   - Addition of relevant metadata, proper file naming (can help the file from getting lost in the system), utilization of proper file formats (lets you open the file without having to convert the file), backups (limits loss of files), and media types (limits degradation of files), you may limit or prevent the need for data rescue.
 - A good data management plan is another tool to help limit the need for data rescue.
@@ -290,7 +340,9 @@ A good rule of thumb is: only backup the data you can’t afford to lose.  For m
 If data is well-preserved, then data rescue may not be necessary. With proper file naming (can help the file from getting lost in the system), utilization of proper file formats (lets you open the file without having to convert the file), backups (limits loss of files), and media types (limits degradation of files), you may limit or prevent the need for data rescue.  A good data management plan, which is discussed in another lesson, is another important tool in limiting the need for data rescue.
 
 ---
+
 # Processes Related to Data Preservation
+
 - Includes backups and archiving in addition to processes such as data conversion, data reformatting, and data rescue
   - Older files may no longer be in a usable format and may require conversion or “rescue” before the data can be used.
   - Data reformatting, conversion, and backup becomes even more important as projects finish up and/or are no longer funded.  
@@ -301,8 +353,11 @@ If data is well-preserved, then data rescue may not be necessary. With proper fi
 Our last topic covers Data Preservation.  Data preservation is a comprehensive topic on its own, which includes things such as backups, archives, data conversion, reformatting, and rescue.
  “Data rescue” deals directly with older files that may no longer be in a format that is easily accessible and will require some “rescuing” before it can be used again
  Data rescue becomes more and more important as projects end.  Even if data was being preserved through the lifetime of the project, often files go untouched or orphaned.  Frequently, data has not been managed properly, and requires that some form of data rescue be performed so that the data isn’t a total loss.
+ 
 ---
+
 # Preservation Formats and Version Strategies
+
 - Create useful, relevant metadata
 - Data Conversions and Formats
   - Use non-proprietary, standard formats
@@ -319,8 +374,11 @@ When preserving your data, you need to consider many things:
  Data formats: it is best to use non-proprietary and standardized formats.  This will better ensure readability in the future.  Use formats such as .txt or .pdf.
  Versioning: make sure to use some sort of naming convention (such as incremental letters or numbers) to help keep track of file edits and revisions.  This will also help you more quickly locate the correct version of a specific file.
  Naming: use file names that are consistent, descriptive, and concise.  Many software programs use a generic file name as their default file output and usually these names are too general to be useful.
+ 
 ---
+
 # Recommended Practices
+
 - Create a preservation policy that clearly identifies:
   - roles
   - responsibilities
@@ -340,7 +398,9 @@ Handling backups without the assistance of software or specifically-tasked staff
   Larger projects and offices will probably want to have specific IT staff tasked to handle backups.  They are more likely to keep updated with current best practices.  However, some offices may have little or no IT support, so ensuring that proper backups are being performed may be left up to you.
 
 ---
+
 # Recommended Practices, continued
+
 - Minimize or remove reliance on users to perform own manual backups (if possible)
   - Implement standardized and automatic backups
   - If possible, put experts in charge of this task (computer staff) as they are more likely to keep up-to-date regarding software updates, hardware issues, best practices, etc.
@@ -354,7 +414,9 @@ Handling backups without the assistance of software or specifically-tasked staff
 If possible, do not rely upon manual backups.  Utilizing an automated system will probably be faster and do a better job of saving your files.  If available, have your IT or support staff help you with your backups.  Again, do not assume that backups are being handled for you.  Even if someone else is handling them, make sure the backups are tested.  In addition, if you are relying upon third-party systems, they may or may not be handling backups on their end.  Lastly, to ensure future readability, use non-proprietary, standard formats.
 
 ---
+
 # Recommended Practices, continued
+
 - Check your backups manually
   - Start with log files, as they may tell you the backup was unsuccessful
   - Do not rely solely on the log files – they may be incorrect or the data may have become corrupted after the file was transferred
@@ -369,14 +431,22 @@ Again, do not assume that backups are being handled for you.  Even if someone el
 Have multiple versions in multiple places.  For example, have a backup that goes to an external drive in your office and another one that is copied on to a tape drive and stored off-site.
 
 By following the recommendations in these lessons, you limit the need for data rescue of older files.
+
 ---
+
 # Data in Real Life
+
 In 2011, a software bug caused some Gmail users to lose access to their email.  Fortunately, Google had backups! 
+
+![Backup](https://dataoneorg.github.io/dataone_lessons/lessons/06_protect/images/image12.jpg)
 
 ???
 Again, do not assume that backups are being handled for you.  Even if someone else is handling them, make sure the backups are tested.  In addition, if you are relying upon third-party systems, they may or may not be handling backups on their end.
+
 ---
+
 # Summary
+
 - Data preservation is more than just backing up and archiving your files
   - organizational infrastructure, technological situation, resources
 - When devising a preservation strategy, one needs to consider how often to perform backups, where to backup, accessibility to backups and how long to keep the files
@@ -389,21 +459,28 @@ There are many reasons we need to perform backups but primarily to prevent data 
 One needs to consider how often to perform backups, where to backup, and accessibility to backups when you need them and how long to keep the files
 Check for backups on outdated media and test backups often! 
 Data preservation more than just backing up and archiving your files.
+
 ---
+
 # References
+
 1. Stanford University Libraries, Data Management Plans, (Stanford University Libraries), https://library.stanford.edu/research/data-management-services, (accessed 9/21/2016)
 2. Albanesius, Chloe, Google: Storage software update led to e-mail bug, http://www.pcmag.com/article2/0,2817,2381168,00.asp (accessed 09/21/2016)
 3. Van den Eynden, Veerle, Corti, Louise, Woollard, Matthew, Bishop, Libby and Horton, Laurence, Managing and Sharing Data, http://www.data-archive.ac.uk/media/2894/managingsharing.pdf , and companion materials, https://www.ukdataservice.ac.uk/manage-data/handbook (accessed 09/21/2016)
 
 For more information about physical security, encryption, and data disposal, visit:  http://www.data-archive.ac.uk/media/2894/managingsharing.pdf
+
 ---
+
 The full slide deck may be downloaded from:
 http://www.dataone.org/education-modules
 
 Suggested citation:
 DataONE Education Module: Data Protection. DataONE. Retrieved Sept 21, 2016. From http://www.dataone.org/sites/all/documents/L06_DataProtection.pptx 
 
-Copyright license information:
+
+![backup](images/image13.jpg)
+
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 ---
 

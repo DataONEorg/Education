@@ -1,5 +1,5 @@
 ---
-title: Data Quality Control and Assurance
+title: "Data Quality Control and Assurance"
 update: Sept. 22, 2016
 layout: slides
 ---

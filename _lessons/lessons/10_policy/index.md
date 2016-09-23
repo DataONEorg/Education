@@ -1,5 +1,5 @@
 ---
-title: Legal & Policy Issues
+title: "Legal & Policy Issues"
 update: Sept. 21, 2016
 layout: slides
 ---

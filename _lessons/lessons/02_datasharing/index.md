@@ -1,5 +1,5 @@
 ---
-title: Data sharing
+title: "Data sharing"
 author: DataONE Community Engagement & Outreach
 update: Sept. 20, 2016
 layout: slides

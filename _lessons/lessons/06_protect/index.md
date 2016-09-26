@@ -115,7 +115,7 @@ Regardless of whether you are dealing with backups or archives, you should have 
 - Limit liability
 ]
 
-![](images/image6.jpg)
+![](images/image6.jpeg)
 
 ???
 There are many reasons to perform backups including:
@@ -281,9 +281,9 @@ Finally, what will happen to backups (or archives) once the project has ended or
 
 A design firm was handling their own backups.  The system was working and the backup software was reporting that the data was successfully backed up. 
 
-![](images/image7.jpg)
-![](images/image8.jpg)
-![](images/image10.jpg)
+![](images/image7.png)
+![](images/image8.png)
+![](images/image10.png)
 
 
 ---
@@ -292,7 +292,7 @@ A design firm was handling their own backups.  The system was working and the ba
 
 The administrator checked the backups immediately after they were done and confirmed they were good.
 
-![](images/image11.jpg)
+![](images/image11.jpeg)
 
 ---
 
@@ -437,7 +437,7 @@ By following the recommendations in these lessons, you limit the need for data r
 
 In 2011, a software bug caused some Gmail users to lose access to their email.  Fortunately, Google had backups! 
 
-![Backup](https://dataoneorg.github.io/dataone_lessons/lessons/06_protect/images/image12.jpg)
+![Google backup](images/image12.jpeg)
 
 ???
 Again, do not assume that backups are being handled for you.  Even if someone else is handling them, make sure the backups are tested.  In addition, if you are relying upon third-party systems, they may or may not be handling backups on their end.
@@ -478,7 +478,7 @@ Suggested citation:
 DataONE Education Module: Data Protection. DataONE. Retrieved Sept 21, 2016. From http://www.dataone.org/sites/all/documents/L06_DataProtection.pptx 
 
 
-![CC-by](images/image13.jpg)
+![CC-by](images/image13.png)
 
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 ---

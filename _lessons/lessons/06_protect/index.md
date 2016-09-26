@@ -115,8 +115,7 @@ Regardless of whether you are dealing with backups or archives, you should have 
 - Limit liability
 ]
 
-![backup](images/image6.jpg)
-
+![](images/image6.jpg)
 
 ???
 There are many reasons to perform backups including:
@@ -282,9 +281,9 @@ Finally, what will happen to backups (or archives) once the project has ended or
 
 A design firm was handling their own backups.  The system was working and the backup software was reporting that the data was successfully backed up. 
 
-![backup](images/image7.jpg)
-![backup](images/image8.jpg)
-![backup](images/image10.jpg)
+![](images/image7.jpg)
+![](images/image8.jpg)
+![](images/image10.jpg)
 
 
 ---
@@ -293,7 +292,7 @@ A design firm was handling their own backups.  The system was working and the ba
 
 The administrator checked the backups immediately after they were done and confirmed they were good.
 
-![backup](images/image11.jpg)
+![](images/image11.jpg)
 
 ---
 
@@ -479,7 +478,7 @@ Suggested citation:
 DataONE Education Module: Data Protection. DataONE. Retrieved Sept 21, 2016. From http://www.dataone.org/sites/all/documents/L06_DataProtection.pptx 
 
 
-![backup](images/image13.jpg)
+![CC-by](images/image13.jpg)
 
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 ---

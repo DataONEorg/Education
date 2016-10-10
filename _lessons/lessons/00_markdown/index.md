@@ -1,5 +1,5 @@
 ---
-title: Moving the lessons to github
+title: "Moving the lessons to github"
 author: DataONE Community Engagement & Outreach
 update: Sept. 20, 2016
 layout: slides
@@ -34,7 +34,7 @@ Lesson title and metadata go in the `yaml` header:
 
 ~~~ yaml
 ---
-title: Lesson title
+title: "Lesson title"
 update: Sept. 20, 2016
 layout: slides
 ---

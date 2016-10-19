@@ -17,17 +17,18 @@
 html,
 body {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 20em;
 }
 pre,
 code {
   font-family: "Source Code Pro", "Consolas", "DejaVu Sans Mono", monospace !important;
 }
 h1 {
-  font-size: 150% !important;
+  font-size: 160% !important;
   font-weight: bold;
   color: black;
   margin-top: 0;
-  margin-bottom: 2em;
+  margin-bottom: 1.4  em;
 }
 h2,
 h3,
@@ -35,6 +36,7 @@ h4,
 h5,
 h6 {
   color: #660033;
+  margin: 0 0 .05em 0;
 }
 table {
   border-collapse: collapse;
@@ -72,7 +74,7 @@ th {
 .three-fourth {
   clear: right;
   float: left;
-  padding: 0.4em;
+  padding: 0.6em;
   box-sizing: border-box;
 }
 .one-third {
@@ -274,4 +276,55 @@ img {
   border-radius: 5px;
   background-color: #d6d6d6;
   display: inline-block;
+}
+
+.remark-slide-content {
+  padding: 2.5em 4.5em;
+  font-size: 25px;
+}
+
+.remark-slide-content > ul li {
+    padding: .5em 0;
+}
+
+/* Add a Caption to an image */
+.one-fourth p .caption,.caption, .caption p {
+ font-size: .6em;
+ line-height: .5em;
+ font-style: italic;
+}
+
+/* Resize graphic to fit image */
+
+.wCaption img {
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.wCaption-50 img {
+  max-height: 50%;
+  max-width: 50%;
+}
+
+blockquote {
+    background-color: #fff;
+    border-radius: .3em;
+    display:  block;
+    padding: 5px 10px 5px 25px;
+    margin: 30px 0 10px;
+    position: relative;
+    /*Box Shadow - (Optional)*/
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+
+    /*Borders - (Optional)*/
+    border-left: 5px solid #ccc;
+    border-right: 2px solid #ccc;
+}
+
+blockquote p {
+    line-height: 2.1em;
+    color: #272822;
+    font-style: italic
 }

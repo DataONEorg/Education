@@ -288,10 +288,14 @@ img {
 }
 
 /* Add a Caption to an image */
-.one-fourth p .caption,.caption, .caption p {
+.caption {
  font-size: .6em;
  line-height: .5em;
  font-style: italic;
+}
+
+img + em {
+  font-size: .7em
 }
 
 /* Resize graphic to fit image */

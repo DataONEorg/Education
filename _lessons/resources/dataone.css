@@ -26,7 +26,7 @@ code {
 h1 {
   font-size: 160% !important;
   font-weight: bold;
-  color: black;
+  color: #660033;
   margin-top: 0;
   margin-bottom: 1.4  em;
 }
@@ -295,7 +295,20 @@ img {
 }
 
 img + em {
-  font-size: .7em
+  font-size: .4em;
+  display: block;
+}
+
+img + em a {
+    color: #660033;
+    text-decoration: none;
+    border-bottom: 1px dashed #ccc
+}
+
+img + em a:hover {
+    color: #660033;
+    text-decoration: none;
+    border-bottom: 1px dashed #660033
 }
 
 /* Resize graphic to fit image */

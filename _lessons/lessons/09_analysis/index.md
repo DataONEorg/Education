@@ -102,4 +102,22 @@ Easier to discover existing data relevant to a particular question
 ![citation needed](images/image7.jpeg)
 
 ---
+# How to Cite Data
+- Similar to citing a published article or book
+  - Provide information necessary to identify and locate the work cited
+- Broadly-applicable data citation standards have not yet been established; use standards adopted by relevant academic journal, data repository, or professional organization
+
+---
+# Examples of information needed in a citation
+- **Author/Principal Investigator/Data Creator**
+- **Release Date/Year of Publication** - year of release, for a completed dataset 
+- **Title of Data Source** -formal title of the dataset
+- **Version/Edition Number** -the version of the dataset used in the study
+- **Format of the Data** -physical format of the data
+- **Third Party Producer** - refers to data accessed from a 3rd party repository 
+- **Archive and/or Distributor** – the location that holds the dataset
+
+---
+# Examples of information needed in a citation
+
 

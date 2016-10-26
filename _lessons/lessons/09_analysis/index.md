@@ -33,10 +33,10 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 
 ---
 # Definitions
-**bold**Data Citation: 
+**Data Citation:** 
   - “The practice of providing a reference to data in the same way as researchers routinely provide a bibliographic reference to printed resources.”
   - “A key practice underpinning the recognition of data as a primary research output rather than as a by-product of research.”
-**bold**Data author:
+**Data Author:**
   - “Individual involved in research, education, or other activities that generate digital data that are subsequently deposited in a data collection”
 
 ???
@@ -48,7 +48,7 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 
 ---
 # Definitions, continued
-**bold**Persistent identifier:
+**Persistent Identifier:**
   - A unique web-compatible alphanumeric code that points to a resource (e.g., data set) that will be preserved for the long term (i.e., over several hardware and software generations)
   - Should direct to latest available version of resource or to metadata which enables acquisition of desired version or format
 

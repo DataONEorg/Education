@@ -11,7 +11,8 @@ layout: slides
 - Collaborating to support data citation
 - How to cite data
 - How to obtain a persistent identifier for a data set
-- Best practices to support data citation
+- Best practices for data citation
+
 ---
 # Learning Objectives
 After completing this lesson, the participant will be able to: 

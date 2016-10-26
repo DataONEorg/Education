@@ -38,3 +38,87 @@ In this tutorial we will be focusing on data analysis which appears here in the 
  
 
 ---
+# Data Analyses
+- Conducted via personal computer, grid, cloud computing
+- Statistics, model runs, parameter estimations, graphs/plots, etc.
+
+
+???
+
+The types of analyses, software, and hardware used by ecologists and environmental scientists vary widely.  Personal computers are commonly used to perform these analyses. Other computational tools are grid and cloud computing.
+ 
+Grid computing integrates large-scale resources such as computational devices, data applications, and scientific instruments to understand and explore research questions efficiently. It is also commonly used to share, manage, and process large datasets in physics, geophysics, astronomy, and bioinformatics.  
+ 
+Cloud computing is location-independent computing, whereby shared servers provide resources, software, and data to a various number of external computers located elsewhere.
+ 
+Examples of data analyses that might be used with any of these computational tools are statistics, model runs and simulations, parameter estimations, plotting of spatial data, or visualizations such as graphs. The types of analyses vary widely both among and within scientific areas of study.
+
+---
+# Types of Analyses
+- Processing: subsetting, merging, manipulating
+  - Reduction: important for high-resolution datasets
+  - Transformation: unit conversions, linear and nonlinear algorithms
+  
+???
+Typically the first step in any data analysis is processing the data. Processing can include selecting a subset of the data for analysis, merging multiple datasets, or manipulating the data so it is more useable by a researcher or a computer program.  
+ 
+A common requirement for large datasets is to reduce the amount of data in the working data file. This makes computing and handling of the dataset easier.  For example, a sensor might take a temperature measurement every 5 seconds for one year.  For the study, only monthly patterns are important. We might therefore only use one data point for every 5 minutes. 
+ 
+Data will also need to be transformed before use.  This might involve the conversion of data to common units, normalization of data collected by multiple people and instruments, or developing algorithms for converting raw data into meaningful values. 
+ 
+An example of data transformation is shown here, the relatively meaningless string of numbers on the left, which were raw output from a sensor, can be transformed into the table on the right, which is more understandable for humans.
+
+---
+# Types of Analyses
+- Graphical analyses
+  - Visual exploration of data: search for patterns
+  - Quality assurance: outlier detection
+  
+???
+Another way to analyze data is by visually representing it.  Numbers in charts can be difficult to interpret but patterns can be readily apparent in a few well-chosen graphs or other visual representations.
+ 
+Examples of different types of plots are scatter plots and Box-and-whisker plots, which show the statistical distribution of data. 
+ 
+On the left is a scatter plot of temperatures for the month of August. The general pattern is easily discernable, and particularly warm measurements are readily apparent.
+ 
+On the right is a box-and whisker plot of monthly temperatures. The boxes indicate averages, and measurements far from the averages are visible as red dots outside of the error bars.
+ 
+Plots can be used to assure the quality of data as well. They can quickly show you potential data errors such as impossible values.
+
+---
+# Types of Analyses
+- Statistical analyses
+  **Conventional Statistics**
+    - Experimental data
+    - Examples: ANOVA, MANOVA, linear  and nonlinear regression
+    - Rely on assumptions: random sampling, random & normally distributed error, independent error terms, homogeneous variance
+   **Descriptive Statistics**
+   - Observational or descriptive data
+   - Examples: diversity indices, cluster analysis, quadrant variance, distance methods, principal component analysis, correspondence  analysis
+
+???
+Statistics are among the most common types of analyses performed on data. 
+ 
+There are many different types of statistical analyses, only a few of which we show here.  Conventional statistics are often used to understand experimental data. The most common types are analysis of variance (ANOVA), multivariate analysis of variance (MANOVA), and regressions. Conventional statistics tend to rely on assumptions such as random error and homogeneous variance. 
+ 
+Descriptive statistics are traditionally applied to observational or descriptive data. Descriptive data might include the distribution of organisms in space, species-abundance relationships, inter-specific associations, community structure, similarity or dissimilarity, and community-habitat relationships. Statistics used to understand these types of data include diversity indices, cluster analysis, and principle components analysis, among many others
+
+---
+# Types of Analyses
+- Statistical analyses (continued)
+  - Temporal analyses: time series
+  - Spatial analyses: for spatial autocorrelation
+  - Nonparametric approaches useful when conventional assumptions violated or underlying distribution unknown
+  - Other mis. analyses: risk assessment, generalized linear models, mixed models, etc.
+- Analyses of very large datasets
+  - Data mining and discovery
+  - Online data processing
+  
+???
+Statistical analyses might also include temporal or spatial analyses, and nonparametric approaches which do not rely on specific assumptions about the data’s distribution, and many other types of analysis, including risk assessment and GLM’s.
+ 
+Analyzing very large datasets requires special considerations.  The process can often be broken into two steps. 
+The first involves discovering and mining for the data of interest. This is typically done via computers and involves pattern searching and the use of decision trees.
+The second step involves online data processing. Large datasets can be analyzed using high-performance computing systems such as cloud computing.
+
+---

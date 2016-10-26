@@ -80,7 +80,7 @@ Hakala, J. Persistent identifiers – an overview. Accessed May 10, 2012 at http
 - Increases transparency of scientific research
 
 ???
-Adoption of practices that rely on publishing infrastructure help to ensure data will be available in the future --- is this really true? I reworded it, but just thinking about it…nothing is guaranteed…?
+Adoption of practices that rely on publishing infrastructure may help to ensure data will be available in the future... though nothing is guaranteed…?
 Prevents ‘data stealing’ because rules of publication apply to citable data in that it must be cited or treated as plagiarism….
 Easier to discover existing data relevant to a particular question
 

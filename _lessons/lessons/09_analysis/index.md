@@ -85,3 +85,21 @@ Prevents ‘data stealing’ because rules of publication apply to citable data 
 Easier to discover existing data relevant to a particular question
 
 ---
+# Data Citation Principles
+- **Importance** - Data should be considered legitimate, citable products of research
+- **Credit and Attribution** - Data citations should facilitate giving scholarly credit and normative and legal attribution to all contributors to the data
+- **Evidence** - In scholarly literature, whenever and wherever a claim relies upon data, the corresponding data should be cited.
+- **Unique Identification** - A data citation should include a persistent method for identification that is machine actionable, globally unique, and widely used by a community.
+
+![citation needed](images/image7.jpeg)
+---
+# Data Citation Principles
+- **Access** - Data citations should facilitate access to the data, metadata, code, and other materials, as necessary for both humans and machines.
+- **Persistence** - Unique identifiers, data, and metadata should persist beyond the lifespan of the data they describe.
+- **Specificity and Verifiability** - Data citations should facilitate identification of, access to, and verification of the specific data that support a claim.  
+- **Interoperability and Flexibility** - Data citation methods should be flexible, but enable interoperability across communities.
+
+![citation needed](images/image7.jpeg)
+
+---
+

@@ -36,6 +36,7 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 **Data Citation:** 
   - “The practice of providing a reference to data in the same way as researchers routinely provide a bibliographic reference to printed resources.”
   - “A key practice underpinning the recognition of data as a primary research output rather than as a by-product of research.”
+  
 **Data Author:**
   - “Individual involved in research, education, or other activities that generate digital data that are subsequently deposited in a data collection”
 

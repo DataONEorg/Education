@@ -61,15 +61,27 @@ Hakala, J. Persistent identifiers – an overview. Accessed May 10, 2012 at http
 ---
 # Benefits of Data Citation
 
-.two-thirds[
-Short term: 
+![citation needed](images/image5.jpeg)
+
+---
+# Benefits of Data Citation
+**Short term**
 - Facilitates discovery of relationships between data and publications, making it easier to validate and build upon previous work
 - Ensures that proper credit can be given when others use your work
 - Facilitates impact assessments of datasets based on number of publications that cite them
 - Helps researchers re-using data to find other ways the data has been used.
-]
 
-![citation needed](images/image5.jpeg)
+---
+# Benefits of Data Citation
+**Long Term**
+- Promotes the availability of data into the future
+- Facilitates discovery of  existing data relevant to a particular question
+- Enables recognition of scholarly effort in within disciplines and organizations 
+- Increases transparency of scientific research
 
+???
+Adoption of practices that rely on publishing infrastructure help to ensure data will be available in the future --- is this really true? I reworded it, but just thinking about it…nothing is guaranteed…?
+Prevents ‘data stealing’ because rules of publication apply to citable data in that it must be cited or treated as plagiarism….
+Easier to discover existing data relevant to a particular question
 
 ---

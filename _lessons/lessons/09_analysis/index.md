@@ -61,7 +61,7 @@ Hakala, J. Persistent identifiers – an overview. Accessed May 10, 2012 at http
 ---
 # Benefits of Data Citation
 
-.one-half[
+.two-thirds[
 Short term: 
 - Facilitates discovery of relationships between data and publications, making it easier to validate and build upon previous work
 - Ensures that proper credit can be given when others use your work

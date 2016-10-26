@@ -59,7 +59,7 @@ Hakala, J. Persistent identifiers – an overview. Accessed May 10, 2012 at http
 
 
 ---
-# Benefits of Data Citation
+
 
 ![citation needed](images/image5.jpeg)
 

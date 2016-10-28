@@ -122,3 +122,49 @@ The first involves discovering and mining for the data of interest. This is typi
 The second step involves online data processing. Large datasets can be analyzed using high-performance computing systems such as cloud computing.
 
 ---
+# After Data Analysis
+- Re-analysis of outputs
+- Final visualizations: charts, graphs, simulations, etc
+
+**Science is iterative: 
+The process that results in the final product can be complex**
+
+???
+The process is often modified based on analyses and re-run with small (or large) changes. 
+Science is inherently an iterative process. We run analyses, modify hypotheses, and re-run analyses. This can result in a complex process that results in the final product.
+
+Based on results from preliminary analysis, a researcher will often re-run or re-analyze the data or outputs. 
+ 
+---
+# Reproducibility
+- Reproducibility at core of scientific method
+- Complex process = more difficult to reproduce
+- Good documentation required for reproducibility
+ - Metadata: data about data
+ - Process metadata: data about process used to create, manipulate, and analyze data
+
+???
+Reproducibility is at the core of scientific method.  If results are not reproducible, the study loses credibility. The complex processes used to create final outputs can be quite difficult to reproduce.  In order to maintain scientific integrity, good documentation of the data and the analytical process is essential.  
+ 
+Documentation includes metadata, which is data about data, and process metadata, which is data about the process.
+---
+# Ensuring Reproducibility: Documenting the Process
+- Process metadata: Information about process (analysis, data organization, graphing) used to get to data outputs
+- Related concept: data provenance
+ - Origins of data
+ - Good provenance = able to follow data throughout entire life cycle
+ - Allows for 
+  - Replication & reproducibility
+  - Analysis for potential defects, errors in logic, statistical errors
+  - Evaluation of hypotheses
+
+???
+Process metadata is information about the process used to create any data outputs. This includes any data cleaning, transformation, reduction, and any analyses performed. 
+ 
+A related concept to process metadata is “data provenance”. Provenance means “origin”, so data provenance is a description of the origins of the data.
+ 
+A mark of good provenance is that a person not directly involved with the project is able to follow the data through its life cycle and understand any steps used to create outputs.
+ 
+Good provenance allows for the ability to replicate analyses and reproduce results. Others can identify potential problems, logical, or statistical errors that might affect the study’s outcome.  Others are also able to evaluate a study’s hypotheses for themselves.   All of these possibilities mean greater accountability and more trustworthy science. 
+---
+

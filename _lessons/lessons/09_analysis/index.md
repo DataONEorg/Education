@@ -226,4 +226,49 @@ That data in R format then become the input for the quality control and data cle
 The output of this step is “clean” temperature and salinity data, which is then the input for the analysis step.
 The output of the analysis step is the summary statistics, such as mean and standard deviation by month. These are subsequently the inputs for the visualization step. 
 
+---
+# Informal Workflows
+- **Workflow diagrams:** adding decision points
+
+
+
+---
+# Informal Workflows
+- **Workflow diagrams:** a simple example
+
+
+---
+# Informal Workflows
+- **Workflow diagrams:** a complex example
+
+
+---
+# Informal Workflows
+**Commented scripts:** best practices
+- Well-documented code is easier to review, share, enables repeated analysis
+- Add high-level information at the top
+ - Project description, author, date
+ - Script dependencies, inputs, and outputs
+ - Describes parameters and their origins
+- Notice and organize sections
+ - What happens in the section and why
+ - Describe dependencies, inputs, and outputs
+- Construct “end-to-end” script if possible
+ - A complete narrative
+ - Runs without intervention from start to finish
+
+
+---
+# Formal/Executable Workflows
+- Analytical pipeline
+- Each step can be implemented in different software systems
+- Each step & its parameters/requirements formally recorded
+- Allows reuse of both individual steps and overall workflow
+
+
+???
+Formal Scientific workflow systems are now in development to help scientists document their workflows.  These analytical pipelines will make it possible for lay scientists to use workflows effectively for documenting their process metadata.  Each step within the scientific workflow system can be implemented using different software systems.  In the process of performing analyses, each step and its parameters and requirements are formally recorded. This allows both the individual steps and the overall workflow to be reused, either by the original scientist or someone else.
+
+---
+
 

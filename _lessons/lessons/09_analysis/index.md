@@ -206,5 +206,24 @@ The data are then analyzed to generate mean temperature and salinity for the loc
  Finally, graphs are produced to display the resulting mean temperatures. 
 
 ---
+# Informal Workflows
+- **Flow charts:** simplest form of workflow
+ - Transformation Rules
+ 
+ 
+ ???
+ These steps are known in workflows as “transformation rules”.  Transformation rules describe what is done to/with the data to obtain the relevant outputs for publication. 
+
+---
+# Informal Workflows
+- **Flow charts:** simplest form of workflow
+ - Inputs and Outputs
+ 
+ ???
+ Now we focus on the actual data.  The Inputs & outputs of this workflow are shown here in red.
+ The first inputs are the raw temperature & salinity data. These are imported into R.The output of this process is the data in R format. 
+That data in R format then become the input for the quality control and data cleaning step. 
+The output of this step is “clean” temperature and salinity data, which is then the input for the analysis step.
+The output of the analysis step is the summary statistics, such as mean and standard deviation by month. These are subsequently the inputs for the visualization step. 
 
 

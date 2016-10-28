@@ -188,3 +188,23 @@ Mention that example workflow diagrams shown here were drawn freehand in PowerPo
 
 ---
 
+# Informal Workflows
+- **Workflow diagrams:**  Simple linear flow chart
+ - Conceptualizing analysis as a sequence of steps
+  - arrows indicate flow
+  
+---
+# Informal Workflows
+- **Flow Charts:** simplest form of workflow
+
+
+???
+This is an example of a simple conceptual workflow.
+ Here we focus first on the analytical steps used to create outputs from the data.  In the first step the data are imported into a scripted program, R, for cleaning and analysis.
+The data then go through a quality control and cleaning process to identify outliers, remove erroneous data, and identify any missing data.
+The data are then analyzed to generate mean temperature and salinity for the location, as well as error envelopes for the data.
+ Finally, graphs are produced to display the resulting mean temperatures. 
+
+---
+
+

@@ -374,8 +374,48 @@ There are now scientific workflow systems in development that will make document
 The simplest form of a scientific workflow is using scripts to document the process of analysis. This is done often using scripted programs such as R or Matlab, or if multiple software packages are used, via the command line using programming languages such as Java, Python, or Perl.  However executing codes and analyses via the command line is beyond the expertise of many ecological and environmental scientists.  
 
 ---
+# Best Practices for Data Analysis
+- Scientists should document workflows used to create results
+ - Data provenance
+ - Analyses and parameters used
+ - Connections between analyses via inputs and outputs
+- Documentation can be informal (e.g. flowcharts, commented scripts) or formal (e.g. Kepler, VisTrails)
+
+???
+Best practices for data analysis should involve the documentation of workflows, either conceptual or formal, to show how results were obtained. This includes data provenance, analyses used, parameters used, and connections between analyses via inputs and outputs.  
+This documentation can be informal, like in a flowchart, or more formal, such as Kepler or vistrails. 
+
+---
+# Summary
+- Modern science is computer-intensive
+ - Heterogeneous data, analyses, software
+- Reproducibility is important
+- Workflows = process metadata
+- Use of informal or formal workflows for documenting process metadata ensures reproducibility, repeatability, validation
+
+???
+In summary, modern science is becoming more and more computationally-intensive, and scientists are working with heterogeneous data, analyses, and software.  Reproducibility is more important than ever given this environment.
+Workflows are equivalent to  process metadata, also known as provenance.
+Using both informal and formal workflows and are necessary for reproducibility, repeatability, and validation of your research.
+
+---
+# Resources for Data Analysis & Workflows
+
+1. W. Michener and J. Brunt, Eds. Ecological Data: Design, Management and Processing. (Blackwell, New York, 2000).
 
 
+---
+The full slide deck may be downloaded from:
+http://www.dataone.org/education-modules
+
+Suggested citation:
+DataONE Education Module: Analysis and Workflows. DataONE. Retrieved October 26 2016. From http://www.dataone.org/sites/all/documents/L9_Analysis Workflows.pptx 
+
+Copyright license information:
+No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
+
+
+---
 
  
 

@@ -270,5 +270,113 @@ The output of the analysis step is the summary statistics, such as mean and stan
 Formal Scientific workflow systems are now in development to help scientists document their workflows.  These analytical pipelines will make it possible for lay scientists to use workflows effectively for documenting their process metadata.  Each step within the scientific workflow system can be implemented using different software systems.  In the process of performing analyses, each step and its parameters and requirements are formally recorded. This allows both the individual steps and the overall workflow to be reused, either by the original scientist or someone else.
 
 ---
+# Formal/Executable Workflows
+**Benefits**
+- Single access point for multiple analyses across software packages
+- Keeps track of analysis and provenance: enables reproducibility
+ - Each step & its parameters/requirements formally recorded
+- Workflow can be stored
+- Allows sharing and reuse of individual steps or overall workflow
+ - Automate repetitive tasks
+ - Use across different disciplines and groups
+ - Can run analyses more quickly since not starting from scratch
+
+???
+There are many benefits of using scientific workflows. 
+First, they can provide a single access point for multiple analyses across software packages. 
+Second they allow a researcher to keep track of analyses conducted, which enables reproducibility.  
+Third, workflows can be stored as documentation of the research project. A stored workflow is essentially higher-level metadata which offers tremendous potential for scientific advancement.
+Finally, workflows allow researchers to share and reuse the workflow or its components. This means less time doing repetitive tasks, allows for collaboration across disciplines, and rapid analysis since time is not spent “reinventing the wheel”. 
+
+
+---
+# Formal/Executable Workflows
+**Example: Kepler Software**
+- Open-source, free, cross-platform
+- Drag-and-drop interface for workflow construction
+- Steps (analyses, manipulations etc) in workflow represented by “actor”
+- Actors connect from a workflow
+- Possible applications
+ - Theoretical models or observational analyses
+ - Hierarchical modeling
+ - Can have nested workflows
+ - Can access data from web-based sources (e.g. databases)
+- Downloads and more information at kepler-project.org
+
+
+???
+One example of a scientific workflow software program is Kepler. Kepler is an open-source and free cross-platform program. Cross-platform means it can work with any operating system.  
+Kepler uses a drag-and-drop interface for scientists to construct their workflow. Steps in the analytical process are represented by an “actor”. These actors then connected to form a workflow.  Possible applications of Kepler are listed here.
+
+---
+# Formal/Executable Workflows
+**Example: Kepler Software**
+
+
+???
+Here is a screenshot of the Kepler interface. It has a user-friendly GUI (pronounced gooey) or graphical user interface.
+The list of possible actors is searchable, and you can drag and drop the actors into the workflow creation space to the right.
+Actors are connected via inputs and outputs represented by black lines.
+
+---
+# Formal/Executable Workflows
+**Example: Kepler Software**
+
+
+???
+This example workflow solves two coupled equations, one for the predator population, and one for the prey population. The solutions to the equations are then routed to the “Timed plotter” and “XY plotter” in the top of the panel. The text describes what this workflow is calculating.
+
+---
+# Formal/Executable Workflows
+**Example: Kepler Software**
+
+
+
+???
+The resulting outputs from this workflow are plots of the predator and prey populations. Kepler and other scientific workflow tools are being developed for use by ecologists and environmental scientists who may not be comfortable creating scripted workflows using the command line. 
+Along with scientific workflows, tools are being developed to facilitate their use, such as VisTrails.
+
+---
+# Formal/Executable Workflows
+**Example: VisTrails**
+
+- Open source
+- Workflow and provenance management support
+- Geared toward exploratory computational tasks
+ - Can manage evolving SWF
+ - Maintains detailed history about steps and data
+- www.vistrails.org
+
+
+???
+VisTrails is another example of an open source workflow tool that provides provenance and management support. VisTrails is an open source workflow tool that provides provenance and management support. It is geared toward exploratory and computational tasks. Using Vistrails, scientists can manage evolving scientific workflows and maintain detailed history about the steps taken and the data consumed and produced.
+---
+# Workflows in General
+- Science is becoming more computationally intensive
+- Sharing workflows benefits science
+ - Scientific workflow systems make documenting workflows	 easier
+- Minimally: document your analysis via informal workflows
+- Emerging workflow applications (formal/executable workflows) will
+ - Link software for executable end-to-end analysis
+ - Provide detailed info about data & analysis
+ - Facilitate re-use & refinement of complex, multi-step analyses
+ - Enable efficient swapping of alternative models & algorithms
+ - Help automate tedious tasks
+
+
+???
+Workflows are beneficial because they document the exact process used to create data outputs.   This is especially true with the advent of more computationally intensive processes due to sensor networks, complex statistical programs, and integration of many types of data in a single study.
+
+One of the major advantages of workflows is they allow the analytical process to be shared with other scientists.  This would be easier to accomplish if there was a formal way of creating and saving workflows.
+
+There are now scientific workflow systems in development that will make documenting workflows easier.  This will also increase the ability to share workflows with others. 
+
+The simplest form of a scientific workflow is using scripts to document the process of analysis. This is done often using scripted programs such as R or Matlab, or if multiple software packages are used, via the command line using programming languages such as Java, Python, or Perl.  However executing codes and analyses via the command line is beyond the expertise of many ecological and environmental scientists.  
+
+---
+
+
+
+ 
 
 

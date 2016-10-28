@@ -144,9 +144,7 @@ Based on results from preliminary analysis, a researcher will often re-run or re
  - Process metadata: data about process used to create, manipulate, and analyze data
 
 ???
-Reproducibility is at the core of scientific method.  If results are not reproducible, the study loses credibility. The complex processes used to create final outputs can be quite difficult to reproduce.  In order to maintain scientific integrity, good documentation of the data and the analytical process is essential.  
- 
-Documentation includes metadata, which is data about data, and process metadata, which is data about the process.
+Reproducibility is at the core of scientific method.  If results are not reproducible, the study loses credibility. The complex processes used to create final outputs can be quite difficult to reproduce.  In order to maintain scientific integrity, good documentation of the data and the analytical process is essential. Documentation includes metadata, which is data about data, and process metadata, which is data about the process.
 ---
 # Ensuring Reproducibility: Documenting the Process
 - Process metadata: Information about process (analysis, data organization, graphing) used to get to data outputs
@@ -159,12 +157,34 @@ Documentation includes metadata, which is data about data, and process metadata,
   - Evaluation of hypotheses
 
 ???
-Process metadata is information about the process used to create any data outputs. This includes any data cleaning, transformation, reduction, and any analyses performed. 
+Process metadata is information about the process used to create any data outputs. This includes any data cleaning, transformation, reduction, and any analyses performed.A related concept to process metadata is “data provenance”. Provenance means “origin”, so data provenance is a description of the origins of the data.A mark of good provenance is that a person not directly involved with the project is able to follow the data through its life cycle and understand any steps used to create outputs.Good provenance allows for the ability to replicate analyses and reproduce results. Others can identify potential problems, logical, or statistical errors that might affect the study’s outcome.  Others are also able to evaluate a study’s hypotheses for themselves.   All of these possibilities mean greater accountability and more trustworthy science. 
+---
+# Workflows: The Basics
+- Formalization of process metadata
+- Precise description of scientific procedure
+- Conceptualized series of data ingestion, transformation, and analytical steps
+- Three components
+ - Inputs: information or material required
+ - Outputs: information or material produced & potentially used as input in other steps
+ - Transformation rules/algorithms (e.g. analyses)
+- Two types:
+ - Informal 
+ - Formal/Executable
+
+???
+A workflow is a formalization of the process metadata. Workflows are commonly used in other fields, including business. In general, a “workflow” is a precise description of the procedures used in a project. It is a conceptualized series of data ingestion, transformation, and analytical steps.A workflow consists of three components. First, there are inputs that contain the information required for the process, for example the raw data. Second the output is information or materials produced, such as final plots of the data. Third, there are transformation rules, algorithms, or analyses that are required to create the outputs from the inputs.
  
-A related concept to process metadata is “data provenance”. Provenance means “origin”, so data provenance is a description of the origins of the data.
  
-A mark of good provenance is that a person not directly involved with the project is able to follow the data through its life cycle and understand any steps used to create outputs.
- 
-Good provenance allows for the ability to replicate analyses and reproduce results. Others can identify potential problems, logical, or statistical errors that might affect the study’s outcome.  Others are also able to evaluate a study’s hypotheses for themselves.   All of these possibilities mean greater accountability and more trustworthy science. 
+---
+
+# Informal Workflows
+- **Inputs or outputs** include data, metadata, or visualizations
+- **Analytical processes** include operations that change or manipulate data in some way
+- **Decisions** specify conditions that determine the next step in the process
+- **Predefined processes** or subroutines specify a fixed multi-step process
+
+???
+Mention that example workflow diagrams shown here were drawn freehand in PowerPoint using default flowchart symbology – no specialized software necessary!
+
 ---
 

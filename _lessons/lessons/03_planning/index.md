@@ -1,5 +1,5 @@
 ---
-title: Data Management Planning
+title: "Data Management Planning"
 update: Sept. 20, 2016
 layout: slides
 categories: ed-module
@@ -29,7 +29,6 @@ categories: ed-module
 - What are the components of a DMP? And
 - What are the requirements for DMPs prepared for National Science Foundation (or NSF) proposals?  
 - We will also go over an example of a data management plan.
-
 ---
 
 # Learning Objectives
@@ -130,15 +129,18 @@ Finally, data management plans are now required by most funding agencies. In 201
 
 # Components of a General DMP
 
+.two-third[
 1. Information about data type & data format
 2. Metadata content and format
 3. Policies for access, sharing and re-use
 4. Long-term storage and preservation
 5. Roles and responsibilities
 6. Budget
+]
 
-![Photo Attribution: CC0 image from The Noun Project](images/image8.png)
+.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image8.png)
 *Photo Attribution: CC0 image from The Noun Project*
+]
 
 ???
 
@@ -161,7 +163,6 @@ The slides that follow will go into more detail for each of the general categori
   - Curriculum materials
   - Software
   - Images
-  - Etc…
 ]
 
 .one-half[![Photo Attribution: CC image by Jeffery Beall on Flickr](images/image9.jpeg)
@@ -191,7 +192,7 @@ More information can be found at https://library.uoregon.edu/datamanagement/data
 
 .one-half[![Photo Attribution: CC image by Ryan Sandridge on Flickr](images/image10.jpeg)
 *Photo Attribution: CC image by Ryan Sandridge on Flickr*
-]
+] 
 
 ???
 
@@ -242,9 +243,9 @@ You should also identify what quality assurance and control measures you plan to
   - Security & protection
   - Who will be responsible
 
-![Photo Attribution: CC0 image from The Noun Project](images/image12_rotated.png)
+[![Photo Attribution: CC0 image from The Noun Project](images/image12_rotated.png)
 *Photo Attribution: CC0 image from The Noun Project*
-
+]
 
 ???
 
@@ -422,6 +423,7 @@ Explain how the responsibilities regarding the management of your data will be d
 
 # 6. Budget
 
+.two-third[
 6.1  Anticipated costs
 - Time for data preparation & documentation
 - Hardware/software for data preparation & documentation
@@ -429,9 +431,11 @@ Explain how the responsibilities regarding the management of your data will be d
 - Archive costs
 
 6.2  How costs will be paid
+]
 
-![Photo Attribution: CC0 image from The Noun Project](images/image21.png)
+.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image21.png)
 *Photo Attribution: CC0 image from The Noun Project*
+]
 
 ???
 
@@ -445,13 +449,12 @@ You should identify how the costs associated with your DMP will be paid.
 
 # Tools for Creating Data Management Plans
 
-.one-third[# DMPTool
+.one-half[# DMPTool
 
-
-# DMPOnline
+![dmptool.org](images/DMPTool_web.png)
 ]
 
-.two-third[![dmptool.org](images/DMPTool_web.png)
+.one-half[# DMPOnline
 
 ![dmponline.dcc.ac.uk](images/DMPOnline_web.png)
 ]
@@ -489,15 +492,15 @@ We will now focus on NSF’s data management plans.  As of January 2011 NSF requ
 
 **4. Dissemination and Sharing of Research Results**
 
-  a. Promptly publish with appropriate authorship
-  
-  b. Share data, samples, physical collections, and supporting materials with others, within a reasonable timeframe 
-  
-  c. Share software and inventions 
-  
-  d. Investigators can keep their legal rights over their intellectual property, but they still have to make their results, data, and collections available to others 
-  
-  e. Policies will be implemented via 
+a. Promptly publish with appropriate authorship
+
+b. Share data, samples, physical collections, and supporting materials with others, within a reasonable timeframe 
+
+c. Share software and inventions 
+
+d. Investigators can keep their legal rights over their intellectual property, but they still have to make their results, data, and collections available to others 
+
+e. Policies will be implemented via 
   - Proposal review
   - Award negotiations and conditions
   - Support/incentives
@@ -515,8 +518,7 @@ In addition to these general requirements, there are directorate- and division-s
 # Summary
 
 .two-third[
-DMPs are an important part of the data life cycle. They save time and effort in the long run, and ensure that data are relevant and useful for others.
-Most funding agencies (all federal*) now require DMPs
+DMPs are an important part of the data life cycle. They save time and effort in the long run, and ensure that data are relevant and useful for others. Most funding agencies (all federal*) now require DMPs
 
 Major components of a DMP:
 1. Information about data type & data format
@@ -531,6 +533,22 @@ Major components of a DMP:
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image26.png)
 *Photo Attribution: CC0 image from The Noun Project*
 ]
+
+---
+
+# About
+
+The full slide deck may be downloaded from:
+[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
+
+**Suggested citation:**
+DataONE Education Module: Data Management. DataONE. Retrieved Nov12, 2012. From [http://www.dataone.org/sites/all/documents/L03_DataManagementPlanning.pptx](http://www.dataone.org/sites/all/documents/L03_DataManagementPlanning.pptx)
+
+**Copyright license information:**
+No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
+![CCBY0](images/lesson01-pptimages/image50.png)
+
+---
 
 # DMP Resources
 

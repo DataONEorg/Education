@@ -15,6 +15,7 @@ layout: slides
 
 This is Lesson 2 of the DataONE Data Management learning series. This lesson covers Data Management: Data Sharing
 
+---
 # Lesson topics
 
 .two-third[
@@ -36,7 +37,6 @@ The topics covered in this lesson  include: the role of data sharing within the 
 ---
 
 # Learning objectives
-
 .two-third[
 **After completing this lesson,** the participant will be able to
 
@@ -93,7 +93,6 @@ Effective data sharing requires careful thought during each stage of the data de
 ---
 
 # Why share data
-
 .two-third[
 Data sharing requires effort, resources, and faith in others. Why do it?
 
@@ -117,7 +116,6 @@ Why expend the extra effort to share data? Because it benefits the public, the r
 ---
 
 # Value of Data Sharing: **To the Public**
-
 .two-third[
 A better informed public yields better decision making with regard to:
 
@@ -145,7 +143,7 @@ Niu, J. (2006). Reward and Punishment Mechanisms for Research Data Sharing. IASS
 
 ---
 
-# Value of Data Sharing: **To Researcher Sponsor**
+# Value of Data Sharing: **To Research Sponsor**
 
 * Organizations that sponsor research must maximize the value of research dollars
 * Data sharing enhances the value of research investments by enabling:
@@ -168,8 +166,6 @@ Piwowar, H.A. (2011). A new task for NSF reviewers:  Recognizing the value of d
 ---
 
 # Value of Data Sharing: **To Scientific Community**
-
-
 .two-third[
 Access to related research enables community members to:
 * build upon the work of others and further, rather than repeat, the science4
@@ -199,7 +195,6 @@ Borgman, C.L. Research Data: Who will share what, with whom, when, and why? In P
 ---
 
 # Value of Data Sharing: **To Scientific Community**
-
 Access to related research enables community members to (cont’d):
 
 * increase transparency, reproducibility and comparability of results
@@ -224,7 +219,6 @@ Borgman, C.L. Research Data: Who will share what, with whom, when, and why? In P
 ---
 
 # Value of Data Sharing: **To the Scientist**
-
 .two-third[
 Scientists that share data gain the benefit of:
 
@@ -253,7 +247,6 @@ And finally, how does the independent researcher benefit from data sharing? When
 ---
 
 # Concerns About Data Sharing
-
 Even if the value of data sharing is recognized, concerns remain as to the impacts of increased data exposure.
 
 ![](images/image10.jpeg)
@@ -282,7 +275,6 @@ Researchers may worry that the data will be taken out of context, misinterpreted
 
 # Concerns About Data Sharing
 
-
 | Problem                                                                     | Solution     |
 |:----------------------------------------------------------------------------|:-------------|
 | inappropriate use due to misunderstanding of research purpose or parameters | **metadata** |
@@ -302,11 +294,19 @@ Each of these issues can, in great part, be addressed by providing rich data doc
 
 # Concerns About Data Sharing
 
-
 | Problem                                                                     | Solution                                                                                       |
 |:----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
 | inappropriate use due to misunderstanding of research purpose or parameters | provide rich Abstract, Purpose, Use Constraints and Supplemental Information where needed      |
-| security and confidentiality of sensitive data                              | the metadata does NOT contain the data Use Constraints specify who may access the data and how |
+| security and confidentiality of sensitive data                              | the metadata does NOT contain the data Use Constraints specify who may access the data and how |                  
+
+
+
+---
+
+# Concerns About Data Sharing Cont'd
+
+| Problem                                                                     | Solution                                                                                       |
+|:----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
 | lack of acknowledgement / credit                                            | specify a required data citation within the Use Constraints                                    |
 | loss of advantage when competing for research dollars                       | create second, public version with generalized Data Processing Description                     |
 

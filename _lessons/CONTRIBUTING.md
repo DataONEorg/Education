@@ -30,11 +30,14 @@ PDF files in `pdf`. For example, a lesson repository could look like:
 
 ## Informations about the tools used
 
-The markdown documents are rendered into a website using *Jekyll*. The slides
-themselves are rendered using *remarkjs*. The rendering is done using github
-pages, which builds the site from the `master` branch. You can build the site
-locally with `jekyll serve -w`, and it will be available at
+The markdown documents are rendered into a website using *Jekyll*. The
+slides themselves are rendered using *remarkjs*. The rendering is done
+using github pages, which builds the site from the `master` branch. You can
+build the site locally with `jekyll serve -w`, and it will be available at
 [http://localhost:4000] for you to review.
+
+The stylesheets are defined in `resources/styles`, and rendered to
+`resources/dataone.css` using `lessc` (just type `make` from the root).
 
 ## How to contribute
 
@@ -47,7 +50,14 @@ locally with `jekyll serve -w`, and it will be available at
 
 ### Suggesting changes
 
-1. Open an *Issue* **TODO ADD LINK** on this repository
+1. Open an [*Issue*][issue] on this repository.
+
+[issue]: https://github.com/DataONEorg/dataone_lessons/issues
+
+### Page not rendering?
+
+Check that the `title` field of the YAML header (the first line of each
+lesson) is in quotes.
 
 ## Documentation of specific functionalities
 

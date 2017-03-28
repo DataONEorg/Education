@@ -1,5 +1,5 @@
 ---
-title: "Lesson 9: Data Analysis and Workflows"
+title: "Data Analysis and Workflows"
 author: DataONE Community Engagement and Outreach
 update: October 26, 2016
 layout: slides

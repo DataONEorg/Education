@@ -3,3 +3,8 @@ baseurl: /dataone_lessons
 
 # Format for the slides, can be either 16:9 or 4:3
 format: '4:3'
+
+# Collections
+collections:
+  lessons:
+    output: false

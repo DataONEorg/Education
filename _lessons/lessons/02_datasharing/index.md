@@ -1,5 +1,5 @@
 ---
-title: Data sharing
+title: "Data sharing"
 author: DataONE Community Engagement & Outreach
 update: Sept. 20, 2016
 layout: slides
@@ -9,10 +9,13 @@ layout: slides
 
 ## Lesson 2: Data Sharing
 
+![](images/image3.png)
+
 ???
 
 This is Lesson 2 of the DataONE Data Management learning series. This lesson covers Data Management: Data Sharing
 
+---
 # Lesson topics
 
 .two-third[
@@ -21,7 +24,6 @@ This is Lesson 2 of the DataONE Data Management learning series. This lesson cov
 - Concerns about data sharing
 - Methods for making data sharable
 ]
-
 
 .one-third[
 ![Folders picture](images/folders.png)
@@ -35,8 +37,7 @@ The topics covered in this lesson  include: the role of data sharing within the 
 ---
 
 # Learning objectives
-
-
+.two-third[
 **After completing this lesson,** the participant will be able to
 
 - discuss data sharing considerations within the data lifecycle
@@ -44,6 +45,9 @@ The topics covered in this lesson  include: the role of data sharing within the 
 - address concerns about sharing data
 - outline a process for making data sharable
 - identify mechanisms for sharing data
+]
+
+.one-third[![](images/image5.jpeg)]
 
 ???
 
@@ -89,7 +93,7 @@ Effective data sharing requires careful thought during each stage of the data de
 ---
 
 # Why share data
-
+.two-third[
 Data sharing requires effort, resources, and faith in others. Why do it?
 
 For the benefit of:
@@ -98,6 +102,12 @@ For the benefit of:
 * the research sponsor
 * the research community
 * the researcher
+]
+.one-third[
+![CC image by Jessica Lucia on Flickr](images/image6.jpeg)
+*CC image by Jessica Lucia on Flickr*
+]
+
 
 ???
 
@@ -106,13 +116,16 @@ Why expend the extra effort to share data? Because it benefits the public, the r
 ---
 
 # Value of Data Sharing: **To the Public**
-
+.two-third[
 A better informed public yields better decision making with regard to:
 
 * Environmental and economic planning
 * Federal, state, and local policies
 * social choices such as use of tax dollars and education options
 * personal lifestyle and health such as nutrition and recreation
+]
+
+.one-third[ ![](images/image7.jpeg) ]
 
 ???
 
@@ -130,7 +143,7 @@ Niu, J. (2006). Reward and Punishment Mechanisms for Research Data Sharing. IASS
 
 ---
 
-# Value of Data Sharing: **To Researcher Sponsor**
+# Value of Data Sharing: **To Research Sponsor**
 
 * Organizations that sponsor research must maximize the value of research dollars
 * Data sharing enhances the value of research investments by enabling:
@@ -153,11 +166,16 @@ Piwowar, H.A. (2011). A new task for NSF reviewers:  Recognizing the value of d
 ---
 
 # Value of Data Sharing: **To Scientific Community**
-
+.two-third[
 Access to related research enables community members to:
 * build upon the work of others and further, rather than repeat, the science4
 * perform meta analyses that cannot be performed with individual datasets or laboratories
-* share resources and perspectives so that comprehension is expanded and enhanced5
+* share resources and perspectives so that comprehension is expanded and enhanced]
+
+.one-third[
+![CC image by Lawrence Berkeley National Laboratory on Flickr](images/image8.jpeg)
+*CC image by Lawrence Berkeley National Laboratory on Flickr*
+]
 
 
 ???
@@ -177,7 +195,6 @@ Borgman, C.L. Research Data: Who will share what, with whom, when, and why? In P
 ---
 
 # Value of Data Sharing: **To Scientific Community**
-
 Access to related research enables community members to (cont’d):
 
 * increase transparency, reproducibility and comparability of results
@@ -202,13 +219,20 @@ Borgman, C.L. Research Data: Who will share what, with whom, when, and why? In P
 ---
 
 # Value of Data Sharing: **To the Scientist**
-
+.two-third[
 Scientists that share data gain the benefit of:
 
 * research sponsor recognition as an authoritative source and wise investment
 * improved data quality due to expanded use, field checks, and feedback
 * greater opportunity for data exchange
 * improved connections to scientific network, peers, and potential collaborators
+]
+
+.one-third[
+![CC image by SLU Madrid  Campus
+ on Flickr](images/image9.jpeg)
+]
+*CC image by SLU Madrid Campus on Flickr*
 
 ???
 
@@ -223,8 +247,9 @@ And finally, how does the independent researcher benefit from data sharing? When
 ---
 
 # Concerns About Data Sharing
-
 Even if the value of data sharing is recognized, concerns remain as to the impacts of increased data exposure.
+
+![](images/image10.jpeg)
 
 ---
 
@@ -250,7 +275,6 @@ Researchers may worry that the data will be taken out of context, misinterpreted
 
 # Concerns About Data Sharing
 
-
 | Problem                                                                     | Solution     |
 |:----------------------------------------------------------------------------|:-------------|
 | inappropriate use due to misunderstanding of research purpose or parameters | **metadata** |
@@ -270,11 +294,19 @@ Each of these issues can, in great part, be addressed by providing rich data doc
 
 # Concerns About Data Sharing
 
-
 | Problem                                                                     | Solution                                                                                       |
 |:----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
 | inappropriate use due to misunderstanding of research purpose or parameters | provide rich Abstract, Purpose, Use Constraints and Supplemental Information where needed      |
-| security and confidentiality of sensitive data                              | the metadata does NOT contain the data Use Constraints specify who may access the data and how |
+| security and confidentiality of sensitive data                              | the metadata does NOT contain the data Use Constraints specify who may access the data and how |                  
+
+
+
+---
+
+# Concerns About Data Sharing Cont'd
+
+| Problem                                                                     | Solution                                                                                       |
+|:----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
 | lack of acknowledgement / credit                                            | specify a required data citation within the Use Constraints                                    |
 | loss of advantage when competing for research dollars                       | create second, public version with generalized Data Processing Description                     |
 
@@ -420,6 +452,8 @@ Piwowar HA, Becich MJ, Bilofsky H, Crowley RS, on behalf of the caBIG Data Shari
 agreed that all of our data would be made public immediately.”
 http://www.nytimes.com/2010/08/13/health/research/13alzheimer.html
 
+![](/images/image13.png)
+
 ???
 
 In 2003, a group of scientists from the National Institutes of Health, the Food and Drug Administration, drug and medical imaging industries, universities, and nonprofit groups joined in a collaborative effort to find the biological markers that show the progression of Alzheimer’s disease in the human brain.
@@ -472,183 +506,3 @@ DataONE Education Module: Data Sharing. DataONE. Retrieved Nov12, 2012. From htt
 
 Copyright license information:
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
-
-
----
-# Markdown 101
-
-.one-half[
-- `*italics*` is *italics*
-- `**bold**` is **bold**
-- `***bold italics***` is ***bold italics***
-]
-
-.one-half[
-Lists:
-
-~~~
-- List item 1
-- List item 2
-  - Nested list item
-
-1. Enumerated list
-2. Second item
-  - We can mix both
-~~~
-]
-
----
-
-# Quotes
-
-~~~
-> Text goes here
-~~~
-
-> Text goes here
-
----
-
-# Syntax highlighting
-
-``` md
-~~~ R
-<your code here>
-~~~
-```
-
-renders as
-
-~~~ R
-random_thing <- function(x, r, ...) {
-  return(r(x, ...))
-}
-
-plot(random_thing(100, runif))
-~~~
-
-You can also put code inline, using backticks:
-
-~~~ md
-This is `inline` code.
-~~~
-
----
-
-# Tables
-
-.one-half[
-Markdown can do tables:
-
-~~~ md
-|   Animal | Diet      | Fuzzy? |
-|---------:|:----------|:------:|
-| Hedgehog | rings     |   no   |
-|   Racoon | garbage   |  meh   |
-|      Cat | hairballs |  yup   |
-~~~
-]
-
-.one-half[
-This renders as:
-
-|   Animal | Diet      | Fuzzy? |
-|---------:|:----------|:------:|
-| Hedgehog | rings     |   no   |
-|   Racoon | garbage   |  meh   |
-|      Cat | hairballs |  yup   |
-]
-
----
-
-# Notes
-
-.one-third[
-Notes are everything that comes below `???`. Press **P** to toggle presenter
-mode.
-]
-
-.two-third[
-~~~ md
-Notes are everything that comes below `???`.
-Press **P** to toggle presenter mode.
-
-???
-
-These are the notes, and *they can* be in markdown too.
-~~~
-]
-
-???
-
-These are the notes, and *they can* be in markdown too.
-
-**It is very important** that the notes are the *last* things on the slide.
-
-Look a table!
-
-| x | y |
-|:--|:--|
-| 1 | 2 |
-| 3 | 4 |
-
----
-
-# Columns
-
-.two-third[
-
-It is possible to have columns or various widths in the presentation. The
-columns should be wrapped the following way:
-~~~
-.one-third[
-  content
-]
-~~~
-
-You can chain columns in any way you want, *e.g.* 1/3 then 2/3, 1/4 then 1/2
-then 1/2. As long as it sums to one, it's fine.
-
-]
-
-.one-third[
-**Possible values**
-
-- `.one-third`
-- `.two-third`
-- `.one-half`
-- `.one-fourth`
-- `.three-fourth`
-- `.full-width`
-]
-
----
-
-# Nested columns
-
-.three-fourth[
-
-This is a three-fourth column, and splitted in two.
-
-.one-half[
-~~~ R
-for (i in c(1:10)) {
-  print(i)
-}
-~~~
-]
-.one-half[
-~~~ julia
-for i in 1:10
-  print(i)
-end
-~~~
-]
-
-Then the column resumes after the split.
-
-]
-
-.one-fourth[
-**It works!**
-]

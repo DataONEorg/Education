@@ -1,129 +1,347 @@
-@import url(//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css);
-@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
-@import url(https://fonts.googleapis.com/css?family=Cabin);
-
-body { font-family: 'Cabin'; }
-h1, h2, h3 {
-  font-family: 'Cabin Condensed';
-}
-
-h1 {
-  color: #006666;
-  text-transform: uppercase;
-  font-size: 1.6em;
-  font-weight: normal !important;
-  margin-top: 1em;
-  margin-bottom: 0.7em;
-}
-
-.remark-code, .remark-inline-code { font-family: 'Hack', monospace; }
-
-pre {
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
-
-/* Logo */
-
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i';
+@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,400i,700,700i';
 .logo {
   position: absolute;
   bottom: 15px;
   left: 80px;
 }
-
-.logo img {width: 4em;}
-
-/* Grid system */
-
-.full-width, .one-third, .two-third, .one-half, .two-third, .one-fourth, .three-fourth {
+.logo img {
+  width: 4em;
+}
+.serif {
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", sans-serif;
+}
+.mono {
+  font-family: "Source Code Pro", "Consolas", "DejaVu Sans Mono", monospace !important;
+}
+html,
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 20em;
+}
+pre,
+code {
+  font-family: "Source Code Pro", "Consolas", "DejaVu Sans Mono", monospace !important;
+}
+h1 {
+  font-size: 160% !important;
+  font-weight: bold;
+  color: #660033;
+  margin-top: 0;
+  margin-bottom: 1.4  em;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #660033;
+  margin: 0 0 .05em 0;
+}
+table {
+  border-collapse: collapse;
+}
+tr {
+  color: black;
+}
+tr:nth-child(odd) {
+  background-color: rgba(0, 102, 102, 0.2);
+}
+tr:nth-child(even) {
+  background-color: rgba(0, 102, 102, 0.05);
+}
+th {
+  background-color: #006666;
+  color: white;
+  font-weight: bold;
+}
+td,
+th {
+  padding: 0.4em;
+}
+.columns {
+  clear: right;
+  float: left;
+  padding: 0.4em;
+  box-sizing: border-box;
+}
+.full-width,
+.one-third,
+.two-third,
+.one-half,
+.two-third,
+.one-fourth,
+.three-fourth {
   clear: right;
   float: left;
   padding: 0.6em;
   box-sizing: border-box;
 }
-.one-third {width: 33%;}
-.two-third {width: 67%;}
-.one-half {width: 50%;}
-.one-fourth {width: 25%;}
-.three-fourth {width: 75%;}
-.full-width {width: 100%;}
-
-table {
-  border-collapse: collapse;
+.one-third {
+  width: 33.3%;
 }
-
-tr:nth-child(odd)		{ background-color:#eeeeee; }
-tr:nth-child(even)		{ background-color:#fcfcfc; }
-tr { color: black;}
-th { background-color: #858585; color: white;}
-td, th {
-  padding: 0.4em;
+.two-third {
+  width: 66.7%;
 }
-
-
-/* Progress bar */
-
-.progressbar {
-  width: 5em;
-  height: 0.5em;
-  border-radius: 5px;
-  background-color: #eee;
-  display: inline-block;
+.one-half {
+  width: 50%;
 }
-
-.step1, .step2, .step3, .step4, .step5, .step6, .step7, .step8, .step9, .step10 {
+.one-fourth {
+  width: 25%;
+}
+.three-fourth {
+  width: 75%;
+}
+.full-width {
+  width: 100%;
+}
+.remark-slide-content.title {
   background-color: #006666;
-  display: inline-block;
-  height: 0.5em;
-  border-radius: 5px;
 }
-
-.step1 {width: 10%;}
-.step2 {width: 20%;}
-.step3 {width: 30%;}
-.step4 {width: 40%;}
-.step5 {width: 50%;}
-.step6 {width: 60%;}
-.step7 {width: 70%;}
-.step8 {width: 80%;}
-.step9 {width: 90%;}
-.step10 {width: 100%;}
-
-/* Title page */
-
-.title .progressbar { display: none; }
-.title {
-  background-color: #006666;
-  color: white !important;
+.remark-slide-content.title h1 {
+  font-size: 200% !important;
+  color: white;
 }
-
-.title h1 {
-  color: white !important;
-  font-family: 'Cabin' !important;
-  font-weight: bold;
+.remark-slide-content.title h2 {
+  font-size: 130% !important;
+  color: #f3f3f3;
 }
-
-.title h2 {
-  .full-width, .one-third, .two-third, .one-half, .two-third, .one-fourth, .three-fourthfont-size: 1.2em !important;
-  font-weight: normal !important;
+.remark-slide-content.title .progressbar {
+  display: none;
 }
-
-/* Images */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
 img {
   max-width: 100%;
   max-height: 100%;
 }
+.progress-step-0 {
+  width: 0%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-1 {
+  width: 5%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-2 {
+  width: 10%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-3 {
+  width: 15%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-4 {
+  width: 20%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-5 {
+  width: 25%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-6 {
+  width: 30%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-7 {
+  width: 35%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-8 {
+  width: 40%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-9 {
+  width: 45%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-10 {
+  width: 50%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-11 {
+  width: 55%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-12 {
+  width: 60%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-13 {
+  width: 65%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-14 {
+  width: 70%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-15 {
+  width: 75%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-16 {
+  width: 80%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-17 {
+  width: 85%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-18 {
+  width: 90%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-19 {
+  width: 95%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step-20 {
+  width: 100%;
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progress-step {
+  background-color: rgba(102, 0, 51, 0.8);
+  display: inline-block;
+  height: 0.3em;
+  border-radius: 5px;
+}
+.progressbar {
+  width: 5em;
+  height: 0.3em;
+  border-radius: 5px;
+  background-color: #d6d6d6;
+  display: inline-block;
+}
 
+.remark-slide-content {
+  padding: 2.5em 4.5em;
+  font-size: 25px;
+}
+
+.remark-slide-content > ul li {
+    padding: .5em 0;
+}
 
 /* Add a Caption to an image */
+.caption {
+ font-size: .6em;
+ line-height: .5em;
+ font-style: italic;
+}
+
 img + em {
-  font-size: 1em;
-  color: #ccc;
-  font-style: italic;
+  font-size: .4em;
   display: block;
 }
 
-/* make sure links within attribution are grey too */
-em a:link {
-    color: #ccc;
+img + em a {
+    color: #660033;
+    text-decoration: none;
+    border-bottom: 1px dashed #ccc
+}
+
+img + em a:hover {
+    color: #660033;
+    text-decoration: none;
+    border-bottom: 1px dashed #660033
+}
+
+/* Resize graphic to fit image */
+
+.wCaption img {
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.wCaption-50 img {
+  max-height: 50%;
+  max-width: 50%;
+}
+
+blockquote {
+    background-color: #fff;
+    border-radius: .3em;
+    display:  block;
+    padding: 5px 10px 5px 25px;
+    margin: 30px 0 10px;
+    position: relative;
+    /*Box Shadow - (Optional)*/
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+
+    /*Borders - (Optional)*/
+    border-left: 5px solid #ccc;
+    border-right: 2px solid #ccc;
+}
+
+blockquote p {
+    line-height: 2.1em;
+    color: #272822;
+    font-style: italic
 }

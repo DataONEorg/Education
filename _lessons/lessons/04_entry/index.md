@@ -339,14 +339,20 @@ At times you will need to combine multiple datasets into a superset in order to 
 
 ---
 
-The full slide deck may be downloaded from: http://www.dataone.org/education-modules
 
-Suggested citation:
-DataONE Education Module: Data Entry and Manipulation. DataONE. Retrieved Sept 22 2016. From http://www.dataone.org/sites/all/documents/L04_DataEntryManipulation.pptx 
+# About
+Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
-Copyright license information:
+The full slide deck (in PowerPoint) may be downloaded from:
+[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
+
+**Suggested citation:**
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
+
+**Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
+![CCBY0](images/lesson01-pptimages/image50.png)
 ---
 
 

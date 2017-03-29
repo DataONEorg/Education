@@ -62,7 +62,7 @@ th {
 .columns {
   clear: right;
   float: left;
-  padding: 0.4em;
+  padding: 0em;
   box-sizing: border-box;
 }
 .full-width,
@@ -74,7 +74,7 @@ th {
 .three-fourth {
   clear: right;
   float: left;
-  padding: 0.6em;
+  padding: 0.2em;
   box-sizing: border-box;
 }
 .one-third {
@@ -327,8 +327,8 @@ blockquote {
     background-color: #fff;
     border-radius: .3em;
     display:  block;
-    padding: 5px 10px 5px 25px;
-    margin: 30px 0 10px;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 0 10px;
     position: relative;
     /*Box Shadow - (Optional)*/
     -moz-box-shadow: 2px 2px 15px #ccc;

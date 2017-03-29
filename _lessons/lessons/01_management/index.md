@@ -59,7 +59,7 @@ class: center
 .one-third[Data are collected from sensors, sensor networks, remote sensing, observations,
 and more. This calls for increased attention to data management and stewardship.]
 
- .two-third[![Magazines](images/data-deluge.jpg)]
+.two-third[![Magazines](images/data-deluge.jpg)]
 
 ---
 
@@ -188,7 +188,7 @@ being backed up as it would have been if stored on a server.*
 
 ## Importance of Data Management
 
-Please forgive my paranoia about protocols, standards, and data review.  I'm in the latter stages of a long career with USGS (30 years, and counting), and have experienced much.  Experience is the knowledge you get just after you needed it.
+> Please forgive my paranoia about protocols, standards, and data review.  I'm in the latter stages of a long career with USGS (30 years, and counting), and have experienced much.  Experience is the knowledge you get just after you needed it.
 
 Several times, I've seen colleagues called to court in order to testify about conditions they have observed.
 

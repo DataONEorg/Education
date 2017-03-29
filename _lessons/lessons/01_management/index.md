@@ -304,8 +304,8 @@ Data should be properly managed and eventually be placed where they are accessib
 
 ---
 
-## Well managed, publically accessible data is important:
-### Why?
+## Well managed, publically accessible data is important: Why?
+
 
 Here are a few reasons (from the UK Data Archive):
 
@@ -316,14 +316,14 @@ Here are a few reasons (from the UK Data Archive):
 
 ---
 
-## Well managed, publically accessible data is important: why?
+## Well managed, publically accessible data is important: Why?
 
 * Enables scrutiny of research findings
 * Encourages improvement and validation of research methods
 * Reduces cost of duplicating data collection
 * Provides important resources for education and training
 
-*--UK Data Archive*
+*Source: UK Data Archive*
 
 ---
 

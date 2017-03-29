@@ -74,7 +74,7 @@ th {
 .three-fourth {
   clear: right;
   float: left;
-  padding: 0em;
+  padding: 0.2em;
   box-sizing: border-box;
 }
 .one-third {

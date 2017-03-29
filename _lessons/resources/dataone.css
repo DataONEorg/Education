@@ -28,7 +28,7 @@ h1 {
   font-weight: bold;
   color: #660033;
   margin-top: 0;
-  margin-bottom: 1.4  em;
+  margin-bottom: 1  em;
 }
 h2,
 h3,
@@ -36,7 +36,7 @@ h4,
 h5,
 h6 {
   color: #660033;
-  margin: 0 0 .0em 0;
+  margin: 0 0 0 0;
 }
 table {
   border-collapse: collapse;
@@ -57,12 +57,12 @@ th {
 }
 td,
 th {
-  padding: 0.4em;
+  padding: 0em;
 }
 .columns {
   clear: right;
   float: left;
-  padding: 0em;
+  padding: 0 2 0 0;
   box-sizing: border-box;
 }
 .full-width,
@@ -74,7 +74,6 @@ th {
 .three-fourth {
   clear: right;
   float: left;
-  padding: 0.2em;
   box-sizing: border-box;
 }
 .one-third {

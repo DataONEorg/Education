@@ -40,7 +40,7 @@ The topics covered in this module will answer the questions:
 * Give one example of how well-managed data can result in new scientific conclusions
 
 ---
-class: center middle
+class: middle
 
 ## Data Realities...
 
@@ -251,7 +251,7 @@ Manage your data for yourself:
 
 ---
 
-## Why Data Management
+## Why Data Management:
 ### Foundation to Advance Science
 
 Data should be managed to:
@@ -322,7 +322,8 @@ Here are a few reasons (from the UK Data Archive):
 
 ---
 
-## Well managed, publically accessible data is important: why?
+## Well managed, publically accessible data is important: 
+### Why?
 
 * Enables scrutiny of research findings
 * Encourages improvement and validation of research methods

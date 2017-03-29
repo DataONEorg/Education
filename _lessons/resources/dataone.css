@@ -55,9 +55,9 @@ th {
   color: white;
   font-weight: bold;
 }
-td {padding: 3px;}
+td {padding: 3px 3px 3px 3px}
 th {
-  padding: 5px 5px 3px 5px;
+  padding: 5px 3px 5px 3px;
 }
 .columns {
   clear: right;

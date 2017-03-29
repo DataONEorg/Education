@@ -427,6 +427,7 @@ If data are:
 
 ## About
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+
 The full slide deck (in PowerPoint) may be downloaded from:
 [http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
 

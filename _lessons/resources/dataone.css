@@ -54,10 +54,11 @@ th {
   background-color: #006666;
   color: white;
   font-weight: bold;
+}
+td {
+  padding: 2px 20px 2px 10px;
   vertical-align: top;
 }
-td {padding: 2px 20px 2px 10px;
-vertical-align: top;}
 th {
   padding: 5px 20px 5px 10px;
   vertical-align: top;

@@ -62,7 +62,7 @@ th {
 .columns {
   clear: right;
   float: left;
-  padding: 0.4em;
+  padding: 0em;
   box-sizing: border-box;
 }
 .full-width,
@@ -74,7 +74,7 @@ th {
 .three-fourth {
   clear: right;
   float: left;
-  padding: 0.6em;
+  padding: 0em;
   box-sizing: border-box;
 }
 .one-third {

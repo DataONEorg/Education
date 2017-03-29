@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Data Management"
-update: Sept. 20, 2016
+update: Sep. 20, 2016
 layout: slides
 categories: ed-module
 ---
@@ -18,14 +18,13 @@ Here are some _notes_. You can format them however you'd like to.
 * this is nice!
 
 ---
-class: Middle
 
 ## Lesson Topics
 
-* The data world around us
+.full-width[* The data world around us
 * Importance of data management
 * The data lifecycle
-* The case for data management
+* The case for data management]
 
 ???
 The topics covered in this module will answer the questions:
@@ -109,7 +108,7 @@ class: middle center
 ## Poor Data Management Affects Everyone
 
 ---
-class: middle
+
 ## Poor Data Management Affects Everyone
 
 **MEDICARE PAYMENT ERRORS NEAR $20B**
@@ -123,7 +122,6 @@ class: middle
     This error rate actually was an improvement over the previous fiscal year (9.8% error rate).
 
 ---
-class: middle
 
 **AUDIT:  JUSTICE STATS ON ANTI-TERROR CASES FLAWED” (AP) February 2007**
 
@@ -134,7 +132,6 @@ class: middle
      to be intentional.”
 
 ---
-class: middle
 
 **OOPS! TECH ERROR WIPES OUT Alaska Info” (AP) March 2007**
 > A technician managed to delete the data and backup for the $38 billion Alaska oil

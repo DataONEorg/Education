@@ -384,7 +384,7 @@ A data lifecycle illustrates stages thru which well-managed data passes from the
 The rest of the DataONE Education Modules, handouts, and hands-on exercises are available at: https://www.dataone.org/education-modules
 
 ---
-## Summary
+# Summary
 
 * The data deluge has created a surge of information that needs to be well-managed and made accessible.
 * The cost of not doing data management can be very high.

@@ -1,6 +1,6 @@
 ---
 title: "Protecting Your Data: Backups, Archives, & Data Preservation"
-author: DataONE Community Engagement & Outreach
+author: DataONE Community Engagement and Outreach Working Group
 update: Sept. 21, 2016
 layout: slides
 ---
@@ -48,7 +48,7 @@ Q4: What are some good practices to follow when naming files?  Suggested answers
 
 ---
 # The DataONE Data Life Cycle
-
+class: center, middle
 ![Image Caption Here](images/dlc.png)
 
 ???

@@ -7,7 +7,7 @@ categories: ed-module
 
 class: center, middle
 
-# Why Data Management?
+## Why Data Management?
 
 ![Image Caption Here](images/slide-1-intro.jpg)
 
@@ -20,7 +20,7 @@ Here are some _notes_. You can format them however you'd like to.
 ---
 class: Middle
 
-# Lesson Topics
+## Lesson Topics
 
 * The data world around us
 * Importance of data management
@@ -32,7 +32,7 @@ The topics covered in this module will answer the questions:
 
 ---
 
-# Learning Objectives
+## Learning Objectives
 
 * Give two general examples of why increasing amounts of data is a concern
 * Explain, using two examples, how lack of data management makes an impact
@@ -40,9 +40,9 @@ The topics covered in this module will answer the questions:
 * Give one example of how well-managed data can result in new scientific conclusions
 
 ---
-class: center middle
+class: middle
 
-# Data Realities...
+## Data Realities...
 
 ---
 class: center
@@ -73,7 +73,7 @@ and more. This calls for increased attention to data management and stewardship.
 
 ---
 
-# Data Loss Can Be Caused by
+## Data Loss Can Be Caused by
 
 .two-third[
 * Natural disaster
@@ -88,7 +88,7 @@ and more. This calls for increased attention to data management and stewardship.
 *CC Image by momboleum on Flickr*]
 ---
 
-# Data Loss Can Be Caused by
+## Data Loss Can Be Caused by
 
 .two-third[* Legal encumbrance
 * Human error
@@ -106,7 +106,7 @@ and more. This calls for increased attention to data management and stewardship.
 ---
 class: middle center
 
-# Poor Data Management Affects Everyone
+## Poor Data Management Affects Everyone
 
 ---
 class: middle
@@ -245,7 +245,7 @@ Manage your data for yourself:
 
 ---
 
-## Why Data Management
+## Why Data Management:
 ### Foundation to Advance Science
 
 Data should be managed to:
@@ -316,6 +316,7 @@ Here are a few reasons (from the UK Data Archive):
 
 ---
 
+
 ## Well managed, publically accessible data is important: Why?
 
 * Enables scrutiny of research findings
@@ -356,7 +357,7 @@ A new image processing technique reveals something not before seen in this Hubbl
 ---
 class: center
 
-# What is the Data Life Cycle?
+## What is the Data Life Cycle?
 
 .wCaption[![](images/data-life-cycle.png)]
 
@@ -366,7 +367,7 @@ A data lifecycle illustrates stages thru which well-managed data passes from the
 
 ---
 
-# For Each Stage of the Data Lifecycle
+## For Each Stage of the Data Lifecycle
 
 * There are best practices…..and….tools to help!
 * The following data management lessons will illustrate in detail each stage of the data lifecycle
@@ -388,7 +389,7 @@ The rest of the DataONE Education Modules, handouts, and hands-on exercises are 
 
 ---
 
-# Summary
+## Summary
 
 .one-half[
 If data are:
@@ -409,7 +410,7 @@ If data are:
 
 ---
 
-# Resources
+## Resources
 
 1. Chatfield, T., Selbach, R. February 2011. Data Management Training Workshop. Bureau of Land Management (BLM).
 1. [Strasser, Carly. February 2012. Data Management for Scientists.](http://www.slideshare.net/carlystrasser/oceansciences2012workshop)
@@ -418,7 +419,7 @@ If data are:
 
 ---
 
-# About
+## About
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 The full slide deck (in PowerPoint) may be downloaded from:

@@ -2,8 +2,8 @@
 @import 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,400i,700,700i';
 .logo {
   position: absolute;
-  bottom: 15px;
-  left: 80px;
+  bottom: 0px;
+  left: 25px;
 }
 .logo img {
   width: 4em;
@@ -36,7 +36,7 @@ h4,
 h5,
 h6 {
   color: #660033;
-  margin: 0 0 .05em 0;
+  margin: 0 0 .0em 0;
 }
 table {
   border-collapse: collapse;
@@ -62,7 +62,7 @@ th {
 .columns {
   clear: right;
   float: left;
-  padding: 0.4em;
+  padding: 0em;
   box-sizing: border-box;
 }
 .full-width,
@@ -74,7 +74,7 @@ th {
 .three-fourth {
   clear: right;
   float: left;
-  padding: 0.6em;
+  padding: 0.2em;
   box-sizing: border-box;
 }
 .one-third {
@@ -279,7 +279,7 @@ img {
 }
 
 .remark-slide-content {
-  padding: 2.5em 4.5em;
+  padding: 0.5em 1em;
   font-size: 25px;
 }
 
@@ -327,8 +327,8 @@ blockquote {
     background-color: #fff;
     border-radius: .3em;
     display:  block;
-    padding: 5px 10px 5px 25px;
-    margin: 30px 0 10px;
+    padding: 0px 2px 0px 12px;
+    margin:0px 0 0px;
     position: relative;
     /*Box Shadow - (Optional)*/
     -moz-box-shadow: 2px 2px 15px #ccc;

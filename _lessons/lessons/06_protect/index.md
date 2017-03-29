@@ -486,6 +486,7 @@ For more information about physical security, encryption, and data disposal, vis
 ---
 # About
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+
 The full slide deck (in PowerPoint) may be downloaded from:
 [http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
 
@@ -495,7 +496,7 @@ DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016.
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
-![CCBY0](images/lesson06_protect/image13.png)
+![CCBY0](images/image13.png)
 ---
 
 

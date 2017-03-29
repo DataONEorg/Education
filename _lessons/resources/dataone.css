@@ -2,8 +2,8 @@
 @import 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,400i,700,700i';
 .logo {
   position: absolute;
-  top: 15px;
-  right: 80px;
+  top: 10px;
+  right: 30px;
 }
 .logo img {
   width: 4em;
@@ -28,7 +28,7 @@ h1 {
   font-weight: bold;
   color: #660033;
   margin-top: 0;
-  margin-bottom: 0  em;
+  margin-bottom: 1.4  em;
 }
 h2,
 h3,

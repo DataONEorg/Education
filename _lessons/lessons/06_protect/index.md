@@ -58,20 +58,28 @@ In this lesson we will be focusing on data protection and backup which is associ
 
 ---
 # Data Protection, Backups, Archiving, Preservation:
-
 Differences at a Glance
-- Data Protection
-  - Includes topics such as backups,  archives, and preservation; also includes physical security, encryption, and others not addressed here
+
+-Data Protection
+  - Includes topics such as: backups, archives, & preservation; also includes physical security, encryption, and others not addressed here
     -More information about these topics can be found in the  “References” section
-- Terms “backups” and “archives” are often used interchangeably, but do have different meanings
-  - Backups: a copy (or copies) of the original file is made before the original is overwritten
-  - Archives: preservation of the file
-- Data Preservation
-  - Includes archiving in addition to processes such as data rescue, data reformatting, data conversion, metadata
+
 
 ???
 The terms data protection, data backups, data archiving, and data preservation are often used interchangeably but they do have different meanings and purposes.  Data protection  covers a wide variety of topics including backups, archives, preservation, physical security (such as the use of smart cards), encryption, and others including laws which govern data security.  However, these slides will not focus on this broader topic but rather will look specifically at backups, archives, and data preservation.
 
+---
+
+# Data Protection, Backups, Archiving, Preservation (cont'd)
+
+
+-Terms “backups” and “archives” are often used interchangeably, but do have different meanings
+  - Backups: copies of the original file are made before the original is overwritten
+  - Archives: preservation of the file
+-Data Preservation
+  - Includes archiving in addition to processes such as data rescue, data reformatting, data conversion, metadata
+
+???
 The terms data backups and data archiving are often used interchangeably as they both relate to saving a specific version of a file, but they do convey different processes.  The term “backup” is used specifically when making copies of various files with the knowledge that the files may change.  Backups are kept for a certain amount of time, but can be discarded after a specified time has passed.  Archiving is used when a file is to be preserved as-is, often at the end of a project and acts as a static (and usually final) record.
 
 Data preservation encompasses many of these same methodologies, but can also include things like data rescue, reformatting of files, converting data, and the creation of metadata.  These first three topics will be discuss briefly in this lesson; however, metadata will be covered in another lesson.
@@ -84,6 +92,15 @@ Data preservation encompasses many of these same methodologies, but can also inc
   - Used to take periodic snapshots of data in case the current version is destroyed or lost
   - Backups are copies of files stored for short or near-long-term
   - Often performed on a somewhat frequent schedule
+
+
+???
+The main difference between data backups and archiving is that backups deal with data that is copied elsewhere and potentially can be overwritten again as the data changes.  Archiving makes a record of data that is usually in its final state.
+
+For example, when a user performs a backup, they are in essence taking a snapshot of the data at that moment in time.  This allows the user to restore the file as needed, such as when the current version of the file is corrupted, lost, or somehow destroyed or altered.  Backups could also be used for short-term storage or near long-term storage, depending upon the user’s backup needs and procedures.  Backups are usually scheduled on a frequent basis.
+
+# A Closer Look: Backups vs. Archiving
+
 - Archiving
   - Used to preserve data for historical reference or potentially during disasters
   - Archives are usually the final version, stored for long-term, and generally not copied over
@@ -91,9 +108,6 @@ Data preservation encompasses many of these same methodologies, but can also inc
 - It is a good idea to have multiple copies of your backups and archives, in multiple places, in case one copy fails.
 
 ???
-The main difference between data backups and archiving is that backups deal with data that is copied elsewhere and potentially can be overwritten again as the data changes.  Archiving makes a record of data that is usually in its final state.
-
-For example, when a user performs a backup, they are in essence taking a snapshot of the data at that moment in time.  This allows the user to restore the file as needed, such as when the current version of the file is corrupted, lost, or somehow destroyed or altered.  Backups could also be used for short-term storage or near long-term storage, depending upon the user’s backup needs and procedures.  Backups are usually scheduled on a frequent basis.
 
 Archiving deals more with records that could be used to create a historical snapshot of the data. This provides for preservation of the data for future needs.  Usually, archives are made when  a project ends, or when appropriate.
 

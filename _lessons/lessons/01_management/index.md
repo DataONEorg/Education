@@ -122,7 +122,7 @@ class: middle center
     This error rate actually was an improvement over the previous fiscal year (9.8% error rate).
 
 ---
-
+##  
 **AUDIT:  JUSTICE STATS ON ANTI-TERROR CASES FLAWED” (AP) February 2007**
 
 > The Justice Department Inspector General found only two sets of data out of 26
@@ -132,7 +132,7 @@ class: middle center
      to be intentional.”
 
 ---
-
+##  
 **OOPS! TECH ERROR WIPES OUT Alaska Info” (AP) March 2007**
 > A technician managed to delete the data and backup for the $38 billion Alaska oil
      revenue fund – money received by residents of the State.  Correcting the errors cost the

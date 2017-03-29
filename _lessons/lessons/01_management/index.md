@@ -1,5 +1,5 @@
 ---
-title: "Lesson 01: Introduction to Data Management"
+title: "Introduction to Data Management"
 update: Sept. 20, 2016
 layout: slides
 categories: ed-module
@@ -172,21 +172,24 @@ being backed up as it would have been if stored on a server.*
 ## Poor Data Management
 ### Federal Agency Example
 
-.three-fourth[In preparation for a Resource Management Plan, an office discovered 14 duplicate GPS inventories of roads.  However, because none of the inventories had enough metadata, it was impossible to know which inventory was best or if any of the inventories actually met their requirements.
+.three-fourth[In preparation for a Resource Management Plan, an office discovered 14 duplicate GPS inventories of roads.  However, because none of the inventories had enough metadata, it was impossible to know which inventory was best or if any of the inventories actually met their requirements. ]
 
-**Solution:**  Re-Inventory roads
+.one-fourth[ ![](images/lesson01-pptimages/image34.jpeg)
+*Source: CC Image by ruffin_Ready on Flickr* ]
+
+.full-width[**Solution:**  Re-Inventory roads
 
 **Cost:** Estimated 9 work months/inventory
         @$4,000/wm
         (14 inventories = $504,000)
 ]
 
-.one-fourth[ ![](images/lesson01-pptimages/image34.jpeg)
-*Source: CC Image by ruffin_Ready on Flickr* ]
+
 
 ---
 
 ## Importance of Data Management
+
 
 > Please forgive my paranoia about protocols, standards, and data review.  I'm in the latter stages of a long career with USGS (30 years, and counting), and have experienced much.  Experience is the knowledge you get just after you needed it.
 
@@ -194,9 +197,8 @@ Several times, I've seen colleagues called to court in order to testify about co
 
 Without a strong tradition of constant review and approval of basic data, they would've been in deep trouble under cross-examination.  Instead, they were able to produce field notes, data approval records, and the like, to back up their testimony.
 
-It's one thing to be questioned by a college student who is working on a project for school.  It's another entirely to be grilled by an attorney under oath with the media present.”
+It's one thing to be questioned by a college student who is working on a project for school.  It's another entirely to be grilled by an attorney under oath with the media present.”- Nelson Williams, Scientist US Geological Survey*
 
-*- Nelson Williams, Scientist US Geological Survey*
 
 ---
 
@@ -253,8 +255,8 @@ Manage your data for yourself:
 ### Foundation to Advance Science
 
 Data should be managed to:
-* Maximize the effective use and value of data and information assets
-* Continually improve the quality including: data accuracy, integrity, integration, timeliness of data capture and presentation, relevance and usefulness
+* Maximize the effective use and value of data & information assets
+* Continually improve quality including: accuracy, integrity, integration, timeliness of capture, presentation, relevance & usefulness
 * Ensure appropriate use of data and information
 * Facilitate data sharing
 * Ensure sustainability and accessibility in long term for re-use in science

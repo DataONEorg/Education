@@ -188,7 +188,7 @@ being backed up as it would have been if stored on a server.*
 
 ## Importance of Data Management
 
-"Please forgive my paranoia about protocols, standards, and data review.  I'm in the later stages of a long career with USGS (30 years, and counting), and have experienced much.  Experience is the knowledge you get just after you needed it. Several times, I've seen colleagues called to court in order to testify about conditions they have observed.
+> "Please forgive my paranoia about protocols, standards, and data review.  I'm in the later stages of a long career with USGS (30 years, and counting), and have experienced much.  Experience is the knowledge you get just after you needed it. Several times, I've seen colleagues called to court in order to testify about conditions they have observed.
 
 Without a strong tradition of constant review and approval of basic data, they would've been in deep trouble under cross-examination.  Instead, they were able to produce field notes, data approval records, and the like, to back up their testimony. It's one thing to be questioned by a college student who is working on a project for school.  It's another entirely to be grilled by an attorney under oath with the media present.”
 *- Nelson Williams, Scientist US Geological Survey*

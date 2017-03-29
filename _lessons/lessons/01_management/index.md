@@ -7,7 +7,7 @@ categories: ed-module
 
 class: center, middle
 
-# Why Data Management?
+## Why Data Management?
 
 ![Image Caption Here](images/slide-1-intro.jpg)
 
@@ -20,7 +20,7 @@ Here are some _notes_. You can format them however you'd like to.
 ---
 class: Middle
 
-# Lesson Topics
+## Lesson Topics
 
 * The data world around us
 * Importance of data management
@@ -32,7 +32,7 @@ The topics covered in this module will answer the questions:
 
 ---
 
-# Learning Objectives
+## Learning Objectives
 
 * Give two general examples of why increasing amounts of data is a concern
 * Explain, using two examples, how lack of data management makes an impact
@@ -42,7 +42,7 @@ The topics covered in this module will answer the questions:
 ---
 class: center middle
 
-# Data Realities...
+## Data Realities...
 
 ---
 class: center

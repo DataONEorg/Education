@@ -33,13 +33,13 @@ The topics covered in this module will answer the questions:
 
 ## Learning Objectives
 
-* Give two general examples of why increasing amounts of data is a concern
+.full-width[* Give two general examples of why increasing amounts of data is a concern
 * Explain, using two examples, how lack of data management makes an impact
 * Define the research data lifecycle
-* Give one example of how well-managed data can result in new scientific conclusions
+* Give one example of how well-managed data can result in new scientific conclusions]
 
 ---
-class: middle
+class: middle, center
 
 ## Data Realities...
 
@@ -217,10 +217,10 @@ The climate scientists at the centre of a media storm over leaked emails were ye
 ### Researcher Perspective
 
 Manage your data for yourself:
-* Organize your files (data inputs, analytic scripts, outputs) at various stages of the analytic process
+.full-width[* Organize your files (data inputs, analytic scripts, outputs) at various stages of the analytic process
 * Track your science processes for reproducibility – match your outputs with exact inputs and transformations that produced them
 * Better control versions of data – identify easily versions that can be periodically purged
-* Quality control your data more efficiently
+* Quality control your data more efficiently]
 
 ---
 
@@ -252,11 +252,11 @@ Manage your data for yourself:
 ### Foundation to Advance Science
 
 Data should be managed to:
-* Maximize the effective use and value of data & information assets
+.full-width[* Maximize the effective use and value of data & information assets
 * Continually improve quality including: accuracy, integrity, integration, timeliness of capture, presentation, relevance & usefulness
 * Ensure appropriate use of data and information
 * Facilitate data sharing
-* Ensure sustainability and accessibility in long term for re-use in science
+* Ensure sustainability and accessibility in long term for re-use in science]
 
 
 ---
@@ -312,20 +312,20 @@ Data should be properly managed and eventually be placed where they are accessib
 
 Here are a few reasons (from the UK Data Archive):
 
-* Increases the impact and visibility of research
+.full-width[* Increases the impact and visibility of research
 * Promotes innovation and potential new data uses
 * Leads to new collaborations between data users and creators
-* Maximizes transparency and accountability
+* Maximizes transparency and accountability]
 
 ---
 
 ## Well managed, publically accessible data is important: 
 ### Why?
 
-* Enables scrutiny of research findings
+.full-width[* Enables scrutiny of research findings
 * Encourages improvement and validation of research methods
 * Reduces cost of duplicating data collection
-* Provides important resources for education and training
+* Provides important resources for education and training]
 
 *--UK Data Archive*
 
@@ -372,9 +372,9 @@ A data lifecycle illustrates stages thru which well-managed data passes from the
 
 ## For Each Stage of the Data Lifecycle
 
-* There are best practices…..and….tools to help!
+.full-width[* There are best practices…..and….tools to help!
 * The following data management lessons will illustrate in detail each stage of the data lifecycle
-* Your well-managed and accessible data can contribute to science in ways you may not even imagine today!
+* Your well-managed and accessible data can contribute to science in ways you may not even imagine today!]
 
 
 ???
@@ -384,10 +384,10 @@ The rest of the DataONE Education Modules, handouts, and hands-on exercises are 
 ---
 ## Summary
 
-* The data deluge has created a surge of information that needs to be well-managed and made accessible.
+.full-width[* The data deluge has created a surge of information that needs to be well-managed and made accessible.
 * The cost of not doing data management can be very high.
 * Be cognizant of best practices and tools associated with the data lifecycle to manage your data well.
-* Many benefits are associated with the act of managing data, including the ability to find, access, understand, integrate and re-use data.
+* Many benefits are associated with the act of managing data, including the ability to find, access, understand, integrate and re-use data.]
 
 
 ---

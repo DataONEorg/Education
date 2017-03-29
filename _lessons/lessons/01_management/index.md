@@ -420,6 +420,7 @@ If data are:
 
 # About
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+
 The full slide deck (in PowerPoint) may be downloaded from:
 [http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
 
@@ -428,6 +429,5 @@ DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016.
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
----
-class: middle
+
 ![CCBY0](images/lesson01-pptimages/image50.png)

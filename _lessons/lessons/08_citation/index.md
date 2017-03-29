@@ -486,16 +486,19 @@ APA Format<sup>3</sup>:
 12. Jackson, Mike. 2012. How to cite and describe software. Software Sustainability Institute. http://www.software.ac.uk/how-cite-and-describe-software?mpw. Accessed May 12, 2016.
 
 ---
+# About
+Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
-The full slide deck may be downloaded from:
-http://www.dataone.org/education-modules
+The full slide deck (in PowerPoint) may be downloaded from:
+[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
 
-Suggested citation:
-DataONE Education Module: Data Citation. DataONE. Retrieved Nov12, 2012. From http://www.dataone.org/sites/all/documents/L09_DataCitation.pptx 
+**Suggested citation:**
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
 
-Copyright license information:
+**Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
-![ICC0 license](images/slide32.png)
+![CCBY0](images/image32.png)
+---
 
 ---

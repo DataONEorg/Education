@@ -2,8 +2,8 @@
 @import 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,400i,700,700i';
 .logo {
   position: absolute;
-  bottom: 15px;
-  left: 80px;
+  bottom: 0px;
+  left: 25px;
 }
 .logo img {
   width: 4em;
@@ -36,7 +36,7 @@ h4,
 h5,
 h6 {
   color: #660033;
-  margin: 0 0 .05em 0;
+  margin: 0 0 .0em 0;
 }
 table {
   border-collapse: collapse;
@@ -279,7 +279,7 @@ img {
 }
 
 .remark-slide-content {
-  padding: 2.5em 4.5em;
+  padding: 0.5em 1em;
   font-size: 25px;
 }
 

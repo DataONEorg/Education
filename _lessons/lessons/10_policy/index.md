@@ -446,6 +446,19 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 11. Constructing Access Permissions. Accessed June 26, 2015 at http://libweb.uoregon.edu/datamanagement/sharingdata.html#three
 
 
+---
+## About
+Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
+The full slide deck (in PowerPoint) may be downloaded from:
+[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
+
+**Suggested citation:**
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
+
+**Copyright license information:**
+No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
+
+![CCBY0](images/ccby.png)
 
 

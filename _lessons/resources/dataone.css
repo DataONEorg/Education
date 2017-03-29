@@ -327,8 +327,8 @@ blockquote {
     background-color: #fff;
     border-radius: .3em;
     display:  block;
-    padding: 5px 10px 5px 25px;
-    margin: 30px 0 10px;
+    padding: 0px 2px 0px 12px;
+    margin:0px 0 0px;
     position: relative;
     /*Box Shadow - (Optional)*/
     -moz-box-shadow: 2px 2px 15px #ccc;

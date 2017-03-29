@@ -49,6 +49,8 @@ Q4: What are some good practices to follow when naming files?  Suggested answers
 ---
 # The DataONE Data Life Cycle
 
+Class: center, middle
+
 ![](images/dlc.png)
 
 ???

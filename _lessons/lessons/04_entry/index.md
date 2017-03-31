@@ -38,7 +38,10 @@ The goals of data entry are to create data that are valid, or have gone through 
 
 
 ???
+
 These are data entered in to Excel from a small mammal trapping study.   Each block of data represents a different trapping period (2/13, 3/15, and 4/10/2010).  Inconsistencies in how the data were entered for each sampling period  make the data difficult to analyze and difficult for anyone but the data collector to understand.  Note that the date is listed in different places in each block.  Date is a column in the first block, but listed in the header in the block on the right. Inconsistent date formats were also used.  In one place the date is formatted  as day-month-year, with the first three letters of the month spelled out, while elsewhere the format is  mm/dd/yyyy.  Note also that the order of the columns is inconsistent- Site, Date in the first block, and Site, Plot in the bottom block.   Even the columns are named differently.    Species is called Species in the first block, and RodentSp in the block on the right.  This can be confusing to any user who must try to make sense of these data!    And it would be a nightmare to try to write metadata for this spreadsheet.   
+
+
 ---
 # Example: Poor Data Entry, continued
 
@@ -59,6 +62,7 @@ To analyze all these data using statistical software, and to make it much easier
 
 
 ???
+
 This shows the same data entered in a way that would make it easy to understand and analyze.  
 The data are not entered in separate blocks arrayed in a single worksheet.  They are entered in one table with columns defined by variables Date, Site, Plot, Species, and Weight, Adult, and Comments that are recorded for each sampling event.  
 
@@ -72,6 +76,8 @@ There are consistent names, codes, and formats used in each column.  For instanc
   - `Soil T30` to `Soil_Temp_30cm`
   - `Species-Code` to "Species_Code (Avoid using -,+,*,^ in column names. Some software may interpret these symbols as an operator)"
 - Use a descriptive file name.  For instance, a file named `SEV_SmallMammalData_v.5.25.2010.csv` indicates the project the data is associated with (SEV),  the theme of the data (SmallMammalData) and also when this version of the data was created (v.5.25.2010).   This name is much more helpful than a file named mydata.xls.  
+
+
 
 ???
 One best practice in data entry is to create descriptive column names without spaces or special characters.  Sometimes statistical programs have special uses for some characters, so you should avoid using them in your data file.   

@@ -452,6 +452,7 @@ Similar to data citation, software citations should include:
 * Product Name. Version. Release Date. Publisher. Location.
  * SuperScience. 1.2. December 2012. Research Software. Edinburgh, UK.
 ]
+
 .full-width[**Software downloaded from the web:**
 * Product Name. Version. Release Date. Publisher. Location. DOI or URL. Download Date.
   * OGSA-DAI REST. 4.2.1. December 2012. OGSA-DAI Project. http://sourceforge.net/projects/ogsa-dai. 27/04/2012.
@@ -489,22 +490,30 @@ Similar to data citation, software citations should include:
 
 ## Resources
 
-1. Australian National Data Service (ANDS), Data Citation Awareness Guide. Accessed April 9, 2015 at http://ands.org.au/guides/data-citation-awareness.html. 
+.full-width[1. Australian National Data Service (ANDS), Data Citation Awareness Guide. Accessed April 9, 2015 at http://ands.org.au/guides/data-citation-awareness.html. 
 2. Ball, A. & Duke, M. (2011). How to Cite Datasets and Link to Publications. DCC How-to Guides. Edinburgh: Digital Curation Centre. Accessed April 9, 2015 at http://www.dcc.ac.uk/resources/how-guides.
-3. CODATA-ICSTI Task Group on Data Citation Standards and Practices. (2013). Out of Cite, Out of Mind: The Current State of Practice, Policy, and Technology for the Citation of Data. Data Science Journal, 12: CIDCR1 - CIDCR75. Accessed April 9, 2015 at http://dx.doi.org/10.2481/dsj.OSOM13-043.
-4. Costello, M. J. (2009). Motivating Online Publication of Data. BioScience, 59(5): 418-427. Accessed April 9, 2015 at http://www.bioone.org/doi/full/10.1525/bio.2009.59.5.9.
+3. CODATA-ICSTI Task Group on Data Citation Standards and Practices. (2013). Out of Cite, Out of Mind: The Current State of Practice, Policy, and Technology for the Citation of Data. Data Science Journal, 12: CIDCR1 - CIDCR75. Accessed April 9, 2015 at http://dx.doi.org/10.2481/dsj.OSOM13-043.]
+
+## Resources, continued 
+
+.full-width[4. Costello, M. J. (2009). Motivating Online Publication of Data. BioScience, 59(5): 418-427. Accessed April 9, 2015 at http://www.bioone.org/doi/full/10.1525/bio.2009.59.5.9.
 5. CrossCite DOI Citation Formatter. Accessed April 9, 2015 at http://crosscite.org/citeproc/.
-6. Data Citation Principles Glossary. FORCE11. Accessed April 9, 2015 at Accessed April 9, 2015 at https://www.force11.org/node/4770.
+6. Data Citation Principles Glossary. FORCE11. Accessed April 9, 2015 at Accessed April 9, 2015 at https://www.force11.org/node/4770.]
 
 ---
 
 ## Resources, continued
 
-7. Data Citation Synthesis Group. (2014). Joint Declaration of Data Citation Principles. Martone, M. (ed.). San Diego, CA: FORCE11. Accessed April 9, 2015 at https://www.force11.org/datacitation. 
+.full-width[7. Data Citation Synthesis Group. (2014). Joint Declaration of Data Citation Principles. Martone, M. (ed.). San Diego, CA: FORCE11. Accessed April 9, 2015 at https://www.force11.org/datacitation. 
 8. Duke, C. S. & Porter, J. H. (2013). The Ethics of Data Sharing and Reuse in Biology. BioScience 63: 483-489. Accessed April 9, 2015 at http://dx.doi.org/10.1525/bio.2013.63.6.10. 
-9. ESIP Federation Interagency Data Stewardship/Citations/Provider Guidelines. Accessed April 9, 2015 at http://bit.ly/data_citation. 10. Hakala, J. Persistent identifiers – an overview. Accessed April 9, 2015 at http://metadaten-twr.org/2010/10/13/persistent-identifiers-an-overview/.
-11. Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M, Herman I, Hodson S, Hourclé J, Kratz JE, Lin J, Nielsen LH, Nurnberger A, Proell S, Rauber A, Sacchi S, Smith A, Taylor M, Clark T. (2015) Achieving human and machine accessibility of cited data in scholarly publications. PeerJ Computer Science 1:e1 https://doi.org/10.7717/peerj-cs.1
-12. Jackson, Mike. 2012. How to cite and describe software. Software Sustainability Institute. http://www.software.ac.uk/how-cite-and-describe-software?mpw. Accessed May 12, 2016.
+9. ESIP Federation Interagency Data Stewardship/Citations/Provider Guidelines. Accessed April 9, 2015 at http://bit.ly/data_citation. 10. Hakala, J. Persistent identifiers – an overview. Accessed April 9, 2015 at http://metadaten-twr.org/2010/10/13/persistent-identifiers-an-overview/.]
+
+---
+
+## Resources, continued
+
+.full-width[11. Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M, Herman I, Hodson S, Hourclé J, Kratz JE, Lin J, Nielsen LH, Nurnberger A, Proell S, Rauber A, Sacchi S, Smith A, Taylor M, Clark T. (2015) Achieving human and machine accessibility of cited data in scholarly publications. PeerJ Computer Science 1:e1 https://doi.org/10.7717/peerj-cs.1
+12. Jackson, Mike. 2012. How to cite and describe software. Software Sustainability Institute. http://www.software.ac.uk/how-cite-and-describe-software?mpw. Accessed May 12, 2016.]
 
 ---
 ## About

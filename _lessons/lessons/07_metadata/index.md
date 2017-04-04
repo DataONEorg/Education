@@ -438,12 +438,144 @@ Image: an example of a metadata editor in ArcGIS where entity and attribute info
 
 # What does a metadata record look like?
 
+.one-half[
 Metadata Image ![Photo Attribution: Santa Barbara LTER](images/LTERMetadata_01.png)
   *image from Santa Barbara LTER*
-
+  ]
+.one-third[
 Metadata Image ![Photo Attribution: Santa Barbara LTER](images/LTERMetadata_02.png)
   *image from Santa Barbara LTER*
+  ]
+
+???
   
-  ???
+This is an example of a metadata record using the Ecological Metadata Standard (EML) schema. 
+
+---
   
-  This is an example of a metadata record using the Ecological Metadata Standard (EML) schema. 
+# Choosing Metadata Standards
+  
+Arrows Image ![Photo Attribution: CC image by Viv Hutchinson](images/  )
+*Image courtesy of Viv Hutchinson*
+
+---
+
+# Multiple Metadata Standards Exist: Examples (1)
+  
+Dublin Core Element Set
+- Emphasis on web resources, publications
+- http://dublincore.org/documents/dces/
+FGDC Content Standard for Digital Geospatial Metadata (CSDGM)
+- Emphasis on geospatial data
+- The Biological Data Profile (BDP) of the CSDGM is a profile to the CSDGM with an emphasis on biological data (and geospatial)
+- https://www.fgdc.gov/metadata/csdgm-standard
+ISO 19115/19139  Geographic information – metadata 
+- Emphasis on geospatial data and services
+- https://www.fgdc.gov/metadata/iso-standards
+
+???
+
+There are many standards available to document data. Each has a different focus, yet asks for similar information about the dataset. 
+
+---
+
+# Multiple Metadata Standards Exist: Examples (2)
+  
+Ecological Metadata Language (EML)
+- Focus on ecological data
+- http://knb.ecoinformatics.org/eml_metadata_guide.html
+Darwin Core
+- Emphasis on museum specimens
+- http://rs.tdwg.org/dwc/index.htm
+Geography Markup Language (GML)
+- Emphasis on geographic features (roads, highways, bridges)
+- http://www.opengeospatial.org/standards/gml
+
+???
+
+There are many standards available to document data. Each has a different focus, yet asks for similar information about the dataset. 
+
+---
+
+# Comparing Metadata Standards
+
+Terminology for the same concepts may vary across standards
+
+| Ecological Metadata Language (EML) | FGDC Content Standard for Digital Geospatial Metadata |
+|:----------|:----------|
+| Title | Title |
+| Abstract | Abstract | 
+| Entity Description | Entity Type Definition |
+| Intellectual Rights | Use Constraints | 
+
+---
+
+# Choosing a Metadata Standard
+
+Many standards collect similar information
+Factors to consider: 
+1. Your data type:
+	- Are you working mainly with GIS data? Raster/vector or point data? Do you have biological or shoreline information in your dataset?
+    		- Consider the FGDC Content Standard for Digital Geospatial Metadata with one of its profiles: the Biological Data Profile or the Shoreline Data Profile. 
+  - Are you working with data retrieved from instruments such as monitoring stations or satellites? Are you using geospatial data services such as applications for web-mapping applications or data modeling?
+    - If so, then consider using the ISO 19115-2 standard
+  - Are you mainly working with ecological data?
+    - Consider Ecological Metadata Language (EML)     
+
+---
+
+# Choosing a Metadata Standard
+
+More Factors to consider: 
+2. Your organization’s policies: do they state which standard to use? 
+- What resources are available to create metadata? 
+Examples of Tools:
+- FGDC CSDGM: 
+- https://www.fgdc.gov/metadata/geospatial-metadata-tools#availabletools 
+EML: 
+- Morpho (http://knb.ecoinformatics.org/morphoportal.jsp)
+ISO: (http://www.fgdc.gov/metadata/iso-metadata-editor-review)
+- XML Spy or Oxygen
+- CatMD
+Other factors: Availability of human support; instructional materials; use of controlled vocabularies; output formats
+
+---
+
+# What Makes a Good Metadata Record?
+
+Metadata are developed continuously throughout the entire data lifecycle
+
+Lifecycle Image ![Photo Attribution: DataONE](images/  )
+
+???
+
+Now that you know about some metadata standards to use and some available tools for developing metadata, let’s discuss some aspects of a good metadata record. 
+
+As mentioned at the beginning of this module, metadata should be developed continuously throughout the entire data lifecycle. This means that metadata should be generated along-side the data. Starting early will ensure that information about your data is fresh in your mind, which in turn saves you time. It will also enable you to provide more details about your data, which in turn leads to a higher-quality metadata record. For example, writing the Entity & Attributes section of your metadata or creating a separate data dictionary while you are developing your database will reduce this burden at the end of the project and can serve as a helpful tool during the project to ensure that everyone understands what each of the entities and attributes means. Writing the processing section of your metadata when you are processing your data ensures that all processing steps are documented. It is most beneficial if the person who is completing the data processing is the same person who writes the processing section for the metadata record. 
+
+---
+
+# What Makes a Good Metadata Record?
+
+Consistency with commonly used fields
+Here are some examples for a FGDC CSDGM record:
+
+| Field  | DO THIS | NOT THIS | 
+|:----------|:----------|
+| Publisher | `<publish>U.S. Geological Survey</publish>` | `<publish>USGS</publish>` |
+| Date | `<pubdate>YYYYMMDD</pubdate>` </br> `<pubdate>YYYY</pubdate>` | `<pubdate>MM/DD/YYYY</pubdate>` </br> `<pubdate>May 27, 2003</pubdate>` |
+|Keywords | `<placekt>Geographic Names Information System</placekt>` </br> `<placekey>Roosevelt National Forest</placekey>` | `<themekey>Roosevelt Forest</themekey>` | 
+
+???
+
+As you get started developing your metadata record, it is important that certain fields are used consistently. This means that some metadata fields require values that are written the same way to aid in machine-readability and discovery. For example, the publisher field should contain the standard form of your agency’s or organization’s name (if that is the appropriate publisher). For example, the USGS, the name should be written as U.S. Geological Survey, not USGS. 
+
+For CSDGM records, all dates should be written using the format of four digits for year, then two digits for month, followed by two digits for the day (YYYYMMDD). Data.gov is enforcing this format and metadata will fail validation if other formats are used. 
+
+Select the keywords that are specific to your dataset. The thesaurus used should be documented in the metadata. If a single thesaurus does not provide all of the theme keywords that your metadata require, you may use and reference more than one thesaurus. Within FGDC CSDGM and ISO 19115 there are specific fields for place keywords. The theme keyword field should not be used for place keywords. A good resource for finding standard place keywords is the Geographic Names Information System. 
+
+If you need to include species names in your metadata, you may use the taxonomic section within the Biological Data Profile instead of the theme keyword fields, to do so. 
+
+Refer to the appropriate documentation and/or schema for the standard you are using, as well as with your agency/organization to ensure you following the recommended usage.
+
+---

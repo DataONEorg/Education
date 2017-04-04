@@ -356,7 +356,7 @@ UC Curation Center Merritt
  
 ## Collaborating with publishers
 
-.one-half[* Data centers or distributors should
+.full-width[* Data centers or distributors should
  * Ensure that data and metadata remain accessible, robust, and usable over time
  * Assign persistent and unique identifiers so that data are discoverable
  * Make data citation information easily findable by data users
@@ -390,9 +390,13 @@ UC Curation Center Merritt
 .full-width[* Work with journal publishers and data repositories to archive data during the publication process
  * Allows information about how to access your data set to be published with your article
    * Note: Data repositories typically offer to embargo archived data for a pre-determined time period after publication
- * Allows article citation/DOI to be included with archived data set
+ * Allows article citation/DOI to be included with archived data set]
+ 
+ ---
+ 
+## Best Practices to Support Data Citation, continued 
 
-* Encourage other data authors to cite data and to make their own data available for reuse:
+.full-width[* Encourage other data authors to cite data and to make their own data available for reuse:
  * Provide full citation information for data whenever you publish work that makes use of another author’s data
  * Archive your own data in a repository that supports data discovery and reuse
  * Update your archived data sets when newer versions are available]
@@ -416,13 +420,13 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
 
 ## Citation of Scientific Software
 
-Why cite software?
+### Why cite software?
 * Software itself may be considered to be data or a research product.
 * Findings of a study are not only based on data, but on the software used to support the analysis of the data.
 * Software citation is essential for enabling reproducibility of results.
 * Give proper attribution to the developers/authors of software.
 
-When to cite software?
+### When to cite software?
 * "Standard" office software (e.g. Word, Excel) and programming languages do not need formal citations. 
 * DO provide citations for specialized/custom software or programs  when their use directly impacts the results.
 

@@ -420,16 +420,16 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
 
 ## Citation of Scientific Software
 
-### Why cite software?
+.full-width[Why cite software?
 * Software itself may be considered to be data or a research product.
 * Findings of a study are not only based on data, but on the software used to support the analysis of the data.
 * Software citation is essential for enabling reproducibility of results.
 * Give proper attribution to the developers/authors of software.
 
-### When to cite software?
+When to cite software?
 * "Standard" office software (e.g. Word, Excel) and programming languages do not need formal citations. 
 * DO provide citations for specialized/custom software or programs  when their use directly impacts the results.
-
+]
 ---
 
 ## Examples of information needed in software citations

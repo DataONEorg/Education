@@ -307,7 +307,7 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
 
 ## Collaborative effort
 
-.two-third[* Requires participation of a variety of individuals and institutions
+.one-half[* Requires participation of a variety of individuals and institutions
  * Journal publishers
  * Data publishers/repositories
  * Data authors
@@ -356,7 +356,7 @@ UC Curation Center Merritt
  
 ## Collaborating with publishers
 
-.two-thrid[* Data centers or distributors should
+.one-half[* Data centers or distributors should
  * Ensure that data and metadata remain accessible, robust, and usable over time
  * Assign persistent and unique identifiers so that data are discoverable
  * Make data citation information easily findable by data users
@@ -373,7 +373,7 @@ UC Curation Center Merritt
 
 ## Best Practices to Support Data Citation
 
-* To support access to your data:
+.full-width[* To support access to your data:
  * Use application that supports metadata creation for environmental data sets
     * Morpho
     * Metavist (USDA Forest Service)
@@ -381,13 +381,13 @@ UC Curation Center Merritt
  * Use standardized keywords to describe your data
     * Biocomplexity Thesaurus (USGS)
     * Global Change Master Directory (NASA)
- * Use a persistent identifier such as DOI or ARK
+ * Use a persistent identifier such as DOI or ARK]
 
 ---
 
 ## Best Practices to Support Data Citation, continued
 
-* Work with journal publishers and data repositories to archive data during the publication process
+.full-width[* Work with journal publishers and data repositories to archive data during the publication process
  * Allows information about how to access your data set to be published with your article
    * Note: Data repositories typically offer to embargo archived data for a pre-determined time period after publication
  * Allows article citation/DOI to be included with archived data set
@@ -395,7 +395,7 @@ UC Curation Center Merritt
 * Encourage other data authors to cite data and to make their own data available for reuse:
  * Provide full citation information for data whenever you publish work that makes use of another author’s data
  * Archive your own data in a repository that supports data discovery and reuse
- * Update your archived data sets when newer versions are available
+ * Update your archived data sets when newer versions are available]
  
 ---
 

@@ -216,8 +216,7 @@ Where you backup your files depends on a variety of things:
 * Even if you already have one backup in place, you may want to make sure your data is backed up in another location.  If you backup your data to an external drive attached to your desktop computer and there’s a fire in your office, both versions of your data will be destroyed.  Also, there’s no guarantee that your backups are reliable or safe.  Failures can happen on any system.]
 
 ---
-# Slide title
-
+# Considerations 
 
 .full-width[* How are backups carried out?
   * Manually may work for single files, but requires that the user remembers to perform regular backups and can be time-consuming
@@ -269,7 +268,6 @@ Checksum values are numeric numbers that are based upon mathematical calculation
 
 
 ---
-
 # Considerations
 
 .full-width[* Are there backups of the backups?

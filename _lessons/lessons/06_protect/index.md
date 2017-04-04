@@ -120,7 +120,7 @@ Regardless of whether you are dealing with backups or archives, you should have 
 ## Why Perform Backups?
 
 Limit loss of data, some of which may not be reproducible
-.full-width[* Save time, money, productivity
+.one-half[* Save time, money, productivity
 * Help prepare for disasters
   * Accidental deletions
   * Fires, natural disasters

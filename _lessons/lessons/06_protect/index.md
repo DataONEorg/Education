@@ -255,7 +255,7 @@ Software and hardware failures can happen at any time.  Just because you’ve re
 A log file can report a successful backup, but it may be backing up the wrong files!
 ---
 
-# Considerations
+ # Considerations
 
 .full-width[* If you are working with someone, such as an IT group, who helps manage and perform backups, confirm and verify that the backup process has been successfully completed
 * How do you verify a backup has been successfully performed? 
@@ -269,7 +269,7 @@ Checksum values are numeric numbers that are based upon mathematical calculation
 
 ---
 
-# Considerations
+ # Considerations
 
 .full-width[* Are there backups of the backups?
   * Necessary for high-value data 

@@ -22,7 +22,7 @@ layout: slides
 * How to Obtain a Persistent Identifier for a Data Set
 * Best Practices to Support Data Citation]
 
-[![CC image by cybrarian77 on Flickr](images/slide2.jpg)
+![CC image by cybrarian77 on Flickr](images/slide2.jpg)
 *Image attribution: CC image by cybrarian77 on Flickr*
 
 ---

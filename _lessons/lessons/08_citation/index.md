@@ -352,7 +352,7 @@ UC Curation Center Merritt
 
 ---
  
-## Collaborating with publishers
+## Collaborating with publishers, continued
 
 .full-width[
 * Data centers or distributors should
@@ -375,7 +375,7 @@ UC Curation Center Merritt
 
 ## Best Practices to Support Data Citation
 
-.full-width[* To support access to your data:
+* To support access to your data:
  * Use application that supports metadata creation for environmental data sets
     * Morpho
     * Metavist (USDA Forest Service)
@@ -383,7 +383,7 @@ UC Curation Center Merritt
  * Use standardized keywords to describe your data
     * Biocomplexity Thesaurus (USGS)
     * Global Change Master Directory (NASA)
- * Use a persistent identifier such as DOI or ARK]
+ * Use a persistent identifier such as DOI or ARK
 
 ---
 
@@ -394,6 +394,7 @@ UC Curation Center Merritt
    * Note: Data repositories typically offer to embargo archived data for a pre-determined time period after publication
  * Allows article citation/DOI to be included with archived data set]
  
+ ---
  
 ## Best Practices to Support Data Citation, continued 
 

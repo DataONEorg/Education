@@ -23,11 +23,12 @@ The first section discusses the differences between three concepts: data protect
 # Learning Objectives
 
 After completing this lesson, the participant will be able to:
-- Define the differences between backups and archiving data
-- Identify significant issues related to data backups
-- Identify why backup plans are important and how they can fit into larger backup procedures
-- Discuss what data preservation covers
-- List several recommended practices
+.full-width[
+* Define the differences between backups and archiving data
+* Identify significant issues related to data backups
+* Identify why backup plans are important and how they can fit into larger backup procedures
+* Discuss what data preservation covers
+* List several recommended practices]
 
 ???
 By the end of this presentation, you will be able to define the differences between data backups and archives, characterize issues that you might encounter during data backups, and lastly we’ll discuss recommended practices as related to backup plans.
@@ -59,8 +60,7 @@ In this lesson we will be focusing on data protection and backup which is associ
 ---
 # Data Protection, Backups, Archiving, Preservation:
 Differences at a Glance
-
--Data Protection
+* Data Protection
   - Includes topics such as: backups, archives, & preservation; also includes physical security, encryption, and others not addressed here
     -More information about these topics can be found in the  “References” section
 
@@ -72,11 +72,10 @@ The terms data protection, data backups, data archiving, and data preservation a
 
 # Data Protection, Backups, Archiving, Preservation (cont'd)
 
-
--Terms “backups” and “archives” are often used interchangeably, but do have different meanings
+* Terms “backups” and “archives” are often used interchangeably, but do have different meanings
   - Backups: copies of the original file are made before the original is overwritten
   - Archives: preservation of the file
--Data Preservation
+* Data Preservation
   - Includes archiving in addition to processes such as data rescue, data reformatting, data conversion, metadata
 
 ???

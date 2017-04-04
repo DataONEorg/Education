@@ -1,5 +1,5 @@
 ---
-title: "Protecting Your Data: Backups, Archives, & Data Preservation"
+title: "Protecting Your Data: Backups, Archives & Data Preservation"
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 21, 2016
 layout: slides

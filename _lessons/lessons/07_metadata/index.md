@@ -7,7 +7,7 @@ layout: slides
 # Tutorials on Data Management
 ## Lesson 7: Metadata
 
-![Image Attribution: CC image by bonus on Flickr](images/  )
+![Image Attribution: CC image by bonus on Flickr](images/image3.jpeg)
   *Image Attribution: CC image by bonus on Flickr*
 
 ---
@@ -367,7 +367,7 @@ Metadata is invaluable for data liability. For example, a record will indicate t
 
 ---
 
-# Concerns About Creating Metadata
+# Concerns About Creating Metadata (1)
 
 Even if the value of data documentation is recognized, researchers are often concerned about the effort required to create metadata that effectively describe their data.
 
@@ -380,6 +380,70 @@ Even if the value of data documentation is recognized, concerns remain as to the
 
 ---
 
+# Concerns About Creating Metadata (2)
+
+| Concern | Solution |
+|:----------|:----------|
+| workload required to capture accurate robust metadata | incorporate metadata creation into data development process – distribute the effort |
+| time and resources to create, manage, and maintain metadata | include in grant budget and schedule |
+| readability / usability of metadata | use a standardized metadata format |
+| discipline specific information and ontologies | Use a standard ‘profile’ that supports discipline specific information | 
+
+???
+
+Metadata does require time and effort to create. The workload, however, is reduced when metadata creation is incorporated into the data development process and the effort is distributed among data contributors. Metadata creation and management should be treated as a standard data development procedure and resources for staff and time should be included in project and proposal work plans and budgets. The use of a standardized metadata format and the development of discipline specific ‘profiles’ of metadata can enable data users to quickly find needed information and address data developer concerns about metadata use and comprehension. 
+
+Definition of a profile: http://support.esri.com/other-resources/gis-dictionary/term/metadata%20profile 
+
+“A modification of an existing metadata standard to adapt to data issues, cultural issues, or both. A profile is typically a subset of a base standard that tailors the metadata elements in the base standard to better describe the data to the community that uses it. Metadata profiles allow communities to follow a metadata standard, while at the same time enhancing the standard so that it is more appropriate for a particular use or locale.
+
+---
+
+# What is a Metadata Standard?
+
+A Standard provides a structure to describe data with:
+- Common terms to allow consistency between records
+- Common definitions for easier interpretation
+- Common language for ease of communication
+- Common structure to quickly locate information
+
+In search and retrieval, standards provide:
+- Documentation structure in a reliable and predictable format for computer interpretation
+- A uniform summary description of the dataset
 
 
+File Folder Image ![Photo Attribution: CC image by waterlilysage on Flickr](images/  )
+  *CC image by waterlilysage on Flickr*
 
+???
+
+An established standard provides common terms, definitions, and structure that allow for consistent communication. The use of standards also supports search and retrieval in automated systems.  
+
+---
+
+# What does a metadata standard include?
+
+Components of metadata: 
+- A metadata standard is made up of defined *elements*, including the type of information the user should enter (e.g. text, numbers, date). 
+
+- Examples of elements include: title, abstract, keywords, persistent link, variables, units, usage rights
+
+???
+
+An established standard provides common terms, definitions and structure that allow for consistent communication. The use of standards also support search and retrieval in automated systems. 
+
+Image: an example of a metadata editor in ArcGIS where entity and attribute information may be entered to generate a metadata record (source: http://desktop.arcgis.com/en/arcmap/10.3/manage-data/metadata/illustrated-guide-to-complete-fgdc-metadata.htm#ESRI_SECTION1_01B7AC211E2040F9A436CA03D6A0E094)
+
+---
+
+# What does a metadata record look like?
+
+Metadata Image ![Photo Attribution: Santa Barbara LTER](images/LTERMetadata_01.png)
+  *image from Santa Barbara LTER*
+
+Metadata Image ![Photo Attribution: Santa Barbara LTER](images/LTERMetadata_02.png)
+  *image from Santa Barbara LTER*
+  
+  ???
+  
+  This is an example of a metadata record using the Ecological Metadata Standard (EML) schema. 

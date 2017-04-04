@@ -38,7 +38,8 @@ The goals of data entry are to create data that are valid, or have gone through 
 ---
 ## Example: Poor Data Entry
 
-
+class: center
+![sheet1](images/image6.png)]
 
 ???
 
@@ -48,6 +49,8 @@ These are data entered in to Excel from a small mammal trapping study.   Each bl
 ---
 ## Example: Poor Data Entry, continued
 
+class: center
+![sheet1](images/image7.png)]
 
 ???
 There are other problems with how these data was entered. Naming of sites is also inconsistent.  For instance, Deep Well is used in the first block vs. DW in the block on the right.  The file contains several typos, also such as rioSalado vs. rioSlado.   A human can figure out what each of these site names refers to, but the names would have to be harmonized for a statistical program to use.   It would be easier to filter for just Deep Well (with a space), and not have to know you need to filter for DeepWell (no space), also.   Similarly, in one place a species code is capitalized PERO, and lowercase elsewhere.   
@@ -59,11 +62,13 @@ To analyze all these data using statistical software, and to make it much easier
 
 ---
 ## Recommended Practices
-.full-width[
+.one-half[
 * Columns of data are consistent: only numbers, dates, or text
 * Consistent Names, Codes, Formats (date) used in each column
 * Data are all in one table, which is much easier for a statistical program to work with than multiple small tables which each require human intervention]
 
+
+![sheet3](images/image8.png)]
 
 ???
 

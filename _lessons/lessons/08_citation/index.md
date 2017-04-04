@@ -54,7 +54,7 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 ### Data citation
 .full-width[* The practice of providing a reference to data in the same way as researchers routinely provide a bibliographic reference to printed resources.
 * A key practice underpinning the recognition of data as a primary research output rather than as a by-product of research]
-<footer>*Australian National Data Service (ANDS), Data Citation Awareness Guide. Accessed May 10, 2012 at http://ands.org.au/guides/data-citation-awareness.html.*</footer>
+<footer>Australian National Data Service (ANDS), Data Citation Awareness Guide. Accessed May 10, 2012 at http://ands.org.au/guides/data-citation-awareness.html.</footer>
 
 ---
 
@@ -62,7 +62,7 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 
 ### Data author
 .full-width[* Individual involved in research, education, or other activities that generate digital data that are subsequently deposited in a data collection]
-<footer>*National Science Board, Long-Lived Digital Data Collections: Enabling Research and Education in the 21st Century, September, 2005. p. 17. http://www.nsf.gov/pubs/2005/nsb0540/ Accessed May 10, 2012.*</footer>
+<footer>National Science Board, Long-Lived Digital Data Collections: Enabling Research and Education in the 21st Century, September, 2005. p. 17. http://www.nsf.gov/pubs/2005/nsb0540/ Accessed May 10, 2012.</footer>
 
 ---
 
@@ -72,7 +72,7 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 .full-width[* A unique web-compatible alphanumeric code that points to a resource (e.g., data set) that will be preserved for the long term (i.e., over several hardware and software generations)]
 * Should direct to latest available version of resource or to metadata which enables acquisition of desired version or format]
 
-<footer>*Hakala, J. Persistent identifiers – an overview. Accessed May 10, 2012 at http://metadaten-twr.org/2010/10/13/persistent-identifiers-an-overview/.*</footer>
+<footer>Hakala, J. Persistent identifiers – an overview. Accessed May 10, 2012 at http://metadaten-twr.org/2010/10/13/persistent-identifiers-an-overview/.</footer>
 
 ???
 
@@ -87,27 +87,27 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 ## Benefits of Data Citation 
 
 ### Short term
-.one-half[* Facilitates discovery of relationships between data and publications, making it easier to validate and build upon previous work
+.one-third[* Facilitates discovery of relationships between data and publications, making it easier to validate and build upon previous work
 * Ensures that proper credit can be given when others use your work
 * Facilitates impact assessments of datasets based on number of publications that cite them
 * Helps researchers re-using data to find other ways the data has been used.]
 
 
-![CC image by futureatlas.com on Flickr,as "Citation Needed"](images/slide6.jpg)
-*Image attribution: CC image by futureatlas.com on Flickr,as "Citation Needed"*
+.two-third[![CC image by futureatlas.com on Flickr,as "Citation Needed"](images/slide6.jpg)
+*Image attribution: CC image by futureatlas.com on Flickr,as "Citation Needed"*]
  
 ---
 
 ## Benefits of Data Citation
 
 ### Long term
-.one-half[* Promotes the availability of data into the future
+.one-third[* Promotes the availability of data into the future
 * Facilitates discovery of  existing data relevant to a particular question
 * Enables recognition of scholarly effort within disciplines and organizations 
 * Increases transparency of scientific research]
 
-![CC image by gruntzooki on Flickr](images/slide7.jpg)
-*Image attribution: CC image by gruntzooki on Flickr*
+.two-third[![CC image by gruntzooki on Flickr](images/slide7.jpg)
+*Image attribution: CC image by gruntzooki on Flickr*]
 
 ???
 

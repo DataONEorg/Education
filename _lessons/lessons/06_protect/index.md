@@ -129,19 +129,18 @@ Limit loss of data, some of which may not be reproducible
 * Respond to data requests
 * Limit liability]
 
-
-![](images/image6.jpeg)
+![backup](images/image6.jpeg)
 
 
 
 ???
 There are many reasons to perform backups including:
- .full-width[* mitigate or prohibit the loss of data, which may or may not be reproducible
+ * mitigate or prohibit the loss of data, which may or may not be reproducible
  * save time, money, and productivity as little to none of the data will have to be reproduced
  * having a backup already in place means you are prepared for when the unexpected happens, such as human error, disasters, or computer failures
  * allows you to go back to earlier versions and see what your results were.  For example, if you are creating models and used data from an earlier model run, the most recent file you have on your computer may not have the same data as when you first created the model output.
  * provides for the ability to send older files to others, regardless of the current version or state (for example, if the current version has been corrupted)
- * may allow you to respond during times when questioned results were based on older versions of files.  For example, you may find that you will have to justify your results in court or to other scientists.  By having access to older files, you may be able to respond to their requests for information.  Or, you may not be able to reproduce the data, and the original copy may be the only evidence of the data collection.]
+ * may allow you to respond during times when questioned results were based on older versions of files.  For example, you may find that you will have to justify your results in court or to other scientists.  By having access to older files, you may be able to respond to their requests for information.  Or, you may not be able to reproduce the data, and the original copy may be the only evidence of the data collection.
  
 ---
 

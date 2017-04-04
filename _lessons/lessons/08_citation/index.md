@@ -15,15 +15,15 @@ layout: slides
 
 # Lesson Topics
 
-* Data Citation in the Data Life Cycle
+.two-third[* Data Citation in the Data Life Cycle
 * Definitions: What is Data Citation?
 * Benefits of Data Citation
 * Collaborating to Support Data Citation
 * How to Cite Data
 * How to Obtain a Persistent Identifier for a Data Set
-* Best Practices to Support Data Citation
+* Best Practices to Support Data Citation]
 
-![CC image by cybrarian77 on Flickr](images/slide2.jpg)
+.one-third[![CC image by cybrarian77 on Flickr](images/slide2.jpg)]
 *Image attribution: CC image by cybrarian77 on Flickr*
 
 ---

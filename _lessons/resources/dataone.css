@@ -161,6 +161,7 @@ img {
 img + em {
   font-size: .4em;
   display: block;
+  padding: 0px 0px 10px 0px;
 }
 
 img + em a {

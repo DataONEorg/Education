@@ -184,7 +184,7 @@ Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M,
  * Required citation elements: Author. Release date. Title. Version. Archive/Distributor. Locator/Identifier. Access date and time.
  * Optional citation elements: Subset Used; Editor, Compiler, or other important role; Distributor, Associate Archive, or other Institutional Role; Data Within a Larger Work
  * Example citation: 
-   * Zwally, H. J., R. Schutz, C. Bentley, J. Bufton, T. Herring, J. Minster, J. Spinhirne, and R. Thomas. 2011. GLAS/ICESat L1A Global Altimetry Data, Version 33. [Indicate subset used]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. doi: http://dx.doi.org/10.5067/ICESAT/GLAS/DATA121. [Date Accessed].
+   * Zwally, H. J., R. Schutz, C. Bentley, J. Bufton, T. Herring, J. Minster, J. Spinhirne, and R. Thomas. 2011. GLAS/ICESat L1A Global Altimetry Data, Version 33. [Indicate subset used]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. doi: http://dx.doi.org/10.5067/ICESAT/GLAS/DATA121. [Date Accessed].]
 
 ???
 
@@ -207,6 +207,7 @@ More guidelines/suggestions from ESIP: http://wiki.esipfed.org/index.php/Interag
 2. https://www.rd-alliance.org/system/files/documents/RDA-DC-Recommendations_150609.pdf
 
 ---
+
 ## What are examples of Persistent Identifiers?
 
 .full-width[A **persistent identifier** should be included in the citation:

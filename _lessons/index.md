@@ -3,12 +3,8 @@ title: DataONE lessons
 layout: index
 ---
 
-# List of lessons
+# DataONE Data Management Education Modules
 
-- [Markdown basics][00]
-- [Data management][01]
-- [Data sharing][02]
-
-[00]: lessons/00_markdown/
-[01]: lessons/01_management/
-[02]: lessons/02_datasharing/
+{% for lesson in site.lessons %}
+- [{{ lesson.title }}]({{ site.baseurl }}{{ lesson.url }})
+{% endfor %}

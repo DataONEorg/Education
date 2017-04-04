@@ -31,12 +31,12 @@ layout: slides
 # Learning Objectives
 
 After completing this lesson, the participant will be able to:
-* Define data citation
+.full-width[* Define data citation
 * Describe benefits of data citation
 * Identify roles of data authors/managers, data publishers, and journal publishers in supporting data citation
 * Recognize metadata elements useful for data citation
 * Recognize common persistent data locators and describe the process for obtaining one
-* Summarize best practices for supporting data citation
+* Summarize best practices for supporting data citation]
 
 ---
 

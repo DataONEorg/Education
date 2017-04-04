@@ -515,12 +515,12 @@ Terminology for the same concepts may vary across standards
 Many standards collect similar information
 Factors to consider: 
 1. Your data type:
-	- Are you working mainly with GIS data? Raster/vector or point data? Do you have biological or shoreline information in your dataset?
-    		- Consider the FGDC Content Standard for Digital Geospatial Metadata with one of its profiles: the Biological Data Profile or the Shoreline Data Profile. 
-  - Are you working with data retrieved from instruments such as monitoring stations or satellites? Are you using geospatial data services such as applications for web-mapping applications or data modeling?
-    - If so, then consider using the ISO 19115-2 standard
-  - Are you mainly working with ecological data?
-    - Consider Ecological Metadata Language (EML)     
+- Are you working mainly with GIS data? Raster/vector or point data? Do you have biological or shoreline information in your dataset?
+  - Consider the FGDC Content Standard for Digital Geospatial Metadata with one of its profiles: the Biological Data Profile or the Shoreline Data Profile. 
+- Are you working with data retrieved from instruments such as monitoring stations or satellites? Are you using geospatial data services such as applications for web-mapping applications or data modeling?
+  - If so, then consider using the ISO 19115-2 standard
+- Are you mainly working with ecological data?
+  - Consider Ecological Metadata Language (EML)     
 
 ---
 
@@ -561,7 +561,7 @@ Consistency with commonly used fields
 Here are some examples for a FGDC CSDGM record:
 
 | Field  | DO THIS | NOT THIS | 
-|:----------|:----------|
+|:----------|:----------|:----------|
 | Publisher | `<publish>U.S. Geological Survey</publish>` | `<publish>USGS</publish>` |
 | Date | `<pubdate>YYYYMMDD</pubdate>` </br> `<pubdate>YYYY</pubdate>` | `<pubdate>MM/DD/YYYY</pubdate>` </br> `<pubdate>May 27, 2003</pubdate>` |
 |Keywords | `<placekt>Geographic Names Information System</placekt>` </br> `<placekey>Roosevelt National Forest</placekey>` | `<themekey>Roosevelt Forest</themekey>` | 
@@ -579,3 +579,22 @@ If you need to include species names in your metadata, you may use the taxonomic
 Refer to the appropriate documentation and/or schema for the standard you are using, as well as with your agency/organization to ensure you following the recommended usage.
 
 ---
+
+# What Makes a Good Metadata Record?
+
+Use Authority Files and Standard Vocabulary
+.one-half[
+- Global Change Master Directory
+- Geographic Names Information System
+- Getty Thesaurus of Geographic Names
+- ISO 19115 Topic Category Thesaurus
+]
+
+.one-half[![Photo Attribution: Photo by mxgirl2014 on flickr. All Rights Reserved](images/  )
+  *Photo Attribution: Photo by mxgirl2014. All Rights Reserved*
+  ]
+
+???
+
+When possible, theme keywords should be drawn from thesauri or keyword lists. The use of authority files and standard vocabulary will help to make your metadata more discoverable, understandable, and interoperable. Make sure you reference the thesaurus used in your metadata record. Here are a few resources to get you started.
+

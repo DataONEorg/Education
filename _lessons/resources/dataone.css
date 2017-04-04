@@ -109,9 +109,6 @@ th {
   font-size: 130% !important;
   color: #f3f3f3;
 }
-.remark-slide-content.title .progressbar {
-  display: none;
-}
 pre {
   white-space: pre-wrap;
   word-wrap: break-word;

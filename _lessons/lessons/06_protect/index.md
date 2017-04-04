@@ -63,6 +63,7 @@ In this lesson we will be focusing on data protection and backup which is associ
 ---
 
 ## Data Protection, Backups, Archiving, Preservation
+
 Differences at a Glance:
 .full-width[
 * Data Protection
@@ -76,6 +77,7 @@ The terms data protection, data backups, data archiving, and data preservation a
 ---
 
 ## Data Protection, Backups, Archiving, Preservation (continued)
+
 .full-width[
 * Terms “backups” and “archives” are often used interchangeably, but do have different meanings
   * Backups: copies of the original file are made before the original is overwritten

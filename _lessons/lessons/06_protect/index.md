@@ -127,8 +127,9 @@ Regardless of whether you are dealing with backups or archives, you should have 
   * Software bugs, hardware failures
 * Reproduce results of past procedures (if they were based on older files)
 * Respond to data requests
-* Limit liability
+* Limit liability]
 
+.one-half[ 
 ![](images/image6.jpeg)]
 
 

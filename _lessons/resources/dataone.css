@@ -121,10 +121,11 @@ img {
   max-height: 100%;
 }
 .remark-slide-number {
+  font-size: 80%
   bottom: 12px;
   opacity: 0.5;
   position: absolute;
-  right: 20px;
+  right: 12px;
 }
 
 .remark-slide-content {

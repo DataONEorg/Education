@@ -60,7 +60,7 @@ In this lesson we will be focusing on data protection and backup which is associ
 
 ---
 
-## Data Protection, Backups, Archiving, Preservation:
+## Data Protection, Backups, Archiving, Preservation
 
 Differences at a Glance
 .full-width[* Data Protection
@@ -169,7 +169,7 @@ You should identify and contact the person(s) in your institution or organizatio
 
 ---
 
-## Backups: Things to Consider; continued
+## Backups: Things to Consider (continued)
 
 .full-width[* How often should you do backups to capture significant change?
   * Cost versus benefit
@@ -199,7 +199,7 @@ Even if the information contained in a non-digital file (such as a field noteboo
 
 ---
 
-## Backups: Things to Consider, continued
+## Backups: Things to Consider (continued)
 
 .full-width[* Where will you backup your files?
   * May depend upon project requirements, etc. 
@@ -222,6 +222,7 @@ Where you backup your files depends on a variety of things:
 ---
 
 ## Considerations
+
 .full-width[* How are backups carried out?
   * Manually may work for single files, but requires that the user remembers to perform regular backups and can be time-consuming
   * Automated backups can be run on a set schedule that doesn’t require the user to remember

@@ -118,8 +118,8 @@ img {
   max-height: 100%;
 }
 .remark-slide-number {
-  font-size: 60%
-  bottom: 20px;
+  font-size: 300%
+  bottom: 60px;
   opacity: 0.5;
   position: absolute;
   right: 20px;

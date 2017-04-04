@@ -87,7 +87,7 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 ## Benefits of Data Citation 
 
 ### Short term
-.two-third[* Facilitates discovery of relationships between data and publications, making it easier to validate and build upon previous work
+.one-half[* Facilitates discovery of relationships between data and publications, making it easier to validate and build upon previous work
 * Ensures that proper credit can be given when others use your work
 * Facilitates impact assessments of datasets based on number of publications that cite them
 * Helps researchers re-using data to find other ways the data has been used.]
@@ -101,7 +101,7 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 ## Benefits of Data Citation
 
 ### Long term
-.two-third[* Promotes the availability of data into the future
+.one-half[* Promotes the availability of data into the future
 * Facilitates discovery of  existing data relevant to a particular question
 * Enables recognition of scholarly effort within disciplines and organizations 
 * Increases transparency of scientific research]

@@ -24,7 +24,8 @@ code {
   font-family: "Source Code Pro", "Consolas", "DejaVu Sans Mono", monospace !important;
 }
 a {
-  color: #660033;
+  color: #006666;
+  text-decoration: none;
 }
 
 h1 {

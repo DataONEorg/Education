@@ -445,6 +445,7 @@ By following the recommendations in these lessons, you limit the need for data r
 
 In 2011, a software bug caused some Gmail users to lose access to their email.  Fortunately, Google had backups! 
 
+class: center, middle
 ![Google backup](images/image12.jpeg)
 
 ???

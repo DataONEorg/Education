@@ -54,7 +54,7 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 ### Data citation
 .full-width[* The practice of providing a reference to data in the same way as researchers routinely provide a bibliographic reference to printed resources.
 * "A key practice underpinning the recognition of data as a primary research output rather than as a by-product of research"]
-> Australian National Data Service (ANDS), Data Citation Awareness Guide. Accessed May 10, 2012 at http://ands.org.au/guides/data-citation-awareness.html. 
+*Australian National Data Service (ANDS), Data Citation Awareness Guide. Accessed May 10, 2012 at http://ands.org.au/guides/data-citation-awareness.html. 
 
 ---
 
@@ -62,7 +62,7 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 
 ### Data author
 .full-width[* Individual involved in research, education, or other activities that generate digital data that are subsequently deposited in a data collection
-> National Science Board, Long-Lived Digital Data Collections: Enabling Research and Education in the 21st Century, September, 2005. p. 17. http://www.nsf.gov/pubs/2005/nsb0540/ Accessed May 10, 2012.]
+*National Science Board, Long-Lived Digital Data Collections: Enabling Research and Education in the 21st Century, September, 2005. p. 17. http://www.nsf.gov/pubs/2005/nsb0540/ Accessed May 10, 2012.]
 
 ---
 
@@ -72,7 +72,7 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 .full-width[* A unique web-compatible alphanumeric code that points to a resource (e.g., data set) that will be preserved for the long term (i.e., over several hardware and software generations)
 * Should direct to latest available version of resource or to metadata which enables acquisition of desired version or format]
 
-> Hakala, J. Persistent identifiers – an overview. Accessed May 10, 2012 at http://metadaten-twr.org/2010/10/13/persistent-identifiers-an-overview/.
+*Hakala, J. Persistent identifiers – an overview. Accessed May 10, 2012 at http://metadaten-twr.org/2010/10/13/persistent-identifiers-an-overview/.
 
 ???
 

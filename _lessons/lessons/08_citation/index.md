@@ -14,7 +14,7 @@ layout: slides
 
 ## Lesson Topics
 
-.two-third[* Data Citation in the Data Life Cycle
+.one-half[* Data Citation in the Data Life Cycle
 * Definitions: What is Data Citation?
 * Benefits of Data Citation
 * Collaborating to Support Data Citation

@@ -312,7 +312,6 @@ Unfortunately their computer system became infected with a virus and erased much
 
 ---
 ## Final Considerations
-
 .full-width[* Can you read data from older backups?
   * Media changes. You may no longer be able to  read older versions and formats such as floppy disks, Jazz  and Zip drives, WordPerfect files, etc.
 * Media can degrade quickly, unexpectedly, inconsistently

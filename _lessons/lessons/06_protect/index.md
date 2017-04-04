@@ -236,7 +236,9 @@ Creating the backups is just part of the process.  You need to know how to get t
 If only one member of the IT staff handles this task, and they are unavailable, how will you access your files then?  In addition, some systems create backups that mirror the file structure of the source data.  But some backup systems create one massive file that requires software or programming in order to access files.  Make sure more than one person knows how to perform this task.  Often when you need a file off of backup, it is during an emergency.
 
 ---
+
 ## Considerations
+
 .full-width[* How do you verify a backup has been successfully performed?
   * Most backup software will have a log file that contains details of the backup (which files, when the backup was created)
   * However, don’t rely solely on the log file 
@@ -266,6 +268,7 @@ Checksum values are numeric numbers that are based upon mathematical calculation
 
 
 ---
+
 ## Considerations
 
 .full-width[* Are there backups of the backups?
@@ -311,7 +314,10 @@ After a computer virus erased most of their files, they went back to their backu
 Unfortunately their computer system became infected with a virus and erased much of their data.  They went back to their backups and found that the backups were all blank and all of the data was gone.  Only after some investigation did they discover that the computer tapes (which contained the backups) were placed against a wall that had an elevator on the other side of it.  When the elevator went past, the magnets inside erased all of the tapes.  Had they checked their backups properly, they probably would have noticed this before there was an emergency.
 
 ---
+
 ## Final Considerations
+
+
 .full-width[* Can you read data from older backups?
   * Media changes. You may no longer be able to  read older versions and formats such as floppy disks, Jazz  and Zip drives, WordPerfect files, etc.
 * Media can degrade quickly, unexpectedly, inconsistently

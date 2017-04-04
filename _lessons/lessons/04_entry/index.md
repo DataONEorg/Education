@@ -4,7 +4,9 @@ author: DataONE Community Engagement & Outreach
 update: March 29 2017
 layout: slides
 ---
+
 ## Lesson Topics
+
 .full-width[
 * Best Practices for Creating Data Files
 * Data Entry Options
@@ -16,7 +18,9 @@ layout: slides
 In this module we will be looking at best practices as related to the creation of data files.  We will also discuss data entry schemes that help ensure data quality, and data manipulation options
 
 ---
+
 ## Learning Objectives
+
 .full-width[
 * Recognize and plan for inconsistencies that can make a dataset difficult to understand and/or manipulate
 * Describe characteristics of stable data formats and list reasons for using these formats
@@ -27,7 +31,9 @@ In this module we will be looking at best practices as related to the creation o
 
 
 ---
+
 ## Goals of Data Entry
+
 .full-width[
 * Create quality data sets that are:
   * Valid
@@ -86,6 +92,7 @@ There are consistent names, codes, and formats used in each column.  For instanc
 ---
 
 ## Recommended Practices, continued
+
 .full-width[
 * Create descriptive column names without spaces or special characters
   * `Soil T30` to `Soil_Temp_30cm`
@@ -99,6 +106,7 @@ One best practice in data entry is to create descriptive column names without sp
 
 
 ---
+
 ## Recommended Practices, continued
 
 .full-width[* Missing data
@@ -115,7 +123,9 @@ Use data flags in a separate column to qualify empty cells.  For instance, in th
 
 
 ---
+
 ## Recommended Practices, continued
+
 .full-width[
 * Enter complete lines of data]
 
@@ -143,12 +153,14 @@ A best practice is to enter complete lines of data, so that the data are sorted 
 Archiving your data publicly will require that it be stored in a non-proprietary format such as ASCII.   A common practice is to store data in a comma-delimited text file.   There have been many instances where data sets have been lost because they were stored in a proprietary format which becomes obsolete.  
 
 ---
+
 ## References
 
 1. Best Practices for Preparing Environmental Data Sets to Share and Archive. September 2010. Les A. Hook, Suresh K. Santhana Vannan, Tammy W. Beaty, Robert B. Cook, and Bruce E. Wilson. http://daac.ornl.gov/PI/BestPractices-2010.pdf
 
 
 ---
+
 ## Data Entry Tools
 
 .full-width[
@@ -159,6 +171,7 @@ Archiving your data publicly will require that it be stored in a non-proprietary
 * Using data validation improves the quality of data by preventing the entry of errors.]  
 
 ---
+
 ## Google Docs Forms
 
 ???
@@ -171,6 +184,7 @@ The advantages to using a data entry form, as opposed to entering data directly 
 * Data entered into a Google doc form is stored in a spreadsheet.  
 
 ---
+
 ## Excel
 
 
@@ -178,6 +192,7 @@ The advantages to using a data entry form, as opposed to entering data directly 
 ???
 Excel is a very popular data entry tool.   It also allows you to enforce data validation rules.   Here, a dropdown list has been generated that allows the user to only select entries from this list.   In this way, only defined species codes get entered, and the data is consistent.     
 ---
+
 ## Excel: Data Validation
 
 ???
@@ -230,9 +245,11 @@ Database features includes explicit control over data types and has the advantag
 ## Relationships are defined between tables
 
 
-
 ???
 Relationships can be defined between two sets of data or in this example between two tables.  Suppose that you have two tables used in the plant phenology study, one for observations and one for sites, and you want a table that contains both observations and the latitude and longitude of your sites.   Because both tables contain Site info, they can be joined to create a table containing the info you want.   
+
+
+
 ---
 
 ## Powerful Command Language called Structured Query Language (SQL)
@@ -253,6 +270,8 @@ The second select statement, returns all records from table SoilTemp where treat
 ---
 
 ## Review: Planning for Data Entry
+
+
 .full-width[
 * Be aware of Best Practices in your domain when designing data file structures
 * Choose a data entry method that allows some validation of data as it is entered
@@ -272,6 +291,8 @@ Be aware of best practices when designing data file structures. Choose a data en
 ---
 
 ## To learn more about designing a relational database:
+
+
 1. Database Design for Mere Mortals: A Hands-On Guide to Relational Database Design (2nd Edition)  by Michael J. Hernandez.  Addison-Wesley.  2003.  
 2. Fundamentals of Relational Database Design by Paul Litwin. http://r937.com/relational.html. (Accessed May 12, 2016). 
 
@@ -279,6 +300,8 @@ Be aware of best practices when designing data file structures. Choose a data en
 ---
 
 ## Data Integration Best Practices
+
+
 .full-width[
 * Maintain dataset provenance
   * Document transformations
@@ -294,6 +317,8 @@ At times you will need to combine multiple datasets into a superset in order to 
 ---
 
 ## Data Integration Best Practices
+
+
 .full-width[
 * Ensure compatibility
   * Convert to common units
@@ -306,6 +331,8 @@ At times you will need to combine multiple datasets into a superset in order to 
 ---
 
 ## Data Integration Best Practices
+
+
 .full-width[
 * Recognize that you are creating a new dataset
   * Revisit the data life cycle to ensure the new dataset is properly documented, validated, and preserved
@@ -317,17 +344,20 @@ At times you will need to combine multiple datasets into a superset in order to 
 ---
 
 # Data Integration Best Practices
+
 .full-width[
 * Ensure attribution of original dataset owners and respect data usage agreements
   * Example resource: 
-   Jones et al. (2006) The New Bioinformatics: Integrating ecological data from the gene to the biosphere. Annual Review of Ecology and Systematics 37:519-544
+   <footnote>Jones et al. (2006) The New Bioinformatics: Integrating ecological data from the gene to the biosphere. Annual Review of Ecology and Systematics 37:519-544 </footnote>
 * Example citation to the related dataset from the Dryad repository:
-  * Jones, Matthew B., Schildhauer, Mark P., Reichman, O. J., and Bowers, Shawn. 2012. Data from "The new bioinformatics: integrating ecological data from the gene to the biosphere." Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.qb0d6?ver=2012-07-16T14:42:48.559-04:00. 
+  <footnote>Jones, Matthew B., Schildhauer, Mark P., Reichman, O. J., and Bowers, Shawn. 2012. Data from "The new bioinformatics: integrating ecological data from the gene to the biosphere." Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.qb0d6?ver=2012-07-16T14:42:48.559-04:00. </footnote>
   ]
 
 ---
 
 ## Data Manipulation
+
+
 .full-width[
 * Useful for analyzing, subsetting and transforming data
 * Can be used to check and assure quality data
@@ -339,6 +369,8 @@ At times you will need to combine multiple datasets into a superset in order to 
 ---
 
 ## Using R
+
+
 .full-width[
 * Free (http://www.r-project.org/index.html)
 * Produces publication quality graphics
@@ -356,6 +388,7 @@ At times you will need to combine multiple datasets into a superset in order to 
 ---
 
 ## Review: Data Integration & Manipulation
+
 .full-width[
 * Maintaining provenance (a trail of custody and decisions) is important when integrating more than one dataset
 * Documenting and understanding context and relationships, as well as changes is crucial when creating a new dataset (any time you combine two or more disparate datasets)
@@ -367,6 +400,7 @@ At times you will need to combine multiple datasets into a superset in order to 
 
 
 ## About
+
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 The full slide deck (in PowerPoint) may be downloaded from:

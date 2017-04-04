@@ -254,8 +254,7 @@ It is a good idea to pick a file off of backup and ensure you can restore it to 
 Software and hardware failures can happen at any time.  Just because you’ve reviewed your backups once, doesn’t totally guarantee they will be there in the future.
 A log file can report a successful backup, but it may be backing up the wrong files!
 ---
-
- # Considerations
+# Considerations
 
 .full-width[* If you are working with someone, such as an IT group, who helps manage and perform backups, confirm and verify that the backup process has been successfully completed
 * How do you verify a backup has been successfully performed? 
@@ -268,9 +267,7 @@ Checksum values are numeric numbers that are based upon mathematical calculation
 
 
 ---
-
- # Considerations
-
+# Considerations
 .full-width[* Are there backups of the backups?
   * Necessary for high-value data 
   * Usually different copies of backups are kept in different locations
@@ -288,7 +285,6 @@ You also want to consider how long to keep your backups.  You may keep full back
 Finally, what will happen to backups (or archives) once the project has ended or the funding runs out?  Will your office or program take ownership of the files?
 
 ---
-
 # Data in Real Life
 
 A design firm was handling their own backups.  The system was working and the backup software was reporting that the data was successfully backed up. 
@@ -299,7 +295,6 @@ A design firm was handling their own backups.  The system was working and the ba
 
 
 ---
-
 # Data in Real Life
 
 The administrator checked the backups immediately after they were done and confirmed they were good.
@@ -307,7 +302,6 @@ The administrator checked the backups immediately after they were done and confi
 ![](images/image11.jpeg)
 
 ---
-
 # Data in Real Life
 
 After a computer virus erased most of their files, they went back to their backups.  Unfortunately they found that the backups were all blank and all of the data was gone.  Only after some investigation did they discover that the computer tapes (which contained the backups) were placed against a wall that had an elevator on the other side of it.  When the elevator went past, the magnets inside erased all of the tapes.
@@ -317,7 +311,6 @@ After a computer virus erased most of their files, they went back to their backu
 Unfortunately their computer system became infected with a virus and erased much of their data.  They went back to their backups and found that the backups were all blank and all of the data was gone.  Only after some investigation did they discover that the computer tapes (which contained the backups) were placed against a wall that had an elevator on the other side of it.  When the elevator went past, the magnets inside erased all of the tapes.  Had they checked their backups properly, they probably would have noticed this before there was an emergency.
 
 ---
-
 # Final Considerations
 
 .full-width[* Can you read data from older backups?
@@ -472,7 +465,6 @@ Check for backups on outdated media and test backups often!
 Data preservation more than just backing up and archiving your files.
 
 ---
-
 # References
 
 1. Stanford University Libraries, Data Management Plans, (Stanford University Libraries), https://library.stanford.edu/research/data-management-services, (accessed 9/21/2016)

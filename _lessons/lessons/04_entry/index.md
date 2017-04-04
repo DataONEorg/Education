@@ -4,7 +4,7 @@ author: DataONE Community Engagement & Outreach
 update: March 29 2017
 layout: slides
 ---
-# Lesson Topics
+## Lesson Topics
 .full-width[
 * Best Practices for Creating Data Files
 * Data Entry Options
@@ -16,29 +16,27 @@ layout: slides
 In this module we will be looking at best practices as related to the creation of data files.  We will also discuss data entry schemes that help ensure data quality, and data manipulation options
 
 ---
-# Learning Objectives
+## Learning Objectives
 .full-width[
 * Recognize and plan for inconsistencies that can make a dataset difficult to understand and/or manipulate
 * Describe characteristics of stable data formats and list reasons for using these formats
 * Identify data entry tools
 * Identify validation measures that can be performed as data is entered
 * Review best practices for data integration
-* Describe the basic components of a relational database
-]
+* Describe the basic components of a relational database]
 
 
 ---
-# Goals of Data Entry
+## Goals of Data Entry
 .full-width[
 * Create quality data sets that are:
   * Valid
-  * Organized to support ease of use and reuse
-  ]
+  * Organized to support ease of use and reuse]
 
 ???
 The goals of data entry are to create data that are valid, or have gone through a process to assure quality, and are organized to support use of the data or for ease of archiving.   
 ---
-# Example: Poor Data Entry
+## Example: Poor Data Entry
 
 
 
@@ -48,7 +46,7 @@ These are data entered in to Excel from a small mammal trapping study.   Each bl
 
 
 ---
-# Example: Poor Data Entry, continued
+## Example: Poor Data Entry, continued
 
 
 ???
@@ -60,10 +58,11 @@ In addition, there is text data mixed with numeric data in the Weight column in 
 To analyze all these data using statistical software, and to make it much easier to understand by any user, these data will need to be organized in to a column for each variable.  Therefore it essential that only one type of info be entered in to each column, and that spellings, codes, formats, etc. be consistent.
 
 ---
-# Recommended Practices
-- Columns of data are consistent: only numbers, dates, or text
-- Consistent Names, Codes, Formats (date) used in each column
-- Data are all in one table, which is much easier for a statistical program to work with than multiple small tables which each require human intervention
+## Recommended Practices
+.full-width[
+* Columns of data are consistent: only numbers, dates, or text
+* Consistent Names, Codes, Formats (date) used in each column
+* Data are all in one table, which is much easier for a statistical program to work with than multiple small tables which each require human intervention]
 
 
 ???

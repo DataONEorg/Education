@@ -60,8 +60,7 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 
 ### Persistent identifier
 * A unique web-compatible alphanumeric code that points to a resource (e.g., data set) that will be preserved for the long term (i.e., over several hardware and software generations)
-* Should direct to latest available version of resource or to metadata which enables acquisition of desired version or format
-]
+* Should direct to latest available version of resource or to metadata which enables acquisition of desired version or format]
 
 ???
 
@@ -76,10 +75,11 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 ## Benefits of Data Citation 
 
 ### Short term
-* Facilitates discovery of relationships between data and publications, making it easier to validate and build upon previous work
+.two-third[* Facilitates discovery of relationships between data and publications, making it easier to validate and build upon previous work
 * Ensures that proper credit can be given when others use your work
 * Facilitates impact assessments of datasets based on number of publications that cite them
-* Helps researchers re-using data to find other ways the data has been used.
+* Helps researchers re-using data to find other ways the data has been used.]
+
 
 ![CC image by futureatlas.com on Flickr,as "Citation Needed"](images/slide6.jpg)
 *Image attribution: CC image by futureatlas.com on Flickr,as "Citation Needed"*
@@ -89,10 +89,10 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 ## Benefits of Data Citation
 
 ### Long term
-* Promotes the availability of data into the future
+.two-third[* Promotes the availability of data into the future
 * Facilitates discovery of  existing data relevant to a particular question
 * Enables recognition of scholarly effort within disciplines and organizations 
-* Increases transparency of scientific research
+* Increases transparency of scientific research]
 
 ![CC image by gruntzooki on Flickr](images/slide7.jpg)
 *Image attribution: CC image by gruntzooki on Flickr*
@@ -107,10 +107,10 @@ Easier to discover existing data relevant to a particular question
 
 ## Principles of Data Citation
 
-* **Importance** - Data should be considered legitimate, citable products of research
+.two-third[* **Importance** - Data should be considered legitimate, citable products of research
 * **Credit and Attribution** - Data citations should facilitate giving scholarly credit and normative and legal attribution to all contributors to the data
 * **Evidence** - In scholarly literature, whenever and wherever a claim relies upon data, the corresponding data should be cited.
-* **Unique Identification** - A data citation should include a persistent method for identification that is machine actionable, globally unique, and widely used by a community.
+* **Unique Identification** - A data citation should include a persistent method for identification that is machine actionable, globally unique, and widely used by a community.]
 
 ![DC1 logo](images/slide8-9.jpg)
 *https://www.force11.org/datacitation*

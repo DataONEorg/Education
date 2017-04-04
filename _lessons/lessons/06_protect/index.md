@@ -302,7 +302,7 @@ Finally, what will happen to backups (or archives) once the project has ended or
 ---
 ## Data in Real Life
 
-.one-half[ A design firm was handling their own backups.  The system was working and the backup software was reporting that the data was successfully backed up. The administrator checked the backups immediately after they were done and confirmed they were good.]
+.one-half[A design firm was handling their own backups.  The system was working and the backup software was reporting that the data was successfully backed up. The administrator checked the backups immediately after they were done and confirmed they were good.]
 
 ![](images/image11.jpeg)
 

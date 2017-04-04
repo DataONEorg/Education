@@ -494,6 +494,8 @@ Similar to data citation, software citations should include:
 2. Ball, A. & Duke, M. (2011). How to Cite Datasets and Link to Publications. DCC How-to Guides. Edinburgh: Digital Curation Centre. Accessed April 9, 2015 at http://www.dcc.ac.uk/resources/how-guides.
 3. CODATA-ICSTI Task Group on Data Citation Standards and Practices. (2013). Out of Cite, Out of Mind: The Current State of Practice, Policy, and Technology for the Citation of Data. Data Science Journal, 12: CIDCR1 - CIDCR75. Accessed April 9, 2015 at http://dx.doi.org/10.2481/dsj.OSOM13-043.]
 
+---
+
 ## Resources, continued 
 
 .full-width[4. Costello, M. J. (2009). Motivating Online Publication of Data. BioScience, 59(5): 418-427. Accessed April 9, 2015 at http://www.bioone.org/doi/full/10.1525/bio.2009.59.5.9.

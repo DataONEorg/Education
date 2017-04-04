@@ -72,7 +72,7 @@ th {
 .columns {
   clear: right;
   float: left;
-  padding: 10 20 10 10;
+  padding: 10px 20px 10px 10px;
   box-sizing: border-box;
 }
 .full-width,

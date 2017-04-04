@@ -36,7 +36,7 @@ class: center, middle
 * Explain, using two examples, how lack of data management makes an impact
 * Define the research data lifecycle
 * Give one example of how well-managed data can result in new scientific conclusions]
-<footer>Testing</footer>
+
 ---
 class: center, middle
 

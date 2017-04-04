@@ -392,7 +392,6 @@ UC Curation Center Merritt
    * Note: Data repositories typically offer to embargo archived data for a pre-determined time period after publication
  * Allows article citation/DOI to be included with archived data set]
  
- ---
  
 ## Best Practices to Support Data Citation, continued 
 

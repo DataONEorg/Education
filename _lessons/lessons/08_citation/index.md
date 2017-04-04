@@ -369,17 +369,19 @@ UC Curation Center Merritt
 
 ## Best Practices to Support Data Citation
 
-.full-width[* To support access to your data:
+.full-width[
+* To support access to your data:
  * Use application that supports metadata creation for environmental data sets
- ]
     * Morpho
     * Metavist (USDA Forest Service)
     * Mermaid (NOAA)
+ ]
     
- .full-width[* Use standardized keywords to describe your data]
+ .full-width[
+ * Use standardized keywords to describe your data
     * Biocomplexity Thesaurus (USGS)
     * Global Change Master Directory (NASA)
-    
+ ]
  .full-width[* Use a persistent identifier such as DOI or ARK]
 
 ---

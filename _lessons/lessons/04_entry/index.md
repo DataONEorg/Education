@@ -5,30 +5,35 @@ update: March 29 2017
 layout: slides
 ---
 # Lesson Topics
-- Best Practices for Creating Data Files
-- Data Entry Options
-- Data Integration Best Practices
-- Data Manipulation Options
+.full-width[
+* Best Practices for Creating Data Files
+* Data Entry Options
+* Data Integration Best Practices
+* Data Manipulation Options
+]
 
 ???
 In this module we will be looking at best practices as related to the creation of data files.  We will also discuss data entry schemes that help ensure data quality, and data manipulation options
 
 ---
 # Learning Objectives
-- Recognize and plan for inconsistencies that can make a dataset difficult to understand and/or manipulate
-- Describe characteristics of stable data formats and list reasons for using these formats
-- Identify data entry tools
-- Identify validation measures that can be performed as data is entered
-- Review best practices for data integration
-- Describe the basic components of a relational database
-
+.full-width[
+* Recognize and plan for inconsistencies that can make a dataset difficult to understand and/or manipulate
+* Describe characteristics of stable data formats and list reasons for using these formats
+* Identify data entry tools
+* Identify validation measures that can be performed as data is entered
+* Review best practices for data integration
+* Describe the basic components of a relational database
+]
 
 
 ---
 # Goals of Data Entry
-- Create quality data sets that are:
-  - Valid
-  - Organized to support ease of use and reuse
+.full-width[
+* Create quality data sets that are:
+  * Valid
+  * Organized to support ease of use and reuse
+  ]
 
 ???
 The goals of data entry are to create data that are valid, or have gone through a process to assure quality, and are organized to support use of the data or for ease of archiving.   

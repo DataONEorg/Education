@@ -293,21 +293,13 @@ You also want to consider how long to keep your backups.  You may keep full back
 
 Finally, what will happen to backups (or archives) once the project has ended or the funding runs out?  Will your office or program take ownership of the files?
 
----
-## Data in Real Life
-
-A design firm was handling their own backups.  The system was working and the backup software was reporting that the data was successfully backed up. 
-
-![](images/image7.png)
-![](images/image8.png)
-![](images/image10.png)
-
 
 ---
 ## Data in Real Life
 
-The administrator checked the backups immediately after they were done and confirmed they were good.
+A design firm was handling their own backups.  The system was working and the backup software was reporting that the data was successfully backed up. The administrator checked the backups immediately after they were done and confirmed they were good.
 
+class: center, middle 
 ![](images/image11.jpeg)
 
 ---

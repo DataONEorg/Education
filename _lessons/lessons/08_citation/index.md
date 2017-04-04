@@ -159,19 +159,19 @@ Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M,
 
 ## Examples of information needed in a citation, continued
 
-* **Locator or Identifier** – includes Digital Object Identifiers (DOI), Handles, Archival Resource Key (ARK), etc.
+.full-width[* **Locator or Identifier** – includes Digital Object Identifiers (DOI), Handles, Archival Resource Key (ARK), etc.
 * **Access Date and Time** – when data is accessed online
 * **Subset of Data Used** – description based on organization of the larger dataset
 * **Editor or Contributor** – reference to a person who compiled data, or performed value-added functions
 * **Publication Place** – city and state and country of the distributor of the data
-* **Data within a Larger Work** – refers to the use of data in a compilation or a data supplement (such as published in a peer-reviewed paper)
+* **Data within a Larger Work** – refers to the use of data in a compilation or a data supplement (such as published in a peer-reviewed paper)]
 
 ---
 
 ## Examples of Data Citation Formats
 
-* **DataCite**: Creator (Publication Year): Title. Publisher. Identifier
-* **Dryad**: Author (Date of Article Publication) Data from: Article name. Dryad Digital Repository. doi: DOI number
+.two-third[* **DataCite**: Creator (Publication Year): Title. Publisher. Identifier
+* **Dryad**: Author (Date of Article Publication) Data from: Article name. Dryad Digital Repository. doi: DOI number]
 
 ![CC image by Paxsimius on Flickr](images/slide13.jpg)
 *Image attribution: CC image by Paxsimius on Flickr*
@@ -180,7 +180,7 @@ Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M,
 
 ## Examples of Data Citation Formats, continued
 
-* **Earth Science Information Partners (ESIP)<sup>1</sup>**:
+.full-width[* **Earth Science Information Partners (ESIP)<sup>1</sup>**:
  * Required citation elements: Author. Release date. Title. Version. Archive/Distributor. Locator/Identifier. Access date and time.
  * Optional citation elements: Subset Used; Editor, Compiler, or other important role; Distributor, Associate Archive, or other Institutional Role; Data Within a Larger Work
  * Example citation: 
@@ -194,12 +194,12 @@ More guidelines/suggestions from ESIP: http://wiki.esipfed.org/index.php/Interag
 
 ## Examples of Data Citation Formats, continued
 
-* **Research Data Alliance (RDA)**:
+.full-width[* **Research Data Alliance (RDA)**:
  * The RDA Working Group on Data Citation (WG-DC)1 aims to bring together a group of experts to discuss the issues, requirements, advantages and shortcomings of existing approaches for efficiently citing subsets of data.
  * Final recommendations of the WG-DC were published in “Data Citation of Evolving Data” in 20152.
  * *Recommended citation elements*: persistent query identification and storage on versioned data; based on timestamping, a specific subset can be retrieved by re-executing the query. 
  * Example citation:
-   * Stefan Proell (2015) “Austria Facts” created at 2015-10-07 10:51:55:0, PID[ark:12345/qmZi2wO2vv]. Subset of CIA: “The CIA World Factbook”, PID[ark:12345/cLfH9FjxnA].
+   * Stefan Proell (2015) “Austria Facts” created at 2015-10-07 10:51:55:0, PID[ark:12345/qmZi2wO2vv]. Subset of CIA: “The CIA World Factbook”, PID[ark:12345/cLfH9FjxnA].]
 
 ???
 

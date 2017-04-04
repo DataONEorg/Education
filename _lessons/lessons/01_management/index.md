@@ -1,6 +1,9 @@
 ---
 title: "Introduction to Data Management"
-update: Sep. 20, 2016
+
+author: DataONE Community Engagement and Outreach Working Group
+update: Sept. 20, 2016
+
 layout: slides
 categories: ed-module
 ---
@@ -164,16 +167,12 @@ being backed up as it would have been if stored on a server.*
 ## Poor Data Management
 ### Federal Agency Example
 
-.two-third[In preparation for a Resource Management Plan, an office discovered 14 duplicate GPS inventories of roads.  However, because none of the inventories had enough metadata, it was impossible to know which inventory was best or if any of the inventories actually met their requirements. ]
-
 .one-third[ ![](images/lesson01-pptimages/image34.jpeg)
 *Source: CC Image by ruffin_Ready on Flickr* ]
 
-.full-width[**Solution:**  Re-Inventory roads
-
-**Cost:** Estimated 9 work months/inventory
-        @$4,000/wm
-        (14 inventories = $504,000)
+.two-third[In preparation for a Resource Management Plan, an office discovered 14 duplicate GPS inventories of roads.  However, because none of the inventories had enough metadata, it was impossible to know which inventory was best or if any of the inventories actually met their requirements. 
+**Solution:**  Re-Inventory roads
+**Cost:** Estimated 9 work months/inventory @$4,000/wm (14 inventories = $504,000)
 ]
 
 

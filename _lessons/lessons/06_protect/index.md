@@ -119,7 +119,7 @@ Regardless of whether you are dealing with backups or archives, you should have 
 
 ## Why Perform Backups?
 
-.one-half[
+.two-third[
 * Limit loss of data, some of which may not be reproducible
 * Save time, money, productivity
 * Help prepare for disasters
@@ -128,10 +128,11 @@ Regardless of whether you are dealing with backups or archives, you should have 
   * Software bugs, hardware failures
 * Reproduce results of past procedures (if they were based on older files)
 * Respond to data requests
-* Limit liability
-]
+* Limit liability]
 
 ![](images/image6.jpeg)]
+
+
 
 ???
 There are many reasons to perform backups including:
@@ -445,7 +446,6 @@ By following the recommendations in these lessons, you limit the need for data r
 
 In 2011, a software bug caused some Gmail users to lose access to their email.  Fortunately, Google had backups! 
 
-class: center, middle
 ![Google backup](images/image12.jpeg)
 
 ???

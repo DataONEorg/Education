@@ -23,6 +23,10 @@ pre,
 code {
   font-family: "Source Code Pro", "Consolas", "DejaVu Sans Mono", monospace !important;
 }
+a {
+  color: #660033;
+}
+
 h1 {
   font-size: 160% !important;
   font-weight: bold;

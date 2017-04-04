@@ -24,7 +24,6 @@ The first section discusses the differences between three concepts: data protect
 ## Learning Objectives
 
 After completing this lesson, the participant will be able to:
-
 .full-width[
 * Define the differences between backups and archiving data
 * Identify significant issues related to data backups
@@ -65,8 +64,7 @@ In this lesson we will be focusing on data protection and backup which is associ
 ## Data Protection, Backups, Archiving, Preservation
 
 Differences at a Glance:
-.full-width[
-* Data Protection
+.full-width[* Data Protection
   * Includes topics such as: backups, archives, & preservation; also includes physical security, encryption, and others not addressed here
   * More information about these topics can be found in the  “References” section]
 
@@ -497,7 +495,7 @@ DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016.
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
 ![CCBY0](images/image13.png)
----
+
 
 
 

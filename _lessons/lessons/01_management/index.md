@@ -1,7 +1,9 @@
 ---
 title: "Introduction to Data Management"
+
 author: DataONE Community Engagement and Outreach Working Group
 update: Sept. 20, 2016
+
 layout: slides
 categories: ed-module
 ---
@@ -14,34 +16,29 @@ class: center, middle
 
 
 ???
-Here are some _notes_. You can format them however you'd like to.
-* here are bullets
-* this is nice!
 
 ---
-class: Middle
 
 ## Lesson Topics
 
-* The data world around us
+.full-width[* The data world around us
 * Importance of data management
 * The data lifecycle
-* The case for data management
+* The case for data management]
 
 ???
-The topics covered in this module will answer the questions:
 
 ---
 
 ## Learning Objectives
 
-* Give two general examples of why increasing amounts of data is a concern
+.full-width[* Give two general examples of why increasing amounts of data is a concern
 * Explain, using two examples, how lack of data management makes an impact
 * Define the research data lifecycle
-* Give one example of how well-managed data can result in new scientific conclusions
+* Give one example of how well-managed data can result in new scientific conclusions]
 
 ---
-class: middle
+class: center, middle
 
 ## Data Realities...
 
@@ -105,12 +102,12 @@ and more. This calls for increased attention to data management and stewardship.
 *CC Image by momboleum on Flickr*]
 
 ---
-class: middle center
+class: center, middle
 
 ## Poor Data Management Affects Everyone
 
 ---
-class: middle
+
 ## Poor Data Management Affects Everyone
 
 **MEDICARE PAYMENT ERRORS NEAR $20B**
@@ -124,18 +121,15 @@ class: middle
     This error rate actually was an improvement over the previous fiscal year (9.8% error rate).
 
 ---
-class: middle
 
 **AUDIT:  JUSTICE STATS ON ANTI-TERROR CASES FLAWED” (AP) February 2007**
 
-> The Justice Department Inspector General found only two sets of data out of 26
-     concerning terrorism attacks were accurate.  The Justice Department uses these
+> The Justice Department Inspector General found only two sets of data out of 26 concerning terrorism attacks were accurate.  The Justice Department uses these
      statistics to argue for their budget.  The Inspector General said the data “appear to be
      the result of decentralized and haphazard methods of collections … and do not appear
-     to be intentional.”
+     to be intentional."
 
 ---
-class: middle
 
 **OOPS! TECH ERROR WIPES OUT Alaska Info” (AP) March 2007**
 > A technician managed to delete the data and backup for the $38 billion Alaska oil
@@ -188,9 +182,10 @@ being backed up as it would have been if stored on a server.*
 ## Importance of Data Management
 
 
-*"Please forgive my paranoia about protocols, standards, and data review.  I'm in the latter stages of a long career with USGS (30 years, and counting), and have experienced much.  Experience is the knowledge you get just after you needed it. Several times, I've seen colleagues called to court in order to testify about conditions they have observed. Without a strong tradition of constant review and approval of basic data, they would've been in deep trouble under cross-examination.  
-Instead, they were able to produce field notes, data approval records, and the like, to back up their testimony. It's one thing to be questioned by a college student who is working on a project for school.  It's another entirely to be grilled by an attorney under oath with the media present.”- Nelson Williams, Scientist US Geological Survey*
+>"Please forgive my paranoia about protocols, standards, and data review.  I'm in the latter stages of a long career with USGS (30 years, and counting), and have experienced much.  Experience is the knowledge you get just after you needed it. Several times, I've seen colleagues called to court in order to testify about conditions they have observed. Without a strong tradition of constant review and approval of basic data, they would've been in deep trouble under cross-examination. 
+Instead, they were able to produce field notes, data approval records, and the like, to back up their testimony. It's one thing to be questioned by a college student who is working on a project for school.  It's another entirely to be grilled by an attorney under oath with the media present.”
 
+*Nelson Williams, Scientist US Geological Survey*
 
 ---
 
@@ -212,10 +207,10 @@ The climate scientists at the centre of a media storm over leaked emails were ye
 ### Researcher Perspective
 
 Manage your data for yourself:
-* Organize your files (data inputs, analytic scripts, outputs) at various stages of the analytic process
+.full-width[* Organize your files (data inputs, analytic scripts, outputs) at various stages of the analytic process
 * Track your science processes for reproducibility – match your outputs with exact inputs and transformations that produced them
 * Better control versions of data – identify easily versions that can be periodically purged
-* Quality control your data more efficiently
+* Quality control your data more efficiently]
 
 ---
 
@@ -247,11 +242,11 @@ Manage your data for yourself:
 ### Foundation to Advance Science
 
 Data should be managed to:
-* Maximize the effective use and value of data & information assets
+.full-width[* Maximize the effective use and value of data & information assets
 * Continually improve quality including: accuracy, integrity, integration, timeliness of capture, presentation, relevance & usefulness
 * Ensure appropriate use of data and information
 * Facilitate data sharing
-* Ensure sustainability and accessibility in long term for re-use in science
+* Ensure sustainability and accessibility in long term for re-use in science]
 
 
 ---
@@ -307,20 +302,20 @@ Data should be properly managed and eventually be placed where they are accessib
 
 Here are a few reasons (from the UK Data Archive):
 
-* Increases the impact and visibility of research
+.full-width[* Increases the impact and visibility of research
 * Promotes innovation and potential new data uses
 * Leads to new collaborations between data users and creators
-* Maximizes transparency and accountability
+* Maximizes transparency and accountability]
 
 ---
 
 
 ## Well managed, publically accessible data is important: Why?
 
-* Enables scrutiny of research findings
+.full-width[* Enables scrutiny of research findings
 * Encourages improvement and validation of research methods
 * Reduces cost of duplicating data collection
-* Provides important resources for education and training
+* Provides important resources for education and training]
 
 *Source: UK Data Archive*
 
@@ -367,9 +362,9 @@ A data lifecycle illustrates stages thru which well-managed data passes from the
 
 ## For Each Stage of the Data Lifecycle
 
-* There are best practices…..and….tools to help!
+.full-width[* There are best practices…..and….tools to help!
 * The following data management lessons will illustrate in detail each stage of the data lifecycle
-* Your well-managed and accessible data can contribute to science in ways you may not even imagine today!
+* Your well-managed and accessible data can contribute to science in ways you may not even imagine today!]
 
 
 ???
@@ -377,12 +372,13 @@ A data lifecycle illustrates stages thru which well-managed data passes from the
 The rest of the DataONE Education Modules, handouts, and hands-on exercises are available at: https://www.dataone.org/education-modules
 
 ---
+
 ## Summary
 
-* The data deluge has created a surge of information that needs to be well-managed and made accessible.
+.full-width[* The data deluge has created a surge of information that needs to be well-managed and made accessible.
 * The cost of not doing data management can be very high.
 * Be cognizant of best practices and tools associated with the data lifecycle to manage your data well.
-* Many benefits are associated with the act of managing data, including the ability to find, access, understand, integrate and re-use data.
+* Many benefits are associated with the act of managing data, including the ability to find, access, understand, integrate and re-use data.]
 
 
 ---

@@ -119,7 +119,7 @@ Regardless of whether you are dealing with backups or archives, you should have 
 
 ## Why Perform Backups?
 
-.full-width[* Limit loss of data, some of which may not be reproducible
+.one-half[* Limit loss of data, some of which may not be reproducible
 * Save time, money, productivity
 * Help prepare for disasters
   * Accidental deletions
@@ -127,7 +127,7 @@ Regardless of whether you are dealing with backups or archives, you should have 
   * Software bugs, hardware failures
 * Reproduce results of past procedures (if they were based on older files)
 * Respond to data requests
-* Limit liability]
+* Limit liability
 
 ![](images/image6.jpeg)]
 

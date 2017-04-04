@@ -119,8 +119,7 @@ Regardless of whether you are dealing with backups or archives, you should have 
 
 ## Why Perform Backups?
 
-.two-third[
-* Limit loss of data, some of which may not be reproducible
+.one-half[* Limit loss of data, some of which may not be reproducible
 * Save time, money, productivity
 * Help prepare for disasters
   * Accidental deletions

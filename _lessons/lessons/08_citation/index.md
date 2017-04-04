@@ -448,22 +448,22 @@ Similar to data citation, software citations should include:
 
 ## Examples of Software Citation
 
-.full-width[**Software purchased off-the-shelf:
+.full-width[**Software purchased off-the-shelf:**
 * Product Name. Version. Release Date. Publisher. Location.
  * SuperScience. 1.2. December 2012. Research Software. Edinburgh, UK.
 
-**Software downloaded from the web:
+**Software downloaded from the web:**
 * Product Name. Version. Release Date. Publisher. Location. DOI or URL. Download Date.
   * OGSA-DAI REST. 4.2.1. December 2012. OGSA-DAI Project. http://sourceforge.net/projects/ogsa-dai. 27/04/2012.
 
-**Software provided by a researcher:
+**Software provided by a researcher:**
 * Product Name. Author. Location. Contact Details. Received Date.
  * BestFFTroutine ever file. Fred Bloggs, EPCC, The University of Edinburgh, UK. Fred.bloggs@epcc.ed.ac.uk. 27/04/2012.
 
-AMA Format:
+**AMA Format:**
  * Epi Info [computer program]. Version 3.2. Atlanta, GA: Centers for Disease Control and Prevention; 2004.
 
-APA Format:
+**APA Format:**
  * Hayes, B. et al. (2003). OTSoft: Optimality Theory Software (Version 2.1) [Software]. Available from http://www.linguistics.ucla.edu/people/hayes/otsoft/]
  
 ???

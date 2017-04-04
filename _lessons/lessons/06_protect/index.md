@@ -119,8 +119,8 @@ Regardless of whether you are dealing with backups or archives, you should have 
 
 ## Why Perform Backups?
 
-.one-half[* Limit loss of data, some of which may not be reproducible
-* Save time, money, productivity
+Limit loss of data, some of which may not be reproducible
+.full-width[* Save time, money, productivity
 * Help prepare for disasters
   * Accidental deletions
   * Fires, natural disasters
@@ -129,8 +129,8 @@ Regardless of whether you are dealing with backups or archives, you should have 
 * Respond to data requests
 * Limit liability]
 
-.one-half[ 
-![](images/image6.jpeg)]
+
+![](images/image6.jpeg)
 
 
 

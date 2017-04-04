@@ -87,13 +87,13 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 ## Benefits of Data Citation 
 
 ### Short term
-.one-third[* Facilitates discovery of relationships between data and publications, making it easier to validate and build upon previous work
+.two-third[* Facilitates discovery of relationships between data and publications, making it easier to validate and build upon previous work
 * Ensures that proper credit can be given when others use your work
 * Facilitates impact assessments of datasets based on number of publications that cite them
 * Helps researchers re-using data to find other ways the data has been used.]
 
 
-.two-third[![CC image by futureatlas.com on Flickr,as "Citation Needed"](images/slide6.jpg)
+.one-third[![CC image by futureatlas.com on Flickr,as "Citation Needed"](images/slide6.jpg)
 *Image attribution: CC image by futureatlas.com on Flickr,as "Citation Needed"*]
  
 ---
@@ -101,12 +101,12 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 ## Benefits of Data Citation
 
 ### Long term
-.one-third[* Promotes the availability of data into the future
+.two-third[* Promotes the availability of data into the future
 * Facilitates discovery of  existing data relevant to a particular question
 * Enables recognition of scholarly effort within disciplines and organizations 
 * Increases transparency of scientific research]
 
-.two-third[![CC image by gruntzooki on Flickr](images/slide7.jpg)
+.one-third[![CC image by gruntzooki on Flickr](images/slide7.jpg)
 *Image attribution: CC image by gruntzooki on Flickr*]
 
 ???
@@ -143,13 +143,13 @@ Easier to discover existing data relevant to a particular question
 
 ## How to Cite Data
 
-.one-half[* Similar to citing a published article or book
+.two-third[* Similar to citing a published article or book
  * Provide information necessary to identify and locate the work cited
 * Broadly-applicable data citation standards have not yet been established; use standards adopted by relevant academic journal, data repository, or professional organization
 * In "Achieving human and machine accessibility of cited data in scholarly publications" Starr et al. (2015) begin to lay out implementation guidelines across disciplines1
 doi: [10.7717/peerj-cs.1](https://doi.org/10.7717/peerj-cs.1)]
 
-![screenshot of Starr et al. paper](images/slide10.png)
+.one-third[![screenshot of Starr et al. paper](images/slide10.png)]
 
 ???
 

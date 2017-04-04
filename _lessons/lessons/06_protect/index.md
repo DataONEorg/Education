@@ -130,7 +130,7 @@ Limit loss of data, some of which may not be reproducible
 * Limit liability]
 
 .one-half[
-![](images/image6.jpeg)]
+!(images/image6.jpeg)]
 
 
 

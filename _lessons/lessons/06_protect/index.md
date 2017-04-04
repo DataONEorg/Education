@@ -62,7 +62,7 @@ In this lesson we will be focusing on data protection and backup which is associ
 
 ## Data Protection, Backups, Archiving, Preservation
 
-Differences at a Glance
+Differences at a Glance:
 .full-width[* Data Protection
   * Includes topics such as: backups, archives, & preservation; also includes physical security, encryption, and others not addressed here
   * More information about these topics can be found in the  “References” section]
@@ -73,7 +73,7 @@ The terms data protection, data backups, data archiving, and data preservation a
 
 ---
 
-## Data Protection, Backups, Archiving, Preservation (cont'd)
+## Data Protection, Backups, Archiving, Preservation (continued)
 
 .full-width[* Terms “backups” and “archives” are often used interchangeably, but do have different meanings
   * Backups: copies of the original file are made before the original is overwritten
@@ -120,7 +120,7 @@ Regardless of whether you are dealing with backups or archives, you should have 
 ## Why Perform Backups?
 
 .two-thirds[
-* Limit or negate loss of data, some of which may not be reproducible
+* Limit loss of data, some of which may not be reproducible
 * Save time, money, productivity
 * Help prepare for disasters
   * Accidental deletions
@@ -131,7 +131,7 @@ Regardless of whether you are dealing with backups or archives, you should have 
 * Limit liability
 ]
 
-![](images/image6.jpeg)
+.one-third[![](images/image6.jpeg)]
 
 ???
 There are many reasons to perform backups including:

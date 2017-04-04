@@ -131,7 +131,7 @@ Regardless of whether you are dealing with backups or archives, you should have 
 * Limit liability
 ]
 
-.one-half[ ![](images/image6.jpeg)]
+![](images/image6.jpeg)]
 
 ???
 There are many reasons to perform backups including:

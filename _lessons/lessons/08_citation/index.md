@@ -159,7 +159,7 @@ Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M,
 
 ## Examples of information needed in a citation 
 
-.one-half[* **Author/Principal Investigator/Data Creator**
+.full-width[* **Author/Principal Investigator/Data Creator**
 * **Release Date/Year of Publication** – year of release, for a completed dataset 
 * **Title of Data Source** – formal title of the dataset
 * **Version/Edition Number** – the version of the dataset used in the study
@@ -185,8 +185,8 @@ Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M,
 .two-third[* **DataCite**: Creator (Publication Year): Title. Publisher. Identifier
 * **Dryad**: Author (Date of Article Publication) Data from: Article name. Dryad Digital Repository. doi: DOI number]
 
-![CC image by Paxsimius on Flickr](images/slide13.jpg)
-*Image attribution: CC image by Paxsimius on Flickr*
+.one-third[![CC image by Paxsimius on Flickr](images/slide13.jpg)
+*Image attribution: CC image by Paxsimius on Flickr*]
 
 ---
 
@@ -305,7 +305,7 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
 
 ## Collaborative effort
 
-.one-half[* Requires participation of a variety of individuals and institutions
+.one-third[* Requires participation of a variety of individuals and institutions
  * Journal publishers
  * Data publishers/repositories
  * Data authors
@@ -313,8 +313,8 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
  * Data users
  * Professional organizations]
  
-![CC image via Wikimedia Commons (Masur, derivative of Al Maghi)](images/slide20.png)
-*Image attribution: CC image via Wikimedia Commons (Masur, derivative of Al Maghi)*
+.two-third[![CC image via Wikimedia Commons (Masur, derivative of Al Maghi)](images/slide20.png)
+*Image attribution: CC image via Wikimedia Commons (Masur, derivative of Al Maghi)*]
 
 ---
 
@@ -354,7 +354,8 @@ UC Curation Center Merritt
  
 ## Collaborating with publishers
 
-.full-width[* Data centers or distributors should
+.full-width[
+* Data centers or distributors should
  * Ensure that data and metadata remain accessible, robust, and usable over time
  * Assign persistent and unique identifiers so that data are discoverable
  * Make data citation information easily findable by data users
@@ -362,7 +363,8 @@ UC Curation Center Merritt
 * Journal publishers should
  * Provide clear guidance on how and where data sets should be cited
  * Be responsive to needs of authors, funding agencies, and data repositories
- * Alert data publisher when publishing a paper that cites a data set]
+ * Alert data publisher when publishing a paper that cites a data set
+ ]
  
 ![Image courtesy of https://pixabay.com/en/collaboration-collaborator-book-1106196/](images/slide22.jpg)
 *Image attribution: https://pixabay.com/en/collaboration-collaborator-book-1106196/*

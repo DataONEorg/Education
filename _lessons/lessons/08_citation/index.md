@@ -70,9 +70,9 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 
 ### Persistent identifier
 .full-width[* A unique web-compatible alphanumeric code that points to a resource (e.g., data set) that will be preserved for the long term (i.e., over several hardware and software generations)]
-* Should direct to latest available version of resource or to metadata which enables acquisition of desired version or format*
+* Should direct to latest available version of resource or to metadata which enables acquisition of desired version or format]
 
-*Hakala, J. Persistent identifiers – an overview. Accessed May 10, 2012 at http://metadaten-twr.org/2010/10/13/persistent-identifiers-an-overview/.
+*Hakala, J. Persistent identifiers – an overview. Accessed May 10, 2012 at http://metadaten-twr.org/2010/10/13/persistent-identifiers-an-overview/.*
 
 ???
 

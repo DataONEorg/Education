@@ -72,7 +72,6 @@ th {
 .columns {
   clear: right;
   float: left;
-  padding: 10px 20px 10px 10px;
   box-sizing: border-box;
 }
 .full-width,
@@ -88,18 +87,23 @@ th {
 }
 .one-third {
   width: 33.3%;
+  padding: 0% 2% 0% 0%;
 }
 .two-third {
   width: 66.7%;
+  padding: 0% 2% 0% 0%;
 }
 .one-half {
   width: 50%;
+  padding: 0% 2% 0% 0%;
 }
 .one-fourth {
   width: 25%;
+  padding: 0% 2% 0% 0%;
 }
 .three-fourth {
   width: 75%;
+  padding: 0% 2% 0% 0%;
 }
 .full-width {
   width: 100%;
@@ -133,7 +137,6 @@ img {
 }
 
 .remark-slide-content {
-  padding: 5px 20px 5px 10px;
   font-size: 25px;
 }
 

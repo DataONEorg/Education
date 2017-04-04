@@ -7,10 +7,11 @@ layout: slides
 
 ## Lesson Topics
 
-.full-width[* Key Digital Preservation Concepts
-* Backups: Things to Consider
-* Data Preservation
-* Recommended Practices]
+.full-width[
+*Key Digital Preservation Concepts
+*Backups: Things to Consider
+*Data Preservation
+*Recommended Practices]
 
 ???
 These slides will cover several topics that relate to data protection.
@@ -24,11 +25,12 @@ The first section discusses the differences between three concepts: data protect
 
 After completing this lesson, the participant will be able to:
 
-.full-width[* Define the differences between backups and archiving data
-* Identify significant issues related to data backups
-* Identify why backup plans are important and how they can fit into larger backup procedures
-* Discuss what data preservation covers
-* List several recommended practices]
+.full-width[
+*Define the differences between backups and archiving data
+*Identify significant issues related to data backups
+*Identify why backup plans are important and how they can fit into larger backup procedures
+*Discuss what data preservation covers
+*List several recommended practices]
 
 ???
 By the end of this presentation, you will be able to define the differences between data backups and archives, characterize issues that you might encounter during data backups, and lastly we’ll discuss recommended practices as related to backup plans.
@@ -51,7 +53,7 @@ Q4: What are some good practices to follow when naming files?  Suggested answers
 
 ## The DataONE Data Life Cycle
 
-![](images/dlc.png)
+![lifecycle](images/dlc.png)
 
 ???
 In this lesson we will be focusing on data protection and backup which is associated with the categories assure and preserve in the data life cycle.  For definitions of the DataONE Data Life Cycle, see: dataone.org/data-life-cycle
@@ -63,9 +65,10 @@ In this lesson we will be focusing on data protection and backup which is associ
 ## Data Protection, Backups, Archiving, Preservation
 
 Differences at a Glance:
-.full-width[* Data Protection
-  * Includes topics such as: backups, archives, & preservation; also includes physical security, encryption, and others not addressed here
-  * More information about these topics can be found in the  “References” section]
+.full-width[
+*Data Protection
+  *Includes topics such as: backups, archives, & preservation; also includes physical security, encryption, and others not addressed here
+  *More information about these topics can be found in the  “References” section]
 
 
 ???

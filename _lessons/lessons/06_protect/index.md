@@ -6,6 +6,7 @@ layout: slides
 ---
 
 ## Lesson Topics
+
 .full-width[* Key Digital Preservation Concepts
 * Backups: Things to Consider
 * Data Preservation
@@ -47,6 +48,7 @@ Q4: What are some good practices to follow when naming files?  Suggested answers
 
 
 ---
+
 ## The DataONE Data Life Cycle
 
 ![](images/dlc.png)
@@ -57,7 +59,9 @@ In this lesson we will be focusing on data protection and backup which is associ
 
 
 ---
+
 ## Data Protection, Backups, Archiving, Preservation:
+
 Differences at a Glance
 .full-width[* Data Protection
   * Includes topics such as: backups, archives, & preservation; also includes physical security, encryption, and others not addressed here
@@ -216,6 +220,7 @@ Where you backup your files depends on a variety of things:
 * Even if you already have one backup in place, you may want to make sure your data is backed up in another location.  If you backup your data to an external drive attached to your desktop computer and there’s a fire in your office, both versions of your data will be destroyed.  Also, there’s no guarantee that your backups are reliable or safe.  Failures can happen on any system.]
 
 ---
+
 ## Considerations
 .full-width[* How are backups carried out?
   * Manually may work for single files, but requires that the user remembers to perform regular backups and can be time-consuming
@@ -385,6 +390,7 @@ When preserving your data, you need to consider many things:
  Naming: use file names that are consistent, descriptive, and concise.  Many software programs use a generic file name as their default file output and usually these names are too general to be useful.
  
 ---
+
 ## Recommended Practices
 
 .full-width[* Create a preservation policy that clearly identifies:
@@ -406,6 +412,7 @@ Handling backups without the assistance of software or specifically-tasked staff
   Larger projects and offices will probably want to have specific IT staff tasked to handle backups.  They are more likely to keep updated with current best practices.  However, some offices may have little or no IT support, so ensuring that proper backups are being performed may be left up to you.
 
 ---
+
 ## Recommended Practices, continued
 
 .full-width[* Minimize or remove reliance on users to perform own manual backups (if possible)
@@ -421,6 +428,7 @@ Handling backups without the assistance of software or specifically-tasked staff
 If possible, do not rely upon manual backups.  Utilizing an automated system will probably be faster and do a better job of saving your files.  If available, have your IT or support staff help you with your backups.  Again, do not assume that backups are being handled for you.  Even if someone else is handling them, make sure the backups are tested.  In addition, if you are relying upon third-party systems, they may or may not be handling backups on their end.  Lastly, to ensure future readability, use non-proprietary, standard formats.
 
 ---
+
 ## Recommended Practices, continued
 
 .full-width[* Check your backups manually
@@ -450,6 +458,7 @@ In 2011, a software bug caused some Gmail users to lose access to their email.  
 Again, do not assume that backups are being handled for you.  Even if someone else is handling them, make sure the backups are tested.  In addition, if you are relying upon third-party systems, they may or may not be handling backups on their end.
 
 ---
+
 ## Summary
 
 .full-width[* Data preservation is more than just backing up and archiving your files

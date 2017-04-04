@@ -359,7 +359,9 @@ UC Curation Center Merritt
  * Ensure that data and metadata remain accessible, robust, and usable over time
  * Assign persistent and unique identifiers so that data are discoverable
  * Make data citation information easily findable by data users
- 
+]
+
+.full-width[
 * Journal publishers should
  * Provide clear guidance on how and where data sets should be cited
  * Be responsive to needs of authors, funding agencies, and data repositories

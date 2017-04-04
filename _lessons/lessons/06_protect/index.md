@@ -59,9 +59,9 @@ In this lesson we will be focusing on data protection and backup which is associ
 ---
 # Data Protection, Backups, Archiving, Preservation:
 Differences at a Glance
-* Data Protection
-  - Includes topics such as: backups, archives, & preservation; also includes physical security, encryption, and others not addressed here
-    -More information about these topics can be found in the  “References” section
+.full-width[* Data Protection
+  * Includes topics such as: backups, archives, & preservation; also includes physical security, encryption, and others not addressed here
+  * More information about these topics can be found in the  “References” section]
 
 
 ???
@@ -71,11 +71,11 @@ The terms data protection, data backups, data archiving, and data preservation a
 
 # Data Protection, Backups, Archiving, Preservation (cont'd)
 
-* Terms “backups” and “archives” are often used interchangeably, but do have different meanings
-  - Backups: copies of the original file are made before the original is overwritten
-  - Archives: preservation of the file
+.full-width[* Terms “backups” and “archives” are often used interchangeably, but do have different meanings
+  * Backups: copies of the original file are made before the original is overwritten
+  * Archives: preservation of the file
 * Data Preservation
-  - Includes archiving in addition to processes such as data rescue, data reformatting, data conversion, metadata
+  * Includes archiving in addition to processes such as data rescue, data reformatting, data conversion, metadata]
 
 ???
 The terms data backups and data archiving are often used interchangeably as they both relate to saving a specific version of a file, but they do convey different processes.  The term “backup” is used specifically when making copies of various files with the knowledge that the files may change.  Backups are kept for a certain amount of time, but can be discarded after a specified time has passed.  Archiving is used when a file is to be preserved as-is, often at the end of a project and acts as a static (and usually final) record.

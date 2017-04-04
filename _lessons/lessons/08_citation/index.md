@@ -119,10 +119,10 @@ Easier to discover existing data relevant to a particular question
 
 ## Principles of Data Citation
 
-* **Access** - Data citations should facilitate access to the data, metadata, code, and other materials, as necessary for both humans and machines.
+.two-third[* **Access** - Data citations should facilitate access to the data, metadata, code, and other materials, as necessary for both humans and machines.
 * **Persistence** - Unique identifiers, data, and metadata should persist beyond the lifespan of the data they describe.
 * **Specificity and Verifiability** - Data citations should facilitate identification of, access to, and verification of the specific data that support a claim.  
-* **Interoperability and Flexibility** - Data citation methods should be flexible, but enable interoperability across communities.
+* **Interoperability and Flexibility** - Data citation methods should be flexible, but enable interoperability across communities.]
 
 ![DC1 logo](images/slide8-9.jpg)
 *https://www.force11.org/datacitation*
@@ -131,11 +131,11 @@ Easier to discover existing data relevant to a particular question
 
 ## How to Cite Data
 
-* Similar to citing a published article or book
+.two-third[* Similar to citing a published article or book
  * Provide information necessary to identify and locate the work cited
 * Broadly-applicable data citation standards have not yet been established; use standards adopted by relevant academic journal, data repository, or professional organization
 * In "Achieving human and machine accessibility of cited data in scholarly publications" Starr et al. (2015) begin to lay out implementation guidelines across disciplines1
-doi: [10.7717/peerj-cs.1](https://doi.org/10.7717/peerj-cs.1)
+doi: [10.7717/peerj-cs.1](https://doi.org/10.7717/peerj-cs.1)]
 
 ![screenshot of Starr et al. paper](images/slide10.png)
 
@@ -147,13 +147,13 @@ Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M,
 
 ## Examples of information needed in a citation 
 
-* **Author/Principal Investigator/Data Creator**
+.full-width[* **Author/Principal Investigator/Data Creator**
 * **Release Date/Year of Publication** – year of release, for a completed dataset 
 * **Title of Data Source** – formal title of the dataset
 * **Version/Edition Number** – the version of the dataset used in the study
 * **Format of the Data** – physical format of the data
 * **3rd Party Data Producer** – refers to data accessed from a 3rd party repository 
-* **Archive and/or Distributor** – the location that holds the dataset
+* **Archive and/or Distributor** – the location that holds the dataset]
 
 ---
 

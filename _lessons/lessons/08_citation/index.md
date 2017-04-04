@@ -60,7 +60,8 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 
 ### Persistent identifier
 * A unique web-compatible alphanumeric code that points to a resource (e.g., data set) that will be preserved for the long term (i.e., over several hardware and software generations)
-* Should direct to latest available version of resource or to metadata which enables acquisition of desired version or format]
+* Should direct to latest available version of resource or to metadata which enables acquisition of desired version or format
+]
 
 ???
 

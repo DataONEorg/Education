@@ -295,13 +295,13 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
 
 ## Collaborative effort
 
-* Requires participation of a variety of individuals and institutions
+.two-third[* Requires participation of a variety of individuals and institutions
  * Journal publishers
  * Data publishers/repositories
  * Data authors
  * Data managers
  * Data users
- * Professional organizations
+ * Professional organizations]
  
 ![CC image via Wikimedia Commons (Masur, derivative of Al Maghi)](images/slide20.png)
 *Image attribution: CC image via Wikimedia Commons (Masur, derivative of Al Maghi)*
@@ -344,7 +344,7 @@ UC Curation Center Merritt
  
 ## Collaborating with publishers
 
-* Data centers or distributors should
+.two-thrid[* Data centers or distributors should
  * Ensure that data and metadata remain accessible, robust, and usable over time
  * Assign persistent and unique identifiers so that data are discoverable
  * Make data citation information easily findable by data users
@@ -352,7 +352,7 @@ UC Curation Center Merritt
 * Journal publishers should
  * Provide clear guidance on how and where data sets should be cited
  * Be responsive to needs of authors, funding agencies, and data repositories
- * Alert data publisher when publishing a paper that cites a data set
+ * Alert data publisher when publishing a paper that cites a data set]
  
 ![Image courtesy of https://pixabay.com/en/collaboration-collaborator-book-1106196/](images/slide22.jpg)
 *Image attribution: https://pixabay.com/en/collaboration-collaborator-book-1106196/*

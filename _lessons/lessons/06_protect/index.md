@@ -216,8 +216,7 @@ Where you backup your files depends on a variety of things:
 * Even if you already have one backup in place, you may want to make sure your data is backed up in another location.  If you backup your data to an external drive attached to your desktop computer and there’s a fire in your office, both versions of your data will be destroyed.  Also, there’s no guarantee that your backups are reliable or safe.  Failures can happen on any system.]
 
 ---
-# Considerations 
-
+# Considerations
 .full-width[* How are backups carried out?
   * Manually may work for single files, but requires that the user remembers to perform regular backups and can be time-consuming
   * Automated backups can be run on a set schedule that doesn’t require the user to remember
@@ -238,7 +237,6 @@ If only one member of the IT staff handles this task, and they are unavailable, 
 
 ---
 # Considerations
-
 .full-width[* How do you verify a backup has been successfully performed?
   * Most backup software will have a log file that contains details of the backup (which files, when the backup was created)
   * However, don’t rely solely on the log file 

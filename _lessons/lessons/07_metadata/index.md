@@ -7,7 +7,7 @@ layout: slides
 # Tutorials on Data Management
 ## Lesson 7: Metadata
 
-![Image Attribution: CC image by bonus on Flickr](images/  )
+![Image Attribution: CC image by bonus on Flickr](images/image3.jpeg)
   *Image Attribution: CC image by bonus on Flickr*
 
 ---
@@ -105,34 +105,37 @@ Nutrition facts: ![Photo Attribution: CC image by USDAgov on Flickr](images/  )
 
 Metadata is all around us. . .from Mp3 players, to nutrition labels, to library card catalogues.
 For example, a card catalogue tell us more information than just the title of the book, they also tells the user:
-		Who is the author?
-		Who published the book?
-		What subject area does the book fall in?
-		And finally, where is it located in the library? 
+- Who is the author?
+- Who published the book?
+- What subject area does the book fall in?
+- And finally, where is it located in the library? 
 
 Another example of metadata that we see in our daily lives is the nutrition and ingredient information on food labels.
 Nutrition labels answer questions such as: 
-		What ingredients were used?
-		Who made the food?
-		How many calories per serving?
-		How many servings in the can?
-		What percentage of daily vitamins are in each serving?
+- What ingredients were used?
+- Who made the food?
+- How many calories per serving?
+- How many servings in the can?
+- What percentage of daily vitamins are in each serving?
 
 ---
 
 # Metadata: What are they good for?
 
-USGS Groundwater Image
+.one-third[USGS Groundwater Image
 
 Metadata: captures information
+]
 
-USGS Web Site Image
+.one-third[USGS Web Site Image
 
 USGS Science Data Catalog: enabling discovery
+]
 
-DataONE Search Image
+.one-third[DataONE Search Image
 
 DataONE: enables exchange
+]
 
 ???
 
@@ -184,7 +187,7 @@ Metadata is useful to Data Users, Data Developers, and Organizations. In this er
 
 ---
 
-# What is the Value to Scientists, Researchers, and other Data Creators ?
+# What is the Value to Scientists, Researchers, and other Data Creators?
 
 Metadata allows data developers to:
 - Avoid data duplication 
@@ -205,15 +208,15 @@ Metadata records will help avoid data duplication because researchers can determ
 # What is the Value to Data Users?
 
 .two-third[Metadata gives a user the ability to:
-- Search, retrieve, and evaluate dataset information from both inside and outside an organization
-- Find data: Determine what data exists for a geographic location and/or topic
-- Determine applicability: Decide if a dataset meets a particular need
-- Discover how to acquire the dataset identified; process and use the dataset
-- Understand the dataset, including definitions of column names, or expected numerical ranges found in the data
+- **Search, retrieve, and evaluate** dataset information from both inside and outside an organization
+- **Find data**: Determine what data exists for a geographic location and/or topic
+- **Determine applicability**: Decide if a dataset meets a particular need
+- **Discover** how to acquire the dataset identified; process and use the dataset
+- **Understand** the dataset, including definitions of column names, or expected numerical ranges found in the data
 ]
 
 .one-third[![Photo Attribution: CC image by ASEE on Flickr](images/  )
-  *CC image by ASEE on Flickr*
+*CC image by ASEE on Flickr*
 ]
 
 ???
@@ -236,7 +239,7 @@ Advertises an organization’s research:
 ]
 
 .one-third[![Photo Attribution: CC image by mambol on Flickr](images/  )
-  *CC image by mambol on Flickr*
+*CC image by mambol on Flickr*
 ]
 
 ???
@@ -248,9 +251,8 @@ An organization that keeps current metadata can benefit in many ways. Metadata r
 # The Utility of Metadata
 
 Metadata can support:
-
-data distribution
-data management
+- data distribution
+- data management
 
 ???
 
@@ -267,15 +269,15 @@ Rebuild graphic manually.
 ???
 
 Metadata serves data discovery at multiple levels:
-initial identification by query of keywords, location, time, and attributes
- a quick assessment can be made by the scientist as to how useful the data are for a project by reading the access and use constraints; data quality measures of positional and attribute accuracy and sources used; and statements as to data availability, format and pricing
- a user can find out how to access the by reading access instructions, any standard order process instructions, and contact information for the dataset.
+- initial identification by query of keywords, location, time, and attributes
+- a quick assessment can be made by the scientist as to how useful the data are for a project by reading the access and use constraints; data quality measures of positional and attribute accuracy and sources used; and statements as to data availability, format and pricing
+- a user can find out how to access the by reading access instructions, any standard order process instructions, and contact information for the dataset.
 
 ---
 
 # Data Distribution: Catalogs
 
-Examples of metadata search catalogs:
+.two-third[Examples of metadata search catalogs:
 
 DataONE
 - Data discovery, knowledge, community…for a sustainable future
@@ -292,6 +294,11 @@ US Geological Survey
 ArcGIS Online
 - ESRI sponsored national geospatial data portal
 - http://www.geographynetwork.com
+]
+
+.one-third[![Photo Attribution: CC image by --- on Flickr](images/  )
+*CC image by --- on Flickr*
+]
 
 ???
 
@@ -367,7 +374,7 @@ Metadata is invaluable for data liability. For example, a record will indicate t
 
 ---
 
-# Concerns About Creating Metadata
+# Concerns About Creating Metadata (1)
 
 Even if the value of data documentation is recognized, researchers are often concerned about the effort required to create metadata that effectively describe their data.
 
@@ -380,6 +387,295 @@ Even if the value of data documentation is recognized, concerns remain as to the
 
 ---
 
+# Concerns About Creating Metadata (2)
+
+| Concern | Solution |
+|:----------|:----------|
+| workload required to capture accurate robust metadata | incorporate metadata creation into data development process – distribute the effort |
+| time and resources to create, manage, and maintain metadata | include in grant budget and schedule |
+| readability / usability of metadata | use a standardized metadata format |
+| discipline specific information and ontologies | Use a standard ‘profile’ that supports discipline specific information | 
+
+???
+
+Metadata does require time and effort to create. The workload, however, is reduced when metadata creation is incorporated into the data development process and the effort is distributed among data contributors. Metadata creation and management should be treated as a standard data development procedure and resources for staff and time should be included in project and proposal work plans and budgets. The use of a standardized metadata format and the development of discipline specific ‘profiles’ of metadata can enable data users to quickly find needed information and address data developer concerns about metadata use and comprehension. 
+
+Definition of a profile: http://support.esri.com/other-resources/gis-dictionary/term/metadata%20profile 
+
+“A modification of an existing metadata standard to adapt to data issues, cultural issues, or both. A profile is typically a subset of a base standard that tailors the metadata elements in the base standard to better describe the data to the community that uses it. Metadata profiles allow communities to follow a metadata standard, while at the same time enhancing the standard so that it is more appropriate for a particular use or locale.
+
+---
+
+# What is a Metadata Standard?
+
+A Standard provides a structure to describe data with:
+- Common terms to allow consistency between records
+- Common definitions for easier interpretation
+- Common language for ease of communication
+- Common structure to quickly locate information
+
+In search and retrieval, standards provide:
+- Documentation structure in a reliable and predictable format for computer interpretation
+- A uniform summary description of the dataset
 
 
+File Folder Image ![Photo Attribution: CC image by waterlilysage on Flickr](images/  )
+  *CC image by waterlilysage on Flickr*
+
+???
+
+An established standard provides common terms, definitions, and structure that allow for consistent communication. The use of standards also supports search and retrieval in automated systems.  
+
+---
+
+# What does a metadata standard include?
+
+Components of metadata: 
+- A metadata standard is made up of defined *elements*, including the type of information the user should enter (e.g. text, numbers, date). 
+- Examples of elements include: title, abstract, keywords, persistent link, variables, units, usage rights
+
+???
+
+An established standard provides common terms, definitions and structure that allow for consistent communication. The use of standards also support search and retrieval in automated systems. 
+
+Image: an example of a metadata editor in ArcGIS where entity and attribute information may be entered to generate a metadata record (source: http://desktop.arcgis.com/en/arcmap/10.3/manage-data/metadata/illustrated-guide-to-complete-fgdc-metadata.htm#ESRI_SECTION1_01B7AC211E2040F9A436CA03D6A0E094)
+
+---
+
+# What does a metadata record look like?
+
+.one-half[
+Metadata Image ![Photo Attribution: Santa Barbara LTER](images/LTERMetadata_01.png)
+  *image from Santa Barbara LTER*
+  ]
+.one-third[
+Metadata Image ![Photo Attribution: Santa Barbara LTER](images/LTERMetadata_02.png)
+  *image from Santa Barbara LTER*
+  ]
+
+???
+  
+This is an example of a metadata record using the Ecological Metadata Standard (EML) schema. 
+
+---
+  
+# Choosing Metadata Standards
+  
+Arrows Image ![Photo Attribution: CC image by Viv Hutchinson](images/  )
+*Image courtesy of Viv Hutchinson*
+
+---
+
+# Multiple Metadata Standards Exist: Examples (1)
+  
+Dublin Core Element Set
+- Emphasis on web resources, publications
+- http://dublincore.org/documents/dces/
+FGDC Content Standard for Digital Geospatial Metadata (CSDGM)
+- Emphasis on geospatial data
+- The Biological Data Profile (BDP) of the CSDGM is a profile to the CSDGM with an emphasis on biological data (and geospatial)
+- https://www.fgdc.gov/metadata/csdgm-standard
+ISO 19115/19139  Geographic information – metadata 
+- Emphasis on geospatial data and services
+- https://www.fgdc.gov/metadata/iso-standards
+
+???
+
+There are many standards available to document data. Each has a different focus, yet asks for similar information about the dataset. 
+
+---
+
+# Multiple Metadata Standards Exist: Examples (2)
+  
+Ecological Metadata Language (EML)
+- Focus on ecological data
+- http://knb.ecoinformatics.org/eml_metadata_guide.html
+Darwin Core
+- Emphasis on museum specimens
+- http://rs.tdwg.org/dwc/index.htm
+Geography Markup Language (GML)
+- Emphasis on geographic features (roads, highways, bridges)
+- http://www.opengeospatial.org/standards/gml
+
+???
+
+There are many standards available to document data. Each has a different focus, yet asks for similar information about the dataset. 
+
+---
+
+# Comparing Metadata Standards
+
+Terminology for the same concepts may vary across standards
+
+| Ecological Metadata Language (EML) | FGDC Content Standard for Digital Geospatial Metadata |
+|:----------|:----------|
+| Title | Title |
+| Abstract | Abstract | 
+| Entity Description | Entity Type Definition |
+| Intellectual Rights | Use Constraints | 
+
+---
+
+# Choosing a Metadata Standard
+
+Many standards collect similar information
+Factors to consider (1) 
+Your data type:
+- Are you working mainly with GIS data? Raster/vector or point data? Do you have biological or shoreline information in your dataset?
+  - Consider the FGDC Content Standard for Digital Geospatial Metadata with one of its profiles: the Biological Data Profile or the Shoreline Data Profile. 
+- Are you working with data retrieved from instruments such as monitoring stations or satellites? Are you using geospatial data services such as applications for web-mapping applications or data modeling?
+  - If so, then consider using the ISO 19115-2 standard
+- Are you mainly working with ecological data?
+  - Consider Ecological Metadata Language (EML)     
+
+---
+
+# Choosing a Metadata Standard
+
+Factors to consider (2)
+Your organization’s policies: do they state which standard to use? 
+- What resources are available to create metadata? 
+Examples of Tools:
+- FGDC CSDGM: https://www.fgdc.gov/metadata/geospatial-metadata-tools#availabletools 
+- EML: Morpho http://knb.ecoinformatics.org/morphoportal.jsp
+- ISO: http://www.fgdc.gov/metadata/iso-metadata-editor-review
+- XML: Spy or Oxygen
+- CatMD
+
+Other factors: Availability of human support; instructional materials; use of controlled vocabularies; output formats
+
+---
+
+# What Makes a Good Metadata Record?
+
+Metadata are developed continuously throughout the entire data lifecycle
+
+Lifecycle Image ![Photo Attribution: DataONE](images/  )
+
+???
+
+Now that you know about some metadata standards to use and some available tools for developing metadata, let’s discuss some aspects of a good metadata record. 
+
+As mentioned at the beginning of this module, metadata should be developed continuously throughout the entire data lifecycle. This means that metadata should be generated along-side the data. Starting early will ensure that information about your data is fresh in your mind, which in turn saves you time. It will also enable you to provide more details about your data, which in turn leads to a higher-quality metadata record. For example, writing the Entity & Attributes section of your metadata or creating a separate data dictionary while you are developing your database will reduce this burden at the end of the project and can serve as a helpful tool during the project to ensure that everyone understands what each of the entities and attributes means. Writing the processing section of your metadata when you are processing your data ensures that all processing steps are documented. It is most beneficial if the person who is completing the data processing is the same person who writes the processing section for the metadata record. 
+
+---
+
+# What Makes a Good Metadata Record?
+
+Consistency with commonly used fields
+Here are some examples for a FGDC CSDGM record:
+
+| Field  | DO THIS | NOT THIS | 
+|:----------|:----------|:----------|
+| Publisher | `<publish>U.S. Geological Survey</publish>` | `<publish>USGS</publish>` |
+| Date | `<pubdate>YYYYMMDD</pubdate>` </br> `<pubdate>YYYY</pubdate>` | `<pubdate>MM/DD/YYYY</pubdate>` </br> `<pubdate>May 27, 2003</pubdate>` |
+|Keywords | `<placekt>Geographic Names Information System</placekt>` </br> `<placekey>Roosevelt National Forest</placekey>` | `<themekey>Roosevelt Forest</themekey>` | 
+
+???
+
+As you get started developing your metadata record, it is important that certain fields are used consistently. This means that some metadata fields require values that are written the same way to aid in machine-readability and discovery. For example, the publisher field should contain the standard form of your agency’s or organization’s name (if that is the appropriate publisher). For example, the USGS, the name should be written as U.S. Geological Survey, not USGS. 
+
+For CSDGM records, all dates should be written using the format of four digits for year, then two digits for month, followed by two digits for the day (YYYYMMDD). Data.gov is enforcing this format and metadata will fail validation if other formats are used. 
+
+Select the keywords that are specific to your dataset. The thesaurus used should be documented in the metadata. If a single thesaurus does not provide all of the theme keywords that your metadata require, you may use and reference more than one thesaurus. Within FGDC CSDGM and ISO 19115 there are specific fields for place keywords. The theme keyword field should not be used for place keywords. A good resource for finding standard place keywords is the Geographic Names Information System. 
+
+If you need to include species names in your metadata, you may use the taxonomic section within the Biological Data Profile instead of the theme keyword fields, to do so. 
+
+Refer to the appropriate documentation and/or schema for the standard you are using, as well as with your agency/organization to ensure you following the recommended usage.
+
+---
+
+# What Makes a Good Metadata Record?
+
+Use Authority Files and Standard Vocabulary
+.one-half[
+- Global Change Master Directory
+- Geographic Names Information System
+- Getty Thesaurus of Geographic Names
+- ISO 19115 Topic Category Thesaurus
+]
+
+.one-half[![Photo Attribution: Photo by mxgirl2014 on flickr. All Rights Reserved](images/  )
+*Photo Attribution: Photo by mxgirl2014. All Rights Reserved*
+]
+
+???
+
+When possible, theme keywords should be drawn from thesauri or keyword lists. The use of authority files and standard vocabulary will help to make your metadata more discoverable, understandable, and interoperable. Make sure you reference the thesaurus used in your metadata record. Here are a few resources to get you started.
+
+---
+
+# What Makes a Good Metadata Record?
+
+.one-half[Acronyms
+- Spell out acronyms with first use. Many acronyms have multiple meanings (e.g., DOI)
+- Use widely known acronyms only when it corresponds to specific metadata fields such as file formats (e.g.,TIFF, JPEG, PDF)
+]
+
+.one-half[![Photo Attribution: Photo by Michelle Chang. All Rights Reserved](images/  )
+*Photo Attribution: Photo by Michelle Chang. All Rights Reserved*
+]
+
+???
+
+If your metadata include acronyms, you should spell out the acronyms with their first use. Many acronyms have multiple meanings and, therefore, need to be clarified. DOI is an example of an acronym with multiple meanings. It is used for the Department of the Interior & Digital Object Identifiers. The use of widely known acronyms for file formats is acceptable without first spelling them out. For example, TIFF, JPEG, & PDF are all widely known across disciplines as different file types and would be acceptable to use. 
+
+---
+
+# What Makes a Good Metadata Record?
+
+Provide all of the critical information for discovery, understanding, and reuse:
+- Identification Information
+- Entities & Attributes 
+- Data Quality 
+- Access, Use & Liability Constraints
+- Distribution
+- Spatial References
+
+???
+
+While not all metadata fields are mandatory, it is a best practice to provide all of the information that is applicable to your data. The more complete your metadata record is, the better chance your data have of being discovered and understood. This means that there will be less risk of your data being misinterpreted and misused. The critical information for CSDGM records includes: identification information, entities and attributes, data quality, access, use & liability constraints, distribution, and spatial references.
+
+---
+
+# What Makes a Good Metadata Record?
+
+**Provide all of the critical information for:** Identification
+
+???
+
+First and foremost, it is essential that your metadata record has complete identification information so that your data can be discovered. Basic citation information like the author’s name, the dataset title, and publication information allows your dataset to be referenced and attributed appropriately. A good, detailed abstract helps users get a general overview of your data without having to download the entire dataset. Theme keywords and Place keywords enable users to search for and find your data.
+
+---
+
+# What Makes a Good Metadata Record?
+
+**Provide all of the critical information for:** Entity / Attribute
+
+metadata image ![Photo Attribution: CC image by US Embassy Guyana on Flickr](images/  )
+  *CC image by US Embassy Guyana on Flickr*
+
+???
+
+Entity and attribute fields help to describe the often short and cryptic labels that are usually provided in datasets. If you have developed an external data dictionary for your data, that is great and you should link to it from your metadata. If an external data dictionary does not exist, you should describe each entity and attribute individually within your metadata record as is shown on the screen. A detailed attribute definition is essential to making your data usable. The definition should include the units, if applicable, and any special values, such as a no data value, which can be represented by a number such as -999. 
+
+---
+
+# What Makes a Good Metadata Record?
+
+**Provide all of the critical information for:** Data quality
+
+.one-third[
+- Accuracy 
+- Consistency 
+- Completeness
+]
+
+.two-third[metadata image ![Photo Attribution: CC image by US Embassy Guyana on Flickr](images/  )
+  *CC image by US Embassy Guyana on Flickr*
+  ]
+  
+ ???
+ 
+There are a number of available metadata fields for describing the quality of your data, such as attribute accuracy, logical consistency, completeness, and horizontal and vertical positional accuracy. Provide as much detail in these sections as is possible to enable users to determine if the data are appropriate for their needs. 
 

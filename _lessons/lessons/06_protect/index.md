@@ -129,8 +129,8 @@ Limit loss of data, some of which may not be reproducible
 * Respond to data requests
 * Limit liability]
 
-.one-half[
-!(images/image6.jpeg)]
+
+![](images/image6.jpeg)
 
 
 

@@ -305,7 +305,7 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
 
 ## Collaborative effort
 
-.one-third[* Requires participation of a variety of individuals and institutions
+.two-third[* Requires participation of a variety of individuals and institutions
  * Journal publishers
  * Data publishers/repositories
  * Data authors
@@ -313,7 +313,7 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
  * Data users
  * Professional organizations]
  
-.two-third[![CC image via Wikimedia Commons (Masur, derivative of Al Maghi)](images/slide20.png)
+.one-third[![CC image via Wikimedia Commons (Masur, derivative of Al Maghi)](images/slide20.png)
 *Image attribution: CC image via Wikimedia Commons (Masur, derivative of Al Maghi)*]
 
 ---
@@ -337,17 +337,11 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
 ???
 
 Work data up to publication standard – what does this mean? 
-
 Dryad
-
 Knowledge Network for Biocomplexity (KNB)
-
 Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)
-
 South Africa National Parks
-
 United States Geological Survey
-
 UC Curation Center Merritt
 
 ---
@@ -375,7 +369,7 @@ UC Curation Center Merritt
 
 ## Best Practices to Support Data Citation
 
-* To support access to your data:
+.full-width[* To support access to your data:
  * Use application that supports metadata creation for environmental data sets
     * Morpho
     * Metavist (USDA Forest Service)
@@ -383,7 +377,7 @@ UC Curation Center Merritt
  * Use standardized keywords to describe your data
     * Biocomplexity Thesaurus (USGS)
     * Global Change Master Directory (NASA)
- * Use a persistent identifier such as DOI or ARK
+ * Use a persistent identifier such as DOI or ARK]
 
 ---
 
@@ -450,22 +444,22 @@ Similar to data citation, software citations should include:
 
 ## Examples of Software Citation
 
-Software purchased off-the-shelf<sup>1</sup>:
+Software purchased off-the-shelf:
 * Product Name. Version. Release Date. Publisher. Location.
  * SuperScience. 1.2. December 2012. Research Software. Edinburgh, UK.
 
-Software downloaded from the web<sup>1</sup>:
+Software downloaded from the web:
 * Product Name. Version. Release Date. Publisher. Location. DOI or URL. Download Date.
   * OGSA-DAI REST. 4.2.1. December 2012. OGSA-DAI Project. http://sourceforge.net/projects/ogsa-dai. 27/04/2012.
 
-Software provided by a researcher<sup>1</sup>:
+Software provided by a researcher:
 * Product Name. Author. Location. Contact Details. Received Date.
  * BestFFTroutine ever file. Fred Bloggs, EPCC, The University of Edinburgh, UK. Fred.bloggs@epcc.ed.ac.uk. 27/04/2012.
 
-AMA Format<sup>2</sup>:
+AMA Format:
  * Epi Info [computer program]. Version 3.2. Atlanta, GA: Centers for Disease Control and Prevention; 2004.
 
-APA Format<sup>3</sup>:
+APA Format:
  * Hayes, B. et al. (2003). OTSoft: Optimality Theory Software (Version 2.1) [Software]. Available from http://www.linguistics.ucla.edu/people/hayes/otsoft/
  
 ???

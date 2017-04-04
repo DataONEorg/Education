@@ -5,7 +5,7 @@ update: Sept. 21, 2016
 layout: slides
 ---
 
-# Lesson Topics
+## Lesson Topics
 .full-width[* Key Digital Preservation Concepts
 * Backups: Things to Consider
 * Data Preservation
@@ -19,7 +19,7 @@ The first section discusses the differences between three concepts: data protect
 
 ---
 
-# Learning Objectives
+## Learning Objectives
 
 After completing this lesson, the participant will be able to:
 
@@ -47,7 +47,7 @@ Q4: What are some good practices to follow when naming files?  Suggested answers
 
 
 ---
-# The DataONE Data Life Cycle
+## The DataONE Data Life Cycle
 
 ![](images/dlc.png)
 
@@ -57,7 +57,7 @@ In this lesson we will be focusing on data protection and backup which is associ
 
 
 ---
-# Data Protection, Backups, Archiving, Preservation:
+## Data Protection, Backups, Archiving, Preservation:
 Differences at a Glance
 .full-width[* Data Protection
   * Includes topics such as: backups, archives, & preservation; also includes physical security, encryption, and others not addressed here
@@ -69,7 +69,7 @@ The terms data protection, data backups, data archiving, and data preservation a
 
 ---
 
-# Data Protection, Backups, Archiving, Preservation (cont'd)
+## Data Protection, Backups, Archiving, Preservation (cont'd)
 
 .full-width[* Terms “backups” and “archives” are often used interchangeably, but do have different meanings
   * Backups: copies of the original file are made before the original is overwritten
@@ -84,7 +84,7 @@ Data preservation encompasses many of these same methodologies, but can also inc
 
 ---
 
-# A Closer Look: Backups vs. Archiving
+## A Closer Look: Backups vs. Archiving
 
 .full-width[* Backups
   * Used to take periodic snapshots of data in case the current version is destroyed or lost
@@ -97,7 +97,7 @@ The main difference between data backups and archiving is that backups deal with
 
 For example, when a user performs a backup, they are in essence taking a snapshot of the data at that moment in time.  This allows the user to restore the file as needed, such as when the current version of the file is corrupted, lost, or somehow destroyed or altered.  Backups could also be used for short-term storage or near long-term storage, depending upon the user’s backup needs and procedures.  Backups are usually scheduled on a frequent basis.
 
-# A Closer Look: Backups vs. Archiving
+## A Closer Look: Backups vs. Archiving
 
 .full-width[* Archiving
   * Used to preserve data for historical reference or potentially during disasters
@@ -113,7 +113,7 @@ Regardless of whether you are dealing with backups or archives, you should have 
 
 ---
 
-# Why Perform Backups?
+## Why Perform Backups?
 
 .two-thirds[
 * Limit or negate loss of data, some of which may not be reproducible
@@ -140,7 +140,7 @@ There are many reasons to perform backups including:
  
 ---
 
-# Backups: Things to Consider
+## Backups: Things to Consider
 
 .full-width[* What are the existing policies that might affect how and when you do data backups?
   * May be separate project, office, department, funding source, or organizational polices
@@ -165,7 +165,7 @@ You should identify and contact the person(s) in your institution or organizatio
 
 ---
 
-# Backups: Things to Consider; continued
+## Backups: Things to Consider; continued
 
 .full-width[* How often should you do backups to capture significant change?
   * Cost versus benefit
@@ -195,7 +195,7 @@ Even if the information contained in a non-digital file (such as a field noteboo
 
 ---
 
-# Backups: Things to Consider, continued
+## Backups: Things to Consider, continued
 
 .full-width[* Where will you backup your files?
   * May depend upon project requirements, etc. 
@@ -216,7 +216,7 @@ Where you backup your files depends on a variety of things:
 * Even if you already have one backup in place, you may want to make sure your data is backed up in another location.  If you backup your data to an external drive attached to your desktop computer and there’s a fire in your office, both versions of your data will be destroyed.  Also, there’s no guarantee that your backups are reliable or safe.  Failures can happen on any system.]
 
 ---
-# Considerations
+## Considerations
 .full-width[* How are backups carried out?
   * Manually may work for single files, but requires that the user remembers to perform regular backups and can be time-consuming
   * Automated backups can be run on a set schedule that doesn’t require the user to remember
@@ -236,7 +236,7 @@ Creating the backups is just part of the process.  You need to know how to get t
 If only one member of the IT staff handles this task, and they are unavailable, how will you access your files then?  In addition, some systems create backups that mirror the file structure of the source data.  But some backup systems create one massive file that requires software or programming in order to access files.  Make sure more than one person knows how to perform this task.  Often when you need a file off of backup, it is during an emergency.
 
 ---
-# Considerations
+## Considerations
 .full-width[* How do you verify a backup has been successfully performed?
   * Most backup software will have a log file that contains details of the backup (which files, when the backup was created)
   * However, don’t rely solely on the log file 
@@ -253,7 +253,7 @@ Software and hardware failures can happen at any time.  Just because you’ve re
 A log file can report a successful backup, but it may be backing up the wrong files!
 ---
 
-# Considerations
+## Considerations
 
 .full-width[* If you are working with someone, such as an IT group, who helps manage and perform backups, confirm and verify that the backup process has been successfully completed
 * How do you verify a backup has been successfully performed? 
@@ -266,7 +266,7 @@ Checksum values are numeric numbers that are based upon mathematical calculation
 
 
 ---
-# Considerations
+## Considerations
 
 .full-width[* Are there backups of the backups?
   * Necessary for high-value data 
@@ -285,7 +285,7 @@ You also want to consider how long to keep your backups.  You may keep full back
 Finally, what will happen to backups (or archives) once the project has ended or the funding runs out?  Will your office or program take ownership of the files?
 
 ---
-# Data in Real Life
+## Data in Real Life
 
 A design firm was handling their own backups.  The system was working and the backup software was reporting that the data was successfully backed up. 
 
@@ -295,14 +295,14 @@ A design firm was handling their own backups.  The system was working and the ba
 
 
 ---
-# Data in Real Life
+## Data in Real Life
 
 The administrator checked the backups immediately after they were done and confirmed they were good.
 
 ![](images/image11.jpeg)
 
 ---
-# Data in Real Life
+## Data in Real Life
 
 After a computer virus erased most of their files, they went back to their backups.  Unfortunately they found that the backups were all blank and all of the data was gone.  Only after some investigation did they discover that the computer tapes (which contained the backups) were placed against a wall that had an elevator on the other side of it.  When the elevator went past, the magnets inside erased all of the tapes.
 * Had they checked their backups properly, they probably would have noticed this before there was an emergency
@@ -311,7 +311,7 @@ After a computer virus erased most of their files, they went back to their backu
 Unfortunately their computer system became infected with a virus and erased much of their data.  They went back to their backups and found that the backups were all blank and all of the data was gone.  Only after some investigation did they discover that the computer tapes (which contained the backups) were placed against a wall that had an elevator on the other side of it.  When the elevator went past, the magnets inside erased all of the tapes.  Had they checked their backups properly, they probably would have noticed this before there was an emergency.
 
 ---
-# Final Considerations
+## Final Considerations
 
 .full-width[* Can you read data from older backups?
   * Media changes. You may no longer be able to  read older versions and formats such as floppy disks, Jazz  and Zip drives, WordPerfect files, etc.
@@ -334,7 +334,7 @@ A good rule of thumb is: only backup the data you can’t afford to lose.  For m
 
 ---
 
-# Data Preservation
+## Data Preservation
 
 .full-width[* By managing and preserving your data well, data rescue may not be necessary.  Why? 
   * Addition of relevant metadata, proper file naming (can help the file from getting lost in the system), utilization of proper file formats (lets you open the file without having to convert the file), backups (limits loss of files), and media types (limits degradation of files), you may limit or prevent the need for data rescue.
@@ -345,7 +345,7 @@ If data is well-preserved, then data rescue may not be necessary. With proper fi
 
 ---
 
-# Processes Related to Data Preservation
+## Processes Related to Data Preservation
 
 .full-width[* Includes backups and archiving in addition to processes such as data conversion, data reformatting, and data rescue
   * Older files may no longer be in a usable format and may require conversion or “rescue” before the data can be used.
@@ -360,7 +360,7 @@ Our last topic covers Data Preservation.  Data preservation is a comprehensive t
  
 ---
 
-# Preservation Formats and Version Strategies
+## Preservation Formats and Version Strategies
 
 .full-width[* Create useful, relevant metadata
 * Data Conversions and Formats
@@ -380,8 +380,7 @@ When preserving your data, you need to consider many things:
  Naming: use file names that are consistent, descriptive, and concise.  Many software programs use a generic file name as their default file output and usually these names are too general to be useful.
  
 ---
-
-# Recommended Practices
+## Recommended Practices
 
 .full-width[* Create a preservation policy that clearly identifies:
   * roles
@@ -402,8 +401,7 @@ Handling backups without the assistance of software or specifically-tasked staff
   Larger projects and offices will probably want to have specific IT staff tasked to handle backups.  They are more likely to keep updated with current best practices.  However, some offices may have little or no IT support, so ensuring that proper backups are being performed may be left up to you.
 
 ---
-
-# Recommended Practices, continued
+## Recommended Practices, continued
 
 .full-width[* Minimize or remove reliance on users to perform own manual backups (if possible)
   * Implement standardized and automatic backups
@@ -418,8 +416,7 @@ Handling backups without the assistance of software or specifically-tasked staff
 If possible, do not rely upon manual backups.  Utilizing an automated system will probably be faster and do a better job of saving your files.  If available, have your IT or support staff help you with your backups.  Again, do not assume that backups are being handled for you.  Even if someone else is handling them, make sure the backups are tested.  In addition, if you are relying upon third-party systems, they may or may not be handling backups on their end.  Lastly, to ensure future readability, use non-proprietary, standard formats.
 
 ---
-
-# Recommended Practices, continued
+## Recommended Practices, continued
 
 .full-width[* Check your backups manually
   * Start with log files, as they may tell you the backup was unsuccessful
@@ -438,7 +435,7 @@ By following the recommendations in these lessons, you limit the need for data r
 
 ---
 
-# Data in Real Life
+## Data in Real Life
 
 In 2011, a software bug caused some Gmail users to lose access to their email.  Fortunately, Google had backups! 
 
@@ -448,8 +445,7 @@ In 2011, a software bug caused some Gmail users to lose access to their email.  
 Again, do not assume that backups are being handled for you.  Even if someone else is handling them, make sure the backups are tested.  In addition, if you are relying upon third-party systems, they may or may not be handling backups on their end.
 
 ---
-
-# Summary
+## Summary
 
 .full-width[* Data preservation is more than just backing up and archiving your files
   * organizational infrastructure, technological situation, resources
@@ -465,7 +461,7 @@ Check for backups on outdated media and test backups often!
 Data preservation more than just backing up and archiving your files.
 
 ---
-# References
+## References
 
 1. Stanford University Libraries, Data Management Plans, (Stanford University Libraries), https://library.stanford.edu/research/data-management-services, (accessed 9/21/2016)
 2. Albanesius, Chloe, Google: Storage software update led to e-mail bug, http://www.pcmag.com/article2/0,2817,2381168,00.asp (accessed 09/21/2016)
@@ -474,7 +470,7 @@ Data preservation more than just backing up and archiving your files.
 For more information about physical security, encryption, and data disposal, visit:  http://www.data-archive.ac.uk/media/2894/managingsharing.pdf
 
 ---
-# About
+## About
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 The full slide deck (in PowerPoint) may be downloaded from:

@@ -36,6 +36,7 @@ In this module we will be looking at best practices as related to the creation o
 ???
 The goals of data entry are to create data that are valid, or have gone through a process to assure quality, and are organized to support use of the data or for ease of archiving.   
 ---
+
 ## Example: Poor Data Entry
 
 class: center
@@ -47,6 +48,7 @@ These are data entered in to Excel from a small mammal trapping study.   Each bl
 
 
 ---
+
 ## Example: Poor Data Entry, continued
 
 class: center
@@ -61,8 +63,10 @@ In addition, there is text data mixed with numeric data in the Weight column in 
 To analyze all these data using statistical software, and to make it much easier to understand by any user, these data will need to be organized in to a column for each variable.  Therefore it essential that only one type of info be entered in to each column, and that spellings, codes, formats, etc. be consistent.
 
 ---
+
 ## Recommended Practices
-.one-half[
+
+.full-width[
 * Columns of data are consistent: only numbers, dates, or text
 * Consistent Names, Codes, Formats (date) used in each column
 * Data are all in one table, which is much easier for a statistical program to work with than multiple small tables which each require human intervention]
@@ -80,7 +84,8 @@ There are consistent names, codes, and formats used in each column.  For instanc
 
 
 ---
-# Recommended Practices, continued
+
+## Recommended Practices, continued
 - Create descriptive column names without spaces or special characters
   - `Soil T30` to `Soil_Temp_30cm`
   - `Species-Code` to "Species_Code (Avoid using -,+,*,^ in column names. Some software may interpret these symbols as an operator)"

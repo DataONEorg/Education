@@ -192,7 +192,7 @@ Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M,
 
 ## Examples of Data Citation Formats, continued
 
-.full-width[* **Earth Science Information Partners (ESIP)<sup>1</sup>**:
+.full-width[* **Earth Science Information Partners (ESIP)**:
  * Required citation elements: Author. Release date. Title. Version. Archive/Distributor. Locator/Identifier. Access date and time.
  * Optional citation elements: Subset Used; Editor, Compiler, or other important role; Distributor, Associate Archive, or other Institutional Role; Data Within a Larger Work
  * Example citation: 
@@ -370,13 +370,16 @@ UC Curation Center Merritt
 ## Best Practices to Support Data Citation
 
 .full-width[* To support access to your data:
- * Use application that supports metadata creation for environmental data sets]
-.full-width[    * Morpho
+ * Use application that supports metadata creation for environmental data sets
+ ]
+.full-width[* Morpho
     * Metavist (USDA Forest Service)
-    * Mermaid (NOAA)]
+    * Mermaid (NOAA)
+    ]
  .full-width[* Use standardized keywords to describe your data]
    .full-width[ * Biocomplexity Thesaurus (USGS)
-    * Global Change Master Directory (NASA)]
+    * Global Change Master Directory (NASA)
+    ]
  .full-width[* Use a persistent identifier such as DOI or ARK]
 
 ---

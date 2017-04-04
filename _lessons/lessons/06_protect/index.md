@@ -414,7 +414,7 @@ Handling backups without the assistance of software or specifically-tasked staff
 
 ---
 
-## Recommended Practices, continued
+## Recommended Practices (continued)
 
 .full-width[* Minimize or remove reliance on users to perform own manual backups (if possible)
   * Implement standardized and automatic backups
@@ -430,7 +430,7 @@ If possible, do not rely upon manual backups.  Utilizing an automated system wil
 
 ---
 
-## Recommended Practices, continued
+## Recommended Practices (continued)
 
 .full-width[* Check your backups manually
   * Start with log files, as they may tell you the backup was unsuccessful

@@ -372,14 +372,14 @@ UC Curation Center Merritt
 .full-width[* To support access to your data:
  * Use application that supports metadata creation for environmental data sets
  ]
-.full-width[* Morpho
+    * Morpho
     * Metavist (USDA Forest Service)
     * Mermaid (NOAA)
-    ]
+    
  .full-width[* Use standardized keywords to describe your data]
-   .full-width[ * Biocomplexity Thesaurus (USGS)
+    * Biocomplexity Thesaurus (USGS)
     * Global Change Master Directory (NASA)
-    ]
+    
  .full-width[* Use a persistent identifier such as DOI or ARK]
 
 ---

@@ -72,6 +72,7 @@ th {
 .columns {
   clear: right;
   float: left;
+  padding: 0px 0px 0px 0px;
   box-sizing: border-box;
 }
 .full-width,
@@ -137,6 +138,7 @@ img {
 }
 
 .remark-slide-content {
+  padding: 0px 0px 0px 0px;
   font-size: 25px;
 }
 

@@ -63,8 +63,8 @@ In this lesson we will be focusing on data protection and backup which is associ
 
 ## Data Protection, Backups, Archiving, Preservation
 
-Differences at a Glance
-.full-width[* Data Protection
+.full-width[Differences at a Glance
+* Data Protection
   * Includes topics such as: backups, archives, & preservation; also includes physical security, encryption, and others not addressed here
   * More information about these topics can be found in the  “References” section]
 
@@ -302,9 +302,8 @@ Finally, what will happen to backups (or archives) once the project has ended or
 ---
 ## Data in Real Life
 
-A design firm was handling their own backups.  The system was working and the backup software was reporting that the data was successfully backed up. The administrator checked the backups immediately after they were done and confirmed they were good.
+.one-half[ A design firm was handling their own backups.  The system was working and the backup software was reporting that the data was successfully backed up. The administrator checked the backups immediately after they were done and confirmed they were good.]
 
-class: center, middle 
 ![](images/image11.jpeg)
 
 ---

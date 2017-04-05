@@ -270,11 +270,11 @@ https://wiki.ucop.edu/display/Curation/ARK
  * Organization hierarchy
  
 ![diagram of organization/hierarchy for obtaining a DOI](images/slide18.png)
-
 * 20+ services registered through DataCite include
  * California Digital Library’s EZID
  * ANDS Cite My Data Service
- * DataCite Canada]
+ * DataCite Canada
+ ]
 
 ???
 

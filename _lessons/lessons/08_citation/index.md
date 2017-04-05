@@ -7,14 +7,14 @@ categories: ed-module
 ---
 
 class: center, middle 
-## Data Citation
+# Data Citation
 
 ![CC image by adesigna on Flickr](images/slide1.jpg)
 *Image attribution: CC image by adesigna on Flickr*
 
 ---
 
-## Lesson Topics
+# Lesson Topics
 
 .one-half[* Data Citation in the Data Life Cycle
 * Definitions: What is Data Citation?
@@ -29,7 +29,7 @@ class: center, middle
 
 ---
 
-## Learning Objectives
+# Learning Objectives
 
 After completing this lesson, the participant will be able to:
 .full-width[* Define data citation
@@ -41,7 +41,7 @@ After completing this lesson, the participant will be able to:
 
 ---
 
-## The Data Life Cycle
+# The Data Life Cycle
 
 ![The DataONE Data Life Cycle](images/slide4.png)
 
@@ -51,26 +51,26 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 
 ---
 
-## Definitions
+# Definitions
 
-### Data citation
+## Data citation
 .full-width[* The practice of providing a reference to data in the same way as researchers routinely provide a bibliographic reference to printed resources.
 * A key practice underpinning the recognition of data as a primary research output rather than as a by-product of research]
 <footer>Australian National Data Service (ANDS), Data Citation Awareness Guide. Accessed May 10, 2012 at http://ands.org.au/guides/data-citation-awareness.html.</footer>
 
 ---
 
-## Definitions
+# Definitions
 
-### Data author
+## Data author
 .full-width[* Individual involved in research, education, or other activities that generate digital data that are subsequently deposited in a data collection]
 <footer>National Science Board, Long-Lived Digital Data Collections: Enabling Research and Education in the 21st Century, September, 2005. p. 17. http://www.nsf.gov/pubs/2005/nsb0540/ Accessed May 10, 2012.</footer>
 
 ---
 
-## Definitions
+# Definitions
 
-### Persistent identifier
+## Persistent identifier
 .full-width[* A unique web-compatible alphanumeric code that points to a resource (e.g., data set) that will be preserved for the long term (i.e., over several hardware and software generations)
 * Should direct to latest available version of resource or to metadata which enables acquisition of desired version or format]
 
@@ -86,9 +86,9 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 
 ---
 
-## Benefits of Data Citation 
+# Benefits of Data Citation 
 
-### Short term
+## Short term
 .two-third[* Facilitates discovery of relationships between data and publications, making it easier to validate and build upon previous work
 * Ensures that proper credit can be given when others use your work
 * Facilitates impact assessments of datasets based on number of publications that cite them
@@ -100,9 +100,9 @@ The Data Life Cycle is a continuum of data development, manipulation, management
  
 ---
 
-## Benefits of Data Citation
+# Benefits of Data Citation
 
-### Long term
+## Long term
 .two-third[* Promotes the availability of data into the future
 * Facilitates discovery of  existing data relevant to a particular question
 * Enables recognition of scholarly effort within disciplines and organizations 
@@ -119,7 +119,7 @@ Easier to discover existing data relevant to a particular question
 
 ---
 
-## Principles of Data Citation
+# Principles of Data Citation
 
 .two-third[* **Importance** - Data should be considered legitimate, citable products of research
 * **Credit and Attribution** - Data citations should facilitate giving scholarly credit and normative and legal attribution to all contributors to the data
@@ -131,7 +131,7 @@ Easier to discover existing data relevant to a particular question
 
 ---
 
-## Principles of Data Citation, continued
+# Principles of Data Citation, continued
 
 .two-third[* **Access** - Data citations should facilitate access to the data, metadata, code, and other materials, as necessary for both humans and machines.
 * **Persistence** - Unique identifiers, data, and metadata should persist beyond the lifespan of the data they describe.
@@ -143,7 +143,7 @@ Easier to discover existing data relevant to a particular question
 
 ---
 
-## How to Cite Data
+# How to Cite Data
 
 .two-third[* Similar to citing a published article or book
  * Provide information necessary to identify and locate the work cited
@@ -159,7 +159,7 @@ Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M,
 
 ---
 
-## Examples of information needed in a citation 
+# Examples of information needed in a citation 
 
 .full-width[* **Author/Principal Investigator/Data Creator**
 * **Release Date/Year of Publication** – year of release, for a completed dataset 
@@ -171,7 +171,7 @@ Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M,
 
 ---
 
-## Examples of information needed in a citation, continued
+# Examples of information needed in a citation, continued
 
 .full-width[* **Locator or Identifier** – includes Digital Object Identifiers (DOI), Handles, Archival Resource Key (ARK), etc.
 * **Access Date and Time** – when data is accessed online
@@ -182,7 +182,7 @@ Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M,
 
 ---
 
-## Examples of Data Citation Formats
+# Examples of Data Citation Formats
 
 .two-third[* **DataCite**: Creator (Publication Year): Title. Publisher. Identifier
 * **Dryad**: Author (Date of Article Publication) Data from: Article name. Dryad Digital Repository. doi: DOI number]
@@ -192,7 +192,7 @@ Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M,
 
 ---
 
-## Examples of Data Citation Formats, continued
+# Examples of Data Citation Formats, continued
 
 .full-width[* **Earth Science Information Partners (ESIP)**:
  * ** Required citation elements:** Author. Release date. Title. Version. Archive/Distributor. Locator/Identifier. Access date and time.
@@ -206,7 +206,7 @@ More guidelines/suggestions from ESIP: http://wiki.esipfed.org/index.php/Interag
 
 ---
 
-## Examples of Data Citation Formats, continued
+# Examples of Data Citation Formats, continued
 
 .full-width[* **Research Data Alliance (RDA)**:
  * The RDA Working Group on Data Citation (WG-DC) aims to bring together a group of experts to discuss the issues, requirements, advantages and shortcomings of existing approaches for efficiently citing subsets of data.
@@ -222,7 +222,7 @@ Stefan Proell (2015) “Austria Facts” created at 2015-10-07 10:51:55:0, PID[a
 
 ---
 
-## What are examples of Persistent Identifiers?
+# What are examples of Persistent Identifiers?
 
 .full-width[A **persistent identifier** should be included in the citation:
 * DOI (Digital Object Identifier)
@@ -243,7 +243,7 @@ https://wiki.ucop.edu/display/Curation/ARK
 
 ---
 
-## What are examples of Persistent Identifiers?
+# What are examples of Persistent Identifiers?
 
 .full-width[More persistent identifiers:
 * UUID (Universally Unique Identifier)
@@ -262,7 +262,7 @@ https://wiki.ucop.edu/display/Curation/ARK
 
 ---
 
-## How to obtain a DOI for a dataset
+# How to obtain a DOI for a dataset
 
 .two-third[* Contact organization/institution that can create DOIs
  * Organization hierarchy
@@ -282,7 +282,7 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
 
 ---
 
-## How to obtain a DOI for a dataset, continued
+# How to obtain a DOI for a dataset, continued
 
 .one-half[
 * Provide data and necessary citation profile (metadata)
@@ -305,7 +305,7 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
 
 ---
 
-## Collaborative effort
+# Collaborative effort
 
 .two-third[* Requires participation of a variety of individuals and institutions
  * Journal publishers
@@ -320,7 +320,7 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
 
 ---
 
-## Collaborating with publishers
+# Collaborating with publishers
 
 .two-third[
 * Data authors and managers should:
@@ -348,7 +348,7 @@ UC Curation Center Merritt
 
 ---
  
-## Collaborating with publishers, continued
+# Collaborating with publishers, continued
 
 .full-width[
 * Data centers or distributors should
@@ -369,7 +369,7 @@ UC Curation Center Merritt
 
 ---
 
-## Best Practices to Support Data Citation
+# Best Practices to Support Data Citation
 
 To support access to your data:
 .full-width[* Use application that supports metadata creation for environmental data sets
@@ -387,7 +387,7 @@ To support access to your data:
 
 ---
 
-## Best Practices to Support Data Citation, continued
+# Best Practices to Support Data Citation, continued
 
 .full-width[* Work with journal publishers and data repositories to archive data during the publication process
  * Allows information about how to access your data set to be published with your article
@@ -396,7 +396,7 @@ To support access to your data:
  
 ---
  
-## Best Practices to Support Data Citation, continued 
+# Best Practices to Support Data Citation, continued 
 
 .full-width[* Encourage other data authors to cite data and to make their own data available for reuse:
  * Provide full citation information for data whenever you publish work that makes use of another author’s data
@@ -405,7 +405,7 @@ To support access to your data:
  
 ---
 
-## Citation of Scientific Software
+# Citation of Scientific Software
 
 ![Image courtesy of https://pixabay.com/en/code-programming-hacking-html-web-820275/](images/slide25.jpg)
 *Image attribution: https://pixabay.com/en/code-programming-hacking-html-web-820275/*
@@ -420,7 +420,7 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
 
 ---
 
-## Citation of Scientific Software
+# Citation of Scientific Software
 
 .full-width[**Why cite software?**
 * Software itself may be considered to be data or a research product.
@@ -434,7 +434,7 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
 ]
 ---
 
-## Examples of information needed in software citations
+# Examples of information needed in software citations
 
 Similar to data citation, software citations should include:
 .full-width[* **Title/Name of the Software**
@@ -448,7 +448,7 @@ Similar to data citation, software citations should include:
 
 ---
 
-## Examples of Software Citation
+# Examples of Software Citation
 
 .full-width[**Software purchased off-the-shelf:**
 * Product Name. Version. Release Date. Publisher. Location.
@@ -481,7 +481,7 @@ Similar to data citation, software citations should include:
 
 ---
 
-## Software Citation Resources
+# Software Citation Resources
 
 * **The Software Sustainability Institute**: http://www.software.ac.uk/
 * **Working towards Sustainable Software for Science Practice and Experiences (WSSSPE)**: http://wssspe.researchcomputing.org.uk/
@@ -490,7 +490,7 @@ Similar to data citation, software citations should include:
 
 ---
 
-## Resources
+# Resources
 
 .full-width[1. Australian National Data Service (ANDS), Data Citation Awareness Guide. Accessed April 9, 2015 at http://ands.org.au/guides/data-citation-awareness.html. 
 2. Ball, A. & Duke, M. (2011). How to Cite Datasets and Link to Publications. DCC How-to Guides. Edinburgh: Digital Curation Centre. Accessed April 9, 2015 at http://www.dcc.ac.uk/resources/how-guides.
@@ -498,7 +498,7 @@ Similar to data citation, software citations should include:
 
 ---
 
-## Resources, continued 
+# Resources, continued 
 
 .full-width[4. Costello, M. J. (2009). Motivating Online Publication of Data. BioScience, 59(5): 418-427. Accessed April 9, 2015 at http://www.bioone.org/doi/full/10.1525/bio.2009.59.5.9.
 5. CrossCite DOI Citation Formatter. Accessed April 9, 2015 at http://crosscite.org/citeproc/.
@@ -506,7 +506,7 @@ Similar to data citation, software citations should include:
 
 ---
 
-## Resources, continued
+# Resources, continued
 
 .full-width[7. Data Citation Synthesis Group. (2014). Joint Declaration of Data Citation Principles. Martone, M. (ed.). San Diego, CA: FORCE11. Accessed April 9, 2015 at https://www.force11.org/datacitation. 
 8. Duke, C. S. & Porter, J. H. (2013). The Ethics of Data Sharing and Reuse in Biology. BioScience 63: 483-489. Accessed April 9, 2015 at http://dx.doi.org/10.1525/bio.2013.63.6.10. 
@@ -514,13 +514,13 @@ Similar to data citation, software citations should include:
 
 ---
 
-## Resources, continued
+# Resources, continued
 
 .full-width[11. Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M, Herman I, Hodson S, Hourclé J, Kratz JE, Lin J, Nielsen LH, Nurnberger A, Proell S, Rauber A, Sacchi S, Smith A, Taylor M, Clark T. (2015) Achieving human and machine accessibility of cited data in scholarly publications. PeerJ Computer Science 1:e1 https://doi.org/10.7717/peerj-cs.1
 12. Jackson, Mike. 2012. How to cite and describe software. Software Sustainability Institute. http://www.software.ac.uk/how-cite-and-describe-software?mpw. Accessed May 12, 2016.]
 
 ---
-## About
+# About
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 The full slide deck (in PowerPoint) may be downloaded from:

@@ -80,10 +80,12 @@ and more. This calls for increased attention to data management and stewardship.
 * Application software failure
 * External dependencies (e.g. PKI failure)
 * Format obsolescence ]
-.one-third[![data loss](images/lesson01-pptimages/image28.jpeg)
+.one-third[
+![data loss](images/lesson01-pptimages/image28.jpeg)
 *CC Image by Shawyn Morrow on Flickr*
 ![data loss](images/lesson01-pptimages/image29.jpeg)
-*CC Image by momboleum on Flickr*]
+*CC Image by momboleum on Flickr*
+]
 ---
 
 ## Data Loss Can Be Caused by
@@ -239,10 +241,11 @@ Manage your data for yourself:
 ---
 
 ## Why Data Management:
-### Foundation to Advance Science
+### Foundation to Advance Science 
 
+.full-width[
 Data should be managed to:
-.full-width[* Maximize the effective use and value of data & information assets
+* Maximize the effective use and value of data & information assets
 * Continually improve quality including: accuracy, integrity, integration, timeliness of capture, presentation, relevance & usefulness
 * Ensure appropriate use of data and information
 * Facilitate data sharing

@@ -264,7 +264,7 @@ https://wiki.ucop.edu/display/Curation/ARK
 
 # How to obtain a DOI for a dataset
 
-.two-third[* Contact organization/institution that can create DOIs
+.full-width[* Contact organization/institution that can create DOIs
  * Organization hierarchy
  
 ![diagram of organization/hierarchy for obtaining a DOI](images/slide18.png)
@@ -350,22 +350,22 @@ UC Curation Center Merritt
  
 # Collaborating with publishers, continued
 
-.full-width[
+.one-third[
 * Data centers or distributors should
  * Ensure that data and metadata remain accessible, robust, and usable over time
  * Assign persistent and unique identifiers so that data are discoverable
  * Make data citation information easily findable by data users
 ]
 
-.full-width[
+.one-third[
 * Journal publishers should
  * Provide clear guidance on how and where data sets should be cited
  * Be responsive to needs of authors, funding agencies, and data repositories
  * Alert data publisher when publishing a paper that cites a data set
  ]
  
-![Image courtesy of https://pixabay.com/en/collaboration-collaborator-book-1106196/](images/slide22.jpg)
-*Image attribution: https://pixabay.com/en/collaboration-collaborator-book-1106196/*
+.one-third[![Image courtesy of https://pixabay.com/en/collaboration-collaborator-book-1106196/](images/slide22.jpg)
+*Image attribution: https://pixabay.com/en/collaboration-collaborator-book-1106196/*]
 
 ---
 

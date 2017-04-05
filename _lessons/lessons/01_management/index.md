@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Data Management"
 
-author: DataONE Community Engagement and Outreach Working Group
+author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
 
 layout: slides
@@ -13,7 +13,8 @@ class: center, middle
 
 ## Why Data Management?
 
-![Image Caption Here](images/slide-1-intro.jpg)
+![](images/slide-1-intro.jpg)
+*University of Maryland Press Releases on Flickr*
 
 
 ???
@@ -46,10 +47,10 @@ class: center, middle
 ---
 class: center
 
-.wCaption[![Magazines](images/Slide05.jpg)]
+.three-fourth-center[
+![](images/Slide05.jpg)]
 
-
-.caption[The world today is filled with science news, from climate change to hurricanes – and it all affects the people inhabiting the earth.]
+<footer>The world today is filled with science news, from climate change to hurricanes – and it all affects the people inhabiting the earth.</footer>
 
 ---
 
@@ -67,8 +68,7 @@ and more. This calls for increased attention to data management and stewardship.
 .one-third[The amount of available storage is not keeping up with the amount of data flooding in daily. How do we decide what data we keep?]
 
 .two-third[![data around us](images/data-around-us.png)
-.caption[Source: write source here]
-]
+*John Gantz, IDC Corporation: The Expanding Digital Universe*
 
 ---
 

@@ -11,7 +11,7 @@ deck: 01_management
 
 class: center, middle
 
-## Why Data Management?
+# Why Data Management?
 
 ![Image Caption Here](images/slide-1-intro.jpg)
 
@@ -20,7 +20,7 @@ class: center, middle
 
 ---
 
-## Lesson Topics
+# Lesson Topics
 
 .full-width[* The data world around us
 * Importance of data management
@@ -31,7 +31,7 @@ class: center, middle
 
 ---
 
-## Learning Objectives
+# Learning Objectives
 
 .full-width[* Give two general examples of why increasing amounts of data is a concern
 * Explain, using two examples, how lack of data management makes an impact
@@ -41,7 +41,7 @@ class: center, middle
 ---
 class: center, middle
 
-## Data Realities...
+# Data Realities...
 
 ---
 class: center
@@ -53,7 +53,7 @@ class: center
 
 ---
 
-## Data Deluge
+# Data Deluge
 
 .one-third[Data are collected from sensors, sensor networks, remote sensing, observations,
 and more. This calls for increased attention to data management and stewardship.]
@@ -62,7 +62,7 @@ and more. This calls for increased attention to data management and stewardship.
 
 ---
 
-## A World of Data Around Us
+# A World of Data Around Us
 
 .one-third[The amount of available storage is not keeping up with the amount of data flooding in daily. How do we decide what data we keep?]
 
@@ -72,7 +72,7 @@ and more. This calls for increased attention to data management and stewardship.
 
 ---
 
-## Data Loss Can Be Caused by
+# Data Loss Can Be Caused by
 
 .two-third[
 * Natural disaster
@@ -89,7 +89,7 @@ and more. This calls for increased attention to data management and stewardship.
 ]
 ---
 
-## Data Loss Can Be Caused by
+# Data Loss Can Be Caused by
 
 .two-third[* Legal encumbrance
 * Human error
@@ -107,11 +107,11 @@ and more. This calls for increased attention to data management and stewardship.
 ---
 class: center, middle
 
-## Poor Data Management Affects Everyone
+# Poor Data Management Affects Everyone
 
 ---
 
-## Poor Data Management Affects Everyone
+# Poor Data Management Affects Everyone
 
 **MEDICARE PAYMENT ERRORS NEAR $20B**
 *(CNN) December 2004*
@@ -149,8 +149,8 @@ Consider some of the data management issues that made headlines, affecting agenc
 
 ---
 
-## Poor Data Management
-### Science Example
+# Poor Data Management
+## Science Example
 
 A wildlife biologist for a small field office provided support for staff GIS needs.
 The data were stored on her workstation. When the biologist relocated to another
@@ -167,8 +167,8 @@ being backed up as it would have been if stored on a server.*
 
 ---
 
-## Poor Data Management
-### Federal Agency Example
+# Poor Data Management
+## Federal Agency Example
 
 .one-third[ ![](images/image34.jpeg)
 *Source: CC Image by ruffin_Ready on Flickr* ]
@@ -182,7 +182,7 @@ being backed up as it would have been if stored on a server.*
 
 ---
 
-## Importance of Data Management
+# Importance of Data Management
 
 
 >"Please forgive my paranoia about protocols, standards, and data review.  I'm in the latter stages of a long career with USGS (30 years, and counting), and have experienced much.  Experience is the knowledge you get just after you needed it. Several times, I've seen colleagues called to court in order to testify about conditions they have observed. Without a strong tradition of constant review and approval of basic data, they would've been in deep trouble under cross-examination. 
@@ -192,7 +192,7 @@ Instead, they were able to produce field notes, data approval records, and the l
 
 ---
 
-## Importance of Data Management
+# Importance of Data Management
 
 .two-third[
 ![](images/datamgt-import.png)
@@ -206,8 +206,8 @@ The climate scientists at the centre of a media storm over leaked emails were ye
 
 ---
 
-## Why Manage Data:
-### Researcher Perspective
+# Why Manage Data:
+## Researcher Perspective
 
 Manage your data for yourself:
 .full-width[* Organize your files (data inputs, analytic scripts, outputs) at various stages of the analytic process
@@ -217,8 +217,8 @@ Manage your data for yourself:
 
 ---
 
-## Why Data Management:
-### Researcher Perspective
+# Why Data Management:
+## Researcher Perspective
 
 .two-third[
 * Make backups to avoid data loss
@@ -234,15 +234,15 @@ Manage your data for yourself:
 
 ---
 
-## Why Data Management:
-### Foundation to Advance Science
+# Why Data Management:
+## Foundation to Advance Science
 
 * Data are a valuable asset – expensive and time consuming to collect
 
 ---
 
-## Why Data Management:
-### Foundation to Advance Science 
+# Why Data Management:
+## Foundation to Advance Science 
 
 .full-width[
 Data should be managed to:
@@ -255,7 +255,7 @@ Data should be managed to:
 
 ---
 
-## Data Management Facilitates Sharing and Re-use
+# Data Management Facilitates Sharing and Re-use
 
 .wCaption[![CC image by UWW ResNet on Flickr](images/data-mgt-graphic.png)]
 
@@ -264,7 +264,7 @@ Data management and organization facilitate archiving, sharing and publishing da
 
 ---
 
-## Well-Managed Data Can Result in Re-use, Integration and New Science
+# Well-Managed Data Can Result in Re-use, Integration and New Science
 
 .three-fourth[![](images/data-integration.png)
 *Source: *
@@ -275,14 +275,14 @@ By re-using data collected from a variety of sources – eBird database, land co
 
 ---
 
-## Data integration
+# Data integration
 
 ![](images/data-integration2.png)
 *Images courtesy of Cornell Ornithology Lab*
 
 ---
 
-## Where a majority of data end up now…
+# Where a majority of data end up now…
 
 ![Recreated from Klump et al 2006](images/where-data-end.png)
 
@@ -292,7 +292,7 @@ There is an abundance of data and metadata (if it is done) end up in filing cabi
 
 ---
 
-## Imagine if data were more accessible….
+# Imagine if data were more accessible….
 
 ![Recreated from Klump et al 2006](images/data-more-accessible.png)
 
@@ -301,7 +301,7 @@ Data should be properly managed and eventually be placed where they are accessib
 
 ---
 
-## Well managed, publically accessible data is important: Why?
+# Well managed, publically accessible data is important: Why?
 
 
 Here are a few reasons (from the UK Data Archive):
@@ -314,7 +314,7 @@ Here are a few reasons (from the UK Data Archive):
 ---
 
 
-## Well managed, publically accessible data is important: Why?
+# Well managed, publically accessible data is important: Why?
 
 .full-width[* Enables scrutiny of research findings
 * Encourages improvement and validation of research methods
@@ -325,7 +325,7 @@ Here are a few reasons (from the UK Data Archive):
 
 ---
 
-## New Discoveries
+# New Discoveries
 
 A new image processing technique reveals something not before seen in this Hubble Space Telescope image taken 11 years ago: A faint planet (arrows), the outermost of three discovered with ground-based telescopes last year around the young star HR 8799.D. Lafrenière et al., Astrophysical Journal Letters
 
@@ -333,7 +333,7 @@ A new image processing technique reveals something not before seen in this Hubbl
 *D. Lafrenière et al., ApJ Letters*
 ---
 
-## New Discoveries
+# New Discoveries
 
 ![D. Lafrenière et al., ApJ Letters](images/hubble.png)
 *D. Lafrenière et al., ApJ Letters*
@@ -342,7 +342,7 @@ A new image processing technique reveals something not before seen in this Hubbl
 
 ---
 
-## New Discoveries
+# New Discoveries
 
 ![D. Lafrenière et al., ApJ Letters](images/hubble.png)
 *D. Lafrenière et al., ApJ Letters*
@@ -354,7 +354,7 @@ A new image processing technique reveals something not before seen in this Hubbl
 ---
 class: center
 
-## What is the Data Life Cycle?
+# What is the Data Life Cycle?
 
 .wCaption[![](images/data-life-cycle.png)]
 
@@ -364,7 +364,7 @@ A data lifecycle illustrates stages thru which well-managed data passes from the
 
 ---
 
-## For Each Stage of the Data Lifecycle
+# For Each Stage of the Data Lifecycle
 
 .full-width[* There are best practices…..and….tools to help!
 * The following data management lessons will illustrate in detail each stage of the data lifecycle
@@ -377,7 +377,7 @@ The rest of the DataONE Education Modules, handouts, and hands-on exercises are 
 
 ---
 
-## Summary
+# Summary
 
 .full-width[* The data deluge has created a surge of information that needs to be well-managed and made accessible.
 * The cost of not doing data management can be very high.
@@ -387,7 +387,7 @@ The rest of the DataONE Education Modules, handouts, and hands-on exercises are 
 
 ---
 
-## Summary
+# Summary
 
 .one-half[
 If data are:
@@ -408,7 +408,7 @@ If data are:
 
 ---
 
-## Resources
+# Resources
 
 1. Chatfield, T., Selbach, R. February 2011. Data Management Training Workshop. Bureau of Land Management (BLM).
 1. [Strasser, Carly. February 2012. Data Management for Scientists.](http://www.slideshare.net/carlystrasser/oceansciences2012workshop)
@@ -417,7 +417,7 @@ If data are:
 
 ---
 
-## About
+# About
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 The full slide deck (in PowerPoint) may be downloaded from:

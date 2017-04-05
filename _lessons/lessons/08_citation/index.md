@@ -456,6 +456,13 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
 * Software downloaded from the web:
  * Product Name. Version. Release Date. Publisher. Location. DOI or URL. Download Date.
  * OGSA-DAI REST. 4.2.1. December 2012. OGSA-DAI Project. http://sourceforge.net/projects/ogsa-dai. 27/04/2012.
+ ]
+ 
+ ---
+ 
+ # Examples of Software Citation, continued
+
+.full-width[
 * Software provided by a researcher:
  * Product Name. Author. Location. Contact Details. Received Date.
  * BestFFTroutine ever file. Fred Bloggs, EPCC, The University of Edinburgh, UK. Fred.bloggs@epcc.ed.ac.uk. 27/04/2012.

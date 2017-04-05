@@ -163,10 +163,10 @@ Archiving your data publicly will require that it be stored in a non-proprietary
 ---
 
 ## Resources
-
-1. Best Practices for Preparing Environmental Data Sets to Share and Archive. September 2010. Les A. Hook, Suresh K. Santhana Vannan, Tammy W. Beaty, Robert B. Cook, and Bruce E. Wilson. https://daac.ornl.gov/PI/BestPractices-2010.pdf
-2. Preparing Data for Sharing. 2015. Libbie Stephenson. https://doi:10.7910/DVN/BJNXVQ
-
+.full-width[
+* Best Practices for Preparing Environmental Data Sets to Share and Archive. September 2010. Les A. Hook, Suresh K. Santhana Vannan, Tammy W. Beaty, Robert B. Cook, and Bruce E. Wilson. https://daac.ornl.gov/PI/BestPractices-2010.pdf
+* Preparing Data for Sharing. 2015. Libbie Stephenson. https://doi:10.7910/DVN/BJNXVQ
+]
 
 ---
 
@@ -317,7 +317,8 @@ Be aware of best practices when designing data file structures. Choose a data en
 
 ## If you want to try a database:
 
-.full-width[* Consider trying one of these:
+.full-width[ 
+Consider trying one of these:
   * Personal, single-user databases can be developed in MS Access, which is stored as a file on the user’s computer.  MS Access comes with easy GUI tools to create databases, run queries, and write reports.   
   * A more robust database that is free, accommodates multiple users and will run on Windows or Linux is MySQL.   GUI interfaces for MySQL include phpMyadmin (free) and Navicat (inexpensive).] 
   
@@ -325,9 +326,10 @@ Be aware of best practices when designing data file structures. Choose a data en
 
 ## To learn more about designing a relational database:
 
-
-1. Database Design for Mere Mortals: A Hands-On Guide to Relational Database Design (2nd Edition)  by Michael J. Hernandez.  Addison-Wesley.  2003.  
-2. Fundamentals of Relational Database Design by Paul Litwin. http://r937.com/relational.html. (Accessed May 12, 2016). 
+.full-width[
+* Database Design for Mere Mortals: A Hands-On Guide to Relational Database Design (2nd Edition). Michael J. Hernandez. Addison-Wesley, 2003.  
+* Fundamentals of Relational Database Design. Paul Litwin. http://r937.com/relational.html. (Accessed May 12, 2016).
+]
 
 
 ---
@@ -380,10 +382,10 @@ At times you will need to combine multiple datasets into a superset in order to 
 
 .full-width[
 * Ensure attribution of original dataset owners and respect data usage agreements
-  * Example resource: 
-   <footnote>Jones et al. (2006) The New Bioinformatics: Integrating ecological data from the gene to the biosphere. Annual Review of Ecology and Systematics 37:519-544 </footnote>
-* Example citation to the related dataset from the Dryad repository:
-  <footnote>Jones, Matthew B., Schildhauer, Mark P., Reichman, O. J., and Bowers, Shawn. 2012. Data from "The new bioinformatics: integrating ecological data from the gene to the biosphere." Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.qb0d6?ver=2012-07-16T14:42:48.559-04:00. </footnote>
+* Example resource: 
+<footer>Jones et al. (2006) The New Bioinformatics: Integrating ecological data from the gene to the biosphere. Annual Review of Ecology and Systematics 37:519-544 </footer>
+* Example citation to the related dataset from the Dryad repository: 
+<footer>Jones, Matthew B., Schildhauer, Mark P., Reichman, O. J., and Bowers, Shawn. 2012. Data from "The new bioinformatics: integrating ecological data from the gene to the biosphere." Dryad Digital Repository. http://dx.doi.org/10.5061/dryad.qb0d6?ver=2012-07-16T14:42:48.559-04:00. </footer>
   ]
 
 ---
@@ -442,16 +444,13 @@ At times you will need to combine multiple datasets into a superset in order to 
 
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
-The full slide deck (in PowerPoint) may be downloaded from:
-[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
-
 **Suggested citation:**
 DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
-![CCBY0](images/image21.png)
+![CCBY0](images/ccpd.png)
 ---
 
 

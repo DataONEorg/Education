@@ -30,7 +30,7 @@ After completing this lesson, participants will be able to:
 ---
 
 # Setting the Stage
-
+.full-width[
 * Legal – a law is “any written or positive rule or collection of rules prescribed under the authority of the state or nation.”
   * e.g., U.S. Copyright Act
 
@@ -40,8 +40,8 @@ After completing this lesson, participants will be able to:
 * Policy -  a specified “course of action adopted for the sake of expediency, facility, etc.”
   * e.g., Paperwork Reduction Act
   
-	-- Definitions from Dictionary.com
-
+	<footer>-- Definitions from Dictionary.com</footer>
+]
 ???
 
 IRB stands for Institutional Review Board and IACUC stands for Institutional Animal Care and Use Committee. Both are institutional structures, which exist to ensure that research meets the ethical standards of that institution and the scientific community.

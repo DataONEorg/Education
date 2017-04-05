@@ -241,10 +241,11 @@ Manage your data for yourself:
 ---
 
 ## Why Data Management:
-### Foundation to Advance Science
+### Foundation to Advance Science 
 
+.full-width[
 Data should be managed to:
-.full-width[* Maximize the effective use and value of data & information assets
+* Maximize the effective use and value of data & information assets
 * Continually improve quality including: accuracy, integrity, integration, timeliness of capture, presentation, relevance & usefulness
 * Ensure appropriate use of data and information
 * Facilitate data sharing

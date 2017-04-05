@@ -3,6 +3,7 @@ title: "Data Collection, Entry, and Manipulation"
 author: DataONE Community Engagement & Outreach
 update: March 29 2017
 layout: slides
+deck: 04_entry
 ---
 
 ## Lesson Topics

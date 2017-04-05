@@ -1,10 +1,12 @@
 ---
 title: "Data Citation"
+author: DataONE Community Engagement and Outreach Working Group
 update: Sept. 21, 2016
 layout: slides
+categories: ed-module
 ---
 
- 
+class: center, middle 
 ## Data Citation
 
 ![CC image by adesigna on Flickr](images/slide1.jpg)
@@ -22,8 +24,8 @@ layout: slides
 * How to Obtain a Persistent Identifier for a Data Set
 * Best Practices to Support Data Citation]
 
-![CC image by cybrarian77 on Flickr](images/slide2.jpg)
-*Image attribution: CC image by cybrarian77 on Flickr*
+.one-half[![CC image by cybrarian77 on Flickr](images/slide2.jpg)
+*Image attribution: CC image by cybrarian77 on Flickr*]
 
 ---
 

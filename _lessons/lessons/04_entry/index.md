@@ -111,12 +111,13 @@ One best practice in data entry is to create descriptive column names without sp
 
 ## Recommended Practices, continued
 
-.full-width[* Missing data
-  * Preferably leave field empty (NULL = no value)
-  * In numeric fields, use a distinct value such as 9999 to indicate a missing value 
-  * In text fields, use NA (“Not Applicable” or “Not Available”)
-  * Use Data flags in a separate column to qualify missing value
-        * M1 = missing; no sample collected, E1 = estimated from grab sample]
+.full-width[
+* Missing data
+* Preferably leave field empty (NULL = no value)
+* In numeric fields, use a distinct value such as 9999 to indicate a missing value 
+* In text fields, use NA (“Not Applicable” or “Not Available”)
+* Use Data flags in a separate column to qualify missing value
+  * M1 = missing; no sample collected, E1 = estimated from grab sample]
         
         
 ???

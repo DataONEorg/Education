@@ -22,6 +22,7 @@ body {
 pre,
 code {
   font-family: "Source Code Pro", "Consolas", "DejaVu Sans Mono", monospace !important;
+  font-size: 80%;
 }
 a {
   color: #006666;
@@ -29,11 +30,11 @@ a {
 }
 
 h1 {
-  font-size: 160% !important;
+  font-size: 100%;
   font-weight: bold;
   color: #660033;
   margin-top: 0;
-  margin-bottom: 1  em;
+  margin-bottom: 0;
 }
 h2,
 h3,

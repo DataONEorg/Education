@@ -8,6 +8,7 @@ baseurl: "/dataone_lessons" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+analytics_code: "UA-15017327-22"
 
 # Format for the slides, can be either 16:9 or 4:3
 format: '4:3'
@@ -26,3 +27,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   
+defaults:
+  - scope:
+      path: ""
+      type: lessons
+    values:
+      layout: page

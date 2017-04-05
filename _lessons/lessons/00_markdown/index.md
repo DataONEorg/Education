@@ -3,6 +3,9 @@ title: "Moving the lessons to github"
 author: DataONE Community Engagement & Outreach
 update: Sept. 20, 2016
 layout: slides
+tags: [Lesson, Markdown, Slide Creation, Configuration]
+categories: [Administration, Operation]
+deck: "00_markdown"
 ---
 
 # It's working!

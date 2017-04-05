@@ -1,9 +1,31 @@
 #!/bin/sh
+###
+# This script generates:
+#  1. a PDF of a lesson
+#  2. a screen shot of the first page of the lesson
+#
+# It requires that you have a copy of decktape installed in
+# the bin folder of your home directory. See: 
+#   https://github.com/astefanutti/decktape
+#
+# The script assumes that jekyll is running locally and the slides
+# are accessible through http://localhost:4000/dataone_lessons/lessons/
+#
+# Run the script from the same folder that the script is located in like:
+#
+#   remark2pdf 00_markdown
+#
 
 DEST="$(pwd)/lessons"
 DECKTAPE="${HOME}/bin/decktape-1.0.0"
 BASEURL="http://localhost:4000/dataone_lessons/lessons/"
-cd ${DECKTAPE}
-./phantomjs decktape.js "${BASEURL}${1}/index.html" "${DEST}/${1}/${1}.pdf"
+SSIZE="251x188"
+SSHOT="--screenshots --screenshots-size ${SSIZE} --slides 1"
+#SSHOT="${SSHOT} --screenshots-directory ${1}"
+SSHOT="${SSHOT} --screenshots-format png"
 
-#./phantomjs decktape.js remark "http://localhost:4000/dataone_lessons/lessons/00_markdown/index.html" test/set0.pdf
+cd ${DECKTAPE}
+./phantomjs decktape.js ${SSHOT} "${BASEURL}${1}/index.html" "${1}.pdf"
+rm "${DECKTAPE}/${1}.pdf"
+mv "${DECKTAPE}/screenshots/${1}_1_${SSIZE}.png" "${DEST}/${1}/${1}.png"
+./phantomjs decktape.js "${BASEURL}${1}/index.html" "${DEST}/${1}/${1}.pdf"

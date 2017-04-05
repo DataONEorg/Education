@@ -173,9 +173,10 @@ Finally, document any changes made to data. It saves time if good records of dat
 * Perform statistical summaries
 ]
 
-![CC image by chesapeakeclimate on Flickr](images/image10.jpeg)
-*CC image by chesapeakeclimate on Flickr*
+<div style=“text-align:center”><img src =“images/dgraph.jpg”/></br>
+</div>
 
+.caption[Photo Attribution: CC image by chesapeakeclimate on Flickr]
 ???
 
 Once data are entered, basic quality assurance measures can be taken. First, if data are in spreadsheets or databases, be sure they line up in their proper columns. Also check for any missing, impossible, or anomalous values. One way to check for these problems is to sort data fields and check for discrepancies. It is often also useful to perform basic statistical summaries, such as means, and standard errors. If data transformation was performed for analysis, compare the statistical summaries before and after transformation to ensure no mistakes were made during transformation. 
@@ -189,7 +190,7 @@ Once data are entered, basic quality assurance measures can be taken. First, if 
 * The goal is not to eliminate outliers but to identify potential data contamination
 ]
 
-![](images/DataONE Module 5 Outlier Graph.png)
+
 
 ???
 
@@ -240,7 +241,7 @@ It is important to define and enforce quality assurance and quality control stan
 
 ---
 
-# References
+# Resources
 .full-width[
 * D. Edwards, in Ecological Data: Design, Management and Processing, WK Michener and JW Brunt, Eds. (Blackwell, New York, 2000), pp. 70-91. Available at www.ecoinformatics.org/pubs
 * R. B. Cook, R. J. Olson, P. Kanciruk, L. A. Hook, Best practices for preparing ecological data sets to share and archive. Bull. Ecol. Soc. Amer. 82, 138-141 (2001).

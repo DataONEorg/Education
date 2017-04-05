@@ -433,10 +433,9 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
 
 # Examples of information needed in software citations
 
+.full-width[ 
 Similar to data citation, software citations should include:
-.full-width
-[ 
-*Title/Name of the Software*
+*Title/Name of the Software
 * Author/Developer – if known
 * Release Date/Year
 * Version Number – the version of the software/program used

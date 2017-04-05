@@ -409,7 +409,7 @@ To support access to your data:
 
 .two-third[*"Software citation is an evolving area. A web search for ‘how to cite software’ and its variants shows that this is a popular question. The answers can broadly be classed into citation formats recommended by journals, citation formats recommended/mandated by software providers and, most contentious, the view that software is not a citable output."*
 
-`- Mike Jackson, Software Sustainability Institute`]
+<footer>- Mike Jackson, Software Sustainability Institute]</footer>
 
 ???
 

@@ -266,8 +266,10 @@ https://wiki.ucop.edu/display/Curation/ARK
 
 # How to obtain a DOI for a dataset
 
-.full-width[* Contact organization/institution that can create DOIs
+.full-width[
+* Contact organization/institution that can create DOIs
  * Organization hierarchy
+ 
 ![diagram of organization/hierarchy for obtaining a DOI](images/slide18.png)
 * 20+ services registered through DataCite include
  * California Digital Library’s EZID

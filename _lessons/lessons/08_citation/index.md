@@ -533,7 +533,7 @@ DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016.
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
-![CCBY0](images/image32.png)
+![CCBY0](images/CC0PublicDomain.png)
 ---
 
 ---

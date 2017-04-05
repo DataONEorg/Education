@@ -51,9 +51,11 @@ After completing this lesson, the participant will be able to:
 
 ---
 
+class: center, middle
+
 # The Data Life Cycle
 
-**insert image of the DLC with arrow pointing to "describe"**
+![Photo Attribution: DataONE. Public domain](images/DLC_Describe.png)
 
 ???
 
@@ -103,16 +105,18 @@ Metadata is a valuable tool. Metadata records preserve the usefulness of data ov
 
 Metadata is all around...
 
-.one-half[![Photo Attribution: CC image by Mskadu on Flickr](images/  )
+.one-half[![Photo Attribution: CC image by Mskadu on Flickr](images/image7.jpeg)
 *CC image by Mskadu on Flickr*
+
+![Photo Attribution: CC image by USDAgov on Flickr](images/image6.jpeg)
+*CC image by USDAgov on Flickr*
+
 ]
 
-.one-half[![Photo Attribution: CC image by USDAgov on Flickr](images/  )
-*CC image by USDAgov on Flickr*
+.one-half[![Screenshot of Hathi Trust catalog record](images/mobyDick.png)
+*Hathi Trust*
 ]
   
- Second image placeholder.
-
 ???
 
 Metadata is all around us. . .from Mp3 players, to nutrition labels, to library card catalogues.
@@ -134,15 +138,15 @@ Nutrition labels answer questions such as:
 
 # Metadata: What are they good for?
 
-.one-third[![Photo Attribution: USGS Groundwater](images/  )
+.one-third[![Photo Attribution: USGS Groundwater](images/image8.png)
 Metadata: captures information
 ]
 
-.one-third[![Photo Attribution: USGS Web Site](images/  )
+.one-third[![Photo Attribution: USGS Web Site](images/image9.png)
 USGS Science Data Catalog: enabling discovery
 ]
 
-.one-third[![Photo Attribution: DataONE Search](images/  )
+.one-third[![Photo Attribution: DataONE Search](images/image10.png)
 DataONE: enables exchange
 ]
 
@@ -153,10 +157,13 @@ Metadata are essential for capturing information and data discovery. For example
 Elements such as Title, Description, and Keywords enable users to discover data based on topical searches. Spatial and temporal elements allow users to discover data based on the geographical location or the time period of the data. 
 
 ---
+class: center, middle
 
 # Metadata: Why are they important?
 
-Rebuild Information Content vs Time Graph manually
+![Photo Attribution: Ecological Applications](images/Michener_etal_EA1997_Fig1.png)
+
+<footer>Michener, W. K., Brunt, J. W., Helly, J. J., Kirchner, T. B. and Stafford, S. G. (1997), NONGEOSPATIAL METADATA FOR THE ECOLOGICAL SCIENCES. Ecological Applications, 7: 330–342. doi:10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2]</footer>
 
 ???
 

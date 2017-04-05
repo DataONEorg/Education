@@ -14,6 +14,7 @@ class: center, middle
 ## Why Data Management?
 
 .wCaption[![University of Maryland Press Releases on Flickr](images/slide-1-intro.jpg)
+*University of Maryland Press Releases on Flickr*
 
 
 ???

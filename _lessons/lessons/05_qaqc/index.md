@@ -150,8 +150,8 @@ Consider using techniques that help eliminate mistakes during data entry. Exampl
 
 # QA/QC  During Data Entry
 
-Design data storage well
-.full-width[* Minimize number of times items that must be entered repeatedly
+.full-width[Design data storage well:
+* Minimize number of times items that must be entered repeatedly
 * Use consistent terminology
 * Atomize data: one cell per piece of information
 Document changes to data

@@ -29,11 +29,11 @@ a {
 }
 
 h1 {
-  font-size: 140%;
+  font-size: 120%;
   font-weight: bold;
   color: #660033;
   margin-top: 0;
-  margin-bottom: 1em;
+  margin-bottom: 0;
 }
 h2,
 h3,

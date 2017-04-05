@@ -5,67 +5,65 @@ update: Sept. 20, 2016
 layout: slides
 tags: [Lesson, Markdown, Slide Creation, Configuration]
 categories: [Administration, Operation]
+status: draft
 deck: "00_markdown"
 ---
 
 # It's working!
 
-.full-width[
-- Each lesson is its own `lesson_name.md` file in the github repository
-- The maintainer ensures that the github pages are built from the `master` branch
-- That's it
-]
+Each lesson is a single markdown document that is converted to HTML by [remark](https://github.com/gnab/remark) javascript. 
 
-.one-fourth[]
-.one-half[
-  All slides start with a title, and end with a `---` :
+Each slide starts with a `# title`, and ends with `---`:
 
-  ~~~ md
-  # This is a slide title
+ ~~~md
+ # This is the Slide Title
 
-  This is the content of the slide.
-  ~~~
-]
-.one-fourth[]
+ This is the content of the slide.
+ 
+ ---
+ # This is the Title of the Next Slide
+ 
+ This is the content of the next slide.
+ ~~~
+
+Spaces are important in Markdown. For example, if you are not seeing a new slide, then check that there are no spaces to the left of the slide terminator `---`.
 
 ---
 
 # General info
 
-.one-half[
 Lesson title and metadata go in the `yaml` header:
 
 ~~~ yaml
----
-title: "Lesson title"
-update: Sept. 20, 2016
-layout: slides
----
+ ---
+ title: "Lesson title"    <-- The Title of the Presentation
+ update: Sept. 20, 2016   <-- When the slides where last edited
+ layout: slides           <-- How the slides are rendered
+ deck: 00_markdown        <-- Name of the lesson subfolder 
+ ---
+  
+ # Title of the first content slide
 ~~~
 
 Everything *below* that is markdown.
-]
 
-.one-half[
+
 The `yaml` header is the first element of a presentation, and will give the
 title, date of latest update, and (possibly) other data. The line `layout:
-slides` is **very important** because it allows to render the slides themselves.
-]
+slides` is **very important** because it controls how the slides are rendered.
 
 ---
 
 # Markdown 101
 
-.one-half[
 - `*italics*` is *italics*
 - `**bold**` is **bold**
 - `***bold italics***` is ***bold italics***
-]
+- `[DataONE](https://www.dataone.org)`
+will appear as [DataONE](https://www.dataone.org)
 
 .one-half[
-Lists:
-
-~~~
+~~~md
 - List item 1
 - List item 2
   - Nested list item
@@ -75,7 +73,55 @@ Lists:
   - We can mix both
 ~~~
 ]
+.one-half[
+- List item 1
+- List item 2
+  - Nested list item
 
+1. Enumerated list
+2. Second item
+  - We can mix both
+]
+
+See the [remark wiki](https://github.com/gnab/remark/wiki/Markdown) for more.
+
+---
+
+# Headings
+
+.one-half[
+~~~md
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+~~~
+]
+
+.one-half[
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+]
+
+.full-width[
+Heading levels are specified by the number of `#` at the beginning of a line. Six levels of headings are supported.
+]
 ---
 
 # Quotes
@@ -160,16 +206,6 @@ These are the notes, and *they can* be in markdown too.
 ???
 
 These are the notes, and *they can* be in markdown too.
-
-**It is very important** that the notes are the *last* things on the slide.
-
-Look a table!
-
-| x | y |
-|:--|:--|
-| 1 | 2 |
-| 3 | 4 |
-
 ---
 
 # Columns

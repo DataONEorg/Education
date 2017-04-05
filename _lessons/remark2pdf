@@ -1,0 +1,9 @@
+#!/bin/sh
+
+DEST="$(pwd)/lessons"
+DECKTAPE="${HOME}/bin/decktape-1.0.0"
+BASEURL="http://localhost:4000/dataone_lessons/lessons/"
+cd ${DECKTAPE}
+./phantomjs decktape.js "${BASEURL}${1}/index.html" "${DEST}/${1}/${1}.pdf"
+
+#./phantomjs decktape.js remark "http://localhost:4000/dataone_lessons/lessons/00_markdown/index.html" test/set0.pdf

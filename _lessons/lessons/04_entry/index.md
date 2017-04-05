@@ -80,7 +80,7 @@ To analyze all these data using statistical software, and to make it much easier
 * Data are all in one table, which is much easier for a statistical program to work with than multiple small tables which each require human intervention]
 
 
-![sheet3](images/pde3.png)
+![sheet5](images/pde3.png)
 
 ???
 
@@ -117,7 +117,9 @@ One best practice in data entry is to create descriptive column names without sp
 * In numeric fields, use a distinct value such as 9999 to indicate a missing value 
 * In text fields, use NA (“Not Applicable” or “Not Available”)
 * Use Data flags in a separate column to qualify missing value
-  * M1 = missing; no sample collected, E1 = estimated from grab sample]
+]
+
+![sheet4](images/pde4.png)
         
         
 ???
@@ -132,7 +134,7 @@ Use data flags in a separate column to qualify empty cells.  For instance, in th
 .full-width[
 * Enter complete lines of data]
 
-![sheet3](images/pde4.png)
+![sheet4](images/pde5.png)
 
 
 ???
@@ -160,9 +162,10 @@ Archiving your data publicly will require that it be stored in a non-proprietary
 
 ---
 
-## References
+## Resources
 
-1. Best Practices for Preparing Environmental Data Sets to Share and Archive. September 2010. Les A. Hook, Suresh K. Santhana Vannan, Tammy W. Beaty, Robert B. Cook, and Bruce E. Wilson. http://daac.ornl.gov/PI/BestPractices-2010.pdf
+1. Best Practices for Preparing Environmental Data Sets to Share and Archive. September 2010. Les A. Hook, Suresh K. Santhana Vannan, Tammy W. Beaty, Robert B. Cook, and Bruce E. Wilson. https://daac.ornl.gov/PI/BestPractices-2010.pdf
+2. Preparing Data for Sharing. 2015. Libbie Stephenson. https://doi:10.7910/DVN/BJNXVQ
 
 
 ---
@@ -171,6 +174,12 @@ Archiving your data publicly will require that it be stored in a non-proprietary
 
 .full-width[
 * Two common tools: Google Docs, Excel
+]
+
+![sheet4](images/pde6.png)
+
+
+???
 * Data entry tools typically perform data validation which allows you to control the kind of information that is entered. With data validation, you can:
   * provide users with a list of choices 
   * restrict entries to a specific type or size
@@ -180,26 +189,34 @@ Archiving your data publicly will require that it be stored in a non-proprietary
 
 ## Google Docs Forms
 
+![sheet4](images/pde7.png)
+
 ???
 This is an example of a data entry form created in Googledocs.  Such forms are easy to create, and free.   Here, a form field is being created that will allow the user to select from three locations where data were collected.   In practice, GoogleDocs work best for entering survey data, or entering lots of text data.  
 
 The advantages to using a data entry form, as opposed to entering data directly in to a spreadsheet, is that the form can enforce data entry rules – that is, you can create a pick-list of items for a user to select from.  That way, you have consistent info being entered, as a user will always enter Deep Well, instead of DW.    
 
 ---
+## Google Docs Spreadsheet
 
+![sheet4](images/pde8.png)
+
+???
 * Data entered into a Google doc form is stored in a spreadsheet.  
 
 ---
 
 ## Excel
 
-
+![sheet4](images/pde9.png)
 
 ???
 Excel is a very popular data entry tool.   It also allows you to enforce data validation rules.   Here, a dropdown list has been generated that allows the user to only select entries from this list.   In this way, only defined species codes get entered, and the data is consistent.     
 ---
 
 ## Excel: Data Validation
+
+![sheet4](images/pde10.png)
 
 ???
 Here is another example of data validation using Excel.  Height has been defined to contain values between 11 and 15.  When 20 is entered, the user is told that they have entered an illegal value.   
@@ -230,6 +247,7 @@ Some researchers are turning to database software instead of spreadsheets for th
 
 ## What is a relational database?
 
+![sheet4](images/pde11.png)
 
 ???
 A relational database matches data stored in tables by using common characteristics found within the data set.  This helps preserve data integrity and also makes it possible to flexibly mix and match data to get different combinations of information.   A database consists of a set of tables, defined relationships between them (which table is related to which other table), and also a powerful command language that facilitates data manipulation.   
@@ -242,6 +260,7 @@ Relational databases are currently the predominant choice in storing data like f
 
 ## Database Features: Explicit control over data types
 
+![sheet4](images/pde12.png)
 
 ???
 Database features includes explicit control over data types and has the advantages of quality control and performance.   Here, in the plant phenology table, only dates are allowed in the Date column, only text is allows in the site column, only real numbers are allowed in the Height column.   If a user tries to enter a ? Under flowering, the database will reject the entry.   This is useful for defining how data is to be entered.   
@@ -250,6 +269,7 @@ Database features includes explicit control over data types and has the advantag
 
 ## Relationships are defined between tables
 
+![sheet4](images/pde13.png)
 
 ???
 Relationships can be defined between two sets of data or in this example between two tables.  Suppose that you have two tables used in the plant phenology study, one for observations and one for sites, and you want a table that contains both observations and the latitude and longitude of your sites.   Because both tables contain Site info, they can be joined to create a table containing the info you want.   
@@ -259,6 +279,9 @@ Relationships can be defined between two sets of data or in this example between
 ---
 
 ## Powerful Command Language called Structured Query Language (SQL)
+
+![sheet4](images/pde14.png)
+
 
 ???
 Database features also includes a powerful command language called Structured Query Language (SQL)
@@ -271,17 +294,21 @@ The second select statement, returns all records from table SoilTemp where treat
 
 ## Data Entry with a Database
 
+![sheet4](images/pde15.png)
+
+
+???
 * Forms can be created that make entering data in to a relational database as easy as entering it in to Excel.  The screenshot below shows embedded forms that were quickly generated in MS Access for adding data to three tables in a database of plant cover measurements
 
 ---
 
 ## Review: Planning for Data Entry
-
-
 .full-width[
 * Be aware of Best Practices in your domain when designing data file structures
 * Choose a data entry method that allows some validation of data as it is entered
 * Consider investing time in learning how to use a database if datasets are large or complex]
+
+class:center ![sheet16](images/pde16.png)
 
 ???
 Be aware of best practices when designing data file structures. Choose a data entry method that allows validation of data entered and be sure to invest time in learning how to use a database especially if the dataset are large or complex. 
@@ -375,13 +402,19 @@ At times you will need to combine multiple datasets into a superset in order to 
 ---
 
 ## Using R
-
-
 .full-width[
 * Free (http://www.r-project.org/index.html)
 * Produces publication quality graphics
 * Lots of forums from which to get help
-* Software (such as Kepler for developing workflows) will integrate analytical components written in R ]
+* Software (such as Kepler for developing workflows) will integrate analytical components written in R
+]
+
+
+
+---
+## Using R
+
+![sheet16](images/pde17.png)
 
 ---
 

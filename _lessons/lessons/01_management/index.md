@@ -47,6 +47,7 @@ class: center, middle
 ---
 class: center
 
+.three-fourth-center[
 ![](images/Slide05.jpg)]
 
 <footer>The world today is filled with science news, from climate change to hurricanes – and it all affects the people inhabiting the earth.</footer>

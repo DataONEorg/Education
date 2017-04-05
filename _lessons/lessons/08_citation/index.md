@@ -1,6 +1,6 @@
 ---
 title: "Data Citation"
-author: DataONE Community Engagement and Outreach Working Group
+author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 21, 2016
 layout: slides
 categories: ed-module

@@ -5,6 +5,7 @@ layout: index
 
 # DataONE Data Management Education Modules
 
+{% assign idx = 0 %}
 {% for lesson in site.lessons %}
-- [{{ lesson.title }}]({{ site.baseurl }}{{ lesson.url }})
+- {% increment idx %} - [{{ lesson.title }}]({{ site.baseurl }}{{ lesson.url }})
 {% endfor %}

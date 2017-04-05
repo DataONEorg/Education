@@ -11,7 +11,7 @@ categories: ed-module
  ![Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](images/image12.jpg)
   *Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*
   
- .two-third[
+ .three-fourth-center[
  ![](images/image03.png)
  ]
  
@@ -52,12 +52,12 @@ Resource for PRA: http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html
 
 # Intellectual Property (IP)
 
-.one-half[
+.three-fourth[
 ![Photo Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png](images/image10.png)
   *Photo Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png*
 ]
 
-.one-half[
+.one-fourth[
 “Intellectual property refers to creations of the mind, such as inventions; literary and artistic works; designs; and symbols, names and images used in commerce.”
 -- World Intellectual Property Organization
 ]

@@ -268,7 +268,6 @@ https://wiki.ucop.edu/display/Curation/ARK
 
 .full-width[* Contact organization/institution that can create DOIs
  * Organization hierarchy
- 
 ![diagram of organization/hierarchy for obtaining a DOI](images/slide18.png)
 * 20+ services registered through DataCite include
  * California Digital Library’s EZID
@@ -525,7 +524,7 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From XXXX
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

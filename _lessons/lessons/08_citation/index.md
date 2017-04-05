@@ -524,9 +524,6 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
 # About
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
-The full slide deck (in PowerPoint) may be downloaded from:
-[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
-
 **Suggested citation:**
 DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
 

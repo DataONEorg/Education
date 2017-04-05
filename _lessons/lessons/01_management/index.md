@@ -68,7 +68,7 @@ and more. This calls for increased attention to data management and stewardship.
 .one-third[The amount of available storage is not keeping up with the amount of data flooding in daily. How do we decide what data we keep?]
 
 .two-third[![data around us](images/data-around-us.png)
-*John Gantz, IDC Corporation: The Expanding Digital Universe*
+*John Gantz, IDC Corporation: The Expanding Digital Universe*]
 
 ---
 

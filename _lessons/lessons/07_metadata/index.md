@@ -262,6 +262,7 @@ An organization that keeps current metadata can benefit in many ways. Metadata r
 # The Utility of Metadata
 
 Metadata can support:
+
 - data distribution (discovery, catalogs)
 - data management (provenance, accountability, liability)
 

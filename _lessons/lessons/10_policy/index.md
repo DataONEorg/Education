@@ -1,7 +1,9 @@
 ---
 title: "Legal & Policy Issues"
+author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 21, 2016
 layout: slides
+categories: ed-module
 ---
 
 # Legal and Policy Issues
@@ -9,19 +11,22 @@ layout: slides
  ![Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](images/image12.jpg)
   *Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*
   
+ .two-third[
  ![](images/image03.png)
+ ]
  
 ---
 
 # Learning Outcomes
 
+.full-width[
 After completing this lesson, participants will be able to:
 
 * Identify ethical, legal, and policy issues for managing research data
 * Define copyrights, licenses and waivers
 * Understand reasons behind data restrictions and how to observe them
 * Discuss ethical considerations surrounding the use of research data
-
+]
 ---
 
 # Setting the Stage

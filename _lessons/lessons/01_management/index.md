@@ -6,6 +6,7 @@ update: Sept. 20, 2016
 
 layout: slides
 categories: ed-module
+deck: 01_management
 ---
 
 class: center, middle

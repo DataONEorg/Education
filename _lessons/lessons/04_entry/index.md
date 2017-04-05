@@ -445,7 +445,7 @@ At times you will need to combine multiple datasets into a superset in order to 
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

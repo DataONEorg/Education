@@ -26,3 +26,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   
+defaults:
+  - scope:
+      path: ""
+      type: lessons
+    values:
+      layout: page

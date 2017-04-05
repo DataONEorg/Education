@@ -81,9 +81,9 @@ and more. This calls for increased attention to data management and stewardship.
 * External dependencies (e.g. PKI failure)
 * Format obsolescence ]
 .one-third[
-![data loss](images/lesson01-pptimages/image28.jpeg)
+![data loss](images/image28.jpeg)
 *CC Image by Shawyn Morrow on Flickr*
-![data loss](images/lesson01-pptimages/image29.jpeg)
+![data loss](images/image29.jpeg)
 *CC Image by momboleum on Flickr*
 ]
 ---
@@ -98,9 +98,9 @@ and more. This calls for increased attention to data management and stewardship.
 * Loss of financial stability
 * Changes in user expectations and requirements]
 
-.one-third[![data loss](images/lesson01-pptimages/image28.jpeg)
+.one-third[![data loss](images/image28.jpeg)
 *CC Image by Shawyn Morrow on Flickr*
-![data loss](images/lesson01-pptimages/image29.jpeg)
+![data loss](images/image29.jpeg)
 *CC Image by momboleum on Flickr*]
 
 ---
@@ -169,7 +169,7 @@ being backed up as it would have been if stored on a server.*
 ## Poor Data Management
 ### Federal Agency Example
 
-.one-third[ ![](images/lesson01-pptimages/image34.jpeg)
+.one-third[ ![](images/image34.jpeg)
 *Source: CC Image by ruffin_Ready on Flickr* ]
 
 .two-third[In preparation for a Resource Management Plan, an office discovered 14 duplicate GPS inventories of roads.  However, because none of the inventories had enough metadata, it was impossible to know which inventory was best or if any of the inventories actually met their requirements. 
@@ -428,4 +428,4 @@ DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016.
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
-![CCBY0](images/lesson01-pptimages/image50.png)
+![CCBY0](images/image50.png)

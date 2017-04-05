@@ -195,9 +195,9 @@ Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M,
 ## Examples of Data Citation Formats, continued
 
 .full-width[* **Earth Science Information Partners (ESIP)**:
- ** * Required citation elements:** Author. Release date. Title. Version. Archive/Distributor. Locator/Identifier. Access date and time.
- ** * Optional citation elements:** Subset Used; Editor, Compiler, or other important role; Distributor, Associate Archive, or other Institutional Role; Data Within a Larger Work
- ** * Example citation:** 
+ * ** Required citation elements:** Author. Release date. Title. Version. Archive/Distributor. Locator/Identifier. Access date and time.
+ * ** Optional citation elements:** Subset Used; Editor, Compiler, or other important role; Distributor, Associate Archive, or other Institutional Role; Data Within a Larger Work
+ * ** Example citation:** 
    * Zwally, H. J., R. Schutz, C. Bentley, J. Bufton, T. Herring, J. Minster, J. Spinhirne, and R. Thomas. 2011. GLAS/ICESat L1A Global Altimetry Data, Version 33. [Indicate subset used]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. doi: http://dx.doi.org/10.5067/ICESAT/GLAS/DATA121. [Date Accessed].]
 
 ???
@@ -212,7 +212,7 @@ More guidelines/suggestions from ESIP: http://wiki.esipfed.org/index.php/Interag
  * The RDA Working Group on Data Citation (WG-DC) aims to bring together a group of experts to discuss the issues, requirements, advantages and shortcomings of existing approaches for efficiently citing subsets of data.
  * Final recommendations of the WG-DC were published in “Data Citation of Evolving Data” in 20152.
  * *Recommended citation elements*: persistent query identification and storage on versioned data; based on timestamping, a specific subset can be retrieved by re-executing the query. 
- ** * Example citation:**
+ * ** Example citation:**
    * Stefan Proell (2015) “Austria Facts” created at 2015-10-07 10:51:55:0, PID[ark:12345/qmZi2wO2vv]. Subset of CIA: “The CIA World Factbook”, PID[ark:12345/cLfH9FjxnA].]
 
 ???

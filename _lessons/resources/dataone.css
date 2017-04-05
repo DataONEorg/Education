@@ -2,7 +2,7 @@
 @import 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,400i,700,700i';
 .logo {
   position: absolute;
-  bottom: 0px;
+  bottom: -10px;
   left: 25px;
 }
 .logo img {
@@ -23,6 +23,11 @@ pre,
 code {
   font-family: "Source Code Pro", "Consolas", "DejaVu Sans Mono", monospace !important;
 }
+a {
+  color: #006666;
+  text-decoration: none;
+}
+
 h1 {
   font-size: 160% !important;
   font-weight: bold;
@@ -37,6 +42,12 @@ h5,
 h6 {
   color: #660033;
   margin: 0 0 0 0;
+}
+footer {
+  font-size: 80%;
+  color: #660033;
+  opacity: 0.5;
+  font-style: italic;
 }
 table {
   border-collapse: collapse;
@@ -66,7 +77,7 @@ th {
 .columns {
   clear: right;
   float: left;
-  padding: 0 2 0 0;
+  padding: 0px 0px 0px 0px;
   box-sizing: border-box;
 }
 .full-width,
@@ -82,18 +93,23 @@ th {
 }
 .one-third {
   width: 33.3%;
+  padding: 0% 2% 0% 0%;
 }
 .two-third {
   width: 66.7%;
+  padding: 0% 2% 0% 0%;
 }
 .one-half {
   width: 50%;
+  padding: 0% 2% 0% 0%;
 }
 .one-fourth {
   width: 25%;
+  padding: 0% 2% 0% 0%;
 }
 .three-fourth {
   width: 75%;
+  padding: 0% 2% 0% 0%;
 }
 .full-width {
   width: 100%;
@@ -109,9 +125,6 @@ th {
   font-size: 130% !important;
   color: #f3f3f3;
 }
-.remark-slide-content.title .progressbar {
-  display: none;
-}
 pre {
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -120,169 +133,17 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
-.progress-step-0 {
-  width: 0%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-1 {
-  width: 5%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-2 {
-  width: 10%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-3 {
-  width: 15%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-4 {
-  width: 20%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-5 {
-  width: 25%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-6 {
-  width: 30%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-7 {
-  width: 35%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-8 {
-  width: 40%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-9 {
-  width: 45%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-10 {
-  width: 50%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-11 {
-  width: 55%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-12 {
-  width: 60%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-13 {
-  width: 65%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-14 {
-  width: 70%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-15 {
-  width: 75%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-16 {
-  width: 80%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-17 {
-  width: 85%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-18 {
-  width: 90%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-19 {
-  width: 95%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-20 {
-  width: 100%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step {
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progressbar {
-  width: 5em;
-  height: 0.3em;
-  border-radius: 5px;
-  background-color: #d6d6d6;
-  display: inline-block;
+.remark-slide-number {
+  font-size: 60%;
+  color: #006666;
+  bottom: 15px;
+  opacity: 0.5;
+  position: absolute;
+  right: 25px;
 }
 
 .remark-slide-content {
-  padding: 0.5em 1em;
+  padding: 25px 25px 25px 25px;
   font-size: 25px;
 }
 
@@ -300,6 +161,7 @@ img {
 img + em {
   font-size: .4em;
   display: block;
+  padding: 0px 0px 10px 0px;
 }
 
 img + em a {

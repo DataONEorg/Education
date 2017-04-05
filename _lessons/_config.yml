@@ -1,5 +1,13 @@
-# This should be the repo name WITHOUT the host
-baseurl: /dataone_lessons
+title: Your awesome title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/dataone_lessons" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Format for the slides, can be either 16:9 or 4:3
 format: '4:3'
@@ -8,3 +16,19 @@ format: '4:3'
 collections:
   lessons:
     output: false
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  
+defaults:
+  - scope:
+      path: ""
+      type: lessons
+    values:
+      layout: page

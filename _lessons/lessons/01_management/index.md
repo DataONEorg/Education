@@ -6,6 +6,7 @@ update: Sept. 20, 2016
 
 layout: slides
 categories: ed-module
+deck: 01_management
 ---
 
 class: center, middle
@@ -80,10 +81,12 @@ and more. This calls for increased attention to data management and stewardship.
 * Application software failure
 * External dependencies (e.g. PKI failure)
 * Format obsolescence ]
-.one-third[![data loss](images/lesson01-pptimages/image28.jpeg)
+.one-third[
+![data loss](images/image28.jpeg)
 *CC Image by Shawyn Morrow on Flickr*
-![data loss](images/lesson01-pptimages/image29.jpeg)
-*CC Image by momboleum on Flickr*]
+![data loss](images/image29.jpeg)
+*CC Image by momboleum on Flickr*
+]
 ---
 
 ## Data Loss Can Be Caused by
@@ -96,9 +99,9 @@ and more. This calls for increased attention to data management and stewardship.
 * Loss of financial stability
 * Changes in user expectations and requirements]
 
-.one-third[![data loss](images/lesson01-pptimages/image28.jpeg)
+.one-third[![data loss](images/image28.jpeg)
 *CC Image by Shawyn Morrow on Flickr*
-![data loss](images/lesson01-pptimages/image29.jpeg)
+![data loss](images/image29.jpeg)
 *CC Image by momboleum on Flickr*]
 
 ---
@@ -167,7 +170,7 @@ being backed up as it would have been if stored on a server.*
 ## Poor Data Management
 ### Federal Agency Example
 
-.one-third[ ![](images/lesson01-pptimages/image34.jpeg)
+.one-third[ ![](images/image34.jpeg)
 *Source: CC Image by ruffin_Ready on Flickr* ]
 
 .two-third[In preparation for a Resource Management Plan, an office discovered 14 duplicate GPS inventories of roads.  However, because none of the inventories had enough metadata, it was impossible to know which inventory was best or if any of the inventories actually met their requirements. 
@@ -239,10 +242,11 @@ Manage your data for yourself:
 ---
 
 ## Why Data Management:
-### Foundation to Advance Science
+### Foundation to Advance Science 
 
+.full-width[
 Data should be managed to:
-.full-width[* Maximize the effective use and value of data & information assets
+* Maximize the effective use and value of data & information assets
 * Continually improve quality including: accuracy, integrity, integration, timeliness of capture, presentation, relevance & usefulness
 * Ensure appropriate use of data and information
 * Facilitate data sharing
@@ -425,4 +429,4 @@ DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016.
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
-![CCBY0](images/lesson01-pptimages/image50.png)
+![CCBY0](images/image50.png)

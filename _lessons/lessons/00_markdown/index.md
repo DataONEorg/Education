@@ -3,6 +3,9 @@ title: "Moving the lessons to github"
 author: DataONE Community Engagement & Outreach
 update: Sept. 20, 2016
 layout: slides
+tags: [Lesson, Markdown, Slide Creation, Configuration]
+categories: [Administration, Operation]
+deck: "00_markdown"
 ---
 
 # It's working!
@@ -113,7 +116,7 @@ This is `inline` code.
 
 # Tables
 
-.two-third[
+.one-half[
 Markdown can do tables:
 
 ~~~ md
@@ -125,7 +128,7 @@ Markdown can do tables:
 ~~~
 ]
 
-.one-third[
+.one-half[
 This renders as:
 
 |   Animal | Diet      | Fuzzy? |
@@ -134,7 +137,6 @@ This renders as:
 |   Racoon | garbage   |  meh   |
 |      Cat | hairballs |  yup   |
 ]
-
 ---
 
 # Notes
@@ -235,9 +237,9 @@ Then the column resumes after the split.
 # Image Captions
 
 ~~~ md
-![D. Lafrenière et al., ApJ Letters](https://dataoneorg.github.io/dataone_lessons/lessons/01_management/images/data-loss.jpg)
+![D. Lafrenière et al., ApJ Letters](images/data-loss.jpg)
 *D. Lafrenière et al., ApJ Letters*
 ~~~
 
-![D. Lafrenière et al., ApJ Letters](https://dataoneorg.github.io/dataone_lessons/lessons/01_management/images/data-loss.jpg)
+![D. Lafrenière et al., ApJ Letters](images/data-loss.jpg)
 *D. Lafrenière et al., ApJ Letters*

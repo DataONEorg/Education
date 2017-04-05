@@ -47,8 +47,8 @@ The goals of data entry are to create data that are valid, or have gone through 
 
 ## Example: Poor Data Entry
 
-class: center
-![sheet1](images/image6.png)]
+
+![sheet1](images/pde.png)
 
 ???
 
@@ -59,8 +59,8 @@ These are data entered in to Excel from a small mammal trapping study.   Each bl
 
 ## Example: Poor Data Entry, continued
 
-class: center
-![sheet1](images/image7.png)]
+
+![sheet1](images/pde2.png)
 
 ???
 There are other problems with how these data was entered. Naming of sites is also inconsistent.  For instance, Deep Well is used in the first block vs. DW in the block on the right.  The file contains several typos, also such as rioSalado vs. rioSlado.   A human can figure out what each of these site names refers to, but the names would have to be harmonized for a statistical program to use.   It would be easier to filter for just Deep Well (with a space), and not have to know you need to filter for DeepWell (no space), also.   Similarly, in one place a species code is capitalized PERO, and lowercase elsewhere.   
@@ -80,7 +80,7 @@ To analyze all these data using statistical software, and to make it much easier
 * Data are all in one table, which is much easier for a statistical program to work with than multiple small tables which each require human intervention]
 
 
-![sheet3](images/image8.png)]
+![sheet3](images/pde3.png)
 
 ???
 
@@ -131,6 +131,9 @@ Use data flags in a separate column to qualify empty cells.  For instance, in th
 
 .full-width[
 * Enter complete lines of data]
+
+![sheet3](images/pde4.png)
+
 
 ???
 There are a lot of great things about spreadsheets, but one must be wary of problems that can arise from their use.  Spreadsheets, for instance, can sort one column independently of all others.   The data entry person for the upper spreadsheet elected to leave empty cells for site, treat, web, plot, quad.  It’s obvious why and doesn’t cause the human reader any problems.  But if someone happens to decide to sort on Species, it is no longer clear which species maps to which time period or to which measurements.  This could make the spreadsheet unusable.   It is good practice to fill in all cells when using a spreadsheet for data entry.   

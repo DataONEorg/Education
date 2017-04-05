@@ -460,7 +460,7 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
  
  ???
  
- ---
+---
  
  # Examples of Software Citation, continued
 

@@ -24,9 +24,10 @@ class: center, middle
 - Tips for writing a quality metadata record
 ]
 
-![Photo Attribution: CC image by Alec Couros on Flickr](images/  )
-  *Photo Attribution: CC image by Alec Couros on Flickr*
-
+<div style="text-align:center"><img src ="images/image4.jpeg"/></br>
+	.caption[Photo Attribution: CC image by Alec Couros on Flickr]
+</div>
+	
 ???
 
 In this segment of the course we will cover:
@@ -40,23 +41,29 @@ And what information needs to be included in a metadata record?
 
 After completing this lesson, the participant will be able to: 
 
-.full-width[- Identify and list the types of information typically included in metadata records for environmental datasets
-- Identify 3 reasons metadata is of value to data users, data developers, and organizations
-- List 3 uses for metadata, beyond discovery of data
-- Identify and describe factors that may determine which metadata standards are most appropriate for a given dataset
-- List steps to prepare to write metadata
-- Explain how to write good metadata
+.full-width[- Identify & list the types of **information typically included in metadata records** for environmental datasets
+- Identify 3 **reasons metadata is of value** to data users, data developers, and organizations
+- List 3 **uses for metadata**, beyond discovery of data
+- Identify and describe factors that may determine which **metadata standards** are most appropriate for a given dataset
+- List **steps to prepare** to write metadata
+- Explain how to **write good metadata**
 ]
 
 ---
 
 # The Data Life Cycle
 
+**insert image of the DLC with arrow pointing to "describe"**
+
+???
+
+Writing metadata falls within the “Describe” portion of the Data Life Cycle.
+
 ---
 
 # What is metadata?
 
-.two-thirds[**Metadata is: Data ‘reporting’**
+.two-third[**Metadata is: Data ‘reporting’**
 
 - **WHO** created the data?
 - **WHAT** is the content of the data?
@@ -66,7 +73,7 @@ After completing this lesson, the participant will be able to:
 - **WHY** were the data developed?
 ]
 
-.one-third[![Photo Attribution: Photo by Michelle Chang. All Rights Reserved](images/  )
+.one-third[![Photo Attribution: Photo by Michelle Chang. All Rights Reserved](images/image5.jpeg)
   *Photo Attribution: Photo by Michelle Chang. All Rights Reserved*
 ]
 

@@ -419,12 +419,12 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
 
 # Citation of Scientific Software
 
-.full-width[**Why cite software?**
+.full-width[
+**Why cite software?**
 * Software itself may be considered to be data or a research product.
 * Findings of a study are not only based on data, but on the software used to support the analysis of the data.
 * Software citation is essential for enabling reproducibility of results.
 * Give proper attribution to the developers/authors of software.
-
 **When to cite software?**
 * "Standard" office software (e.g. Word, Excel) and programming languages do not need formal citations. 
 * DO provide citations for specialized/custom software or programs  when their use directly impacts the results.
@@ -434,40 +434,36 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
 # Examples of information needed in software citations
 
 Similar to data citation, software citations should include:
-.full-width[* **Title/Name of the Software**
-* **Author/Developer** – if known
-* **Release Date/Year**
-* **Version Number** – the version of the software/program used
-* **Descriptor** – the text"[computer program]" (including brackets) is often included in the citation 
-* **Publisher name and location** – if applicable
-* **URL** – if the software is available online, provide the URL
-* **DOI** – if one exists for the software, cite it]
+.full-width
+[ 
+*Title/Name of the Software*
+* Author/Developer – if known
+* Release Date/Year
+* Version Number – the version of the software/program used
+* Descriptor – the text"[computer program]" (including brackets) is often included in the citation 
+* Publisher name and location – if applicable
+* URL – if the software is available online, provide the URL
+* DOI – if one exists for the software, cite it
+]
 
 ---
 
 # Examples of Software Citation
 
-.full-width[**Software purchased off-the-shelf:**
+.full-width[
+**Software purchased off-the-shelf:**
 * Product Name. Version. Release Date. Publisher. Location.
  * SuperScience. 1.2. December 2012. Research Software. Edinburgh, UK.
-]
-
-.full-width[**Software downloaded from the web:**
+**Software downloaded from the web:**
 * Product Name. Version. Release Date. Publisher. Location. DOI or URL. Download Date.
   * OGSA-DAI REST. 4.2.1. December 2012. OGSA-DAI Project. http://sourceforge.net/projects/ogsa-dai. 27/04/2012.
-]
-
-.full-width[**Software provided by a researcher:**
+**Software provided by a researcher:**
 * Product Name. Author. Location. Contact Details. Received Date.
  * BestFFTroutine ever file. Fred Bloggs, EPCC, The University of Edinburgh, UK. Fred.bloggs@epcc.ed.ac.uk. 27/04/2012.
-]
-
-.full-width[**AMA Format:**
+**AMA Format:**
  * Epi Info [computer program]. Version 3.2. Atlanta, GA: Centers for Disease Control and Prevention; 2004.
-]
-
-.full-width[**APA Format:**
- * Hayes, B. et al. (2003). OTSoft: Optimality Theory Software (Version 2.1) [Software]. Available from http://www.linguistics.ucla.edu/people/hayes/otsoft/]
+**APA Format:**
+ * Hayes, B. et al. (2003). OTSoft: Optimality Theory Software (Version 2.1) [Software]. Available from http://www.linguistics.ucla.edu/people/hayes/otsoft/
 ]
 
 ???
@@ -480,10 +476,10 @@ Similar to data citation, software citations should include:
 
 # Software Citation Resources
 
-* **The Software Sustainability Institute**: http://www.software.ac.uk/
-* **Working towards Sustainable Software for Science Practice and Experiences (WSSSPE)**: http://wssspe.researchcomputing.org.uk/
-* **NSF Workshop on Supporting Scientific Discovery through Norms and Practices for Software and Data Citation and Attribution**: https://softwaredatacitation.org/Pages/home.aspx
-* **Software Carpentry and Data Carpentry**: http://software-carpentry.org/ and http://www.datacarpentry.org/
+* The Software Sustainability Institute: http://www.software.ac.uk/
+* Working towards Sustainable Software for Science Practice and Experiences (WSSSPE): http://wssspe.researchcomputing.org.uk/
+* NSF Workshop on Supporting Scientific Discovery through Norms and Practices for Software and Data Citation and Attribution: https://softwaredatacitation.org/Pages/home.aspx
+* Software Carpentry and Data Carpentry: http://software-carpentry.org/ and http://www.datacarpentry.org/
 
 ---
 

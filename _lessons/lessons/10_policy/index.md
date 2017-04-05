@@ -32,15 +32,15 @@ After completing this lesson, participants will be able to:
 # Setting the Stage
 .full-width[
 * Legal – a law is “any written or positive rule or collection of rules prescribed under the authority of the state or nation.”
-  * e.g., U.S. Copyright Act
+ * e.g., U.S. Copyright Act
 
 * Ethical – “being in accordance with the rules or standards for right conduct or practice, especially the standards of a profession.”
-  * e.g., IRB & IACUC
+ * e.g., IRB & IACUC
 
 * Policy -  a specified “course of action adopted for the sake of expediency, facility, etc.”
-  * e.g., Paperwork Reduction Act
+ * e.g., Paperwork Reduction Act
   
-	<footer>-- Definitions from Dictionary.com</footer>
+<footer>-- Definitions from Dictionary.com</footer>
 ]
 ???
 

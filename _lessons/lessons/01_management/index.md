@@ -13,7 +13,7 @@ class: center, middle
 
 ## Why Data Management?
 
-.wCaption[![University of Maryland Press Releases on Flickr](images/slide-1-intro.jpg)
+![](images/slide-1-intro.jpg)
 *University of Maryland Press Releases on Flickr*
 
 
@@ -47,7 +47,7 @@ class: center, middle
 ---
 class: center
 
-.wCaption[![Magazines](images/Slide05.jpg)]
+![](images/Slide05.jpg)]
 
 <footer>The world today is filled with science news, from climate change to hurricanes – and it all affects the people inhabiting the earth.</footer>
 

@@ -224,16 +224,20 @@ Stefan Proell (2015) “Austria Facts” created at 2015-10-07 10:51:55:0, PID[a
 
 # What are examples of Persistent Identifiers?
 
-.full-width[A **persistent identifier** should be included in the citation:
+.full-width[
+A **persistent identifier** should be included in the citation:
 * DOI (Digital Object Identifier)
  * Globally unique, alphanumeric string assigned by a registration agency to identify content and provide a persistent link to its location. 
  * May be assigned to any item of intellectual property that is defined by structured metadata
- * Examples:10.1234/NP5678, 10.5678/ISBN-0-7645-4889-4; 10.2224/2004-10-ISO-DOI]
+ * Examples:10.1234/NP5678, 10.5678/ISBN-0-7645-4889-4; 10.2224/2004-10-ISO-DOI
+ ]
 
-.full-width[* ARK (Archival Resource Key)
+.full-width[
+* ARK (Archival Resource Key)
  * URL designed to support long-term access to information objects
  * Can refer to digital, physical, or intangible objects or living beings and groups
- * Example: http://ark.cdlib.org/ark:/13030/tf5p30086k]
+ * Example: http://ark.cdlib.org/ark:/13030/tf5p30086k
+ ]
 
 ???
 

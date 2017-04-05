@@ -48,6 +48,7 @@ Removes duplicated tags
 {% comment %}
 Show the tags 
 {% endcomment %}
+
 ## Tags
 {% for tag in tags %}
 * [{{ tag }}](#{{ tag | slugify }})

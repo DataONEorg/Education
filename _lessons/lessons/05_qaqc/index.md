@@ -1,15 +1,10 @@
 ---
 title: "Data Quality Control and Assurance"
+author: DataONE Community Engagement & Outreach
 update: Sept. 22, 2016
 layout: slides
----
-
-# Tutorials on Data Management
-
-### Lesson 5: Data Quality Control and Assurance
-
-![CC image by Shane Melaugh on Flickr](images/image4.jpeg)
-*CC image by Shane Melaugh on Flickr*
+deck: 05_qaqc
+categories: [Teaching Modules]
 
 ---
 
@@ -39,12 +34,13 @@ First we will define quality assurance and quality control, and review definitio
 ---
 
 # Learning Objectives
-
+.full-width[
 After completing this lesson, the participant will be able to: 
 * Define data quality control and data quality assurance
 * Perform quality control and assurance on their data at all stages of the research cycle
+]
 
-![CC image by 0xFCAF on Flickr](images/image6.jpeg)
+center: class ![CC image by 0xFCAF on Flickr](images/image6.jpeg)
 *CC image by 0xFCAF on Flickr*
 
 ???
@@ -67,11 +63,11 @@ Quality control and quality assurance should be implemented throughout the data 
 # Definitions
 
 Data Contamination
+.full-width[
 * Process or phenomenon, other than the one of interest, that affects the variable value 
 * Erroneous values
- 
+ ]
 ![CC image by Michael Coghlan on Flickr](images/image7.jpeg)
-*CC image by Michael Coghlan on Flickr*
 
 ???
 
@@ -80,15 +76,14 @@ Before describing best practices useful for quality control and assurance, we wi
 ---
 
 # Definitions: Types of Errors
-
 Errors of Commission
-* Incorrect or inaccurate data entered
+.full-width[* Incorrect or inaccurate data entered
 * Examples: malfunctioning instrument, mistyped data
 Errors of Omission
 * Data or metadata not recorded
 * Examples: inadequate documentation, human error, anomalies in the field
- 
-![CC image by Nick J Webb on Flickr](images/image8.jpeg)
+] 
+center: class ![CC image by Nick J Webb on Flickr](images/image8.jpeg)
 *CC image by Nick J Webb on Flickr*
 
 ???
@@ -106,11 +101,11 @@ Omission errors examples:
 ---
 
 # Defining QA/QC
-
+.full-width[
 * Strategies for preventing errors from entering a dataset
 * Activities to ensure quality of data before collection
 * Activities that involve monitoring and maintaining the quality of data during the study
-
+]
 ???
 
 Quality assurance and quality control are phrases used to describe activities that prevent errors from entering or staying in a data set.  These activities ensure the quality of the data before it is collected, entered, or analyzed, and monitoring and maintaining the quality of data throughout the study. 
@@ -120,12 +115,13 @@ Quality assurance and quality control are phrases used to describe activities th
 # QA/QC Before Collection
 
 Define & enforce standards
-* Formats
+.full-width[* Formats
 * Codes
 * Measurement units
 * Metadata
 Assign responsibility for data quality
 * Be sure assigned person is educated in QA/QC
+]
 
 ???
 
@@ -137,12 +133,12 @@ Second, you should assign responsibility for data quality before collection begi
 
 # QA/QC During Data Entry
 
-* Double entry
+.full-width[* Double entry
   * Data keyed in by two independent people
   * Check for agreement with computer verification 
 * Record a reading of the data and transcribe from the recording
 * Use text-to-speech program to read data back
-
+]
 ![CC image by weskriesel on Flickr](images/image9.jpeg)
 *CC image by weskriesel on Flickr*
 
@@ -155,13 +151,13 @@ Consider using techniques that help eliminate mistakes during data entry. Exampl
 # QA/QC  During Data Entry
 
 Design data storage well
-* Minimize number of times items that must be entered repeatedly
+.full-width[* Minimize number of times items that must be entered repeatedly
 * Use consistent terminology
 * Atomize data: one cell per piece of information
 Document changes to data
 * Avoids duplicate error checking
 * Allows undo if necessary
-
+]
 ???
 
 If you are using spreadsheets or databases, you should carefully consider their design before and during data entry. Use consistent terminology within the database, and atomize data. This means only one piece of information is in each cell of the spreadsheet -- multiple pieces of information embedded in a single data cell will be problematic during data analysis. If you are using a database, restrict what can be entered into the database; for example, set up a field to accept only text or only numerical values, choose a maximum number of characters or a range of values a field will accept, or set a field to accept only unique values.
@@ -172,9 +168,10 @@ Finally, document any changes made to data. It saves time if good records of dat
 
 # QA/QC  After Data Entry
 
-* Make sure data line up in proper columns
+.full-width[* Make sure data line up in proper columns
 * No missing, impossible, or anomalous values
 * Perform statistical summaries
+]
 
 ![CC image by chesapeakeclimate on Flickr](images/image10.jpeg)
 *CC image by chesapeakeclimate on Flickr*
@@ -187,9 +184,10 @@ Once data are entered, basic quality assurance measures can be taken. First, if 
 
 # QA/QC  After Data Entry
 
-Look for outliers
+.full-width[Look for outliers
 * Outliers are extreme values for a variable given the statistical model being used
 * The goal is not to eliminate outliers but to identify potential data contamination
+]
 
 ![](images/DataONE Module 5 Outlier Graph.png)
 
@@ -225,14 +223,14 @@ Another method for identifying outliers is using statistics. By subtracting valu
 
 # Summary
 
-* Data contamination is data that results from a factor not examined by the study that results in altered data values
+.full-width[* Data contamination is data that results from a factor not examined by the study that results in altered data values
 * Data error types: commission or omission
 * Quality assurance and quality control are strategies for 
   * preventing errors from entering a dataset 
   * ensuring data quality for entered data
   * monitoring, and maintaining data quality throughout the project 
 * Identify and enforce quality assurance and quality control measures throughout the Data Life Cycle
-
+]
 ???
 
 During this tutorial we first defined several concepts important for understanding quality assurance and quality control. This included data contamination and the types of data errors that can result in poor quality data.
@@ -243,18 +241,15 @@ It is important to define and enforce quality assurance and quality control stan
 ---
 
 # References
-
-1. D. Edwards, in Ecological Data: Design, Management and Processing, WK Michener and JW Brunt, Eds. (Blackwell, New York, 2000), pp. 70-91. Available at www.ecoinformatics.org/pubs
-2. R. B. Cook, R. J. Olson, P. Kanciruk, L. A. Hook, Best practices for preparing ecological data sets to share and archive. Bull. Ecol. Soc. Amer. 82, 138-141 (2001).
-3. A. D. Chapman, “Principles of Data Quality:. Report for the Global Biodiversity Information Facility” (Global Biodiversity Information Facility, Copenhagen, 2004). Available at http://www.gbif.org/communications/resources/print-and-online-resources/download-publications/bookelets/
-
+.full-width[
+* D. Edwards, in Ecological Data: Design, Management and Processing, WK Michener and JW Brunt, Eds. (Blackwell, New York, 2000), pp. 70-91. Available at www.ecoinformatics.org/pubs
+* R. B. Cook, R. J. Olson, P. Kanciruk, L. A. Hook, Best practices for preparing ecological data sets to share and archive. Bull. Ecol. Soc. Amer. 82, 138-141 (2001).
+* A. D. Chapman, “Principles of Data Quality:. Report for the Global Biodiversity Information Facility” (Global Biodiversity Information Facility, Copenhagen, 2004). Available at http://www.gbif.org/communications/resources/print-and-online-resources/download-publications/bookelets/
+]
 ---
 
 # About
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
-
-The full slide deck (in PowerPoint) may be downloaded from:
-[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
 
 **Suggested citation:**
 DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
@@ -262,7 +257,7 @@ DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016.
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
-![CCBY0](images/image12.png)
+![CCBY0](images/ccpd.png)
 ---
 
 ---

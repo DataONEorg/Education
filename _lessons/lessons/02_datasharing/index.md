@@ -1,53 +1,57 @@
 ---
-title: "Data sharing"
-author: DataONE Community Engagement & Outreach
+title: "Data Sharing"
+author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
 layout: slides
+
+tags: [Data Management, Data Sharing]
+categories: [Teaching Module]
+status: published
+
 ---
 
-# Tutorial on Data Management
+# Data Sharing
 
-## Lesson 2: Data Sharing
-
-![](images/image3.png)
+.three-fourth-center[![Photo of girl sharing pinecones](images/sharing.jpg)
+*Public domain image from Unsplash*
+]
 
 ???
 
 This is Lesson 2 of the DataONE Data Management learning series. This lesson covers Data Management: Data Sharing
 
 ---
-# Lesson topics
 
-.two-third[
-- Data sharing within the data lifecycle
-- Value of data sharing
-- Concerns about data sharing
-- Methods for making data sharable
-]
+# Lesson Topics
 
-.one-third[
-![Folders picture](images/folders.png)
+- Data sharing within the **data lifecycle**
+- **Value** of data sharing
+- **Concerns** about data sharing
+- **Methods** for making data sharable
+
+.three-fourth-center[![Photo of people sharing a flower](images/sharingFlower.jpg)
+*Public domain image from Unsplash*
 ]
 
 ???
 
-The topics covered in this lesson  include: the role of data sharing within the lifecycle, the value of data sharing, concerns about data sharing, and methods for making data sharable.
+The topics covered in this lesson include: the role of data sharing within the lifecycle, the value of data sharing, concerns about data sharing, and methods for making data sharable.
 
 
 ---
 
-# Learning objectives
+# Learning Objectives
 .two-third[
-**After completing this lesson,** the participant will be able to
+**After completing this lesson,** the participant will be able to:
 
-- discuss data sharing considerations within the data lifecycle
-- recognize the benefits of sharing scientific data
-- address concerns about sharing data
-- outline a process for making data sharable
-- identify mechanisms for sharing data
+1. Discuss data sharing considerations within the data lifecycle
+2. Recognize the benefits of sharing scientific data
+3. Address concerns about sharing data
+4. Outline a process for making data sharable
+5. Identify mechanisms for sharing data
 ]
 
-.one-third[![](images/image5.jpeg)]
+.one-third[![Image of girl on a laptop](images/image5.jpeg)]
 
 ???
 
@@ -58,7 +62,8 @@ After completing this lesson, you will be able to recognize the benefits of shar
 # The Data Lifecycle
 Data sharing should be addressed throughout the data lifecycle.
 
-![](images/dlc.png)
+.center[![Image of the DataONE data lifecycle](images/DLC.png)
+]
 
 ???
 
@@ -93,17 +98,17 @@ Effective data sharing requires careful thought during each stage of the data de
 ---
 
 # Why share data
-.two-third[
+
 Data sharing requires effort, resources, and faith in others. Why do it?
 
-For the benefit of:
-
+.one-half[For the benefit of:
 * the public
 * the research sponsor
 * the research community
 * the researcher
 ]
-.one-third[
+
+.one-half[
 ![CC image by Jessica Lucia on Flickr](images/image6.jpeg)
 *CC image by Jessica Lucia on Flickr*
 ]
@@ -125,7 +130,9 @@ A better informed public yields better decision making with regard to:
 * personal lifestyle and health such as nutrition and recreation
 ]
 
-.one-third[ ![](images/image7.jpeg) ]
+.one-third[![CC image by falonyates on Flickr](images/image7.jpeg)
+*CC image by falonyates on Flickr*
+]
 
 ???
 

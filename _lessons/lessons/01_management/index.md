@@ -1,12 +1,11 @@
 ---
 title: "Introduction to Data Management"
-
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
-
 layout: slides
-categories: ed-module
-deck: 01_management
+tags: [Data Management]
+categories: [Teaching Module]
+status: published
 ---
 
 class: center, middle
@@ -274,14 +273,14 @@ By re-using data collected from a variety of sources – eBird database, land co
 
 ---
 
-# Data integration
+# Data Integration
 
 ![](images/data-integration2.png)
 *Images courtesy of Cornell Ornithology Lab*
 
 ---
 
-# Where a majority of data end up now…
+# Where a Majority of Data End Up Now…
 
 .center[![](images/where-data-end.png)
 *Recreated from Klump et al 2006*]
@@ -293,7 +292,7 @@ There is an abundance of data and metadata (if it is done) end up in filing cabi
 
 ---
 
-# Imagine if data were more accessible….
+# Imagine if Data Were More Accessible….
 
 .center[![](images/data-more-accessible.png)
 *Recreated from Klump et al 2006*]
@@ -303,7 +302,7 @@ Data should be properly managed and eventually be placed where they are accessib
 
 ---
 
-# Well managed, publically accessible data is important: Why?
+# Well Managed, Publically Accessible Data is Important: Why?
 
 
 Here are a few reasons (from the UK Data Archive):
@@ -315,7 +314,7 @@ Here are a few reasons (from the UK Data Archive):
 
 ---
 
-# Well managed, publically accessible data is important: Why?
+# Well Managed, Publically Accessible Data is Important: Why?
 
 * Enables scrutiny of research findings
 * Encourages improvement and validation of research methods

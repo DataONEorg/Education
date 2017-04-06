@@ -1,15 +1,14 @@
 ---
-title: "Moving the lessons to github"
-author: DataONE Community Engagement & Outreach
+title: "Stylesheet for GitHub Slides"
+author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
 layout: slides
-tags: [Data Management, GitHub]
+tags: [GitHub]
 categories: [Technical Tutorial]
 status: draft
-deck: "00_markdown"
 ---
 
-# It's working!
+# It's Working!
 
 Each lesson is a single markdown document that is converted to HTML by [remark](https://github.com/gnab/remark) javascript. 
 
@@ -30,7 +29,7 @@ Spaces are important in Markdown. For example, if you are not seeing a new slide
 
 ---
 
-# General info
+# General Info
 
 Lesson title and metadata go in the `yaml` header:
 
@@ -134,7 +133,7 @@ Heading levels are specified by the number of `#` at the beginning of a line. Si
 
 ---
 
-# Syntax highlighting
+# Syntax Highlighting
 
 ``` md
 ~~~ R
@@ -238,7 +237,7 @@ then 1/2. As long as it sums to one, it's fine.
 
 ---
 
-# Nested columns
+# Nested Columns
 
 .three-fourth[
 

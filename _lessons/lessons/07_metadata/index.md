@@ -737,18 +737,22 @@ Citations for all source data used in the dataset should be included in the meta
 
 # What Makes a Good Metadata Record?
 
-.full-width[**Provide all of the critical information for:** Access, Use & Liability Constraints
+**Provide all of the critical information for:** Access, Use & Liability Constraints
 
 - *Access Constraints*: restrictions and legal prerequisites for access the data.
 - *Use Constraints*: restrictions and legal prerequisites for using the data after access is granted. 
-  - <footer>"Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided."</footer>
 - *Distribution Liability*: statement of the liability assumed by the distributor with respect to content and accuracy of the data.
-  - <footer>"Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty."</footer>
+
+.three-fourth-center[![Photo of SBLTER metadata](images/SBLTER_dataUse.png)
 ]
 
 ???
 
 Describe if there are any access or use constraints for your data. Access Constraints refer to any restriction and legal prerequisites for accessing the data. Use Constraints refer to any restrictions and legal prerequisites for using the data after access is granted. Both of these elements include any constraints applied to assure the protection of privacy or intellectual property. Additionally, ensure that you establish what liability you have, if any, with respect to the content and accuracy of the data.
+
+"Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided."
+
+"Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty."
 
 ---
 
@@ -756,7 +760,7 @@ Describe if there are any access or use constraints for your data. Access Constr
 
 **Provide all of the critical information for:** Accessing the data
 
-![Photo of metadata](images/  )
+![Photo of USGS metadata](images/USGS_orderData.png)
 
 ???
 
@@ -768,7 +772,8 @@ It is also important to inform users how and where they can access the data. Are
 
 **Provide all of the critical information for:** Spatial reference	
 
-![Photo of metadata](images/  )
+.three-fourth-center[![Photo of SBLTER metadata](images/SBLTER_spatial.png)
+]
 
 ???
 
@@ -818,8 +823,8 @@ Finally, spatial reference information is essential for integrating your data wi
 Greater Yellowstone **(where)** Rivers **(what)** from 1:126,700 **(scale)** U.S. Forest Service **(who)** Visitor Maps (1961-1983) **(when)**
 ]
 
-.one-third[![Photo Attribution: CC image by dolfi on Flickr](images/  )
-  *CC image by dolfi on Flickr*
+.one-third[![Photo of river](images/River.jpg)
+  *Public domain image from Unsplash*
   ]
 
 ???
@@ -838,8 +843,9 @@ Vague: *We checked our work and it looks complete.*
 Specific: *We checked our work using a random sample of 5 monitoring sites reviewed by 2 different people. We determined our work to be 95% complete based on these visual inspections.*
 ]
 
-**needs small image here**
-
+.center[![Photo of person highlighting](images/reviewData.jpg)
+  *Public domain image from Unsplash*
+  ]
 ???
 
 One goal of a metadata record is to give a reader enough information about your data, that s/he could re-use it without contacting you, the dataset owner.
@@ -857,8 +863,8 @@ One goal of a metadata record is to give a reader enough information about your 
 - **Be detailed**: there’s no such thing as too much metadata!
 ]
 
-![Photo Attribution: CC image by Marco Arment on Flickr](images/  )
-  *CC image by Marco Arment on Flickr*
+![Photo of open books all over desk](images/books.jpg)
+  *Public domain image from Unsplash*
 
 ???
 
@@ -878,8 +884,9 @@ Use thesauri whenever possible for keywords. Keywords are essential for locating
 - When copying and pasting from other sources, use a **text editor** (e.g., Notepad) to eliminate hidden characters
 ]
 
-**needs small image here**
-
+![Photo of letter press letters](images/letters.jpg)
+  *Public domain image from Unsplash*
+  
 ???
 
 When creating your metadata, keep in mind that a computer will read your metadata record. Therefore, it is important not to use tabs, indents, and special characters because they can be misunderstood by a computer. 
@@ -948,6 +955,5 @@ DataONE Education Module: Metadata. DataONE. Retrieved March 12, 2017. From [htt
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
-![CCBY0](images/  )
----
-
+.one-third[![CC 0 public domain mark](images/CC0PublicDomain.png)
+]

@@ -147,8 +147,7 @@ Most universities and government agencies have written policies that state that 
 
 .one-half[
 ![Photo Attribution: Attention By Viktor Vorobyev at the Noun Project](images/image16.png)
-  *Photo Attribution: Attention By Viktor Vorobyev at the Noun Project*
-]
+  *Photo Attribution: Attention By Viktor Vorobyev at the Noun Project*]
 
 ---
 

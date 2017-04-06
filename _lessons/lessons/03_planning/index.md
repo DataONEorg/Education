@@ -377,19 +377,23 @@ You should also describe how the data should be cited when used. It is best to e
 
 # Long-term Storage & Data Management
 
-What data will be preserved
+.two-third[
+* What data will be preserved
 
-Where will it be archived
-  - Most appropriate archive for data
-  - Community standards
+* Where will it be archived
+  * Most appropriate archive for data
+  * Community standards
 
-Data transformations/formats needed
-  - Consider archive policies
+* Data transformations/formats needed
+  * Consider archive policies
 
-Who will be responsible
-  - Contact person for archive
+* Who will be responsible
+  * Contact person for archive
+]
 
-<!-- needs image-->
+.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image29.jpg)
+*Photo Attribution: CC0 image by Samuel Zeller on Unsplash*
+]
   
 ???
   

@@ -52,7 +52,8 @@ After completing this module, you will be able to define quality control and qua
 
 # The Data Life Cycle
 
-.center[![DataONE Life Cycle](images/DataONE Module 5 Life Cycle.png)
+.center[
+![DataONE Life Cycle](images/DataONE Module 5 Life Cycle.png)
 *DataONE Life Cycle*]
 
 ???
@@ -139,8 +140,10 @@ Second, you should assign responsibility for data quality before collection begi
 * Record a reading of the data and transcribe from the recording
 * Use text-to-speech program to read data back
 
-.center[![CC image by weskriesel on Flickr](images/image9.jpeg)
-*CC image by weskriesel on Flickr*]
+.three-fourths[
+.center[
+![CC image by weskriesel on Flickr](images/image9.jpeg)
+*CC image by weskriesel on Flickr*]]
 
 
 ???

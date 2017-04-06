@@ -1,15 +1,16 @@
 ---
 title: "Legal & Policy Issues"
+author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 21, 2016
 layout: slides
+categories: ed-module
 ---
 
 # Legal and Policy Issues
 
- ![Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](images/image12.jpg)
-  *Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*
-  
- ![](images/image03.png)
+ .three-fourth-center[![Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](images/image12.jpg)
+  *Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*]
+ 
  
 ---
 
@@ -27,15 +28,13 @@ After completing this lesson, participants will be able to:
 # Setting the Stage
 
 * Legal – a law is “any written or positive rule or collection of rules prescribed under the authority of the state or nation.”
-  * e.g., U.S. Copyright Act
-
+ * e.g., U.S. Copyright Act
 * Ethical – “being in accordance with the rules or standards for right conduct or practice, especially the standards of a profession.”
-  * e.g., IRB & IACUC
-
+ * e.g., IRB & IACUC
 * Policy -  a specified “course of action adopted for the sake of expediency, facility, etc.”
-  * e.g., Paperwork Reduction Act
+ * e.g., Paperwork Reduction Act
   
-	-- Definitions from Dictionary.com
+<footer>-- Definitions from Dictionary.com</footer>
 
 ???
 
@@ -49,14 +48,15 @@ Resource for PRA: http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html
 
 # Intellectual Property (IP)
 
-.one-half[
+.one-fourth[
 ![Photo Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png](images/image10.png)
   *Photo Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png*
 ]
 
-.one-half[
+.three-fourth[
 “Intellectual property refers to creations of the mind, such as inventions; literary and artistic works; designs; and symbols, names and images used in commerce.”
--- World Intellectual Property Organization
+
+<footer>-- World Intellectual Property Organization</footer>
 ]
 
 ---
@@ -92,10 +92,8 @@ Resource:  http://www.wipo.int/edocs/pubdocs/en/intproperty/450/wipo_pub_450.pdf
 * Nobody
 ]
 
-.one-half[
-![Photo Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg](images/image05.jpg)
-  *Photo Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg*
-]
+.one-half[![Photo Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg](images/image05.jpg)
+  *Photo Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg*]
 
 ???
 
@@ -112,10 +110,10 @@ Example:  A data set, produced under a federal grant, contained within an instit
 # Identifying Ownership and Control
 
 .one-half[
-Funder agreement
-Institutional intellectual property policy
-Private company data use agreement
-Attached license
+* Funder agreement
+* Institutional intellectual property policy
+* Private company data use agreement
+* Attached license
 ]
 
 .one-half[
@@ -140,9 +138,9 @@ Most universities and government agencies have written policies that state that 
 # Why Does Ownership & Control Matter?
 
 .one-half[
-* For Creators
+* For Creators:
    * to derive benefit as a result of their work
-* For others
+* For Others:
    * To avoid potential legal trouble
    * To know where to get permission for use.
 ]
@@ -156,12 +154,14 @@ Most universities and government agencies have written policies that state that 
 
 # Copyright versus License
 
-Copyright: “ [T]he body of exclusive rights granted by law to copyright owners for protection of their work.” (U.S. Copyright Office)
-* Facts and data* cannot be protected by copyright
+Copyright: “[T]he body of exclusive rights granted by law to copyright owners for protection of their work.” 
+<footer>--U.S. Copyright Office</footer>
+* Facts and data cannot be protected by copyright
 * Metadata and data arrangement can be protected (sometimes)
-* License: States what can be done with the data and how that data can be redistributed (e.g., GPL and CC)
+License: States what can be done with the data and how that data can be redistributed (e.g., GPL and CC)
 * Waiver: (e.g., CC0) relinquishes all rights of ownership or control and usually commits the “work” to the public domain
 * Intellectual property laws will vary depending upon country or region
+
 
 ???
 
@@ -449,9 +449,6 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 ---
 ## About
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
-
-The full slide deck (in PowerPoint) may be downloaded from:
-[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
 
 **Suggested citation:**
 DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)

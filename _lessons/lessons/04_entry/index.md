@@ -402,19 +402,15 @@ At times you will need to combine multiple datasets into a superset in order to 
 ---
 
 ## Using R
-.full-width[
+.one-half[
 * Free (http://www.r-project.org/index.html)
 * Produces publication quality graphics
 * Lots of forums from which to get help
 * Software (such as Kepler for developing workflows) will integrate analytical components written in R
 ]
-
-
-
----
-## Using R
-
-![sheet16](images/pde17.png)
+.one-half[
+![sheet16](images/rsz_pde17.png)
+]
 
 ---
 

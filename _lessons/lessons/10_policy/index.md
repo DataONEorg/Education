@@ -137,7 +137,7 @@ Most universities and government agencies have written policies that state that 
 
 # Why Does Ownership & Control Matter?
 
-.one-third[
+.two-third[
 * For Creators:
    * to derive benefit as a result of their work
 * For Others:
@@ -145,7 +145,7 @@ Most universities and government agencies have written policies that state that 
    * To know where to get permission for use.
 ]
 
-.two-third[
+.one-third[
 ![Photo Attribution: Attention By Viktor Vorobyev at the Noun Project](images/image16.png)
   *Photo Attribution: Attention By Viktor Vorobyev at the Noun Project*]
 

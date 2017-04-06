@@ -464,7 +464,7 @@ You should identify how the costs associated with your DMP will be paid.
 <br /><br />
 ![dmponline.dcc.ac.uk](images/DMPOnline_web.png)
 ]
-
+<br /><br />
 * Several tools are available for creating data management plans. Two of the most commonly used are the DMPTool (US funders only) and DMP Online (UK/EU funders only).
 
 ???
@@ -497,14 +497,13 @@ Plans for data management and sharing of the products of research. Proposals mus
 # NSF DMP Requirements, continued
 
 ***Summarized from the Award & Administration Guide:***
-
 **Dissemination and Sharing of Research Results**
 
-> a. Promptly publish with appropriate authorship
-> b. Share data, samples, physical collections, and supporting materials with others, within a reasonable timeframe 
-> c. Share software and inventions 
-> d. Investigators can keep their legal rights over their intellectual property, but they still have to make their results, data, and collections available to others 
-> e. Policies will be implemented via 
+> * Promptly publish with appropriate authorship
+> * Share data, samples, physical collections, and supporting materials with others, within a reasonable timeframe 
+> * Share software and inventions 
+> * Investigators can keep their legal rights over their intellectual property, but they still have to make their results, data, and collections available to others 
+> * Policies will be implemented via 
   - Proposal review
   - Award negotiations and conditions
   - Support/incentives

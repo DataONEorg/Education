@@ -16,7 +16,7 @@ categories: ed-module
 - Example of an NSF DMP
 ]
 
-.one-third[![CC image by Darla Hueske on Flickr](images/image4.jpeg)
+.center[![CC image by Darla Hueske on Flickr](images/image4.jpeg)
 *CC image by Darla Hueske on Flickr*
 ]
 
@@ -82,7 +82,7 @@ Data management plans are meant to ensure that the data will be preserved and us
 # Why Prepare a DMP?
 
 .two-third[
-Save time
+Saves time
   - Less reorganization later
 
 Increase research efficiency

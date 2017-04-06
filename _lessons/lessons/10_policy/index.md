@@ -163,13 +163,10 @@ Most universities and government agencies have written policies that state that 
 **Waiver:** (e.g., CC0) relinquishes all rights of ownership or control and usually commits the “work” to the public domain
 
 Intellectual property laws will vary depending upon country or region.
-Copyright is a precursor to having the power to assign licenses or waivers.
 
-The line between data that is “purely factual” vs descriptive is blurry and can be subjective at times.  In some cases, such as a biodiversity data set, much of the data may be considered to be purely factual (e.g., a place name, a species name) while other data within the same data set may contain descriptions of a place that, while being factual in nature, are actually the creative content of the individual(s) making the observations.
+Copyright is a precursor to having the power to assign licenses or waivers.
 
 ???
-
-Copyright is a precursor to having the power to assign licenses or waivers.
 
 *The line between data that is “purely factual” vs descriptive is blurry and can be subjective at times.  In some cases, such as a biodiversity data set, much of the data may be considered to be purely factual (e.g., a place name, a species name) while other data within the same data set may contain descriptions of a place that, while being factual in nature, are actually the creative content of the individual(s) making the observations.  See Slide: Fact and Copyright for examples of current case law.
 

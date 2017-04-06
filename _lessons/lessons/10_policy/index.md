@@ -52,12 +52,12 @@ Resource for PRA: http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html
 
 # Intellectual Property (IP)
 
-.three-fourth[
+.one-fourth[
 ![Photo Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png](images/image10.png)
   *Photo Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png*
 ]
 
-.one-fourth[
+.three-fourth[
 “Intellectual property refers to creations of the mind, such as inventions; literary and artistic works; designs; and symbols, names and images used in commerce.”
 -- World Intellectual Property Organization
 ]
@@ -86,8 +86,7 @@ Resource:  http://www.wipo.int/edocs/pubdocs/en/intproperty/450/wipo_pub_450.pdf
 
 # Who might claim control over data?
 
-.one-half[
-* You
+.one-half[* You
 * A funder
 * Student, scientist, researcher, PI
 * An institution
@@ -95,10 +94,8 @@ Resource:  http://www.wipo.int/edocs/pubdocs/en/intproperty/450/wipo_pub_450.pdf
 * Nobody
 ]
 
-.one-half[
-![Photo Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg](images/image05.jpg)
-  *Photo Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg*
-]
+.one-half[![Photo Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg](images/image05.jpg)
+  *Photo Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg*]
 
 ???
 

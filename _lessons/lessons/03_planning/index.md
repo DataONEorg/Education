@@ -379,14 +379,11 @@ You should also describe how the data should be cited when used. It is best to e
 
 .two-third[
 * What data will be preserved
-
 * Where will it be archived
  * Most appropriate archive for data
  * Community standards
-
 * Data transformations/formats needed
  * Consider archive policies
-
 * Who will be responsible
  * Contact person for archive
 ]

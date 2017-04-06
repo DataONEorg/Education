@@ -118,6 +118,12 @@ th {
   width: 75%;
   padding: 0% 2% 0% 0%;
 }
+.three-fourth-center {
+  margin: 0px auto;
+  width: 75%;
+  padding: 0% 2% 0% 0%;
+}
+
 .full-width {
   width: 100%;
 }
@@ -146,6 +152,11 @@ Overrides for the default remark css properties
 .remark-slide-content.title h2 {
   font-size: 130% !important;
   color: #f3f3f3;
+}
+
+.remark-slide-content {
+  height: 90%;
+  overflow: auto;
 }
 
 .remark-slide-content h1 {

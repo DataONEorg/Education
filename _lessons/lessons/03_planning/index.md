@@ -381,14 +381,14 @@ You should also describe how the data should be cited when used. It is best to e
 * What data will be preserved
 
 * Where will it be archived
-  * Most appropriate archive for data
-  * Community standards
+ * Most appropriate archive for data
+ * Community standards
 
 * Data transformations/formats needed
-  * Consider archive policies
+ * Consider archive policies
 
 * Who will be responsible
-  * Contact person for archive
+ * Contact person for archive
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image29.jpg)

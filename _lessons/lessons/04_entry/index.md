@@ -276,10 +276,10 @@ Relationships can be defined between two sets of data or in this example between
 
 ---
 
-## Powerful Command Language called Structured Query Language (SQL)
+## Using Structured Query Language (SQL)
 
-![sheet4](images/pde14.png)
-
+.three-fourths[![sheet4](images/pde14.png)
+]
 
 ???
 Database features also includes a powerful command language called Structured Query Language (SQL)
@@ -290,10 +290,10 @@ The second select statement, returns all records from table SoilTemp where treat
 
 ---
 
-## Data Entry with a Database
+## Data entry using a database
 
-![sheet4](images/pde15.png)
-
+.center[![sheet4](images/pde15.png)
+]
 
 ???
 * Forms can be created that make entering data in to a relational database as easy as entering it in to Excel.  The screenshot below shows embedded forms that were quickly generated in MS Access for adding data to three tables in a database of plant cover measurements

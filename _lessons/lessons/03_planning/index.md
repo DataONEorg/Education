@@ -68,7 +68,8 @@ However the plan should be revisited often throughout the project to ensure prop
 <footer>-- University of Virginia Library</footer>
 
 .one-third[![CC image by Hope House Press on Unsplash](images/image28.jpg)
- *CC image by Hope House Press on Unsplash*
+ *CC image by Hope House Press on Unsplash*]
+
 
 ???
 
@@ -77,7 +78,7 @@ Data management plans are meant to ensure that the data will be preserved and us
 
 ---
 
-# Why Prepare a DMP? (1)
+# Why Prepare a DMP?
 
 .two-third[
 Save time
@@ -101,7 +102,7 @@ If data are documented well both before and during data collection, it prevents 
 
 ---
 
-# Why Prepare a DMP? (2)
+# Why Prepare a DMP?, continued
 
 .two-third[
 - Easier to preserve data
@@ -153,10 +154,10 @@ The slides that follow will go into more detail for each of the general categori
 
 ---
 
-# 1. Information About Data & Data Format
+# Information About Data & Data Format
 
 .one-half[
-1.1 Description of data to be produced
+Description of data to be produced
   - Experimental
   - Observational
   - Raw or derived
@@ -180,14 +181,14 @@ More information can be found at https://library.uoregon.edu/datamanagement/data
 
 ---
 
-# 1. Information About Data & Data Format
+# Information About Data & Data Format, continued
 
 .one-half[
-1.2 How data will be acquired
+How data will be acquired
   - When?
   - Where?
   
-1.3 How data will be processed
+How data will be processed
   - Software used
   - Algorithms
   - Workflows
@@ -205,14 +206,14 @@ How will the data be processed once it is acquired? This step is important to co
 
 ---
 
-# 1. Information About Data & Data Format
+# Information About Data & Data Format, continued 
 
 .one-half[
-1.4 File formats
+File formats
   - Justification
   - Naming conventions
 
-1.5 Quality assurance & control during 
+Quality assurance & control during 
   - sample  collection, analysis, and 
   - processing
 ]
@@ -233,14 +234,14 @@ You should also identify what quality assurance and control measures you plan to
 
 ---
 
-# 1. Information About Data & Data Format
+# Information About Data & Data Format, continued
 
-1.6 Existing data
+Existing data
   - If existing data are used, what are their origins?
   - Will the data be combined with existing data?
   - What is the relationship between new data and existing data?
 
-1.7 How data will be managed in short-term
+How data will be managed in short-term
   - Version control
   - Backing up
   - Security & protection
@@ -262,7 +263,7 @@ Be sure to identify who will be responsible for short-term data management. Assi
 
 ---
 
-# 2. Metadata Content & Format
+# Metadata Content & Format
 
 .one-half[
 **Metadata** defined: 
@@ -282,17 +283,17 @@ The second major category for a DMP is metadata content and format. First, we sh
 
 ---
 
-# 2. Metadata Content & Format
+# Metadata Content & Format, continued
 
 .two-third[
-2.1 What metadata are needed
+What metadata are needed
   - Any details that make data meaningful
 
-2.2 How metadata will be created and/or captured
+How metadata will be created and/or captured
   - Lab notebooks? GPS units? 
   - Auto-saved on instrument?
 
-2.3 What format will be used for the metadata
+What format will be used for the metadata
   - Standards for community
   - Justification for format chosen
 ]
@@ -309,22 +310,22 @@ Indicate what format, or metadata standard, will be used.  There are many differ
 
 ---
 
-# 3. Policies for Access, Sharing, Reuse
+# Policies for Access, Sharing, Reuse
 
 .two-third[
-3.1 Obligations for sharing
+Obligations for sharing
   - Funding agency
   - Institution
   - Other organization
   - Legal
 
-3.2 Details of data sharing
+Details of data sharing
   - How long?
   - When? 
   - How access can be gained?
   - Data collector rights
 
-3.3 Ethical/privacy issues with data sharing
+Ethical/privacy issues with data sharing
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image15.png)
@@ -343,18 +344,18 @@ Be sure to address any ethical or and privacy issues associated with the data. F
 
 ---
 
-# 3. Policies for Access, Sharing, Reuse
+# Policies for Access, Sharing, Reuse, continued 
 
 .two-third[
-3.4 Intellectual property & copyright issues
+Intellectual property & copyright issues
   - Who owns the copyright?
   - Institutional policies
   - Funding agency policies
   - Embargos for political/commercial reasons
 
-3.5 Intended future uses/users for data
+Intended future uses/users for data
 
-3.6 Citation
+Citation
   - How should data be cited when used?
   - Persistent citation?
 ]
@@ -373,18 +374,18 @@ You should also describe how the data should be cited when used. It is best to e
 
 ---
 
-# 4. Long-term Storage & Data Management
+# Long-term Storage & Data Management
 
-4.1 What data will be preserved
+What data will be preserved
 
-4.2 Where will it be archived
+Where will it be archived
   - Most appropriate archive for data
   - Community standards
 
-4.3 Data transformations/formats needed
+Data transformations/formats needed
   - Consider archive policies
 
-4.4 Who will be responsible
+Who will be responsible
   - Contact person for archive
 
 <!-- needs image-->
@@ -403,10 +404,10 @@ Fourth, identify the person who will be responsible for maintaining contact info
 
 ---
 
-# 5. Roles and responsibilities
+# Roles and responsibilities
 
 .two-third[
-5.1 Outline the roles and responsibilities for implementing this data management plan.
+Outline the roles and responsibilities for implementing this data management plan.
 - For example:
   - Who will be responsible for data management and for monitoring the data management plan?
   - How will adherence to this data management plan be checked or demonstrated?
@@ -424,16 +425,16 @@ Explain how the responsibilities regarding the management of your data will be d
 
 ---
 
-# 6. Budget
+# Budget
 
 .two-third[
-6.1  Anticipated costs
+Anticipated costs
 - Time for data preparation & documentation
 - Hardware/software for data preparation & documentation
 - Personnel
 - Archive costs
 
-6.2  How costs will be paid
+How costs will be paid
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image21.png)

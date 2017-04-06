@@ -360,7 +360,7 @@ class: center
 
 # What is the Data Life Cycle?
 
-.wCaption[![](images/data-life-cycle.png)]
+.wCaption[![](images/DLC.png)]
 
 ???
 A data lifecycle illustrates stages thru which well-managed data passes from the inception of a research project to its conclusion. In the reality of science research, the stages do not always follow a continuous circle.

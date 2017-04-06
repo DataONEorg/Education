@@ -154,12 +154,14 @@ Most universities and government agencies have written policies that state that 
 
 # Copyright versus License
 
-Copyright: “[T]he body of exclusive rights granted by law to copyright owners for protection of their work.” *--U.S. Copyright Office*
+**Copyright:** “[T]he body of exclusive rights granted by law to copyright owners for protection of their work.” *--U.S. Copyright Office*
 * Facts and data cannot be protected by copyright
 * Metadata and data arrangement can be protected (sometimes)
 
-License: States what can be done with the data and how that data can be redistributed (e.g., GPL and CC)
-* Waiver: (e.g., CC0) relinquishes all rights of ownership or control and usually commits the “work” to the public domain
+**License:** states what can be done with the data and how that data can be redistributed (e.g., General Public License (GPL) and Creative Commons(CC))
+
+**Waiver:** (e.g., CC0) relinquishes all rights of ownership or control and usually commits the “work” to the public domain
+
 * Intellectual property laws will vary depending upon country or region
 
 ???

@@ -465,6 +465,8 @@ You should identify how the costs associated with your DMP will be paid.
 ![dmponline.dcc.ac.uk](images/DMPOnline_web.png)
 ]
 
+* Several tools are available for creating data management plans. Two of the most commonly used are the DMPTool (US funders only) and DMP Online (UK/EU funders only).
+
 ???
 
 There are several tools available for creating data management plans. Two of the most commonly used are the DMPTool (US funders only) and DMP Online (UK/EU funders only).  
@@ -477,17 +479,8 @@ Both operate as “wizards” and provide prompts for the user to fill out in or
 
 ***From Grant Proposal Guidelines:***
 
-> Plans for data management and sharing of the products of research. Proposals must include a supplementary document of no more than two pages labeled “Data Management Plan”. This supplement should describe how the proposal will conform to NSF policy on the dissemination and sharing of research results (in AAG), and may include:
->
 > 1. the **types of data**, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project
 > 2. the **standards to be used for data and metadata format** and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies)
-
----
-
-# NSF DMP Requiremensts, continued
-
-***From Grant Proposal Guidelines:***
-
 > 3. **policies for access and sharing**, including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements
 > 4. policies and **provisions for re-use, re-distribution**, and the production of **derivatives**	
 > 5. **plans for archiving** data, samples, and other research products, and for preservation of access to them
@@ -496,6 +489,8 @@ Both operate as “wizards” and provide prompts for the user to fill out in or
 ???
 
 We will now focus on NSF’s data management plans.  As of January 2011 NSF requires that a two page data management plan be included with submitted proposals. This is in addition to the 15 pages for the proposal.
+
+Plans for data management and sharing of the products of research. Proposals must include a supplementary document of no more than two pages labeled “Data Management Plan”. This supplement should describe how the proposal will conform to NSF policy on the dissemination and sharing of research results (in AAG), and may include the 5 main components on this slide.
 
 ---
 
@@ -506,13 +501,9 @@ We will now focus on NSF’s data management plans.  As of January 2011 NSF requ
 **Dissemination and Sharing of Research Results**
 
 > a. Promptly publish with appropriate authorship
-
 > b. Share data, samples, physical collections, and supporting materials with others, within a reasonable timeframe 
-
 > c. Share software and inventions 
-
 > d. Investigators can keep their legal rights over their intellectual property, but they still have to make their results, data, and collections available to others 
-
 > e. Policies will be implemented via 
   - Proposal review
   - Award negotiations and conditions
@@ -549,20 +540,6 @@ Major components of a DMP:
 
 ---
 
-# About
-
-The full slide deck may be downloaded from:
-[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
-
-**Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved Nov12, 2012. From [http://www.dataone.org/sites/all/documents/L03_DataManagementPlanning.pptx](http://www.dataone.org/sites/all/documents/L03_DataManagementPlanning.pptx)
-
-**Copyright license information:**
-No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
-![CCBY0](images/lesson01-pptimages/image50.png)
-
----
-
 # DMP Resources
 
 University of Virginia Library
@@ -587,11 +564,8 @@ DataONE
 # About
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
-The full slide deck (in PowerPoint) may be downloaded from:
-[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
-
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From XXXX
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

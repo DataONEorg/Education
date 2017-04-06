@@ -194,11 +194,11 @@ Instead, they were able to produce field notes, data approval records, and the l
 
 # Importance of Data Management
 
-.one-half[
+.two-third[
 ![](images/datamgt-import.png)
 *Source: guardian.uk* ]
 
-.one-half[
+.one-third[
 The climate scientists at the centre of a media storm over leaked emails were yesterday cleared of accusations that they fudged their results and silenced critics, but a review found they had **failed to be open enough about their work.**
 ]
 
@@ -244,20 +244,19 @@ Manage your data for yourself:
 # Why Data Management:
 ## Foundation to Advance Science 
 
-.full-width[
 Data should be managed to:
 * Maximize the effective use and value of data & information assets
 * Continually improve quality including: accuracy, integrity, integration, timeliness of capture, presentation, relevance & usefulness
 * Ensure appropriate use of data and information
 * Facilitate data sharing
-* Ensure sustainability and accessibility in long term for re-use in science]
+* Ensure sustainability and accessibility in long term for re-use in science
 
 
 ---
 
 # Data Management Facilitates Sharing and Re-use
 
-.wCaption[![CC image by UWW ResNet on Flickr](images/data-mgt-graphic.png)]
+.center.wCaption[![CC image by UWW ResNet on Flickr](images/data-mgt-graphic.png)]
 
 ???
 Data management and organization facilitate archiving, sharing and publishing data. These activities feed data re-use and reproducibility in science.
@@ -266,9 +265,9 @@ Data management and organization facilitate archiving, sharing and publishing da
 
 # Well-Managed Data Can Result in Re-use, Integration and New Science
 
-.three-fourth[![](images/data-integration.png)
-*Source: *
-]
+.center[![](images/data-integration.png)]
+*Image from DataONE*
+
 
 ???
 By re-using data collected from a variety of sources – eBird database, land cover data, meteorology, and remotely sensed -- this project was able to compile and process the data using supercomputering to determine bird migration routes for particular species.
@@ -284,8 +283,8 @@ By re-using data collected from a variety of sources – eBird database, land co
 
 # Where a majority of data end up now…
 
-![Recreated from Klump et al 2006](images/where-data-end.png)
-*Recreated from Klump et al 2006*
+.center[![](images/where-data-end.png)
+*Recreated from Klump et al 2006*]
 
 ???
 There is an abundance of data and metadata (if it is done) end up in filing cabinets, on discarded hard drives, in hard-copy journals on the library shelves -- or on the web, but many are subscription only journals.
@@ -296,8 +295,8 @@ There is an abundance of data and metadata (if it is done) end up in filing cabi
 
 # Imagine if data were more accessible….
 
-![Recreated from Klump et al 2006](images/data-more-accessible.png)
-*Recreated from Klump et al 2006*
+.center[![](images/data-more-accessible.png)
+*Recreated from Klump et al 2006*]
 
 ???
 Data should be properly managed and eventually be placed where they are accessible, understandable, and re-usable.
@@ -334,7 +333,7 @@ A new image processing technique reveals something not before seen in this Hubbl
 <footer>D. Lafrenière et al., Astrophysical Journal Letters</footer>
 
 ![D. Lafrenière et al., ApJ Letters](images/hubble.png)
-*D. Lafrenière et al., ApJ Letters*
+
 ---
 
 # New Discoveries
@@ -356,11 +355,9 @@ A new image processing technique reveals something not before seen in this Hubbl
 
 
 ---
-class: center
-
 # What is the Data Life Cycle?
 
-.wCaption[![](images/DLC.png)]
+.center.wCaption[![](images/DLC.png)]
 
 ???
 A data lifecycle illustrates stages thru which well-managed data passes from the inception of a research project to its conclusion. In the reality of science research, the stages do not always follow a continuous circle.

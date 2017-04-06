@@ -43,7 +43,7 @@ After completing this lesson, the participant will be able to:
 
 # The Data Life Cycle
 
-![The DataONE Data Life Cycle](images/slide4.png)
+.center[![The DataONE Data Life Cycle](images/slide4.png)]
 
 ???
 

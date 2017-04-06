@@ -162,11 +162,14 @@ Most universities and government agencies have written policies that state that 
 
 **Waiver:** (e.g., CC0) relinquishes all rights of ownership or control and usually commits the “work” to the public domain
 
-* Intellectual property laws will vary depending upon country or region
+Intellectual property laws will vary depending upon country or region.
+Copyright is a precursor to having the power to assign licenses or waivers.
+
+The line between data that is “purely factual” vs descriptive is blurry and can be subjective at times.  In some cases, such as a biodiversity data set, much of the data may be considered to be purely factual (e.g., a place name, a species name) while other data within the same data set may contain descriptions of a place that, while being factual in nature, are actually the creative content of the individual(s) making the observations.
 
 ???
 
-You need to have copyright before you can have the power to assign licenses or waivers.
+Copyright is a precursor to having the power to assign licenses or waivers.
 
 *The line between data that is “purely factual” vs descriptive is blurry and can be subjective at times.  In some cases, such as a biodiversity data set, much of the data may be considered to be purely factual (e.g., a place name, a species name) while other data within the same data set may contain descriptions of a place that, while being factual in nature, are actually the creative content of the individual(s) making the observations.  See Slide: Fact and Copyright for examples of current case law.
 
@@ -177,7 +180,7 @@ Reference: http://fairuse.stanford.edu/overview/faqs/copyright-basics/
 
 ---
 
-# Fact and Copyright
+# Facts and Copyright
 
 * Facts cannot be protected by copyright, but what is a fact?
 * Current case law determines the limits:
@@ -192,7 +195,7 @@ Reference: http://fairuse.stanford.edu/overview/faqs/copyright-basics/
 
 Feist vs. Rural:
 From https://en.wikipedia.org/wiki/Feist_Publications,_Inc.,_v._Rural_Telephone_Service_Co.
-Feist Publications, Inc., v. Rural Telephone Service Co., 499 U.S. 340 (1991), was a decision by the Supreme Court of the United Statesestablishing that information alone without a minimum of original creativity cannot be protected by copyright.[1] In the case appealed, Feist had copied information from Rural's telephone listings to include in its own, after Rural had refused to license the information. Rural sued for copyright infringement. The Court ruled that information contained in Rural's phone directory was not copyrightable and that therefore no infringement existed.
+Feist Publications, Inc., v. Rural Telephone Service Co., 499 U.S. 340 (1991), was a decision by the Supreme Court of the United States establishing that information alone without a minimum of original creativity cannot be protected by copyright.[1] In the case appealed, Feist had copied information from Rural's telephone listings to include in its own, after Rural had refused to license the information. Rural sued for copyright infringement. The Court ruled that information contained in Rural's phone directory was not copyrightable and that therefore no infringement existed.
 
 Baker vs. Seldon
 From https://en.wikipedia.org/wiki/Baker_v._Selden

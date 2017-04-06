@@ -479,11 +479,11 @@ Both operate as “wizards” and provide prompts for the user to fill out in or
 
 ***From Grant Proposal Guidelines:***
 
-> 1. the **types of data**, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project
-> 2. the **standards to be used for data and metadata format** and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies)
-> 3. **policies for access and sharing**, including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements
-> 4. policies and **provisions for re-use, re-distribution**, and the production of **derivatives**	
-> 5. **plans for archiving** data, samples, and other research products, and for preservation of access to them
+> * the **types of data**, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project
+> * the **standards to be used for data and metadata format** and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies)
+> * **policies for access and sharing**, including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements
+> * policies and **provisions for re-use, re-distribution**, and the production of **derivatives**	
+> * **plans for archiving** data, samples, and other research products, and for preservation of access to them
 > http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/gpg_2.jsp#dmp
 
 ???

@@ -29,6 +29,7 @@ QA/QC best practices
 
 ???
 
+
 First we will define quality assurance and quality control, and review definitions for other related terms including data contamination, and review the common types of errors in data. Then we will review some best practices that can be implemented before data collection, during data collection, and after data collection to ensure high-quality data. 
 
 ---

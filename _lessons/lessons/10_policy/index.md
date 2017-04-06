@@ -137,7 +137,7 @@ Most universities and government agencies have written policies that state that 
 
 # Why Does Ownership & Control Matter?
 
-.one-half[
+.one-third[
 * For Creators:
    * to derive benefit as a result of their work
 * For Others:
@@ -145,7 +145,7 @@ Most universities and government agencies have written policies that state that 
    * To know where to get permission for use.
 ]
 
-.one-half[
+.two-third[
 ![Photo Attribution: Attention By Viktor Vorobyev at the Noun Project](images/image16.png)
   *Photo Attribution: Attention By Viktor Vorobyev at the Noun Project*]
 
@@ -157,10 +157,10 @@ Copyright: “[T]he body of exclusive rights granted by law to copyright owners 
 <footer>--U.S. Copyright Office</footer>
 * Facts and data cannot be protected by copyright
 * Metadata and data arrangement can be protected (sometimes)
+
 License: States what can be done with the data and how that data can be redistributed (e.g., GPL and CC)
 * Waiver: (e.g., CC0) relinquishes all rights of ownership or control and usually commits the “work” to the public domain
 * Intellectual property laws will vary depending upon country or region
-
 
 ???
 

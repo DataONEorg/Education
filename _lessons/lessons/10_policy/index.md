@@ -6,11 +6,12 @@ layout: slides
 categories: ed-module
 ---
 
+class: center, middle
 # Legal and Policy Issues
 
- .three-fourth-center[![Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](images/image12.jpg)
-  *Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*]
- 
+.three-fourth-center[![Image Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](images/image12.jpg)
+  *Image Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*
+  ]
  
 ---
 
@@ -30,7 +31,7 @@ After completing this lesson, participants will be able to:
 * Legal – a law is “any written or positive rule or collection of rules prescribed under the authority of the state or nation.”
  * e.g., U.S. Copyright Act
 * Ethical – “being in accordance with the rules or standards for right conduct or practice, especially the standards of a profession.”
- * e.g., IRB & IACUC
+ * e.g., Institutional Review Board (IRB) & Institutional Animal Care and Use Committees (IACUC)
 * Policy -  a specified “course of action adopted for the sake of expediency, facility, etc.”
  * e.g., Paperwork Reduction Act
   
@@ -49,8 +50,8 @@ Resource for PRA: http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html
 # Intellectual Property (IP)
 
 .one-fourth[
-![Photo Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png](images/image10.png)
-  *Photo Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png*
+![Image Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png](images/image10.png)
+  *Image Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png*
 ]
 
 .three-fourth[
@@ -64,8 +65,8 @@ Resource for PRA: http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html
 # What does IP include?
 
 .one-half[
-![Photo Attribution: http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg](images/image04.jpg)
-  *Photo Attribution: http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg*
+![Image Attribution: http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg](images/image04.jpg)
+  *Image Attribution: http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg*
 ]
 
 .one-half[
@@ -92,8 +93,8 @@ Resource:  http://www.wipo.int/edocs/pubdocs/en/intproperty/450/wipo_pub_450.pdf
 * Nobody
 ]
 
-.one-half[![Photo Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg](images/image05.jpg)
-  *Photo Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg*]
+.one-half[![Image Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg](images/image05.jpg)
+  *Image Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg*]
 
 ???
 
@@ -117,8 +118,8 @@ Example:  A data set, produced under a federal grant, contained within an instit
 ]
 
 .one-half[
-![Photo Attribution: http://cdn.gobankingrates.com/wp-content/uploads/nashville-housing-market-overview-300x238.jpg](images/image08.png)
-  *Photo Attribution: http://cdn.gobankingrates.com/wp-content/uploads/nashville-housing-market-overview-300x238.jpg*
+![Image Attribution: http://cdn.gobankingrates.com/wp-content/uploads/nashville-housing-market-overview-300x238.jpg](images/image08.png)
+  *Image Attribution: http://cdn.gobankingrates.com/wp-content/uploads/nashville-housing-market-overview-300x238.jpg*
 ]
 
 ???
@@ -137,35 +138,35 @@ Most universities and government agencies have written policies that state that 
 
 # Why Does Ownership & Control Matter?
 
-.one-half[
+.two-third[
 * For Creators:
    * to derive benefit as a result of their work
 * For Others:
-   * To avoid potential legal trouble
-   * To know where to get permission for use.
+   * to avoid potential legal trouble
+   * to know where to get permission for use.
 ]
 
-.one-half[
-![Photo Attribution: Attention By Viktor Vorobyev at the Noun Project](images/image16.png)
-  *Photo Attribution: Attention By Viktor Vorobyev at the Noun Project*
-]
+.one-third[
+![Image Attribution: Attention By Viktor Vorobyev at the Noun Project](images/image16.png)
+  *Image Attribution: Attention By Viktor Vorobyev at the Noun Project*]
 
 ---
 
 # Copyright versus License
 
-Copyright: “[T]he body of exclusive rights granted by law to copyright owners for protection of their work.” 
-<footer>--U.S. Copyright Office</footer>
+**Copyright:** “[T]he body of exclusive rights granted by law to copyright owners for protection of their work.” *--U.S. Copyright Office*
 * Facts and data cannot be protected by copyright
 * Metadata and data arrangement can be protected (sometimes)
-License: States what can be done with the data and how that data can be redistributed (e.g., GPL and CC)
-* Waiver: (e.g., CC0) relinquishes all rights of ownership or control and usually commits the “work” to the public domain
-* Intellectual property laws will vary depending upon country or region
 
+**License:** states what can be done with the data and how that data can be redistributed (e.g., General Public License (GPL) and Creative Commons(CC))
+
+**Waiver:** (e.g., CC0) relinquishes all rights of ownership or control and usually commits the “work” to the public domain
+
+Intellectual property laws will vary depending upon country or region.
+
+Copyright is a precursor to having the power to assign licenses or waivers.
 
 ???
-
-You need to have copyright before you can have the power to assign licenses or waivers.
 
 *The line between data that is “purely factual” vs descriptive is blurry and can be subjective at times.  In some cases, such as a biodiversity data set, much of the data may be considered to be purely factual (e.g., a place name, a species name) while other data within the same data set may contain descriptions of a place that, while being factual in nature, are actually the creative content of the individual(s) making the observations.  See Slide: Fact and Copyright for examples of current case law.
 
@@ -176,22 +177,22 @@ Reference: http://fairuse.stanford.edu/overview/faqs/copyright-basics/
 
 ---
 
-# Fact and Copyright
+# Facts and Copyright
 
 * Facts cannot be protected by copyright, but what is a fact?
-* Current case law determines the limits.
+* Current case law determines the limits:
    * Feist Publications, Inc. vs. Rural Telephone Service Co.
    * Baker v. Seldon
    * Miller v. Universal Studios
 
-![Photo Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg](images/image06.jpg)
-  *Photo Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg*
+.center[![Image Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg](images/image06.jpg)
+  *Image Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg*]
   
 ???
 
 Feist vs. Rural:
 From https://en.wikipedia.org/wiki/Feist_Publications,_Inc.,_v._Rural_Telephone_Service_Co.
-Feist Publications, Inc., v. Rural Telephone Service Co., 499 U.S. 340 (1991), was a decision by the Supreme Court of the United Statesestablishing that information alone without a minimum of original creativity cannot be protected by copyright.[1] In the case appealed, Feist had copied information from Rural's telephone listings to include in its own, after Rural had refused to license the information. Rural sued for copyright infringement. The Court ruled that information contained in Rural's phone directory was not copyrightable and that therefore no infringement existed.
+Feist Publications, Inc., v. Rural Telephone Service Co., 499 U.S. 340 (1991), was a decision by the Supreme Court of the United States establishing that information alone without a minimum of original creativity cannot be protected by copyright.[1] In the case appealed, Feist had copied information from Rural's telephone listings to include in its own, after Rural had refused to license the information. Rural sued for copyright infringement. The Court ruled that information contained in Rural's phone directory was not copyrightable and that therefore no infringement existed.
 
 Baker vs. Seldon
 From https://en.wikipedia.org/wiki/Baker_v._Selden
@@ -285,8 +286,8 @@ When using data
 ]
 
 .one-half[
-![Photo Attribution: http://soctheory.iheartsociology.com/wp-content/uploads/2011/10/IMG02369-20111028-1602.jpg](images/image11.jpg)
-*Photo Attribution: http://soctheory.iheartsociology.com/wp-content/uploads/2011/10/IMG02369-20111028-1602.jpg*
+![Image Attribution: http://soctheory.iheartsociology.com/wp-content/uploads/2011/10/IMG02369-20111028-1602.jpg](images/image11.jpg)
+*Image Attribution: http://soctheory.iheartsociology.com/wp-content/uploads/2011/10/IMG02369-20111028-1602.jpg*
 ]
 
 ???
@@ -299,8 +300,8 @@ Resource: http://www.vertnet.org/resources/norms.html
 # Ethical Use of Data
 
 .one-half[
-![Photo Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/](images/image14.jpg)
-*Photo Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/*
+![Image Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/](images/image14.jpg)
+*Image Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/*
 ]
 
 .one-half[
@@ -318,18 +319,18 @@ Resource: http://www.vertnet.org/resources/norms.html
 # Why might data use or sharing be restricted?
 
 .two-third[
-* Threatened and endangered species
+* Data involves threatened and endangered species
 * National security and classified research
 * Export controls
    * Can apply to technologies and data
 * Use of Human Subjects
    * Personally identifiable information of any kind
-   * E.g., HIPAA as governing law for personal health information
+   * E.g., Health Insurance Portability and Accountability Act (HIPAA) as governing law for personal health information
 ]
 
 .one-third[
-![Photo Attribution: https://www.iconfinder.com/icons/40968/folder_red_restricted_icon](images/image13.png)
-*Photo Attribution: https://www.iconfinder.com/icons/40968/folder_red_restricted_icon*
+![Image Attribution: https://www.iconfinder.com/icons/40968/folder_red_restricted_icon](images/image13.png)
+*Image Attribution: https://www.iconfinder.com/icons/40968/folder_red_restricted_icon*
 ]
 
 ???
@@ -381,16 +382,18 @@ Re: Open vs. Proprietary.  Universities and other umbrella entities may retain o
 # Privacy and Security
 
 .one-half[
-![Photo Attribution: http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg](images/image15.jpg)
-*Photo Attribution: http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg*
+![Image Attribution: http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg](images/image15.jpg)
+*Image Attribution: http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg*
 ]
 
 .one-half[
+Involves: 
 * What we can collect and how 
 * How we share data, results and outcomes
 * Reuse of human subject data
 * Data storage and destruction
-* IRB interpretations and review across institutions are not always consistent
+
+IRB interpretations and review across institutions are not always consistent
 ]
 
 ???
@@ -407,10 +410,12 @@ IRB approvals must be re-reviewed if the study changes in a meaningful way.
 
 * Privacy
    * Protects access to individuals (or entities)
-
 * Confidentiality
    * Protects access to information about individuals
    * Can be thought of as information privacy
+   
+.three-fourth-center[![CC image by Blue Coat Photos on flickr](images/image19.png)
+*Image Attribution: CC image by Blue Coat Photos on flickr*]
 
 ???
 
@@ -433,17 +438,22 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 
 # Resources
 
-1. Frequently asked questions about PRA / Information Collection. Accessed June 26, 2015 at http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html.
-2. Creative Commons. Accessed June 26, 2015 at https://creativecommons.org.
-3. Norms for data use and publication. Accessed June 26, 2015 at http://www.Vertnet.org/resources/norms.html.
-4. Export controls. Accessed June 26, 2015 at http://vcresearch.berkeley.edu/export-controls.
-5. Protected groups. Accessed June 26, 2015 at http://www.uidaho.edu/ora/committees/irb/protectedgroups.
-6. Health information privacy. Accessed June 26, 2015 at http://www.hhs.gov/ocr/privacy.  
-7. Protecting personal health information in research: understanding the HIPAA privacy rule. Accessed June 26, 2015 athttp://privacyruleandresearch.nih.gov/pr_02.asp.
-8. Information Liability. Accessed June 26, 2015 at http://www.law.fsu.edu/journals/lawreview/downloads/263/phil.pdf.
-9. Guidelines for Responsible Data Management in Scientific Research. Accessed June 26, 2015 at http://ori.hhs.gov/education/products/clinicaltools/data.pdf
-10. Who Owns Research Data? Accessed June 26, 2015 at http://ori.dhhs.gov/education/products/columbia_wbt/rcr_data/case/index.html#2 
-11. Constructing Access Permissions. Accessed June 26, 2015 at http://libweb.uoregon.edu/datamanagement/sharingdata.html#three
+* Frequently asked questions about PRA / Information Collection. Accessed June 26, 2015 at http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html.
+* Creative Commons. Accessed June 26, 2015 at https://creativecommons.org.
+* Norms for data use and publication. Accessed June 26, 2015 at http://www.Vertnet.org/resources/norms.html.
+* Export controls. Accessed June 26, 2015 at http://vcresearch.berkeley.edu/export-controls.
+* Protected groups. Accessed June 26, 2015 at http://www.uidaho.edu/ora/committees/irb/protectedgroups.
+* Health information privacy. Accessed June 26, 2015 at http://www.hhs.gov/ocr/privacy.  
+
+---
+
+# Resources, continued
+
+* Protecting personal health information in research: understanding the HIPAA privacy rule. Accessed June 26, 2015 athttp://privacyruleandresearch.nih.gov/pr_02.asp.
+* Information Liability. Accessed June 26, 2015 at http://www.law.fsu.edu/journals/lawreview/downloads/263/phil.pdf.
+* Guidelines for Responsible Data Management in Scientific Research. Accessed June 26, 2015 at http://ori.hhs.gov/education/products/clinicaltools/data.pdf
+* Who Owns Research Data? Accessed June 26, 2015 at http://ori.dhhs.gov/education/products/columbia_wbt/rcr_data/case/index.html#2 
+* Constructing Access Permissions. Accessed June 26, 2015 at http://libweb.uoregon.edu/datamanagement/sharingdata.html#three
 
 
 ---
@@ -451,7 +461,7 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From XXXX
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

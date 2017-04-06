@@ -413,6 +413,9 @@ IRB approvals must be re-reviewed if the study changes in a meaningful way.
 * Confidentiality
    * Protects access to information about individuals
    * Can be thought of as information privacy
+   
+![Photo Attribution: http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg](images/image19.jpg)
+*Photo Attribution: CC image by Blue Coat Photos on flickr*
 
 ???
 

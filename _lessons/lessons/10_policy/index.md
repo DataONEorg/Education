@@ -153,7 +153,7 @@ Most universities and government agencies have written policies that state that 
 
 # Copyright versus License
 
-Copyright: “[T]he body of exclusive rights granted by law to copyright owners for protection of their work.” <footer>--U.S. Copyright Office</footer>
+Copyright: “[T]he body of exclusive rights granted by law to copyright owners for protection of their work.”<footer>--U.S. Copyright Office</footer>
 * Facts and data cannot be protected by copyright
 * Metadata and data arrangement can be protected (sometimes)
 

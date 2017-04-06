@@ -8,12 +8,9 @@ categories: ed-module
 
 # Legal and Policy Issues
 
- ![Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](images/image12.jpg)
-  *Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*
-  
- .three-fourth-center[
- ![](images/image03.png)
- ]
+ .three-fourth-center[![Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](images/image12.jpg)
+  *Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*]
+ 
  
 ---
 

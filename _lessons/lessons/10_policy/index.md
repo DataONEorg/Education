@@ -153,8 +153,7 @@ Most universities and government agencies have written policies that state that 
 
 # Copyright versus License
 
-Copyright: “[T]he body of exclusive rights granted by law to copyright owners for protection of their work.” 
-<footer>--U.S. Copyright Office</footer>
+Copyright: “[T]he body of exclusive rights granted by law to copyright owners for protection of their work.” <footer>--U.S. Copyright Office</footer>
 * Facts and data cannot be protected by copyright
 * Metadata and data arrangement can be protected (sometimes)
 
@@ -178,13 +177,13 @@ Reference: http://fairuse.stanford.edu/overview/faqs/copyright-basics/
 # Fact and Copyright
 
 * Facts cannot be protected by copyright, but what is a fact?
-* Current case law determines the limits.
+* Current case law determines the limits:
    * Feist Publications, Inc. vs. Rural Telephone Service Co.
    * Baker v. Seldon
    * Miller v. Universal Studios
 
-![Photo Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg](images/image06.jpg)
-  *Photo Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg*
+.center[![Photo Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg](images/image06.jpg)
+  *Photo Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg*]
   
 ???
 
@@ -298,8 +297,8 @@ Resource: http://www.vertnet.org/resources/norms.html
 # Ethical Use of Data
 
 .one-half[
-![Photo Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/](images/image14.jpg)
-*Photo Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/*
+![Photo Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/](images/image14.jpg)]
+.center[*Photo Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/*
 ]
 
 .one-half[

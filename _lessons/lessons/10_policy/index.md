@@ -19,18 +19,17 @@ categories: ed-module
 
 # Learning Outcomes
 
-.full-width[
 After completing this lesson, participants will be able to:
 
 * Identify ethical, legal, and policy issues for managing research data
 * Define copyrights, licenses and waivers
 * Understand reasons behind data restrictions and how to observe them
 * Discuss ethical considerations surrounding the use of research data
-]
+
 ---
 
 # Setting the Stage
-.full-width[
+
 * Legal – a law is “any written or positive rule or collection of rules prescribed under the authority of the state or nation.”
  * e.g., U.S. Copyright Act
 * Ethical – “being in accordance with the rules or standards for right conduct or practice, especially the standards of a profession.”
@@ -39,7 +38,7 @@ After completing this lesson, participants will be able to:
  * e.g., Paperwork Reduction Act
   
 <footer>-- Definitions from Dictionary.com</footer>
-]
+
 ???
 
 IRB stands for Institutional Review Board and IACUC stands for Institutional Animal Care and Use Committee. Both are institutional structures, which exist to ensure that research meets the ethical standards of that institution and the scientific community.
@@ -157,17 +156,14 @@ Most universities and government agencies have written policies that state that 
 
 # Copyright versus License
 
-.full-width[
 Copyright: “[T]he body of exclusive rights granted by law to copyright owners for protection of their work.” 
 <footer>--U.S. Copyright Office</footer>
 * Facts and data cannot be protected by copyright
 * Metadata and data arrangement can be protected (sometimes)
-]
-.full-width[
 License: States what can be done with the data and how that data can be redistributed (e.g., GPL and CC)
 * Waiver: (e.g., CC0) relinquishes all rights of ownership or control and usually commits the “work” to the public domain
 * Intellectual property laws will vary depending upon country or region
-]
+
 
 ???
 
@@ -455,9 +451,6 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 ---
 ## About
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
-
-The full slide deck (in PowerPoint) may be downloaded from:
-[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
 
 **Suggested citation:**
 DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)

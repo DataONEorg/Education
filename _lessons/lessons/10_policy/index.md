@@ -316,7 +316,7 @@ Resource: http://www.vertnet.org/resources/norms.html
 # Why might data use or sharing be restricted?
 
 .two-third[
-* Threatened and endangered species
+* Data involves threatened and endangered species
 * National security and classified research
 * Export controls
    * Can apply to technologies and data
@@ -405,7 +405,6 @@ IRB approvals must be re-reviewed if the study changes in a meaningful way.
 
 * Privacy
    * Protects access to individuals (or entities)
-
 * Confidentiality
    * Protects access to information about individuals
    * Can be thought of as information privacy
@@ -431,17 +430,22 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 
 # Resources
 
-1. Frequently asked questions about PRA / Information Collection. Accessed June 26, 2015 at http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html.
-2. Creative Commons. Accessed June 26, 2015 at https://creativecommons.org.
-3. Norms for data use and publication. Accessed June 26, 2015 at http://www.Vertnet.org/resources/norms.html.
-4. Export controls. Accessed June 26, 2015 at http://vcresearch.berkeley.edu/export-controls.
-5. Protected groups. Accessed June 26, 2015 at http://www.uidaho.edu/ora/committees/irb/protectedgroups.
-6. Health information privacy. Accessed June 26, 2015 at http://www.hhs.gov/ocr/privacy.  
-7. Protecting personal health information in research: understanding the HIPAA privacy rule. Accessed June 26, 2015 athttp://privacyruleandresearch.nih.gov/pr_02.asp.
-8. Information Liability. Accessed June 26, 2015 at http://www.law.fsu.edu/journals/lawreview/downloads/263/phil.pdf.
-9. Guidelines for Responsible Data Management in Scientific Research. Accessed June 26, 2015 at http://ori.hhs.gov/education/products/clinicaltools/data.pdf
-10. Who Owns Research Data? Accessed June 26, 2015 at http://ori.dhhs.gov/education/products/columbia_wbt/rcr_data/case/index.html#2 
-11. Constructing Access Permissions. Accessed June 26, 2015 at http://libweb.uoregon.edu/datamanagement/sharingdata.html#three
+* Frequently asked questions about PRA / Information Collection. Accessed June 26, 2015 at http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html.
+* Creative Commons. Accessed June 26, 2015 at https://creativecommons.org.
+* Norms for data use and publication. Accessed June 26, 2015 at http://www.Vertnet.org/resources/norms.html.
+* Export controls. Accessed June 26, 2015 at http://vcresearch.berkeley.edu/export-controls.
+* Protected groups. Accessed June 26, 2015 at http://www.uidaho.edu/ora/committees/irb/protectedgroups.
+* Health information privacy. Accessed June 26, 2015 at http://www.hhs.gov/ocr/privacy.  
+
+---
+
+# Resources, continued
+
+* Protecting personal health information in research: understanding the HIPAA privacy rule. Accessed June 26, 2015 athttp://privacyruleandresearch.nih.gov/pr_02.asp.
+* Information Liability. Accessed June 26, 2015 at http://www.law.fsu.edu/journals/lawreview/downloads/263/phil.pdf.
+* Guidelines for Responsible Data Management in Scientific Research. Accessed June 26, 2015 at http://ori.hhs.gov/education/products/clinicaltools/data.pdf
+* Who Owns Research Data? Accessed June 26, 2015 at http://ori.dhhs.gov/education/products/columbia_wbt/rcr_data/case/index.html#2 
+* Constructing Access Permissions. Accessed June 26, 2015 at http://libweb.uoregon.edu/datamanagement/sharingdata.html#three
 
 
 ---

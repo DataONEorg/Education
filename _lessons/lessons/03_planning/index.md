@@ -67,6 +67,9 @@ However the plan should be revisited often throughout the project to ensure prop
 
 <footer>-- University of Virginia Library</footer>
 
+.one-third[![CC image by Hope House Press on Unsplash](images/image28.jpg)
+ *CC image by Hope House Press on Unsplash*
+
 ???
 
 A DMP is a formal document that outlines what you will do with the data both during and after your research project.  

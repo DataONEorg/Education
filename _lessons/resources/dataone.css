@@ -155,7 +155,7 @@ Overrides for the default remark css properties
 
 .middle {
   vertical-align: middle;
-};
+}
 
 .remark-slide-content h1 {
   font-size: 45px;
@@ -195,8 +195,13 @@ Overrides for the default remark css properties
   font-size: 25px;
 }
 
+/*
+Note: this works because remarkjs sets the viewport size to
+908 x 681 pixels and scales things dynamically with javascript as
+the window changes size.
+*/
 .remark-slide-content img {
-  max-height: 100vh;
+  max-height: 500px;
 }
 
 

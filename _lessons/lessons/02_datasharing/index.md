@@ -1,10 +1,14 @@
 ---
-title: "Data sharing"
-author: DataONE Community Engagement & Outreach
+title: "Data Sharing"
+author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
 layout: slides
+
+tags: [Data Management, Data Sharing]
+categories: [Teaching Module]
+status: published
+
 ---
-class: center, middle
 
 # Data Sharing
 
@@ -18,7 +22,7 @@ This is Lesson 2 of the DataONE Data Management learning series. This lesson cov
 
 ---
 
-# Lesson topics
+# Lesson Topics
 
 - Data sharing within the **data lifecycle**
 - **Value** of data sharing
@@ -31,12 +35,12 @@ This is Lesson 2 of the DataONE Data Management learning series. This lesson cov
 
 ???
 
-The topics covered in this lesson  include: the role of data sharing within the lifecycle, the value of data sharing, concerns about data sharing, and methods for making data sharable.
+The topics covered in this lesson include: the role of data sharing within the lifecycle, the value of data sharing, concerns about data sharing, and methods for making data sharable.
 
 
 ---
 
-# Learning objectives
+# Learning Objectives
 .two-third[
 **After completing this lesson,** the participant will be able to:
 

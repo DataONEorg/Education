@@ -174,7 +174,7 @@ Archiving your data publicly will require that it be stored in a non-proprietary
 * Two common tools: Google Docs, Excel
 ]
 
-![sheet4](images/pde6.png)
+![sheet4](images/pde6a.png)
 
 
 ???
@@ -187,7 +187,7 @@ Archiving your data publicly will require that it be stored in a non-proprietary
 
 ## Google Docs Forms
 
-![sheet4](images/pde7.png)
+![sheet4](images/pde7a.png)
 
 ???
 This is an example of a data entry form created in Googledocs.  Such forms are easy to create, and free.   Here, a form field is being created that will allow the user to select from three locations where data were collected.   In practice, GoogleDocs work best for entering survey data, or entering lots of text data.  

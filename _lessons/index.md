@@ -62,5 +62,8 @@ Show the tags
 ## Lessons
 {% assign idx = 0 %}
 {% for lesson in site.lessons %}
-- [![{{ lesson.title }}]({{ site.baseurl }}/lessons/{{ lesson.deck }}/{{ lesson.deck }}.png)]({{ site.baseurl }}{{ lesson.url }}) [PDF]({{ site.baseurl }}/lessons/{{ lesson.deck }}/{{ lesson.deck }}.pdf)
+  {% assign ldeck = lesson.url | split: '/' %}
+  {% assign ldeck = ldeck[2] %}
+- {{ ldeck }} [![{{ lesson.title }}]({{ site.baseurl }}/lessons/{{ ldeck }}/{{ ldeck }}.png)]({{ site.baseurl }}{{ lesson.url }}) [PDF]({{ site.baseurl }}/lessons/{{ ldeck }}/{{ ldeck }}.pdf)
+  - {{ lesson.categories | join: ',' | replace: ' ','_' }}
 {% endfor %}

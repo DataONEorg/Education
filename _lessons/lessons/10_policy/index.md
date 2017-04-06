@@ -31,7 +31,7 @@ After completing this lesson, participants will be able to:
 * Legal – a law is “any written or positive rule or collection of rules prescribed under the authority of the state or nation.”
  * e.g., U.S. Copyright Act
 * Ethical – “being in accordance with the rules or standards for right conduct or practice, especially the standards of a profession.”
- * e.g., IRB & IACUC
+ * e.g., Institutional Review Board (IRB) & Institutional Animal Care and Use Committees (IACUC)
 * Policy -  a specified “course of action adopted for the sake of expediency, facility, etc.”
  * e.g., Paperwork Reduction Act
   
@@ -154,7 +154,7 @@ Most universities and government agencies have written policies that state that 
 
 # Copyright versus License
 
-Copyright: “[T]he body of exclusive rights granted by law to copyright owners for protection of their work.”<footer>--U.S. Copyright Office</footer>
+Copyright: “[T]he body of exclusive rights granted by law to copyright owners for protection of their work.” *--U.S. Copyright Office*
 * Facts and data cannot be protected by copyright
 * Metadata and data arrangement can be protected (sometimes)
 

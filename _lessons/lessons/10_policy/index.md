@@ -86,7 +86,8 @@ Resource:  http://www.wipo.int/edocs/pubdocs/en/intproperty/450/wipo_pub_450.pdf
 
 # Who might claim control over data?
 
-.one-half[* You
+.one-half[
+* You
 * A funder
 * Student, scientist, researcher, PI
 * An institution

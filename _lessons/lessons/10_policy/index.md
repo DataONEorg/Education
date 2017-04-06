@@ -414,7 +414,7 @@ IRB approvals must be re-reviewed if the study changes in a meaningful way.
    * Protects access to information about individuals
    * Can be thought of as information privacy
    
-![CC image by Blue Coat Photos on flickr](images/image19.jpg)
+![CC image by Blue Coat Photos on flickr](images/image19.png)
 *Image Attribution: CC image by Blue Coat Photos on flickr*
 
 ???

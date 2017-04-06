@@ -196,7 +196,9 @@ This was potentially disastrous in terms of defending the resource management pl
 
 # The Value of Metadata
 
-Rebuild Cycle Graphic manually
+.three-fourth-center[![Photo Attribution: DataONE Community Education & Outreach Working Group](images/MetadataHelps.png)
+*DataONE Community Education & Outreach Working Group*
+]
 
 ???
 
@@ -206,15 +208,16 @@ Metadata is useful to Data users, Data creators, and Organizations. In this era 
 
 # What is the Value to Scientists, Researchers, and other Data Creators?
 
-.full-width[Metadata allows data developers to:
+.two-third[Metadata allows data developers to:
 - Avoid data duplication 
 - Share reliable information
 - Publicize efforts – promote the work of a scientist  and his/her contributions to a field of study 
 - Metadata reuse saves time and resources in the long-run
 ]
 
-![Photo Attribution: CC image by US Embassy Guyana on Flickr](images/  )
+.one-third[![Photo Attribution: CC image by US Embassy Guyana on Flickr](images/image17.jpeg)
   *CC image by US Embassy Guyana on Flickr*
+  ]
 
 ???
 
@@ -233,7 +236,7 @@ Metadata records will help avoid data duplication because researchers can determ
 - **Understand** the dataset, including definitions of column names, or expected numerical ranges found in the data
 ]
 
-.one-third[![Photo Attribution: CC image by ASEE on Flickr](images/  )
+.one-third[![Photo Attribution: CC image by ASEE on Flickr](images/image18.png)
 *CC image by ASEE on Flickr*
 ]
 
@@ -245,19 +248,17 @@ Metadata allows the user to search for and access data from a variety of sources
 
 # What is the Value to Organizations?
 
-.two-third[Metadata helps ensure an organization’s investment in data: 
-- Documentation of data processing steps, quality control, definitions, data uses, and restrictions
-- Ability to use data after initial intended purpose
-- Allows organization to track data use and facilitates publication
-Transcends people and time: 
-- Offers data permanence
-- Creates institutional memory
-Advertises an organization’s research: 
-- Creates possible new partnerships and collaborations through data sharing
-]
+.full-width[Metadata helps ensure an organization’s investment in data: 
+- Documentation of data **processing steps**, quality control, definitions, data uses, and restrictions
+- Ability to **use** data after initial intended purpose
+- Allows organization to **track data use** and facilitates publication
 
-.one-third[![Photo Attribution: CC image by mambol on Flickr](images/  )
-*CC image by mambol on Flickr*
+Transcends people and time: 
+- Offers data **permanence**
+- Creates institutional memory
+
+Advertises an organization’s research: 
+- Creates possible new **partnerships** and collaborations through data sharing
 ]
 
 ???
@@ -271,6 +272,10 @@ An organization that keeps current metadata can benefit in many ways. Metadata r
 Metadata can support:
 - data distribution (discovery, catalogs)
 - data management (provenance, accountability, liability)
+]
+
+.three-fourth-center[![Photo Attribution: Unsplash.com](images/libraryUnsplash.jpg)
+]
 
 ???
 
@@ -282,7 +287,8 @@ Metadata is beneficial because it can be used to support data distribution, data
 
 The descriptive content of the metadata file can be used to identify, assess, and access available data resources.
 
-Rebuild graphic manually.
+![Photo Attribution: Ecological Applications](images/MetadataHelps.png)
+*DataONE Community Education & Outreach Working Group*
 
 ???
 

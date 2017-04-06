@@ -112,10 +112,10 @@ Example:  A data set, produced under a federal grant, contained within an instit
 # Identifying Ownership and Control
 
 .one-half[
-Funder agreement
-Institutional intellectual property policy
-Private company data use agreement
-Attached license
+* Funder agreement
+* Institutional intellectual property policy
+* Private company data use agreement
+* Attached license
 ]
 
 .one-half[

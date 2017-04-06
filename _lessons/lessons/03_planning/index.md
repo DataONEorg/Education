@@ -473,7 +473,7 @@ Both operate as “wizards” and provide prompts for the user to fill out in or
 
 ---
 
-# NSF DMP Requirements
+# National Science Foundation (NSF) DMP Requirements
 
 ***From Grant Proposal Guidelines:***
 
@@ -481,6 +481,13 @@ Both operate as “wizards” and provide prompts for the user to fill out in or
 >
 > 1. the **types of data**, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project
 > 2. the **standards to be used for data and metadata format** and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies)
+
+---
+
+# NSF DMP Requiremensts, continued
+
+***From Grant Proposal Guidelines:***
+
 > 3. **policies for access and sharing**, including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements
 > 4. policies and **provisions for re-use, re-distribution**, and the production of **derivatives**	
 > 5. **plans for archiving** data, samples, and other research products, and for preservation of access to them
@@ -492,21 +499,21 @@ We will now focus on NSF’s data management plans.  As of January 2011 NSF requ
 
 ---
 
-# NSF DMP Requirements
+# NSF DMP Requirements, continued
 
-***Summarized from Award & Administration Guide:***
+***Summarized from the Award & Administration Guide:***
 
-**4. Dissemination and Sharing of Research Results**
+**Dissemination and Sharing of Research Results**
 
-a. Promptly publish with appropriate authorship
+> a. Promptly publish with appropriate authorship
 
-b. Share data, samples, physical collections, and supporting materials with others, within a reasonable timeframe 
+> b. Share data, samples, physical collections, and supporting materials with others, within a reasonable timeframe 
 
-c. Share software and inventions 
+> c. Share software and inventions 
 
-d. Investigators can keep their legal rights over their intellectual property, but they still have to make their results, data, and collections available to others 
+> d. Investigators can keep their legal rights over their intellectual property, but they still have to make their results, data, and collections available to others 
 
-e. Policies will be implemented via 
+> e. Policies will be implemented via 
   - Proposal review
   - Award negotiations and conditions
   - Support/incentives

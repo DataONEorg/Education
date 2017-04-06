@@ -50,8 +50,8 @@ categories: ed-module
 
 # The Data Life Cycle
 
-![Photo Attribution: https://www.dataone.org/data-life-cycle](images/DataONE_Module3_LifeCycle.png)
-*Photo Attribution: https://www.dataone.org/data-life-cycle*
+.center[![Photo Attribution: https://www.dataone.org/data-life-cycle](images/DataONE_Module3_LifeCycle.png)
+*Photo Attribution: https://www.dataone.org/data-life-cycle*]
 
 ???
 
@@ -68,7 +68,7 @@ However the plan should be revisited often throughout the project to ensure prop
 
 <footer>-- University of Virginia Library</footer>
 
-.one-third[![CC image by Hope House Press on Unsplash](images/image28.jpg)
+.center[![CC image by Hope House Press on Unsplash](images/image28.jpg)
  *CC image by Hope House Press on Unsplash*]
 
 

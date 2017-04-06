@@ -283,7 +283,7 @@ By re-using data collected from a variety of sources – eBird database, land co
 
 # Where a majority of data end up now…
 
-.center[![](images/where-data-end.png)
+.middle.center[![](images/where-data-end.png)
 *Recreated from Klump et al 2006*]
 
 ???
@@ -295,7 +295,7 @@ There is an abundance of data and metadata (if it is done) end up in filing cabi
 
 # Imagine if data were more accessible….
 
-.center[![](images/data-more-accessible.png)
+.middle.center[![](images/data-more-accessible.png)
 *Recreated from Klump et al 2006*]
 
 ???
@@ -357,7 +357,8 @@ A new image processing technique reveals something not before seen in this Hubbl
 ---
 # What is the Data Life Cycle?
 
-.center.wCaption[![](images/DLC.png)]
+.middle.center[![](images/DLC.png)
+*DLC from DataONE*]
 
 ???
 A data lifecycle illustrates stages thru which well-managed data passes from the inception of a research project to its conclusion. In the reality of science research, the stages do not always follow a continuous circle.

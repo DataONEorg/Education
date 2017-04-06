@@ -297,8 +297,8 @@ Resource: http://www.vertnet.org/resources/norms.html
 # Ethical Use of Data
 
 .one-half[
-![Photo Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/](images/image14.jpg)]
-.center[*Photo Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/*
+![Photo Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/](images/image14.jpg)
+*Photo Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/*
 ]
 
 .one-half[

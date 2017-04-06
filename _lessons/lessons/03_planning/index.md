@@ -455,13 +455,13 @@ You should identify how the costs associated with your DMP will be paid.
 
 # Tools for Creating Data Management Plans
 
-.one-half[# DMPTool
-
+.one-half[**DMPTool**
+<br />
 ![dmptool.org](images/DMPTool_web.png)
 ]
 
-.one-half[# DMPOnline
-
+.one-half[**DMPOnline**
+<br />
 ![dmponline.dcc.ac.uk](images/DMPOnline_web.png)
 ]
 

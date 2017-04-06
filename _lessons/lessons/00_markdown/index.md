@@ -1,12 +1,11 @@
 ---
-title: "Moving the lessons to github"
-author: DataONE Community Engagement & Outreach
+title: "Stylesheet for GitHub Slides"
+author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
 layout: slides
-tags: [Data Management, GitHub]
+tags: [GitHub]
 categories: [Technical Tutorial]
 status: draft
-deck: "00_markdown"
 ---
 
 # It's working!

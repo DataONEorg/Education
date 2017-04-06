@@ -3,8 +3,9 @@ title: "Data Quality Control and Assurance"
 author: DataONE Community Engagement & Outreach
 update: Sept. 22, 2016
 layout: slides
-deck: 05_qaqc
-categories: [Teaching Modules]
+tags: [Data Management, Assure, QAQC]
+categories: [Teaching Module]
+status: published
 
 ---
 

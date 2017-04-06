@@ -1,12 +1,11 @@
 ---
 title: "Introduction to Data Management"
-
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
-
 layout: slides
-categories: ed-module
-deck: 01_management
+tags: [Data Management]
+categories: [Teaching Module]
+status: published
 ---
 
 class: center, middle

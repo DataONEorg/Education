@@ -1,5 +1,6 @@
 ---
 title: "Data Management Planning"
+author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
 layout: slides
 categories: ed-module

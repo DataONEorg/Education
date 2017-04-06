@@ -9,8 +9,8 @@ categories: ed-module
 class: center, middle
 # Legal and Policy Issues
 
- ![Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](images/image12.jpg)
-  *Image Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*
+.three-fourth-center[![Photo Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg(images/image12.jpg)
+  *Image Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*]
  
 ---
 

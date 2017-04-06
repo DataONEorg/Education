@@ -325,7 +325,7 @@ Resource: http://www.vertnet.org/resources/norms.html
    * Can apply to technologies and data
 * Use of Human Subjects
    * Personally identifiable information of any kind
-   * E.g., HIPAA as governing law for personal health information
+   * E.g., Health Insurance Portability and Accountability Act (HIPAA) as governing law for personal health information
 ]
 
 .one-third[
@@ -387,11 +387,13 @@ Re: Open vs. Proprietary.  Universities and other umbrella entities may retain o
 ]
 
 .one-half[
+Involves: 
 * What we can collect and how 
 * How we share data, results and outcomes
 * Reuse of human subject data
 * Data storage and destruction
-* IRB interpretations and review across institutions are not always consistent
+
+IRB interpretations and review across institutions are not always consistent
 ]
 
 ???
@@ -456,7 +458,7 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From XXXX
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

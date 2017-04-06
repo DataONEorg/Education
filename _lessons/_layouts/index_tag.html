@@ -1,0 +1,142 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>{{ page.title }}</title>
+   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/resources/tags_index.css" />
+
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{ site.analytics_code }}', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+
+{% comment %}
+The following part extracts all the tags from the lessons
+{% endcomment %}
+{% assign rawtags = "" %}
+{% assign rawcats = "" %}
+{% for lesson in site.lessons %}
+	{% assign ttags = lesson.tags | join:'|' | append:'|' %}
+	{% assign rawtags = rawtags | append:ttags %}
+	{% assign ccats = lesson.categories | join:'|' | append:'|' %}
+	{% assign rawcats = rawcats | append:ccats %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+{% assign rawcats = rawcats | split:'|' | sort %}
+
+{% comment %}
+Removes duplicated tags
+{% endcomment %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+	{% if tag != "" %}
+		{% if tags == "" %}
+			{% assign tags = tag | split:'|' %}
+		{% endif %}
+		{% unless tags contains tag %}
+			{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+		{% endunless %}
+	{% endif %}
+{% endfor %}
+{% assign cats = "" %}
+{% for cat in rawcats %}
+	{% if cat != "" %}
+		{% if cats == "" %}
+			{% assign cats = cat | split:'|' %}
+		{% endif %}
+		{% unless cats contains cat %}
+			{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
+		{% endunless %}
+	{% endif %}
+{% endfor %}
+
+
+<div class="wrap">
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h4>Filter Categories</h4>
+      </div>
+    </div><!-- end of row -->
+
+    <div class="row">
+      <div class="twelve columns">
+        <div class="programs">
+          <button class="filter-btn" data-filter="all">All</button>
+          {% for cat in cats %}
+          <button class="filter-btn" data-filter=".{{ cat | downcase | replace: ' ','_' }}">{{ cat }}</button>
+          {% endfor %}
+        </div>
+      </div>
+    </div><!-- end of row -->
+
+
+    <div class="row">
+      <div class="twelve columns">
+        <h4>Programs List</h4>
+      </div>
+    </div><!-- end of row -->
+
+
+    <div class="row">
+      <div class="twelve columns">
+        <ul class="courses" id="mix-wrapper">
+          {% for lesson in site.lessons %}
+            {% assign ldeck = lesson.url | split: '/' %}
+            {% assign ldeck = ldeck[2] %}
+            {% assign catclasses = "" %}
+            {% for cat in lesson.categories %}
+              {% assign cleancat = cat | downcase | replace: ' ', '_' %}
+              {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
+            {% endfor %}
+            <li class="mix-target {{ catclasses }}" 
+                data-order="5" 
+                data-year="4">
+                <a href="{{ site.baseurl }}{{ lesson.url }}"><img src="{{ site.baseurl }}/lessons/{{ lesson.deck }}/{{ lesson.deck }}.png">{{ lesson.title }}<br />{{ ldeck }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div><!-- end of row -->   
+  </div><!-- end of container -->
+</div><!-- end of wrap -->
+
+  <script src="{{ site.baseurl }}/resources/lib/mixitup.3.1.9.min.js">
+  </script>
+
+  <script>
+    mixitup('#mix-wrapper', {
+      load: {
+        sort: 'order:asc' /* default:asc */
+      },
+      animation: {
+        effects: 'fade', /* fade scale */
+        duration: 700 /* 600 */
+      },
+      classNames: {
+        block: 'programs', /* mixitup */
+        elementFilter: 'filter-btn', /* control */
+        elementSort: 'sort-btn' /* control */
+      },
+      selectors: {
+        target: '.mix-target' /* .mix */
+      }
+    });    
+  </script>
+
+</body>
+</html>

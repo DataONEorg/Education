@@ -59,7 +59,8 @@ Resource for PRA: http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html
 
 .three-fourth[
 “Intellectual property refers to creations of the mind, such as inventions; literary and artistic works; designs; and symbols, names and images used in commerce.”
--- World Intellectual Property Organization
+
+<footer>-- World Intellectual Property Organization</footer>
 ]
 
 ---
@@ -140,9 +141,9 @@ Most universities and government agencies have written policies that state that 
 # Why Does Ownership & Control Matter?
 
 .one-half[
-* For Creators
+* For Creators:
    * to derive benefit as a result of their work
-* For others
+* For Others:
    * To avoid potential legal trouble
    * To know where to get permission for use.
 ]
@@ -156,12 +157,15 @@ Most universities and government agencies have written policies that state that 
 
 # Copyright versus License
 
-Copyright: “ [T]he body of exclusive rights granted by law to copyright owners for protection of their work.” (U.S. Copyright Office)
+Copyright: “[T]he body of exclusive rights granted by law to copyright owners for protection of their work.” 
+<footer>--U.S. Copyright Office</footer>
+.full-width[
 * Facts and data* cannot be protected by copyright
 * Metadata and data arrangement can be protected (sometimes)
 * License: States what can be done with the data and how that data can be redistributed (e.g., GPL and CC)
 * Waiver: (e.g., CC0) relinquishes all rights of ownership or control and usually commits the “work” to the public domain
 * Intellectual property laws will vary depending upon country or region
+]
 
 ???
 

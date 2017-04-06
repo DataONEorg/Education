@@ -6,8 +6,7 @@ layout: slides
 
 class: center, middle
 
-# Tutorials on Data Management
-## Lesson 7: Metadata
+# Metadata
 
 ![Image Attribution: CC image by bonus on Flickr](images/image3.jpeg)
   *Image Attribution: CC image by bonus on Flickr*
@@ -178,6 +177,10 @@ Policy decisions based on data can only be defended if the metadata are good qua
 
 Controversies arise when metadata are incomplete and/or absent
 
+.three-fourth-center[![Photo of elk fighting](images/fighting.jpg)
+*Public domain image from Unsplash.com*
+]
+
 ???
 
 Regulatory agencies depend on metadata to defend the science behind decisions. If regulatory decisions are based on data that have no associated metadata or poor quality metadata, those decisions will not hold up in court. It is important to have accurate and detailed metadata records for supporting claims and policies. For example, the date when data are collected should be as specific as possible. In many situations, simply including the year that data were collected may not be sufficient. 
@@ -269,7 +272,7 @@ Metadata can support:
 - data distribution (discovery, catalogs)
 - data management (provenance, accountability, liability)
 
-.three-fourth-center[![Photo Attribution: Unsplash.com](images/libraryUnsplash.jpg)
+.three-fourth-center[![Photo of a hallway of books](images/libraryUnsplash.jpg)
 *Public domain image from Unsplash.com*
 ]
 
@@ -298,26 +301,23 @@ Metadata serves data discovery at multiple levels:
 
 # Data Distribution: Catalogs
 
-.one-half[**DataONE**
-- Data discovery, knowledge, community…for a sustainable future
-- https://search.dataone.org
-
-**Data.gov**
-- Federal e-gov geospatial data portal
-- http://www.geo.data.gov
-
-**Metacat**
-- Repository for data and metadata		
-- http://knb.ecoinformatics.org/index.jsp
+.one-half[- **DataONE**
+ - Data discovery, knowledge, community…for a sustainable future
+ - https://search.dataone.org
+- **Data.gov**
+ - Federal e-gov geospatial data portal
+ - http://www.geo.data.gov
+- **Metacat**
+ - Repository for data and metadata		
+ - http://knb.ecoinformatics.org/index.jsp
 ]
 
-.one-half[**US Geological Survey**
-- USGS Science Data Catalog
-- http://data.usgs.gov/datacatalog
-
-**ArcGIS Online**
-- ESRI sponsored national geospatial data portal
-- http://www.geographynetwork.com
+.one-half[- **US Geological Survey**
+ - USGS Science Data Catalog
+ - http://data.usgs.gov/datacatalog
+- **ArcGIS Online**
+ - ESRI sponsored national geospatial data portal
+ - http://www.geographynetwork.com
 ]
 
 ???
@@ -340,12 +340,16 @@ DataONE is an example of a metadata repository, available to all researchers.
 # Data Management: Provenance
 
 Metadata records can be used to track data provenance accurately
-- Are the data current?
-- Are the data in a reliable format?
-- Where are the data stored? 
-- Contact information
-- Distribution policies, availability, pricing, URLs
-- New derivations of the dataset
+- Are the data **current**?
+- Are the data in a **reliable format**?
+- Where are the data **stored**? 
+- **Contact** information
+- **Distribution** policies, availability, pricing, URLs
+- New **derivations** of the dataset
+
+.three-fourth-center[![Photo of jukebok buttons](images/abcdefgh.jpg)
+*Public domain image from Unsplash.com*
+]
 
 ???
 
@@ -380,10 +384,14 @@ Metadata allows you to repeat a scientific process (reproducibility) if methodol
 # Data Management: Liability
 
 Metadata is a declaration of:
-- Purpose – the originator’s intended application of the data
-- Use Constraints - inappropriate applications of the data
-- Completeness - features or geographies excluded from the data
-- Distribution Liability - explicit liability of the data producer and assumed liability of the consumer
+- **Purpose** – the originator’s intended application of the data
+- **Use Constraints** - inappropriate applications of the data
+- **Completeness** - features or geographies excluded from the data
+- **Distribution Liability** - explicit liability of the data producer and assumed liability of the consumer
+
+.three-fourth-center[![Image of farming tools](images/tools.jpg)
+  *Public domain image from Unsplash*
+  ]
 
 ???
 
@@ -406,8 +414,6 @@ Even if the value of data documentation is recognized, concerns remain as to the
 
 # Concerns About Creating Metadata (2)
 
-.
-.
 
 
 | Concern | Solution |

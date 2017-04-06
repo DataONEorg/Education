@@ -174,7 +174,7 @@ Archiving your data publicly will require that it be stored in a non-proprietary
 * Two common tools: Google Docs, Excel
 ]
 
-![sheet4](images/pde6.png)
+![sheet4](images/pde6a.png)
 
 
 ???
@@ -187,7 +187,7 @@ Archiving your data publicly will require that it be stored in a non-proprietary
 
 ## Google Docs Forms
 
-![sheet4](images/pde7.png)
+![sheet4](images/pde7a.png)
 
 ???
 This is an example of a data entry form created in Googledocs.  Such forms are easy to create, and free.   Here, a form field is being created that will allow the user to select from three locations where data were collected.   In practice, GoogleDocs work best for entering survey data, or entering lots of text data.  
@@ -402,19 +402,15 @@ At times you will need to combine multiple datasets into a superset in order to 
 ---
 
 ## Using R
-.full-width[
+.one-half[
 * Free (http://www.r-project.org/index.html)
 * Produces publication quality graphics
 * Lots of forums from which to get help
 * Software (such as Kepler for developing workflows) will integrate analytical components written in R
 ]
-
-
-
----
-## Using R
-
-![sheet16](images/pde17.png)
+.one-half[
+![sheet16](images/rsz_pde17.png)
+]
 
 ---
 

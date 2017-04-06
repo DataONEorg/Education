@@ -357,7 +357,8 @@ A new image processing technique reveals something not before seen in this Hubbl
 ---
 # What is the Data Life Cycle?
 
-.center.wCaption[![](images/DLC.png)]
+.center[![](images/DLC.png)
+*DLC from DataONE*]
 
 ???
 A data lifecycle illustrates stages thru which well-managed data passes from the inception of a research project to its conclusion. In the reality of science research, the stages do not always follow a continuous circle.

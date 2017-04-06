@@ -65,7 +65,7 @@ However the plan should be revisited often throughout the project to ensure prop
 - Outlines what you will do with the data **during** and **after** you complete your research
 - Ensures the data is safe for the **present** and the **future**
 
-*From University of Virginia Library*
+<footer>-- University of Virginia Library</footer>
 
 ???
 

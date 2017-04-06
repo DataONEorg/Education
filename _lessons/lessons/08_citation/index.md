@@ -55,7 +55,8 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 
 ## Data citation
 * The practice of providing a reference to data in the same way as researchers routinely provide a bibliographic reference to printed resources.
-* A key practice underpinning the recognition of data as a primary research output rather than as a by-product of research]
+* A key practice underpinning the recognition of data as a primary research output rather than as a by-product of research
+
 <footer>Australian National Data Service (ANDS), Data Citation Awareness Guide. Accessed May 10, 2012 at http://ands.org.au/guides/data-citation-awareness.html.</footer>
 
 ---
@@ -64,6 +65,7 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 
 ## Data author
 * Individual involved in research, education, or other activities that generate digital data that are subsequently deposited in a data collection
+
 <footer>National Science Board, Long-Lived Digital Data Collections: Enabling Research and Education in the 21st Century, September, 2005. p. 17. http://www.nsf.gov/pubs/2005/nsb0540/ Accessed May 10, 2012.</footer>
 
 ---

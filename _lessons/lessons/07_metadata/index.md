@@ -23,9 +23,9 @@ class: center, middle
 - Preparing to write metadata 
 - Tips for writing a quality metadata record
 
-<div style="text-align:center"><img src ="images/image4.jpeg"/></br>
-	.caption[Photo Attribution: CC image by Alec Couros on Flickr]
-</div>
+.center[![Photo Attribution: CC image by Alec Couros on Flickr](images/image4.jpeg)
+  *Photo Attribution: CC image by Alec Couros on Flickr*
+  ]
 	
 ???
 
@@ -52,7 +52,8 @@ After completing this lesson, the participant will be able to:
 
 # The Data Life Cycle
 
-![Photo Attribution: DataONE. Public domain](images/DLC_Describe.png)
+.center[![Photo Attribution: DataONE. Public domain](images/DLC_Describe.png)
+]
 
 ???
 
@@ -102,18 +103,17 @@ Metadata is a valuable tool. Metadata records preserve the usefulness of data ov
 
 Metadata is all around...
 
-.one-half[![Photo Attribution: CC image by Mskadu on Flickr](images/image7.jpeg)
-*CC image by Mskadu on Flickr*
-
-![Photo Attribution: CC image by USDAgov on Flickr](images/image6.jpeg)
-*CC image by USDAgov on Flickr*
-
-]
-
 .one-half[![Screenshot of Hathi Trust catalog record](images/mobyDick.png)
 *Hathi Trust*
+
 ]
-  
+
+.one-half[![Photo of nutrition label](images/image6.jpeg)
+
+![Photo Attribution: CC image by Mskadu on Flickr](images/image7.jpeg)
+*CC image by Mskadu on Flickr*
+]
+
 ???
 
 Metadata is all around us. . .from Mp3 players, to nutrition labels, to library card catalogues.
@@ -154,11 +154,11 @@ Metadata are essential for capturing information and data discovery. For example
 Elements such as Title, Description, and Keywords enable users to discover data based on topical searches. Spatial and temporal elements allow users to discover data based on the geographical location or the time period of the data. 
 
 ---
-class: center, middle
 
 # Metadata: Why are they important?
 
-![Photo Attribution: Ecological Applications](images/Michener_etal_EA1997_Fig1.png)
+.center[![Photo Attribution: Ecological Applications](images/Michener_etal_EA1997_Fig1.png)
+]
 
 <footer>Michener, W. K., Brunt, J. W., Helly, J. J., Kirchner, T. B. and Stafford, S. G. (1997), NONGEOSPATIAL METADATA FOR THE ECOLOGICAL SCIENCES. Ecological Applications, 7: 330–342. doi:10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2]</footer>
 
@@ -192,7 +192,8 @@ This was potentially disastrous in terms of defending the resource management pl
 
 # The Value of Metadata
 
-.three-fourth-center[![Photo Attribution: DataONE Community Education & Outreach Working Group](images/MetadataHelps.png)
+
+.center[![Photo Attribution: DataONE Community Education & Outreach Working Group](images/MetadataHelps.png)
 *DataONE Community Education & Outreach Working Group*
 ]
 
@@ -255,7 +256,6 @@ Transcends people and time:
 
 Advertises an organization’s research: 
 - Creates possible new **partnerships** and collaborations through data sharing
-]
 
 ???
 
@@ -270,6 +270,7 @@ Metadata can support:
 - data management (provenance, accountability, liability)
 
 .three-fourth-center[![Photo Attribution: Unsplash.com](images/libraryUnsplash.jpg)
+*Public domain image from Unsplash.com*
 ]
 
 ???
@@ -327,7 +328,8 @@ Data portals are plentiful, and contain easily accessible metadata collections f
 
 # Data Distribution Example: DataONE
 
-Three DataONE Search images
+.three-fourth-center[![DataONE search interface](images/DataONEsearch.png)
+]
 
 ???
 
@@ -393,8 +395,8 @@ Metadata is invaluable for data liability. For example, a record will indicate t
 
 Even if the value of data documentation is recognized, researchers are often concerned about the effort required to create metadata that effectively describe their data.
 
-File Folder Image ![Photo Attribution: CC image by waterlilysage on Flickr](images/  )
-  *CC image by waterlilysage on Flickr*
+![Image of rock climber](images/image24.jpeg)
+  *Public domain image from Unsplash*
 
 ???
 
@@ -403,6 +405,10 @@ Even if the value of data documentation is recognized, concerns remain as to the
 ---
 
 # Concerns About Creating Metadata (2)
+
+.
+.
+
 
 | Concern | Solution |
 |:----------|:----------|
@@ -433,9 +439,6 @@ In search and retrieval, standards provide:
 - Documentation structure in a reliable and predictable format for computer interpretation
 - A uniform summary description of the dataset
 
-File Folder Image ![Photo Attribution: CC image by waterlilysage on Flickr](images/  )
-  *CC image by waterlilysage on Flickr*
-
 ???
 
 An established standard provides common terms, definitions, and structure that allow for consistent communication. The use of standards also supports search and retrieval in automated systems.  
@@ -444,11 +447,17 @@ An established standard provides common terms, definitions, and structure that a
 
 # What does a metadata standard include?
 
-Components of metadata: 
-- A metadata standard is made up of defined *elements*, including the type of information the user should enter (e.g. text, numbers, date). 
-- Examples of elements include: title, abstract, keywords, persistent link, variables, units, usage rights
+.one-half[Components of metadata: 
+- A metadata standard is made up of defined **elements**, including the type of information the user should enter (e.g. text, numbers, date). 
+- Examples of elements include:
+  - title, abstract, keywords
+  - persistent link, usage rights
+  - variables, units
+]
 
-**needs image** 
+.one-half[![Image of ArcGIS metadata editor](images/image28.png)
+*ArcGIS/Esri*
+]
 
 ???
 
@@ -477,25 +486,25 @@ This is an example of a metadata record using the Ecological Metadata Standard (
   
 # Choosing Metadata Standards
   
-Arrows Image ![Photo Attribution: CC image by Viv Hutchinson](images/  )
-*Image courtesy of Viv Hutchinson*
+![Sign with lots of arrows](images/whichWay.jpg)
+*Public domain image from Unsplash*
 
 ---
 
 # Multiple Metadata Standards Exist: Examples (1)
 
-Dublin Core Element Set
-- Emphasis on web resources, publications
-- http://dublincore.org/documents/dces/
+.two-third[- <a href="http://dublincore.org/documents/dces/">Dublin Core Element Set</a>
+ - Emphasis on web resources, publications
+- <a href="https://www.fgdc.gov/metadata/csdgm-standard">FGDC Content Standard for Digital Geospatial Metadata (CSDGM)</a>
+ - Emphasis on geospatial data
+ - The Biological Data Profile (BDP) of the CSDGM is a profile to the CSDGM with an emphasis on biological data (and geospatial)
+- <a href="https://www.fgdc.gov/metadata/iso-standards">ISO 19115/19139</a> Geographic information – metadata 
+ - Emphasis on geospatial data and services
+]
 
-FGDC Content Standard for Digital Geospatial Metadata (CSDGM)
-- Emphasis on geospatial data
-- The Biological Data Profile (BDP) of the CSDGM is a profile to the CSDGM with an emphasis on biological data (and geospatial)
-- https://www.fgdc.gov/metadata/csdgm-standard
-
-ISO 19115/19139  Geographic information – metadata 
-- Emphasis on geospatial data and services
-- https://www.fgdc.gov/metadata/iso-standards
+.one-third[![Woman holding a globe](images/Globe.jpg)
+*Public domain image from Unsplash*
+]
 
 ???
 
@@ -505,17 +514,15 @@ There are many standards available to document data. Each has a different focus,
 
 # Multiple Metadata Standards Exist: Examples (2)
   
-Ecological Metadata Language (EML)
-- Focus on ecological data
-- http://knb.ecoinformatics.org/eml_metadata_guide.html
+- <a href="http://knb.ecoinformatics.org/eml_metadata_guide.html">Ecological Metadata Language (EML)</a>
+ - Focus on ecological data
+- <a href="http://rs.tdwg.org/dwc/index.htm">Darwin Core (DwC)</a>
+ - Emphasis on museum specimens
+- <a href="http://www.opengeospatial.org/standards/gml">Geography Markup Language (GML)</a>
+ - Emphasis on geographic features (roads, highways, bridges)
 
-Darwin Core
-- Emphasis on museum specimens
-- http://rs.tdwg.org/dwc/index.htm
-
-Geography Markup Language (GML)
-- Emphasis on geographic features (roads, highways, bridges)
-- http://www.opengeospatial.org/standards/gml
+![Flock of sheep](images/Sheep.jpg)
+*Public domain image from Unsplash*
 
 ???
 
@@ -556,9 +563,9 @@ Terminology for the same concepts may vary across standards
 - What resources are available to create metadata? 
 
 >Examples of Tools:
-- FGDC CSDGM: https://www.fgdc.gov/metadata/geospatial-metadata-tools#availabletools 
-- EML: Morpho http://knb.ecoinformatics.org/morphoportal.jsp
-- ISO: http://www.fgdc.gov/metadata/iso-metadata-editor-review
+- <a href="https://www.fgdc.gov/metadata/geospatial-metadata-tools#availabletools">FGDC CSDGM tools from FGDC.gov</a> 
+- <a href="http://knb.ecoinformatics.org/morphoportal.jsp">EML: Morpho</a>
+- <a href="http://www.fgdc.gov/metadata/iso-metadata-editor-review">ISO metadata editor from FGDC.gov</a>
 - XML: Spy or Oxygen
 - CatMD
 

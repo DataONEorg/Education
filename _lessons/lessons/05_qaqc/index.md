@@ -23,8 +23,8 @@ QA/QC best practices
 ]
 
 .one-half[
-![CC image by cobalt123 on Flickr](images/image5.jpeg)
-*CC image by cobalt123 on Flickr*
+.center[![CC image by cobalt123 on Flickr](images/image5.jpeg)
+*CC image by cobalt123 on Flickr*]
 ]
 
 ???
@@ -40,8 +40,8 @@ After completing this lesson, the participant will be able to:
 * Perform quality control and assurance on their data at all stages of the research cycle
 
 
-center: class ![CC image by 0xFCAF on Flickr](images/image6.jpeg)
-*CC image by 0xFCAF on Flickr*
+.center[![CC image by 0xFCAF on Flickr](images/image6.jpeg)
+*CC image by 0xFCAF on Flickr*]
 
 ???
 
@@ -51,8 +51,8 @@ After completing this module, you will be able to define quality control and qua
 
 # The Data Life Cycle
 
-![DataONE Life Cycle](images/DataONE Module 5 Life Cycle.png)
-*DataONE Life Cycle*
+.center[![DataONE Life Cycle](images/DataONE Module 5 Life Cycle.png)
+*DataONE Life Cycle*]
 
 ???
 
@@ -66,7 +66,7 @@ Data Contamination:
 * Process or phenomenon, other than the one of interest, that affects the variable value 
 * Erroneous values
 
-![CC image by Michael Coghlan on Flickr](images/image7.jpeg)
+.center[![CC image by Michael Coghlan on Flickr](images/image7.jpeg)]
 
 ???
 
@@ -82,8 +82,8 @@ Errors of Omission
 * Data or metadata not recorded
 * Examples: inadequate documentation, human error, anomalies in the field
 
-center: class ![CC image by Nick J Webb on Flickr](images/image8.jpeg)
-*CC image by Nick J Webb on Flickr*
+.center[![CC image by Nick J Webb on Flickr](images/image8.jpeg)
+*CC image by Nick J Webb on Flickr*]
 
 ???
 

@@ -23,11 +23,12 @@ QA/QC best practices
 ]
 
 .one-half[
-![CC image by cobalt123 on Flickr](images/image5.jpeg)
-*CC image by cobalt123 on Flickr*
+.center[![CC image by cobalt123 on Flickr](images/image5.jpeg)
+*CC image by cobalt123 on Flickr*]
 ]
 
 ???
+
 
 First we will define quality assurance and quality control, and review definitions for other related terms including data contamination, and review the common types of errors in data. Then we will review some best practices that can be implemented before data collection, during data collection, and after data collection to ensure high-quality data. 
 
@@ -40,8 +41,8 @@ After completing this lesson, the participant will be able to:
 * Perform quality control and assurance on their data at all stages of the research cycle
 
 
-center: class ![CC image by 0xFCAF on Flickr](images/image6.jpeg)
-*CC image by 0xFCAF on Flickr*
+.center[![CC image by 0xFCAF on Flickr](images/image6.jpeg)
+*CC image by 0xFCAF on Flickr*]
 
 ???
 
@@ -51,8 +52,9 @@ After completing this module, you will be able to define quality control and qua
 
 # The Data Life Cycle
 
+.center[
 ![DataONE Life Cycle](images/DataONE Module 5 Life Cycle.png)
-*DataONE Life Cycle*
+*DataONE Life Cycle*]
 
 ???
 
@@ -66,7 +68,7 @@ Data Contamination:
 * Process or phenomenon, other than the one of interest, that affects the variable value 
 * Erroneous values
 
-![CC image by Michael Coghlan on Flickr](images/image7.jpeg)
+.center[![CC image by Michael Coghlan on Flickr](images/image7.jpeg)]
 
 ???
 
@@ -82,8 +84,8 @@ Errors of Omission
 * Data or metadata not recorded
 * Examples: inadequate documentation, human error, anomalies in the field
 
-center: class ![CC image by Nick J Webb on Flickr](images/image8.jpeg)
-*CC image by Nick J Webb on Flickr*
+.center[![CC image by Nick J Webb on Flickr](images/image8.jpeg)
+*CC image by Nick J Webb on Flickr*]
 
 ???
 
@@ -138,8 +140,10 @@ Second, you should assign responsibility for data quality before collection begi
 * Record a reading of the data and transcribe from the recording
 * Use text-to-speech program to read data back
 
-.center[![CC image by weskriesel on Flickr](images/image9.jpeg)
-*CC image by weskriesel on Flickr*]
+.three-fourths[
+.center[
+![CC image by weskriesel on Flickr](images/image9.jpeg)
+*CC image by weskriesel on Flickr*]]
 
 
 ???

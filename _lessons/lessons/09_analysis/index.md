@@ -160,7 +160,7 @@ Based on results from preliminary analysis, a researcher will often re-run or re
  - Metadata: data about data
  - Process metadata: data about process used to create, manipulate, and analyze data
  
- ![ducks](images/image11.jpg)
+ .center[![ducks](images/image11.jpeg)]
 
 ???
 Reproducibility is at the core of scientific method.  If results are not reproducible, the study loses credibility. The complex processes used to create final outputs can be quite difficult to reproduce.  In order to maintain scientific integrity, good documentation of the data and the analytical process is essential. Documentation includes metadata, which is data about data, and process metadata, which is data about the process.

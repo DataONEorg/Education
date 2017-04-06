@@ -142,7 +142,7 @@ Second, you should assign responsibility for data quality before collection begi
 
 .three-fourths[
 .center[
-![CC image by weskriesel on Flickr](images/image9.jpeg)
+![CC image by weskriesel on Flickr](images/rsz_image9.jpg)
 *CC image by weskriesel on Flickr*]]
 
 

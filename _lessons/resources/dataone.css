@@ -154,10 +154,9 @@ Overrides for the default remark css properties
   color: #f3f3f3;
 }
 
-.remark-slide-content {
-  height: 90%;
-  overflow: auto;
-}
+.middle {
+  vertical-align: middle;
+};
 
 .remark-slide-content h1 {
   font-size: 45px;
@@ -196,6 +195,11 @@ Overrides for the default remark css properties
   padding: 25px 25px 25px 25px;
   font-size: 25px;
 }
+
+.remark-slide-content img {
+  max-height: 100vh;
+}
+
 
 .remark-slide-content > ul li {
     padding: 0 0 0 0;

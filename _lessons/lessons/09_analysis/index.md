@@ -30,7 +30,11 @@ After completing this lesson you will be able to understand a subset of typical 
 
 ---
 # The Data Life Cycle
+
+.center[
 ![Image Caption Here](images/dlc.png)
+]
+
 
 ???
 
@@ -86,15 +90,19 @@ On the right is a box-and whisker plot of monthly temperatures. The boxes indica
 Plots can be used to assure the quality of data as well. They can quickly show you potential data errors such as impossible values.
 
 ---
-# Types of Analyses
-- Statistical analyses
+# Statistical Analyses
+ .one-half[ 
   **Conventional Statistics**
-    - Experimental data
-    - Examples: ANOVA, MANOVA, linear  and nonlinear regression
-    - Rely on assumptions: random sampling, random & normally distributed error, independent error terms, homogeneous variance
-   **Descriptive Statistics**
+ - Experimental data
+ - Examples: ANOVA, MANOVA, linear  and nonlinear regression
+ - Rely on assumptions: random sampling, random & normally distributed error, independent error terms, homogeneous variance]
+ 
+ .one-half[
+ **Descriptive Statistics**
    - Observational or descriptive data
-   - Examples: diversity indices, cluster analysis, quadrant variance, distance methods, principal component analysis, correspondence  analysis
+   - Examples: diversity indices, cluster analysis, quadrant variance, distance methods, principal component analysis, correspondence analysis]
+   
+   
 
 ???
 Statistics are among the most common types of analyses performed on data. 

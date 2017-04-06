@@ -578,7 +578,8 @@ Terminology for the same concepts may vary across standards
 
 Metadata are developed continuously throughout the entire data lifecycle
 
-Lifecycle Image ![Photo Attribution: DataONE](images/  )
+.center[![Photo Attribution: DataONE](images/DLC.png)
+]
 
 ???
 
@@ -599,8 +600,6 @@ Here are some examples for a FGDC CSDGM record:
 | Date | `<pubdate>YYYYMMDD</pubdate>` </br> `<pubdate>YYYY</pubdate>` | `<pubdate>MM/DD/YYYY</pubdate>` </br> `<pubdate>May 27, 2003</pubdate>` |
 | Keywords | `<placekt>Geographic Names Information System</placekt>` </br> `<placekey>Roosevelt National Forest</placekey>` | `<themekey>Roosevelt Forest</themekey>` | 
 
-`<publish>U.S. Geological Survey</publish>`
-
 ???
 
 As you get started developing your metadata record, it is important that certain fields are used consistently. This means that some metadata fields require values that are written the same way to aid in machine-readability and discovery. For example, the publisher field should contain the standard form of your agency’s or organization’s name (if that is the appropriate publisher). For example, the USGS, the name should be written as U.S. Geological Survey, not USGS. 
@@ -617,16 +616,16 @@ Refer to the appropriate documentation and/or schema for the standard you are us
 
 # What Makes a Good Metadata Record?
 
-Use Authority Files and Standard Vocabulary
-.one-half[
+.two-third[Use Authority Files and Standard Vocabulary
+
 - Global Change Master Directory
 - Geographic Names Information System
 - Getty Thesaurus of Geographic Names
 - ISO 19115 Topic Category Thesaurus
 ]
 
-.one-half[![Photo Attribution: Photo by mxgirl2014 on flickr. All Rights Reserved](images/  )
-*Photo Attribution: Photo by mxgirl2014. All Rights Reserved*
+.one-third[![A couple planning travel over a map](images/mapPlanning.jpg)
+*Public domain image from Unsplash*
 ]
 
 ???
@@ -642,7 +641,7 @@ When possible, theme keywords should be drawn from thesauri or keyword lists. Th
 - Use widely known acronyms only when it corresponds to specific metadata fields such as file formats (e.g., TIFF, JPEG, PDF)
 ]
 
-.one-half[![Photo Attribution: Photo by Michelle Chang. All Rights Reserved](images/  )
+.one-half[![Photo Attribution: Photo by Michelle Chang. All Rights Reserved](images/image33.jpeg)
 *Photo Attribution: Photo by Michelle Chang. All Rights Reserved*
 ]
 
@@ -664,8 +663,9 @@ Provide all of the critical information for **discovery**, **understanding**, an
 - Spatial References
 ]
 
-.one-half[![Photo Attribution: ](images/  )
-*Photo Attribution: All Rights Reserved*
+.one-half[![Man looking through binoculars](images/binoculars.jpg)
+*Public domain image from Unsplash*
+
 ]
 
 ???
@@ -678,7 +678,8 @@ While not all metadata fields are mandatory, it is a best practice to provide al
 
 **Provide all of the critical information for:** Identification
 
-**image needed**
+![Santa Barbara LTER metadata record](images/SBLTER_metadata.png)
+*Santa Barbara LTER Program*
 
 ???
 
@@ -690,8 +691,8 @@ First and foremost, it is essential that your metadata record has complete ident
 
 **Provide all of the critical information for:** Entity / Attribute
 
-metadata image ![Photo Attribution: CC image by US Embassy Guyana on Flickr](images/  )
-  *CC image by US Embassy Guyana on Flickr*
+![Santa Barbara LTER metadata record](images/SBLTER_attributes.png)
+  *Santa Barbara LTER Program*
 
 ???
 
@@ -709,8 +710,8 @@ Entity and attribute fields help to describe the often short and cryptic labels 
 - Completeness
 ]
 
-.two-third[metadata image ![Photo Attribution: CC image by US Embassy Guyana on Flickr](images/  )
-  *CC image by US Embassy Guyana on Flickr*
+.two-third[![Santa Barbara LTER metadata record](images/SBLTER_metadataFields.png)
+  *Santa Barbara LTER Program*
   ]
   
 ???
@@ -723,10 +724,9 @@ There are a number of available metadata fields for describing the quality of yo
 
 **Provide all of the critical information for:** Data lineage
 
-.one-half[![Photo of metadata](images/  )
-]
+.center[![Photo of SBLTER metadata](images/SBLTER_citation.png)
 
-.one-half[![Photo of metadata](images/  )
+![Photo of SBLTER metadata](images/SBLTER_methods.png)
 ]
 
 ???

@@ -34,11 +34,11 @@ First we will define quality assurance and quality control, and review definitio
 ---
 
 # Learning Objectives
-.full-width[
+
 After completing this lesson, the participant will be able to: 
 * Define data quality control and data quality assurance
 * Perform quality control and assurance on their data at all stages of the research cycle
-]
+
 
 center: class ![CC image by 0xFCAF on Flickr](images/image6.jpeg)
 *CC image by 0xFCAF on Flickr*
@@ -62,11 +62,10 @@ Quality control and quality assurance should be implemented throughout the data 
 
 # Definitions
 
-Data Contamination
-.full-width[
+Data Contamination:
 * Process or phenomenon, other than the one of interest, that affects the variable value 
 * Erroneous values
- ]
+
 ![CC image by Michael Coghlan on Flickr](images/image7.jpeg)
 
 ???
@@ -77,12 +76,12 @@ Before describing best practices useful for quality control and assurance, we wi
 
 # Definitions: Types of Errors
 Errors of Commission
-.full-width[* Incorrect or inaccurate data entered
+* Incorrect or inaccurate data entered
 * Examples: malfunctioning instrument, mistyped data
 Errors of Omission
 * Data or metadata not recorded
 * Examples: inadequate documentation, human error, anomalies in the field
-] 
+
 center: class ![CC image by Nick J Webb on Flickr](images/image8.jpeg)
 *CC image by Nick J Webb on Flickr*
 
@@ -101,11 +100,11 @@ Omission errors examples:
 ---
 
 # Defining QA/QC
-.full-width[
+
 * Strategies for preventing errors from entering a dataset
 * Activities to ensure quality of data before collection
 * Activities that involve monitoring and maintaining the quality of data during the study
-]
+
 ???
 
 Quality assurance and quality control are phrases used to describe activities that prevent errors from entering or staying in a data set.  These activities ensure the quality of the data before it is collected, entered, or analyzed, and monitoring and maintaining the quality of data throughout the study. 
@@ -115,13 +114,13 @@ Quality assurance and quality control are phrases used to describe activities th
 # QA/QC Before Collection
 
 Define & enforce standards
-.full-width[* Formats
+* Formats
 * Codes
 * Measurement units
 * Metadata
 Assign responsibility for data quality
 * Be sure assigned person is educated in QA/QC
-]
+
 
 ???
 
@@ -133,14 +132,15 @@ Second, you should assign responsibility for data quality before collection begi
 
 # QA/QC During Data Entry
 
-.full-width[* Double entry
+* Double entry
   * Data keyed in by two independent people
   * Check for agreement with computer verification 
 * Record a reading of the data and transcribe from the recording
 * Use text-to-speech program to read data back
-]
-![CC image by weskriesel on Flickr](images/image9.jpeg)
-*CC image by weskriesel on Flickr*
+
+.center[![CC image by weskriesel on Flickr](images/image9.jpeg)
+*CC image by weskriesel on Flickr*]
+
 
 ???
 
@@ -150,14 +150,14 @@ Consider using techniques that help eliminate mistakes during data entry. Exampl
 
 # QA/QC  During Data Entry
 
-.full-width[Design data storage well:
+Design data storage well:
 * Minimize number of times items that must be entered repeatedly
 * Use consistent terminology
 * Atomize data: one cell per piece of information
 Document changes to data
 * Avoids duplicate error checking
 * Allows undo if necessary
-]
+
 ???
 
 If you are using spreadsheets or databases, you should carefully consider their design before and during data entry. Use consistent terminology within the database, and atomize data. This means only one piece of information is in each cell of the spreadsheet -- multiple pieces of information embedded in a single data cell will be problematic during data analysis. If you are using a database, restrict what can be entered into the database; for example, set up a field to accept only text or only numerical values, choose a maximum number of characters or a range of values a field will accept, or set a field to accept only unique values.
@@ -168,15 +168,16 @@ Finally, document any changes made to data. It saves time if good records of dat
 
 # QA/QC  After Data Entry
 
-.full-width[* Make sure data line up in proper columns
+.full-width[
+* Make sure data line up in proper columns
 * No missing, impossible, or anomalous values
 * Perform statistical summaries
 ]
 
-<div style=“text-align:center”><img src =“images/dgraph.jpg”/></br>
-</div>
+.center[![CC image by chesapeakeclimate on Flickr](images/dgraph.jpg)
+*CC image by cobalt123 on Flickr*]
 
-.caption[Photo Attribution: CC image by chesapeakeclimate on Flickr]
+
 ???
 
 Once data are entered, basic quality assurance measures can be taken. First, if data are in spreadsheets or databases, be sure they line up in their proper columns. Also check for any missing, impossible, or anomalous values. One way to check for these problems is to sort data fields and check for discrepancies. It is often also useful to perform basic statistical summaries, such as means, and standard errors. If data transformation was performed for analysis, compare the statistical summaries before and after transformation to ensure no mistakes were made during transformation. 
@@ -185,10 +186,10 @@ Once data are entered, basic quality assurance measures can be taken. First, if 
 
 # QA/QC  After Data Entry
 
-.full-width[Look for outliers
+Look for outliers:
 * Outliers are extreme values for a variable given the statistical model being used
 * The goal is not to eliminate outliers but to identify potential data contamination
-]
+
 
 
 
@@ -224,14 +225,14 @@ Another method for identifying outliers is using statistics. By subtracting valu
 
 # Summary
 
-.full-width[* Data contamination is data that results from a factor not examined by the study that results in altered data values
+* Data contamination is data that results from a factor not examined by the study that results in altered data values
 * Data error types: commission or omission
 * Quality assurance and quality control are strategies for 
   * preventing errors from entering a dataset 
   * ensuring data quality for entered data
   * monitoring, and maintaining data quality throughout the project 
 * Identify and enforce quality assurance and quality control measures throughout the Data Life Cycle
-]
+
 ???
 
 During this tutorial we first defined several concepts important for understanding quality assurance and quality control. This included data contamination and the types of data errors that can result in poor quality data.
@@ -242,11 +243,11 @@ It is important to define and enforce quality assurance and quality control stan
 ---
 
 # Resources
-.full-width[
+
 * D. Edwards, in Ecological Data: Design, Management and Processing, WK Michener and JW Brunt, Eds. (Blackwell, New York, 2000), pp. 70-91. Available at www.ecoinformatics.org/pubs
 * R. B. Cook, R. J. Olson, P. Kanciruk, L. A. Hook, Best practices for preparing ecological data sets to share and archive. Bull. Ecol. Soc. Amer. 82, 138-141 (2001).
 * A. D. Chapman, “Principles of Data Quality:. Report for the Global Biodiversity Information Facility” (Global Biodiversity Information Facility, Copenhagen, 2004). Available at http://www.gbif.org/communications/resources/print-and-online-resources/download-publications/bookelets/
-]
+
 ---
 
 # About
@@ -259,9 +260,8 @@ DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016.
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
 ![CCBY0](images/ccpd.png)
----
 
----
+
 
 
 

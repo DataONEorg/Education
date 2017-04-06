@@ -154,6 +154,10 @@ Overrides for the default remark css properties
   color: #f3f3f3;
 }
 
+.middle {
+  vertical-align: middle;
+};
+
 .remark-slide-content h1 {
   font-size: 45px;
 }

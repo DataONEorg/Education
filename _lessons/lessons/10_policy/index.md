@@ -142,8 +142,8 @@ Most universities and government agencies have written policies that state that 
 * For Creators:
    * to derive benefit as a result of their work
 * For Others:
-   * To avoid potential legal trouble
-   * To know where to get permission for use.
+   * to avoid potential legal trouble
+   * to know where to get permission for use.
 ]
 
 .one-third[

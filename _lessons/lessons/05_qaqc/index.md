@@ -1,15 +1,10 @@
 ---
 title: "Data Quality Control and Assurance"
+author: DataONE Community Engagement & Outreach
 update: Sept. 22, 2016
 layout: slides
----
-
-# Tutorials on Data Management
-
-### Lesson 5: Data Quality Control and Assurance
-
-![CC image by Shane Melaugh on Flickr](images/image4.jpeg)
-*CC image by Shane Melaugh on Flickr*
+deck: 05_qaqc
+categories: [Teaching Modules]
 
 ---
 
@@ -44,7 +39,8 @@ After completing this lesson, the participant will be able to:
 * Define data quality control and data quality assurance
 * Perform quality control and assurance on their data at all stages of the research cycle
 
-![CC image by 0xFCAF on Flickr](images/image6.jpeg)
+
+center: class ![CC image by 0xFCAF on Flickr](images/image6.jpeg)
 *CC image by 0xFCAF on Flickr*
 
 ???
@@ -66,12 +62,11 @@ Quality control and quality assurance should be implemented throughout the data 
 
 # Definitions
 
-Data Contamination
+Data Contamination:
 * Process or phenomenon, other than the one of interest, that affects the variable value 
 * Erroneous values
- 
+
 ![CC image by Michael Coghlan on Flickr](images/image7.jpeg)
-*CC image by Michael Coghlan on Flickr*
 
 ???
 
@@ -80,15 +75,14 @@ Before describing best practices useful for quality control and assurance, we wi
 ---
 
 # Definitions: Types of Errors
-
 Errors of Commission
 * Incorrect or inaccurate data entered
 * Examples: malfunctioning instrument, mistyped data
 Errors of Omission
 * Data or metadata not recorded
 * Examples: inadequate documentation, human error, anomalies in the field
- 
-![CC image by Nick J Webb on Flickr](images/image8.jpeg)
+
+center: class ![CC image by Nick J Webb on Flickr](images/image8.jpeg)
 *CC image by Nick J Webb on Flickr*
 
 ???
@@ -127,6 +121,7 @@ Define & enforce standards
 Assign responsibility for data quality
 * Be sure assigned person is educated in QA/QC
 
+
 ???
 
 The remainder of the module will cover best practices for quality control and quality assurance for the different stages of a research project.  
@@ -143,8 +138,9 @@ Second, you should assign responsibility for data quality before collection begi
 * Record a reading of the data and transcribe from the recording
 * Use text-to-speech program to read data back
 
-![CC image by weskriesel on Flickr](images/image9.jpeg)
-*CC image by weskriesel on Flickr*
+.center[![CC image by weskriesel on Flickr](images/image9.jpeg)
+*CC image by weskriesel on Flickr*]
+
 
 ???
 
@@ -154,7 +150,7 @@ Consider using techniques that help eliminate mistakes during data entry. Exampl
 
 # QA/QC  During Data Entry
 
-Design data storage well
+Design data storage well:
 * Minimize number of times items that must be entered repeatedly
 * Use consistent terminology
 * Atomize data: one cell per piece of information
@@ -172,12 +168,15 @@ Finally, document any changes made to data. It saves time if good records of dat
 
 # QA/QC  After Data Entry
 
+.full-width[
 * Make sure data line up in proper columns
 * No missing, impossible, or anomalous values
 * Perform statistical summaries
+]
 
-![CC image by chesapeakeclimate on Flickr](images/image10.jpeg)
-*CC image by chesapeakeclimate on Flickr*
+.center[![CC image by chesapeakeclimate on Flickr](images/dgraph.jpg)
+*CC image by cobalt123 on Flickr*]
+
 
 ???
 
@@ -187,11 +186,12 @@ Once data are entered, basic quality assurance measures can be taken. First, if 
 
 # QA/QC  After Data Entry
 
-Look for outliers
+Look for outliers:
 * Outliers are extreme values for a variable given the statistical model being used
 * The goal is not to eliminate outliers but to identify potential data contamination
 
-![](images/DataONE Module 5 Outlier Graph.png)
+
+
 
 ???
 
@@ -242,19 +242,16 @@ It is important to define and enforce quality assurance and quality control stan
 
 ---
 
-# References
+# Resources
 
-1. D. Edwards, in Ecological Data: Design, Management and Processing, WK Michener and JW Brunt, Eds. (Blackwell, New York, 2000), pp. 70-91. Available at www.ecoinformatics.org/pubs
-2. R. B. Cook, R. J. Olson, P. Kanciruk, L. A. Hook, Best practices for preparing ecological data sets to share and archive. Bull. Ecol. Soc. Amer. 82, 138-141 (2001).
-3. A. D. Chapman, “Principles of Data Quality:. Report for the Global Biodiversity Information Facility” (Global Biodiversity Information Facility, Copenhagen, 2004). Available at http://www.gbif.org/communications/resources/print-and-online-resources/download-publications/bookelets/
+* D. Edwards, in Ecological Data: Design, Management and Processing, WK Michener and JW Brunt, Eds. (Blackwell, New York, 2000), pp. 70-91. Available at www.ecoinformatics.org/pubs
+* R. B. Cook, R. J. Olson, P. Kanciruk, L. A. Hook, Best practices for preparing ecological data sets to share and archive. Bull. Ecol. Soc. Amer. 82, 138-141 (2001).
+* A. D. Chapman, “Principles of Data Quality:. Report for the Global Biodiversity Information Facility” (Global Biodiversity Information Facility, Copenhagen, 2004). Available at http://www.gbif.org/communications/resources/print-and-online-resources/download-publications/bookelets/
 
 ---
 
 # About
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
-
-The full slide deck (in PowerPoint) may be downloaded from:
-[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
 
 **Suggested citation:**
 DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
@@ -262,10 +259,9 @@ DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016.
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
-![CCBY0](images/image12.png)
----
+![CCBY0](images/ccpd.png)
 
----
+
 
 
 

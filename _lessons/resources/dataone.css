@@ -22,18 +22,23 @@ body {
 pre,
 code {
   font-family: "Source Code Pro", "Consolas", "DejaVu Sans Mono", monospace !important;
+  font-size: 80%;
 }
 a {
   color: #006666;
   text-decoration: none;
 }
 
+/* 
+   font size is overridden by the default remark css that is injected by
+   the remark script when converting the markdown to html.
+
+   See:  https://github.com/gnab/remark/blob/develop/src/remark.less
+*/
 h1 {
-  font-size: 160% !important;
   font-weight: bold;
   color: #660033;
-  margin-top: 0;
-  margin-bottom: 1  em;
+  margin: 0 0 0 0;
 }
 h2,
 h3,
@@ -43,6 +48,8 @@ h6 {
   color: #660033;
   margin: 0 0 0 0;
 }
+
+
 footer {
   font-size: 80%;
   color: #660033;
@@ -111,9 +118,30 @@ th {
   width: 75%;
   padding: 0% 2% 0% 0%;
 }
+.three-fourth-center {
+  margin: 0px auto;
+  width: 75%;
+  padding: 0% 2% 0% 0%;
+}
+
 .full-width {
   width: 100%;
 }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/* 
+Overrides for the default remark css properties 
+*/
 .remark-slide-content.title {
   background-color: #006666;
 }
@@ -125,14 +153,36 @@ th {
   font-size: 130% !important;
   color: #f3f3f3;
 }
-pre {
-  white-space: pre-wrap;
-  word-wrap: break-word;
+
+.remark-slide-content {
+  height: 90%;
+  overflow: auto;
 }
-img {
-  max-width: 100%;
-  max-height: 100%;
+
+.remark-slide-content h1 {
+  font-size: 45px;
 }
+
+.remark-slide-content h2 {
+  font-size: 40px;
+}
+
+.remark-slide-content h3 {
+  font-size: 35px;
+}
+
+.remark-slide-content h4 {
+  font-size: 31px;
+}
+
+.remark-slide-content h5 {
+  font-size: 28px;
+}
+
+.remark-slide-content h6 {
+  font-size: 25px;
+}
+
 .remark-slide-number {
   font-size: 60%;
   color: #006666;
@@ -148,7 +198,7 @@ img {
 }
 
 .remark-slide-content > ul li {
-    padding: .5em 0;
+    padding: 0 0 0 0;
 }
 
 /* Add a Caption to an image */
@@ -210,3 +260,4 @@ blockquote p {
     color: #272822;
     font-style: italic
 }
+

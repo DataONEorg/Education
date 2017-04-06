@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Data Management"
 
-author: DataONE Community Engagement and Outreach Working Group
+author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
 
 layout: slides
@@ -11,16 +11,17 @@ deck: 01_management
 
 class: center, middle
 
-## Why Data Management?
+# Why Data Management?
 
-![Image Caption Here](images/slide-1-intro.jpg)
+![](images/slide-1-intro.jpg)
+*University of Maryland Press Releases on Flickr*
 
 
 ???
 
 ---
 
-## Lesson Topics
+# Lesson Topics
 
 .full-width[* The data world around us
 * Importance of data management
@@ -31,7 +32,7 @@ class: center, middle
 
 ---
 
-## Learning Objectives
+# Learning Objectives
 
 .full-width[* Give two general examples of why increasing amounts of data is a concern
 * Explain, using two examples, how lack of data management makes an impact
@@ -41,38 +42,37 @@ class: center, middle
 ---
 class: center, middle
 
-## Data Realities...
+# Data Realities...
 
 ---
 class: center
 
-.wCaption[![Magazines](images/Slide05.jpg)]
+.three-fourth-center[
+![](images/Slide05.jpg)]
 
-
-.caption[The world today is filled with science news, from climate change to hurricanes – and it all affects the people inhabiting the earth.]
+<footer>The world today is filled with science news, from climate change to hurricanes – and it all affects the people inhabiting the earth.</footer>
 
 ---
 
-## Data Deluge
+# Data Deluge
 
 .one-third[Data are collected from sensors, sensor networks, remote sensing, observations,
 and more. This calls for increased attention to data management and stewardship.]
 
-.two-third[![Magazines](images/data-deluge.jpg)]
+.two-third[![](images/data-deluge.jpg)]
 
 ---
 
-## A World of Data Around Us
+# A World of Data Around Us
 
 .one-third[The amount of available storage is not keeping up with the amount of data flooding in daily. How do we decide what data we keep?]
-
 .two-third[![data around us](images/data-around-us.png)
-.caption[Source: write source here]
+*John Gantz, IDC Corporation: The Expanding Digital Universe*
 ]
 
 ---
 
-## Data Loss Can Be Caused by
+# Data Loss Can Be Caused by
 
 .two-third[
 * Natural disaster
@@ -89,7 +89,7 @@ and more. This calls for increased attention to data management and stewardship.
 ]
 ---
 
-## Data Loss Can Be Caused by
+# Data Loss Can Be Caused by
 
 .two-third[* Legal encumbrance
 * Human error
@@ -107,11 +107,11 @@ and more. This calls for increased attention to data management and stewardship.
 ---
 class: center, middle
 
-## Poor Data Management Affects Everyone
+# Poor Data Management Affects Everyone
 
 ---
 
-## Poor Data Management Affects Everyone
+# Poor Data Management Affects Everyone
 
 **MEDICARE PAYMENT ERRORS NEAR $20B**
 *(CNN) December 2004*
@@ -149,8 +149,8 @@ Consider some of the data management issues that made headlines, affecting agenc
 
 ---
 
-## Poor Data Management
-### Science Example
+# Poor Data Management
+## Science Example
 
 A wildlife biologist for a small field office provided support for staff GIS needs.
 The data were stored on her workstation. When the biologist relocated to another
@@ -167,11 +167,11 @@ being backed up as it would have been if stored on a server.*
 
 ---
 
-## Poor Data Management
-### Federal Agency Example
+# Poor Data Management
+## Federal Agency Example
 
 .one-third[ ![](images/image34.jpeg)
-*Source: CC Image by ruffin_Ready on Flickr* ]
+*CC Image by ruffin_Ready on Flickr* ]
 
 .two-third[In preparation for a Resource Management Plan, an office discovered 14 duplicate GPS inventories of roads.  However, because none of the inventories had enough metadata, it was impossible to know which inventory was best or if any of the inventories actually met their requirements. 
 **Solution:**  Re-Inventory roads
@@ -182,23 +182,23 @@ being backed up as it would have been if stored on a server.*
 
 ---
 
-## Importance of Data Management
+# Importance of Data Management
 
 
 >"Please forgive my paranoia about protocols, standards, and data review.  I'm in the latter stages of a long career with USGS (30 years, and counting), and have experienced much.  Experience is the knowledge you get just after you needed it. Several times, I've seen colleagues called to court in order to testify about conditions they have observed. Without a strong tradition of constant review and approval of basic data, they would've been in deep trouble under cross-examination. 
 Instead, they were able to produce field notes, data approval records, and the like, to back up their testimony. It's one thing to be questioned by a college student who is working on a project for school.  It's another entirely to be grilled by an attorney under oath with the media present.”
 
-*Nelson Williams, Scientist US Geological Survey*
+<footer>Nelson Williams, Scientist US Geological Survey</footer>
 
 ---
 
-## Importance of Data Management
+# Importance of Data Management
 
-.two-third[
+.one-half[
 ![](images/datamgt-import.png)
 *Source: guardian.uk* ]
 
-.one-third[
+.one-half[
 The climate scientists at the centre of a media storm over leaked emails were yesterday cleared of accusations that they fudged their results and silenced critics, but a review found they had **failed to be open enough about their work.**
 ]
 
@@ -206,19 +206,19 @@ The climate scientists at the centre of a media storm over leaked emails were ye
 
 ---
 
-## Why Manage Data:
-### Researcher Perspective
+# Why Manage Data:
+## Researcher Perspective
 
 Manage your data for yourself:
-.full-width[* Organize your files (data inputs, analytic scripts, outputs) at various stages of the analytic process
+* Organize your files (data inputs, analytic scripts, outputs) at various stages of the analytic process
 * Track your science processes for reproducibility – match your outputs with exact inputs and transformations that produced them
 * Better control versions of data – identify easily versions that can be periodically purged
-* Quality control your data more efficiently]
+* Quality control your data more efficiently
 
 ---
 
-## Why Data Management:
-### Researcher Perspective
+# Why Data Management:
+## Researcher Perspective
 
 .two-third[
 * Make backups to avoid data loss
@@ -234,15 +234,15 @@ Manage your data for yourself:
 
 ---
 
-## Why Data Management:
-### Foundation to Advance Science
+# Why Data Management:
+## Foundation to Advance Science
 
 * Data are a valuable asset – expensive and time consuming to collect
 
 ---
 
-## Why Data Management:
-### Foundation to Advance Science 
+# Why Data Management:
+## Foundation to Advance Science 
 
 .full-width[
 Data should be managed to:
@@ -255,7 +255,7 @@ Data should be managed to:
 
 ---
 
-## Data Management Facilitates Sharing and Re-use
+# Data Management Facilitates Sharing and Re-use
 
 .wCaption[![CC image by UWW ResNet on Flickr](images/data-mgt-graphic.png)]
 
@@ -264,7 +264,7 @@ Data management and organization facilitate archiving, sharing and publishing da
 
 ---
 
-## Well-Managed Data Can Result in Re-use, Integration and New Science
+# Well-Managed Data Can Result in Re-use, Integration and New Science
 
 .three-fourth[![](images/data-integration.png)
 *Source: *
@@ -275,65 +275,69 @@ By re-using data collected from a variety of sources – eBird database, land co
 
 ---
 
-## Data integration
+# Data integration
 
 ![](images/data-integration2.png)
 *Images courtesy of Cornell Ornithology Lab*
 
 ---
 
-## Where a majority of data end up now…
+# Where a majority of data end up now…
 
 ![Recreated from Klump et al 2006](images/where-data-end.png)
+*Recreated from Klump et al 2006*
 
 ???
 There is an abundance of data and metadata (if it is done) end up in filing cabinets, on discarded hard drives, in hard-copy journals on the library shelves -- or on the web, but many are subscription only journals.
 
 
+
 ---
 
-## Imagine if data were more accessible….
+# Imagine if data were more accessible….
 
 ![Recreated from Klump et al 2006](images/data-more-accessible.png)
+*Recreated from Klump et al 2006*
 
 ???
 Data should be properly managed and eventually be placed where they are accessible, understandable, and re-usable.
 
 ---
 
-## Well managed, publically accessible data is important: Why?
+# Well managed, publically accessible data is important: Why?
 
 
 Here are a few reasons (from the UK Data Archive):
 
-.full-width[* Increases the impact and visibility of research
+* Increases the impact and visibility of research
 * Promotes innovation and potential new data uses
 * Leads to new collaborations between data users and creators
-* Maximizes transparency and accountability]
+* Maximizes transparency and accountability
 
 ---
 
 
-## Well managed, publically accessible data is important: Why?
+# Well managed, publically accessible data is important: Why?
 
-.full-width[* Enables scrutiny of research findings
+* Enables scrutiny of research findings
 * Encourages improvement and validation of research methods
 * Reduces cost of duplicating data collection
-* Provides important resources for education and training]
+* Provides important resources for education and training
 
-*Source: UK Data Archive*
+<footer>Source: UK Data Archive</footer>
 
 ---
 
-## New Discoveries
+# New Discoveries
 
-A new image processing technique reveals something not before seen in this Hubble Space Telescope image taken 11 years ago: A faint planet (arrows), the outermost of three discovered with ground-based telescopes last year around the young star HR 8799.D. Lafrenière et al., Astrophysical Journal Letters
+A new image processing technique reveals something not before seen in this Hubble Space Telescope image taken 11 years ago: A faint planet (arrows), the outermost of three discovered with ground-based telescopes last year around the young star HR 8799.
+<footer>D. Lafrenière et al., Astrophysical Journal Letters</footer>
 
 ![D. Lafrenière et al., ApJ Letters](images/hubble.png)
 *D. Lafrenière et al., ApJ Letters*
 ---
 
-## New Discoveries
+# New Discoveries
 
 ![D. Lafrenière et al., ApJ Letters](images/hubble.png)
 *D. Lafrenière et al., ApJ Letters*
@@ -342,7 +346,7 @@ A new image processing technique reveals something not before seen in this Hubbl
 
 ---
 
-## New Discoveries
+# New Discoveries
 
 ![D. Lafrenière et al., ApJ Letters](images/hubble.png)
 *D. Lafrenière et al., ApJ Letters*
@@ -354,9 +358,9 @@ A new image processing technique reveals something not before seen in this Hubbl
 ---
 class: center
 
-## What is the Data Life Cycle?
+# What is the Data Life Cycle?
 
-.wCaption[![](images/data-life-cycle.png)]
+.wCaption[![](images/DLC.png)]
 
 ???
 A data lifecycle illustrates stages thru which well-managed data passes from the inception of a research project to its conclusion. In the reality of science research, the stages do not always follow a continuous circle.
@@ -364,7 +368,7 @@ A data lifecycle illustrates stages thru which well-managed data passes from the
 
 ---
 
-## For Each Stage of the Data Lifecycle
+# For Each Stage of the Data Lifecycle
 
 .full-width[* There are best practices…..and….tools to help!
 * The following data management lessons will illustrate in detail each stage of the data lifecycle
@@ -377,7 +381,7 @@ The rest of the DataONE Education Modules, handouts, and hands-on exercises are 
 
 ---
 
-## Summary
+# Summary
 
 .full-width[* The data deluge has created a surge of information that needs to be well-managed and made accessible.
 * The cost of not doing data management can be very high.
@@ -387,7 +391,7 @@ The rest of the DataONE Education Modules, handouts, and hands-on exercises are 
 
 ---
 
-## Summary
+# Summary
 
 .one-half[
 If data are:
@@ -408,25 +412,22 @@ If data are:
 
 ---
 
-## Resources
+# Resources
 
-1. Chatfield, T., Selbach, R. February 2011. Data Management Training Workshop. Bureau of Land Management (BLM).
-1. [Strasser, Carly. February 2012. Data Management for Scientists.](http://www.slideshare.net/carlystrasser/oceansciences2012workshop)
-1. [UK Data Archive. May 2011. Managing and Sharing Data: Best Practices for Researchers.](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf)
-1.  [DAMA International, The DAMA Guide to the Data Management Body of Knowledge.](https://www.dama.org/content/body-knowledge)
+* Chatfield, T., Selbach, R. February 2011. Data Management Training Workshop. Bureau of Land Management (BLM).
+* [Strasser, Carly. February 2012. Data Management for Scientists.](http://www.slideshare.net/carlystrasser/oceansciences2012workshop)
+* [UK Data Archive. May 2011. Managing and Sharing Data: Best Practices for Researchers.](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf)
+* [DAMA International, The DAMA Guide to the Data Management Body of Knowledge.](https://www.dama.org/content/body-knowledge)
 
 ---
 
-## About
+# About
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
-The full slide deck (in PowerPoint) may be downloaded from:
-[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
-
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From XXX
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
-![CCBY0](images/image50.png)
+![CCBY0](images/CC0PublicDomain.png)

@@ -283,7 +283,7 @@ By re-using data collected from a variety of sources – eBird database, land co
 
 # Where a majority of data end up now…
 
-.middle.center[![](images/where-data-end.png)
+.center[![](images/where-data-end.png)
 *Recreated from Klump et al 2006*]
 
 ???
@@ -295,7 +295,7 @@ There is an abundance of data and metadata (if it is done) end up in filing cabi
 
 # Imagine if data were more accessible….
 
-.middle.center[![](images/data-more-accessible.png)
+.center[![](images/data-more-accessible.png)
 *Recreated from Klump et al 2006*]
 
 ???
@@ -314,7 +314,6 @@ Here are a few reasons (from the UK Data Archive):
 * Maximizes transparency and accountability
 
 ---
-
 
 # Well managed, publically accessible data is important: Why?
 
@@ -355,9 +354,10 @@ A new image processing technique reveals something not before seen in this Hubbl
 
 
 ---
+
 # What is the Data Life Cycle?
 
-.middle.center[![](images/DLC.png)
+.center[![](images/DLC.png)
 *DLC from DataONE*]
 
 ???
@@ -392,7 +392,7 @@ The rest of the DataONE Education Modules, handouts, and hands-on exercises are 
 # Summary
 
 .one-half[
-If data are:
+**If data are:**
 
 * Well-organized
 * Documented
@@ -400,7 +400,7 @@ If data are:
 * Accessible
 * Verified as to accuracy and validity]
 
-.one-half[Result is:
+.one-half[**Result is:**
 
 * High quality data
 * Easy to share and re-use in science

@@ -17,7 +17,6 @@
 html,
 body {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", sans-serif;
-  font-size: 20em;
 }
 pre,
 code {
@@ -156,7 +155,7 @@ Overrides for the default remark css properties
 
 .middle {
   vertical-align: middle;
-};
+}
 
 .remark-slide-content h1 {
   font-size: 45px;

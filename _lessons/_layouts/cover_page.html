@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/resources/cover_page.css" />
+
+  <title>{{ page.title }}</title>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{ site.analytics_code }}', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+{% assign ldeck = page.url | split: '/' %}
+{% assign ldeck = ldeck[2] %}
+{% assign catclasses = "" %}
+{% for cat in page.categories %}
+  {% assign cleancat = cat | downcase | replace: ' ', '_' %}
+  {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
+{% endfor %}
+
+</head>
+
+<body>
+
+<div class='header'>
+  <p>Header Text</p>
+</div>
+
+<div class='columns'>  
+  
+  <div class='one-fourth'>
+    <img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png" style="max-width: 100%"/>
+  </div>
+
+  <div class='three-fourth'>
+    <h1>{{ page.title }}</h1>
+    <p>Updated: {{ page.update | date: '%b %d, %Y' }}</p>
+    {{ page.content | markdownify }}
+    <p><a href='index.html'>Presentation</a></p>
+    <p><a href='{{ldeck}}.pdf'>PDF Version</a></p>
+  </div>
+  
+</div>
+
+<div class='footer'>
+  <p>Footer text</p>
+  <p>Build revision: <a href='{{ site.github.repository_url}}/commit/{{ site.github.build_revision }}'>{{ site.github.build_revision }}</a></p>
+</div>
+
+</body>
+</html>

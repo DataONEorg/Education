@@ -1,0 +1,84 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i';
+@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,400i,700,700i';
+.logo {
+  position: absolute;
+  bottom: -10px;
+  left: 25px;
+}
+.logo img {
+  width: 4em;
+}
+.serif {
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", sans-serif;
+}
+.mono {
+  font-family: "Source Code Pro", "Consolas", "DejaVu Sans Mono", monospace !important;
+}
+html,
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", sans-serif;
+}
+pre,
+code {
+  font-family: "Source Code Pro", "Consolas", "DejaVu Sans Mono", monospace !important;
+  font-size: 80%;
+}
+
+.columns {
+  clear: right;
+  float: left;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  border: 1px solid green;
+}
+.full-width,
+.one-third,
+.two-third,
+.one-half,
+.two-third,
+.one-fourth,
+.three-fourth {
+  clear: right;
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+.one-third {
+  width: 33.3%;
+  padding: 0% 2% 0% 0%;
+}
+.two-third {
+  width: 66.7%;
+  padding: 0% 2% 0% 0%;
+}
+.one-half {
+  width: 50%;
+  padding: 0% 2% 0% 0%;
+}
+.one-fourth {
+  width: 25%;
+  padding: 0% 2% 0% 0%;
+}
+.three-fourth {
+  width: 75%;
+  padding: 0% 2% 0% 0%;
+}
+.three-fourth-center {
+  margin: 0px auto;
+  width: 75%;
+  padding: 0% 2% 0% 0%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  border: 1px solid blue;
+}
+
+.footer {
+  width: 100%;
+  border: 1px solid blue;
+}

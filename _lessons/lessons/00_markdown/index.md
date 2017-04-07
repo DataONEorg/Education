@@ -1,12 +1,8 @@
 ---
 title: "Moving the lessons to github"
 author: DataONE Community Engagement & Outreach
-update: Sept. 20, 2016
 layout: slides
-tags: [Data Management, GitHub]
-categories: [Technical Tutorial]
-status: draft
-deck: "00_markdown"
+update: 2017-04-07T12:00:00Z
 ---
 
 # It's working!

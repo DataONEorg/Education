@@ -39,7 +39,7 @@ After completing this lesson you will be able to understand a subset of typical 
 ---
 # The Data Life Cycle
 
-.center[![data life cycle](images/dlc.png)]
+.center[![data life cycle](images/DLC_Analyze.png)]
 
 
 ???
@@ -53,8 +53,9 @@ Processes:
 - Statistics, model runs, parameter estimations, graphs/plots, etc.
 
 
-.center[![cloud](images/image7.jpeg)]
+.one-half[![cloud](images/image7.jpeg)]
 
+.one-half[![graph](images/image8.jpeg)]
 
 ???
 
@@ -72,7 +73,7 @@ Processing: subsetting, merging, manipulating
   - Reduction: important for high-resolution datasets
   - Transformation: unit conversions, linear and nonlinear algorithms
  
-![flow](images/s6.png) 
+![processing](images/s6.png) 
   
 ???
 Typically the first step in any data analysis is processing the data. Processing can include selecting a subset of the data for analysis, merging multiple datasets, or manipulating the data so it is more useable by a researcher or a computer program.  
@@ -85,7 +86,7 @@ An example of data transformation is shown here, the relatively meaningless stri
 
 ---
 # Types of Analyses
-* Graphical analyses
+Graphical analyses
   * Visual exploration of data: search for patterns
   * Quality assurance: outlier detection
   
@@ -124,14 +125,14 @@ Descriptive statistics are traditionally applied to observational or descriptive
 
 ---
 # Types of Analyses
-- Statistical analyses (continued)
-  - Temporal analyses: time series
-  - Spatial analyses: for spatial autocorrelation
-  - Nonparametric approaches useful when conventional assumptions violated or underlying distribution unknown
-  - Other mis. analyses: risk assessment, generalized linear models, mixed models, etc.
-- Analyses of very large datasets
-  - Data mining and discovery
-  - Online data processing
+ Statistical analyses (continued)
+ *Temporal analyses: time series
+ *Spatial analyses: for spatial autocorrelation
+ *Nonparametric approaches useful when conventional assumptions violated or underlying distribution unknown
+ *Other mis. analyses: risk assessment, generalized linear models, mixed models, etc.
+Analyses of very large datasets
+ *Data mining and discovery
+ *Online data processing
   
 ???
 Statistical analyses might also include temporal or spatial analyses, and nonparametric approaches which do not rely on specific assumptions about the data’s distribution, and many other types of analysis, including risk assessment and GLM’s.
@@ -142,8 +143,8 @@ The second step involves online data processing. Large datasets can be analyzed 
 
 ---
 # After Data Analysis
-- Re-analysis of outputs
-- Final visualizations: charts, graphs, simulations, etc
+Re-analyze outputs
+* Final visualizations: charts, graphs, simulations, etc
 
 **Science is iterative: 
 The process that results in the final product can be complex**
@@ -156,12 +157,11 @@ Based on results from preliminary analysis, a researcher will often re-run or re
  
 ---
 # Reproducibility
-- Reproducibility at core of scientific method
-- Complex process = more difficult to reproduce
-- Good documentation required for reproducibility
- - Metadata: data about data
- - Process metadata: data about process used to create, manipulate, and analyze data
- 
+Reproducibility at core of scientific method
+* Complex process = more difficult to reproduce
+* Good documentation required for reproducibility
+ * Metadata: data about data
+ * Process metadata: data about process used to create, manipulate, and analyze data
  .center[![ducks](images/image11.jpeg)]
 
 ???
@@ -261,23 +261,23 @@ The output of the analysis step is the summary statistics, such as mean and stan
 
 ---
 # Informal Workflows
-**Workflow diagrams:** adding decision points
+**Workflow diagrams:** *adding decision points*
 
  .center[![decision points](images/s18.png)]
 
 
 ---
 # Informal Workflows
-**Workflow diagrams:** a simple example
 
 
+.center[![simplework](images/simplework.png)]
 
 
 ---
 # Informal Workflows
-**Workflow diagrams:** a complex example
 
- .center[![simple workflow2](images/s20.png)]
+
+.center[![complex work](images/complexwork.png)]
 
 
 ---
@@ -298,10 +298,11 @@ The output of the analysis step is the summary statistics, such as mean and stan
 
 ---
 # Formal/Executable Workflows
-- Analytical pipeline
-- Each step can be implemented in different software systems
-- Each step & its parameters/requirements formally recorded
-- Allows reuse of both individual steps and overall workflow
+
+**Analytical pipeline**
+* Each step can be implemented in different software systems
+* Each step & its parameters/requirements formally recorded
+* Allows reuse of both individual steps and overall workflow
 
 
 ???
@@ -347,9 +348,10 @@ One example of a scientific workflow software program is Kepler. Kepler is an op
 Kepler uses a drag-and-drop interface for scientists to construct their workflow. Steps in the analytical process are represented by an “actor”. These actors then connected to form a workflow.  Possible applications of Kepler are listed here.
 
 ---
-# Formal/Executable Workflows
-**Example: Kepler Software**
+# Formal/Executable Workflows: Kepler Software
 
+
+.center[![kepler](images/s22.png)]
 
 ???
 Here is a screenshot of the Kepler interface. It has a user-friendly GUI (pronounced gooey) or graphical user interface.
@@ -357,49 +359,55 @@ The list of possible actors is searchable, and you can drag and drop the actors 
 Actors are connected via inputs and outputs represented by black lines.
 
 ---
-# Formal/Executable Workflows
-**Example: Kepler Software**
+# Formal/Executable Workflows: Kepler Software
 
+
+.center[![kepler](images/s23.png)]
 
 ???
 This example workflow solves two coupled equations, one for the predator population, and one for the prey population. The solutions to the equations are then routed to the “Timed plotter” and “XY plotter” in the top of the panel. The text describes what this workflow is calculating.
 
 ---
-# Formal/Executable Workflows
-**Example: Kepler Software**
+# Formal/Executable Workflows: Kepler Software
 
 
+.center[![kepler](images/s24.png)]
 
 ???
 The resulting outputs from this workflow are plots of the predator and prey populations. Kepler and other scientific workflow tools are being developed for use by ecologists and environmental scientists who may not be comfortable creating scripted workflows using the command line. 
 Along with scientific workflows, tools are being developed to facilitate their use, such as VisTrails.
 
 ---
-# Formal/Executable Workflows
-**Example: VisTrails**
+# Formal/Executable Workflows: VisTrails
 
+
+.one-half[
 - Open source
 - Workflow and provenance management support
 - Geared toward exploratory computational tasks
  - Can manage evolving SWF
  - Maintains detailed history about steps and data
-- www.vistrails.org
+- www.vistrails.org]
+![kepler](images/s25.png)
 
 
 ???
 VisTrails is another example of an open source workflow tool that provides provenance and management support. VisTrails is an open source workflow tool that provides provenance and management support. It is geared toward exploratory and computational tasks. Using Vistrails, scientists can manage evolving scientific workflows and maintain detailed history about the steps taken and the data consumed and produced.
+
+
+
 ---
 # Workflows in General
-- Science is becoming more computationally intensive
-- Sharing workflows benefits science
- - Scientific workflow systems make documenting workflows	 easier
-- Minimally: document your analysis via informal workflows
-- Emerging workflow applications (formal/executable workflows) will
- - Link software for executable end-to-end analysis
- - Provide detailed info about data & analysis
- - Facilitate re-use & refinement of complex, multi-step analyses
- - Enable efficient swapping of alternative models & algorithms
- - Help automate tedious tasks
+Science is becoming more computationally intensive
+* Sharing workflows benefits science
+* Scientific workflow systems make documenting workflows easier
+* Minimally: document your analysis via informal workflows
+* Emerging workflow applications (formal/executable workflows) will
+ * Link software for executable end-to-end analysis
+ * Provide detailed info about data & analysis
+ * Facilitate re-use & refinement of complex, multi-step analyses
+ * Enable efficient swapping of alternative models & algorithms
+ * Help automate tedious tasks
 
 
 ???
@@ -413,7 +421,7 @@ The simplest form of a scientific workflow is using scripts to document the proc
 
 ---
 # Best Practices for Data Analysis
-- Scientists should document workflows used to create results
+-Scientists should document workflows used to create results
  - Data provenance
  - Analyses and parameters used
  - Connections between analyses via inputs and outputs
@@ -425,9 +433,9 @@ This documentation can be informal, like in a flowchart, or more formal, such as
 
 ---
 # Summary
-- Modern science is computer-intensive
+Modern science is computer-intensive
  - Heterogeneous data, analyses, software
-- Reproducibility is important
+Reproducibility is important
 - Workflows = process metadata
 - Use of informal or formal workflows for documenting process metadata ensures reproducibility, repeatability, validation
 
@@ -439,21 +447,24 @@ Using both informal and formal workflows and are necessary for reproducibility, 
 ---
 # Resources for Data Analysis & Workflows
 
-1. W. Michener and J. Brunt, Eds. Ecological Data: Design, Management and Processing. (Blackwell, New York, 2000).
+W. Michener and J. Brunt, Eds. Ecological Data: Design, Management and Processing. (Blackwell, New York, 2000).
+
+
 
 
 ---
-The full slide deck may be downloaded from:
-http://www.dataone.org/education-modules
+# About
 
-Suggested citation:
-DataONE Education Module: Analysis and Workflows. DataONE. Retrieved October 26 2016. From http://www.dataone.org/sites/all/documents/L9_Analysis Workflows.pptx 
+Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
-Copyright license information:
+**Suggested citation:**
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+
+**Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
+![CCBY0](images/ccpd.png)
 
----
 
  
 

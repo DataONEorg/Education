@@ -4,8 +4,9 @@ title: "Moving the lessons to github"
 author: DataONE Community Engagement & Outreach
 layout: cover_page
 update: 2017-04-07T12:00:00Z
-tags: [Data Management, GitHub]
-categories: [Technical Tutorial]
+tags: [GitHub]
+categories: ["Technical Tutorial"]
+status: draft
 ---
 
 How to Create and Edit a Tutorial.

@@ -542,18 +542,12 @@ Major components of a DMP:
 
 # Resources
 
-* University of Virginia Library
-- http://data.library.virginia.edu/data-management/plan/
-* Digital Curation Centre
-- http://www.dcc.ac.uk/resources/data-management-plans 
-* Oregon State University Library
-- http://guides.library.oregonstate.edu/dmp/policies
-* NSF Grant Proposal Guidelines
-- http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/gpg_2.jsp#dmp 
-* Inter-University Consortium for Political and Social Research
-- http://www.icpsr.umich.edu/icpsrweb/ICPSR/dmp/index.jsp 
-* DataONE
-- https://www.dataone.org/data-management-planning 
+* University of Virginia Library. Accessed June 24, 2015 at http://data.library.virginia.edu/data-management/plan/.
+* Digital Curation Centre Accessed June 26, 2015 at http://www.dcc.ac.uk/resources/data-management-plans. 
+* Oregon State University Library. Accessed June 27, 2015 at http://guides.library.oregonstate.edu/dmp/policies.
+* NSF Grant Proposal Guidelines. Accessed June 26, 2015 at http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/gpg_2.jsp#dmp. 
+* Inter-University Consortium for Political and Social Research. Accessed June 26, 2015 at http://www.icpsr.umich.edu/icpsrweb/ICPSR/dmp/index.jsp. 
+* DataONE. Accessed June 26, 2015 at https://www.dataone.org/data-management-planning. 
 
 ---
 # About

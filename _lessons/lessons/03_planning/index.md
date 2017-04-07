@@ -465,8 +465,6 @@ You should identify how the costs associated with your DMP will be paid.
 ![dmponline.dcc.ac.uk](images/DMPOnline_web.png)
 ]
 
-.center[* Several tools are available for creating data management plans. Two of the most commonly used are the DMPTool (US funders only) and DMP Online (UK/EU funders only).]
-
 ???
 
 There are several tools available for creating data management plans. Two of the most commonly used are the DMPTool (US funders only) and DMP Online (UK/EU funders only).  
@@ -475,7 +473,7 @@ Both operate as “wizards” and provide prompts for the user to fill out in or
 
 ---
 
-# National Science Foundation (NSF) DMP Requirements
+# NSF DMP Requirements
 
 ***From Grant Proposal Guidelines:***
 

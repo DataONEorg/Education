@@ -5,11 +5,14 @@ update: October 26, 2016
 layout: slides
 ---
 # Lesson Topics
-- Review of typical data analyses
-- Reproducibility & provenance
-- Workflows in general
-- Informal workflows
-- Formal workflows
+
+.one-half[* Review of typical data analyses
+* Reproducibility & provenance
+* Workflows in general
+* Informal workflows
+* Formal workflows]
+
+![workflow](images/image4.gif)
 
 ???
 The topics covered in this tutorial will include a review of typical data analyses, reproducibility, provenance,
@@ -24,6 +27,8 @@ After completing this lesson, the participant will be able to:
 - Understand the concepts informal and formal workflows
 - Discuss the benefits of workflows 
 
+![workflow](images/image3.jpeg)
+
 ???
 After completing this lesson you will be able to understand a subset of typical analyses used by ecologists and environmental scientists. You will be able to define a workflow and understand the basic concepts of both formal and informal workflows. Lastly you will able to discuss the benefits of using a workflow. 
 
@@ -31,20 +36,21 @@ After completing this lesson you will be able to understand a subset of typical 
 ---
 # The Data Life Cycle
 
-.center[
-![Image Caption Here](images/dlc.png)
-]
+.center[![data life cycle](images/dlc.png)]
 
 
 ???
-
 In this tutorial we will be focusing on data analysis which appears here in the data life cycle. Analysis can be performed on original data collected by a researcher, or on data ‘discovered’ in data repositories and integrated.
  
 
 ---
 # Data Analyses
+Processes:
 - Conducted via personal computer, grid, cloud computing
 - Statistics, model runs, parameter estimations, graphs/plots, etc.
+
+
+.center[![cloud](images/image7.jpeg)]
 
 
 ???
@@ -59,9 +65,12 @@ Examples of data analyses that might be used with any of these computational too
 
 ---
 # Types of Analyses
-- Processing: subsetting, merging, manipulating
+Processing: subsetting, merging, manipulating
   - Reduction: important for high-resolution datasets
   - Transformation: unit conversions, linear and nonlinear algorithms
+ 
+.center[![flow](images/s6.png)]  
+  
   
 ???
 Typically the first step in any data analysis is processing the data. Processing can include selecting a subset of the data for analysis, merging multiple datasets, or manipulating the data so it is more useable by a researcher or a computer program.  
@@ -74,9 +83,9 @@ An example of data transformation is shown here, the relatively meaningless stri
 
 ---
 # Types of Analyses
-- Graphical analyses
-  - Visual exploration of data: search for patterns
-  - Quality assurance: outlier detection
+* Graphical analyses
+  * Visual exploration of data: search for patterns
+  * Quality assurance: outlier detection
   
 ???
 Another way to analyze data is by visually representing it.  Numbers in charts can be difficult to interpret but patterns can be readily apparent in a few well-chosen graphs or other visual representations.
@@ -91,18 +100,18 @@ Plots can be used to assure the quality of data as well. They can quickly show y
 
 ---
 # Statistical Analyses
- .one-half[ 
-  **Conventional Statistics**
- - Experimental data
- - Examples: ANOVA, MANOVA, linear  and nonlinear regression
- - Rely on assumptions: random sampling, random & normally distributed error, independent error terms, homogeneous variance]
+
+.two-third[ **Conventional Statistics**
+ * Experimental data
+ * Examples: ANOVA, MANOVA, linear  and nonlinear regression
+ * Rely on assumptions: random sampling, random & normally distributed error, independent error terms, homogeneous variance
  
- .one-half[
- **Descriptive Statistics**
-   - Observational or descriptive data
-   - Examples: diversity indices, cluster analysis, quadrant variance, distance methods, principal component analysis, correspondence analysis]
-   
-   
+**Descriptive Statistics**
+ * Observational or descriptive data
+ * Examples: diversity indices, cluster analysis, quadrant variance, distance methods, principal component analysis, correspondence analysis
+   ]
+ .one-third[![cloud](images/image10.png)] 
+   <image caption>*From Oksanen (2011)  Multivariate Analysis of Ecological Communities in R: vegan tutorial*</image caption>
 
 ???
 Statistics are among the most common types of analyses performed on data. 
@@ -150,6 +159,8 @@ Based on results from preliminary analysis, a researcher will often re-run or re
 - Good documentation required for reproducibility
  - Metadata: data about data
  - Process metadata: data about process used to create, manipulate, and analyze data
+ 
+ .center[![ducks](images/image11.jpeg)]
 
 ???
 Reproducibility is at the core of scientific method.  If results are not reproducible, the study loses credibility. The complex processes used to create final outputs can be quite difficult to reproduce.  In order to maintain scientific integrity, good documentation of the data and the analytical process is essential. Documentation includes metadata, which is data about data, and process metadata, which is data about the process.

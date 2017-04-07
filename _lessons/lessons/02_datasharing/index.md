@@ -120,14 +120,14 @@ Why expend the extra effort to share data? Because it benefits the public, the r
 
 ---
 
-# Value of Data Sharing: **To the Public**
-.two-third[
-A better informed public yields better decision making with regard to:
+# Value of Data Sharing: To the Public
 
-* Environmental and economic planning
-* Federal, state, and local policies
-* social choices such as use of tax dollars and education options
-* personal lifestyle and health such as nutrition and recreation
+.two-third[A better informed public yields better decision making with regard to:
+
+* Environmental and economic **planning**
+* Federal, state, and local **policies**
+* **social choices** such as use of tax dollars and education options
+* personal **lifestyle and health** such as nutrition and recreation
 ]
 
 .one-third[![CC image by falonyates on Flickr](images/image7.jpeg)
@@ -150,15 +150,15 @@ Niu, J. (2006). Reward and Punishment Mechanisms for Research Data Sharing. IASS
 
 ---
 
-# Value of Data Sharing: **To Research Sponsor**
+# Value of Data Sharing: To Research Sponsor
 
 * Organizations that sponsor research must maximize the value of research dollars
 * Data sharing enhances the value of research investments by enabling:
-  * verification of performance metrics and outcomes
-  * new research and increased return on investment
-  * advancement of the science
-  * reduced data duplication expenditures
-  * enhancing and extending the record of science
+  * verification of performance **metrics and outcomes**
+  * new research and increased **return on investment**
+  * advancement of the **science**
+  * **reduced** data duplication **expenditures**
+  * enhancing and **extending the record** of science
 
 ???
 
@@ -172,14 +172,15 @@ Piwowar, H.A. (2011). A new task for NSF reviewers:  Recognizing the value of d
 
 ---
 
-# Value of Data Sharing: **To Scientific Community**
-.two-third[
-Access to related research enables community members to:
-* build upon the work of others and further, rather than repeat, the science4
-* perform meta analyses that cannot be performed with individual datasets or laboratories
-* share resources and perspectives so that comprehension is expanded and enhanced]
+# Value of Data Sharing: To Scientific Community
 
-.one-third[
+Access to related research enables community members to:
+.one-half[* build upon the work of others and further, rather than repeat, the science
+* perform meta analyses that cannot be performed with individual datasets or laboratories
+* share resources and perspectives so that comprehension is expanded and enhanced
+]
+
+.one-half[
 ![CC image by Lawrence Berkeley National Laboratory on Flickr](images/image8.jpeg)
 *CC image by Lawrence Berkeley National Laboratory on Flickr*
 ]
@@ -189,7 +190,7 @@ Access to related research enables community members to:
 
 The scientific community as a whole also benefits from sharing among researchers. Data sharing allows researchers to build upon one another's work and to further, rather than duplicate, the science by exploring new findings or combining findings into meta analyses that cannot be performed with individual data. In sharing data, the scientific community expands both individual perspectives and the collective comprehension.
 
-[Guide to social science data preparation and archiving: Best practice throughout the data life cycle](http://www.icpsr.umich.edu/files/ICPSR/access/dataprep.pdf), 4th edition (ICPSR, 2009)
+Guide to social science data preparation and archiving: Best practice throughout the data life cycle http://www.icpsr.umich.edu/files/ICPSR/access/dataprep.pdf, 4th edition (ICPSR, 2009)
 
 Piwowar HA, Becich MJ, Bilofsky H, Crowley RS, on behalf of the caBIG Data Sharing and Intellectual Capital Workspace (2008) Towards a Data Sharing Culture: Recommendations for Leadership from Academic Health Centers. PLoS Med 5(9): e183. doi:10.1371/journal.pmed.0050183
 
@@ -201,27 +202,19 @@ Borgman, C.L. Research Data: Who will share what, with whom, when, and why? In P
 
 ---
 
-# Value of Data Sharing: **To Scientific Community**
+# Value of Data Sharing: To Scientific Community
+
 Access to related research enables community members to (cont’d):
 
 * increase transparency, reproducibility and comparability of results
 * expand methodology assessment, recommendations and improvement
 * educate new researchers as to the most current and significant findings
 
+![Image of beakers](images/beakers.jpg)
+
 ???
 
 Access to related research enables members of the scientific community to better reproduce, compare and assess methods and results. Scientists are able to learn from one another and educate new researchers as to the most current and significant findings.
-
-
-Guide to social science data preparation and archiving: Best practice throughout the data life cycle, 4th edition (ICPSR, 2009)
-
-Piwowar HA, Becich MJ, Bilofsky H, Crowley RS, on behalf of the caBIG Data Sharing and Intellectual Capital Workspace (2008) Towards a Data Sharing Culture: Recommendations for Leadership from Academic Health Centers. PLoS Med 5(9): e183. doi:10.1371/journal.pmed.0050183
-
-Teeters, J.L., Harris, K.D., Millman, K.J., Olshausen, B.A., Sommer, F.T. (2008). Data Sharing for Computational Neuroscience. Neuroinform, DOI 10.1007s12021-008-9009-y
-
-National Institute of Health (NIH) (2003). NIH Data Sharing Policy and Implementation Guidelines.
-
-Borgman, C.L. Research Data: Who will share what, with whom, when, and why? In Proceedings of the China-North American Library Conference, Beijing , September 2010. (http://works.bepress.com/borgman/238/)
 
 ---
 
@@ -236,10 +229,9 @@ Scientists that share data gain the benefit of:
 ]
 
 .one-third[
-![CC image by SLU Madrid  Campus
- on Flickr](images/image9.jpeg)
-]
+![CC image by SLU Madrid  Campus on Flickr](images/image9.jpeg)
 *CC image by SLU Madrid Campus on Flickr*
+]
 
 ???
 
@@ -256,7 +248,10 @@ And finally, how does the independent researcher benefit from data sharing? When
 # Concerns About Data Sharing
 Even if the value of data sharing is recognized, concerns remain as to the impacts of increased data exposure.
 
-![](images/image10.jpeg)
+.three-fourth-center[![Image of a locked keyboard](images/dataTheft.jpg)
+*Public domain image by succo on pixabay*
+]
+
 
 ---
 
@@ -342,9 +337,7 @@ Step 1: Create robust metadata that will be discoverable.  Be specific in regard
 
 # Making Data Sharable
 
-**Step Two:**
-
-Include archival and reference information
+**Step Two:** Include archival and reference information
 
 * properly formatted data citations for the data and all sources
 * Universally Unique Identifiers (UUID) that uniquely identify your data and help to link the data with the metadata See the DataONE unique identifier guidance at: http://mule1.dataone.org/ArchitectureDocs-current/design/PIDs.html
@@ -363,11 +356,9 @@ http://mule1.dataone.org/ArchitectureDocs-current/design/PIDs.html
 
 ---
 
-# Make Data Sharable
+# Making Data Sharable
 
-**Step Three:**
-
-Have data contributors review your metadata to ensure validity and organizational ‘correctness’?
+**Step Three:** Have data contributors review your metadata to ensure validity and organizational ‘correctness’?
 
 * are the processes described accurately?
 * are all contributions adequately identified?
@@ -381,25 +372,22 @@ Step 3: Be sure to have data contributors review their metadata to ensure validi
 
 ---
 
-# Make Data Sharable
+# Making Data Sharable
 
-**Step Four:**
+**Step Four:** Publish your metadata and/or data via:
 
-## Publish your metadata and/or data via:
-
-### e.g. Federal Data Catalogs
-    * data.gov
-### e.g. Data Repositories
-* Knowledge Network for Biodiversity (KNB) Data Portal
-* Long Term Ecological  Research (LTER) Network Data Portal
-* Institutional data repositories
-### e.g. Other Online Resources
-* Project and/or Program websites
-* Web-accessible folders (WAF)
-* Community or Public Cloud
-
-Searchable directory of repositories for publishing your data
-* http://service.re3data.org/search
+- **Federal Data Catalogs**
+ - data.gov
+- **Data Repositories**
+ - Knowledge Network for Biodiversity (KNB) Data Portal
+ - Long Term Ecological  Research (LTER) Network Data Portal
+ - Institutional data repositories
+- **Other Online Resources**
+ - Project and/or Program websites
+ - Web-accessible folders (WAF)
+ - Community or Public Cloud
+- Searchable directory of repositories for publishing your data
+ - http://service.re3data.org/search
 
 ???
 
@@ -407,18 +395,16 @@ Step 4: Publish your metadata in data portals and clearinghouses.  Seek out rele
 
 ---
 
-# Make Data Sharable
+# Making Data Sharable
 
-## Step Four
+**Step Four:** Publish your metadata and/or data via: (cont’d)
 
-### Publish your metadata and/or data via: (cont’d)
+- **Other Online Resources**
 
-#### Other Online Resources:
-
-* Project and/or Program websites
-* Links within online lessons and outreach products
-* Web-accessible folders (WAF)
-* Community or Public Cloud
+ * Project and/or Program websites
+ * Links within online lessons and outreach products
+ * Web-accessible folders (WAF)
+ * Community or Public Cloud
 
 ???
 

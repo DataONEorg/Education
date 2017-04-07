@@ -72,8 +72,7 @@ Processing: subsetting, merging, manipulating
   - Reduction: important for high-resolution datasets
   - Transformation: unit conversions, linear and nonlinear algorithms
  
-![flow](images/s6.png)
-  
+![flow](images/s6.png) 
   
 ???
 Typically the first step in any data analysis is processing the data. Processing can include selecting a subset of the data for analysis, merging multiple datasets, or manipulating the data so it is more useable by a researcher or a computer program.  
@@ -200,6 +199,10 @@ A workflow is a formalization of the process metadata. Workflows are commonly us
 ---
 
 # Informal Workflows
+
+.one-third[
+![flowdown](images/s13.png)]
+
 - **Inputs or outputs** include data, metadata, or visualizations
 - **Analytical processes** include operations that change or manipulate data in some way
 - **Decisions** specify conditions that determine the next step in the process
@@ -211,62 +214,75 @@ Mention that example workflow diagrams shown here were drawn freehand in PowerPo
 ---
 
 # Informal Workflows
-- **Workflow diagrams:**  Simple linear flow chart
+**Workflow diagrams:**  Sample linear flow chart
  - Conceptualizing analysis as a sequence of steps
-  - arrows indicate flow
+ - arrows indicate flow
+  
+  .center[![linear flow](images/s14.png)]
   
 ---
 # Informal Workflows
-- **Flow Charts:** simplest form of workflow
+**Flow Charts:** a simple form of workflow
+
+.center[![simple workflow](images/s15.png)]
+
 
 
 ???
-This is an example of a simple conceptual workflow.
- Here we focus first on the analytical steps used to create outputs from the data.  In the first step the data are imported into a scripted program, R, for cleaning and analysis.
+This is an example of a simple conceptual workflow. Here we focus on the analytical steps used to create outputs from the data.  In the first step the data are imported into a scripted program, R, for cleaning and analysis.
 The data then go through a quality control and cleaning process to identify outliers, remove erroneous data, and identify any missing data.
 The data are then analyzed to generate mean temperature and salinity for the location, as well as error envelopes for the data.
- Finally, graphs are produced to display the resulting mean temperatures. 
+Finally, graphs are produced to display the resulting mean temperatures. 
 
 ---
 # Informal Workflows
-- **Flow charts:** simplest form of workflow
- - Transformation Rules
+
+.center[![simple workflow](images/s16.png)]
+
  
- 
- ???
  These steps are known in workflows as “transformation rules”.  Transformation rules describe what is done to/with the data to obtain the relevant outputs for publication. 
 
 ---
 # Informal Workflows
-- **Flow charts:** simplest form of workflow
- - Inputs and Outputs
+**Flow charts:** simplest form of workflow
+Inputs and Outputs
  
- ???
- Now we focus on the actual data.  The Inputs & outputs of this workflow are shown here in red.
- The first inputs are the raw temperature & salinity data. These are imported into R.The output of this process is the data in R format. 
+ .center[![simple workflow2](images/s17.png)]
+ 
+
+
+
+???
+The Inputs & outputs of this workflow are shown here in red.
+The first inputs are the raw temperature & salinity data. These are imported into R.The output of this process is the data in R format. 
 That data in R format then become the input for the quality control and data cleaning step. 
 The output of this step is “clean” temperature and salinity data, which is then the input for the analysis step.
 The output of the analysis step is the summary statistics, such as mean and standard deviation by month. These are subsequently the inputs for the visualization step. 
 
 ---
 # Informal Workflows
-- **Workflow diagrams:** adding decision points
+**Workflow diagrams:** adding decision points
+
+ .center[![decision points](images/s18.png)]
+
+
+---
+# Informal Workflows
+**Workflow diagrams:** a simple example
+
 
 
 
 ---
 # Informal Workflows
-- **Workflow diagrams:** a simple example
+**Workflow diagrams:** a complex example
+
+ .center[![simple workflow2](images/s20.png)]
 
 
 ---
 # Informal Workflows
-- **Workflow diagrams:** a complex example
-
-
----
-# Informal Workflows
-**Commented scripts:** best practices
+**Commented scripts are best practice** 
 - Well-documented code is easier to review, share, enables repeated analysis
 - Add high-level information at the top
  - Project description, author, date

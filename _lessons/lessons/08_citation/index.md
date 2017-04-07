@@ -45,7 +45,7 @@ After completing this lesson, the participant will be able to:
 
 # The Data Life Cycle
 
-![The DataONE Data Life Cycle](images/slide4.png)
+.center[![The DataONE Data Life Cycle](images/slide4.png)]
 
 ???
 
@@ -148,7 +148,8 @@ Easier to discover existing data relevant to a particular question
 
 # How to Cite Data
 
-.two-third[* Similar to citing a published article or book
+.two-third[
+* Similar to citing a published article or book
  * Provide information necessary to identify and locate the work cited
 * Broadly-applicable data citation standards have not yet been established; use standards adopted by relevant academic journal, data repository, or professional organization
 * In "Achieving human and machine accessibility of cited data in scholarly publications" Starr et al. (2015) begin to lay out implementation guidelines across disciplines1

@@ -529,9 +529,10 @@ Major components of a DMP:
 3. Policies for access, sharing and re-use
 4. Long-term storage and data management
 5. Budget
+]
 
-*http://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf*
-] 
+* *http://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf*
+
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image26.png)
 *Photo Attribution: CC0 image from The Noun Project*
@@ -539,23 +540,18 @@ Major components of a DMP:
 
 ---
 
-# DMP Resources
+# Resources
 
 University of Virginia Library
 - http://data.library.virginia.edu/data-management/plan/
-
 Digital Curation Centre
 - http://www.dcc.ac.uk/resources/data-management-plans 
-
 Oregon State University Library
 - http://guides.library.oregonstate.edu/dmp/policies
-
 NSF Grant Proposal Guidelines
 - http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/gpg_2.jsp#dmp 
-
 Inter-University Consortium for Political and Social Research
 - http://www.icpsr.umich.edu/icpsrweb/ICPSR/dmp/index.jsp 
-
 DataONE
 - https://www.dataone.org/data-management-planning 
 

@@ -72,7 +72,7 @@ Processing: subsetting, merging, manipulating
   - Reduction: important for high-resolution datasets
   - Transformation: unit conversions, linear and nonlinear algorithms
  
-.center[![flow](images/s6.png)]  
+![flow](images/s6.png)
   
   
 ???

@@ -483,8 +483,9 @@ Both operate as “wizards” and provide prompts for the user to fill out in or
 > * the **standards to be used for data and metadata format** and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies)
 > * **policies for access and sharing**, including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements
 > * policies and **provisions for re-use, re-distribution**, and the production of **derivatives**	
-> * **plans for archiving** data, samples, and other research products, and for preservation of access to them
-> http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/gpg_2.jsp#dmp
+> * **plans for archiving** data, samples, and other research products, and for preservation of access to them 
+
+http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/gpg_2.jsp#dmp
 
 ???
 

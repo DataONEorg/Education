@@ -531,12 +531,12 @@ Major components of a DMP:
 5. Budget
 ]
 
-* *http://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf*
-
-
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image26.png)
 *Photo Attribution: CC0 image from The Noun Project*
 ]
+
+???
+http://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf*
 
 ---
 

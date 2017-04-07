@@ -98,16 +98,18 @@ Removes duplicated tags
         <ul class="courses" id="mix-wrapper">
           {% for lesson in site.lessons %}
             {% assign ldeck = lesson.url | split: '/' %}
-            {% assign ldeck = ldeck[2] %}
-            {% assign catclasses = "" %}
-            {% for cat in lesson.categories %}
-              {% assign cleancat = cat | downcase | replace: ' ', '_' %}
-              {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
-            {% endfor %}
-            <li class="mix-target {{ catclasses }}" 
-                data-order="5" 
-                data-year="4">
-                <a href="{{ site.baseurl }}{{ lesson.url }}"><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png"></a></li>
+            {% if ldeck.last == 'cover.html' %}
+              {% assign ldeck = ldeck[2] %}
+              {% assign catclasses = "" %}
+              {% for cat in lesson.categories %}
+                {% assign cleancat = cat | downcase | replace: ' ', '_' %}
+                {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
+              {% endfor %}
+              <li class="mix-target {{ catclasses }}" 
+                  data-order="5" 
+                  data-year="4">
+                  <a href="{{ site.baseurl }}{{ lesson.url }}"><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png"></a></li>
+            {% endif %}
           {% endfor %}
         </ul>
       </div>

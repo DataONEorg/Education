@@ -38,7 +38,7 @@ Lesson title and metadata go in the `yaml` header:
  title: "Lesson title"    <-- The Title of the Presentation
  update: Sept. 20, 2016   <-- When the slides where last edited
  layout: slides           <-- How the slides are rendered
- deck: 00_markdown        <-- Name of the lesson subfolder 
+  
  ---
   
  # Title of the first content slide

@@ -466,7 +466,7 @@ You should identify how the costs associated with your DMP will be paid.
 ]
 <br /><br />
 
-* Several tools are available for creating data management plans. Two of the most commonly used are the DMPTool (US funders only) and DMP Online (UK/EU funders only). GO! 
+.center[* Several tools are available for creating data management plans. Two of the most commonly used are the DMPTool (US funders only) and DMP Online (UK/EU funders only).]
 
 ???
 

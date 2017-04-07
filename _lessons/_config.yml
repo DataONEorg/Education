@@ -28,8 +28,10 @@ exclude:
   - Gemfile.lock
   
 defaults:
-  - scope:
+  - 
+    scope:
       path: ""
-      type: lessons
+      type: "lessons"
     values:
-      layout: page
+      layout: "slides"
+

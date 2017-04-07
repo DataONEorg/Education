@@ -1,7 +1,7 @@
 ---
 title: "Stylesheet for GitHub Slides"
 author: DataONE Community Engagement & Outreach Working Group
-update: Sept. 20, 2016
+update: 2017-04-07T12:00:00Z
 layout: slides
 tags: [GitHub]
 categories: [Technical Tutorial]

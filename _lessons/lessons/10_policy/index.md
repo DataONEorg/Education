@@ -3,13 +3,16 @@ title: "Legal & Policy Issues"
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 21, 2016
 layout: slides
-categories: ed-module
+tags: [Data Management, Policy]
+categories: [Teaching Module]
+status: published
 ---
 
 class: center, middle
 # Legal and Policy Issues
 
-.three-fourth-center[![Image Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](images/image12.jpg)
+.three-fourth-center[![Image Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](
+images/image12.jpg)
   *Image Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*
   ]
  

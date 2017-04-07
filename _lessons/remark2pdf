@@ -25,7 +25,7 @@ SSHOT="--screenshots --screenshots-size ${SSIZE} --slides 1"
 SSHOT="${SSHOT} --screenshots-format png"
 
 cd ${DECKTAPE}
-./phantomjs decktape.js ${SSHOT} "${BASEURL}${1}/index.html" "${1}.pdf"
-rm "${DECKTAPE}/${1}.pdf"
-mv "${DECKTAPE}/screenshots/${1}_1_${SSIZE}.png" "${DEST}/${1}/${1}.png"
+#./phantomjs decktape.js ${SSHOT} "${BASEURL}${1}/index.html" "${1}.pdf"
+#rm "${DECKTAPE}/${1}.pdf"
+#mv "${DECKTAPE}/screenshots/${1}_1_${SSIZE}.png" "${DEST}/${1}/${1}.png"
 ./phantomjs decktape.js "${BASEURL}${1}/index.html" "${DEST}/${1}/${1}.pdf"

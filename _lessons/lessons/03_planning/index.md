@@ -1,11 +1,11 @@
 ---
 title: "Data Management Planning"
-author: DataONE Community Engagement & Outreach Working Group
+author: "DataONE Community Engagement & Outreach Working Group"
 update: Sept. 20, 2016
 layout: slides
-tags: [Data Management, Plan]
-categories: [Teaching Module]
 status: published
+tags: ["Data Management", Plan]
+categories: ["Teaching Module" ]
 ---
 
 # Lesson Topics

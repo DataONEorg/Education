@@ -1,28 +1,24 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <script src="{{ site.baseurl }}/js/vendor/modernizr-2.8.3.min.js"></script>
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/resources/cover_page.css" />
 
-  <title>{{ page.title }}</title>
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', '{{ site.analytics_code }}', 'auto');
-  ga('send', 'pageview');
-
-</script>
-  
 {% assign ldeck = page.url | split: '/' %}
 {% assign ldeck = ldeck[2] %}
+{% capture index_url %}/lessons/{{ ldeck }}/index.html{% endcapture %}
+{% assign lesson = site.lessons | where: "url", index_url | first %}
 {% assign catclasses = "" %}
 {% for cat in page.categories %}
   {% assign cleancat = cat | downcase | replace: ' ', '_' %}
@@ -31,32 +27,39 @@
 
 </head>
 
+
 <body>
+<main role='main'>
+  <header role='banner'>
+    <a href='https://www.dataone.org/'><img alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:24px'/></a></p>
+  </header>
+  <article class='container'>
+    <section role='complimentary' class='keep-together'>
+      <a href='index.html'><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png" style="max-width: 100%; max-height:203px"/></a>
+      <p><a href='index.html'>Present</a> | <a href='{{ldeck}}.pdf'>PDF</a></p>
+      <p>Updated: {{ page.update | date: '%b %d, %Y' }}</p>
+      <p>Build revision: <a href='{{ site.github.repository_url}}/commit/{{ site.github.build_revision }}'>{{ site.github.build_revision }}</a></p>      
+    </section>
+    <section>
+      <h1>{{ lesson.title }}</h1>
+      <p>{{ lesson.author }}</p>
+        {{ page.content | markdownify }}
+    </section>
+  </article>
+  <footer>
+    <p>Footer text</p>
+  </footer>
+</main>
 
-<div class='header'>
-  <p>Header Text</p>
-</div>
+<!-- Google Analytics Code-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-<div class='columns'>  
-  
-  <div class='one-fourth'>
-    <img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png" style="max-width: 100%"/>
-  </div>
-
-  <div class='three-fourth'>
-    <h1>{{ page.title }}</h1>
-    <p>Updated: {{ page.update | date: '%b %d, %Y' }}</p>
-    {{ page.content | markdownify }}
-    <p><a href='index.html'>Presentation</a></p>
-    <p><a href='{{ldeck}}.pdf'>PDF Version</a></p>
-  </div>
-  
-</div>
-
-<div class='footer'>
-  <p>Footer text</p>
-  <p>Build revision: <a href='{{ site.github.repository_url}}/commit/{{ site.github.build_revision }}'>{{ site.github.build_revision }}</a></p>
-</div>
-
+  ga('create', '{{ site.analytics_code }}', 'auto');
+  ga('send', 'pageview');
+</script>
 </body>
 </html>

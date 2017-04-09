@@ -3,8 +3,6 @@ title: "Introduction to Data Management"
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
 layout: slides
-tags: [Data Management]
-categories: [Teaching Module]
 status: published
 ---
 

@@ -3,8 +3,8 @@ title: "Tutorials on Data Management: Metadata"
 author: DataONE Community Engagement & Outreach Working Group
 update: Oct. 25, 2016
 layout: slides
-tags: [Data Management, Describe]
-categories: [Teaching Module]
+tags: ["Data Management", Describe]
+categories: ["Teaching Module"]
 status: published
 ---
 

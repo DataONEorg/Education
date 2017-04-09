@@ -3,8 +3,6 @@ title: "Data Entry, and Manipulation"
 author: DataONE Community Engagement & Outreach Working Group
 update: March 29 2017
 layout: slides
-tags: [Data Management, Collect]
-categories: [Teaching Module]
 status: published
 ---
 

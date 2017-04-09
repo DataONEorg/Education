@@ -1,8 +1,9 @@
 ---
-title: "Data Collection, Entry, and Manipulation"
-author: DataONE Community Engagement & Outreach
+title: "Data Entry, and Manipulation"
+author: DataONE Community Engagement & Outreach Working Group
 update: 2017-03-29
 layout: cover_page
+tags: ["Data Management", Collect]
 categories: ["Teaching Module" ]
 ---
 

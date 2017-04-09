@@ -3,6 +3,7 @@ title: "Data sharing"
 author: DataONE Community Engagement & Outreach
 update: 2017-04-06
 layout: cover_page
+tags: ["Data Management", "Data Sharing"]
 categories: ["Teaching Module" ]
 ---
 

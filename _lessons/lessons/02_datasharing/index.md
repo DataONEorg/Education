@@ -4,7 +4,8 @@ author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
 layout: slides
 status: published
-
+tags: ["Data Management", "Data Sharing"]
+categories: ["Teaching Module" ]
 ---
 
 # Data Sharing

@@ -25,10 +25,10 @@ This is Lesson 2 of the DataONE Data Management learning series. This lesson cov
 - Data sharing within the **data lifecycle**
 - **Value** of data sharing
 - **Concerns** about data sharing
-- **Methods** for making data sharable
+- **Methods** for making data reusable
 
-.three-fourth-center[![Photo of people sharing a flower](images/sharingFlower.jpg)
-*Public domain image from Unsplash*
+
+.three-fourth-center[![Photo of people sharing a flower](images/astronaut.jpg)
 ]
 
 ???
@@ -120,9 +120,9 @@ Why expend the extra effort to share data? Because it benefits the public, the r
 
 # Value of Data Sharing: To the Public
 
-.two-third[A better informed public yields better decision making with regard to:
+A better informed public yields better decision making with regard to:
 
-* Environmental and economic **planning**
+.two-third[* Environmental and economic **planning**
 * Federal, state, and local **policies**
 * **social choices** such as use of tax dollars and education options
 * personal **lifestyle and health** such as nutrition and recreation
@@ -216,7 +216,7 @@ Access to related research enables members of the scientific community to better
 
 ---
 
-# Value of Data Sharing: **To the Scientist**
+# Value of Data Sharing: To the Scientist
 .two-third[
 Scientists that share data gain the benefit of:
 
@@ -257,7 +257,7 @@ Even if the value of data sharing is recognized, concerns remain as to the impac
 # Concerns About Data Sharing
 
 | Problem                                                                     | Solution |
-|:----------------------------------------------------------------------------|:---------|
+|:----------------------------------------------------------------------------|:---------:|
 | inappropriate use due to misunderstanding of research purpose or parameters | **?**    |
 | security and confidentiality of sensitive data                              | **?**    |
 | lack of acknowledgement / credit                                            | **?**    |
@@ -276,7 +276,7 @@ Researchers may worry that the data will be taken out of context, misinterpreted
 # Concerns About Data Sharing
 
 | Problem                                                                     | Solution     |
-|:----------------------------------------------------------------------------|:-------------|
+|:----------------------------------------------------------------------------|:-------------:|
 | inappropriate use due to misunderstanding of research purpose or parameters | **metadata** |
 | security and confidentiality of sensitive data                              | **metadata** |
 | lack of acknowledgement / credit                                            | **metadata** |
@@ -294,29 +294,175 @@ Each of these issues can, in great part, be addressed by providing rich data doc
 
 # Concerns About Data Sharing
 
-| Problem                                                                     | Solution                                                                                       |
-|:----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
-| inappropriate use due to misunderstanding of research purpose or parameters | provide rich Abstract, Purpose, Use Constraints and Supplemental Information where needed      |
-| security and confidentiality of sensitive data                              | the metadata does NOT contain the data Use Constraints specify who may access the data and how |                  
-
-
+| Problem | Solution     |
+|:---------------|:----------------------|
+| inappropriate use due to misunderstanding of research purpose or parameters | provide rich Abstract, Purpose, Use Constraints and Supplemental Information where needed |
+| security and confidentiality of sensitive data | the metadata does NOT contain the data Use Constraints specify who may access the data and how |                  
 
 ---
 
 # Concerns About Data Sharing Cont'd
 
-| Problem                                                                     | Solution                                                                                       |
-|:----------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
-| lack of acknowledgement / credit                                            | specify a required data citation within the Use Constraints                                    |
-| loss of advantage when competing for research dollars                       | create second, public version with generalized Data Processing Description                     |
+| Problem | Solution     |
+|:---------------|:----------------------|
+| lack of acknowledgement / credit | specify a required data citation within the Use Constraints |
+| loss of advantage when competing for research dollars | create second, public version with generalized Data Processing Description |
+
+---
+
+# Best Practices for Sharing Data (1)
+
+Shared data should align with the FAIR principles:
+
+| FAIR | Principle | How to check | 
+|:----:|:----------|:----------|
+| **F** | Findable | Do the data have a unique ID? Are they discoverable via web search? |
+| **A** | Accessible | Can the data be accessed without logging in or paywalls? |
+| **I** | Interoperable | Can the data be used by humans and computers without special software? |
+| **R** | Re-usable | Do the data have sufficient metadata and clear reuse policies?|
+
+<footer>https://www.force11.org/group/fairgroup/fairprinciples</footer>
+
+Let's see how to put these principles into practice in the next slides...
+
+---
+
+# Best Practices for Sharing Data (2)
+
+The primary goal of sharing data is to support reuse, by you and others. In this light, here are *"Nine simple ways to make it easier to (re)use your data"* [1]
+
+- **Share your data (1)**
+ - An obvious but critical first step.
+- **Provide metadata (2)**
+ - "The first key to using data is understanding it."
+- **Provide an unprocessed form of the data (3)**
+ - The most useful data is often in raw form.
+- **Use standard data formats (4)**
+ - file formats that are non-proprietary and can be read by most software
+ - table formats that follow spreadsheet best practices
+ - standard formats within cells
+
+<footer>[1] White, Ethan P., Elita Baldridge, Zachary T. Brym, Kenneth J. Locey, Daniel J. McGlinn, and Sarah R. Supp. ‘Nine Simple Ways to Make It Easier to (re)use Your Data’. Ideas in Ecology and Evolution 6, no. 2 (30 August 2013). doi:10.4033/iee.v6i2.4608.</footer>
+
+???
+
+See this GREAT paper for more information about each of these important aspects of sharing data in a useful way.
+
+---
+
+# Best Practices for Sharing Data (3)
+
+The primary goal of sharing data is to support reuse, by you and others. In this light, here are *"Nine simple ways to make it easier to (re)use your data"* [1]
+
+- **Use good null values (5)**
+ - Practices vary across discipline and software. Pick one & document the choice in your metadata.
+- **Make it easy to combine your data with other datasets (6)**
+ - Include important contextual information that's common in your field
+- **Perform basic quality control (7)**
+- **Use an established repository (8)**
+- **Use an established and open license (9)**
+
+<footer>[1] White, Ethan P., Elita Baldridge, Zachary T. Brym, Kenneth J. Locey, Daniel J. McGlinn, and Sarah R. Supp. ‘Nine Simple Ways to Make It Easier to (re)use Your Data’. Ideas in Ecology and Evolution 6, no. 2 (30 August 2013). doi:10.4033/iee.v6i2.4608.</footer>
+
+???
+
+See this GREAT paper for more information about each of these important aspects of sharing data in a useful way.
 
 
+---
+
+# Data in Real Life
+
+In 2003, a group of scientists from the National Institutes of Health, the Food and Drug  Administration, drug and medical imaging industries, universities, and nonprofit groups joined in a collaborative effort to find the biological markers  that show the progression of Alzheimer’s disease in the human brain.
+
+The goal of this project was to do research on a massive scale that would involve sharing and making accessible all the data uncovered to anyone in the world with a computer.
+
+Dr. John Trojanowski an Alzheimer’s researcher at the University of Pennsylvania stated,  “It’s not science the way most of us have practiced it in our careers. But we all realized that we would never get biomarkers unless all of us parked our egos and intellectual-property noses outside the door and agreed that all of our data would be made public immediately.”
+http://www.nytimes.com/2010/08/13/health/research/13alzheimer.html
+
+???
+
+In 2003, a group of scientists from the National Institutes of Health, the Food and Drug Administration, drug and medical imaging industries, universities, and nonprofit groups joined in a collaborative effort to find the biological markers that show the progression of Alzheimer’s disease in the human brain.
+
+The goal of this project was to do research on a massive scale that would involve sharing and making accessible all the data available to anyone in the world with a computer.
+
+Dr. John Trojanowski, an Alzheimer’s researcher at the University of Pennsylvania, stated “It’s not science the way most of us have practiced it in our careers. But we all realized that we would never get biomarkers unless all of us parked our egos and intellectual-property noses outside the door and agreed that all of our data would be made public immediately.”
+
+[Our “Data in Real Life” segment features a news report on this research. (?)]
+
+---
+
+# Summary
+
+* Data sharing adds value to the data
+* It is the responsibility of the researcher to share their data
+* Metadata supports data accountability, liability, and usability
+* Sponsors expect, some require, data to be shared
+* Data sharing is essential to the advancement of science
+* Make data Findable, Accessible, Interoperable, and Re-usable by following nine simple steps
+
+.center[![Photo of a rocky coastline](images/coastline.jpg)
+*Public domain image from Unsplash*
+]
+
+???
+
+In summary, data sharing adds value to the data. As such, it is the responsibility of the researcher to share their data. Metadata should be created for data resources to support data accountability, liability and usability. Research sponsors expect, and increasingly require, data to be shared.
+ 
+THIS CONCLUDES Lesson 2.
+
+To assess your learning on the content presented in this lesson, proceed to the next slide take the quiz.
+
+---
+# References
+
+White, Ethan P., Elita Baldridge, Zachary T. Brym, Kenneth J. Locey, Daniel J. McGlinn, and Sarah R. Supp. **‘Nine Simple Ways to Make It Easier to (re)use Your Data’**. Ideas in Ecology and Evolution 6, no. 2 (30 August 2013). <a href="http://dx.doi.org/10.4033/iee.v6i2.4608">doi:10.4033/iee.v6i2.4608.</a>
+
+Wilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K. Teal. **‘Good Enough Practices in Scientific Computing’**. arXiv:1609.00037 [cs], 31 August 2016. http://arxiv.org/abs/1609.00037.
+
+Gil, Yolanda, Cédric H. David, Ibrahim Demir, Bakinam T. Essawy, Robinson W. Fulweiler, Jonathan L. Goodall, Leif Karlstrom, et al. **‘Towards the Geoscience Paper of the Future: Best Practices for Documenting and Sharing Research from Data to Software to Provenance’**. Earth and Space Science, 1 July 2016, 2015EA000136. <a href="http://dx.doi.org/10.1002/2015EA000136">doi:10.1002/2015EA000136</a>.
+
+**<a href="https://www.force11.org/group/fairgroup/fairprinciples">Force11 FAIR Principles</a>** for data sharing
+
+???
+
+More stuff:
+
+* Inter-university Consortium for Political and Social Research (ICPSR), ICPSR Guide to Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (ICPSR, 2009; http://www.icpsr.umich.edu/files/ICPSR/access/dataprep.pdf). [4th Edition]
+* Australian Bureau of Statistics - National Statistical Service (ABS-NSS), A good practice guide to sharing your data with others (ABS-NSS, 2009; http://www.nss.gov.au/nss/home.nsf/NSS/E6C05AE57C80D737CA25761D002FD676?opendocument). [Vers. 1]
+* H.A. Piwowar, A new task for NSF reviewers:  Recognizing the value of data reuse. ResearchRemix vers. May 28, 2011 (http://researchremix.wordpress.com/2011/05/28/dear-nsf-reviewers/).  [blog posting of draft]
+* H.A. Piwowar, M.J. Becich, H. Bilofsky, R.S. Crowley, Towards a Data Sharing Culture: Recommendations for Leadership from Academic Health Centers. PLoS Med. 5(9), e183 (2008), doi:10.1371/journal.pmed.0050183. [on behalf of the caBIG Data Sharing and Intellectual Capital Workspace]
+* National Institute of Health (NIH) “NIH Data Sharing Policy and Implementation Guidelines” (NIH, Washington D.C., 2003, http://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm).
+* J. Niu, “Reward and Punishment Mechanisms for Research Data Sharing”. IASSIST Quarterly, Winter (2006).
+* C.L. Borgman, “Research Data: Who will share what, with whom, when, and why?” in Proceedings of the China-North American Library Conference, Beijing , September 2010 (http://works.bepress.com/borgman/238/)
+
+---
+
+# About
+Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+
+The full slide deck (in PowerPoint) may be downloaded from:
+[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
+
+**Suggested citation:**
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L02_DataSharing.pptx](http://www.dataone.org/sites/all/documents/L02_DataSharing.pptx)
+
+**Copyright license information:**
+No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
+
+.one-third[![Public domain mark](images/CC0PublicDomain.png)]
+
+---
+
+class: center, middle
+
+#Archived slides
 
 ---
 
 # Making Data Sharable
 
-**Step One:**
+**Step One:** Create metadata to facilitate discovery and use
 
 * Create robust metadata that is discoverable
 * specify geography and time periods
@@ -337,8 +483,8 @@ Step 1: Create robust metadata that will be discoverable.  Be specific in regard
 
 **Step Two:** Include archival and reference information
 
-* properly formatted data citations for the data and all sources
-* Universally Unique Identifiers (UUID) that uniquely identify your data and help to link the data with the metadata See the DataONE unique identifier guidance at: http://mule1.dataone.org/ArchitectureDocs-current/design/PIDs.html
+* properly formatted data citations for the data you are sharing and all secondary data sources you used
+* Universally Unique Identifiers (UUID) that uniquely identify your data and help to link the data with the metadata. See the DataONE unique identifier guidance at: http://mule1.dataone.org/ArchitectureDocs-current/design/PIDs.html
 
 **Data Citation Example**: Sidlauskas, B. 2007. Data from: Testing for unequal rates of morphological diversification in the absence of a detailed phylogeny: a case study from characiform fishes. Dryad Digital Repository. doi:10.5061/dryad.20
 
@@ -411,95 +557,4 @@ In addition to Data Clearinghouses and portals, consider publishing your metadat
 * Piwowar HA, Becich MJ, Bilofsky H, Crowley RS, on behalf of the caBIG Data Sharing and Intellectual Capital Workspace (2008) Towards a Data Sharing Culture: Recommendations for Leadership from Academic Health Centers. PLoS Med 5(9): e183. doi:10.1371/journal.pmed.0050183
 * Roxana Geambasu, Steven D. Gribble, Henry M. Levy. "CloudViews: Communal Data Sharing in Public Clouds." In Proceedings of the First USENIX Workshop on Hot Topics in Cloud Computing (HotCloud), San Diego, USA, June 2009. Paper.
 
----
-
-# Best Practices
-
-* Document and publish data using standards
-* Promote data use via presentations and meetings
-* Solicit feedback from data users and address identified issues
-* Monitor publications and websites for data use and address misapplications
-
-???
-
-
-Data Sharing ethics require researchers to follow some basic best practices.
- 
-First, make sure your data is available by documenting and publishing your data using standard formats and protocols.
-
-Second, promote data use via presentations and meetings and make others aware of your data and findings. Third, solicit and be open to feedback from data users and address identified issues to improve your data.  Lastly, monitor publications and websites for data use and address any misapplications found.
-
-Guide to social science data preparation and archiving: Best practice throughout the data life cycle, 4th edition (ICPSR, 2009)
-
-Piwowar HA, Becich MJ, Bilofsky H, Crowley RS, on behalf of the caBIG Data Sharing and Intellectual Capital Workspace (2008) Towards a Data Sharing Culture: Recommendations for Leadership from Academic Health Centers. PLoS Med 5(9): e183. doi:10.1371/journal.pmed.0050183
-
----
-
-# Data in Real Life
-
-* In 2003, a group of scientists from the National Institutes of Health, the Food and Drug  Administration, drug and medical imaging industries, universities, and nonprofit groups joined in a collaborative effort to find the biological markers  that show the progression of Alzheimer’s disease in the human brain.
-* The goal of this project was to do research on a massive scale that would involve sharing and making accessible all the data uncovered to anyone in the world with a computer.
-* Dr. John Trojanowski an Alzheimer’s researcher at the University of Pennsylvania stated,  “It’s not science the way most of us have practiced it in our careers. But we all realized that we would never get biomarkers unless all of us parked our egos and intellectual-property noses outside the door and
-agreed that all of our data would be made public immediately.”
-http://www.nytimes.com/2010/08/13/health/research/13alzheimer.html
-
-![](/images/image13.png)
-
-???
-
-In 2003, a group of scientists from the National Institutes of Health, the Food and Drug Administration, drug and medical imaging industries, universities, and nonprofit groups joined in a collaborative effort to find the biological markers that show the progression of Alzheimer’s disease in the human brain.
-
-The goal of this project was to do research on a massive scale that would involve sharing and making accessible all the data available to anyone in the world with a computer.
-
-Dr. John Trojanowski, an Alzheimer’s researcher at the University of Pennsylvania, stated “It’s not science the way most of us have practiced it in our careers. But we all realized that we would never get biomarkers unless all of us parked our egos and intellectual-property noses outside the door and agreed that all of our data would be made public immediately.”
-
-[Our “Data in Real Life” segment features a news report on this research. (?)]
-
----
-
-# Summary
-
-* Data sharing adds value to the data
-* It is the responsibility of the researcher to share their data
-* Metadata supports data accountability, liability, and usability
-* Sponsors expect, some require, data to be shared
-* Data sharing is essential to the advancement of science
-
-???
-
-In summary, data sharing adds value to the data. As such, it is the responsibility of the researcher to share their data. Metadata should be created for data resources to support data accountability, liability and usability. Research sponsors expect, and increasingly require, data to be shared.
- 
-THIS CONCLUDES Lesson 2.
-
-To assess your learning on the content presented in this lesson, proceed to the next slide take the quiz.
-
----
-# References
-
-1. Inter-university Consortium for Political and Social Research (ICPSR), ICPSR Guide to Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (ICPSR, 2009; http://www.icpsr.umich.edu/files/ICPSR/access/dataprep.pdf). [4th Edition]
-2. Australian Bureau of Statistics - National Statistical Service (ABS-NSS), A good practice guide to sharing your data with others (ABS-NSS, 2009; http://www.nss.gov.au/nss/home.nsf/NSS/E6C05AE57C80D737CA25761D002FD676?opendocument). [Vers. 1]
-3. H.A. Piwowar, A new task for NSF reviewers:  Recognizing the value of data reuse. ResearchRemix vers. May 28, 2011 (http://researchremix.wordpress.com/2011/05/28/dear-nsf-reviewers/).  [blog posting of draft]
-4. H.A. Piwowar, M.J. Becich, H. Bilofsky, R.S. Crowley, Towards a Data Sharing Culture: Recommendations for Leadership from Academic Health Centers. PLoS Med. 5(9), e183 (2008), doi:10.1371/journal.pmed.0050183. [on behalf of the caBIG Data Sharing and Intellectual Capital Workspace]
-5. J.L. Teeters, K.D. Harris, K.J. Millman, B.A. Olshausen, F.T. Sommer, Data Sharing for Computational Neuroscience. Neuroinform (2008), DOI 10.1007s12021-008-9009-y. [http://redwood.berkeley.edu/fsommer/papers/teetersetal08.pdf]
-6. National Institute of Health (NIH) “NIH Data Sharing Policy and Implementation Guidelines” (NIH, Washington D.C., 2003, http://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm).
-7. R. Geambasu, S.D. Gribble, H. M. Levy, "CloudViews: Communal Data Sharing in Public Clouds" In Proceedings of the First USENIX Workshop on Hot Topics in Cloud Computing (HotCloud), San Diego, USA, June 2009. [Paper: PDF; Presentation: PPT, PDF]
-8. J. Niu, “Reward and Punishment Mechanisms for Research Data Sharing”. IASSIST Quarterly, Winter (2006).
-9. C.L. Borgman, “Research Data: Who will share what, with whom, when, and why?” in Proceedings of the China-North American Library Conference, Beijing , September 2010 (http://works.bepress.com/borgman/238/).
-
-
----
-
-# About
-Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
-
-The full slide deck (in PowerPoint) may be downloaded from:
-[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
-
-**Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
-
-**Copyright license information:**
-No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
-
-![CCBY0](images/image14.png)
 ---

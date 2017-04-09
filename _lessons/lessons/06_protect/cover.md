@@ -1,9 +1,6 @@
 ---
-title: "Protecting Your Data: Backups, Archives & Data Preservation"
-author: DataONE Community Engagement & Outreach Working Group
 update: 2017-04-06
 layout: cover_page
-categories: ["Teaching Module" ]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis ut erat nec cursus. Pellentesque vehicula orci libero, sit amet porta odio mattis feugiat. Nunc fermentum elit odio, non facilisis arcu faucibus quis. Curabitur nec finibus sapien. Nunc posuere nulla sit amet est auctor, eget gravida risus ornare. Morbi molestie justo lorem, bibendum semper dui vehicula vel. Vivamus ac sapien feugiat, porta turpis id, mattis mi.

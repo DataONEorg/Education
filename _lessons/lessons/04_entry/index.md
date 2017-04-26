@@ -1,7 +1,7 @@
 ---
 title: "Data Entry, and Manipulation"
 author: DataONE Community Engagement & Outreach Working Group
-update: March 29 2017
+update: March 27 2017
 layout: slides
 status: published
 tags: ["Data Management", Collect]
@@ -309,7 +309,9 @@ The second select statement, returns all records from table SoilTemp where treat
 * Choose a data entry method that allows some validation of data as it is entered
 * Consider investing time in learning how to use a database if datasets are large or complex]
 
-class:center ![sheet16](images/pde16.png)
+.center[![sheet16](images/pde16.png)
+]
+
 
 ???
 Be aware of best practices when designing data file structures. Choose a data entry method that allows validation of data entered and be sure to invest time in learning how to use a database especially if the dataset are large or complex. 

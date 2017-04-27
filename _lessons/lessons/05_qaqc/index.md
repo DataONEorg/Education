@@ -65,12 +65,12 @@ Quality control and quality assurance should be implemented throughout the data 
 
 # Definitions
 
-Data Contamination:
+Data Contamination
 * Process or phenomenon, other than the one of interest, that affects the variable value 
 * Erroneous values
 
-.center[![CC image by Michael Coghlan on Flickr](images/image7.jpeg)]
-
+.center[![CC image by Michael Coghlan on Flickr](images/image7.jpeg)
+*CC image by Michael Coghlan on Flickr*]
 ???
 
 Before describing best practices useful for quality control and assurance, we will define some related terms. Data contamination results from a process or phenomenon, other than the one of interest, which can affect the variable values. Data contamination results in erroneous values in the data set.
@@ -259,7 +259,7 @@ It is important to define and enforce quality assurance and quality control stan
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

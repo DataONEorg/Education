@@ -406,7 +406,7 @@ To support access to your data:
 # Citation of Scientific Software
 
 .one-third[![Image courtesy of https://pixabay.com/en/code-programming-hacking-html-web-820275/](images/slide25.jpg)
-*Image attribution: https://pixabay.com/en/code-programming-hacking-html-web-820275/*]
+*https://pixabay.com/en/code-programming-hacking-html-web-820275/*]
 
 .two-third[*"Software citation is an evolving area. A web search for ‘how to cite software’ and its variants shows that this is a popular question. The answers can broadly be classed into citation formats recommended by journals, citation formats recommended/mandated by software providers and, most contentious, the view that software is not a citable output."*
 
@@ -513,7 +513,7 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From XXXX
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

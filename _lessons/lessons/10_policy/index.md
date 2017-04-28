@@ -13,7 +13,7 @@ class: center, middle
 
 .three-fourth-center[![Image Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](
 images/image12.jpg)
-  *Image Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*
+  *http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*
   ]
  
 ---
@@ -54,7 +54,7 @@ Resource for PRA: http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html
 
 .one-fourth[
 ![Image Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png](images/image10.png)
-  *Image Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png*
+*https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png*
 ]
 
 .three-fourth[
@@ -69,7 +69,7 @@ Resource for PRA: http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html
 
 .one-half[
 ![Image Attribution: http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg](images/image04.jpg)
-  *Image Attribution: http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg*
+  *http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg*
 ]
 
 .one-half[
@@ -97,7 +97,7 @@ Resource:  http://www.wipo.int/edocs/pubdocs/en/intproperty/450/wipo_pub_450.pdf
 ]
 
 .one-half[![Image Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg](images/image05.jpg)
-  *Image Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg*]
+  *http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg*]
 
 ???
 
@@ -122,7 +122,7 @@ Example:  A data set, produced under a federal grant, contained within an instit
 
 .one-half[
 ![Image Attribution: http://cdn.gobankingrates.com/wp-content/uploads/nashville-housing-market-overview-300x238.jpg](images/image08.png)
-  *Image Attribution: http://cdn.gobankingrates.com/wp-content/uploads/nashville-housing-market-overview-300x238.jpg*
+  *http://cdn.gobankingrates.com/wp-content/uploads/nashville-housing-market-overview-300x238.jpg*
 ]
 
 ???
@@ -151,7 +151,7 @@ Most universities and government agencies have written policies that state that 
 
 .one-third[
 ![Image Attribution: Attention By Viktor Vorobyev at the Noun Project](images/image16.png)
-  *Image Attribution: Attention By Viktor Vorobyev at the Noun Project*]
+  *Attention By Viktor Vorobyev at the Noun Project*]
 
 ---
 
@@ -189,7 +189,7 @@ Reference: http://fairuse.stanford.edu/overview/faqs/copyright-basics/
    * Miller v. Universal Studios
 
 .center[![Image Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg](images/image06.jpg)
-  *Image Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg*]
+  *http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg*]
   
 ???
 
@@ -290,7 +290,7 @@ When using data
 
 .one-half[
 ![Image Attribution: http://soctheory.iheartsociology.com/wp-content/uploads/2011/10/IMG02369-20111028-1602.jpg](images/image11.jpg)
-*Image Attribution: http://soctheory.iheartsociology.com/wp-content/uploads/2011/10/IMG02369-20111028-1602.jpg*
+*http://soctheory.iheartsociology.com/wp-content/uploads/2011/10/IMG02369-20111028-1602.jpg*
 ]
 
 ???
@@ -304,7 +304,7 @@ Resource: http://www.vertnet.org/resources/norms.html
 
 .one-half[
 ![Image Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/](images/image14.jpg)
-*Image Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/*
+*Michael Gallagher on Flickr*
 ]
 
 .one-half[
@@ -333,7 +333,7 @@ Resource: http://www.vertnet.org/resources/norms.html
 
 .one-third[
 ![Image Attribution: https://www.iconfinder.com/icons/40968/folder_red_restricted_icon](images/image13.png)
-*Image Attribution: https://www.iconfinder.com/icons/40968/folder_red_restricted_icon*
+*https://www.iconfinder.com/icons/40968/folder_red_restricted_icon*
 ]
 
 ???
@@ -386,7 +386,7 @@ Re: Open vs. Proprietary.  Universities and other umbrella entities may retain o
 
 .one-half[
 ![Image Attribution: http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg](images/image15.jpg)
-*Image Attribution: http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg*
+*http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg*
 ]
 
 .one-half[
@@ -410,15 +410,13 @@ IRB approvals must be re-reviewed if the study changes in a meaningful way.
 ---
 
 # Privacy vs. Confidentiality
-
 * Privacy
    * Protects access to individuals (or entities)
 * Confidentiality
    * Protects access to information about individuals
    * Can be thought of as information privacy
-   
 .three-fourth-center[![CC image by Blue Coat Photos on flickr](images/image19.png)
-*Image Attribution: CC image by Blue Coat Photos on flickr*]
+*CC image by Blue Coat Photos on flickr*]
 
 ???
 
@@ -464,7 +462,7 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From XXXX
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

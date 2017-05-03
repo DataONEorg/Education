@@ -278,7 +278,7 @@ The output of the analysis step is the summary statistics, such as mean and stan
 # Informal Workflows
 
 
-.center[![complex work](images/complexwork.png)]
+.center[![complex example](images/complexexample2.png)]
 
 
 ---
@@ -299,11 +299,10 @@ The output of the analysis step is the summary statistics, such as mean and stan
 
 ---
 # Formal/Executable Workflows
-
 **Analytical pipeline**
-* Each step can be implemented in different software systems
-* Each step & its parameters/requirements formally recorded
-* Allows reuse of both individual steps and overall workflow
+- Each step can be implemented in different software systems
+- Each step & its parameters/requirements formally recorded
+- Allows reuse of both individual steps and overall workflow
 
 
 ???
@@ -330,7 +329,7 @@ Finally, workflows allow researchers to share and reuse the workflow or its comp
 
 
 ---
-# Formal/Executable Workflows
+# Formal/Executable Workflows: Kepler Software
 **Example: Kepler Software**
 - Open-source, free, cross-platform
 - Drag-and-drop interface for workflow construction
@@ -372,7 +371,7 @@ This example workflow solves two coupled equations, one for the predator populat
 # Formal/Executable Workflows: Kepler Software
 
 
-.center[![kepler](images/s24.png)]
+.center[![kepler](images/kepleroutput.png)]
 
 ???
 The resulting outputs from this workflow are plots of the predator and prey populations. Kepler and other scientific workflow tools are being developed for use by ecologists and environmental scientists who may not be comfortable creating scripted workflows using the command line. 

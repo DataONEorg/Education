@@ -262,7 +262,7 @@ The output of the analysis step is the summary statistics, such as mean and stan
 
 ---
 # Informal Workflows
-**Workflow diagrams:** *adding decision points*
+** *Workflow diagrams: adding decision points* **
 
  .center[![decision points](images/s18.png)]
 
@@ -271,14 +271,14 @@ The output of the analysis step is the summary statistics, such as mean and stan
 # Informal Workflows
 
 
-.center[![simplework](images/simplework.png)]
+.center[![simplework](images/simpleworkflow3.png)]
 
 
 ---
 # Informal Workflows
 
 
-.center[![complex example](images/complexexample2.png)]
+.center[![complex example](images/complexworkflow3.png)]
 
 
 ---
@@ -421,10 +421,10 @@ The simplest form of a scientific workflow is using scripts to document the proc
 
 ---
 # Best Practices for Data Analysis
--Scientists should document workflows used to create results
- - Data provenance
- - Analyses and parameters used
- - Connections between analyses via inputs and outputs
+Scientists should document workflows used to create results
+- Data provenance
+- Analyses and parameters used
+- Connections between analyses via inputs and outputs
 - Documentation can be informal (e.g. flowcharts, commented scripts) or formal (e.g. Kepler, VisTrails)
 
 ???

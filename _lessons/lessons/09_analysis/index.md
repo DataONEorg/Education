@@ -125,14 +125,15 @@ Descriptive statistics are traditionally applied to observational or descriptive
 
 ---
 # Types of Analyses
- Statistical analyses (continued)
- *Temporal analyses: time series
- *Spatial analyses: for spatial autocorrelation
- *Nonparametric approaches useful when conventional assumptions violated or underlying distribution unknown
- *Other mis. analyses: risk assessment, generalized linear models, mixed models, etc.
-Analyses of very large datasets
- *Data mining and discovery
- *Online data processing
+**Statistical analyses (continued)** 
+* Temporal analyses: time series
+* Spatial analyses: for spatial autocorrelation
+* Nonparametric approaches useful when conventional assumptions violated or underlying distribution unknown
+* Other mis. analyses: risk assessment, generalized linear models, mixed models, etc.
+
+**Analyses of very large datasets**
+* Data mining and discovery
+* Online data processing
   
 ???
 Statistical analyses might also include temporal or spatial analyses, and nonparametric approaches which do not rely on specific assumptions about the data’s distribution, and many other types of analysis, including risk assessment and GLM’s.

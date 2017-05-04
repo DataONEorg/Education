@@ -165,9 +165,9 @@ Most universities and government agencies have written policies that state that 
 
 **Waiver:** (e.g., CC0) relinquishes all rights of ownership or control and usually commits the “work” to the public domain
 
-Intellectual property laws will vary depending upon country or region.
+* Intellectual property laws will vary depending upon country or region.
+* Copyright is a precursor to having the power to assign licenses or waivers.
 
-Copyright is a precursor to having the power to assign licenses or waivers.
 
 ???
 
@@ -280,7 +280,7 @@ https://www.gnu.org/copyleft/gpl.html
 # Norms for Data Use
 
 .one-half[
-When using data
+When using data:
 * Give credit to the data authors
 * Be responsible with the data
 * Share what you learned
@@ -304,7 +304,7 @@ Resource: http://www.vertnet.org/resources/norms.html
 
 .one-half[
 ![Image Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/](images/image14.jpg)
-*Michael Gallagher on Flickr*
+*CC by Michael Gallagher on Flickr*
 ]
 
 .one-half[
@@ -459,10 +459,10 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 
 ---
 ## About
-Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+DataONE Education Module: Legal & Policy Issues. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

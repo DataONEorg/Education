@@ -192,19 +192,20 @@ Two common tools: Google Docs, Excel
 ]
 
 ???
-This is an example of a data entry form created in Googledocs.  Such forms are easy to create, and free.   Here, a form field is being created that will allow the user to select from three locations where data were collected.   In practice, GoogleDocs work best for entering survey data, or entering lots of text data.  
+This is an example of a data entry form created in Google docs.  Such forms are easy to create, and free.   Here, a form field is being created that will allow the user to select from three locations where data were collected.   In practice, GoogleDocs work best for entering survey data, or entering lots of text data.  
 
 The advantages to using a data entry form, as opposed to entering data directly in to a spreadsheet, is that the form can enforce data entry rules – that is, you can create a pick-list of items for a user to select from.  That way, you have consistent info being entered, as a user will always enter Deep Well, instead of DW.    
 
 ---
-## Google Docs Spreadsheet
 
-.center[![sheet4](images/pde8.png)
+## Google Docs Forms 
+
+.center[![sheet5](images/pde8.png)
 ]
 
-
 ???
-Data entered into a Google doc form is stored in a spreadsheet.  
+Google Forms can feed into a spreadsheet
+
 
 ---
 
@@ -442,10 +443,10 @@ At times you will need to combine multiple datasets into a superset in order to 
 
 ## About
 
-Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
 
 **Suggested citation:**
-DataONE Education Module: Data Entry and Manipulation. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+DataONE Education Module: Data Entry and Manipulation. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

@@ -1,5 +1,5 @@
 ---
-title: "Tutorials on Data Management: Metadata"
+title: "Metadata Management"
 author: DataONE Community Engagement & Outreach Working Group
 update: Oct. 25, 2016
 layout: slides
@@ -956,13 +956,10 @@ Here are some additional resources to help you understand and create metadata fo
 
 # About
 
-Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
-
-The full slide deck (in PowerPoint) may be downloaded from:
-[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
+Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
 
 **Suggested citation:**
-DataONE Education Module: Metadata. DataONE. Retrieved March 12, 2017. From [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+DataONE Education Module: Metadata Management. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

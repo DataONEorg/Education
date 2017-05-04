@@ -450,11 +450,11 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 
 # Resources, continued
 
-* Protecting personal health information in research: understanding the HIPAA privacy rule. Accessed June 26, 2015 athttp://privacyruleandresearch.nih.gov/pr_02.asp.
-* Information Liability. Accessed June 26, 2015 at http://www.law.fsu.edu/journals/lawreview/downloads/263/phil.pdf.
-* Guidelines for Responsible Data Management in Scientific Research. Accessed June 26, 2015 at http://ori.hhs.gov/education/products/clinicaltools/data.pdf
-* Who Owns Research Data? Accessed June 26, 2015 at http://ori.dhhs.gov/education/products/columbia_wbt/rcr_data/case/index.html#2 
-* Constructing Access Permissions. Accessed June 26, 2015 at http://libweb.uoregon.edu/datamanagement/sharingdata.html#three
+- Protecting personal health information in research: understanding the HIPAA privacy rule. Accessed June 26, 2015 athttp://privacyruleandresearch.nih.gov/pr_02.asp.
+
+- Guidelines for Responsible Data Management in Scientific Research. Accessed June 26, 2015 at http://ori.hhs.gov/education/products/clinicaltools/data.pdf
+
+- Constructing Access Permissions. Accessed June 26, 2015 at http://libweb.uoregon.edu/datamanagement/sharingdata.html#three
 
 
 ---

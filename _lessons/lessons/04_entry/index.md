@@ -1,5 +1,5 @@
 ---
-title: "Data Entry, and Manipulation"
+title: "Data Entry and Manipulation"
 author: DataONE Community Engagement & Outreach Working Group
 update: March 27 2017
 layout: slides
@@ -172,13 +172,11 @@ Archiving your data publicly will require that it be stored in a non-proprietary
 ---
 
 ## Data Entry Tools
+Two common tools: Google Docs, Excel
 
-.full-width[
-* Two common tools: Google Docs, Excel
+
+.center[![sheet4](images/pde6a.png)
 ]
-
-![sheet4](images/pde6a.png)
-
 
 ???
 * Data entry tools typically perform data validation which allows you to control the kind of information that is entered. With data validation, you can:
@@ -190,7 +188,8 @@ Archiving your data publicly will require that it be stored in a non-proprietary
 
 ## Google Docs Forms
 
-![sheet4](images/pde7a.png)
+.center[![sheet4](images/pde7a.png)
+]
 
 ???
 This is an example of a data entry form created in Googledocs.  Such forms are easy to create, and free.   Here, a form field is being created that will allow the user to select from three locations where data were collected.   In practice, GoogleDocs work best for entering survey data, or entering lots of text data.  
@@ -200,10 +199,12 @@ The advantages to using a data entry form, as opposed to entering data directly 
 ---
 ## Google Docs Spreadsheet
 
-![sheet4](images/pde8.png)
+.center[![sheet4](images/pde8.png)
+]
+
 
 ???
-* Data entered into a Google doc form is stored in a spreadsheet.  
+Data entered into a Google doc form is stored in a spreadsheet.  
 
 ---
 
@@ -444,7 +445,7 @@ At times you will need to combine multiple datasets into a superset in order to 
 Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+DataONE Education Module: Data Entry and Manipulation. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

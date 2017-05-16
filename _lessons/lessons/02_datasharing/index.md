@@ -59,9 +59,7 @@ After completing this lesson, you will be able to recognize the benefits of shar
 
 # The Data Lifecycle
 Data sharing should be addressed throughout the data lifecycle.
-
-.center[![Image of the DataONE data lifecycle](images/DLC.png)
-]
+.center[![DataONE data lifecycle](images/dlc.png)]
 
 ???
 

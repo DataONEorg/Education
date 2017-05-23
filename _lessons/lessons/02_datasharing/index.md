@@ -254,12 +254,15 @@ Even if the value of data sharing is recognized, concerns remain as to the impac
 
 # Concerns About Data Sharing
 
+Researchers may worry that the data will be taken out of context, misinterpreted or used inappropriately.
+
 | Problem                                                                     | Solution |
 |:----------------------------------------------------------------------------|:---------:|
 | inappropriate use due to misunderstanding of research purpose or parameters | **?**    |
 | security and confidentiality of sensitive data                              | **?**    |
 | lack of acknowledgement / credit                                            | **?**    |
 | loss of advantage when competing for research dollars                       | **?**    |
+
 
 ???
 
@@ -272,6 +275,8 @@ Researchers may worry that the data will be taken out of context, misinterpreted
 ---
 
 # Concerns About Data Sharing
+
+Each of these issues can, in great part, be addressed by providing rich data documentation known as ‘metadata’.
 
 | Problem                                                                     | Solution     |
 |:----------------------------------------------------------------------------|:-------------:|
@@ -292,14 +297,18 @@ Each of these issues can, in great part, be addressed by providing rich data doc
 
 # Concerns About Data Sharing
 
+The metadata does NOT contain the data. 
+
 | Problem | Solution     |
 |:---------------|:----------------------|
 | inappropriate use due to misunderstanding of research purpose or parameters | provide rich Abstract, Purpose, Use Constraints and Supplemental Information where needed |
-| security and confidentiality of sensitive data | the metadata does NOT contain the data Use Constraints specify who may access the data and how |                  
+| security and confidentiality of sensitive data | Use Constraints specify who may access the data and how |                  
 
 ---
 
 # Concerns About Data Sharing Cont'd
+
+Consider audiences, usability, versions.
 
 | Problem | Solution     |
 |:---------------|:----------------------|
@@ -449,109 +458,3 @@ No rights reserved; you may enhance and reuse for your own purposes.  We do ask 
 ![CCBY0](images/CC0PublicDomain.png)
 
 
----
-
-class: center, middle
-
-#Archived slides
-
----
-
-# Making Data Sharable
-
-**Step One:** Create metadata to facilitate discovery and use
-
-* Create robust metadata that is discoverable
-* specify geography and time periods
-* use discipline specific theme, place and temporal keywords, thesauri, and ontologies
-* describe attributes
-* include links to associated data catalogues, data downloads, project websites, etc.
-
-???
-
-The more robust your metadata, the easier your data will be discovered and the more appropriately it will be applied. Making data sharable involves the following steps.
-
-Step 1: Create robust metadata that will be discoverable.  Be specific in regards to geography and time periods. Use discipline specific themes, place names, and keywords.  Describe any attributes and include links to associated data catalogues, data downloads, and project websites.
-
-
----
-
-# Making Data Sharable
-
-**Step Two:** Include archival and reference information
-
-* properly formatted data citations for the data you are sharing and all secondary data sources you used
-* Universally Unique Identifiers (UUID) that uniquely identify your data and help to link the data with the metadata. See the DataONE unique identifier guidance at: http://mule1.dataone.org/ArchitectureDocs-current/design/PIDs.html
-
-**Data Citation Example**: Sidlauskas, B. 2007. Data from: Testing for unequal rates of morphological diversification in the absence of a detailed phylogeny: a case study from characiform fishes. Dryad Digital Repository. doi:10.5061/dryad.20
-
-
-???
-
-Step 2: Be sure to include archival and reference information with properly formatted data citations for sources and content. Include persistent data identifiers and any related metadata identifiers.
-
-References:
-http://en.wikipedia.org/wiki/Universally_unique_identifier
-http://mule1.dataone.org/ArchitectureDocs-current/design/PIDs.html
-
-
----
-
-# Making Data Sharable
-
-**Step Three:** Have data contributors review your metadata to ensure validity and organizational ‘correctness’?
-
-* are the processes described accurately?
-* are all contributions adequately identified?
-* has management reviewed the product and documentation?
-* is the funding organization properly recognized?
-
-???
-
-Step 3: Be sure to have data contributors review their metadata to ensure validity and organizational correctness.  Are the processes correct? Is your contribution adequately represented and reflected? Is your organization properly recognized and is the funding organization properly recognized? Be sure to get management and sponsor approval on the data publication including the content, presentation, and manner in which contributors are identified.
-
-
----
-
-# Making Data Sharable
-
-**Step Four:** Publish your metadata and/or data via:
-
-- **Federal Data Catalogs**
- - data.gov
-- **Data Repositories**
- - Knowledge Network for Biodiversity (KNB) Data Portal
- - Long Term Ecological  Research (LTER) Network Data Portal
- - Institutional data repositories
-- **Other Online Resources**
- - Project and/or Program websites
- - Web-accessible folders (WAF)
- - Community or Public Cloud
-- Searchable directory of repositories for publishing your data
- - http://service.re3data.org/search
-
-???
-
-Step 4: Publish your metadata in data portals and clearinghouses.  Seek out relevant government portals and portals developed by specific communities of practice.
-
----
-
-# Making Data Sharable
-
-**Step Four:** Publish your metadata and/or data via: (cont’d)
-
-- **Other Online Resources**
-
- * Project and/or Program websites
- * Links within online lessons and outreach products
- * Web-accessible folders (WAF)
- * Community or Public Cloud
-
-???
-
-In addition to Data Clearinghouses and portals, consider publishing your metadata at project or program websites that describe program activities. You can place links within online lessons, outreach products, and into training related resources. For example one can publish their metadata to a WAF, or Web-Accessible folder, that enables direct search and discovery without going through a portal or clearinghouse application. Community or Public Clouds are similar to WAFs. Public and communal clouds offer generous bandwidths and a shared storage system which provides an effective method for data sharing.
-
-* Piwowar HA, Becich MJ, Bilofsky H, Crowley RS, on behalf of the caBIG Data Sharing and Intellectual Capital Workspace (2008) Towards a Data Sharing Culture: Recommendations for Leadership from Academic Health Centers. PLoS Med 5(9): e183. doi:10.1371/journal.pmed.0050183
-* Roxana Geambasu, Steven D. Gribble, Henry M. Levy. "CloudViews: Communal Data Sharing in Public Clouds." In Proceedings of the First USENIX Workshop on Hot Topics in Cloud Computing (HotCloud), San Diego, USA, June 2009. Paper.
-
----

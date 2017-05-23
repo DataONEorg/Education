@@ -264,9 +264,9 @@ Data management and organization facilitate archiving, sharing and publishing da
 
 # Well-Managed Data Can Result in Re-use, Integration and New Science
 
-.center[![](images/data-integration.png)]
+.center[![](images/data-integration.png)
 *Image from DataONE*
-
+]
 
 ???
 By re-using data collected from a variety of sources – eBird database, land cover data, meteorology, and remotely sensed -- this project was able to compile and process the data using supercomputering to determine bird migration routes for particular species.
@@ -356,8 +356,12 @@ A new image processing technique reveals something not before seen in this Hubbl
 
 # What is the Data Life Cycle?
 
+
+
+
+
 .center[![](images/DLC.png)
-*DLC from DataONE*]
+]
 
 ???
 A data lifecycle illustrates stages thru which well-managed data passes from the inception of a research project to its conclusion. In the reality of science research, the stages do not always follow a continuous circle.

@@ -175,7 +175,7 @@ Archiving your data publicly will require that it be stored in a non-proprietary
 Two common tools: Google Docs, Excel
 
 
-.center[![sheet4](images/pde6a.png)
+.center[![sheet4](images/rsz_pde6a.png)
 ]
 
 ???

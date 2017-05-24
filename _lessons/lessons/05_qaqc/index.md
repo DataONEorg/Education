@@ -11,7 +11,6 @@ status: published
 
 # Lesson Topics
 
-.one-half[
 Definitions
 * Quality assurance and Quality control
 * Data contamination
@@ -21,12 +20,7 @@ QA/QC best practices
 * Before data collection
 * During data collection/entry
 * After data collection/entry
-]
 
-.one-half[
-.center[![CC image by cobalt123 on Flickr](images/image5.jpeg)
-*CC image by cobalt123 on Flickr*]
-]
 
 ???
 
@@ -42,8 +36,6 @@ After completing this lesson, the participant will be able to:
 * Perform quality control and assurance on their data at all stages of the research cycle
 
 
-.center[![CC image by 0xFCAF on Flickr](images/image6.jpeg)
-*CC image by 0xFCAF on Flickr*]
 
 ???
 
@@ -55,7 +47,7 @@ After completing this module, you will be able to define quality control and qua
 
 .center[
 ![DataONE Life Cycle](images/DataONE Module 5 Life Cycle.png)
-*DataONE Life Cycle*]
+]
 
 ???
 
@@ -85,7 +77,7 @@ Errors of Omission
 * Data or metadata not recorded
 * Examples: inadequate documentation, human error, anomalies in the field
 
-.center[![CC image by Nick J Webb on Flickr](images/image8.jpeg)
+.center[![CC image by Nick J Webb on Flickr](images/rsz_image8.jpeg)
 *CC image by Nick J Webb on Flickr*]
 
 ???

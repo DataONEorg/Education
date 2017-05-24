@@ -56,8 +56,8 @@ Q4: What are some good practices to follow when naming files?  Suggested answers
 ## The DataONE Data Life Cycle
 
 .center[
-![lifecycle](images/dlc.png)
-*DataONE Life Cycle*]
+![lifecycle](images/DLC_Assure_Preserve.png)
+]
 
 ???
 In this lesson we will be focusing on data protection and backup which is associated with the categories assure and preserve in the data life cycle.  For definitions of the DataONE Data Life Cycle, see: dataone.org/data-life-cycle

@@ -12,8 +12,8 @@ class: center, middle
 
 # Metadata
 
-![Image Attribution: CC image by bonus on Flickr](images/image3.jpeg)
-  *CC image by bonus on Flickr*
+![Image Attribution: CC image by bonus on Flickr](images/metadata.png)
+
 
 ---
 
@@ -54,14 +54,14 @@ After completing this lesson, the participant will be able to:
 ---
 
 # The DataONE Data Life Cycle
+Creating and capturing metadata falls within the “Describe” phase of the Data Life Cycle.
 
 .center[![DataONE. Public domain](images/DLC_Describe.png)
-*DataONE Data Life Cycle*
 ]
 
 ???
 
-Writing metadata falls within the “Describe” portion of the Data Life Cycle.
+
 
 ---
 

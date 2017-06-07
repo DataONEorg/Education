@@ -8,11 +8,16 @@ categories: ["Teaching Module"]
 status: published
 ---
 
-class: center, middle
+
 
 # Metadata
 
-![Image Attribution: CC image by bonus on Flickr](images/metadata.png)
+
+
+
+.center[
+![Image Attribution: CC image by Mace Ojala on Flickr](images/metadata7.jpg)
+]
 
 
 ---
@@ -26,9 +31,7 @@ class: center, middle
 - Preparing to write metadata 
 - Tips for writing a quality metadata record
 
-.center[![Photo Attribution: CC image by Alec Couros on Flickr](images/image4.jpeg)
-  *CC image by Alec Couros on Flickr*
-  ]
+
 	
 ???
 
@@ -306,7 +309,7 @@ Metadata serves data discovery at multiple levels:
 
 # Data Distribution: Catalogs
 
-.one-half[- **DataONE**
+- **DataONE**
  - Data discovery, knowledge, community…for a sustainable future
  - https://search.dataone.org
 - **Data.gov**
@@ -315,15 +318,13 @@ Metadata serves data discovery at multiple levels:
 - **Metacat**
  - Repository for data and metadata		
  - http://knb.ecoinformatics.org/index.jsp
-]
-
-.one-half[- **US Geological Survey**
+- **US Geological Survey**
  - USGS Science Data Catalog
  - http://data.usgs.gov/datacatalog
 - **ArcGIS Online**
  - ESRI sponsored national geospatial data portal
  - http://www.geographynetwork.com
-]
+
 
 ???
 
@@ -420,6 +421,7 @@ Even if the value of data documentation is recognized, concerns remain as to the
 
 # Concerns About Creating Metadata (2)
 
+Metadata creation and management should be treated as a standard part of the data development process.
 
 
 | Concern | Solution |

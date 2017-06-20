@@ -1,12 +1,12 @@
 # Welcome to the DataONE Data Management Education Module Repo!
 
-This repository contains DataONE Education modules that have been updated and translated from PowerPoint format to a more easily updated, markdown format.
+This repository contains DataONE Education Modules that have been updated and translated from PowerPoint format to a more easily updated format. Each Education Module contains a set of slides with annotations, as well as a hands on exercise and a one-page explanatory sheet that distills the main points and lessons to take away. The Education Modules are intended to be flexible and updated by a range of users and audiences. Please let us know what you think! 
 
 ## Guidelines for presenters
 
 ### Where to find the material?
 
-A list of the lessons can be found on [the website associated][website] to this
+A list of the lessons can be found on [the website associated][website] with this
 repository. The first page will present you with a list of the available lessons, and
 clicking on each lesson will launch the presentations.
 
@@ -16,7 +16,7 @@ Each of the DataONE Education Modules is comprised of three parts: a set of slid
 
 ### How does this work?
 
-The slides are provided as html documents that you can view and present in your browser. Everything should work in reasonably recent versions of Firefox, Chrome, and Safari. Please note that your browser needs to allow Javascript.
+The slides are provided as HTML documents that you can view and present in your browser, with or without the annotated notes. Everything should work in recent versions of the Firefox, Chrome, and Safari browsers. Please note that your browser needs to allow Javascript.
 
 ### Presentation mode
 

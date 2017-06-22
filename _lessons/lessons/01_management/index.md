@@ -356,7 +356,7 @@ A new image processing technique reveals something not before seen in this Hubbl
 
 # What is the Data Life Cycle?
 
-
+A research data lifecycle illustrates stages through which well-managed data passes from the inception of a research project to its conclusion.
 
 
 

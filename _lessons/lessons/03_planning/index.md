@@ -16,11 +16,6 @@ categories: ["Teaching Module" ]
 - Recommendations for DMP content
 - Example of an NSF DMP
 
-]
-
-.one-third[![CC image by cybrarian77 on Flickr](images/rsz_image4_.jpeg)
- *CC image by cybrarian77 on Flickr*
-]
 
 <!-- These are notes for the presenter -->
 
@@ -52,8 +47,10 @@ categories: ["Teaching Module" ]
 
 # The Data Life Cycle
 
-.center[![Photo Attribution: https://www.dataone.org/data-life-cycle](images/DataONE_Module3_LifeCycle.png)
+Data management planning is the starting point in the data life cycle. 
 
+.center[![dlc](images/DataONE_Module3_LifeCycle.png)
+]
 
 ???
 

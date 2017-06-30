@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
   <script src="{{ site.baseurl }}/js/vendor/modernizr-2.8.3.min.js"></script>
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/resources/cover_page.css" />
-
+  <link rel="shortcut icon" href="https://dataone.org/sites/all/images/favicon.ico" type="image/vnd.microsoft.icon" />
 
 {% assign ldeck = page.url | split: '/' %}
 {% assign ldeck = ldeck[2] %}
@@ -25,38 +25,61 @@
   {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
 {% endfor %}
 
+  <style>
+  	section img.mainimage { 
+  		float: left; 
+  		border:1px solid #888; 
+  		padding:5px; 
+  		margin:0px 20px 20px 0px; 
+  	}
+  	body {
+  	}
+  	section {
+  		clear:both; 
+  	}
+  	section h1 {
+  		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  		color: #660032; 
+  	}
+  	article, footer {
+  		margin:30px; 
+  	}
+  	header {
+  		border-bottom: 20px solid #660032; 
+  	}
+  	header img.pagelogo {
+  		padding: 15px 0px 0px 15px; 
+  	}
+  	footer {
+  		font-size: .8em; 
+  	}
+  </style>
+
 </head>
 
 
 <body>
 <main role='main'>
   <header role='banner'>
-    <a href='https://www.dataone.org/'><img alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:24px'/></a></p>
+    <a href='https://www.dataone.org/'><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:24px'/></a></p>
   </header>
   <article class='container'>
     <section role='complimentary' class='keep-together'>
-      <a href='index.html'><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png" style="max-width: 100%; max-height:203px"/></a>
-	  
+      <div class=border1><a href='index.html'><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png" style="max-width: 100%; max-height:203px" class="mainimage" /></a></div>
       <p>
 		  <a href='index.html'>  Slide Presentation View</a> 
-		  
-	
 		  <p><a href='{{ldeck}}.pdf'>  PDF Download</a></p> 
-		  
 		  <p><a href='{{ldeck}}.pdf'>  Page Handout</a></p> 
-		  
 		  <p><a href='{{ldeck}}.pdf'>  Hands on Exercise</a></p> 
-		  
 		  <p><a href='{{ldeck}}.pdf'>  PPT Download</a></p>
-      
-	  
-	  
     </section>
     <section>
       <h1>{{ lesson.title }}</h1>
       <p>{{ lesson.author }}</p>
         {{ page.content | markdownify }}
     </section>
+    
+    << <a href="{{ site.baseurl }}/">Back to list</a>
   </article>
   
   
@@ -67,9 +90,10 @@
   
   
   <footer>
-    <p>Footer text</p>
-    <p>Version date: {{ page.update | date: '%b %d, %Y' }}</p>
-    <p>Build revision: <a href='{{ site.github.repository_url}}/commit/{{ site.github.build_revision }}'>{{ site.github.build_revision }}</a></p>
+    <div>
+    	Version date: {{ page.update | date: '%b %d, %Y' }}<br>
+        Build revision: <a href='{{ site.github.repository_url}}/commit/{{ site.github.build_revision }}'>{{ site.github.build_revision }}</a>
+    </div>
   </footer>
 </main>
 

@@ -220,7 +220,7 @@ Removes duplicated tags
                 {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
               {% endfor %}
               <li class="mix-target {{ catclasses }}" 
-                  data-order="5" 
+                  data-order="{{ ldeck }}" 
                   data-year="4">
                   <a href="{{ site.baseurl }}/lessons/{{ ldeck }}/cover.html"><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png"></a></li>
             {% endif %}

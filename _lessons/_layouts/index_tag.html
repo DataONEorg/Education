@@ -22,9 +22,116 @@
   ga('send', 'pageview');
 
 </script>
+
+
+  <style>
+  	section img.mainimage { 
+  		float: left; 
+  		border:1px solid #888; 
+  		padding:5px; 
+  		margin:0px 20px 20px 0px; 
+  	}
+  	body {
+  		padding:0px; margin:0px; 
+  		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  	}
+  	section {
+  		clear:both; 
+  	}
+  	section h1 {
+  		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  		color: #660032; 
+  	}
+  	article, footer {
+  		margin:30px; 
+  	}
+  	header {
+  		border-bottom: 20px solid #660032; 
+  		background-color:#fff; 
+  	}
+  	header img.pagelogo {
+  		padding: 15px 0px 0px 15px; 
+  	}
+  	footer {
+  		font-size: .8em; 
+  	}
+  	
+  	h2 {
+		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;  	
+    margin-top: 1em;
+    margin-bottom: 4px; 
+    font-style: normal;
+    font-style: normal;
+    font-size: 125%;
+    color: #660033;
+    font-weight: 600;
+    margin-left:60px; 
+  	}
+
+
+a.upcoming-webinar-boxes {
+    padding: .25em 2em .25em 2em;
+    margin-right: 2em;
+    margin-top: .5em;
+    width: 20%;
+    clear: none;
+    display: inline-block;
+}
+a.upcoming-webinar-boxes {
+    border: solid thin #660033;
+    padding: 1em 2em 1em 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    font-weight: 600;
+    font-size: 90%;
+    width: 80%;
+    text-transform: uppercase;
+    clear: right;
+    display: block;
+    text-align: center;
+    }
+/*
+a, a:link, a:visited {
+    color: #cabbac;
+    z-index: 1;
+    text-decoration: none;
+    word-wrap: normal;
+     }   
+*/
+a.filterbutton {
+    padding: .25em 2em .25em 2em;
+    margin-right: 2em;
+    margin-top: .5em;
+    margin-left: 10px;
+    clear: none;
+    display: inline-block;
+	color:#660033; 
+    border: solid thin #660033;
+    font-weight: 600;
+    font-size: 90%;
+    text-transform: uppercase;
+    text-align:center;
+
+}
+a.filterbutton:hover {
+  background-color:#660033;
+  color:#fff; 
+}
+a.programs-filter-btn-active {
+  background-color:#660033;
+  color:#fff; 
+}
+
+  </style>
+
 </head>
 
 <body>
+
+  <header role='banner'>
+    <a href='https://www.dataone.org/'><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:24px'/></a></p>
+  </header>
 
 {% comment %}
 The following part extracts all the tags from the lessons
@@ -66,16 +173,18 @@ Removes duplicated tags
 	{% endif %}
 {% endfor %}
 
-
 <div class="wrap">
   <div class="container">
-    <div class="row">
-      <div class="twelve columns">
-        <h4>Filter Categories</h4>
-      </div>
-    </div><!-- end of row -->
+
 
     <div class="row">
+      <div class="twelve columns">
+        <h2>Programs List</h2>
+      </div>
+      
+    </div>
+
+    <!--div class="row">
       <div class="twelve columns">
         <div class="programs">
           <button class="filter-btn" data-filter="all">All</button>
@@ -84,15 +193,19 @@ Removes duplicated tags
           {% endfor %}
         </div>
       </div>
-    </div><!-- end of row -->
-
+    </div-->
 
     <div class="row">
       <div class="twelve columns">
-        <h4>Programs List</h4>
+        <div style="margin-left:60px;">
+          Filter categories: 
+          <a href="#" class="filterbutton" data-filter="all">All</a>
+          {% for cat in cats %}
+          <a href="#" class="filterbutton" data-filter=".{{ cat | downcase | replace: ' ','_' }}">{{ cat }}</a>
+          {% endfor %}
+        </div>
       </div>
-    </div><!-- end of row -->
-
+    </div>
 
     <div class="row">
       <div class="twelve columns">

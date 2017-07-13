@@ -100,17 +100,20 @@ img {
 	display: block;
 	height: 60px;
 	margin: 15px 0;
-	padding-top: 12.5px;
 	background: whitesmoke;
 	color: black;
 	border: 1px solid white;
 	transition: all .4s ease;
 }
 
+/*
 .courses a:hover {
 	background: #99cfe0;
 }
-
+*/
+.courses img:hover {
+  opacity: 0.6;
+}
 .p, .p a {
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -146,7 +149,7 @@ img {
 	}
 
 	.programs button {
-		width: 25%;
+		width: 15%;
 		margin-bottom: 15px;
 	}
 

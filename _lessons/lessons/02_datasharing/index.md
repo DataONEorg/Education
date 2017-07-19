@@ -4,7 +4,7 @@ author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
 layout: slides
 status: published
-tags: ["Data Management", "Data Sharing"]
+tags: ["Data Management", "Data Sharing", Plan, Collect, Integrate, Assure, Preserve, Describe, Discover, Analyze]
 categories: ["Teaching Module" ]
 ---
 

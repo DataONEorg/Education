@@ -68,60 +68,24 @@
     margin-left:60px; 
   	}
 
+	a.filterbutton {
+		padding: .25em 2em .25em 2em;
+		margin-top: .5em;
+		margin-left: 10px;
+		clear: none;
+		display: inline-block;
+		color:#660033; 
+		border: solid thin #660033;
+		font-weight: 600;
+		font-size: 90%;
+		text-transform: uppercase;
+		text-align:center;
 
-a.upcoming-webinar-boxes {
-    padding: .25em 2em .25em 2em;
-    margin-right: 2em;
-    margin-top: .5em;
-    width: 20%;
-    clear: none;
-    display: inline-block;
-}
-a.upcoming-webinar-boxes {
-    border: solid thin #660033;
-    padding: 1em 2em 1em 2em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    font-weight: 600;
-    font-size: 90%;
-    width: 80%;
-    text-transform: uppercase;
-    clear: right;
-    display: block;
-    text-align: center;
-    }
-/*
-a, a:link, a:visited {
-    color: #cabbac;
-    z-index: 1;
-    text-decoration: none;
-    word-wrap: normal;
-     }   
-*/
-a.filterbutton {
-    padding: .25em 2em .25em 2em;
-    margin-right: 2em;
-    margin-top: .5em;
-    margin-left: 10px;
-    clear: none;
-    display: inline-block;
-	color:#660033; 
-    border: solid thin #660033;
-    font-weight: 600;
-    font-size: 90%;
-    text-transform: uppercase;
-    text-align:center;
-
-}
-a.filterbutton:hover {
-  background-color:#660033;
-  color:#fff; 
-}
-a.programs-filter-btn-active {
-  background-color:#660033;
-  color:#fff; 
-}
+	}
+	a.filterbutton:hover {
+	  background-color:#660033;
+	  color:#fff; 
+	}
 
   </style>
 
@@ -198,10 +162,22 @@ Removes duplicated tags
     <div class="row">
       <div class="twelve columns">
         <div style="margin-left:60px;">
-          Filter categories: 
+          Filter by content type: 
           <a href="#" class="filterbutton" data-filter="all">All</a>
           {% for cat in cats %}
           <a href="#" class="filterbutton" data-filter=".{{ cat | downcase | replace: ' ','_' }}">{{ cat }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="twelve columns">
+        <div style="margin-left:60px;">
+          Filter by tag: 
+          <a href="#" class="filterbutton" data-filter="all">All</a>
+          {% for tag in tags %}
+          <a href="#" class="filterbutton" data-filter=".{{ tag | downcase | replace: ' ','_' }}">{{ tag }}</a>
           {% endfor %}
         </div>
       </div>
@@ -219,7 +195,14 @@ Removes duplicated tags
                 {% assign cleancat = cat | downcase | replace: ' ', '_' %}
                 {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
               {% endfor %}
-              <li class="mix-target {{ catclasses }}" 
+
+              {% assign tagclasses = "" %}
+              {% for tag in lesson.tags %}
+                {% assign cleantag = tag | downcase | replace: ' ', '_' %}
+                {% assign tagclasses = tagclasses | append: ' ' | append: cleantag %}
+              {% endfor %}
+
+              <li class="mix-target {{ catclasses }} {{ tagclasses }}" 
                   data-order="{{ ldeck }}" 
                   data-year="4">
                   <a href="{{ site.baseurl }}/lessons/{{ ldeck }}/cover.html"><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png"></a></li>

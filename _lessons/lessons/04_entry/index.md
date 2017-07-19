@@ -4,7 +4,7 @@ author: DataONE Community Engagement & Outreach Working Group
 update: March 27 2017
 layout: slides
 status: published
-tags: ["Data Management", Collect]
+tags: ["Data Management", Collect, Integrate]
 categories: ["Teaching Module" ]
 ---
 

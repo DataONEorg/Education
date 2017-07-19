@@ -84,6 +84,8 @@ img {
 
 .courses {
 	margin-bottom: 15px;
+	padding-bottom: 15px; 
+	padding-right: 40px; 
 	font-size: 0;
 	background: whitesmoke;
 }
@@ -127,7 +129,7 @@ img {
 @media only screen and (min-width: 750px) {
 
 	.container {
-		width: 95%;
+		/* width: 95%; */
 	}
 
 	.courses a {

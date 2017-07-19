@@ -3,7 +3,7 @@ title: "Legal & Policy Issues"
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 21, 2016
 layout: slides
-tags: ["Data Management", Policy]
+tags: ["Data Management", Policy, Plan]
 categories: ["Teaching Module"]
 status: published
 ---

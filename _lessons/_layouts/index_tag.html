@@ -80,12 +80,25 @@
 		font-size: 90%;
 		text-transform: uppercase;
 		text-align:center;
-
 	}
 	a.filterbutton:hover {
 	  background-color:#660033;
 	  color:#fff; 
 	}
+
+	a.programs-filter-btn-active {
+	  background-color:#660033;
+	  color:#fff; 
+	}
+
+	a.tagbutton {
+		text-transform: none; 
+	}
+	
+	.btn_teaching_module { background-color: #d0e3db; }
+	.btn_technical_tutorial { background-color: #ebdadc; }
+
+
 
   </style>
 
@@ -165,8 +178,10 @@ Removes duplicated tags
           Filter by content type: 
           <a href="#" class="filterbutton" data-filter="all">All</a>
           {% for cat in cats %}
-          <a href="#" class="filterbutton" data-filter=".{{ cat | downcase | replace: ' ','_' }}">{{ cat }}</a>
+          <a href="#" class="filterbutton btn_{{ cat | downcase | replace: ' ','_' }}" data-filter=".{{ cat | downcase | replace: ' ','_' }}">{{ cat }}</a>
           {% endfor %}
+		<a href="#" class="filterbutton" data-filter=".best_practice">Best Practice</a>
+		<a href="#" class="filterbutton" data-filter=".video_tutorial">Video Tutorial</a>
         </div>
       </div>
     </div>
@@ -174,11 +189,16 @@ Removes duplicated tags
     <div class="row">
       <div class="twelve columns">
         <div style="margin-left:60px;">
-          Filter by tag: 
-          <a href="#" class="filterbutton" data-filter="all">All</a>
-          {% for tag in tags %}
-          <a href="#" class="filterbutton" data-filter=".{{ tag | downcase | replace: ' ','_' }}">{{ tag }}</a>
-          {% endfor %}
+          Filter by stage of the Data Life Cycle: 
+          <a href="#" class="filterbutton tagbutton" data-filter="all">All</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".plan">Plan</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".collect">Collect</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".assure">Assure</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".describe">Describe</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".preserve">Preserve</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".discover">Discover</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".integrate">Integrate</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".analyze">Analyze</a>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ title: "Data Analysis and Workflows"
 author: DataONE Community Engagement & Outreach Working Group
 update: Oct. 26, 2016
 layout: slides
-tags: ["Data Management", Analyze, Workflow]
+tags: ["Data Management", Analyze, Workflow, Analysis]
 categories: ["Teaching Module"]
 status: published
 ---

@@ -3,7 +3,7 @@ title: "Data Citation"
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 21, 2016
 layout: slides
-tags: ["Data Management", Discover, Cite]
+tags: ["Data Management", Describe, Discover, Cite]
 categories: ["Teaching Module"]
 status: published
 ---

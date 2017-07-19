@@ -6,6 +6,8 @@ layout: slides
 tags: ["Data Management", Analyze, Workflow, Analysis]
 categories: ["Teaching Module"]
 status: published
+prevlesson: 08_citation
+nextlesson: 10_policy
 ---
 # Lesson Topics
 

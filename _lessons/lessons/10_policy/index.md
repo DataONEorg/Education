@@ -6,6 +6,8 @@ layout: slides
 tags: ["Data Management", Policy, Plan]
 categories: ["Teaching Module"]
 status: published
+prevlesson: 09_analysis
+nextlesson: 00_markdown
 ---
 
 class: center, middle

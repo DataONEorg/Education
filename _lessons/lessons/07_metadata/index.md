@@ -6,6 +6,8 @@ layout: slides
 tags: ["Data Management", Describe]
 categories: ["Teaching Module"]
 status: published
+prevlesson: 06_protect
+nextlesson: 08_citation
 ---
 
 

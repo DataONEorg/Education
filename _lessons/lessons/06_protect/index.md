@@ -6,6 +6,8 @@ layout: slides
 tags: ["Data Management", Preserve, Assure]
 categories: ["Teaching Module"]
 status: published
+prevlesson: 05_qaqc
+nextlesson: 07_metadata
 ---
 
 ## Lesson Topics

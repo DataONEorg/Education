@@ -6,6 +6,8 @@ layout: slides
 tags: ["Data Management", Describe, Discover, Cite]
 categories: ["Teaching Module"]
 status: published
+prevlesson: 07_metadata
+nextlesson: 09_analysis
 ---
 
 class: center, middle 

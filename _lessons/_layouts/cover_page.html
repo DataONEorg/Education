@@ -1,9 +1,15 @@
 <!doctype html>
 <html lang="en">
+
+{% assign ldeck = page.url | split: '/' %}
+{% assign ldeck = ldeck[2] %}
+{% capture index_url %}/lessons/{{ ldeck }}/index.html{% endcapture %}
+{% assign lesson = site.lessons | where: "url", index_url | first %}
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ page.title }}</title>
+  <title>{{ lesson.title }}</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--[if IE]>
@@ -15,16 +21,11 @@
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/resources/cover_page.css" />
   <link rel="shortcut icon" href="https://dataone.org/sites/all/images/favicon.ico" type="image/vnd.microsoft.icon" />
 
-{% assign ldeck = page.url | split: '/' %}
-{% assign ldeck = ldeck[2] %}
-{% capture index_url %}/lessons/{{ ldeck }}/index.html{% endcapture %}
-{% assign lesson = site.lessons | where: "url", index_url | first %}
 {% assign catclasses = "" %}
 {% for cat in page.categories %}
   {% assign cleancat = cat | downcase | replace: ' ', '_' %}
   {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
 {% endfor %}
-
   <style>
   	section img.mainimage { 
   		float: left; 
@@ -82,7 +83,8 @@
         {{ page.content | markdownify }}
     </section>
     
-    << <a href="{{ site.baseurl }}/">Back to list</a>
+    << <a href="{{ site.baseurl }}/lessons/{{ lesson.prevlesson }}/cover.html">Previous lesson</a> | <a href="{{ site.baseurl }}/lessons/{{ lesson.nextlesson }}/cover.html">Next lesson</a> >><br>
+    <a href="{{ site.baseurl }}/">Back to list</a>
   </article>
   
   

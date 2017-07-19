@@ -6,6 +6,8 @@ layout: slides
 status: published
 tags: ["Data Management", Plan]
 categories: ["Teaching Module" ]
+prevlesson: 02_datasharing
+nextlesson: 04_entry
 ---
 
 # Lesson Topics

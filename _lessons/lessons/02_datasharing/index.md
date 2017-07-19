@@ -6,6 +6,8 @@ layout: slides
 status: published
 tags: ["Data Management", "Data Sharing", Plan, Collect, Integrate, Assure, Preserve, Describe, Discover, Analyze]
 categories: ["Teaching Module" ]
+prevlesson: 01_management
+nextlesson: 03_planning
 ---
 
 # Data Sharing

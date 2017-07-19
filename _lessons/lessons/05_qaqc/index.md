@@ -6,6 +6,8 @@ layout: slides
 tags: ["Data Management", Assure, QAQC, Collect]
 categories: ["Teaching Module"]
 status: published
+prevlesson: 04_entry
+nextlesson: 06_protect
 
 ---
 

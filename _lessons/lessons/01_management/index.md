@@ -6,6 +6,8 @@ layout: slides
 status: published
 tags: ["Data Management", Plan, Collect, Integrate, Assure, Preserve, Describe, Discover, Analyze]
 categories: ["Teaching Module"]
+prevlesson: 00_markdown
+nextlesson: 02_datasharing
 ---
 
 class: center, middle

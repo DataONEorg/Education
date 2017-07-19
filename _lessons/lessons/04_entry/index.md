@@ -6,6 +6,8 @@ layout: slides
 status: published
 tags: ["Data Management", Collect, Integrate]
 categories: ["Teaching Module" ]
+prevlesson: 03_planning
+nextlesson: 05_qaqc
 ---
 
 ## Lesson Topics

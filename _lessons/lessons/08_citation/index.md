@@ -8,6 +8,11 @@ categories: ["Teaching Module"]
 status: published
 prevlesson: 07_metadata
 nextlesson: 09_analysis
+handout: L08_DataCitation_Handout.pdf
+ppt: L08_DataCitation.pptx
+exercise: L08_Exercise.pdf
+datafiles: DataFiles_L04L05L07L08.zip 
+
 ---
 
 class: center, middle 

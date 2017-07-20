@@ -8,6 +8,9 @@ categories: ["Teaching Module"]
 status: published
 prevlesson: 09_analysis
 nextlesson: 00_markdown
+handout: L10_Exercise_LegalPolicyIssues.docx
+ppt: L10_Exercise_LegalPolicyIssues.pptx
+exercise: L10_LegalPolicy_Handout.pdf
 ---
 
 class: center, middle

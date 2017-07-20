@@ -8,7 +8,11 @@ tags: ["Data Management", "Data Sharing", Plan, Collect, Integrate, Assure, Pres
 categories: ["Teaching Module" ]
 prevlesson: 01_management
 nextlesson: 03_planning
+handout: L02_DataSharing_Handout.pdf
+ppt: L02_DataSharing.pptx
+exercise: L02_Exercise.pdf
 ---
+
 
 # Data Sharing
 

@@ -8,6 +8,11 @@ categories: ["Teaching Module"]
 status: published
 prevlesson: 06_protect
 nextlesson: 08_citation
+handout: L07_DefiningMetadata_Handout.pdf
+ppt: L07_DefiningMetadata.pptx
+exercise: L07_Exercise.pdf
+datafiles: DataFiles_L04L05L07L08.zip 
+
 ---
 
 

@@ -8,6 +8,10 @@ categories: ["Teaching Module"]
 status: published
 prevlesson: 08_citation
 nextlesson: 10_policy
+handout: L09_AnalysisWorkflows_Handout.pdf
+ppt: L09_AnalysisWorkflows.pptx
+exercise: L09_Exercise.pdf
+
 ---
 # Lesson Topics
 

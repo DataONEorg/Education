@@ -70,9 +70,18 @@
       <p>
 		  <a href='index.html'>  Slide Presentation View</a> 
 		  <p><a href='{{ldeck}}.pdf'>  PDF Download</a></p> 
-		  <p><a href='{{ldeck}}.pdf'>  Page Handout</a></p> 
-		  <p><a href='{{ldeck}}.pdf'>  Hands on Exercise</a></p> 
-		  <p><a href='{{ldeck}}.pdf'>  PPT Download</a></p>
+		  {% if lesson.handout %}
+			  <p><a href='{{lesson.handout}}'>  Page Handout</a></p> 
+		  {% endif %}
+		  {% if lesson.exercise %}
+			  <p><a href='{{lesson.exercise}}'>  Hands on Exercise</a></p> 
+		  {% endif %}
+		  {% if lesson.datafiles %}
+			  <p><a href='{{lesson.datafiles}}'>  Supporting Data Files</a></p> 
+		  {% endif %}
+		  {% if lesson.ppt %}
+		  <p><a href='https://www.dataone.org/sites/all/documents/education-modules/pptx/{{lesson.ppt}}'>  PPT Download</a></p> 
+		  {% endif %}
 
 
 

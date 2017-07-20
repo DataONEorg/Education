@@ -8,6 +8,10 @@ categories: ["Teaching Module"]
 status: published
 prevlesson: 05_qaqc
 nextlesson: 07_metadata
+handout: L06_DataProtection_Handout.pdf
+ppt: L06_DataProtection.pptx
+exercise: L06_Exercise.pdf
+
 ---
 
 ## Lesson Topics

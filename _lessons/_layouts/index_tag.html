@@ -7,7 +7,13 @@
   <title>{{ page.title }}</title>
    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/resources/tags_index.css" />
    <link rel="shortcut icon" href="https://dataone.org/sites/all/images/favicon.ico" type="image/vnd.microsoft.icon" />
-
+<!--
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></link>
+-->
+	<!-- link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap.min.css">    
+	<link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-theme.min.css" -->    
+	<link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like_dropdowns.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -35,6 +41,11 @@
   		padding:0px; margin:0px; 
   		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   	}
+
+	a { color: #2a7ae2; text-decoration: none; }
+	a:visited { color: #1756a9; }
+	a:hover { color: #111; text-decoration: underline; }
+
   	section {
   		clear:both; 
   	}
@@ -102,6 +113,10 @@
 	
 	.btn_teaching_module { background-color: #d0e3db; }
 	.btn_technical_tutorial { background-color: #ebdadc; }
+	.btn_best_practice { background-color: #e8effc; }
+	.btn_video_tutorial { background-color: #ffe6c6; }
+
+
 
 
 
@@ -185,8 +200,8 @@ Removes duplicated tags
           {% for cat in cats %}
           <a href="#" class="filterbutton btn_{{ cat | downcase | replace: ' ','_' }}" data-filter=".{{ cat | downcase | replace: ' ','_' }}">{{ cat }}</a>
           {% endfor %}
-		<a href="#" class="filterbutton" data-filter=".best_practice">Best Practice</a>
-		<a href="#" class="filterbutton" data-filter=".video_tutorial">Video Tutorial</a>
+		<a href="#" class="filterbutton btn_best_practice" data-filter=".best_practice">Best Practice</a>
+		<a href="#" class="filterbutton btn_video_tutorial" data-filter=".video_tutorial">Video Tutorial</a>
         </div>
       </div>
     </div>
@@ -195,8 +210,9 @@ Removes duplicated tags
       <div class="twelve columns">
         <div style="margin-left:60px;">
           Filter by stage of the Data Life Cycle: 
+<!--
           <a href="#" class="filterbutton tagbutton" data-filter="all">All</a> 
-          <a href="#" class="filterbutton tagbutton" data-filter=".plan">Plan</a> <!-- switch to data-toggle for checkbox behavior --> 
+          <a href="#" class="filterbutton tagbutton" data-filter=".plan">Plan</a>  (switch to data-toggle for checkbox behavior)
           <a href="#" class="filterbutton tagbutton" data-filter=".collect">Collect</a>
           <a href="#" class="filterbutton tagbutton" data-filter=".assure">Assure</a>
           <a href="#" class="filterbutton tagbutton" data-filter=".describe">Describe</a>
@@ -204,6 +220,34 @@ Removes duplicated tags
           <a href="#" class="filterbutton tagbutton" data-filter=".discover">Discover</a>
           <a href="#" class="filterbutton tagbutton" data-filter=".integrate">Integrate</a>
           <a href="#" class="filterbutton tagbutton" data-filter=".analyze">Analyze</a>
+-->
+
+		  <select id="FilterSelect">
+			<option value="all">All</option>
+			<option value=".plan">Plan</option>
+			<option value=".collect">Collect</option>
+			<option value=".assure">Assure</option>
+			<option value=".describe">Describe</option>
+		  </select>
+
+<!--
+		<span class="dropdown">
+		  <button>Action</button>
+		  <label>
+			<input type="checkbox">
+			<ul>
+			  <li onclick="console.log(1)">Action</li>
+			  <li>Another Action</li>
+			  <li>Something else here</li>
+			  <li class="divider"></li>
+			  <li>Separated link</li>
+			</ul>
+		  </label>
+		</span>
+		text after<br/>mono mono mono mono mono mono
+    
+-->
+
         </div>
       </div>
     </div>
@@ -243,8 +287,12 @@ Removes duplicated tags
   	<a href="./faq.html">Frequently Asked Questions</a>
 </div>
 
-  <script src="{{ site.baseurl }}/resources/lib/mixitup.3.1.9.min.js">
-  </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="{{ site.baseurl }}/resources/lib/mixitup.3.1.9.min.js"></script>
+	<script src="{{ site.baseurl }}/resources/lib/mixitup-multifilter.min.js"></script>
+    <!-- script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script -->
+  
 
   <script>
     mixitup('#mix-wrapper', {
@@ -264,6 +312,22 @@ Removes duplicated tags
         target: '.mix-target' /* .mix */
       }
     });    
+
+
+
+	$(function(){
+	  var $filterSelect = $('#FilterSelect'),
+		  $container = $('#mix-wrapper');
+  
+	  //$container.mixItUp();
+  
+	  $filterSelect.on('change', function(){
+		$container.mixItUp('filter', this.value);
+	  });
+  
+	});
+
+
   </script>
 
 </body>

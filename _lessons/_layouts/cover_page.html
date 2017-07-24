@@ -67,24 +67,23 @@
   <article class='container'>
     <section role='complimentary' class='keep-together'>
       <div class=border1><a href='index.html'><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png" style="max-width: 100%; max-height:203px" class="mainimage" /></a></div>
-      <p>
-		  <a href='index.html'>  Slide Presentation View</a> 
-		  <p><a href='{{ldeck}}.pdf'>  PDF Download</a></p> 
+      <div style="float:left; width:550px;">
+		  <div style="float:left; width:250px; margin:10px;"><a href='index.html'><img src="{{ site.baseurl }}/resources/images/icon_default.png" style="padding-right:8px;">  Slide Presentation View</a></div>
+		  <div style="float:left; width:250px; margin:10px; "><a href='{{ldeck}}.pdf'><img src="{{ site.baseurl }}/resources/images/icon_default.png" style="padding-right:8px;">  PDF Download</a></div> 
 		  {% if lesson.handout %}
-			  <p><a href='{{lesson.handout}}'>  Page Handout</a></p> 
+			  <div style="float:left; width:250px; margin:10px; "><a href='{{lesson.handout}}'><img src="{{ site.baseurl }}/resources/images/icon_default.png" style="padding-right:8px;">  Page Handout</a></div> 
 		  {% endif %}
 		  {% if lesson.exercise %}
-			  <p><a href='{{lesson.exercise}}'>  Hands on Exercise</a></p> 
+			  <div style="float:left; width:250px; margin:10px; "><a href='{{lesson.exercise}}'><img src="{{ site.baseurl }}/resources/images/icon_default.png" style="padding-right:8px;">  Hands on Exercise</a></div> 
 		  {% endif %}
 		  {% if lesson.datafiles %}
-			  <p><a href='{{lesson.datafiles}}'>  Supporting Data Files</a></p> 
+			  <div style="float:left; width:250px; margin:10px; "><a href='{{lesson.datafiles}}'><img src="{{ site.baseurl }}/resources/images/icon_default.png" style="padding-right:8px;">  Supporting Data Files</a></div> 
 		  {% endif %}
 		  {% if lesson.ppt %}
-		  <p><a href='https://www.dataone.org/sites/all/documents/education-modules/pptx/{{lesson.ppt}}'>  PPT Download</a></p> 
+		  <div style="float:left; width:250px; margin:10px; "><a href='https://www.dataone.org/sites/all/documents/education-modules/pptx/{{lesson.ppt}}'><img src="{{ site.baseurl }}/resources/images/icon_default.png" style="padding-right:8px;">  PPT Download</a></div> 
 		  {% endif %}
-
-
-
+		</div>
+		<br clear=all>
     </section>
     <section>
       <h1>{{ lesson.title }}</h1>
@@ -92,8 +91,12 @@
         {{ page.content | markdownify }}
     </section>
     
-    << <a href="{{ site.baseurl }}/lessons/{{ lesson.prevlesson }}/cover.html">Previous lesson</a> | <a href="{{ site.baseurl }}/lessons/{{ lesson.nextlesson }}/cover.html">Next lesson</a> >><br>
+<!--    << <a href="{{ site.baseurl }}/lessons/{{ lesson.prevlesson }}/cover.html">Previous lesson</a> | <a href="{{ site.baseurl }}/lessons/{{ lesson.nextlesson }}/cover.html">Next lesson</a> >><br>
     <a href="{{ site.baseurl }}/">Back to list</a>
+    -->
+    <a href="{{ site.baseurl }}/lessons/{{ lesson.prevlesson }}/cover.html"><img height=38 src="{{site.baseurl}}/resources/images/arrow_left.png" style="margin-right:20px;"></a>
+	<a href="{{ site.baseurl }}/">Back to list</a>
+    <a href="{{ site.baseurl }}/lessons/{{ lesson.nextlesson }}/cover.html"><img height=38 src="{{site.baseurl}}/resources/images/arrow_right.png" style="margin-left:20px;"></a>
   </article>
   
   

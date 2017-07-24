@@ -13,7 +13,9 @@
 -->
 	<!-- link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap.min.css">    
 	<link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-theme.min.css" -->    
-	<link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like_dropdowns.css">
+	<!-- link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like_dropdowns.css" -->
+	<link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like-select.css"> <!-- https://codepen.io/ericrasch/pen/zjDBx -->
+
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -131,6 +133,8 @@
 
 
 
+
+
   </style>
 
 </head>
@@ -187,7 +191,7 @@ Removes duplicated tags
 
     <div class="row">
       <div class="twelve columns">
-        <h2>Programs List</h2>
+        <h2>Resource List</h2>
       </div>
       
     </div>
@@ -205,7 +209,7 @@ Removes duplicated tags
 
     <div class="row">
       <div class="twelve columns">
-        <div style="margin-left:60px;">
+        <div id="filterbuttons" style="margin-left:60px;">
           Filter by content type: 
           <a href="#" class="filterbutton" data-filter="all">All</a>
           {% for cat in cats %}
@@ -219,9 +223,10 @@ Removes duplicated tags
 
     <div class="row">
       <div class="twelve columns">
-        <div style="margin-left:60px;">
-          Filter by stage of the Data Life Cycle: 
+        <div style="margin-left:60px; " >
+         Filter by stage of the Data Life Cycle
 <!--
+        <div cla-ss="styled-select blue semi-square" >
           <a href="#" class="filterbutton tagbutton" data-filter="all">All</a> 
           <a href="#" class="filterbutton tagbutton" data-filter=".plan">Plan</a>  (switch to data-toggle for checkbox behavior)
           <a href="#" class="filterbutton tagbutton" data-filter=".collect">Collect</a>
@@ -233,13 +238,18 @@ Removes duplicated tags
           <a href="#" class="filterbutton tagbutton" data-filter=".analyze">Analyze</a>
 -->
 
-		  <select id="FilterSelect">
+		  <select id="soflow">
 			<option value="all">All</option>
 			<option value=".plan">Plan</option>
 			<option value=".collect">Collect</option>
 			<option value=".assure">Assure</option>
 			<option value=".describe">Describe</option>
+			<option value=".preserve">Preserve</option>
+			<option value=".discover">Discover</option>
+			<option value=".integrate">Integrate</option>
+			<option value=".analyze">Analyze</option>
 		  </select>
+
 
 <!--
 		<span class="dropdown">
@@ -257,8 +267,8 @@ Removes duplicated tags
 		</span>
 		text after<br/>mono mono mono mono mono mono
     
+</div>
 -->
-
         </div>
       </div>
     </div>
@@ -302,6 +312,7 @@ Removes duplicated tags
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	<script src="{{ site.baseurl }}/resources/lib/mixitup.3.1.9.min.js"></script>
 	<script src="{{ site.baseurl }}/resources/lib/mixitup-multifilter.min.js"></script>
+
     <!-- script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script -->
   
 
@@ -327,7 +338,7 @@ Removes duplicated tags
 
 
 	$(function(){
-	  var $filterSelect = $('#FilterSelect'),
+	  var $filterSelect = $('#soflow'),
 		  $container = $('#mix-wrapper');
   
 	  //$container.mixItUp();
@@ -335,6 +346,10 @@ Removes duplicated tags
 	  $filterSelect.on('change', function(){
 		$container.mixItUp('filter', this.value);
 	  });
+  
+  	  $('body').on('click', '#filterbuttons a', function(e) {
+  	  	 $("select#soflow").prop('selectedIndex', 0);
+  	  });
   
 	});
 

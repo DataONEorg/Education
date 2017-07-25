@@ -12,6 +12,7 @@ handout: L01_DataManagement_Handout.pdf
 ppt: L01_DataManagement.pptx
 exercise: L01_Exercise.pdf
 ---
+class: center, middle
 
 # Why Data Management?
 

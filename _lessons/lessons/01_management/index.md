@@ -8,12 +8,10 @@ tags: ["Data Management"]
 categories: ["Teaching Module"]
 ---
 
-class: center, middle
-
 # Why Data Management?
 
-![](images/slide-1-intro.jpg)
-*University of Maryland Press Releases on Flickr*
+.three-fourth-center[![](images/slide-1-intro.jpg)
+*University of Maryland Press Releases on Flickr*]
 
 
 ???

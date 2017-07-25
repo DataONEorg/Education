@@ -3,9 +3,14 @@ title: "Legal & Policy Issues"
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 21, 2016
 layout: slides
-tags: ["Data Management", Policy]
+tags: ["Data Management", Policy, Plan]
 categories: ["Teaching Module"]
 status: published
+prevlesson: 09_analysis
+nextlesson: 00_markdown
+handout: L10_Exercise_LegalPolicyIssues.docx
+ppt: L10_Exercise_LegalPolicyIssues.pptx
+exercise: L10_LegalPolicy_Handout.pdf
 ---
 
 class: center, middle

@@ -6,6 +6,9 @@ layout: slides
 tags: [GitHub]
 categories: ["Technical Tutorial"]
 status: draft
+prevlesson: 10_policy
+nextlesson: 01_management
+
 ---
 
 # Site Structure

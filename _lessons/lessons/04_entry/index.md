@@ -4,8 +4,15 @@ author: DataONE Community Engagement & Outreach Working Group
 update: March 27 2017
 layout: slides
 status: published
-tags: ["Data Management", Collect]
+tags: ["Data Management", Collect, Integrate]
 categories: ["Teaching Module" ]
+prevlesson: 03_planning
+nextlesson: 05_qaqc
+exercise: L04_Exercise.pdf
+handout: L04_DataEntry_Handout.pdf
+ppt: L04_DataEntry.pptx
+datafiles: DataFiles_L04L05L07L08.zip 
+
 ---
 
 ## Lesson Topics

@@ -3,9 +3,15 @@ title: "Data Analysis and Workflows"
 author: DataONE Community Engagement & Outreach Working Group
 update: Oct. 26, 2016
 layout: slides
-tags: ["Data Management", Analyze, Workflow]
+tags: ["Data Management", Analyze, Workflow, Analysis]
 categories: ["Teaching Module"]
 status: published
+prevlesson: 08_citation
+nextlesson: 10_policy
+handout: L09_AnalysisWorkflows_Handout.pdf
+ppt: L09_AnalysisWorkflows.pptx
+exercise: L09_Exercise.pdf
+
 ---
 # Lesson Topics
 

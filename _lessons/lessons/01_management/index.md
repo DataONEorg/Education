@@ -4,8 +4,13 @@ author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
 layout: slides
 status: published
-tags: ["Data Management"]
+tags: ["Data Management", Plan, Collect, Integrate, Assure, Preserve, Describe, Discover, Analyze]
 categories: ["Teaching Module"]
+prevlesson: 00_markdown
+nextlesson: 02_datasharing
+handout: L01_DataManagement_Handout.pdf
+ppt: L01_DataManagement.pptx
+exercise: L01_Exercise.pdf
 ---
 
 # Why Data Management?

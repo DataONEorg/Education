@@ -389,7 +389,7 @@ Re: Open vs. Proprietary.  Universities and other umbrella entities may retain o
 
 # Privacy and Security
 
-.one-third[
+.one-half[
 ![Image Attribution: http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg](images/image15.jpg)
 *http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg*
 ]
@@ -420,7 +420,7 @@ IRB approvals must be re-reviewed if the study changes in a meaningful way.
 * Confidentiality
    * Protects access to information about individuals
    * Can be thought of as information privacy
-.three-fourth-center[![CC image by Blue Coat Photos on flickr](images/image19.png)
+.one-half-center[![CC image by Blue Coat Photos on flickr](images/image19.png)
 *CC image by Blue Coat Photos on flickr*]
 
 ???

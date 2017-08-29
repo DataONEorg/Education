@@ -54,7 +54,7 @@ In this tutorial we will be focusing on data analysis which appears here in the 
 
 ---
 # Data Analyses
-Processes:
+**Processes:**
 - Conducted via personal computer, grid, cloud computing
 - Statistics, model runs, parameter estimations, graphs/plots, etc.
 
@@ -92,7 +92,7 @@ An example of data transformation is shown here, the relatively meaningless stri
 
 ---
 # Types of Analyses
-Graphical analyses
+**Graphical analyses**
   * Visual exploration of data: search for patterns
   * Quality assurance: outlier detection
   
@@ -150,7 +150,7 @@ The second step involves online data processing. Large datasets can be analyzed 
 
 ---
 # After Data Analysis
-Re-analyze outputs
+**Re-analyze outputs**
 * Final visualizations: charts, graphs, simulations, etc
 
 **Science is iterative: 

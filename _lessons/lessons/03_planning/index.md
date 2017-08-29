@@ -461,6 +461,7 @@ You should identify how the costs associated with your DMP will be paid.
 
 .one-half[
 **DMPTool**
+
 https://dmptool.org/
 <br /><br />
 ![dmptool.org](images/DMPTool_web.png)
@@ -468,6 +469,7 @@ https://dmptool.org/
 
 .one-half[
 **DMPOnline**
+
 https://dmponline.dcc.ac.uk/
 <br /><br />
 ![dmponline.dcc.ac.uk](images/DMPOnline_web.png)

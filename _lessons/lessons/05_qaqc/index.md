@@ -19,14 +19,14 @@ datafiles: DataFiles_L04L05L07L08.zip
 # Lesson Topics
 
 Definitions
-* Quality assurance and Quality control
-* Data contamination
-* Types of errors
+* Quality Assurance and Quality Control
+* Data Contamination
+* Types of Errors
 
-QA/QC best practices
-* Before data collection
-* During data collection/entry
-* After data collection/entry
+QA/QC Best Practices
+* Before Data Collection
+* During Data Collection/Entry
+* After Data Collection/Entry
 
 
 ???
@@ -158,7 +158,7 @@ Design data storage well:
 * Minimize number of times items that must be entered repeatedly
 * Use consistent terminology
 * Atomize data: one cell per piece of information
-Document changes to data
+document changes to data
 * Avoids duplicate error checking
 * Allows undo if necessary
 
@@ -190,7 +190,7 @@ Once data are entered, basic quality assurance measures can be taken. First, if 
 
 # QA/QC  After Data Entry
 
-Look for outliers:
+Look for outliers
 * Outliers are extreme values for a variable given the statistical model being used
 * The goal is not to eliminate outliers but to identify potential data contamination
 

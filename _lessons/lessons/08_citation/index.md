@@ -286,7 +286,6 @@ https://wiki.ucop.edu/display/Curation/ARK
  
 
 ???
-
 http://n2t.net/ezid
 
 Note: DOI's imply a long term commitment to making the data accessible and that the data should go to/be in a place willing to make that commitment.
@@ -306,7 +305,7 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
 
 .one-half[
 ![screenshot of UC3EZID interface](images/slide19.jpg)
-*http://n2t.net/ezid*
+
 ]
 
 ???

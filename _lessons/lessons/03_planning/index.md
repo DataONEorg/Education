@@ -214,7 +214,7 @@ How will the data be processed once it is acquired? This step is important to co
 
 .one-half[
 File formats
-  - Justificaty your choice
+  - Justify your choice
   - Follow naming conventions
 
 Quality assurance & control during 

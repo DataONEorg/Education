@@ -84,7 +84,7 @@ To analyze all these data using statistical software, and to make it much easier
 
 .full-width[
 * Columns of data are consistent: only numbers, dates, or text
-* Consistent Names, Codes, Formats (date) used in each column
+* Consistent names, codes, formats (date) used in each column
 * Data are all in one table, which is much easier for a statistical program to work with than multiple small tables which each require human intervention]
 
 
@@ -106,7 +106,7 @@ There are consistent names, codes, and formats used in each column.  For instanc
 .full-width[
 * Create descriptive column names without spaces or special characters
   * `Soil T30` to `Soil_Temp_30cm`
-  * `Species-Code` to "Species_Code (Avoid using -,+,*,^ in column names. Some software may interpret these symbols as an operator)"
+  * `Species-Code` to `Species_Code` (Avoid using -,+,*,^ in column names. Some software may interpret these symbols as an operator)"
 * Use a descriptive file name.  For instance, a file named `SEV_SmallMammalData_v.5.25.2010.csv` indicates the project the data is associated with (SEV),  the theme of the data (SmallMammalData) and also when this version of the data was created (v.5.25.2010).   This name is much more helpful than a file named mydata.xls.]  
 
 
@@ -124,7 +124,7 @@ One best practice in data entry is to create descriptive column names without sp
 * Preferably leave field empty (NULL = no value)
 * In numeric fields, use a distinct value such as 9999 to indicate a missing value 
 * In text fields, use NA (“Not Applicable” or “Not Available”)
-* Use Data flags in a separate column to qualify missing value
+* Use data flags in a separate column to qualify missing value
 ]
 
 ![sheet4](images/pde4.png)
@@ -158,7 +158,7 @@ A best practice is to enter complete lines of data, so that the data are sorted 
 * For the long term, store data in a consistent format that can be read well in to the future and that can be used by any application now or in the future 
 * Appropriate file types include:
   * Non-proprietary: use an open, documented standard 
-  * Common usage by research community: Standard representation (ASCII, Unicode) 
+  * Common usage by research community: standard representation (ASCII, Unicode) 
   * Unencrypted 
   * Uncompressed
 * ASCII formatted files are likely to be readable into the future
@@ -245,7 +245,7 @@ Here is another example of data validation using Excel.  Height has been defined
 
 .one-half[
 * Easy to query to select portions of data
-* Data fields are typed – For example, only integers are allowed in integer fields
+* Data fields are typed – for example, only integers are allowed in integer fields
 * Columns cannot be sorted independently of each other
 * Steeper learning curve than a spreadsheet
 ]
@@ -282,7 +282,7 @@ Database features includes explicit control over data types and has the advantag
 ![sheet4](images/pde13.png)
 
 ???
-Relationships can be defined between two sets of data or in this example between two tables.  Suppose that you have two tables used in the plant phenology study, one for observations and one for sites, and you want a table that contains both observations and the latitude and longitude of your sites.   Because both tables contain Site info, they can be joined to create a table containing the info you want.   
+Relationships can be defined between two sets of data or in this example between two tables. Suppose that you have two tables used in the plant phenology study, one for observations and one for sites, and you want a table that contains both observations and the latitude and longitude of your sites.  Because both tables contain Site info, they can be joined to create a table containing the info you want.   
 
 
 
@@ -331,8 +331,8 @@ Be aware of best practices when designing data file structures. Choose a data en
 
 .full-width[ 
 Consider trying one of these:
-  * Personal, single-user databases can be developed in MS Access, which is stored as a file on the user’s computer.  MS Access comes with easy GUI tools to create databases, run queries, and write reports.   
-  * A more robust database that is free, accommodates multiple users and will run on Windows or Linux is MySQL.   GUI interfaces for MySQL include phpMyadmin (free) and Navicat (inexpensive).] 
+  * Personal, single-user databases can be developed in MS Access, which is stored as a file on the user’s computer. MS Access comes with easy GUI tools to create databases, run queries, and write reports
+  * A more robust database that is free, accommodates multiple users and will run on Windows or Linux is MySQL. GUI interfaces for MySQL include phpMyadmin (free) and Navicat (inexpensive)] 
   
 ---
 
@@ -385,7 +385,7 @@ At times you will need to combine multiple datasets into a superset in order to 
   * Revisit the data life cycle to ensure the new dataset is properly documented, validated, and preserved
 * Use reproducible workflows
   * Enable transparency and reproducibility in the integration process
-  * Ensure others understand and can evaluate your decision making process.
+  * Ensure others understand and can evaluate your decision making process
   * Automate the integration as much as possible, especially when integrating many or large datasets]
 
 ---
@@ -411,7 +411,7 @@ At times you will need to combine multiple datasets into a superset in order to 
 * Options include SAS, SPSS, R, and Matlab (not free)
     * SAS:  Has comprehensive support
     * SPSS:  Has a user-friendly GUI
-    * Matlab: Analysis and Visualization platform that has “toolboxes” available for different disciplines, such as modeling or genomic analyses]
+    * Matlab: Analysis and visualization platform that has “toolboxes” available for different disciplines, such as modeling or genomic analyses]
 
 ---
 
@@ -432,7 +432,7 @@ At times you will need to combine multiple datasets into a superset in order to 
 
 .full-width[
 * Tools such as (but not limited to) spreadsheet tools such as MS Excel and relational databases (MS Access, MySQL, and more) can provide structure, flexibility and potential for working more easily with datasets but also require planning
-* Selection of a database or spreadsheet tool depends on the relationships between the data, and how it will be used, as well as other considerations re: time, resources, output.
+* Selection of a database or spreadsheet tool depends on the relationships between the data, and how it will be used, as well as other considerations re: time, resources, output
 ]
 ---
 
@@ -442,7 +442,7 @@ At times you will need to combine multiple datasets into a superset in order to 
 * Maintaining provenance (a trail of custody and decisions) is important when integrating more than one dataset
 * Documenting and understanding context and relationships, as well as changes is crucial when creating a new dataset (any time you combine two or more disparate datasets)
 * Create a transparent, reproducible workflow
-* Make sure to provide proper attribution and citation to all resources, including the original dataset. 
+* Make sure to provide proper attribution and citation to all resources, including the original dataset
 * Tools such as R, Matlab, and others can be useful in establishing workflows and accessing datasets
 ]
 ---

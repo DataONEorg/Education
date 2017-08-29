@@ -236,7 +236,7 @@ Mention that example workflow diagrams shown here were drawn freehand in PowerPo
  - Conceptualizing analysis as a sequence of steps
  - arrows indicate flow
   
-  .center[![linear flow](images/s14.png)]
+  .center[![linear flow](images/workflowdiag.png)]
   
 ---
 # Informal Workflows

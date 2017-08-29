@@ -19,14 +19,14 @@ datafiles: DataFiles_L04L05L07L08.zip
 # Lesson Topics
 
 Definitions
-* Quality Assurance and Quality Control
-* Data Contamination
-* Types of Errors
+* Quality assurance and quality control
+* Data contamination
+* Types of errors
 
-QA/QC Best Practices
-* Before Data Collection
-* During Data Collection/Entry
-* After Data Collection/Entry
+QA/QC best practices
+* Before data collection
+* During data collection/entry
+* After data collection/entry
 
 
 ???
@@ -77,10 +77,14 @@ Before describing best practices useful for quality control and assurance, we wi
 ---
 
 # Definitions: Types of Errors
+
 Errors of Commission
+
 * Incorrect or inaccurate data entered
 * Examples: malfunctioning instrument, mistyped data
+
 Errors of Omission
+
 * Data or metadata not recorded
 * Examples: inadequate documentation, human error, anomalies in the field
 
@@ -154,7 +158,7 @@ Consider using techniques that help eliminate mistakes during data entry. Exampl
 
 # QA/QC  During Data Entry
 
-Design data storage well:
+Design data storage will:
 * Minimize number of times items that must be entered repeatedly
 * Use consistent terminology
 * Atomize data: one cell per piece of information

@@ -169,8 +169,8 @@ Reproducibility at core of scientific method
 * Good documentation required for reproducibility
  * Metadata: data about data
  * Process metadata: data about process used to create, manipulate, and analyze data
- .center[
- ![ducks](images/image11rsz.jpeg)]
+
+.center[![ducks](images/ducks2.jpeg)]
 
 
 ???

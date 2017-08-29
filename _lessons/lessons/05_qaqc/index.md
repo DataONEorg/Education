@@ -19,14 +19,14 @@ datafiles: DataFiles_L04L05L07L08.zip
 # Lesson Topics
 
 Definitions
-* Quality Assurance and Quality Control
-* Data Contamination
-* Types of Errors
+* Quality assurance and quality control
+* Data contamination
+* Types of errors
 
-QA/QC Best Practices
-* Before Data Collection
-* During Data Collection/Entry
-* After Data Collection/Entry
+QA/QC best practices
+* Before data collection
+* During data collection/entry
+* After data collection/entry
 
 
 ???

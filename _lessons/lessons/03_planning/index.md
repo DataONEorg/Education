@@ -71,7 +71,7 @@ However the plan should be revisited often throughout the project to ensure prop
 - Outlines what you will do with the data **during** and **after** you complete your research
 - Ensures the data is safe for the **present** and the **future**
 
-..three-fourth-center[![CC image by Hope House Press on Unsplash](images/rsz_image28.jpg)
+.three-fourth-center[![CC image by Hope House Press on Unsplash](images/rsz_image28.jpg)
  *CC image by Hope House Press on Unsplash*
 
 

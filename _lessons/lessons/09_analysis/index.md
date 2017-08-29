@@ -243,8 +243,8 @@ Finally, graphs are produced to display the resulting mean temperatures.
 
 ---
 # Informal Workflows
-
-.center[![simple workflow](images/s16.png)]
+**Transformation Rules**
+.center[![simple workflow](images/transform.png)]
 
  
  These steps are known in workflows as “transformation rules”.  Transformation rules describe what is done to/with the data to obtain the relevant outputs for publication. 
@@ -268,23 +268,23 @@ The output of the analysis step is the summary statistics, such as mean and stan
 
 ---
 # Informal Workflows
-** *Workflow diagrams: adding decision points* **
+**Workflow Diagrams:** Adding decision points
 
  .center[![decision points](images/s18.png)]
 
 
 ---
 # Informal Workflows
+**Workflow Diagrams:** A simple example
 
-
-.center[![simplework](images/simpleworkflow3.png)]
+.center[![simplework](images/simple.png)]
 
 
 ---
 # Informal Workflows
+**Workflow Diagrams:** A complex example
 
-
-.center[![complex example](images/complexworkflow3.png)]
+.center[![complex example](images/complex.png)]
 
 
 ---

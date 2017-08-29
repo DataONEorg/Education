@@ -242,7 +242,7 @@ Mention that example workflow diagrams shown here were drawn freehand in PowerPo
 # Informal Workflows
 **Flow Charts:** a simple form of workflow
 
-.center[![simple workflow](images/s15.png)]
+.center[![simple workflow](images/simplework2.png)]
 
 
 

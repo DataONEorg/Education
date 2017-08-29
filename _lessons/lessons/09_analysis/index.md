@@ -246,7 +246,7 @@ Finally, graphs are produced to display the resulting mean temperatures.
 **Transformation Rules**
 .center[![simple workflow](images/transform.png)]
 
- 
+ ???
  These steps are known in workflows as “transformation rules”.  Transformation rules describe what is done to/with the data to obtain the relevant outputs for publication. 
 
 ---

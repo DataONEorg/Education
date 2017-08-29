@@ -464,7 +464,7 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 
 ---
 ## About
-Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
+Participate in our GitHub repository: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
 
 **Suggested citation:**
 DataONE Education Module: Legal & Policy Issues. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)

@@ -389,7 +389,7 @@ Re: Open vs. Proprietary.  Universities and other umbrella entities may retain o
 
 # Privacy and Security
 
-.one-half[
+.one-third[
 ![Image Attribution: http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg](images/image15.jpg)
 *http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg*
 ]

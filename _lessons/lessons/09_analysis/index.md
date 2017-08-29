@@ -236,13 +236,13 @@ Mention that example workflow diagrams shown here were drawn freehand in PowerPo
  - Conceptualizing analysis as a sequence of steps
  - arrows indicate flow
   
-  .center[![linear flow](images/s14.png)]
+  .center[![linear flow](images/workflowdiag.png)]
   
 ---
 # Informal Workflows
 **Flow Charts:** a simple form of workflow
 
-.center[![simple workflow](images/s15.png)]
+.center[![simple workflow](images/simplework2.png)]
 
 
 
@@ -255,7 +255,7 @@ Finally, graphs are produced to display the resulting mean temperatures.
 ---
 # Informal Workflows
 **Transformation Rules**
-.center[![simple workflow](images/transform.png)]
+.center[![simple workflow](images/transform2.png)]
 
 
 ???
@@ -264,15 +264,15 @@ Finally, graphs are produced to display the resulting mean temperatures.
 ---
 # Informal Workflows
 **Flow charts:** simplest form of workflow
-Inputs and Outputs
+Inputs and outputs
  
- .center[![simple workflow2](images/s17.png)]
+ .center[![simple workflow2](images/informal1.png)]
  
 
 
 
 ???
-The Inputs & outputs of this workflow are shown here in red.
+The inputs & outputs of this workflow are shown here in red.
 The first inputs are the raw temperature & salinity data. These are imported into R.The output of this process is the data in R format. 
 That data in R format then become the input for the quality control and data cleaning step. 
 The output of this step is “clean” temperature and salinity data, which is then the input for the analysis step.

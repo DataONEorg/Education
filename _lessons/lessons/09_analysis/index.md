@@ -169,7 +169,7 @@ Reproducibility at core of scientific method
 * Good documentation required for reproducibility
  * Metadata: data about data
  * Process metadata: data about process used to create, manipulate, and analyze data
- .center[![ducks](images/image11.jpeg)]
+ .center[![ducks](images/image11rsz.jpeg)]
 
 ???
 Reproducibility is at the core of scientific method.  If results are not reproducible, the study loses credibility. The complex processes used to create final outputs can be quite difficult to reproduce.  In order to maintain scientific integrity, good documentation of the data and the analytical process is essential. Documentation includes metadata, which is data about data, and process metadata, which is data about the process.
@@ -247,7 +247,6 @@ Finally, graphs are produced to display the resulting mean temperatures.
 .center[![simple workflow](images/transform.png)]
 
  ???
- 
  These steps are known in workflows as “transformation rules”.  Transformation rules describe what is done to/with the data to obtain the relevant outputs for publication. 
 
 ---
@@ -269,23 +268,23 @@ The output of the analysis step is the summary statistics, such as mean and stan
 
 ---
 # Informal Workflows
-** *Workflow diagrams: adding decision points* **
+**Workflow Diagrams:** Adding decision points
 
  .center[![decision points](images/s18.png)]
 
 
 ---
 # Informal Workflows
+**Workflow Diagrams:** A simple example
 
-
-.center[![simplework](images/simpleworkflow3.png)]
+.center[![simplework](images/simple.png)]
 
 
 ---
 # Informal Workflows
+**Workflow Diagrams:** A complex example
 
-
-.center[![complex example](images/complexworkflow3.png)]
+.center[![complex example](images/complex.png)]
 
 
 ---

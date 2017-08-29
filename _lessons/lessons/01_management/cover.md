@@ -1,13 +1,8 @@
 ---
-title: "Introduction to Data Management"
-
-author: DataONE Community Engagement & Outreach Working Group
 update: 2017-04-06
-
 layout: cover_page
-categories: ed-module
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis ut erat nec cursus. Pellentesque vehicula orci libero, sit amet porta odio mattis feugiat. Nunc fermentum elit odio, non facilisis arcu faucibus quis. Curabitur nec finibus sapien. Nunc posuere nulla sit amet est auctor, eget gravida risus ornare. Morbi molestie justo lorem, bibendum semper dui vehicula vel. Vivamus ac sapien feugiat, porta turpis id, mattis mi.
+As rapidly changing technology enables researchers to collect large, complex datasets with relative ease, the need to effectively manage these data increases in kind. This is the first lesson in a series of education modules intended to provide a broad overview of various topics related to research data management. It covers: trends in data collection, storage and loss, the importance and benefits of data management, and an introduction to the data life cycle.
 
-Curabitur sem mauris, sagittis sit amet luctus vel, blandit at sem. Etiam nulla orci, volutpat et lectus quis, ornare consequat nisl. Integer sit amet interdum nibh. Etiam posuere blandit lacus sit amet iaculis. Quisque tellus risus, tempor ut pulvinar nec, iaculis sed augue. Nulla nec auctor tellus, sed ornare neque. Vivamus sit amet tristique nisl. Donec vestibulum ipsum nec mauris rhoncus, eu scelerisque nulla lacinia. Proin sed justo magna. Fusce eget diam ligula. Pellentesque in lacus eget risus dapibus tincidunt nec ac nulla. Nunc venenatis et tortor quis dignissim. Mauris id urna id justo interdum tristique. Maecenas tincidunt aliquet eros, ac suscipit ex hendrerit et.
+

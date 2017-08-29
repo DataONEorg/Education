@@ -1,11 +1,7 @@
 ---
-title: "Data Citation"
-author: DataONE Community Engagement & Outreach Working Group
-update: Sept. 21, 2016
+update: 2017-04-06
 layout: cover_page
-categories: ed-module
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis ut erat nec cursus. Pellentesque vehicula orci libero, sit amet porta odio mattis feugiat. Nunc fermentum elit odio, non facilisis arcu faucibus quis. Curabitur nec finibus sapien. Nunc posuere nulla sit amet est auctor, eget gravida risus ornare. Morbi molestie justo lorem, bibendum semper dui vehicula vel. Vivamus ac sapien feugiat, porta turpis id, mattis mi.
 
-Curabitur sem mauris, sagittis sit amet luctus vel, blandit at sem. Etiam nulla orci, volutpat et lectus quis, ornare consequat nisl. Integer sit amet interdum nibh. Etiam posuere blandit lacus sit amet iaculis. Quisque tellus risus, tempor ut pulvinar nec, iaculis sed augue. Nulla nec auctor tellus, sed ornare neque. Vivamus sit amet tristique nisl. Donec vestibulum ipsum nec mauris rhoncus, eu scelerisque nulla lacinia. Proin sed justo magna. Fusce eget diam ligula. Pellentesque in lacus eget risus dapibus tincidunt nec ac nulla. Nunc venenatis et tortor quis dignissim. Mauris id urna id justo interdum tristique. Maecenas tincidunt aliquet eros, ac suscipit ex hendrerit et.
+Data citation is a key practice that supports the recognition of data creation as a primary research output rather than as a mere byproduct of research. Providing reliable access to research data should be a routine practice, similar to the practice of linking researchers to bibliographic references. After completing this lesson, participants should be able to define data citation and describe its benefits; to identify the roles of various actors in supporting data citation; to recognize common metadata elements and persistent data locators and describe the process for obtaining one, and to summarize best practices for supporting data citation. 

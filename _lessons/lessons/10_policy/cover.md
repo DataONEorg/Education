@@ -1,11 +1,6 @@
 ---
-title: "Legal & Policy Issues"
-author: DataONE Community Engagement & Outreach Working Group
-update: Sept. 21, 2016
+update: 2017-04-06
 layout: cover_page
-categories: ed-module
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis ut erat nec cursus. Pellentesque vehicula orci libero, sit amet porta odio mattis feugiat. Nunc fermentum elit odio, non facilisis arcu faucibus quis. Curabitur nec finibus sapien. Nunc posuere nulla sit amet est auctor, eget gravida risus ornare. Morbi molestie justo lorem, bibendum semper dui vehicula vel. Vivamus ac sapien feugiat, porta turpis id, mattis mi.
-
-Curabitur sem mauris, sagittis sit amet luctus vel, blandit at sem. Etiam nulla orci, volutpat et lectus quis, ornare consequat nisl. Integer sit amet interdum nibh. Etiam posuere blandit lacus sit amet iaculis. Quisque tellus risus, tempor ut pulvinar nec, iaculis sed augue. Nulla nec auctor tellus, sed ornare neque. Vivamus sit amet tristique nisl. Donec vestibulum ipsum nec mauris rhoncus, eu scelerisque nulla lacinia. Proin sed justo magna. Fusce eget diam ligula. Pellentesque in lacus eget risus dapibus tincidunt nec ac nulla. Nunc venenatis et tortor quis dignissim. Mauris id urna id justo interdum tristique. Maecenas tincidunt aliquet eros, ac suscipit ex hendrerit et.
+Conversations regarding research data often intersect with questions related to ethical, legal, and policy issues for managing research data. This lesson will define copyrights, licenses, and waivers, discuss ownership and intellectual property, and describe some reasons for data restriction. After completing this lesson, participants will be able to identify ethical, legal, and policy considerations that surround the use and management of research data. 

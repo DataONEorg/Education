@@ -1,10 +1,6 @@
 ---
-title: "Data Analysis and Workflows"
-author: DataONE Community Engagement and Outreach
-update: October 26, 2016
+update: 2017-04-06
 layout: cover_page
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis ut erat nec cursus. Pellentesque vehicula orci libero, sit amet porta odio mattis feugiat. Nunc fermentum elit odio, non facilisis arcu faucibus quis. Curabitur nec finibus sapien. Nunc posuere nulla sit amet est auctor, eget gravida risus ornare. Morbi molestie justo lorem, bibendum semper dui vehicula vel. Vivamus ac sapien feugiat, porta turpis id, mattis mi.
-
-Curabitur sem mauris, sagittis sit amet luctus vel, blandit at sem. Etiam nulla orci, volutpat et lectus quis, ornare consequat nisl. Integer sit amet interdum nibh. Etiam posuere blandit lacus sit amet iaculis. Quisque tellus risus, tempor ut pulvinar nec, iaculis sed augue. Nulla nec auctor tellus, sed ornare neque. Vivamus sit amet tristique nisl. Donec vestibulum ipsum nec mauris rhoncus, eu scelerisque nulla lacinia. Proin sed justo magna. Fusce eget diam ligula. Pellentesque in lacus eget risus dapibus tincidunt nec ac nulla. Nunc venenatis et tortor quis dignissim. Mauris id urna id justo interdum tristique. Maecenas tincidunt aliquet eros, ac suscipit ex hendrerit et.
+Understanding the types, processes, and frameworks of workflows and analyses is helpful for researchers seeking to understand more about research, how it was created, and what it may be used for. This lesson uses a subset of data analysis types to introduce reproducibility, iterative analysis, documentation, provenance and different types of processes. Described in more detail are the benefits of documenting and establishing informal (conceptual) and formal (executable) workflows. 

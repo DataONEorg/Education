@@ -1,10 +1,6 @@
 ---
-title: "Data sharing"
-author: DataONE Community Engagement & Outreach
-update: Sept. 20, 2016
+update: 2017-04-06
 layout: cover_page
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis ut erat nec cursus. Pellentesque vehicula orci libero, sit amet porta odio mattis feugiat. Nunc fermentum elit odio, non facilisis arcu faucibus quis. Curabitur nec finibus sapien. Nunc posuere nulla sit amet est auctor, eget gravida risus ornare. Morbi molestie justo lorem, bibendum semper dui vehicula vel. Vivamus ac sapien feugiat, porta turpis id, mattis mi.
-
-Curabitur sem mauris, sagittis sit amet luctus vel, blandit at sem. Etiam nulla orci, volutpat et lectus quis, ornare consequat nisl. Integer sit amet interdum nibh. Etiam posuere blandit lacus sit amet iaculis. Quisque tellus risus, tempor ut pulvinar nec, iaculis sed augue. Nulla nec auctor tellus, sed ornare neque. Vivamus sit amet tristique nisl. Donec vestibulum ipsum nec mauris rhoncus, eu scelerisque nulla lacinia. Proin sed justo magna. Fusce eget diam ligula. Pellentesque in lacus eget risus dapibus tincidunt nec ac nulla. Nunc venenatis et tortor quis dignissim. Mauris id urna id justo interdum tristique. Maecenas tincidunt aliquet eros, ac suscipit ex hendrerit et.
+When first sharing research data, researchers often raise questions about the value, benefits, and mechanisms for sharing. Many stakeholders and interested parties, such as funding agencies, communities, other researchers, or members of the public may be interested in research, results and related data. This lesson addresses data sharing in the context of the data life cycle, the value of sharing data, concerns about sharing data, and methods and best practices for sharing data.

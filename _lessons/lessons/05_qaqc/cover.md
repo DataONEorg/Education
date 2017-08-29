@@ -1,11 +1,6 @@
 ---
-title: "Data Quality Control and Assurance"
-author: DataONE Community Engagement & Outreach
-update: Sept. 22, 2016
+update: 2017-04-06
 layout: cover_page
-categories: [Teaching Modules]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis ut erat nec cursus. Pellentesque vehicula orci libero, sit amet porta odio mattis feugiat. Nunc fermentum elit odio, non facilisis arcu faucibus quis. Curabitur nec finibus sapien. Nunc posuere nulla sit amet est auctor, eget gravida risus ornare. Morbi molestie justo lorem, bibendum semper dui vehicula vel. Vivamus ac sapien feugiat, porta turpis id, mattis mi.
-
-Curabitur sem mauris, sagittis sit amet luctus vel, blandit at sem. Etiam nulla orci, volutpat et lectus quis, ornare consequat nisl. Integer sit amet interdum nibh. Etiam posuere blandit lacus sit amet iaculis. Quisque tellus risus, tempor ut pulvinar nec, iaculis sed augue. Nulla nec auctor tellus, sed ornare neque. Vivamus sit amet tristique nisl. Donec vestibulum ipsum nec mauris rhoncus, eu scelerisque nulla lacinia. Proin sed justo magna. Fusce eget diam ligula. Pellentesque in lacus eget risus dapibus tincidunt nec ac nulla. Nunc venenatis et tortor quis dignissim. Mauris id urna id justo interdum tristique. Maecenas tincidunt aliquet eros, ac suscipit ex hendrerit et.
+Quality assurance and quality control are phrases used to describe activities that prevent errors from entering or staying in a data set.  These activities ensure the quality of the data before it is collected, entered, or analyzed, as well as actively monitoring and maintaining the quality of data throughout the study. In this lesson, we define and provide examples of quality assurance, quality control, data contamination and types of errors that may be found in data sets. After completing this lesson, participants will be able to describe best practices in quality assurance and quality control and relate them to different phases of data collection and entry.

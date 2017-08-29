@@ -4,11 +4,57 @@ author: DataONE Community Engagement & Outreach Working Group
 update: 2017-04-07T12:00:00Z
 layout: slides
 tags: [GitHub]
-categories: [Technical Tutorial]
+categories: ["Technical Tutorial"]
 status: draft
+prevlesson: 10_policy
+nextlesson: 01_management
+
 ---
 
-# It's Working!
+# Site Structure
+
+~~~
+dataone_lessons/
+├── lessons/
+│   ├── lesson_folder/   <- A lesson, e.g. "00_markdown"
+│   │   └── ...
+│   └── ...
+├── resources/           <- Images and other resources shared by lessons
+├── _lessons/            <- Link to the lessons/ folder
+├── _plugins/            <- Any local plugins (will not work on GitHub)
+├── _layouts/            <- Templates for rendering lessons and other content
+├── config.yml           <- Site configuration information
+├── Gemfile              <- Describes items needed by Jekyll
+├── index.md             <- Landing page content for the site
+└── remark2pdf           <- script that generates a PDF from a lesson
+~~~
+
+
+---
+
+# Lesson Folders
+
+Each lesson is a separate folder in the `lessons` folder:
+
+~~~
+dataone_lessons/
+├── lessons/
+│   ├── lesson_folder/   <- e.g. "00_markdown"
+│   │   ├── index.md     <- Markdown file that makes the actual presentation
+│   │   ├── cover.md     <- Landing page for the lesson
+│   │   ├── cover.png    <- Landing page image for lesson
+│   │   └── images/      <- Images specific to a lesson
+│   │       ├── image_1.jpg
+│   │       └── ...
+│   └── ...
+├── resources/           <- Images and other resources shared by lessons
+...
+
+~~~
+
+
+---
+# Lesson Presentation
 
 Each lesson is a single markdown document that is converted to HTML by [remark](https://github.com/gnab/remark) javascript. 
 
@@ -136,9 +182,9 @@ Heading levels are specified by the number of `#` at the beginning of a line. Si
 # Syntax Highlighting
 
 ``` md
-~~~ R
-<your code here>
-~~~
+  ~~~ R
+  <your code here>
+  ~~~
 ```
 
 renders as
@@ -154,7 +200,7 @@ plot(random_thing(100, runif))
 You can also put code inline, using backticks:
 
 ~~~ md
-This is `inline` code.
+ This is `inline` code.
 ~~~
 
 ---
@@ -171,6 +217,7 @@ Markdown can do tables:
 |   Racoon | garbage   |  meh   |
 |      Cat | hairballs |  yup   |
 ~~~
+
 ]
 
 .one-half[
@@ -182,6 +229,7 @@ This renders as:
 |   Racoon | garbage   |  meh   |
 |      Cat | hairballs |  yup   |
 ]
+
 ---
 
 # Notes
@@ -278,3 +326,16 @@ Then the column resumes after the split.
 
 ![D. Lafrenière et al., ApJ Letters](images/data-loss.jpg)
 *D. Lafrenière et al., ApJ Letters*
+
+---
+#About Statement (final slide)
+
+Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+
+**Suggested citation:**
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+
+**Copyright license information:**
+No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
+
+![CCBY0](images/ccpd.png)

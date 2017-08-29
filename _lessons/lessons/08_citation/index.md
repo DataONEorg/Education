@@ -3,16 +3,23 @@ title: "Data Citation"
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 21, 2016
 layout: slides
-tags: [Data Management, Discover, Cite]
-categories: [Teaching Module]
+tags: ["Data Management", Describe, Discover, Cite]
+categories: ["Teaching Module"]
 status: published
+prevlesson: 07_metadata
+nextlesson: 09_analysis
+handout: L08_DataCitation_Handout.pdf
+ppt: L08_DataCitation.pptx
+exercise: L08_Exercise.pdf
+datafiles: DataFiles_L04L05L07L08.zip 
+
 ---
 
 class: center, middle 
 # Data Citation
 
 ![CC image by adesigna on Flickr](images/slide1.jpg)
-*Image attribution: CC image by adesigna on Flickr*
+*CC image by adesigna on Flickr*
 
 ---
 
@@ -27,7 +34,7 @@ class: center, middle
 * Best Practices to Support Data Citation]
 
 .one-half[![CC image by cybrarian77 on Flickr](images/slide2.jpg)
-*Image attribution: CC image by cybrarian77 on Flickr*]
+*CC image by cybrarian77 on Flickr*]
 
 ---
 
@@ -55,30 +62,30 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 
 # Definitions
 
-## Data citation
+Data Citation
 * The practice of providing a reference to data in the same way as researchers routinely provide a bibliographic reference to printed resources.
 * A key practice underpinning the recognition of data as a primary research output rather than as a by-product of research
 
-<footer>Australian National Data Service (ANDS), Data Citation Awareness Guide. Accessed May 10, 2012 at http://ands.org.au/guides/data-citation-awareness.html.</footer>
+<footer>Australian National Data Service (ANDS), Data Citation Awareness Guide. Accessed April 26, 2017 at http://ands.org.au/guides/data-citation-awareness.html.</footer>
 
 ---
 
 # Definitions
 
-## Data author
+Data Author
 * Individual involved in research, education, or other activities that generate digital data that are subsequently deposited in a data collection
 
-<footer>National Science Board, Long-Lived Digital Data Collections: Enabling Research and Education in the 21st Century, September, 2005. p. 17. http://www.nsf.gov/pubs/2005/nsb0540/ Accessed May 10, 2012.</footer>
+<footer>National Science Board, Long-Lived Digital Data Collections: Enabling Research and Education in the 21st Century, September, 2005. p. 17. http://www.nsf.gov/pubs/2005/nsb0540/ Accessed April 26, 2017.</footer>
 
 ---
 
 # Definitions
 
-## Persistent identifier
+Persistent Identifier
 * A unique web-compatible alphanumeric code that points to a resource (e.g., data set) that will be preserved for the long term (i.e., over several hardware and software generations)
 * Should direct to latest available version of resource or to metadata which enables acquisition of desired version or format
 
-<footer>Hakala, J. Persistent identifiers – an overview. Accessed May 10, 2012 at http://metadaten-twr.org/2010/10/13/persistent-identifiers-an-overview/.</footer>
+<footer>Hakala, J. Persistent identifiers – an overview. Accessed April 26, 2017 at http://metadaten-twr.org/2010/10/13/persistent-identifiers-an-overview/.</footer>
 
 ???
 
@@ -99,7 +106,7 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 * Helps researchers re-using data to find other ways the data has been used.]
 
 .one-third[![CC image by futureatlas.com on Flickr,as "Citation Needed"](images/slide6.jpg)
-*Image attribution: CC image by futureatlas.com on Flickr,as "Citation Needed"*]
+*CC image by futureatlas.com on Flickr*]
  
 ---
 
@@ -112,7 +119,7 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 * Increases transparency of scientific research]
 
 .one-third[![CC image by gruntzooki on Flickr](images/slide7.jpg)
-*Image attribution: CC image by gruntzooki on Flickr*]
+*CC image by gruntzooki on Flickr*]
 
 ???
 
@@ -152,8 +159,8 @@ Easier to discover existing data relevant to a particular question
 * Similar to citing a published article or book
  * Provide information necessary to identify and locate the work cited
 * Broadly-applicable data citation standards have not yet been established; use standards adopted by relevant academic journal, data repository, or professional organization
-* In "Achieving human and machine accessibility of cited data in scholarly publications" Starr et al. (2015) begin to lay out implementation guidelines across disciplines1
-doi: [10.7717/peerj-cs.1](https://doi.org/10.7717/peerj-cs.1)]
+* In "Achieving human and machine accessibility of cited data in scholarly publications" Starr et al. (2015) set out implementation guidelines across disciplines
+* doi: [10.7717/peerj-cs.1](https://doi.org/10.7717/peerj-cs.1)]
 
 .one-third[![screenshot of Starr et al. paper](images/slide10.png)]
 
@@ -192,7 +199,7 @@ Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M,
 * **Dryad**: Author (Date of Article Publication) Data from: Article name. Dryad Digital Repository. doi: DOI number]
 
 .one-third[![CC image by Paxsimius on Flickr](images/slide13.jpg)
-*Image attribution: CC image by Paxsimius on Flickr*]
+*CC image by Paxsimius on Flickr*]
 
 ---
 
@@ -272,14 +279,13 @@ https://wiki.ucop.edu/display/Curation/ARK
  * Organization hierarchy
  
 ![diagram of organization/hierarchy for obtaining a DOI](images/slide18.png)
-* 20+ services registered through DataCite include
+* 40+ services registered through DataCite include
  * California Digital Library’s EZID
  * ANDS Cite My Data Service
  * DataCite Canada
  
 
 ???
-
 http://n2t.net/ezid
 
 Note: DOI's imply a long term commitment to making the data accessible and that the data should go to/be in a place willing to make that commitment.
@@ -299,6 +305,7 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
 
 .one-half[
 ![screenshot of UC3EZID interface](images/slide19.jpg)
+
 ]
 
 ???
@@ -320,7 +327,7 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
  * Professional organizations]
  
 .one-third[![CC image via Wikimedia Commons (Masur, derivative of Al Maghi)](images/slide20.png)
-*Image attribution: CC image via Wikimedia Commons (Masur, derivative of Al Maghi)*]
+*CC image via Wikimedia Commons*]
 
 ---
 
@@ -366,7 +373,7 @@ UC Curation Center Merritt
  ]
  
 .one-third[![Image courtesy of https://pixabay.com/en/collaboration-collaborator-book-1106196/](images/slide22.jpg)
-*Image attribution: https://pixabay.com/en/collaboration-collaborator-book-1106196/*]
+*https://pixabay.com/en/collaboration-collaborator-book-1106196/*]
 
 ---
 
@@ -405,9 +412,11 @@ To support access to your data:
 # Citation of Scientific Software
 
 .one-third[![Image courtesy of https://pixabay.com/en/code-programming-hacking-html-web-820275/](images/slide25.jpg)
-*Image attribution: https://pixabay.com/en/code-programming-hacking-html-web-820275/*]
+*https://pixabay.com/en/code-programming-hacking-html-web-820275/*]
 
-.two-third[*"Software citation is an evolving area. A web search for ‘how to cite software’ and its variants shows that this is a popular question. The answers can broadly be classed into citation formats recommended by journals, citation formats recommended/mandated by software providers and, most contentious, the view that software is not a citable output."*
+.two-third[
+
+> *"Software citation is an evolving area. A web search for ‘how to cite software’ and its variants shows that this is a popular question. The answers can broadly be classed into citation formats recommended by journals, citation formats recommended/mandated by software providers and, most contentious, the view that software is not a citable output."*
 
 <footer>- Mike Jackson, Software Sustainability Institute]</footer>
 
@@ -509,15 +518,15 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
 ---
 
 # About
-Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From XXXX
+DataONE Education Module: Data Citation. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
 ![CCBY0](images/CC0PublicDomain.png)
----
 
----
+
+

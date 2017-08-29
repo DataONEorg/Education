@@ -3,9 +3,14 @@ title: "Legal & Policy Issues"
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 21, 2016
 layout: slides
-tags: [Data Management, Policy]
-categories: [Teaching Module]
+tags: ["Data Management", Policy, Plan]
+categories: ["Teaching Module"]
 status: published
+prevlesson: 09_analysis
+nextlesson: 00_markdown
+handout: L10_Exercise_LegalPolicyIssues.docx
+ppt: L10_Exercise_LegalPolicyIssues.pptx
+exercise: L10_LegalPolicy_Handout.pdf
 ---
 
 class: center, middle
@@ -13,7 +18,7 @@ class: center, middle
 
 .three-fourth-center[![Image Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg](
 images/image12.jpg)
-  *Image Attribution: http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*
+  *http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*
   ]
  
 ---
@@ -54,7 +59,7 @@ Resource for PRA: http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html
 
 .one-fourth[
 ![Image Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png](images/image10.png)
-  *Image Attribution: https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png*
+*https://theforevergreenstateofmind.files.wordpress.com/2012/07/lightbulb3.png*
 ]
 
 .three-fourth[
@@ -69,7 +74,7 @@ Resource for PRA: http://www.hhs.gov/ocio/policy/collection/infocollectfaq.html
 
 .one-half[
 ![Image Attribution: http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg](images/image04.jpg)
-  *Image Attribution: http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg*
+  *http://ecx.images-amazon.com/images/I/41DS66B06KL.jpg*
 ]
 
 .one-half[
@@ -97,7 +102,7 @@ Resource:  http://www.wipo.int/edocs/pubdocs/en/intproperty/450/wipo_pub_450.pdf
 ]
 
 .one-half[![Image Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg](images/image05.jpg)
-  *Image Attribution: http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg*]
+  *http://www.ihomepm.com/wp-content/uploads/2015/05/727453_10231848.jpg*]
 
 ???
 
@@ -122,7 +127,7 @@ Example:  A data set, produced under a federal grant, contained within an instit
 
 .one-half[
 ![Image Attribution: http://cdn.gobankingrates.com/wp-content/uploads/nashville-housing-market-overview-300x238.jpg](images/image08.png)
-  *Image Attribution: http://cdn.gobankingrates.com/wp-content/uploads/nashville-housing-market-overview-300x238.jpg*
+  *http://cdn.gobankingrates.com/wp-content/uploads/nashville-housing-market-overview-300x238.jpg*
 ]
 
 ???
@@ -151,7 +156,7 @@ Most universities and government agencies have written policies that state that 
 
 .one-third[
 ![Image Attribution: Attention By Viktor Vorobyev at the Noun Project](images/image16.png)
-  *Image Attribution: Attention By Viktor Vorobyev at the Noun Project*]
+  *Attention By Viktor Vorobyev at the Noun Project*]
 
 ---
 
@@ -165,9 +170,9 @@ Most universities and government agencies have written policies that state that 
 
 **Waiver:** (e.g., CC0) relinquishes all rights of ownership or control and usually commits the “work” to the public domain
 
-Intellectual property laws will vary depending upon country or region.
+* Intellectual property laws will vary depending upon country or region.
+* Copyright is a precursor to having the power to assign licenses or waivers.
 
-Copyright is a precursor to having the power to assign licenses or waivers.
 
 ???
 
@@ -189,7 +194,7 @@ Reference: http://fairuse.stanford.edu/overview/faqs/copyright-basics/
    * Miller v. Universal Studios
 
 .center[![Image Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg](images/image06.jpg)
-  *Image Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg*]
+  *http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg*]
   
 ???
 
@@ -280,7 +285,7 @@ https://www.gnu.org/copyleft/gpl.html
 # Norms for Data Use
 
 .one-half[
-When using data
+When using data:
 * Give credit to the data authors
 * Be responsible with the data
 * Share what you learned
@@ -290,7 +295,7 @@ When using data
 
 .one-half[
 ![Image Attribution: http://soctheory.iheartsociology.com/wp-content/uploads/2011/10/IMG02369-20111028-1602.jpg](images/image11.jpg)
-*Image Attribution: http://soctheory.iheartsociology.com/wp-content/uploads/2011/10/IMG02369-20111028-1602.jpg*
+*http://soctheory.iheartsociology.com/wp-content/uploads/2011/10/IMG02369-20111028-1602.jpg*
 ]
 
 ???
@@ -304,7 +309,7 @@ Resource: http://www.vertnet.org/resources/norms.html
 
 .one-half[
 ![Image Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/](images/image14.jpg)
-*Image Attribution: https://www.flickr.com/photos/michaelgallagher/14592386702/*
+*CC by Michael Gallagher on Flickr*
 ]
 
 .one-half[
@@ -333,7 +338,7 @@ Resource: http://www.vertnet.org/resources/norms.html
 
 .one-third[
 ![Image Attribution: https://www.iconfinder.com/icons/40968/folder_red_restricted_icon](images/image13.png)
-*Image Attribution: https://www.iconfinder.com/icons/40968/folder_red_restricted_icon*
+*https://www.iconfinder.com/icons/40968/folder_red_restricted_icon*
 ]
 
 ???
@@ -386,7 +391,7 @@ Re: Open vs. Proprietary.  Universities and other umbrella entities may retain o
 
 .one-half[
 ![Image Attribution: http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg](images/image15.jpg)
-*Image Attribution: http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg*
+*http://www.charlottecriminallawyer-blog.com/files/2013/12/Surveillance-Camera.jpg*
 ]
 
 .one-half[
@@ -410,15 +415,13 @@ IRB approvals must be re-reviewed if the study changes in a meaningful way.
 ---
 
 # Privacy vs. Confidentiality
-
 * Privacy
    * Protects access to individuals (or entities)
 * Confidentiality
    * Protects access to information about individuals
    * Can be thought of as information privacy
-   
 .three-fourth-center[![CC image by Blue Coat Photos on flickr](images/image19.png)
-*Image Attribution: CC image by Blue Coat Photos on flickr*]
+*CC image by Blue Coat Photos on flickr*]
 
 ???
 
@@ -452,23 +455,23 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 
 # Resources, continued
 
-* Protecting personal health information in research: understanding the HIPAA privacy rule. Accessed June 26, 2015 athttp://privacyruleandresearch.nih.gov/pr_02.asp.
-* Information Liability. Accessed June 26, 2015 at http://www.law.fsu.edu/journals/lawreview/downloads/263/phil.pdf.
-* Guidelines for Responsible Data Management in Scientific Research. Accessed June 26, 2015 at http://ori.hhs.gov/education/products/clinicaltools/data.pdf
-* Who Owns Research Data? Accessed June 26, 2015 at http://ori.dhhs.gov/education/products/columbia_wbt/rcr_data/case/index.html#2 
-* Constructing Access Permissions. Accessed June 26, 2015 at http://libweb.uoregon.edu/datamanagement/sharingdata.html#three
+- Protecting personal health information in research: understanding the HIPAA privacy rule. Accessed June 26, 2015 athttp://privacyruleandresearch.nih.gov/pr_02.asp.
+
+- Guidelines for Responsible Data Management in Scientific Research. Accessed June 26, 2015 at http://ori.hhs.gov/education/products/clinicaltools/data.pdf
+
+- Constructing Access Permissions. Accessed June 26, 2015 at http://libweb.uoregon.edu/datamanagement/sharingdata.html#three
 
 
 ---
 ## About
-Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From XXXX
+DataONE Education Module: Legal & Policy Issues. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
-![CCBY0](images/ccby.png)
+![CCBY0](images/CC0PublicDomain.png)
 
 

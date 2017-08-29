@@ -1,26 +1,27 @@
 ---
 title: "Data Management Planning"
-author: DataONE Community Engagement & Outreach Working Group
+author: "DataONE Community Engagement & Outreach Working Group"
 update: Sept. 20, 2016
 layout: slides
-tags: [Data Management, Plan]
-categories: [Teaching Module]
 status: published
+tags: ["Data Management", Plan]
+categories: ["Teaching Module" ]
+prevlesson: 02_datasharing
+nextlesson: 04_entry
+handout: L03_DataManagement_Handout.pdf
+ppt: L03_DataManagement.pptx
+exercise: L03_Exercise.pdf
+
 ---
 
 # Lesson Topics
 
-.two-third[
 - What is a data management plan (DMP)?
 - Why prepare a DMP?
 - Components of a DMP
 - Recommendations for DMP content
 - Example of an NSF DMP
-]
 
-.center[![CC image by Darla Hueske on Flickr](images/image4.jpeg)
-*CC image by Darla Hueske on Flickr*
-]
 
 <!-- These are notes for the presenter -->
 
@@ -52,8 +53,10 @@ status: published
 
 # The Data Life Cycle
 
-.center[![Photo Attribution: https://www.dataone.org/data-life-cycle](images/DataONE_Module3_LifeCycle.png)
-*Photo Attribution: https://www.dataone.org/data-life-cycle*]
+Data management planning is the starting point in the data life cycle. 
+
+.center[![dlc](images/DataONE_Module3_LifeCycle.png)
+]
 
 ???
 
@@ -70,7 +73,7 @@ However the plan should be revisited often throughout the project to ensure prop
 
 <footer>-- University of Virginia Library</footer>
 
-.center[![CC image by Hope House Press on Unsplash](images/image28.jpg)
+.center[![CC image by Hope House Press on Unsplash](images/rsz_image28.jpg)
  *CC image by Hope House Press on Unsplash*]
 
 
@@ -92,7 +95,7 @@ Increase research efficiency
 ]
 
 .one-third[![Photo Attribution: CC image Cathdew on Flickrby](images/image6.jpeg)
-*Photo Attribution: CC image Cathdew on Flickrby*
+*CC image Cathdew on Flickrby*
 ]
 
 ???
@@ -117,7 +120,7 @@ If data are documented well both before and during data collection, it prevents 
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image7.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -146,7 +149,7 @@ Finally, data management plans are now required by most funding agencies. In 201
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image8.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -173,7 +176,7 @@ Description of data to be produced
 ]
 
 .one-half[![Photo Attribution: CC image by Jeffery Beall on Flickr](images/image9.jpeg)
-*Photo Attribution: CC image by Jeffery Beall on Flickr*
+*CC image by Jeffery Beall on Flickr*
 ]
 
 ???
@@ -198,7 +201,7 @@ How data will be processed
 ]
 
 .one-half[![Photo Attribution: CC image by Ryan Sandridge on Flickr](images/image10.jpeg)
-*Photo Attribution: CC image by Ryan Sandridge on Flickr*
+*CC image by Ryan Sandridge on Flickr*
 ] 
 
 ???
@@ -221,8 +224,8 @@ Quality assurance & control during
   - processing
 ]
 
-.one-half[![Photo Attribution: CC0 image from The Noun Project](images/image11.png)
-*Photo Attribution: CC0 image from The Noun Project*
+.one-half[![CC0 image from The Noun Project](images/image11.png)
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -251,7 +254,7 @@ How data will be managed in short-term
   - Who will be responsible
 
 [![Photo Attribution: CC0 image from The Noun Project](images/image12_rotated.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -277,7 +280,7 @@ Be sure to identify who will be responsible for short-term data management. Assi
 ]
 
 .one-half[![Photo Attribution: CC0 image from The Noun Project](images/image13.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -302,7 +305,7 @@ What format will be used for the metadata
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image14.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -332,7 +335,7 @@ Ethical/privacy issues with data sharing
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image15.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -364,7 +367,7 @@ Citation
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image16.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -391,7 +394,7 @@ You should also describe how the data should be cited when used. It is best to e
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image29.jpg)
-*Photo Attribution: CC0 image by Samuel Zeller on Unsplash*
+*CC0 image by Samuel Zeller on Unsplash*
 ]
   
 ???
@@ -420,7 +423,7 @@ Outline the roles and responsibilities for implementing this data management pla
 ]
 
 .one-third[![Photo Attribution: https://thenounproject.com/term/team/542374](images/team.png)
-*Photo Attribution: Chameleon Design on the NounProject*
+*Chameleon Design on the NounProject*
 ]
   
 ???
@@ -442,7 +445,7 @@ How costs will be paid
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image21.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -535,7 +538,7 @@ Major components of a DMP:
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image26.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -554,15 +557,13 @@ http://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp_public_access
 
 ---
 # About
-Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From XXXX
+DataONE Education Module: Data Management Planning. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
 ![CCBY0](images/image27.png)
----
 
----

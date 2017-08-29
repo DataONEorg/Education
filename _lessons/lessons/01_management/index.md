@@ -3,17 +3,21 @@ title: "Introduction to Data Management"
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
 layout: slides
-tags: [Data Management]
-categories: [Teaching Module]
 status: published
+tags: ["Data Management", Plan, Collect, Integrate, Assure, Preserve, Describe, Discover, Analyze]
+categories: ["Teaching Module"]
+prevlesson: 00_markdown
+nextlesson: 02_datasharing
+handout: L01_DataManagement_Handout.pdf
+ppt: L01_DataManagement.pptx
+exercise: L01_Exercise.pdf
 ---
-
 class: center, middle
 
 # Why Data Management?
 
-![](images/slide-1-intro.jpg)
-*University of Maryland Press Releases on Flickr*
+.three-fourth-center[![](images/slide-1-intro.jpg)
+*University of Maryland Press Releases on Flickr*]
 
 
 ???
@@ -169,11 +173,14 @@ being backed up as it would have been if stored on a server.*
 # Poor Data Management
 ## Federal Agency Example
 
-.one-third[ ![](images/image34.jpeg)
+.one-third[
+![](images/image34.jpeg)
 *CC Image by ruffin_Ready on Flickr* ]
 
 .two-third[In preparation for a Resource Management Plan, an office discovered 14 duplicate GPS inventories of roads.  However, because none of the inventories had enough metadata, it was impossible to know which inventory was best or if any of the inventories actually met their requirements. 
+
 **Solution:**  Re-Inventory roads
+
 **Cost:** Estimated 9 work months/inventory @$4,000/wm (14 inventories = $504,000)
 ]
 
@@ -195,10 +202,10 @@ Instead, they were able to produce field notes, data approval records, and the l
 
 .two-third[
 ![](images/datamgt-import.png)
-*Source: guardian.uk* ]
+*Source: guardian.uk*]
 
 .one-third[
-The climate scientists at the centre of a media storm over leaked emails were yesterday cleared of accusations that they fudged their results and silenced critics, but a review found they had **failed to be open enough about their work.**
+"The climate scientists at the centre of a media storm over leaked emails were yesterday cleared of accusations that they fudged their results and silenced critics, but a review found they had **failed to be open enough about their work.**"
 ]
 
 
@@ -264,9 +271,9 @@ Data management and organization facilitate archiving, sharing and publishing da
 
 # Well-Managed Data Can Result in Re-use, Integration and New Science
 
-.center[![](images/data-integration.png)]
+.center[![](images/data-integration.png)
 *Image from DataONE*
-
+]
 
 ???
 By re-using data collected from a variety of sources – eBird database, land cover data, meteorology, and remotely sensed -- this project was able to compile and process the data using supercomputering to determine bird migration routes for particular species.
@@ -356,8 +363,12 @@ A new image processing technique reveals something not before seen in this Hubbl
 
 # What is the Data Life Cycle?
 
+A research data lifecycle illustrates stages through which well-managed data passes from the inception of a research project to its conclusion.
+
+
+
 .center[![](images/DLC.png)
-*DLC from DataONE*]
+]
 
 ???
 A data lifecycle illustrates stages thru which well-managed data passes from the inception of a research project to its conclusion. In the reality of science research, the stages do not always follow a continuous circle.
@@ -419,10 +430,10 @@ The rest of the DataONE Education Modules, handouts, and hands-on exercises are 
 ---
 
 # About
-Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From XXX
+DataONE Education Module: Why Data Management. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

@@ -6,6 +6,15 @@
 
   <title>{{ page.title }}</title>
    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/resources/tags_index.css" />
+   <link rel="shortcut icon" href="https://dataone.org/sites/all/images/favicon.ico" type="image/vnd.microsoft.icon" />
+<!--
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></link>
+-->
+	<!-- link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap.min.css">    
+	<link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-theme.min.css" -->    
+	<!-- link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like_dropdowns.css" -->
+	<link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like-select.css"> <!-- https://codepen.io/ericrasch/pen/zjDBx -->
 
 
   <!--[if lt IE 9]>
@@ -21,9 +30,120 @@
   ga('send', 'pageview');
 
 </script>
+
+
+  <style>
+  	section img.mainimage { 
+  		float: left; 
+  		border:1px solid #888; 
+  		padding:5px; 
+  		margin:0px 20px 20px 0px; 
+  	}
+  	body {
+  		padding:0px; margin:0px; 
+  		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  	}
+
+	a { color: #2a7ae2; text-decoration: none; }
+	a:visited { color: #1756a9; }
+	a:hover { color: #111; text-decoration: underline; }
+
+  	section {
+  		clear:both; 
+  	}
+  	section h1 {
+  		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  		color: #660032; 
+  	}
+  	article, footer {
+  		margin:30px; 
+  	}
+  	header {
+  		border-bottom: 20px solid #660032; 
+  		background-color:#fff; 
+  	}
+  	header img.pagelogo {
+  		padding: 15px 0px 0px 15px; 
+  	}
+  	footer {
+  		font-size: .8em; 
+  	}
+  	
+  	h2 {
+		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;  	
+    margin-top: 1em;
+    margin-bottom: 4px; 
+    font-style: normal;
+    font-style: normal;
+    font-size: 125%;
+    color: #660033;
+    font-weight: 600;
+    margin-left:60px; 
+  	}
+
+	a.filterbutton {
+		padding: .25em 2em .25em 2em;
+		margin-top: .5em;
+		margin-left: 10px;
+		clear: none;
+		display: inline-block;
+		color:#660033; 
+		border: solid thin #660033;
+		font-weight: 600;
+		font-size: 90%;
+		text-transform: uppercase;
+		text-align:center;
+		border-radius:.2em;
+	}
+	a.filterbutton:hover {
+	  background-color:#660033;
+	  color:#fff; 
+	}
+
+	a.programs-filter-btn-active {
+	  background-color:#660033;
+	  color:#fff; 
+	}
+	a.programs-control-active {
+	  background-color:#660033;
+	  color:#fff; 
+	}
+
+	a.programs-filter-btn-active.btn_teaching_module { background-color:#84353e; }
+	a.programs-filter-btn-active.btn_technical_tutorial { background-color:#3c6855; }
+	a.programs-filter-btn-active.btn_best_practice { background-color:#6179a8; }
+	a.programs-filter-btn-active.btn_video_tutorial { background-color:#dd912e; }
+
+	a.btn_teaching_module:hover { background-color:#84353e; }
+	a.btn_technical_tutorial:hover { background-color:#3c6855; }
+	a.btn_best_practice:hover { background-color:#6179a8; }
+	a.btn_video_tutorial:hover { background-color:#dd912e; }
+
+
+	a.tagbutton {
+		text-transform: none; 
+	}
+	
+	.btn_teaching_module { background-color: #ebdadc; } /* ad7279 */ 
+	.btn_technical_tutorial { background-color: #d0e3db; } /* 84a396 */ 
+	.btn_best_practice { background-color: #e8effc; } /* 9faecc */
+	.btn_video_tutorial { background-color: #ffe6c6; } /* bc8743  */ 
+
+
+
+
+
+
+
+  </style>
+
 </head>
 
 <body>
+
+  <header role='banner'>
+    <a href='https://www.dataone.org/'><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:24px'/></a></p>
+  </header>
 
 {% comment %}
 The following part extracts all the tags from the lessons
@@ -65,16 +185,18 @@ Removes duplicated tags
 	{% endif %}
 {% endfor %}
 
-
 <div class="wrap">
   <div class="container">
-    <div class="row">
-      <div class="twelve columns">
-        <h4>Filter Categories</h4>
-      </div>
-    </div><!-- end of row -->
+
 
     <div class="row">
+      <div class="twelve columns">
+        <h2>Resource List</h2>
+      </div>
+      
+    </div>
+
+    <!--div class="row">
       <div class="twelve columns">
         <div class="programs">
           <button class="filter-btn" data-filter="all">All</button>
@@ -83,32 +205,97 @@ Removes duplicated tags
           {% endfor %}
         </div>
       </div>
-    </div><!-- end of row -->
-
+    </div-->
 
     <div class="row">
       <div class="twelve columns">
-        <h4>Programs List</h4>
+        <div id="filterbuttons" style="margin-left:60px;">
+          Filter by content type: 
+          <a href="#" class="filterbutton" data-filter="all">All</a>
+          {% for cat in cats %}
+          <a href="#" class="filterbutton btn_{{ cat | downcase | replace: ' ','_' }}" data-filter=".{{ cat | downcase | replace: ' ','_' }}">{{ cat }}</a>
+          {% endfor %}
+		<a href="#" class="filterbutton btn_best_practice" data-filter=".best_practice">Best Practice</a>
+		<a href="#" class="filterbutton btn_video_tutorial" data-filter=".video_tutorial">Video Tutorial</a>
+        </div>
       </div>
-    </div><!-- end of row -->
+    </div>
 
+    <div class="row">
+      <div class="twelve columns">
+        <div style="margin-left:60px; " >
+         Filter by stage of the Data Life Cycle
+<!--
+        <div cla-ss="styled-select blue semi-square" >
+          <a href="#" class="filterbutton tagbutton" data-filter="all">All</a> 
+          <a href="#" class="filterbutton tagbutton" data-filter=".plan">Plan</a>  (switch to data-toggle for checkbox behavior)
+          <a href="#" class="filterbutton tagbutton" data-filter=".collect">Collect</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".assure">Assure</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".describe">Describe</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".preserve">Preserve</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".discover">Discover</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".integrate">Integrate</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".analyze">Analyze</a>
+-->
+
+		  <select id="soflow">
+			<option value="all">All</option>
+			<option value=".plan">Plan</option>
+			<option value=".collect">Collect</option>
+			<option value=".assure">Assure</option>
+			<option value=".describe">Describe</option>
+			<option value=".preserve">Preserve</option>
+			<option value=".discover">Discover</option>
+			<option value=".integrate">Integrate</option>
+			<option value=".analyze">Analyze</option>
+		  </select>
+
+
+<!--
+		<span class="dropdown">
+		  <button>Action</button>
+		  <label>
+			<input type="checkbox">
+			<ul>
+			  <li onclick="console.log(1)">Action</li>
+			  <li>Another Action</li>
+			  <li>Something else here</li>
+			  <li class="divider"></li>
+			  <li>Separated link</li>
+			</ul>
+		  </label>
+		</span>
+		text after<br/>mono mono mono mono mono mono
+    
+</div>
+-->
+        </div>
+      </div>
+    </div>
 
     <div class="row">
       <div class="twelve columns">
         <ul class="courses" id="mix-wrapper">
           {% for lesson in site.lessons %}
             {% assign ldeck = lesson.url | split: '/' %}
-            {% if ldeck.last == 'cover.html' %}
+            {% if ldeck.last == 'index.html' %}
               {% assign ldeck = ldeck[2] %}
               {% assign catclasses = "" %}
               {% for cat in lesson.categories %}
                 {% assign cleancat = cat | downcase | replace: ' ', '_' %}
                 {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
               {% endfor %}
-              <li class="mix-target {{ catclasses }}" 
-                  data-order="5" 
+
+              {% assign tagclasses = "" %}
+              {% for tag in lesson.tags %}
+                {% assign cleantag = tag | downcase | replace: ' ', '_' %}
+                {% assign tagclasses = tagclasses | append: ' ' | append: cleantag %}
+              {% endfor %}
+
+              <li class="mix-target {{ catclasses }} {{ tagclasses }}" 
+                  data-order="{{ ldeck }}" 
                   data-year="4">
-                  <a href="{{ site.baseurl }}{{ lesson.url }}"><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png"></a></li>
+                  <a href="{{ site.baseurl }}/lessons/{{ ldeck }}/cover.html"><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png"></a></li>
             {% endif %}
           {% endfor %}
         </ul>
@@ -117,8 +304,17 @@ Removes duplicated tags
   </div><!-- end of container -->
 </div><!-- end of wrap -->
 
-  <script src="{{ site.baseurl }}/resources/lib/mixitup.3.1.9.min.js">
-  </script>
+<div style="width:100%; padding:20px; margin:20px 0px 40px 50px; ">
+  	<a href="./faq.html">Frequently Asked Questions</a>
+</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="{{ site.baseurl }}/resources/lib/mixitup.3.1.9.min.js"></script>
+	<script src="{{ site.baseurl }}/resources/lib/mixitup-multifilter.min.js"></script>
+
+    <!-- script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script -->
+  
 
   <script>
     mixitup('#mix-wrapper', {
@@ -138,6 +334,26 @@ Removes duplicated tags
         target: '.mix-target' /* .mix */
       }
     });    
+
+
+
+	$(function(){
+	  var $filterSelect = $('#soflow'),
+		  $container = $('#mix-wrapper');
+  
+	  //$container.mixItUp();
+  
+	  $filterSelect.on('change', function(){
+		$container.mixItUp('filter', this.value);
+	  });
+  
+  	  $('body').on('click', '#filterbuttons a', function(e) {
+  	  	 $("select#soflow").prop('selectedIndex', 0);
+  	  });
+  
+	});
+
+
   </script>
 
 </body>

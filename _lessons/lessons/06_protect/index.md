@@ -3,9 +3,15 @@ title: "Protecting Your Data: Backups, Archives & Data Preservation"
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 21, 2016
 layout: slides
-tags: [Data Management, Preserve]
-categories: [Teaching Module]
+tags: ["Data Management", Preserve, Assure]
+categories: ["Teaching Module"]
 status: published
+prevlesson: 05_qaqc
+nextlesson: 07_metadata
+handout: L06_DataProtection_Handout.pdf
+ppt: L06_DataProtection.pptx
+exercise: L06_Exercise.pdf
+
 ---
 
 ## Lesson Topics
@@ -55,7 +61,9 @@ Q4: What are some good practices to follow when naming files?  Suggested answers
 
 ## The DataONE Data Life Cycle
 
-![lifecycle](images/dlc.png)
+.center[
+![lifecycle](images/DLC_Assure_Preserve.png)
+]
 
 ???
 In this lesson we will be focusing on data protection and backup which is associated with the categories assure and preserve in the data life cycle.  For definitions of the DataONE Data Life Cycle, see: dataone.org/data-life-cycle
@@ -64,9 +72,9 @@ In this lesson we will be focusing on data protection and backup which is associ
 
 ---
 
-## Data Protection, Backups, Archiving, Preservation
+## Data Protection, Backups, Archiving & Preservation
 
-.full-width[Differences at a Glance
+.full-width[Differences at a Glance:
 * Data Protection
   * Includes topics such as: backups, archives, & preservation; also includes physical security, encryption, and others not addressed here
   * More information about these topics can be found in the  “References” section]
@@ -137,7 +145,9 @@ Limit loss of data, some of which may not be reproducible
 
 
 .one-half[
-![backup](images/image6.jpeg)]
+![backup](images/image6.jpeg)
+*CC Image by Brian J Matis on Flickr*
+]
 
 
 
@@ -309,6 +319,9 @@ Finally, what will happen to backups (or archives) once the project has ended or
 
 ![](images/image11.jpeg)
 
+
+
+
 ---
 ## Data in Real Life
 
@@ -328,8 +341,9 @@ Unfortunately their computer system became infected with a virus and erased much
 * Media can degrade quickly, unexpectedly, inconsistently
   * Even if you can open a file today, that doesn’t mean you can in a month from now
 * How will you dispose of outdated data?
-  * Make decision to copy, archive
-Remember: back up the data you can’t afford to lose!]
+  * Make decision to copy, archive]
+  
+**Remember: Back up the data you can’t afford to lose!**
 
 ???
 Another issue with backups is that they may be stored on older hardware or formats that can no longer be read.  For example, if you have data that was backed up on floppy disk, or created by a backup software program that no longer exists, how will you access the data?  Even if you are using a common software program, such as Microsoft Excel, you may find that older versions of the program created file formats that can no longer be opened by current versions of the same software.  When new software versions come out, early on you can usually use the software to convert the files into newer versions, but for older files there may be no option for this if too much time has passed.
@@ -452,7 +466,9 @@ By following the recommendations in these lessons, you limit the need for data r
 
 In 2011, a software bug caused some Gmail users to lose access to their email.  Fortunately, Google had backups! 
 
-![Google backup](images/image12.jpeg)
+.center[![Google backup](images/image12.jpeg)
+*CC Image by Sybren A. Stüvel*
+]
 
 ???
 Again, do not assume that backups are being handled for you.  Even if someone else is handling them, make sure the backups are tested.  In addition, if you are relying upon third-party systems, they may or may not be handling backups on their end.
@@ -485,13 +501,10 @@ For more information about physical security, encryption, and data disposal, vis
 
 ---
 ## About
-Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
-
-The full slide deck (in PowerPoint) may be downloaded from:
-[http://www.dataone.org/education-modules](http://www.dataone.org/education-modules)
+Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx](http://www.dataone.org/sites/all/documents/L01_DataManagement.pptx)
+DataONE Education Module: Protecting Your Data: Backups, Archives, and Data Preservation. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

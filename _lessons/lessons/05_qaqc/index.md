@@ -3,9 +3,16 @@ title: "Data Quality Control and Assurance"
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 22, 2016
 layout: slides
-tags: ["Data Management", Assure, QAQC]
+tags: ["Data Management", Assure, QAQC, Collect]
 categories: ["Teaching Module"]
 status: published
+prevlesson: 04_entry
+nextlesson: 06_protect
+handout: L05_DataQualityAssurance_Handout.pdf
+ppt: L05_DataQualityAssurance.pptx
+exercise: L05_Exercise.pdf
+datafiles: DataFiles_L04L05L07L08.zip 
+
 
 ---
 

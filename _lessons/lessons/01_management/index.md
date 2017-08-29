@@ -4,16 +4,20 @@ author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
 layout: slides
 status: published
-tags: ["Data Management"]
+tags: ["Data Management", Plan, Collect, Integrate, Assure, Preserve, Describe, Discover, Analyze]
 categories: ["Teaching Module"]
+prevlesson: 00_markdown
+nextlesson: 02_datasharing
+handout: L01_DataManagement_Handout.pdf
+ppt: L01_DataManagement.pptx
+exercise: L01_Exercise.pdf
 ---
-
 class: center, middle
 
 # Why Data Management?
 
-![](images/slide-1-intro.jpg)
-*University of Maryland Press Releases on Flickr*
+.three-fourth-center[![](images/slide-1-intro.jpg)
+*University of Maryland Press Releases on Flickr*]
 
 
 ???
@@ -169,11 +173,14 @@ being backed up as it would have been if stored on a server.*
 # Poor Data Management
 ## Federal Agency Example
 
-.one-third[ ![](images/image34.jpeg)
+.one-third[
+![](images/image34.jpeg)
 *CC Image by ruffin_Ready on Flickr* ]
 
 .two-third[In preparation for a Resource Management Plan, an office discovered 14 duplicate GPS inventories of roads.  However, because none of the inventories had enough metadata, it was impossible to know which inventory was best or if any of the inventories actually met their requirements. 
+
 **Solution:**  Re-Inventory roads
+
 **Cost:** Estimated 9 work months/inventory @$4,000/wm (14 inventories = $504,000)
 ]
 
@@ -195,10 +202,10 @@ Instead, they were able to produce field notes, data approval records, and the l
 
 .two-third[
 ![](images/datamgt-import.png)
-*Source: guardian.uk* ]
+*Source: guardian.uk*]
 
 .one-third[
-The climate scientists at the centre of a media storm over leaked emails were yesterday cleared of accusations that they fudged their results and silenced critics, but a review found they had **failed to be open enough about their work.**
+"The climate scientists at the centre of a media storm over leaked emails were yesterday cleared of accusations that they fudged their results and silenced critics, but a review found they had **failed to be open enough about their work.**"
 ]
 
 

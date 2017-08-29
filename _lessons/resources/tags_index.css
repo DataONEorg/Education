@@ -84,6 +84,8 @@ img {
 
 .courses {
 	margin-bottom: 15px;
+	padding-bottom: 15px; 
+	padding-right: 40px; 
 	font-size: 0;
 	background: whitesmoke;
 }
@@ -100,17 +102,20 @@ img {
 	display: block;
 	height: 60px;
 	margin: 15px 0;
-	padding-top: 12.5px;
 	background: whitesmoke;
 	color: black;
 	border: 1px solid white;
 	transition: all .4s ease;
 }
 
+/*
 .courses a:hover {
 	background: #99cfe0;
 }
-
+*/
+.courses img:hover {
+  opacity: 0.6;
+}
 .p, .p a {
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -124,7 +129,7 @@ img {
 @media only screen and (min-width: 750px) {
 
 	.container {
-		width: 95%;
+		/* width: 95%; */
 	}
 
 	.courses a {
@@ -146,7 +151,7 @@ img {
 	}
 
 	.programs button {
-		width: 25%;
+		width: 15%;
 		margin-bottom: 15px;
 	}
 

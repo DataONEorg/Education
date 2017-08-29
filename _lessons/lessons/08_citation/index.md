@@ -3,9 +3,16 @@ title: "Data Citation"
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 21, 2016
 layout: slides
-tags: ["Data Management", Discover, Cite]
+tags: ["Data Management", Describe, Discover, Cite]
 categories: ["Teaching Module"]
 status: published
+prevlesson: 07_metadata
+nextlesson: 09_analysis
+handout: L08_DataCitation_Handout.pdf
+ppt: L08_DataCitation.pptx
+exercise: L08_Exercise.pdf
+datafiles: DataFiles_L04L05L07L08.zip 
+
 ---
 
 class: center, middle 
@@ -279,7 +286,6 @@ https://wiki.ucop.edu/display/Curation/ARK
  
 
 ???
-
 http://n2t.net/ezid
 
 Note: DOI's imply a long term commitment to making the data accessible and that the data should go to/be in a place willing to make that commitment.
@@ -299,7 +305,7 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
 
 .one-half[
 ![screenshot of UC3EZID interface](images/slide19.jpg)
-*http://n2t.net/ezid*
+
 ]
 
 ???

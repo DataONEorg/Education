@@ -20,7 +20,7 @@ exercise: L03_Exercise.pdf
 - Why prepare a DMP?
 - Components of a DMP
 - Recommendations for DMP content
-- Example of an National Science Foundation DMP
+- Example of requirements for a National Science Foundation DMP
 
 
 <!-- These are notes for the presenter -->
@@ -71,7 +71,7 @@ However the plan should be revisited often throughout the project to ensure prop
 - Outlines what you will do with the data **during** and **after** you complete your research
 - Ensures the data is safe for the **present** and the **future**
 
-.center[![CC image by Hope House Press on Unsplash](images/rsz_image28.jpg)
+.three-fourth-center[![CC image by Hope House Press on Unsplash](images/rsz_image28.jpg)
  *CC image by Hope House Press on Unsplash*
 
 
@@ -461,6 +461,7 @@ You should identify how the costs associated with your DMP will be paid.
 
 .one-half[
 **DMPTool**
+
 https://dmptool.org/
 <br /><br />
 ![dmptool.org](images/DMPTool_web.png)
@@ -468,6 +469,7 @@ https://dmptool.org/
 
 .one-half[
 **DMPOnline**
+
 https://dmponline.dcc.ac.uk/
 <br /><br />
 ![dmponline.dcc.ac.uk](images/DMPOnline_web.png)

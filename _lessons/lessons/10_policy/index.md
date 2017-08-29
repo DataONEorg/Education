@@ -420,7 +420,7 @@ IRB approvals must be re-reviewed if the study changes in a meaningful way.
 * Confidentiality
    * Protects access to information about individuals
    * Can be thought of as information privacy
-.three-fourth-center[![CC image by Blue Coat Photos on flickr](images/image19.png)
+.one-half-center[![CC image by Blue Coat Photos on flickr](images/image19.png)
 *CC image by Blue Coat Photos on flickr*]
 
 ???

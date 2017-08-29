@@ -23,7 +23,6 @@ datafiles: DataFiles_L04L05L07L08.zip
 
 .center[![(images/metadata7.jpg)
 Image Attribution: CC image by Mace Ojala on Flickr]
-]
 
 
 ---

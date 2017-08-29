@@ -218,10 +218,10 @@ File formats
   - Follow naming conventions
 
 Quality assurance & control during 
-  - sample collection, analysis, and processing
+  - sample collection, analysis and processing
 ]
 
-.one-half[![CC0 image from The Noun Project](images/image11.png)
+.three-fourths[![CC0 image from The Noun Project](images/image11.png)
 *CC0 image from The Noun Project*
 ]
 

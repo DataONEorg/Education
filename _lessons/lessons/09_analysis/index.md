@@ -169,10 +169,17 @@ Reproducibility at core of scientific method
 * Good documentation required for reproducibility
  * Metadata: data about data
  * Process metadata: data about process used to create, manipulate, and analyze data
- .center[![ducks](images/ducks2.jpeg)]
+
+
+.center[![ducks](images/image11rsz.jpg)]
+
 
 ???
 Reproducibility is at the core of scientific method.  If results are not reproducible, the study loses credibility. The complex processes used to create final outputs can be quite difficult to reproduce.  In order to maintain scientific integrity, good documentation of the data and the analytical process is essential. Documentation includes metadata, which is data about data, and process metadata, which is data about the process.
+
+
+
+
 ---
 # Ensuring Reproducibility: Documenting the Process
 - Process metadata: Information about process (analysis, data organization, graphing) used to get to data outputs
@@ -186,6 +193,10 @@ Reproducibility is at the core of scientific method.  If results are not reprodu
 
 ???
 Process metadata is information about the process used to create any data outputs. This includes any data cleaning, transformation, reduction, and any analyses performed.A related concept to process metadata is “data provenance”. Provenance means “origin”, so data provenance is a description of the origins of the data.A mark of good provenance is that a person not directly involved with the project is able to follow the data through its life cycle and understand any steps used to create outputs.Good provenance allows for the ability to replicate analyses and reproduce results. Others can identify potential problems, logical, or statistical errors that might affect the study’s outcome.  Others are also able to evaluate a study’s hypotheses for themselves.   All of these possibilities mean greater accountability and more trustworthy science. 
+
+
+
+
 ---
 # Workflows: The Basics
 - Formalization of process metadata

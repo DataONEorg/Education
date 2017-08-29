@@ -75,7 +75,7 @@ and more. This calls for increased attention to data management and stewardship.
 
 ---
 
-# Data Loss Can Be Caused by
+# Data Loss Can Be Caused By:
 
 .two-third[
 * Natural disaster
@@ -92,7 +92,7 @@ and more. This calls for increased attention to data management and stewardship.
 ]
 ---
 
-# Data Loss Can Be Caused by
+# Data Loss Can Be Caused By:
 
 .two-third[* Legal encumbrance
 * Human error
@@ -120,18 +120,18 @@ class: center, middle
 *(CNN) December 2004*
 
 > Miscoding and Billing Errors from Doctors and Hospitals totaled $20,000,000,000 in FY
-     2003    (9.3% error rate) . The error rate measured claims that were paid despite being
+     2003 (9.3% error rate). The error rate measured claims that were paid despite being
      medically unnecessary, inadequately documented or improperly coded. In some
      instances, Medicare asked health care providers for medical records to back up their
-     claims and got no response.  The survey did not document instances of alleged fraud.
+     claims and got no response. The survey did not document instances of alleged fraud.
     This error rate actually was an improvement over the previous fiscal year (9.8% error rate).
 
 ---
 
 **AUDIT:  JUSTICE STATS ON ANTI-TERROR CASES FLAWED” (AP) February 2007**
 
-> The Justice Department Inspector General found only two sets of data out of 26 concerning terrorism attacks were accurate.  The Justice Department uses these
-     statistics to argue for their budget.  The Inspector General said the data “appear to be
+> The Justice Department Inspector General found only two sets of data out of 26 concerning terrorism attacks were accurate. The Justice Department uses these
+     statistics to argue for their budget. The Inspector General said the data “appear to be
      the result of decentralized and haphazard methods of collections … and do not appear
      to be intentional."
 
@@ -139,7 +139,7 @@ class: center, middle
 
 **OOPS! TECH ERROR WIPES OUT Alaska Info” (AP) March 2007**
 > A technician managed to delete the data and backup for the $38 billion Alaska oil
-     revenue fund – money received by residents of the State.  Correcting the errors cost the
+     revenue fund – money received by residents of the State. Correcting the errors cost the
      State an additional $220,700 (which of course was taken off the receipts to Alaska
      residents.)
 
@@ -161,8 +161,7 @@ office, no one understood how the data was stored or managed.
 
 **Solution:** A state office GIS specialist retrieved the workstation and sifted through files trying to salvage relevant data.
 
-**Cost:** 1 work month ($4,000) plus the value of
-    data that was not recovered
+**Cost:** 1 work month ($4,000) plus the value of data that was not recovered
 
 
 *The situation could have been worse, because the data were not
@@ -177,7 +176,7 @@ being backed up as it would have been if stored on a server.*
 ![](images/image34.jpeg)
 *CC Image by ruffin_Ready on Flickr* ]
 
-.two-third[In preparation for a Resource Management Plan, an office discovered 14 duplicate GPS inventories of roads.  However, because none of the inventories had enough metadata, it was impossible to know which inventory was best or if any of the inventories actually met their requirements. 
+.two-third[In preparation for a Resource Management Plan, an office discovered 14 duplicate GPS inventories of roads. However, because none of the inventories had enough metadata, it was impossible to know which inventory was best or if any of the inventories actually met their requirements. 
 
 **Solution:**  Re-Inventory roads
 
@@ -191,8 +190,8 @@ being backed up as it would have been if stored on a server.*
 # Importance of Data Management
 
 
->"Please forgive my paranoia about protocols, standards, and data review.  I'm in the latter stages of a long career with USGS (30 years, and counting), and have experienced much.  Experience is the knowledge you get just after you needed it. Several times, I've seen colleagues called to court in order to testify about conditions they have observed. Without a strong tradition of constant review and approval of basic data, they would've been in deep trouble under cross-examination. 
-Instead, they were able to produce field notes, data approval records, and the like, to back up their testimony. It's one thing to be questioned by a college student who is working on a project for school.  It's another entirely to be grilled by an attorney under oath with the media present.”
+>"Please forgive my paranoia about protocols, standards, and data review. I'm in the latter stages of a long career with USGS (30 years, and counting), and have experienced much. Experience is the knowledge you get just after you needed it. Several times, I've seen colleagues called to court in order to testify about conditions they have observed. Without a strong tradition of constant review and approval of basic data, they would've been in deep trouble under cross-examination. 
+Instead, they were able to produce field notes, data approval records, and the like, to back up their testimony. It's one thing to be questioned by a college student who is working on a project for school. It's another entirely to be grilled by an attorney under oath with the media present.”
 
 <footer>Nelson Williams, Scientist US Geological Survey</footer>
 
@@ -230,8 +229,7 @@ Manage your data for yourself:
 * Make backups to avoid data loss
 * Format your data for re-use (by yourself or others)
 * Be prepared: Document your data for your own recollection, accountability, and re-use (by yourself or others)
-* Prepare it to share it – gain credibility
- and recognition for your science efforts!
+* Prepare it to share it – gain credibility and recognition for your science efforts!
 ]
 
  .one-third[![CC image by UWW ResNet on Flickr](images/master-backup.png)
@@ -378,7 +376,7 @@ A data lifecycle illustrates stages thru which well-managed data passes from the
 
 # For Each Stage of the Data Lifecycle
 
-.full-width[* There are best practices…..and….tools to help!
+.full-width[* There are best practices … and … tools to help!
 * The following data management lessons will illustrate in detail each stage of the data lifecycle
 * Your well-managed and accessible data can contribute to science in ways you may not even imagine today!]
 
@@ -391,10 +389,10 @@ The rest of the DataONE Education Modules, handouts, and hands-on exercises are 
 
 # Summary
 
-.full-width[* The data deluge has created a surge of information that needs to be well-managed and made accessible.
-* The cost of not doing data management can be very high.
-* Be cognizant of best practices and tools associated with the data lifecycle to manage your data well.
-* Many benefits are associated with the act of managing data, including the ability to find, access, understand, integrate and re-use data.]
+.full-width[* The data deluge has created a surge of information that needs to be well-managed and made accessible
+* The cost of not doing data management can be very high
+* Be cognizant of best practices and tools associated with the data lifecycle to manage your data well
+* Many benefits are associated with the act of managing data, including the ability to find, access, understand, integrate and re-use data]
 
 
 ---

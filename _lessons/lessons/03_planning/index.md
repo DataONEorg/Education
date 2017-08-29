@@ -20,7 +20,7 @@ exercise: L03_Exercise.pdf
 - Why prepare a DMP?
 - Components of a DMP
 - Recommendations for DMP content
-- Example of an National Science Foundation DMP
+- Example of requirements for a National Science Foundation DMP
 
 
 <!-- These are notes for the presenter -->

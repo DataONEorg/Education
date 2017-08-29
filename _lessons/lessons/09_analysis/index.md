@@ -255,7 +255,7 @@ Finally, graphs are produced to display the resulting mean temperatures.
 ---
 # Informal Workflows
 **Transformation Rules**
-.center[![simple workflow](images/transform.png)]
+.center[![simple workflow](images/transform2.png)]
 
 
 ???

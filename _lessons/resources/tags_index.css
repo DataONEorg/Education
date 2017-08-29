@@ -1,0 +1,162 @@
+
+/* CUSTOM STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
+
+body {
+	background: #ededed;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+h4 {
+	font-size: 21px;
+	border-radius: 5px;
+	margin: 0 auto;
+	text-align: center;
+	background: #d2d2d2;
+	color: white;
+	font-weight: 700;
+	padding: 3px 0;
+}
+
+li {
+	margin: 0;
+}
+
+a {
+	font-size: 18px;
+	text-decoration: none;
+}
+
+span {
+	display: block;
+	font-size: .75em;
+	font-style: italic;
+	position: relative;
+	top: 5px;
+}
+
+.multi {
+	display: inline;
+	top: 0;
+	left: 3px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.programs,
+.courses {
+	margin: 8px 0 0 0;
+}
+
+.programs {
+	font-size: 0;
+	margin-bottom: 15px;
+}
+
+.programs button {
+	outline: none;
+	margin-bottom: 0;
+	background: whitesmoke;
+	width: 50%;
+	height: auto;
+	font-weight: normal;
+	border: 1px solid #ededed;
+	color: #000000;
+	font-size: 14px;
+	padding: 4px 0;
+	text-shadow: 0px 0px 0px #2f6627;
+}
+
+.programs button:hover {
+	background: #99cfe0;
+}
+
+.programs button.programs-filter-btn-active,
+.programs button.programs-sort-btn-active {
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5) inset, 0px 0px 1px transparent;
+	background: #3a9fbf;
+	color: white;
+}
+
+.courses {
+	margin-bottom: 15px;
+	padding-bottom: 15px; 
+	padding-right: 40px; 
+	font-size: 0;
+	background: whitesmoke;
+}
+
+.courses li {
+	text-align: center;
+	font-size: 14px;
+	display: inline-block;
+	width: 46%;
+	margin: 0 2%;
+}
+
+.courses a {
+	display: block;
+	height: 60px;
+	margin: 15px 0;
+	background: whitesmoke;
+	color: black;
+	border: 1px solid white;
+	transition: all .4s ease;
+}
+
+/*
+.courses a:hover {
+	background: #99cfe0;
+}
+*/
+.courses img:hover {
+  opacity: 0.6;
+}
+.p, .p a {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+/* MEDIA QUERIES STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (min-width: 750px) {
+
+	.container {
+		/* width: 95%; */
+	}
+
+	.courses a {
+		background: #EBEBEB;
+		border: none;
+	}
+
+	h4 {
+		width: 50%;
+		margin-top: 12px;
+	}
+
+	img {
+		margin-bottom: 0;
+	}
+
+	.programs {
+		margin-bottom: 0;
+	}
+
+	.programs button {
+		width: 15%;
+		margin-bottom: 15px;
+	}
+
+	.courses li {
+		width: 21%;
+	}
+
+}

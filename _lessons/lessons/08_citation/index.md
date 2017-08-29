@@ -1,30 +1,40 @@
 ---
 title: "Data Citation"
+author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 21, 2016
 layout: slides
+tags: ["Data Management", Describe, Discover, Cite]
+categories: ["Teaching Module"]
+status: published
+prevlesson: 07_metadata
+nextlesson: 09_analysis
+handout: L08_DataCitation_Handout.pdf
+ppt: L08_DataCitation.pptx
+exercise: L08_Exercise.pdf
+datafiles: DataFiles_L04L05L07L08.zip 
+
 ---
 
-# Tutorials on Data Management: 
-
-## Lesson 8: Data Citation
+class: center, middle 
+# Data Citation
 
 ![CC image by adesigna on Flickr](images/slide1.jpg)
-*Image attribution: CC image by adesigna on Flickr*
+*CC image by adesigna on Flickr*
 
 ---
 
 # Lesson Topics
 
-* Data Citation in the Data Life Cycle
+.one-half[* Data Citation in the Data Life Cycle
 * Definitions: What is Data Citation?
 * Benefits of Data Citation
 * Collaborating to Support Data Citation
 * How to Cite Data
 * How to Obtain a Persistent Identifier for a Data Set
-* Best Practices to Support Data Citation
+* Best Practices to Support Data Citation]
 
-![CC image by cybrarian77 on Flickr](images/slide2.jpg)
-*Image attribution: CC image by cybrarian77 on Flickr*
+.one-half[![CC image by cybrarian77 on Flickr](images/slide2.jpg)
+*CC image by cybrarian77 on Flickr*]
 
 ---
 
@@ -42,7 +52,7 @@ After completing this lesson, the participant will be able to:
 
 # The Data Life Cycle
 
-![The DataONE Data Life Cycle](images/slide4.png)
+.center[![The DataONE Data Life Cycle](images/slide4.png)]
 
 ???
 
@@ -52,16 +62,30 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 
 # Definitions
 
-## Data citation
-* "The practice of providing a reference to data in the same way as researchers routinely provide a bibliographic reference to printed resources"<sup>1</sup>
-* "A key practice underpinning the recognition of data as a primary research output rather than as a by-product of research"<sup>1</sup>
+Data Citation
+* The practice of providing a reference to data in the same way as researchers routinely provide a bibliographic reference to printed resources.
+* A key practice underpinning the recognition of data as a primary research output rather than as a by-product of research
 
-## Data author
-* "Individual involved in research, education, or other activities that generate digital data that are subsequently deposited in a data collection"<sup>2</sup>
+<footer>Australian National Data Service (ANDS), Data Citation Awareness Guide. Accessed April 26, 2017 at http://ands.org.au/guides/data-citation-awareness.html.</footer>
 
-## Persistent identifier
+---
+
+# Definitions
+
+Data Author
+* Individual involved in research, education, or other activities that generate digital data that are subsequently deposited in a data collection
+
+<footer>National Science Board, Long-Lived Digital Data Collections: Enabling Research and Education in the 21st Century, September, 2005. p. 17. http://www.nsf.gov/pubs/2005/nsb0540/ Accessed April 26, 2017.</footer>
+
+---
+
+# Definitions
+
+Persistent Identifier
 * A unique web-compatible alphanumeric code that points to a resource (e.g., data set) that will be preserved for the long term (i.e., over several hardware and software generations)
 * Should direct to latest available version of resource or to metadata which enables acquisition of desired version or format
+
+<footer>Hakala, J. Persistent identifiers – an overview. Accessed April 26, 2017 at http://metadaten-twr.org/2010/10/13/persistent-identifiers-an-overview/.</footer>
 
 ???
 
@@ -76,26 +100,26 @@ The Data Life Cycle is a continuum of data development, manipulation, management
 # Benefits of Data Citation 
 
 ## Short term
-* Facilitates discovery of relationships between data and publications, making it easier to validate and build upon previous work
+.two-third[* Facilitates discovery of relationships between data and publications, making it easier to validate and build upon previous work
 * Ensures that proper credit can be given when others use your work
 * Facilitates impact assessments of datasets based on number of publications that cite them
-* Helps researchers re-using data to find other ways the data has been used.
+* Helps researchers re-using data to find other ways the data has been used.]
 
-![CC image by futureatlas.com on Flickr,as "Citation Needed"](images/slide6.jpg)
-*Image attribution: CC image by futureatlas.com on Flickr,as "Citation Needed"*
+.one-third[![CC image by futureatlas.com on Flickr,as "Citation Needed"](images/slide6.jpg)
+*CC image by futureatlas.com on Flickr*]
  
 ---
 
 # Benefits of Data Citation
 
 ## Long term
-* Promotes the availability of data into the future
+.two-third[* Promotes the availability of data into the future
 * Facilitates discovery of  existing data relevant to a particular question
 * Enables recognition of scholarly effort within disciplines and organizations 
-* Increases transparency of scientific research
+* Increases transparency of scientific research]
 
-![CC image by gruntzooki on Flickr](images/slide7.jpg)
-*Image attribution: CC image by gruntzooki on Flickr*
+.one-third[![CC image by gruntzooki on Flickr](images/slide7.jpg)
+*CC image by gruntzooki on Flickr*]
 
 ???
 
@@ -107,22 +131,22 @@ Easier to discover existing data relevant to a particular question
 
 # Principles of Data Citation
 
-* **Importance** - Data should be considered legitimate, citable products of research
+.two-third[* **Importance** - Data should be considered legitimate, citable products of research
 * **Credit and Attribution** - Data citations should facilitate giving scholarly credit and normative and legal attribution to all contributors to the data
 * **Evidence** - In scholarly literature, whenever and wherever a claim relies upon data, the corresponding data should be cited.
-* **Unique Identification** - A data citation should include a persistent method for identification that is machine actionable, globally unique, and widely used by a community.
+* **Unique Identification** - A data citation should include a persistent method for identification that is machine actionable, globally unique, and widely used by a community.]
 
 ![DC1 logo](images/slide8-9.jpg)
 *https://www.force11.org/datacitation*
 
 ---
 
-# Principles of Data Citation
+# Principles of Data Citation, continued
 
-* **Access** - Data citations should facilitate access to the data, metadata, code, and other materials, as necessary for both humans and machines.
+.two-third[* **Access** - Data citations should facilitate access to the data, metadata, code, and other materials, as necessary for both humans and machines.
 * **Persistence** - Unique identifiers, data, and metadata should persist beyond the lifespan of the data they describe.
 * **Specificity and Verifiability** - Data citations should facilitate identification of, access to, and verification of the specific data that support a claim.  
-* **Interoperability and Flexibility** - Data citation methods should be flexible, but enable interoperability across communities.
+* **Interoperability and Flexibility** - Data citation methods should be flexible, but enable interoperability across communities.]
 
 ![DC1 logo](images/slide8-9.jpg)
 *https://www.force11.org/datacitation*
@@ -131,13 +155,14 @@ Easier to discover existing data relevant to a particular question
 
 # How to Cite Data
 
+.two-third[
 * Similar to citing a published article or book
  * Provide information necessary to identify and locate the work cited
 * Broadly-applicable data citation standards have not yet been established; use standards adopted by relevant academic journal, data repository, or professional organization
-* In "Achieving human and machine accessibility of cited data in scholarly publications" Starr et al. (2015) begin to lay out implementation guidelines across disciplines1
-doi: [10.7717/peerj-cs.1](https://doi.org/10.7717/peerj-cs.1)
+* In "Achieving human and machine accessibility of cited data in scholarly publications" Starr et al. (2015) set out implementation guidelines across disciplines
+* doi: [10.7717/peerj-cs.1](https://doi.org/10.7717/peerj-cs.1)]
 
-![screenshot of Starr et al. paper](images/slide10.png)
+.one-third[![screenshot of Starr et al. paper](images/slide10.png)]
 
 ???
 
@@ -170,21 +195,21 @@ Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M,
 
 # Examples of Data Citation Formats
 
-* **DataCite**: Creator (Publication Year): Title. Publisher. Identifier
-* **Dryad**: Author (Date of Article Publication) Data from: Article name. Dryad Digital Repository. doi: DOI number
+.two-third[* **DataCite**: Creator (Publication Year): Title. Publisher. Identifier
+* **Dryad**: Author (Date of Article Publication) Data from: Article name. Dryad Digital Repository. doi: DOI number]
 
-![CC image by Paxsimius on Flickr](images/slide13.jpg)
-*Image attribution: CC image by Paxsimius on Flickr*
+.one-third[![CC image by Paxsimius on Flickr](images/slide13.jpg)
+*CC image by Paxsimius on Flickr*]
 
 ---
 
 # Examples of Data Citation Formats, continued
 
-* **Earth Science Information Partners (ESIP)<sup>1</sup>**:
- * Required citation elements: Author. Release date. Title. Version. Archive/Distributor. Locator/Identifier. Access date and time.
- * Optional citation elements: Subset Used; Editor, Compiler, or other important role; Distributor, Associate Archive, or other Institutional Role; Data Within a Larger Work
- * Example citation: 
-   * Zwally, H. J., R. Schutz, C. Bentley, J. Bufton, T. Herring, J. Minster, J. Spinhirne, and R. Thomas. 2011. GLAS/ICESat L1A Global Altimetry Data, Version 33. [Indicate subset used]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. doi: http://dx.doi.org/10.5067/ICESAT/GLAS/DATA121. [Date Accessed].
+* **Earth Science Information Partners (ESIP)**:
+ * ** Required citation elements:** Author. Release date. Title. Version. Archive/Distributor. Locator/Identifier. Access date and time.
+ * ** Optional citation elements:** Subset Used; Editor, Compiler, or other important role; Distributor, Associate Archive, or other Institutional Role; Data Within a Larger Work
+ * ** Example citation:** 
+Zwally, H. J., R. Schutz, C. Bentley, J. Bufton, T. Herring, J. Minster, J. Spinhirne, and R. Thomas. 2011. GLAS/ICESat L1A Global Altimetry Data, Version 33. [Indicate subset used]. Boulder, Colorado USA. NASA National Snow and Ice Data Center Distributed Active Archive Center. doi: http://dx.doi.org/10.5067/ICESAT/GLAS/DATA121. [Date Accessed].
 
 ???
 
@@ -195,11 +220,11 @@ More guidelines/suggestions from ESIP: http://wiki.esipfed.org/index.php/Interag
 # Examples of Data Citation Formats, continued
 
 * **Research Data Alliance (RDA)**:
- * The RDA Working Group on Data Citation (WG-DC)1 aims to bring together a group of experts to discuss the issues, requirements, advantages and shortcomings of existing approaches for efficiently citing subsets of data.
+ * The RDA Working Group on Data Citation (WG-DC) aims to bring together a group of experts to discuss the issues, requirements, advantages and shortcomings of existing approaches for efficiently citing subsets of data.
  * Final recommendations of the WG-DC were published in “Data Citation of Evolving Data” in 20152.
- * *Recommended citation elements*: persistent query identification and storage on versioned data; based on timestamping, a specific subset can be retrieved by re-executing the query. 
- * Example citation:
-   * Stefan Proell (2015) “Austria Facts” created at 2015-10-07 10:51:55:0, PID[ark:12345/qmZi2wO2vv]. Subset of CIA: “The CIA World Factbook”, PID[ark:12345/cLfH9FjxnA].
+ * **Recommended citation elements:** persistent query identification and storage on versioned data; based on timestamping, a specific subset can be retrieved by re-executing the query. 
+ * ** Example citation:**
+Stefan Proell (2015) “Austria Facts” created at 2015-10-07 10:51:55:0, PID[ark:12345/qmZi2wO2vv]. Subset of CIA: “The CIA World Factbook”, PID[ark:12345/cLfH9FjxnA].
 
 ???
 
@@ -207,19 +232,19 @@ More guidelines/suggestions from ESIP: http://wiki.esipfed.org/index.php/Interag
 2. https://www.rd-alliance.org/system/files/documents/RDA-DC-Recommendations_150609.pdf
 
 ---
+
 # What are examples of Persistent Identifiers?
 
 A **persistent identifier** should be included in the citation:
-
 * DOI (Digital Object Identifier)
  * Globally unique, alphanumeric string assigned by a registration agency to identify content and provide a persistent link to its location. 
  * May be assigned to any item of intellectual property that is defined by structured metadata
  * Examples:10.1234/NP5678, 10.5678/ISBN-0-7645-4889-4; 10.2224/2004-10-ISO-DOI
-
 * ARK (Archival Resource Key)
  * URL designed to support long-term access to information objects
  * Can refer to digital, physical, or intangible objects or living beings and groups
  * Example: http://ark.cdlib.org/ark:/13030/tf5p30086k
+ 
 
 ???
 
@@ -229,18 +254,17 @@ https://wiki.ucop.edu/display/Curation/ARK
 
 ---
 
-# What are examples of Persistent Identifiers?
+# What are examples of Persistent Identifiers?, continued
 
 More persistent identifiers:
-
 * UUID (Universally Unique Identifier)
  * 'practically unique' identifiers that can be generated by distributed systems but later combined into a single database without needing to resolve identifier (ID) conflicts
  * 32 hexadecimal digits, displayed in five groups separated by hyphens, in the form 8-4-4-4-12 for a total of 36 characters
  * Example: 550e8400-e29b-41d4-a716-446655440000
-
 * Researcher identifier: ORCID (Open Researcher & Contributor ID)
  * Central registry of unique identifiers for individual researchers to address author name ambiguity
  * Transparent linking mechanism between ORCID and other author ID schemes
+ 
 
 ???
 
@@ -255,14 +279,13 @@ https://wiki.ucop.edu/display/Curation/ARK
  * Organization hierarchy
  
 ![diagram of organization/hierarchy for obtaining a DOI](images/slide18.png)
-
-* 20+ services registered through DataCite include
+* 40+ services registered through DataCite include
  * California Digital Library’s EZID
  * ANDS Cite My Data Service
  * DataCite Canada
+ 
 
 ???
-
 http://n2t.net/ezid
 
 Note: DOI's imply a long term commitment to making the data accessible and that the data should go to/be in a place willing to make that commitment.
@@ -282,6 +305,7 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
 
 .one-half[
 ![screenshot of UC3EZID interface](images/slide19.jpg)
+
 ]
 
 ???
@@ -294,24 +318,24 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
 
 # Collaborative effort
 
-* Requires participation of a variety of individuals and institutions
+.two-third[* Requires participation of a variety of individuals and institutions
  * Journal publishers
  * Data publishers/repositories
  * Data authors
  * Data managers
  * Data users
- * Professional organizations
+ * Professional organizations]
  
-![CC image via Wikimedia Commons (Masur, derivative of Al Maghi)](images/slide20.png)
-*Image attribution: CC image via Wikimedia Commons (Masur, derivative of Al Maghi)*
+.one-third[![CC image via Wikimedia Commons (Masur, derivative of Al Maghi)](images/slide20.png)
+*CC image via Wikimedia Commons*]
 
 ---
 
 # Collaborating with publishers
 
 .two-third[
-* Data authors and managers should
- * Choose appropriate repository for data publication
+* Data authors and managers should:
+ * Choose an appropriate repository for data publication
  * Use common standards for data and metadata
  * Work data up to publication standard
  * Obtain citation information from data publisher and include it in associated paper in accordance with journal’s citation standards
@@ -326,42 +350,37 @@ Note: DOI's imply a long term commitment to making the data accessible and that 
 ???
 
 Work data up to publication standard – what does this mean? 
-
 Dryad
-
 Knowledge Network for Biocomplexity (KNB)
-
 Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC)
-
 South Africa National Parks
-
 United States Geological Survey
-
 UC Curation Center Merritt
 
 ---
  
-# Collaborating with publishers
+# Collaborating with publishers, continued
 
+.two-third[
 * Data centers or distributors should
  * Ensure that data and metadata remain accessible, robust, and usable over time
  * Assign persistent and unique identifiers so that data are discoverable
  * Make data citation information easily findable by data users
- 
 * Journal publishers should
  * Provide clear guidance on how and where data sets should be cited
  * Be responsive to needs of authors, funding agencies, and data repositories
  * Alert data publisher when publishing a paper that cites a data set
+ ]
  
-![Image courtesy of https://pixabay.com/en/collaboration-collaborator-book-1106196/](images/slide22.jpg)
-*Image attribution: https://pixabay.com/en/collaboration-collaborator-book-1106196/*
+.one-third[![Image courtesy of https://pixabay.com/en/collaboration-collaborator-book-1106196/](images/slide22.jpg)
+*https://pixabay.com/en/collaboration-collaborator-book-1106196/*]
 
 ---
 
 # Best Practices to Support Data Citation
 
-* To support access to your data:
- * Use application that supports metadata creation for environmental data sets
+To support access to your data:
+* Use application that supports metadata creation for environmental data sets
     * Morpho
     * Metavist (USDA Forest Service)
     * Mermaid (NOAA)
@@ -378,6 +397,10 @@ UC Curation Center Merritt
  * Allows information about how to access your data set to be published with your article
    * Note: Data repositories typically offer to embargo archived data for a pre-determined time period after publication
  * Allows article citation/DOI to be included with archived data set
+ 
+---
+ 
+# Best Practices to Support Data Citation, continued 
 
 * Encourage other data authors to cite data and to make their own data available for reuse:
  * Provide full citation information for data whenever you publish work that makes use of another author’s data
@@ -388,12 +411,14 @@ UC Curation Center Merritt
 
 # Citation of Scientific Software
 
-![Image courtesy of https://pixabay.com/en/code-programming-hacking-html-web-820275/](images/slide25.jpg)
-*Image attribution: https://pixabay.com/en/code-programming-hacking-html-web-820275/*
+.one-third[![Image courtesy of https://pixabay.com/en/code-programming-hacking-html-web-820275/](images/slide25.jpg)
+*https://pixabay.com/en/code-programming-hacking-html-web-820275/*]
 
-*"Software citation is an evolving area. A web search for ‘how to cite software’ and its variants shows that this is a popular question. The answers can broadly be classed into citation formats recommended by journals, citation formats recommended/mandated by software providers and, most contentious, the view that software is not a citable output."*
+.two-third[
 
-`- Mike Jackson, Software Sustainability Institute`
+> *"Software citation is an evolving area. A web search for ‘how to cite software’ and its variants shows that this is a popular question. The answers can broadly be classed into citation formats recommended by journals, citation formats recommended/mandated by software providers and, most contentious, the view that software is not a citable output."*
+
+<footer>- Mike Jackson, Software Sustainability Institute]</footer>
 
 ???
 
@@ -403,52 +428,52 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
 
 # Citation of Scientific Software
 
-Why cite software?
-* Software itself may be considered to be data or a research product.
-* Findings of a study are not only based on data, but on the software used to support the analysis of the data.
-* Software citation is essential for enabling reproducibility of results.
-* Give proper attribution to the developers/authors of software.
-
-When to cite software?
-* "Standard" office software (e.g. Word, Excel) and programming languages do not need formal citations. 
-* DO provide citations for specialized/custom software or programs  when their use directly impacts the results.
+* Why cite software?
+ * Software itself may be considered to be data or a research product.
+ * Findings of a study are not only based on data, but on the software used to support the analysis of the data.
+ * Software citation is essential for enabling reproducibility of results.
+ * Give proper attribution to the developers/authors of software.
+* When should software be cited?
+ * "Standard" office software (e.g. Word, Excel) and programming languages do not need formal citations. 
+ * DO provide citations for specialized/custom software or programs  when their use directly impacts the results.
 
 ---
 
 # Examples of information needed in software citations
 
-Similar to data citation, software citations should include:
-* **Title/Name of the Software**
-* **Author/Developer** – if known
-* **Release Date/Year**
-* **Version Number** – the version of the software/program used
-* **Descriptor** – the text"[computer program]" (including brackets) is often included in the citation 
-* **Publisher name and location** – if applicable
-* **URL** – if the software is available online, provide the URL
-* **DOI** – if one exists for the software, cite it
+* Similar to data citation, software citations should include:
+ * Title/Name of the Software
+ * Author/Developer – if known
+ * Release Date/Year
+ * Version Number – the version of the software/program used
+ * Descriptor – the text"[computer program]" (including brackets) is often included in the citation 
+ * Publisher name and location – if applicable
+ * URL – if the software is available online, provide the URL
+ * DOI – if one exists for the software, cite it
 
 ---
 
 # Examples of Software Citation
 
-Software purchased off-the-shelf<sup>1</sup>:
-* Product Name. Version. Release Date. Publisher. Location.
+* Software purchased off-the-shelf:
+ * Product Name. Version. Release Date. Publisher. Location.
  * SuperScience. 1.2. December 2012. Research Software. Edinburgh, UK.
-
-Software downloaded from the web<sup>1</sup>:
-* Product Name. Version. Release Date. Publisher. Location. DOI or URL. Download Date.
-  * OGSA-DAI REST. 4.2.1. December 2012. OGSA-DAI Project. http://sourceforge.net/projects/ogsa-dai. 27/04/2012.
-
-Software provided by a researcher<sup>1</sup>:
-* Product Name. Author. Location. Contact Details. Received Date.
- * BestFFTroutine ever file. Fred Bloggs, EPCC, The University of Edinburgh, UK. Fred.bloggs@epcc.ed.ac.uk. 27/04/2012.
-
-AMA Format<sup>2</sup>:
- * Epi Info [computer program]. Version 3.2. Atlanta, GA: Centers for Disease Control and Prevention; 2004.
-
-APA Format<sup>3</sup>:
- * Hayes, B. et al. (2003). OTSoft: Optimality Theory Software (Version 2.1) [Software]. Available from http://www.linguistics.ucla.edu/people/hayes/otsoft/
+* Software downloaded from the web:
+ * Product Name. Version. Release Date. Publisher. Location. DOI or URL. Download Date.
+ * OGSA-DAI REST. 4.2.1. December 2012. OGSA-DAI Project. http://sourceforge.net/projects/ogsa-dai. 27/04/2012.
  
+---
+ 
+ # Examples of Software Citation, continued
+
+* Software provided by a researcher:
+ * Product Name. Author. Location. Contact Details. Received Date.
+ * BestFFTroutine ever file. Fred Bloggs, EPCC, The University of Edinburgh, UK. Fred.bloggs@epcc.ed.ac.uk. 27/04/2012.
+* AMA Format:
+ * Epi Info [computer program]. Version 3.2. Atlanta, GA: Centers for Disease Control and Prevention; 2004.
+* APA Format:
+ * Hayes, B. et al. (2003). OTSoft: Optimality Theory Software (Version 2.1) [Software]. Available from http://www.linguistics.ucla.edu/people/hayes/otsoft/
+
 ???
 
 1. Format & examples from: http://software.ac.uk/so-exactly-what-software-did-you-use
@@ -459,43 +484,49 @@ APA Format<sup>3</sup>:
 
 # Software Citation Resources
 
-* **The Software Sustainability Institute**: http://www.software.ac.uk/
-* **Working towards Sustainable Software for Science Practice and Experiences (WSSSPE)**: http://wssspe.researchcomputing.org.uk/
-* **NSF Workshop on Supporting Scientific Discovery through Norms and Practices for Software and Data Citation and Attribution**: https://softwaredatacitation.org/Pages/home.aspx
-* **Software Carpentry and Data Carpentry**: http://software-carpentry.org/ and http://www.datacarpentry.org/
+* The Software Sustainability Institute: http://www.software.ac.uk/
+* Working towards Sustainable Software for Science Practice and Experiences (WSSSPE): http://wssspe.researchcomputing.org.uk/
+* NSF Workshop on Supporting Scientific Discovery through Norms and Practices for Software and Data Citation and Attribution: https://softwaredatacitation.org/Pages/home.aspx
+* Software Carpentry and Data Carpentry: http://software-carpentry.org/ and http://www.datacarpentry.org/
 
 ---
 
 # Resources
 
-1. Australian National Data Service (ANDS), Data Citation Awareness Guide. Accessed April 9, 2015 at http://ands.org.au/guides/data-citation-awareness.html. 
-2. Ball, A. & Duke, M. (2011). How to Cite Datasets and Link to Publications. DCC How-to Guides. Edinburgh: Digital Curation Centre. Accessed April 9, 2015 at http://www.dcc.ac.uk/resources/how-guides.
-3. CODATA-ICSTI Task Group on Data Citation Standards and Practices. (2013). Out of Cite, Out of Mind: The Current State of Practice, Policy, and Technology for the Citation of Data. Data Science Journal, 12: CIDCR1 - CIDCR75. Accessed April 9, 2015 at http://dx.doi.org/10.2481/dsj.OSOM13-043.
-4. Costello, M. J. (2009). Motivating Online Publication of Data. BioScience, 59(5): 418-427. Accessed April 9, 2015 at http://www.bioone.org/doi/full/10.1525/bio.2009.59.5.9.
-5. CrossCite DOI Citation Formatter. Accessed April 9, 2015 at http://crosscite.org/citeproc/.
-6. Data Citation Principles Glossary. FORCE11. Accessed April 9, 2015 at Accessed April 9, 2015 at https://www.force11.org/node/4770.
+* Australian National Data Service (ANDS), Data Citation Awareness Guide. Accessed April 9, 2015 at http://ands.org.au/guides/data-citation-awareness.html. 
+* Ball, A. & Duke, M. (2011). How to Cite Datasets and Link to Publications. DCC How-to Guides. Edinburgh: Digital Curation Centre. Accessed April 9, 2015 at http://www.dcc.ac.uk/resources/how-guides.
+* CODATA-ICSTI Task Group on Data Citation Standards and Practices. (2013). Out of Cite, Out of Mind: The Current State of Practice, Policy, and Technology for the Citation of Data. Data Science Journal, 12: CIDCR1 - CIDCR75. Accessed April 9, 2015 at http://dx.doi.org/10.2481/dsj.OSOM13-043.
+* Costello, M. J. (2009). Motivating Online Publication of Data. BioScience, 59(5): 418-427. Accessed April 9, 2015 at http://www.bioone.org/doi/full/10.1525/bio.2009.59.5.9.
 
 ---
 
 # Resources, continued
 
-7. Data Citation Synthesis Group. (2014). Joint Declaration of Data Citation Principles. Martone, M. (ed.). San Diego, CA: FORCE11. Accessed April 9, 2015 at https://www.force11.org/datacitation. 
-8. Duke, C. S. & Porter, J. H. (2013). The Ethics of Data Sharing and Reuse in Biology. BioScience 63: 483-489. Accessed April 9, 2015 at http://dx.doi.org/10.1525/bio.2013.63.6.10. 
-9. ESIP Federation Interagency Data Stewardship/Citations/Provider Guidelines. Accessed April 9, 2015 at http://bit.ly/data_citation. 10. Hakala, J. Persistent identifiers – an overview. Accessed April 9, 2015 at http://metadaten-twr.org/2010/10/13/persistent-identifiers-an-overview/.
-11. Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M, Herman I, Hodson S, Hourclé J, Kratz JE, Lin J, Nielsen LH, Nurnberger A, Proell S, Rauber A, Sacchi S, Smith A, Taylor M, Clark T. (2015) Achieving human and machine accessibility of cited data in scholarly publications. PeerJ Computer Science 1:e1 https://doi.org/10.7717/peerj-cs.1
-12. Jackson, Mike. 2012. How to cite and describe software. Software Sustainability Institute. http://www.software.ac.uk/how-cite-and-describe-software?mpw. Accessed May 12, 2016.
+* CrossCite DOI Citation Formatter. Accessed April 9, 2015 at http://crosscite.org/citeproc/.
+* Data Citation Principles Glossary. FORCE11. Accessed April 9, 2015 at Accessed April 9, 2015 at https://www.force11.org/node/4770.
+* Data Citation Synthesis Group. (2014). Joint Declaration of Data Citation Principles. Martone, M. (ed.). San Diego, CA: FORCE11. Accessed April 9, 2015 at https://www.force11.org/datacitation. 
+* Duke, C. S. & Porter, J. H. (2013). The Ethics of Data Sharing and Reuse in Biology. BioScience 63: 483-489. Accessed April 9, 2015 at http://dx.doi.org/10.1525/bio.2013.63.6.10.
 
 ---
 
-The full slide deck may be downloaded from:
-http://www.dataone.org/education-modules
+# Resources, continued
 
-Suggested citation:
-DataONE Education Module: Data Citation. DataONE. Retrieved Nov12, 2012. From http://www.dataone.org/sites/all/documents/L09_DataCitation.pptx 
+* ESIP Federation Interagency Data Stewardship/Citations/Provider Guidelines. Accessed April 9, 2015 at http://bit.ly/data_citation. 10. Hakala, J. Persistent identifiers – an overview. Accessed April 9, 2015 at http://metadaten-twr.org/2010/10/13/persistent-identifiers-an-overview/.
+* Starr J, Castro E, Crosas M, Dumontier M, Downs RR, Duerr R, Haak LL, Haendel M, Herman I, Hodson S, Hourclé J, Kratz JE, Lin J, Nielsen LH, Nurnberger A, Proell S, Rauber A, Sacchi S, Smith A, Taylor M, Clark T. (2015) Achieving human and machine accessibility of cited data in scholarly publications. PeerJ Computer Science 1:e1 https://doi.org/10.7717/peerj-cs.1
+* Jackson, Mike. 2012. How to cite and describe software. Software Sustainability Institute. http://www.software.ac.uk/how-cite-and-describe-software?mpw. Accessed May 12, 2016.
 
-Copyright license information:
+---
+
+# About
+Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
+
+**Suggested citation:**
+DataONE Education Module: Data Citation. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)
+
+**Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
-![ICC0 license](images/slide32.png)
+![CCBY0](images/CC0PublicDomain.png)
 
----
+
+

@@ -2,8 +2,8 @@
 @import 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,400i,700,700i';
 .logo {
   position: absolute;
-  bottom: 15px;
-  left: 80px;
+  bottom: -10px;
+  left: 25px;
 }
 .logo img {
   width: 4em;
@@ -17,18 +17,27 @@
 html,
 body {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", sans-serif;
-  font-size: 20em;
 }
 pre,
 code {
   font-family: "Source Code Pro", "Consolas", "DejaVu Sans Mono", monospace !important;
+  font-size: 80%;
 }
+a {
+  color: #006666;
+  text-decoration: none;
+}
+
+/* 
+   font size is overridden by the default remark css that is injected by
+   the remark script when converting the markdown to html.
+
+   See:  https://github.com/gnab/remark/blob/develop/src/remark.less
+*/
 h1 {
-  font-size: 160% !important;
   font-weight: bold;
   color: #660033;
-  margin-top: 0;
-  margin-bottom: 1.4  em;
+  margin: 0 0 0 0;
 }
 h2,
 h3,
@@ -36,7 +45,15 @@ h4,
 h5,
 h6 {
   color: #660033;
-  margin: 0 0 .05em 0;
+  margin: 0 0 0 0;
+}
+
+
+footer {
+  font-size: 80%;
+  color: #660033;
+  opacity: 0.5;
+  font-style: italic;
 }
 table {
   border-collapse: collapse;
@@ -55,14 +72,18 @@ th {
   color: white;
   font-weight: bold;
 }
-td,
+td {
+  padding: 2px 20px 2px 10px;
+  vertical-align: top;
+}
 th {
-  padding: 0.4em;
+  padding: 5px 20px 5px 10px;
+  vertical-align: top;
 }
 .columns {
   clear: right;
   float: left;
-  padding: 0.4em;
+  padding: 0px 0px 0px 0px;
   box-sizing: border-box;
 }
 .full-width,
@@ -74,27 +95,52 @@ th {
 .three-fourth {
   clear: right;
   float: left;
-  padding: 0.6em;
   box-sizing: border-box;
 }
 .one-third {
   width: 33.3%;
+  padding: 0% 2% 0% 0%;
 }
 .two-third {
   width: 66.7%;
+  padding: 0% 2% 0% 0%;
 }
 .one-half {
   width: 50%;
+  padding: 0% 2% 0% 0%;
 }
 .one-fourth {
   width: 25%;
+  padding: 0% 2% 0% 0%;
 }
 .three-fourth {
   width: 75%;
+  padding: 0% 2% 0% 0%;
 }
+.three-fourth-center {
+  margin: 0px auto;
+  width: 75%;
+  padding: 0% 2% 0% 0%;
+}
+
 .full-width {
   width: 100%;
 }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/* 
+Overrides for the default remark css properties 
+*/
 .remark-slide-content.title {
   background-color: #006666;
 }
@@ -106,185 +152,61 @@ th {
   font-size: 130% !important;
   color: #f3f3f3;
 }
-.remark-slide-content.title .progressbar {
-  display: none;
-}
-pre {
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
-.progress-step-0 {
-  width: 0%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-1 {
-  width: 5%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-2 {
-  width: 10%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-3 {
-  width: 15%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-4 {
-  width: 20%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-5 {
-  width: 25%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-6 {
-  width: 30%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-7 {
-  width: 35%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-8 {
-  width: 40%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-9 {
-  width: 45%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-10 {
-  width: 50%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-11 {
-  width: 55%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-12 {
-  width: 60%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-13 {
-  width: 65%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-14 {
-  width: 70%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-15 {
-  width: 75%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-16 {
-  width: 80%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-17 {
-  width: 85%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-18 {
-  width: 90%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-19 {
-  width: 95%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step-20 {
-  width: 100%;
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progress-step {
-  background-color: rgba(102, 0, 51, 0.8);
-  display: inline-block;
-  height: 0.3em;
-  border-radius: 5px;
-}
-.progressbar {
-  width: 5em;
-  height: 0.3em;
-  border-radius: 5px;
-  background-color: #d6d6d6;
-  display: inline-block;
+
+.middle {
+  vertical-align: middle;
 }
 
-.remark-slide-content {
-  padding: 2.5em 4.5em;
+.remark-slide-content h1 {
+  font-size: 45px;
+}
+
+.remark-slide-content h2 {
+  font-size: 40px;
+}
+
+.remark-slide-content h3 {
+  font-size: 35px;
+}
+
+.remark-slide-content h4 {
+  font-size: 31px;
+}
+
+.remark-slide-content h5 {
+  font-size: 28px;
+}
+
+.remark-slide-content h6 {
   font-size: 25px;
 }
 
+.remark-slide-number {
+  font-size: 60%;
+  color: #006666;
+  bottom: 15px;
+  opacity: 0.5;
+  position: absolute;
+  right: 25px;
+}
+
+.remark-slide-content {
+  padding: 25px 25px 25px 25px;
+  font-size: 25px;
+}
+
+/*
+Note: this works because remarkjs sets the viewport size to
+908 x 681 pixels and scales things dynamically with javascript as
+the window changes size.
+*/
+.remark-slide-content img {
+  max-height: 500px;
+}
+
+
 .remark-slide-content > ul li {
-    padding: .5em 0;
+    padding: 0 0 0 0;
 }
 
 /* Add a Caption to an image */
@@ -297,6 +219,7 @@ img {
 img + em {
   font-size: .4em;
   display: block;
+  padding: 0px 0px 10px 0px;
 }
 
 img + em a {
@@ -324,11 +247,11 @@ img + em a:hover {
 }
 
 blockquote {
-    background-color: #fff;
+    background-color: #EOFFFF;
     border-radius: .3em;
     display:  block;
-    padding: 5px 10px 5px 25px;
-    margin: 30px 0 10px;
+    padding: 0px 5px 0px 12px;
+    margin:0px 0 0px;
     position: relative;
     /*Box Shadow - (Optional)*/
     -moz-box-shadow: 2px 2px 15px #ccc;
@@ -336,12 +259,13 @@ blockquote {
     box-shadow: 2px 2px 15px #ccc;
 
     /*Borders - (Optional)*/
-    border-left: 5px solid #ccc;
+    border-left: 2px solid #ccc;
     border-right: 2px solid #ccc;
 }
 
 blockquote p {
-    line-height: 2.1em;
+    line-height: 1.5em;
     color: #272822;
     font-style: italic
 }
+

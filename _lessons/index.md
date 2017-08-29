@@ -1,10 +1,8 @@
 ---
 title: DataONE lessons
-layout: index
+layout: index_tag
 ---
 
-# DataONE Data Management Education Modules
 
-{% for lesson in site.lessons %}
-- [{{ lesson.title }}]({{ site.baseurl }}{{ lesson.url }})
-{% endfor %}
+
+Content

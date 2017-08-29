@@ -1,0 +1,120 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>{{ page.title }}</title>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', '{{ site.analytics_code }}', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+
+  <style>
+  	section img.mainimage { 
+  		float: left; 
+  		border:1px solid #888; 
+  		padding:5px; 
+  		margin:0px 20px 20px 0px; 
+  	}
+  	body {
+  		padding:0px; margin:0px; 
+  		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  	}
+  	section {
+  		clear:both; 
+  	}
+  	section h1 {
+  		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  		color: #660032; 
+  	}
+  	article, footer {
+  		margin:30px; 
+  	}
+  	header {
+  		border-bottom: 20px solid #660032; 
+  		background-color:#fff; 
+  	}
+  	header img.pagelogo {
+  		padding: 15px 0px 0px 15px; 
+  	}
+  	footer {
+  		font-size: .8em; 
+  	}
+  	
+  	h2 {
+		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;  	
+    margin-top: 1em;
+    margin-bottom: 4px; 
+    font-style: normal;
+    font-style: normal;
+    font-size: 125%;
+    color: #660033;
+    font-weight: 600;
+  	}
+
+	a.filterbutton {
+		padding: .25em 2em .25em 2em;
+		margin-top: .5em;
+		margin-left: 10px;
+		clear: none;
+		display: inline-block;
+		color:#660033; 
+		border: solid thin #660033;
+		font-weight: 600;
+		font-size: 90%;
+		text-transform: uppercase;
+		text-align:center;
+	}
+	a.filterbutton:hover {
+	  background-color:#660033;
+	  color:#fff; 
+	}
+
+	a.programs-filter-btn-active {
+	  background-color:#660033;
+	  color:#fff; 
+	}
+	a.programs-control-active {
+	  background-color:#660033;
+	  color:#fff; 
+	}
+
+
+	a.tagbutton {
+		text-transform: none; 
+	}
+	
+	.btn_teaching_module { background-color: #d0e3db; }
+	.btn_technical_tutorial { background-color: #ebdadc; }
+
+	#wrapper {
+		margin:0px 40px 20px 40px; 
+	}
+
+  </style>
+
+
+</head>
+
+<body>
+  <header role='banner'>
+    <a href='{{ site.baseurl }}/'><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:24px'/></a></p>
+  </header>
+
+  <div id=wrapper>
+  {{ content }}
+  </div>
+</body>
+</html>

@@ -1,23 +1,27 @@
 ---
 title: "Data Management Planning"
+author: "DataONE Community Engagement & Outreach Working Group"
 update: Sept. 20, 2016
 layout: slides
-categories: ed-module
+status: published
+tags: ["Data Management", Plan]
+categories: ["Teaching Module" ]
+prevlesson: 02_datasharing
+nextlesson: 04_entry
+handout: L03_DataManagement_Handout.pdf
+ppt: L03_DataManagement.pptx
+exercise: L03_Exercise.pdf
+
 ---
 
 # Lesson Topics
 
-.two-third[
 - What is a data management plan (DMP)?
 - Why prepare a DMP?
 - Components of a DMP
 - Recommendations for DMP content
 - Example of an NSF DMP
-]
 
-.one-third[![CC image by Darla Hueske on Flickr](images/image4.jpeg)
-*CC image by Darla Hueske on Flickr*
-]
 
 <!-- These are notes for the presenter -->
 
@@ -49,8 +53,10 @@ categories: ed-module
 
 # The Data Life Cycle
 
-![Photo Attribution: https://www.dataone.org/data-life-cycle](images/DataONE_Module3_LifeCycle.png)
-*Photo Attribution: https://www.dataone.org/data-life-cycle*
+Data management planning is the starting point in the data life cycle. 
+
+.center[![dlc](images/DataONE_Module3_LifeCycle.png)
+]
 
 ???
 
@@ -65,7 +71,11 @@ However the plan should be revisited often throughout the project to ensure prop
 - Outlines what you will do with the data **during** and **after** you complete your research
 - Ensures the data is safe for the **present** and the **future**
 
-*From University of Virginia Library*
+<footer>-- University of Virginia Library</footer>
+
+.center[![CC image by Hope House Press on Unsplash](images/rsz_image28.jpg)
+ *CC image by Hope House Press on Unsplash*]
+
 
 ???
 
@@ -74,10 +84,10 @@ Data management plans are meant to ensure that the data will be preserved and us
 
 ---
 
-# Why Prepare a DMP? (1)
+# Why Prepare a DMP?
 
 .two-third[
-Save time
+Saves time
   - Less reorganization later
 
 Increase research efficiency
@@ -85,7 +95,7 @@ Increase research efficiency
 ]
 
 .one-third[![Photo Attribution: CC image Cathdew on Flickrby](images/image6.jpeg)
-*Photo Attribution: CC image Cathdew on Flickrby*
+*CC image Cathdew on Flickrby*
 ]
 
 ???
@@ -98,7 +108,7 @@ If data are documented well both before and during data collection, it prevents 
 
 ---
 
-# Why Prepare a DMP? (2)
+# Why Prepare a DMP?, continued
 
 .two-third[
 - Easier to preserve data
@@ -110,7 +120,7 @@ If data are documented well both before and during data collection, it prevents 
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image7.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -129,15 +139,18 @@ Finally, data management plans are now required by most funding agencies. In 201
 
 # Components of a General DMP
 
+.two-third[
 1. Information about data type & data format
 2. Metadata content and format
 3. Policies for access, sharing and re-use
 4. Long-term storage and preservation
 5. Roles and responsibilities
 6. Budget
+]
 
-[![Photo Attribution: CC0 image from The Noun Project](images/image8.png)
-*Photo Attribution: CC0 image from The Noun Project*
+.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image8.png)
+*CC0 image from The Noun Project*
+]
 
 ???
 
@@ -147,10 +160,10 @@ The slides that follow will go into more detail for each of the general categori
 
 ---
 
-# 1. Information About Data & Data Format
+# Information About Data & Data Format
 
 .one-half[
-1.1 Description of data to be produced
+Description of data to be produced
   - Experimental
   - Observational
   - Raw or derived
@@ -160,11 +173,10 @@ The slides that follow will go into more detail for each of the general categori
   - Curriculum materials
   - Software
   - Images
-  - Etc…
 ]
 
 .one-half[![Photo Attribution: CC image by Jeffery Beall on Flickr](images/image9.jpeg)
-*Photo Attribution: CC image by Jeffery Beall on Flickr*
+*CC image by Jeffery Beall on Flickr*
 ]
 
 ???
@@ -175,22 +187,22 @@ More information can be found at https://library.uoregon.edu/datamanagement/data
 
 ---
 
-# 1. Information About Data & Data Format
+# Information About Data & Data Format, continued
 
 .one-half[
-1.2 How data will be acquired
+How data will be acquired
   - When?
   - Where?
   
-1.3 How data will be processed
+How data will be processed
   - Software used
   - Algorithms
   - Workflows
 ]
 
 .one-half[![Photo Attribution: CC image by Ryan Sandridge on Flickr](images/image10.jpeg)
-*Photo Attribution: CC image by Ryan Sandridge on Flickr*
-]
+*CC image by Ryan Sandridge on Flickr*
+] 
 
 ???
 
@@ -200,20 +212,20 @@ How will the data be processed once it is acquired? This step is important to co
 
 ---
 
-# 1. Information About Data & Data Format
+# Information About Data & Data Format, continued 
 
 .one-half[
-1.4 File formats
+File formats
   - Justification
   - Naming conventions
 
-1.5 Quality assurance & control during 
+Quality assurance & control during 
   - sample  collection, analysis, and 
   - processing
 ]
 
-.one-half[![Photo Attribution: CC0 image from The Noun Project](images/image11.png)
-*Photo Attribution: CC0 image from The Noun Project*
+.one-half[![CC0 image from The Noun Project](images/image11.png)
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -228,21 +240,21 @@ You should also identify what quality assurance and control measures you plan to
 
 ---
 
-# 1. Information About Data & Data Format
+# Information About Data & Data Format, continued
 
-1.6 Existing data
+Existing data
   - If existing data are used, what are their origins?
   - Will the data be combined with existing data?
   - What is the relationship between new data and existing data?
 
-1.7 How data will be managed in short-term
+How data will be managed in short-term
   - Version control
   - Backing up
   - Security & protection
   - Who will be responsible
 
 [![Photo Attribution: CC0 image from The Noun Project](images/image12_rotated.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -257,7 +269,7 @@ Be sure to identify who will be responsible for short-term data management. Assi
 
 ---
 
-# 2. Metadata Content & Format
+# Metadata Content & Format
 
 .one-half[
 **Metadata** defined: 
@@ -268,7 +280,7 @@ Be sure to identify who will be responsible for short-term data management. Assi
 ]
 
 .one-half[![Photo Attribution: CC0 image from The Noun Project](images/image13.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -277,23 +289,23 @@ The second major category for a DMP is metadata content and format. First, we sh
 
 ---
 
-# 2. Metadata Content & Format
+# Metadata Content & Format, continued
 
 .two-third[
-2.1 What metadata are needed
+What metadata are needed
   - Any details that make data meaningful
 
-2.2 How metadata will be created and/or captured
+How metadata will be created and/or captured
   - Lab notebooks? GPS units? 
   - Auto-saved on instrument?
 
-2.3 What format will be used for the metadata
+What format will be used for the metadata
   - Standards for community
   - Justification for format chosen
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image14.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -304,26 +316,26 @@ Indicate what format, or metadata standard, will be used.  There are many differ
 
 ---
 
-# 3. Policies for Access, Sharing, Reuse
+# Policies for Access, Sharing, Reuse
 
 .two-third[
-3.1 Obligations for sharing
+Obligations for sharing
   - Funding agency
   - Institution
   - Other organization
   - Legal
 
-3.2 Details of data sharing
+Details of data sharing
   - How long?
   - When? 
   - How access can be gained?
   - Data collector rights
 
-3.3 Ethical/privacy issues with data sharing
+Ethical/privacy issues with data sharing
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image15.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -338,24 +350,24 @@ Be sure to address any ethical or and privacy issues associated with the data. F
 
 ---
 
-# 3. Policies for Access, Sharing, Reuse
+# Policies for Access, Sharing, Reuse, continued 
 
 .two-third[
-3.4 Intellectual property & copyright issues
+Intellectual property & copyright issues
   - Who owns the copyright?
   - Institutional policies
   - Funding agency policies
   - Embargos for political/commercial reasons
 
-3.5 Intended future uses/users for data
+Intended future uses/users for data
 
-3.6 Citation
+Citation
   - How should data be cited when used?
   - Persistent citation?
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image16.png)
-*Photo Attribution: CC0 image from The Noun Project*
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -368,21 +380,22 @@ You should also describe how the data should be cited when used. It is best to e
 
 ---
 
-# 4. Long-term Storage & Data Management
+# Long-term Storage & Data Management
 
-4.1 What data will be preserved
+.two-third[
+* What data will be preserved
+* Where will it be archived
+ * Most appropriate archive for data
+ * Community standards
+* Data transformations/formats needed
+ * Consider archive policies
+* Who will be responsible
+ * Contact person for archive
+]
 
-4.2 Where will it be archived
-  - Most appropriate archive for data
-  - Community standards
-
-4.3 Data transformations/formats needed
-  - Consider archive policies
-
-4.4 Who will be responsible
-  - Contact person for archive
-
-<!-- needs image-->
+.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image29.jpg)
+*CC0 image by Samuel Zeller on Unsplash*
+]
   
 ???
   
@@ -398,10 +411,10 @@ Fourth, identify the person who will be responsible for maintaining contact info
 
 ---
 
-# 5. Roles and responsibilities
+# Roles and responsibilities
 
 .two-third[
-5.1 Outline the roles and responsibilities for implementing this data management plan.
+Outline the roles and responsibilities for implementing this data management plan.
 - For example:
   - Who will be responsible for data management and for monitoring the data management plan?
   - How will adherence to this data management plan be checked or demonstrated?
@@ -410,7 +423,7 @@ Fourth, identify the person who will be responsible for maintaining contact info
 ]
 
 .one-third[![Photo Attribution: https://thenounproject.com/term/team/542374](images/team.png)
-*Photo Attribution: Chameleon Design on the NounProject*
+*Chameleon Design on the NounProject*
 ]
   
 ???
@@ -419,18 +432,20 @@ Explain how the responsibilities regarding the management of your data will be d
 
 ---
 
-# 6. Budget
+# Budget
 
-6.1  Anticipated costs
+.two-third[
+Anticipated costs
 - Time for data preparation & documentation
 - Hardware/software for data preparation & documentation
 - Personnel
 - Archive costs
 
-6.2  How costs will be paid
+How costs will be paid
+]
 
-[![Photo Attribution: CC0 image from The Noun Project](images/image21.png)
-*Photo Attribution: CC0 image from The Noun Project*
+.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image21.png)
+*CC0 image from The Noun Project*
 ]
 
 ???
@@ -445,14 +460,15 @@ You should identify how the costs associated with your DMP will be paid.
 
 # Tools for Creating Data Management Plans
 
-.one-third[# DMPTool
-
-
-# DMPOnline
+.one-half[
+**DMPTool**
+<br /><br />
+![dmptool.org](images/DMPTool_web.png)
 ]
 
-.two-third[![dmptool.org](images/DMPTool_web.png)
-
+.one-half[
+**DMPOnline**
+<br /><br />
 ![dmponline.dcc.ac.uk](images/DMPOnline_web.png)
 ]
 
@@ -468,36 +484,32 @@ Both operate as “wizards” and provide prompts for the user to fill out in or
 
 ***From Grant Proposal Guidelines:***
 
-> Plans for data management and sharing of the products of research. Proposals must include a supplementary document of no more than two pages labeled “Data Management Plan”. This supplement should describe how the proposal will conform to NSF policy on the dissemination and sharing of research results (in AAG), and may include:
->
-> 1. the **types of data**, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project
-> 2. the **standards to be used for data and metadata format** and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies)
-> 3. **policies for access and sharing**, including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements
-> 4. policies and **provisions for re-use, re-distribution**, and the production of **derivatives**	
-> 5. **plans for archiving** data, samples, and other research products, and for preservation of access to them
-> http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/gpg_2.jsp#dmp
+> * the **types of data**, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project
+> * the **standards to be used for data and metadata format** and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies)
+> * **policies for access and sharing**, including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements
+> * policies and **provisions for re-use, re-distribution**, and the production of **derivatives**	
+> * **plans for archiving** data, samples, and other research products, and for preservation of access to them 
+
+http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/gpg_2.jsp#dmp
 
 ???
 
 We will now focus on NSF’s data management plans.  As of January 2011 NSF requires that a two page data management plan be included with submitted proposals. This is in addition to the 15 pages for the proposal.
 
+Plans for data management and sharing of the products of research. Proposals must include a supplementary document of no more than two pages labeled “Data Management Plan”. This supplement should describe how the proposal will conform to NSF policy on the dissemination and sharing of research results (in AAG), and may include the 5 main components on this slide.
+
 ---
 
-# NSF DMP Requirements
+# NSF DMP Requirements, continued
 
-***Summarized from Award & Administration Guide:***
+***Summarized from the Award & Administration Guide:***
+**Dissemination and Sharing of Research Results**
 
-**4. Dissemination and Sharing of Research Results**
-
-a. Promptly publish with appropriate authorship
-
-b. Share data, samples, physical collections, and supporting materials with others, within a reasonable timeframe 
-
-c. Share software and inventions 
-
-d. Investigators can keep their legal rights over their intellectual property, but they still have to make their results, data, and collections available to others 
-
-e. Policies will be implemented via 
+> * Promptly publish with appropriate authorship
+> * Share data, samples, physical collections, and supporting materials with others, within a reasonable timeframe 
+> * Share software and inventions 
+> * Investigators can keep their legal rights over their intellectual property, but they still have to make their results, data, and collections available to others 
+> * Policies will be implemented via 
   - Proposal review
   - Award negotiations and conditions
   - Support/incentives
@@ -515,8 +527,7 @@ In addition to these general requirements, there are directorate- and division-s
 # Summary
 
 .two-third[
-DMPs are an important part of the data life cycle. They save time and effort in the long run, and ensure that data are relevant and useful for others.
-Most funding agencies (all federal*) now require DMPs
+DMPs are an important part of the data life cycle. They save time and effort in the long run, and ensure that data are relevant and useful for others. Most funding agencies (all federal*) now require DMPs
 
 Major components of a DMP:
 1. Information about data type & data format
@@ -524,46 +535,35 @@ Major components of a DMP:
 3. Policies for access, sharing and re-use
 4. Long-term storage and data management
 5. Budget
-
-*http://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf*
-] 
-
-.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image26.png)
-*Photo Attribution: CC0 image from The Noun Project*
 ]
 
----
+.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image26.png)
+*CC0 image from The Noun Project*
+]
 
-# DMP Resources
-
-University of Virginia Library
-- http://data.library.virginia.edu/data-management/plan/
-
-Digital Curation Centre
-- http://www.dcc.ac.uk/resources/data-management-plans 
-
-Oregon State University Library
-- http://guides.library.oregonstate.edu/dmp/policies
-
-NSF Grant Proposal Guidelines
-- http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/gpg_2.jsp#dmp 
-
-Inter-University Consortium for Political and Social Research
-- http://www.icpsr.umich.edu/icpsrweb/ICPSR/dmp/index.jsp 
-
-DataONE
-- https://www.dataone.org/data-management-planning 
+???
+http://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp_public_access_memo_2013.pdf*
 
 ---
 
-The full slide deck may be downloaded from:
+# Resources
 
-http://www.dataone.org/education-modules
+* University of Virginia Library. Accessed June 24, 2015 at http://data.library.virginia.edu/data-management/plan/.
+* Digital Curation Centre Accessed June 26, 2015 at http://www.dcc.ac.uk/resources/data-management-plans. 
+* Oregon State University Library. Accessed June 27, 2015 at http://guides.library.oregonstate.edu/dmp/policies.
+* NSF Grant Proposal Guidelines. Accessed June 26, 2015 at http://www.nsf.gov/pubs/policydocs/pappguide/nsf16001/gpg_2.jsp#dmp. 
+* Inter-University Consortium for Political and Social Research. Accessed June 26, 2015 at http://www.icpsr.umich.edu/icpsrweb/ICPSR/dmp/index.jsp. 
+* DataONE. Accessed June 26, 2015 at https://www.dataone.org/data-management-planning. 
 
-Suggested citation:
-DataONE Education Module: Data Management Planning. DataONE. Retrieved MM/DD/YYYY. From http://www.dataone.org/sites/all/documents/L03_DataManagementPlanning.pptx 
+---
+# About
+Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
 
-Copyright license information:
+**Suggested citation:**
+DataONE Education Module: Data Management Planning. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)
+
+**Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
----
+![CCBY0](images/image27.png)
+

@@ -169,7 +169,7 @@ Reproducibility at core of scientific method
 * Good documentation required for reproducibility
  * Metadata: data about data
  * Process metadata: data about process used to create, manipulate, and analyze data
- .center[![ducks](images/image11.jpeg)]
+ .center[![ducks](images/image11rsz.jpeg)]
 
 ???
 Reproducibility is at the core of scientific method.  If results are not reproducible, the study loses credibility. The complex processes used to create final outputs can be quite difficult to reproduce.  In order to maintain scientific integrity, good documentation of the data and the analytical process is essential. Documentation includes metadata, which is data about data, and process metadata, which is data about the process.

@@ -96,7 +96,7 @@ This shows the same data entered in a way that would make it easy to understand 
 The data are not entered in separate blocks arrayed in a single worksheet.  They are entered in one table with columns defined by variables Date, Site, Plot, Species, and Weight, Adult, and Comments that are recorded for each sampling event.  
 
 The columns of data have consistent types.   Each column contains only numbers, dates, or text.
-There are consistent names, codes, and formats used in each column.  For instance, all dates are in the same format (mm/dd/yyyy), and there are no typos in the Site Names.  Species are all referred to by standard codes.  Therefore, if the user wanted to subset the data for species = `PERO`, they could easily filter the file for just those data.  Additionally,  there are only numeric data in the Weight column, so a statistical program or Excel could readily calculate statistics on this column.    Preparing metadata for this file would also be straightforward.   
+There are consistent names, codes, and formats used in each column.  For instance, all dates are in the same format (yyyy/mm/dd), and there are no typos in the Site Names.  Species are all referred to by standard codes.  Therefore, if the user wanted to subset the data for species = `PERO`, they could easily filter the file for just those data.  Additionally,  there are only numeric data in the Weight column, so a statistical program or Excel could readily calculate statistics on this column.    Preparing metadata for this file would also be straightforward.   
 
 
 ---
@@ -106,8 +106,8 @@ There are consistent names, codes, and formats used in each column.  For instanc
 .full-width[
 * Create descriptive column names without spaces or special characters
   * `Soil T30` to `Soil_Temp_30cm`
-  * `Species-Code` to `Species_Code` (Avoid using -,+,*,^ in column names. Some software may interpret these symbols as an operator)"
-* Use a descriptive file name.  For instance, a file named `SEV_SmallMammalData_v.5.25.2010.csv` indicates the project the data is associated with (SEV),  the theme of the data (SmallMammalData) and also when this version of the data was created (v.5.25.2010).   This name is much more helpful than a file named mydata.xls.]  
+  * `Species-Code` to `Species_Code` (Avoid using -,+,*,^ in column names. Some software may interpret these symbols as an operator)
+* Use a descriptive file name.  For instance, a file named `SEV_SmallMammalData_v20100525.csv` indicates the project the data is associated with (`SEV`),  the theme of the data (`SmallMammalData`) and also when this version of the data was created (`v20100525`).   This name is much more helpful than a file named `mydata.xls`.]  
 
 
 
@@ -240,7 +240,7 @@ Here is another example of data validation using Excel.  Height has been defined
 .one-half[
 * Great for charts, graphs, calculations
 * Flexible about cell content type—cells in same column can contain numbers or text
-** Easy to use – but harder to maintain as complexity and size of data grows
+* Easy to use – but harder to maintain as complexity and size of data grows
 ]
 
 .one-half[
@@ -459,9 +459,3 @@ DataONE Education Module: Data Entry and Manipulation. DataONE. Retrieved Novemb
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
 ![CCBY0](images/ccpd.png)
-
-
-
-
-
-

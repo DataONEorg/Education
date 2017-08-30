@@ -198,7 +198,7 @@ How data will be processed
   - Workflows
 ]
 
-.one-half[![Photo Attribution: CC image by Ryan Sandridge on Flickr](images/image10.jpeg)
+.one-half[![CC image by Ryan Sandridge on Flickr](images/image10.jpeg)
 *CC image by Ryan Sandridge on Flickr*
 ] 
 
@@ -221,7 +221,7 @@ Quality assurance & control during
   - sample collection, analysis and processing
 ]
 
-.three-fourths[![CC0 image from The Noun Project](images/image11.png)
+.one-half[![CC0 image from The Noun Project](images/image11.png)
 *CC0 image from The Noun Project*
 ]
 

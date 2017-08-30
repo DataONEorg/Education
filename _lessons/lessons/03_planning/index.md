@@ -73,7 +73,7 @@ However the plan should be revisited often throughout the project to ensure prop
 
 .three-fourth-center[![CC image by Hope House Press on Unsplash](images/rsz_image28.jpg)
  *CC image by Hope House Press on Unsplash*
-
+]
 
 ???
 
@@ -214,14 +214,14 @@ How will the data be processed once it is acquired? This step is important to co
 
 .one-half[
 File formats
-  - Justificaty your choice
+  - Justify your choice
   - Follow naming conventions
 
 Quality assurance & control during 
-  - sample collection, analysis, and processing
+  - sample collection, analysis and processing
 ]
 
-.one-half[![CC0 image from The Noun Project](images/image11.png)
+.three-fourths[![CC0 image from The Noun Project](images/image11.png)
 *CC0 image from The Noun Project*
 ]
 

@@ -317,9 +317,9 @@ Finally, what will happen to backups (or archives) once the project has ended or
 
 .one-half[A design firm was handling their own backups. The system was working and the backup software was reporting that the data was successfully backed up. The administrator checked the backups immediately after they were done and confirmed they were good.]
 
-![](images/image11.jpeg)
-
-
+.one-half[![Image Attribution: CC Image courtest of angielauw on Flickr](images/image11.jpeg)
+  *CC Image courtesy of angielauw on Flickr*
+]
 
 
 ---

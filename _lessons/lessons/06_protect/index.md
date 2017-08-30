@@ -76,7 +76,7 @@ In this lesson we will be focusing on data protection and backup which is associ
 
 .full-width[Differences at a Glance:
 * Data Protection
-  * Includes topics such as: backups, archives, & preservation; also includes physical security, encryption, and others not addressed here
+  * Includes topics such as: Backups, archives, & preservation; also includes physical security, encryption, and others not addressed here
   * More information about these topics can be found in the  “References” section]
 
 

@@ -169,10 +169,17 @@ Reproducibility at core of scientific method
 * Good documentation required for reproducibility
  * Metadata: data about data
  * Process metadata: data about process used to create, manipulate, and analyze data
- .center[![ducks](images/image11rsz.jpeg)]
+
+
+.center[![ducks](images/image11rsz.jpg)]
+
 
 ???
 Reproducibility is at the core of scientific method.  If results are not reproducible, the study loses credibility. The complex processes used to create final outputs can be quite difficult to reproduce.  In order to maintain scientific integrity, good documentation of the data and the analytical process is essential. Documentation includes metadata, which is data about data, and process metadata, which is data about the process.
+
+
+
+
 ---
 # Ensuring Reproducibility: Documenting the Process
 - Process metadata: Information about process (analysis, data organization, graphing) used to get to data outputs
@@ -186,6 +193,10 @@ Reproducibility is at the core of scientific method.  If results are not reprodu
 
 ???
 Process metadata is information about the process used to create any data outputs. This includes any data cleaning, transformation, reduction, and any analyses performed.A related concept to process metadata is “data provenance”. Provenance means “origin”, so data provenance is a description of the origins of the data.A mark of good provenance is that a person not directly involved with the project is able to follow the data through its life cycle and understand any steps used to create outputs.Good provenance allows for the ability to replicate analyses and reproduce results. Others can identify potential problems, logical, or statistical errors that might affect the study’s outcome.  Others are also able to evaluate a study’s hypotheses for themselves.   All of these possibilities mean greater accountability and more trustworthy science. 
+
+
+
+
 ---
 # Workflows: The Basics
 - Formalization of process metadata
@@ -223,15 +234,15 @@ Mention that example workflow diagrams shown here were drawn freehand in PowerPo
 # Informal Workflows
 **Workflow diagrams:**  Sample linear flow chart
  - Conceptualizing analysis as a sequence of steps
- - arrows indicate flow
+ - Arrows indicate flow
   
-  .center[![linear flow](images/s14.png)]
+  .center[![linear flow](images/informal2.png)]
   
 ---
 # Informal Workflows
-**Flow Charts:** a simple form of workflow
+**Flow Charts:** A simple form of workflow
 
-.center[![simple workflow](images/s15.png)]
+.center[![simple workflow](images/simplework2.png)]
 
 
 
@@ -244,23 +255,23 @@ Finally, graphs are produced to display the resulting mean temperatures.
 ---
 # Informal Workflows
 **Transformation Rules**
-.center[![simple workflow](images/transform.png)]
+.center[![simple workflow](images/transform2.png)]
 
- 
+
+???
  These steps are known in workflows as “transformation rules”.  Transformation rules describe what is done to/with the data to obtain the relevant outputs for publication. 
 
 ---
 # Informal Workflows
-**Flow charts:** simplest form of workflow
-Inputs and Outputs
+**Flow charts:** Simplest form of workflow
  
- .center[![simple workflow2](images/s17.png)]
+ .center[![simple workflow2](images/simple2.png)]
  
 
 
 
 ???
-The Inputs & outputs of this workflow are shown here in red.
+The inputs & outputs of this workflow are shown here in red.
 The first inputs are the raw temperature & salinity data. These are imported into R.The output of this process is the data in R format. 
 That data in R format then become the input for the quality control and data cleaning step. 
 The output of this step is “clean” temperature and salinity data, which is then the input for the analysis step.
@@ -404,7 +415,7 @@ VisTrails is another example of an open source workflow tool that provides prove
 
 ---
 # Workflows in General
-Science is becoming more computationally intensive
+**Science is becoming more computationally intensive**
 * Sharing workflows benefits science
 * Scientific workflow systems make documenting workflows easier
 * Minimally: document your analysis via informal workflows
@@ -427,7 +438,7 @@ The simplest form of a scientific workflow is using scripts to document the proc
 
 ---
 # Best Practices for Data Analysis
-Scientists should document workflows used to create results
+**Scientists should document workflows used to create results**
 - Data provenance
 - Analyses and parameters used
 - Connections between analyses via inputs and outputs
@@ -439,9 +450,9 @@ This documentation can be informal, like in a flowchart, or more formal, such as
 
 ---
 # Summary
-Modern science is computer-intensive
+**Modern science is computer-intensive**
  - Heterogeneous data, analyses, software
-Reproducibility is important
+**Reproducibility is important**
 - Workflows = process metadata
 - Use of informal or formal workflows for documenting process metadata ensures reproducibility, repeatability, validation
 

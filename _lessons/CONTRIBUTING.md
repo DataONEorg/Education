@@ -60,6 +60,7 @@ The stylesheets are defined in `resources/styles`, and rendered to
 ### Suggesting changes
 
 1. Open an [*Issue*][issue] on this repository.
+2. Your suggestions will be reviewed by a member of the DataONE CEO Working Group. 
 
 [issue]: https://github.com/DataONEorg/dataone_lessons/issues
 

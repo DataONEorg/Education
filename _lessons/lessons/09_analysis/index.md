@@ -164,7 +164,7 @@ Based on results from preliminary analysis, a researcher will often re-run or re
  
 ---
 # Reproducibility
-**Reproducibility at core of scientific method**
+**Reproducibility is at the core of the scientific method**
 * Complex process = more difficult to reproduce
 * Good documentation required for reproducibility
  * Metadata: data about data
@@ -452,6 +452,7 @@ This documentation can be informal, like in a flowchart, or more formal, such as
 # Summary
 **Modern science is computer-intensive**
  - Heterogeneous data, analyses, software
+ 
 **Reproducibility is important**
 - Workflows = process metadata
 - Use of informal or formal workflows for documenting process metadata ensures reproducibility, repeatability, validation

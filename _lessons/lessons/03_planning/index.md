@@ -73,7 +73,7 @@ However the plan should be revisited often throughout the project to ensure prop
 
 .three-fourth-center[![CC image by Hope House Press on Unsplash](images/rsz_image28.jpg)
  *CC image by Hope House Press on Unsplash*
-
+]
 
 ???
 

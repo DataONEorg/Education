@@ -234,13 +234,13 @@ Mention that example workflow diagrams shown here were drawn freehand in PowerPo
 # Informal Workflows
 **Workflow diagrams:**  Sample linear flow chart
  - Conceptualizing analysis as a sequence of steps
- - arrows indicate flow
+ - Arrows indicate flow
   
-  .center[![linear flow](images/workflowdiag.png)]
+  .center[![linear flow](images/informal2.png)]
   
 ---
 # Informal Workflows
-**Flow Charts:** a simple form of workflow
+**Flow Charts:** A simple form of workflow
 
 .center[![simple workflow](images/simplework2.png)]
 
@@ -263,10 +263,9 @@ Finally, graphs are produced to display the resulting mean temperatures.
 
 ---
 # Informal Workflows
-**Flow charts:** simplest form of workflow
-Inputs and outputs
+**Flow charts:** Simplest form of workflow
  
- .center[![simple workflow2](images/informal1.png)]
+ .center[![simple workflow2](images/simple2.png)]
  
 
 
@@ -416,7 +415,7 @@ VisTrails is another example of an open source workflow tool that provides prove
 
 ---
 # Workflows in General
-Science is becoming more computationally intensive
+**Science is becoming more computationally intensive**
 * Sharing workflows benefits science
 * Scientific workflow systems make documenting workflows easier
 * Minimally: document your analysis via informal workflows
@@ -439,7 +438,7 @@ The simplest form of a scientific workflow is using scripts to document the proc
 
 ---
 # Best Practices for Data Analysis
-Scientists should document workflows used to create results
+**Scientists should document workflows used to create results**
 - Data provenance
 - Analyses and parameters used
 - Connections between analyses via inputs and outputs
@@ -451,9 +450,9 @@ This documentation can be informal, like in a flowchart, or more formal, such as
 
 ---
 # Summary
-Modern science is computer-intensive
+**Modern science is computer-intensive**
  - Heterogeneous data, analyses, software
-Reproducibility is important
+**Reproducibility is important**
 - Workflows = process metadata
 - Use of informal or formal workflows for documenting process metadata ensures reproducibility, repeatability, validation
 

@@ -164,7 +164,7 @@ Based on results from preliminary analysis, a researcher will often re-run or re
  
 ---
 # Reproducibility
-Reproducibility at core of scientific method
+**Reproducibility at core of scientific method**
 * Complex process = more difficult to reproduce
 * Good documentation required for reproducibility
  * Metadata: data about data
@@ -221,10 +221,10 @@ A workflow is a formalization of the process metadata. Workflows are commonly us
 .one-third[
 ![flowdown](images/s13.png)]
 
-- **Inputs or outputs** include data, metadata, or visualizations
-- **Analytical processes** include operations that change or manipulate data in some way
-- **Decisions** specify conditions that determine the next step in the process
-- **Predefined processes** or subroutines specify a fixed multi-step process
+- **Inputs or outputs:** include data, metadata, or visualizations
+- **Analytical processes:** include operations that change or manipulate data in some way
+- **Decisions:** specify conditions that determine the next step in the process
+- **Predefined processes:** or subroutines specify a fixed multi-step process
 
 ???
 Mention that example workflow diagrams shown here were drawn freehand in PowerPoint using default flowchart symbology – no specialized software necessary!
@@ -368,7 +368,7 @@ Kepler uses a drag-and-drop interface for scientists to construct their workflow
 # Formal/Executable Workflows: Kepler Software
 
 
-.center[![kepler](images/s22.png)]
+.center[![kepler](images/vistrails.png)]
 
 ???
 Here is a screenshot of the Kepler interface. It has a user-friendly GUI (pronounced gooey) or graphical user interface.

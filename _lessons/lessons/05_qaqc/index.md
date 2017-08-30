@@ -88,7 +88,7 @@ Errors of Omission
 * Data or metadata not recorded
 * Examples: inadequate documentation, human error, anomalies in the field
 
-.center[![CC image by Nick J Webb on Flickr](images/rsz_image8.jpeg)
+.center[![CC image by Nick J Webb on Flickr](images/rsz_image8.jpg)
 *CC image by Nick J Webb on Flickr*]
 
 ???

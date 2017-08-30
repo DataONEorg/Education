@@ -415,7 +415,7 @@ VisTrails is another example of an open source workflow tool that provides prove
 
 ---
 # Workflows in General
-Science is becoming more computationally intensive
+**Science is becoming more computationally intensive**
 * Sharing workflows benefits science
 * Scientific workflow systems make documenting workflows easier
 * Minimally: document your analysis via informal workflows
@@ -438,7 +438,7 @@ The simplest form of a scientific workflow is using scripts to document the proc
 
 ---
 # Best Practices for Data Analysis
-Scientists should document workflows used to create results
+**Scientists should document workflows used to create results**
 - Data provenance
 - Analyses and parameters used
 - Connections between analyses via inputs and outputs
@@ -450,9 +450,9 @@ This documentation can be informal, like in a flowchart, or more formal, such as
 
 ---
 # Summary
-Modern science is computer-intensive
+**Modern science is computer-intensive**
  - Heterogeneous data, analyses, software
-Reproducibility is important
+**Reproducibility is important**
 - Workflows = process metadata
 - Use of informal or formal workflows for documenting process metadata ensures reproducibility, repeatability, validation
 

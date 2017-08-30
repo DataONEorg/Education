@@ -264,9 +264,8 @@ Finally, graphs are produced to display the resulting mean temperatures.
 ---
 # Informal Workflows
 **Flow charts:** Simplest form of workflow
-Inputs and outputs
  
- .center[![simple workflow2](images/informal1.png)]
+ .center[![simple workflow2](images/simple2.png)]
  
 
 

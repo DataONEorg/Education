@@ -212,7 +212,7 @@ How will the data be processed once it is acquired? This step is important to co
 
 # Information About Data & Data Format, continued 
 
-.one-half[
+.two-third[
 File formats
   - Justify your choice
   - Follow naming conventions
@@ -221,7 +221,7 @@ Quality assurance & control during
   - sample collection, analysis and processing
 ]
 
-.one-half[![CC0 image from The Noun Project](images/image11.png)
+.one-third[![CC0 image from The Noun Project](images/image11.png)
 *CC0 image from The Noun Project*
 ]
 

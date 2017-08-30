@@ -234,13 +234,13 @@ Mention that example workflow diagrams shown here were drawn freehand in PowerPo
 # Informal Workflows
 **Workflow diagrams:**  Sample linear flow chart
  - Conceptualizing analysis as a sequence of steps
- - arrows indicate flow
+ - Arrows indicate flow
   
-  .center[![linear flow](images/workflowdiag.png)]
+  .center[![linear flow](images/informal2.png)]
   
 ---
 # Informal Workflows
-**Flow Charts:** a simple form of workflow
+**Flow Charts:** A simple form of workflow
 
 .center[![simple workflow](images/simplework2.png)]
 
@@ -263,7 +263,7 @@ Finally, graphs are produced to display the resulting mean temperatures.
 
 ---
 # Informal Workflows
-**Flow charts:** simplest form of workflow
+**Flow charts:** Simplest form of workflow
 Inputs and outputs
  
  .center[![simple workflow2](images/informal1.png)]

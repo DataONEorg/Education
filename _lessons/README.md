@@ -17,7 +17,7 @@ first page will present you with a list of the available lessons. Clicking on
 each lesson will bring you to the lesson page, where you can launch the
 presentation, download a PDF, or see the handout and exercices.
 
-[website]: http://dataoneorg.github.io/dataone_lessons/ "Homepage for the DataONE lessons"
+[website]: https://dataoneorg.github.io/Education/ "Homepage for the DataONE lessons"
 
 ### What material is included?
 

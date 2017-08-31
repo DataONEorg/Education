@@ -1,10 +1,12 @@
-Thank you for contributing to the material! This document provides an
-introduction to the ways the lessons are organized, the tools we use to render
+
+
+Thank you for your interest in contributing to this educational material! This document provides an
+introduction to the ways the lessons are organized, the tools we use to display
 them, and the type of modifications we expect.
 
 # Guidelines for contributors and content editors
 
-The lessons are generated from markdown documents. These guidelines will walk
+Each of the educational modules is generated from markdown documents. These guidelines will walk
 you through the repository organization, the markdown basics, and any additional
 information.
 
@@ -57,6 +59,12 @@ The stylesheets are defined in `resources/styles`, and rendered to
 3. Submit a pull-request against the `master` branch of this repository
 4. Your changes will be reviewed
 
+
+### Page not rendering?
+
+Check that the `title` field of the YAML header (the first line of each
+lesson) is in quotes.
+
 ### Suggesting changes
 
 1. Open an [*Issue*][issue] on this repository.
@@ -64,7 +72,4 @@ The stylesheets are defined in `resources/styles`, and rendered to
 
 [issue]: https://github.com/DataONEorg/dataone_lessons/issues
 
-### Page not rendering?
-
-Check that the `title` field of the YAML header (the first line of each
-lesson) is in quotes.
+Thank you for your interest in making these data management education modules more useful!

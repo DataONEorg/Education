@@ -1,5 +1,5 @@
 ---
-title: "1. Introduction to Data Management"
+title: "Introduction to Data Management"
 author: DataONE Community Engagement & Outreach Working Group
 update: Sept. 20, 2016
 layout: slides

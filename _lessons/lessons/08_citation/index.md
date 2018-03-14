@@ -103,7 +103,7 @@ Persistent Identifier
 .two-third[* Facilitates discovery of relationships between data and publications, making it easier to validate and build upon previous work
 * Ensures that proper credit can be given when others use your work
 * Facilitates impact assessments of datasets based on number of publications that cite them
-* Helps researchers re-using data to find other ways the data has been used.]
+* Helps researchers re-using data to find other ways the data has been used]
 
 .one-third[![CC image by futureatlas.com on Flickr,as "Citation Needed"](images/slide6.jpg)
 *CC image by futureatlas.com on Flickr*]
@@ -133,8 +133,8 @@ Easier to discover existing data relevant to a particular question
 
 .two-third[* **Importance** - Data should be considered legitimate, citable products of research
 * **Credit and Attribution** - Data citations should facilitate giving scholarly credit and normative and legal attribution to all contributors to the data
-* **Evidence** - In scholarly literature, whenever and wherever a claim relies upon data, the corresponding data should be cited.
-* **Unique Identification** - A data citation should include a persistent method for identification that is machine actionable, globally unique, and widely used by a community.]
+* **Evidence** - In scholarly literature, whenever and wherever a claim relies upon data, the corresponding data should be cited
+* **Unique Identification** - A data citation should include a persistent method for identification that is machine actionable, globally unique, and widely used by a community]
 
 ![DC1 logo](images/slide8-9.jpg)
 *https://www.force11.org/datacitation*
@@ -143,10 +143,10 @@ Easier to discover existing data relevant to a particular question
 
 # Principles of Data Citation, continued
 
-.two-third[* **Access** - Data citations should facilitate access to the data, metadata, code, and other materials, as necessary for both humans and machines.
-* **Persistence** - Unique identifiers, data, and metadata should persist beyond the lifespan of the data they describe.
-* **Specificity and Verifiability** - Data citations should facilitate identification of, access to, and verification of the specific data that support a claim.  
-* **Interoperability and Flexibility** - Data citation methods should be flexible, but enable interoperability across communities.]
+.two-third[* **Access** - Data citations should facilitate access to the data, metadata, code, and other materials, as necessary for both humans and machines
+* **Persistence** - Unique identifiers, data, and metadata should persist beyond the lifespan of the data they describe
+* **Specificity and Verifiability** - Data citations should facilitate identification of, access to, and verification of the specific data that support a claim
+* **Interoperability and Flexibility** - Data citation methods should be flexible, but enable interoperability across communities]
 
 ![DC1 logo](images/slide8-9.jpg)
 *https://www.force11.org/datacitation*
@@ -518,7 +518,7 @@ http://www.software.ac.uk/how-cite-and-describe-software?mpw
 ---
 
 # About
-Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
+Participate in our GitHub repository: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
 
 **Suggested citation:**
 DataONE Education Module: Data Citation. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)

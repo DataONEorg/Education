@@ -21,10 +21,8 @@ datafiles: DataFiles_L04L05L07L08.zip
 
 
 
-
-.center[
-![Image Attribution: CC image by Mace Ojala on Flickr](images/metadata7.jpg)
-]
+.center[![](images/metadata7.jpg)
+*Image Attribution: CC image by Mace Ojala on Flickr*]
 
 
 ---
@@ -54,7 +52,7 @@ And what information needs to be included in a metadata record?
 After completing this lesson, the participant will be able to: 
 
 - Identify & list the types of **information typically included in metadata records** for environmental datasets
-- Identify 3 **reasons metadata is of value** to data users, data developers, and organizations
+- Identify 3 **reasons metadata are of value** to data users, data developers, and organizations
 - List 3 **uses for metadata**, beyond discovery of data
 - Identify and describe factors that may determine which **metadata standards** are most appropriate for a given dataset
 - List **steps to prepare** to write metadata
@@ -77,7 +75,7 @@ Creating and capturing metadata falls within the “Describe” phase of the Dat
 
 # What is metadata?
 
-.two-third[**Metadata is: Data ‘reporting’**
+.two-third[**Metadata is: Data reporting**
 
 - **WHO** created the data?
 - **WHAT** is the content of the data?
@@ -284,8 +282,8 @@ An organization that keeps current metadata can benefit in many ways. Metadata r
 # The Utility of Metadata
 
 Metadata can support:
-- data distribution (discovery, catalogs)
-- data management (provenance, accountability, liability)
+- Data distribution (discovery, catalogs)
+- Data management (provenance, accountability, liability)
 
 .three-fourth-center[![Photo of a hallway of books](images/libraryUnsplash.jpg)
 *Public domain image, Unsplash.com*
@@ -415,7 +413,7 @@ Metadata is invaluable for data liability. For example, a record will indicate t
 
 # Concerns About Creating Metadata (1)
 
-Even if the value of data documentation is recognized, researchers are often concerned about the effort required to create metadata that effectively describe their data.
+Even if the value of data documentation are recognized, researchers are often concerned about the effort required to create metadata that effectively describe their data.
 
 ![Image of rock climber](images/image24.jpeg)
   *Public domain image, Unsplash.com*
@@ -450,7 +448,7 @@ Definition of a profile: http://support.esri.com/other-resources/gis-dictionary/
 
 # What is a Metadata Standard?
 
-A Standard provides a structure to describe data with:
+A standard provides a structure to describe data with:
 - Common terms to allow consistency between records
 - Common definitions for easier interpretation
 - Common language for ease of communication
@@ -469,7 +467,7 @@ An established standard provides common terms, definitions, and structure that a
 # What does a metadata standard include?
 
 .one-half[Components of metadata: 
-- A metadata standard is made up of defined **elements**, including the type of information the user should enter (e.g. text, numbers, date). 
+- A metadata standard is made up of defined **elements**, including the type of information the user should enter (e.g. text, numbers, date) 
 - Examples of elements include:
   - title, abstract, keywords
   - persistent link, usage rights
@@ -570,7 +568,7 @@ Terminology for the same concepts may vary across standards
 
 **Your data type**
 - Are you working mainly with GIS data? Raster/vector or point data? Do you have biological or shoreline information in your dataset?
-  - Consider the FGDC Content Standard for Digital Geospatial Metadata with one of its profiles: the Biological Data Profile or the Shoreline Data Profile. 
+  - Consider the FGDC Content Standard for Digital Geospatial Metadata with one of its profiles: the Biological Data Profile or the Shoreline Data Profile 
 - Are you working with data retrieved from instruments such as monitoring stations or satellites? Are you using geospatial data services such as applications for web-mapping applications or data modeling?
   - If so, then consider using the ISO 19115-2 standard
 - Are you mainly working with ecological data?
@@ -677,11 +675,11 @@ If your metadata include acronyms, you should spell out the acronyms with their 
 Provide all of the critical information for **discovery**, **understanding**, and **reuse**:
 
 .one-half[- Identification Information
-- Entities & Attributes 
-- Data Quality 
-- Access, Use & Liability Constraints
+- Entities and attributes 
+- Data quality 
+- Access, use and liability Constraints
 - Distribution
-- Spatial References
+- Spatial references
 ]
 
 .one-half[![Man looking through binoculars](images/binoculars.jpg)
@@ -758,11 +756,11 @@ Citations for all source data used in the dataset should be included in the meta
 
 # What Makes a Good Metadata Record?
 
-**Provide all of the critical information for:** Access, Use & Liability Constraints
+**Provide all of the critical information for:** Access, Use and Liability Constraints
 
-- *Access Constraints*: restrictions and legal prerequisites for access the data.
-- *Use Constraints*: restrictions and legal prerequisites for using the data after access is granted. 
-- *Distribution Liability*: statement of the liability assumed by the distributor with respect to content and accuracy of the data.
+- *Access Constraints*: restrictions and legal prerequisites for access the data
+- *Use Constraints*: restrictions and legal prerequisites for using the data after access is granted 
+- *Distribution Liability*: statement of the liability assumed by the distributor with respect to content and accuracy of the data
 
 .three-fourth-center[![Photo of SBLTER metadata](images/SBLTER_dataUse.png)
 ]
@@ -821,8 +819,8 @@ Finally, spatial reference information is essential for integrating your data wi
 
 .full-width[Titles, Titles, Titles…
 - **Titles are critical** in helping readers find your data
-  - While individuals are searching for the most appropriate datasets, they are most likely going to use the title as the first criteria to determine if a dataset meets their needs.  
-  - <footer>Treat the title as the opportunity to sell your dataset.</footer>
+  - While individuals are searching for the most appropriate datasets, they are most likely going to use the title as the first criteria to determine if a dataset meets their needs  
+  - <footer>Treat the title as the opportunity to sell your dataset</footer>
 
 - A complete title includes: *What, Where, When, Who,* and *Scale*
 - An **informative title** includes: topic, timeliness of the data, specific information about place and geography
@@ -898,8 +896,8 @@ Use thesauri whenever possible for keywords. Keywords are essential for locating
 
 #  Tips for Writing Quality Metadata
 
-.full-width[- **Remember**: a computer will read your metadata.
-- Do not use **symbols** that could be misinterpreted by software. 
+.full-width[- **Remember**: a computer will read your metadata
+- Do not use **symbols** that could be misinterpreted by software 
   - <footer> !  @  #  %  {  }  |  /  \  <  >  ~ </footer>
 - Don’t use **tabs**, **indents**, or **line feeds/carriage returns**
 - When copying and pasting from other sources, use a **text editor** (e.g., Notepad) to eliminate hidden characters
@@ -923,7 +921,7 @@ If you are copying and pasting content from other sources into your metadata rec
 - A metadata **standard** provides structure and consistency to data documentation
 - **Standards and tools vary** – select according to defined criteria such as data type, organizational guidance, and available resources
 - Metadata is of **critical** importance to data developers, data users, and organizations
-Metadata completes a dataset.
+Metadata completes a dataset
 ]
 
 ---
@@ -965,7 +963,7 @@ Here are some additional resources to help you understand and create metadata fo
 
 # About
 
-Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
+Participate in our GitHub repository: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
 
 **Suggested citation:**
 DataONE Education Module: Metadata Management. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)

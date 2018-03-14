@@ -106,10 +106,13 @@
 -->
     </section>
     <section>
-      <h1>{{ lesson.title }}</h1>
-      <p>{{ lesson.author }}</p>
         {{ page.content | markdownify }}
     </section>
+		<section>
+			<strong>Cite this lesson: </strong><br />
+			{{ lesson.author }} ({{ page.update | date: '%Y' }}) "{{ lesson.title }}". Accessed at {{site.url}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
+      </p>
+		</section>
     
 <!--    << <a href="{{ site.baseurl }}/lessons/{{ lesson.prevlesson }}/cover.html">Previous lesson</a> | <a href="{{ site.baseurl }}/lessons/{{ lesson.nextlesson }}/cover.html">Next lesson</a> >><br>
     <a href="{{ site.baseurl }}/">Back to list</a>

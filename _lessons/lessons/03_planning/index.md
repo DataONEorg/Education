@@ -20,7 +20,7 @@ exercise: L03_Exercise.pdf
 - Why prepare a DMP?
 - Components of a DMP
 - Recommendations for DMP content
-- Example of an NSF DMP
+- Example of requirements for a National Science Foundation DMP
 
 
 <!-- These are notes for the presenter -->
@@ -71,11 +71,9 @@ However the plan should be revisited often throughout the project to ensure prop
 - Outlines what you will do with the data **during** and **after** you complete your research
 - Ensures the data is safe for the **present** and the **future**
 
-<footer>-- University of Virginia Library</footer>
-
 .center[![CC image by Hope House Press on Unsplash](images/rsz_image28.jpg)
- *CC image by Hope House Press on Unsplash*]
-
+ *CC image by Hope House Press on Unsplash*
+]
 
 ???
 
@@ -94,8 +92,8 @@ Increase research efficiency
  - Ensures you and others will be able to understand and use data in future
 ]
 
-.one-third[![Photo Attribution: CC image Cathdew on Flickrby](images/image6.jpeg)
-*CC image Cathdew on Flickrby*
+.one-third[![Photo Attribution: CC image Cathdew on Flickr](images/image6.jpeg)
+*CC image Cathdew on Flickr*
 ]
 
 ???
@@ -163,7 +161,7 @@ The slides that follow will go into more detail for each of the general categori
 # Information About Data & Data Format
 
 .one-half[
-Description of data to be produced
+What type of data will be produced?
   - Experimental
   - Observational
   - Raw or derived
@@ -200,7 +198,7 @@ How data will be processed
   - Workflows
 ]
 
-.one-half[![Photo Attribution: CC image by Ryan Sandridge on Flickr](images/image10.jpeg)
+.one-half[![CC image by Ryan Sandridge on Flickr](images/image10.jpeg)
 *CC image by Ryan Sandridge on Flickr*
 ] 
 
@@ -214,17 +212,16 @@ How will the data be processed once it is acquired? This step is important to co
 
 # Information About Data & Data Format, continued 
 
-.one-half[
+.two-third[
 File formats
-  - Justification
-  - Naming conventions
+  - Justify your choice
+  - Follow naming conventions
 
 Quality assurance & control during 
-  - sample  collection, analysis, and 
-  - processing
+  - sample collection, analysis and processing
 ]
 
-.one-half[![CC0 image from The Noun Project](images/image11.png)
+.one-third[![CC0 image from The Noun Project](images/image11.png)
 *CC0 image from The Noun Project*
 ]
 
@@ -247,11 +244,11 @@ Existing data
   - Will the data be combined with existing data?
   - What is the relationship between new data and existing data?
 
-How data will be managed in short-term
+How will data be managed in short-term?
   - Version control
   - Backing up
   - Security & protection
-  - Who will be responsible
+  - Who will be responsible?
 
 [![Photo Attribution: CC0 image from The Noun Project](images/image12_rotated.png)
 *CC0 image from The Noun Project*
@@ -272,8 +269,10 @@ Be sure to identify who will be responsible for short-term data management. Assi
 # Metadata Content & Format
 
 .one-half[
-**Metadata** defined: 
+**Metadata** is defined as: 
 - Documentation and reporting of data
+
+**Metadata** contains: 
 - Contextual details: Critical information about the dataset
 - Information important for using the data
 - Descriptions of temporal and spatial details, instruments, parameters, units, files, etc. 
@@ -292,14 +291,14 @@ The second major category for a DMP is metadata content and format. First, we sh
 # Metadata Content & Format, continued
 
 .two-third[
-What metadata are needed
+What metadata are needed?
   - Any details that make data meaningful
 
-How metadata will be created and/or captured
+How will metadata be created and/or captured?
   - Lab notebooks? GPS units? 
   - Auto-saved on instrument?
 
-What format will be used for the metadata
+What format will be used for the metadata?
   - Standards for community
   - Justification for format chosen
 ]
@@ -383,13 +382,13 @@ You should also describe how the data should be cited when used. It is best to e
 # Long-term Storage & Data Management
 
 .two-third[
-* What data will be preserved
-* Where will it be archived
+* What data will be preserved?
+* Where will it be archived?
  * Most appropriate archive for data
  * Community standards
 * Data transformations/formats needed
  * Consider archive policies
-* Who will be responsible
+* Who will be responsible?
  * Contact person for archive
 ]
 
@@ -441,7 +440,7 @@ Anticipated costs
 - Personnel
 - Archive costs
 
-How costs will be paid
+Include how costs will be paid
 ]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image21.png)
@@ -462,12 +461,16 @@ You should identify how the costs associated with your DMP will be paid.
 
 .one-half[
 **DMPTool**
+
+https://dmptool.org/
 <br /><br />
 ![dmptool.org](images/DMPTool_web.png)
 ]
 
 .one-half[
 **DMPOnline**
+
+https://dmponline.dcc.ac.uk/
 <br /><br />
 ![dmponline.dcc.ac.uk](images/DMPOnline_web.png)
 ]
@@ -527,7 +530,7 @@ In addition to these general requirements, there are directorate- and division-s
 # Summary
 
 .two-third[
-DMPs are an important part of the data life cycle. They save time and effort in the long run, and ensure that data are relevant and useful for others. Most funding agencies (all federal*) now require DMPs
+DMPs are an important part of the data life cycle. They save time and effort in the long run, and ensure that data are relevant and useful for others. Most funding agencies now require DMPs
 
 Major components of a DMP:
 1. Information about data type & data format
@@ -557,7 +560,7 @@ http://www.whitehouse.gov/sites/default/files/microsites/ostp/ostp_public_access
 
 ---
 # About
-Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
+Participate in our GitHub repository: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
 
 **Suggested citation:**
 DataONE Education Module: Data Management Planning. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)

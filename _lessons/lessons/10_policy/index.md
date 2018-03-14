@@ -415,13 +415,16 @@ IRB approvals must be re-reviewed if the study changes in a meaningful way.
 ---
 
 # Privacy vs. Confidentiality
+.one-half[![CC image by Blue Coat Photos on flickr](images/image19.png)
+*CC image by Blue Coat Photos on flickr*]
+
+.one-half[
 * Privacy
    * Protects access to individuals (or entities)
 * Confidentiality
    * Protects access to information about individuals
-   * Can be thought of as information privacy
-.three-fourth-center[![CC image by Blue Coat Photos on flickr](images/image19.png)
-*CC image by Blue Coat Photos on flickr*]
+   * Can be thought of as information privacy]
+
 
 ???
 
@@ -464,7 +467,7 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 
 ---
 ## About
-Participate in our GitHub repo: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
+Participate in our GitHub repository: [https://github.com/DataONEorg/Education](https://github.com/DataONEorg/Education)
 
 **Suggested citation:**
 DataONE Education Module: Legal & Policy Issues. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)

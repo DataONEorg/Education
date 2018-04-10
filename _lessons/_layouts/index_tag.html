@@ -11,8 +11,8 @@
     <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"></link>
     <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></link>
 -->
-	<!-- link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap.min.css">    
-	<link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-theme.min.css" -->    
+	<!-- link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap.min.css">
+	<link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-theme.min.css" -->
 	<!-- link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like_dropdowns.css" -->
 	<link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like-select.css"> <!-- https://codepen.io/ericrasch/pen/zjDBx -->
 
@@ -33,14 +33,14 @@
 
 
   <style>
-  	section img.mainimage { 
-  		float: left; 
-  		border:1px solid #888; 
-  		padding:5px; 
-  		margin:0px 20px 20px 0px; 
+  	section img.mainimage {
+  		float: left;
+  		border:1px solid #888;
+  		padding:5px;
+  		margin:0px 20px 10px 0px;
   	}
   	body {
-  		padding:0px; margin:0px; 
+  		padding:0px; margin:0px;
   		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   	}
 
@@ -49,36 +49,59 @@
 	a:hover { color: #111; text-decoration: underline; }
 
   	section {
-  		clear:both; 
+  		clear:both;
   	}
   	section h1 {
   		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  		color: #660032; 
+  		color: #660032;
   	}
   	article, footer {
-  		margin:30px; 
+  		margin:30px;
   	}
   	header {
-  		border-bottom: 20px solid #660032; 
-  		background-color:#fff; 
+  		border-bottom: 10px solid #660032;
+  		background-color:#fff;
   	}
   	header img.pagelogo {
-  		padding: 15px 0px 0px 15px; 
+  		padding: 15px 0px 0px 15px;
   	}
   	footer {
-  		font-size: .8em; 
+  		font-size: .8em;
   	}
-  	
+
   	h2 {
-		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;  	
-    margin-top: 1em;
-    margin-bottom: 4px; 
+		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 3px;
+    margin-bottom: 4px;
     font-style: normal;
     font-style: normal;
-    font-size: 125%;
+    font-size: 300%;
     color: #660033;
     font-weight: 600;
-    margin-left:60px; 
+    margin-left: 0px;
+  	}
+
+    h3 {
+		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 4px;
+    font-style: normal;
+    font-style: normal;
+    font-size: 120%;
+    color: #660033;
+    font-weight: 600;
+    margin-left: 0px;
+  	}
+
+    p {
+		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1px;
+    font-style: normal;
+    font-style: normal;
+    font-size: 100%;
+    color: #000;
+    font-weight: 300;
   	}
 
 	a.filterbutton {
@@ -87,7 +110,7 @@
 		margin-left: 10px;
 		clear: none;
 		display: inline-block;
-		color:#660033; 
+		color:#660033;
 		border: solid thin #660033;
 		font-weight: 600;
 		font-size: 90%;
@@ -97,16 +120,16 @@
 	}
 	a.filterbutton:hover {
 	  background-color:#660033;
-	  color:#fff; 
+	  color:#fff;
 	}
 
 	a.programs-filter-btn-active {
 	  background-color:#660033;
-	  color:#fff; 
+	  color:#fff;
 	}
 	a.programs-control-active {
 	  background-color:#660033;
-	  color:#fff; 
+	  color:#fff;
 	}
 
 	a.programs-filter-btn-active.btn_teaching_module { background-color:#84353e; }
@@ -121,13 +144,13 @@
 
 
 	a.tagbutton {
-		text-transform: none; 
+		text-transform: none;
 	}
-	
-	.btn_teaching_module { background-color: #ebdadc; } /* ad7279 */ 
-	.btn_technical_tutorial { background-color: #d0e3db; } /* 84a396 */ 
+
+	.btn_teaching_module { background-color: #ebdadc; } /* ad7279 */
+	.btn_technical_tutorial { background-color: #d0e3db; } /* 84a396 */
 	.btn_best_practice { background-color: #e8effc; } /* 9faecc */
-	.btn_video_tutorial { background-color: #ffe6c6; } /* bc8743  */ 
+	.btn_video_tutorial { background-color: #ffe6c6; } /* bc8743  */
 
 
 
@@ -142,7 +165,7 @@
 <body>
 
   <header role='banner'>
-    <a href='https://www.dataone.org/'><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:24px'/></a></p>
+    <a href='https://www.dataone.org/'><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:30px'/></a></p>
   </header>
 
 {% comment %}
@@ -185,32 +208,46 @@ Removes duplicated tags
 	{% endif %}
 {% endfor %}
 
+<div style="width:90%; padding:20px; margin:20px 0px 40px 50px; ">
+    <h2>Education Resources</h2>
+    <h3><i>Developed by DataONE</i></h3>
+    <p> With just one easy search, <a href="https://www.dataone.org">DataONE</a> provides access to Earth and environmental data across a network of data providers. <br /> <br /> In addition to better access to data, <a href="https://www.dataone.org">DataONE</a> has developed high quality resources for helping educators and librarians with training in data management, including teaching materials, webinars and a database of best-practices to improve methods for data sharing and management. <br /> <br /></p>
+
+      <h3><i>Teaching Data Management</i></h3>
+    <p> This GitHub page contains DataONE's Education Modules. The Modules are valuable resources for researchers, teachers, librarians, or anyone who needs to learn more data management. Each module contains a lesson in slide format with annotations, a one page handout that distills the main points and lessons to take away, and a supporting hands-on exercise. <br /> <br /> The Education Modules are intended to be flexible and updated by a range of users and audiences. Contribute on our <a href="https://github.com/DataONEorg/Education">GitHub Education Page</a>. Please let us know what you think! <br /> <br /> </p>
+
+      <h3><i>Using This Resource</i></h3>
+      <p> Clicking on each lesson will bring you to the lesson page. There you can launch the presentation, download a PDF, or see the handout and exercises. </p>
+
+</div>
+
 <div class="wrap">
   <div class="container">
 
-
-    <div class="row">
+<!-- I commented this out -->
+    <!--div class="row">
       <div class="twelve columns">
         <h2>Resource List</h2>
       </div>
-      
-    </div>
+    </div-->
 
-    <!--div class="row">
+<!-- This was already commented out, do not remove -->
+  <!--div class="row">
       <div class="twelve columns">
         <div class="programs">
           <button class="filter-btn" data-filter="all">All</button>
           {% for cat in cats %}
           <button class="filter-btn" data-filter=".{{ cat | downcase | replace: ' ','_' }}">{{ cat }}</button>
-          {% endfor %}
+           {% endfor %}
         </div>
       </div>
     </div-->
 
-    <div class="row">
+<!-- I commented this out -->
+    <!--div class="row">
       <div class="twelve columns">
         <div id="filterbuttons" style="margin-left:60px;">
-          Filter by content type: 
+          Filter by content type:
           <a href="#" class="filterbutton" data-filter="all">All</a>
           {% for cat in cats %}
           <a href="#" class="filterbutton btn_{{ cat | downcase | replace: ' ','_' }}" data-filter=".{{ cat | downcase | replace: ' ','_' }}">{{ cat }}</a>
@@ -219,7 +256,8 @@ Removes duplicated tags
 		<a href="#" class="filterbutton btn_video_tutorial" data-filter=".video_tutorial">Video Tutorial</a>
         </div>
       </div>
-    </div>
+    </div-->
+
 
     <div class="row">
       <div class="twelve columns">
@@ -227,7 +265,7 @@ Removes duplicated tags
          Filter by stage of the Data Life Cycle
 <!--
         <div cla-ss="styled-select blue semi-square" >
-          <a href="#" class="filterbutton tagbutton" data-filter="all">All</a> 
+          <a href="#" class="filterbutton tagbutton" data-filter="all">All</a>
           <a href="#" class="filterbutton tagbutton" data-filter=".plan">Plan</a>  (switch to data-toggle for checkbox behavior)
           <a href="#" class="filterbutton tagbutton" data-filter=".collect">Collect</a>
           <a href="#" class="filterbutton tagbutton" data-filter=".assure">Assure</a>
@@ -266,7 +304,7 @@ Removes duplicated tags
 		  </label>
 		</span>
 		text after<br/>mono mono mono mono mono mono
-    
+
 </div>
 -->
         </div>
@@ -292,15 +330,15 @@ Removes duplicated tags
                 {% assign tagclasses = tagclasses | append: ' ' | append: cleantag %}
               {% endfor %}
 
-              <li class="mix-target {{ catclasses }} {{ tagclasses }}" 
-                  data-order="{{ ldeck }}" 
+              <li class="mix-target {{ catclasses }} {{ tagclasses }}"
+                  data-order="{{ ldeck }}"
                   data-year="4">
                   <a href="{{ site.baseurl }}/lessons/{{ ldeck }}/cover.html"><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png"></a></li>
             {% endif %}
           {% endfor %}
         </ul>
       </div>
-    </div><!-- end of row -->   
+    </div><!-- end of row -->
   </div><!-- end of container -->
 </div><!-- end of wrap -->
 
@@ -314,7 +352,7 @@ Removes duplicated tags
 	<script src="{{ site.baseurl }}/resources/lib/mixitup-multifilter.min.js"></script>
 
     <!-- script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script -->
-  
+
 
   <script>
     mixitup('#mix-wrapper', {
@@ -333,24 +371,24 @@ Removes duplicated tags
       selectors: {
         target: '.mix-target' /* .mix */
       }
-    });    
+    });
 
 
 
 	$(function(){
 	  var $filterSelect = $('#soflow'),
 		  $container = $('#mix-wrapper');
-  
+
 	  //$container.mixItUp();
-  
+
 	  $filterSelect.on('change', function(){
 		$container.mixItUp('filter', this.value);
 	  });
-  
+
   	  $('body').on('click', '#filterbuttons a', function(e) {
   	  	 $("select#soflow").prop('selectedIndex', 0);
   	  });
-  
+
 	});
 
 

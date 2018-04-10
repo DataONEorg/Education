@@ -5,7 +5,7 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
 
 body {
-	background: #ededed;
+	background: #fff;
 	font-family: 'Alegreya Sans SC', sans-serif;
 }
 
@@ -84,8 +84,8 @@ img {
 
 .courses {
 	margin-bottom: 15px;
-	padding-bottom: 15px; 
-	padding-right: 40px; 
+	padding-bottom: 15px;
+	padding-right: 40px;
 	font-size: 0;
 	background: whitesmoke;
 }

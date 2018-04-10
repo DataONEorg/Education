@@ -21,17 +21,16 @@ collections:
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
-  
+
 defaults:
-  - 
+  -
     scope:
       path: ""
       type: "lessons"
     values:
       layout: "slides"
-

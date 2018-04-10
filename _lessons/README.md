@@ -15,7 +15,7 @@ Please let us know what you think!
 A list of the lessons can be found on [the repository's website][website]. The
 first page will present you with a list of the available lessons. Clicking on
 each lesson will bring you to the lesson page, where you can launch the
-presentation, download a PDF, or see the handout and exercices.
+presentation, download a PDF, or see the handout and exercises.
 
 [website]: https://dataoneorg.github.io/Education/ "Homepage for the DataONE lessons"
 
@@ -25,7 +25,7 @@ Each of the DataONE Education Modules is comprised of three parts: a set of
 slides with presenter notes, a one-page explanatory sheet, and a hands-on
 exercise. These materials are meant to be flexible. They are usable and
 adaptable for use in a range of contexts -- for personal education, in classroom
-settings, by librarians teaching data management workshops, and more. 
+settings, by librarians teaching data management workshops, and more.
 
 ### How does this work?
 
@@ -63,4 +63,5 @@ informations in our [contribution guidelines][CONTRIB].
 
 ## Maintainers
 
+The DataONE Education Modules are maintained by the Community Engagement and Outreach Working Group at DataONE. Please contact Amber Budden <aebudden at dataone.unm.edu> or Megan Mach <mach at unm.edu> with questions or updates.
 <!-- TODO -->

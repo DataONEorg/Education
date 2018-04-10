@@ -6,7 +6,7 @@ layout: layout
 
 # Welcome to the DataONE Data Management Education Module Repo!
 
-This repository contains DataONE Education Modules that have been updated and translated from PowerPoint format to a more easily updated format. Each Education Module contains a set of slides with annotations, as well as a hands on exercise and a one-page explanatory sheet that distills the main points and lessons to take away. The Education Modules are intended to be flexible and updated by a range of users and audiences. Please let us know what you think! 
+This repository contains DataONE Education Modules that have been updated and translated from PowerPoint format to a more easily updated format. Each Education Module contains a set of slides with annotations, as well as a hands on exercise and a one-page explanatory sheet that distills the main points and lessons to take away. The Education Modules are intended to be flexible and updated by a range of users and audiences. Please let us know what you think!
 
 ## Guidelines for presenters
 
@@ -18,7 +18,7 @@ clicking on each lesson will launch the presentations.
 
 ### What material is included?
 
-Each of the DataONE Education Modules is comprised of three parts: a set of slides with presenter notes, a one-page explanatory sheet, and a hands-on exercise. These materials are meant to be flexible. They are usable and adaptable for use in a range of contexts-- for personal education, in classroom settings, by librarians teaching data management workshops, and more. 
+Each of the DataONE Education Modules is comprised of three parts: a set of slides with presenter notes, a one-page explanatory sheet, and a hands-on exercise. These materials are meant to be flexible. They are usable and adaptable for use in a range of contexts-- for personal education, in classroom settings, by librarians teaching data management workshops, and more.
 
 ### How does this work?
 
@@ -40,5 +40,5 @@ See [the contribution guidelines][CONTRIB].
 
 <!-- TODO -->
 
-[website]: http://dataoneorg.github.io/dataone_lessons/ "Lessons homepage"
-[CONTRIB]: CONTRIBUTING.md "Contribution guidelines"
+[website]: ./ "Lessons homepage"
+[CONTRIB]: ./CONTRIBUTING.html "Contribution guidelines"

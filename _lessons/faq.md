@@ -4,7 +4,7 @@ layout: layout
 ---
 
 
-# Welcome to the DataONE Data Management Education Module Repo!
+# Frequently Asked Questions
 
 This repository contains DataONE Education Modules that have been updated and translated from PowerPoint format to a more easily updated format. Each Education Module contains a set of slides with annotations, as well as a hands on exercise and a one-page explanatory sheet that distills the main points and lessons to take away. The Education Modules are intended to be flexible and updated by a range of users and audiences. Please let us know what you think!
 
@@ -37,7 +37,7 @@ or right on a touch-enabled device.
 See [the contribution guidelines][CONTRIB].
 
 ## Maintainers
-
+The DataONE Education Modules are maintained by the Community Engagement and Outreach Working Group at DataONE. Please contact Amber Budden [aebudden at dataone.unm.edu] or Megan Mach [mach at unm.edu] with questions or updates.
 <!-- TODO -->
 
 [website]: ./ "Lessons homepage"

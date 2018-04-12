@@ -62,9 +62,22 @@
   		border-bottom: 10px solid #660032;
   		background-color:#fff;
   	}
+
   	header img.pagelogo {
-  		padding: 15px 0px 0px 15px;
+    padding: 15px 0px 0px 15px;
+    float: left;
   	}
+
+    header h1 {
+      position: relative;
+      top: 10px;
+      left: 10px;
+      right:40px;
+      text-align: right;
+      color: #660033;
+    }
+
+
   	footer {
   		font-size: .8em;
   	}
@@ -72,7 +85,7 @@
   	h2 {
 		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-top: 3px;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
     font-style: normal;
     font-style: normal;
     font-size: 300%;
@@ -83,8 +96,8 @@
 
     h3 {
 		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    margin-top: 1em;
-    margin-bottom: 4px;
+    margin-top: 1px;
+    margin-bottom: 1px;
     font-style: normal;
     font-style: normal;
     font-size: 120%;
@@ -95,8 +108,8 @@
 
     p {
 		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    margin-top: 1em;
-    margin-bottom: 1px;
+    margin-top: 2px;
+    margin-bottom: 0px;
     font-style: normal;
     font-style: normal;
     font-size: 100%;
@@ -164,9 +177,17 @@
 
 <body>
 
-  <header role='banner'>
-    <a href='https://www.dataone.org/'><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:30px'/></a></p>
+  <!-- Megan removed to try new logo header text -->
+    <!--<div class="header" role ="banner">
+    <img src="{{ site.baseurl }}/img/logo.jpg" alt="DataONE.org" style='max-height:30px' />
+    <h1>Community Education Resources</h1>
+  </div>
+-->
+
+<header role='banner'>
+    <a href='https://www.dataone.org/'><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:30px'/></a> <h1>Community Education Resources</h1></p>
   </header>
+
 
 {% comment %}
 The following part extracts all the tags from the lessons
@@ -208,18 +229,11 @@ Removes duplicated tags
 	{% endif %}
 {% endfor %}
 
-<div style="width:90%; padding:20px; margin:20px 0px 40px 50px; ">
-    <h2>Education Resources</h2>
-    <h3><i>Developed by DataONE</i></h3>
-    <p> With just one easy search, <a href="https://www.dataone.org">DataONE</a> provides access to Earth and environmental data across a network of data providers. <br /> <br /> In addition to better access to data, <a href="https://www.dataone.org">DataONE</a> has developed high quality resources for helping educators and librarians with training in data management, including teaching materials, webinars and a database of best-practices to improve methods for data sharing and management. <br /> <br /></p>
-
-      <h3><i>Teaching Data Management</i></h3>
-    <p> This GitHub page contains DataONE's Education Modules. The Modules are valuable resources for researchers, teachers, librarians, or anyone who needs to learn more data management. Each module contains a lesson in slide format with annotations, a one page handout that distills the main points and lessons to take away, and a supporting hands-on exercise. <br /> <br /> The Education Modules are intended to be flexible and updated by a range of users and audiences. Contribute on our <a href="https://github.com/DataONEorg/Education">GitHub Education Page</a>. Please let us know what you think! <br /> <br /> </p>
-
-      <h3><i>Using This Resource</i></h3>
-      <p> Clicking on each lesson will bring you to the lesson page. There you can launch the presentation, download a PDF, or see the handout and exercises. </p>
+<div style="width:90%; padding:20px; margin:0px 0px 20px 50px; ">
+    <p> This GitHub page contains DataONE's Education Modules. The Modules are valuable resources for researchers, teachers, librarians, or anyone who needs to learn more data management. Each module contains a lesson in slide format with annotations, a one page handout that distills the main points and lessons to take away, and a supporting hands-on exercise. <br /> <br /> The Education Modules are intended to be flexible and updated by a range of users and audiences. Contribute on our <a href="https://github.com/DataONEorg/Education">GitHub Education Page</a>. Please let us know what you think! </p>
 
 </div>
+
 
 <div class="wrap">
   <div class="container">
@@ -258,12 +272,15 @@ Removes duplicated tags
       </div>
     </div-->
 
-<!-- Megan commented this out, add if you want the "Data Life Cycle" options -->
-    <!--div class="row">
+<div style="width:100%; padding:20px; margin:0px 0px 0px 0px; background:#DCDCDC">
+  <div style = "width:95%; padding:0px; margin:0px 10px 0px 10px;">
+  <h3><i>Using This Resource</i></h3>
+  <p> Clicking to see more about each resource. You can limit resources by Data Life Cycle stage. Comprehensive information is available in the <a href="./faq.html">FAQ</a>. </p>
+    <div class="row">
       <div class="twelve columns">
         <div style="margin-left:60px; " >
-         Filter by stage of the Data Life Cycle -->
-         
+         Filter by stage of the Data Life Cycle
+
 <!-- THIS IS COMMENTED OUT EVEN WHEN SHOWING THE DATA LIFE CYCLE FILTER, just this middle text
         <div cla-ss="styled-select blue semi-square" >
           <a href="#" class="filterbutton tagbutton" data-filter="all">All</a>
@@ -276,8 +293,8 @@ Removes duplicated tags
           <a href="#" class="filterbutton tagbutton" data-filter=".integrate">Integrate</a>
           <a href="#" class="filterbutton tagbutton" data-filter=".analyze">Analyze</a>
 -->
-<!-- Megan commented this out, add if you want the "Data Life Cycle" options -->
-		  <!--select id="soflow">
+
+		  <select id="soflow">
 			<option value="all">All</option>
 			<option value=".plan">Plan</option>
 			<option value=".collect">Collect</option>
@@ -288,7 +305,7 @@ Removes duplicated tags
 			<option value=".integrate">Integrate</option>
 			<option value=".analyze">Analyze</option>
 		  </select>
--->
+
 
 <!--THIS IS COMMENTED OUT EVEN WHEN SHOWING THE DATA LIFE CYCLE FILTER, leave commented out
 		<span class="dropdown">
@@ -311,6 +328,8 @@ Removes duplicated tags
         </div>
       </div>
     </div>
+  </div>
+</div>
 
     <div class="row">
       <div class="twelve columns">
@@ -343,10 +362,15 @@ Removes duplicated tags
   </div><!-- end of container -->
 </div><!-- end of wrap -->
 
-<div style="width:100%; padding:20px; margin:20px 0px 40px 50px; ">
+<div style="width:100%; background:#DCDCDC;"">
+<div style="width:90%; padding:20px; margin:20px 0px 40px 50px;">
   	<a href="./faq.html">Frequently Asked Questions</a>
+    <br />
+    <br />
+    <h3><i>Hosted by DataONE</i></h3>
+    <p> In collaboration with the community, <a href="https://www.dataone.org">DataONE</a> has developed high quality resources for helping educators and librarians with training in data management, including teaching materials, webinars and a database of best-practices to improve methods for data sharing and management. <br /> <br /></p>
+  </div>
 </div>
-
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	<script src="{{ site.baseurl }}/resources/lib/mixitup.3.1.9.min.js"></script>

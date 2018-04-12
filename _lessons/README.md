@@ -63,5 +63,5 @@ informations in our [contribution guidelines][CONTRIB].
 
 ## Maintainers
 
-The DataONE Education Modules are maintained by the Community Engagement and Outreach Working Group at DataONE. Please contact Amber Budden <aebudden at dataone.unm.edu> or Megan Mach <mach at unm.edu> with questions or updates.
+The DataONE Education Modules are maintained by the Community Engagement and Outreach Working Group at DataONE. Please contact Amber Budden [aebudden at dataone.unm.edu] or Megan Mach [mach at unm.edu] with questions or updates.
 <!-- TODO -->

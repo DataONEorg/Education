@@ -79,6 +79,6 @@ lesson) is in quotes.
 2. Your suggestions will be reviewed by a member of the DataONE CEO Working Group.
 3. Changes will be pushed to the repository by a CEO Working Group team member regularly/as needed.
 
-[issue]: https://github.com/DataONEorg/dataone_lessons/issues
+[issue]: https://github.com/DataONEorg/Education/issues
 
 Thank you for your interest in making these data management education modules more useful!

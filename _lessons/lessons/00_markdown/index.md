@@ -14,7 +14,7 @@ nextlesson: 01_management
 # Site Structure
 
 ~~~
-dataone_lessons/
+Education/
 ├── lessons/
 │   ├── lesson_folder/   <- A lesson, e.g. "00_markdown"
 │   │   └── ...
@@ -37,7 +37,7 @@ dataone_lessons/
 Each lesson is a separate folder in the `lessons` folder:
 
 ~~~
-dataone_lessons/
+Education/
 ├── lessons/
 │   ├── lesson_folder/   <- e.g. "00_markdown"
 │   │   ├── index.md     <- Markdown file that makes the actual presentation
@@ -56,7 +56,7 @@ dataone_lessons/
 ---
 # Lesson Presentation
 
-Each lesson is a single markdown document that is converted to HTML by [remark](https://github.com/gnab/remark) javascript. 
+Each lesson is a single markdown document that is converted to HTML by [remark](https://github.com/gnab/remark) javascript.
 
 Each slide starts with a `# title`, and ends with `---`:
 
@@ -64,10 +64,10 @@ Each slide starts with a `# title`, and ends with `---`:
  # This is the Slide Title
 
  This is the content of the slide.
- 
+
  ---
  # This is the Title of the Next Slide
- 
+
  This is the content of the next slide.
  ~~~
 
@@ -84,9 +84,9 @@ Lesson title and metadata go in the `yaml` header:
  title: "Lesson title"    <-- The Title of the Presentation
  update: Sept. 20, 2016   <-- When the slides where last edited
  layout: slides           <-- How the slides are rendered
-  
+
  ---
-  
+
  # Title of the first content slide
 ~~~
 
@@ -330,10 +330,10 @@ Then the column resumes after the split.
 ---
 #About Statement (final slide)
 
-Participate in our GitHub repo: [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+Participate in our GitHub repo: [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)
 
 **Suggested citation:**
-DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/dataone_lessons/](https://dataoneorg.github.io/dataone_lessons/)
+DataONE Education Module: Data Management. DataONE. Retrieved November 12, 2016. From [https://dataoneorg.github.io/Education/](https://dataoneorg.github.io/Education/)
 
 **Copyright license information:**
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.

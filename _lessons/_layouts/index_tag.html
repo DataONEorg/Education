@@ -58,14 +58,17 @@
   	article, footer {
   		margin:30px;
   	}
-  	header {
-  		border-bottom: 10px solid #660032;
+
+
+    header {
+  		border-bottom: 0px solid #660032;
   		background-color:#fff;
   	}
 
+
   	header img.pagelogo {
     padding: 15px 0px 0px 15px;
-    float: left;
+    float: right;
   	}
 
     header h1 {
@@ -73,8 +76,36 @@
       top: 10px;
       left: 0px;
       right:40px;
-      text-align: right;
+      text-align: left;
       color: #660033;
+    }
+
+    /* Add a plum background color to the top navigation */
+    .topnav {
+        background-color: #660032;
+        overflow: hidden;
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+        background-color: #2285A0;
+        color: white;
     }
 
 
@@ -112,7 +143,7 @@
     margin-bottom: 0px;
     font-style: normal;
     font-style: normal;
-    font-size: 100%;
+    font-size: 110%;
     color: #000;
     font-weight: 300;
   	}
@@ -183,11 +214,11 @@
     <h1>Community Education Resources</h1>
   </div>
 -->
-<div style = "width:97%; padding:10px; margin:0px 10px 0px 10px;">
-<header role='banner'>
-    <a href="https://www.dataone.org/" target="_blank"><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:30px'/></a> <h1>Community Education Resources</h1></p>
-  </header>
-</div>
+
+
+
+
+    {% include header.html %}
 
 {% comment %}
 The following part extracts all the tags from the lessons
@@ -272,13 +303,13 @@ Removes duplicated tags
       </div>
     </div-->
 
-<div style="width:100%; padding:20px; margin:0px 0px 0px 0px; background:#DCDCDC">
+<div style="width:100%; padding:20px; margin:0px 0px 0px 0px; background:#ececec">
   <div style = "width:95%; padding:0px; margin:0px 10px 0px 10px;">
   <h3><i>Using This Resource</i></h3>
   <p> Clicking to see more about each resource. You can limit resources by <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a> stage. Comprehensive information is available in the <a href="./faq.html">FAQ</a>. </p>
     <div class="row">
       <div class="twelve columns">
-        <div style="margin-left:60px; " >
+        <div style="margin-left:0px; " >
          Filter by stage of the Data Life Cycle
 
 <!-- THIS IS COMMENTED OUT EVEN WHEN SHOWING THE DATA LIFE CYCLE FILTER, just this middle text
@@ -362,15 +393,12 @@ Removes duplicated tags
   </div><!-- end of container -->
 </div><!-- end of wrap -->
 
-<div style="width:100%; background:#DCDCDC;"">
-<div style="width:90%; padding:20px; margin:20px 0px 40px 50px;">
-  	<a href="./faq.html">Frequently Asked Questions</a>
-    <br />
-    <br />
-    <h3><i>Hosted by DataONE</i></h3>
-    <p> In collaboration with the community, <a href="https://www.dataone.org/education" target="_blank">DataONE</a> has developed high quality resources for helping educators and librarians with training in data management, including teaching materials, webinars and a database of best-practices to improve methods for data sharing and management. <br /> <br /></p>
-  </div>
-</div>
+
+  {% include footer.html %}
+
+
+
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 	<script src="{{ site.baseurl }}/resources/lib/mixitup.3.1.9.min.js"></script>

@@ -22,41 +22,83 @@
 
 
   <style>
-  	section img.mainimage { 
-  		float: left; 
-  		border:1px solid #888; 
-  		padding:5px; 
-  		margin:0px 20px 20px 0px; 
+  	section img.mainimage {
+  		float: left;
+  		border:1px solid #888;
+  		padding:5px;
+  		margin:0px 20px 20px 0px;
   	}
   	body {
-  		padding:0px; margin:0px; 
+  		padding:0px; margin:0px;
   		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   	}
   	section {
-  		clear:both; 
+  		clear:both;
   	}
   	section h1 {
   		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  		color: #660032; 
+  		color: #660032;
   	}
   	article, footer {
-  		margin:30px; 
+  		margin:30px;
   	}
-  	header {
-  		border-bottom: 20px solid #660032; 
-  		background-color:#fff; 
+
+    header {
+  		border-bottom: 0px solid #660032;
+  		background-color:#fff;
   	}
+
+
   	header img.pagelogo {
-  		padding: 15px 0px 0px 15px; 
+    padding: 15px 0px 0px 15px;
+    float: right;
   	}
+
+    header h1 {
+      position: relative;
+      top: 10px;
+      left: 0px;
+      right:40px;
+      text-align: left;
+      color: #660033;
+    }
+
+    /* Add a plum background color to the top navigation */
+    .topnav {
+        background-color: #660032;
+        overflow: hidden;
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+        background-color: #2285A0;
+        color: white;
+    }
+
   	footer {
-  		font-size: .8em; 
+  		font-size: .8em;
   	}
-  	
+
   	h2 {
-		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;  	
+		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-top: 1em;
-    margin-bottom: 4px; 
+    margin-bottom: 4px;
     font-style: normal;
     font-style: normal;
     font-size: 125%;
@@ -70,7 +112,7 @@
 		margin-left: 10px;
 		clear: none;
 		display: inline-block;
-		color:#660033; 
+		color:#660033;
 		border: solid thin #660033;
 		font-weight: 600;
 		font-size: 90%;
@@ -79,28 +121,28 @@
 	}
 	a.filterbutton:hover {
 	  background-color:#660033;
-	  color:#fff; 
+	  color:#fff;
 	}
 
 	a.programs-filter-btn-active {
 	  background-color:#660033;
-	  color:#fff; 
+	  color:#fff;
 	}
 	a.programs-control-active {
 	  background-color:#660033;
-	  color:#fff; 
+	  color:#fff;
 	}
 
 
 	a.tagbutton {
-		text-transform: none; 
+		text-transform: none;
 	}
-	
+
 	.btn_teaching_module { background-color: #d0e3db; }
 	.btn_technical_tutorial { background-color: #ebdadc; }
 
 	#wrapper {
-		margin:0px 40px 20px 40px; 
+		margin:0px 40px 20px 40px;
 	}
 
   </style>
@@ -109,9 +151,14 @@
 </head>
 
 <body>
+
+  <!--MEGAN PUT IN NEW HEADER, THIS IS THE ORIGINAL FOR REFERENCE
   <header role='banner'>
-    <a href='{{ site.baseurl }}/'><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:24px'/></a></p>
+    <a href='https://www.dataone.org/'><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:24px'/></a></p>
   </header>
+-->
+
+    {% include header.html %}
 
   <div id=wrapper>
   {{ content }}

@@ -50,28 +50,70 @@
   	article, footer {
   		margin:30px;
   	}
-    header {
-      border-bottom: 10px solid #660032;
-      background-color:#fff;
-    }
 
-    header img.pagelogo {
+    header {
+  		border-bottom: 0px solid #660032;
+  		background-color:#fff;
+  	}
+
+
+  	header img.pagelogo {
     padding: 15px 0px 0px 15px;
-    float: left;
-    }
+    float: right;
+  	}
 
     header h1 {
       position: relative;
       top: 10px;
       left: 0px;
       right:40px;
-      text-align: right;
+      text-align: left;
       color: #660033;
+    }
+
+    /* Add a plum background color to the top navigation */
+    .topnav {
+        background-color: #660032;
+        overflow: hidden;
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+        background-color: #2285A0;
+        color: white;
     }
 
   	footer {
   		font-size: .8em;
   	}
+
+    p {
+		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-style: normal;
+    font-size: 110%;
+    color: #000;
+    font-weight: 300;
+  	}
+
   </style>
 
 </head>
@@ -84,12 +126,7 @@
     <a href='https://www.dataone.org/'><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:24px'/></a></p>
   </header>
 -->
-
-<div style = "width:97%; padding:10px; margin:0px 10px 0px 10px;">
-<header role='banner'>
-    <a href="https://www.dataone.org/" target="_blank"><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:30px'/></a> <h1>Community Education Resources</h1></p>
-  </header>
-</div>
+    {% include header.html %}
 
   <article class='container'>
     <section role='complimentary' class='keep-together'>
@@ -103,7 +140,7 @@
 
   <div style="float:left; width:550px;">
     <div style="float:left; width:440px; margin:0px; font-size:180%;"><a href='index.html'><img src="{{ site.baseurl }}/resources/images/presentation.png" width=30 style="padding-right:8px;">  Presentation View</a></div>
-    <div style="float:left; width:440px; margin:0px; font-size:80%;"><p><em>press p for presentation; f for full screen</em></p></div>
+    <div style="float:left; width:440px; margin:0px; font-size:80%;"><p><em>Quick tips: Press p for presentation; f for full screen</em></p></div>
     <div style="float:left; width:440px; margin:0px; font-size:100%;"><p><strong>Supporting downloads:</strong></p></div>
 		  <div style="float:left; width:220px; margin:5px; "><a href='{{ldeck}}.pdf'><img src="{{ site.baseurl }}/resources/images/pdf.png" width=30  style="padding-right:8px;">  PDF Download</a></div>
 		  {% if lesson.ppt %}
@@ -112,12 +149,12 @@
 		  {% if lesson.handout %}
 			  <div style="float:left; width:220px; margin:5px; "><a href='{{lesson.handout}}'><img src="{{ site.baseurl }}/resources/images/handout.png" width=30  style="padding-right:8px;">  Handout</a></div>
 		  {% endif %}
-		  {% if lesson.datafiles %}
-			  <div style="float:left; width:220px; margin:5px; "><a href='{{lesson.datafiles}}'><img src="{{ site.baseurl }}/resources/images/data.png" width=30  style="padding-right:8px;">  Supporting Data Files</a></div>
-		  {% endif %}
 		  {% if lesson.exercise %}
 			  <div style="float:left; width:220px; margin:5px; "><a href='{{lesson.exercise}}'><img src="{{ site.baseurl }}/resources/images/doc.png" width=30  style="padding-right:8px;">  Hands on Exercise</a></div>
 		  {% endif %}
+      {% if lesson.datafiles %}
+        <div style="float:left; width:220px; margin:5px; "><a href='{{lesson.datafiles}}'><img src="{{ site.baseurl }}/resources/images/data.png" width=30  style="padding-right:8px;">  Supporting Data Files</a></div>
+      {% endif %}
 		</div>
 		<br clear=all>
 <!-- no images -->
@@ -144,9 +181,11 @@
         {{ page.content | markdownify }}
     </section>
 		<section>
+      <br />
 			<strong>Cite this lesson: </strong><br />
 			{{ lesson.author }} ({{ page.update | date: '%Y' }}) "{{ lesson.title }}". Accessed at {{site.url}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
       </p>
+      <br />
 		</section>
 
 <!--    << <a href="{{ site.baseurl }}/lessons/{{ lesson.prevlesson }}/cover.html">Previous lesson</a> | <a href="{{ site.baseurl }}/lessons/{{ lesson.nextlesson }}/cover.html">Next lesson</a> >><br>
@@ -165,6 +204,7 @@
 
 
   <footer>
+
     <div>
     	Version date: {{ page.update | date: '%b %d, %Y' }}<br>
         <!-- Build revision: <a href='{{ site.github.repository_url}}/commit/{{ site.github.build_revision }}'>{{ site.github.build_revision }}</a> -->

@@ -5,11 +5,11 @@
 #  2. a screen shot of the first page of the lesson
 #
 # It requires that you have a copy of decktape installed in
-# the bin folder of your home directory. See: 
+# the bin folder of your home directory. See:
 #   https://github.com/astefanutti/decktape
 #
 # The script assumes that jekyll is running locally and the slides
-# are accessible through http://localhost:4000/dataone_lessons/lessons/
+# are accessible through http://localhost:4000/Education/lessons/
 #
 # Run the script from the same folder that the script is located in like:
 #
@@ -18,7 +18,7 @@
 
 DEST="$(pwd)/lessons"
 DECKTAPE="${HOME}/bin/decktape-1.0.0"
-BASEURL="http://localhost:4000/dataone_lessons/lessons/"
+BASEURL="http://localhost:4000/Education/lessons/"
 SSIZE="251x188"
 SSHOT="--screenshots --screenshots-size ${SSIZE} --slides 1"
 #SSHOT="${SSHOT} --screenshots-directory ${1}"

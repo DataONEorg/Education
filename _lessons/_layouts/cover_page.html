@@ -27,32 +27,50 @@
   {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
 {% endfor %}
   <style>
-  	section img.mainimage { 
-  		float: left; 
-  		border:1px solid #888; 
-  		padding:5px; 
-  		margin:0px 20px 20px 0px; 
+  	section img.mainimage {
+  		float: left;
+  		border:1px solid #888;
+  		padding:5px;
+  		margin:0px 20px 20px 0px;
   	}
   	body {
   	}
+
+    a { color: #2285A0; text-decoration: none; }
+    a:visited { color: #2285a0; }
+    a:hover { color: #111; text-decoration: underline; }
+
   	section {
-  		clear:both; 
+  		clear:both;
   	}
   	section h1 {
   		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  		color: #660032; 
+  		color: #660032;
   	}
   	article, footer {
-  		margin:30px; 
+  		margin:30px;
   	}
-  	header {
-  		border-bottom: 20px solid #660032; 
-  	}
-  	header img.pagelogo {
-  		padding: 15px 0px 0px 15px; 
-  	}
+    header {
+      border-bottom: 10px solid #660032;
+      background-color:#fff;
+    }
+
+    header img.pagelogo {
+    padding: 15px 0px 0px 15px;
+    float: left;
+    }
+
+    header h1 {
+      position: relative;
+      top: 10px;
+      left: 0px;
+      right:40px;
+      text-align: right;
+      color: #660033;
+    }
+
   	footer {
-  		font-size: .8em; 
+  		font-size: .8em;
   	}
   </style>
 
@@ -61,27 +79,44 @@
 
 <body>
 <main role='main'>
+  <!--MEGAN PUT IN NEW HEADER, THIS IS THE ORIGINAL FOR REFERENCE
   <header role='banner'>
     <a href='https://www.dataone.org/'><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:24px'/></a></p>
   </header>
+-->
+
+<div style = "width:97%; padding:10px; margin:0px 10px 0px 10px;">
+<header role='banner'>
+    <a href="https://www.dataone.org/" target="_blank"><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:30px'/></a> <h1>Community Education Resources</h1></p>
+  </header>
+</div>
+
   <article class='container'>
     <section role='complimentary' class='keep-together'>
       <div class=border1><a href='index.html'><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png" style="max-width: 100%; max-height:203px" class="mainimage" /></a></div>
 <!-- images -->
+
+  <!-- MEGAN ATTEMPTS TO CREATE TOP FLOATEING PRESENTATION, COPY OF ORIGINAL HTML
       <div style="float:left; width:550px;">
 		  <div style="float:left; width:220px; margin:10px;"><a href='index.html'><img src="{{ site.baseurl }}/resources/images/presentation.png" width=30 style="padding-right:8px;">  Presentation View</a></div>
-		  <div style="float:left; width:220px; margin:10px; "><a href='{{ldeck}}.pdf'><img src="{{ site.baseurl }}/resources/images/pdf.png" width=30  style="padding-right:8px;">  PDF Download</a></div> 
+    -->
+
+  <div style="float:left; width:550px;">
+    <div style="float:left; width:440px; margin:0px; font-size:180%;"><a href='index.html'><img src="{{ site.baseurl }}/resources/images/presentation.png" width=30 style="padding-right:8px;">  Presentation View</a></div>
+    <div style="float:left; width:440px; margin:0px; font-size:80%;"><p><em>press p for presentation; f for full screen</em></p></div>
+    <div style="float:left; width:440px; margin:0px; font-size:100%;"><p><strong>Supporting downloads:</strong></p></div>
+		  <div style="float:left; width:220px; margin:5px; "><a href='{{ldeck}}.pdf'><img src="{{ site.baseurl }}/resources/images/pdf.png" width=30  style="padding-right:8px;">  PDF Download</a></div>
 		  {% if lesson.ppt %}
-		  	<div style="float:left; width:220px; margin:10px; "><a href='https://www.dataone.org/sites/all/documents/education-modules/pptx/{{lesson.ppt}}'><img src="{{ site.baseurl }}/resources/images/doc_ppt.png" width=30  style="padding-right:8px;">  PPT Download</a></div> 
+		  	<div style="float:left; width:220px; margin:5px; "><a href='https://www.dataone.org/sites/all/documents/education-modules/pptx/{{lesson.ppt}}'><img src="{{ site.baseurl }}/resources/images/doc_ppt.png" width=30  style="padding-right:8px;">  PPT Download</a></div>
 		  {% endif %}
 		  {% if lesson.handout %}
-			  <div style="float:left; width:220px; margin:10px; "><a href='{{lesson.handout}}'><img src="{{ site.baseurl }}/resources/images/handout.png" width=30  style="padding-right:8px;">  Handout</a></div> 
+			  <div style="float:left; width:220px; margin:5px; "><a href='{{lesson.handout}}'><img src="{{ site.baseurl }}/resources/images/handout.png" width=30  style="padding-right:8px;">  Handout</a></div>
 		  {% endif %}
 		  {% if lesson.datafiles %}
-			  <div style="float:left; width:220px; margin:10px; "><a href='{{lesson.datafiles}}'><img src="{{ site.baseurl }}/resources/images/data.png" width=30  style="padding-right:8px;">  Supporting Data Files</a></div> 
+			  <div style="float:left; width:220px; margin:5px; "><a href='{{lesson.datafiles}}'><img src="{{ site.baseurl }}/resources/images/data.png" width=30  style="padding-right:8px;">  Supporting Data Files</a></div>
 		  {% endif %}
 		  {% if lesson.exercise %}
-			  <div style="float:left; width:220px; margin:10px; "><a href='{{lesson.exercise}}'><img src="{{ site.baseurl }}/resources/images/doc.png" width=30  style="padding-right:8px;">  Hands on Exercise</a></div> 
+			  <div style="float:left; width:220px; margin:5px; "><a href='{{lesson.exercise}}'><img src="{{ site.baseurl }}/resources/images/doc.png" width=30  style="padding-right:8px;">  Hands on Exercise</a></div>
 		  {% endif %}
 		</div>
 		<br clear=all>
@@ -89,18 +124,18 @@
 <!--
       <div>
 		  <p><a href='index.html'>  Presentation View</a></p>
-		  <p><a href='{{ldeck}}.pdf'>  PDF Download</a></p> 
+		  <p><a href='{{ldeck}}.pdf'>  PDF Download</a></p>
 		  {% if lesson.handout %}
-			  <p><a href='{{lesson.handout}}'>  Handout</a></p> 
+			  <p><a href='{{lesson.handout}}'>  Handout</a></p>
 		  {% endif %}
 		  {% if lesson.exercise %}
-			  <p><a href='{{lesson.exercise}}'>  Hands on Exercise</a></p> 
+			  <p><a href='{{lesson.exercise}}'>  Hands on Exercise</a></p>
 		  {% endif %}
 		  {% if lesson.datafiles %}
-			  <p><a href='{{lesson.datafiles}}'>  Supporting Data Files</a></p> 
+			  <p><a href='{{lesson.datafiles}}'>  Supporting Data Files</a></p>
 		  {% endif %}
 		  {% if lesson.ppt %}
-		  <p><a href='https://www.dataone.org/sites/all/documents/education-modules/pptx/{{lesson.ppt}}'>  PPT Download</a></p> 
+		  <p><a href='https://www.dataone.org/sites/all/documents/education-modules/pptx/{{lesson.ppt}}'>  PPT Download</a></p>
 		  {% endif %}
 		</div>
 -->
@@ -113,22 +148,22 @@
 			{{ lesson.author }} ({{ page.update | date: '%Y' }}) "{{ lesson.title }}". Accessed at {{site.url}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
       </p>
 		</section>
-    
+
 <!--    << <a href="{{ site.baseurl }}/lessons/{{ lesson.prevlesson }}/cover.html">Previous lesson</a> | <a href="{{ site.baseurl }}/lessons/{{ lesson.nextlesson }}/cover.html">Next lesson</a> >><br>
-    <a href="{{ site.baseurl }}/">Back to list</a>
+    <a href="{{ site.baseurl }}/">Home</a>
     -->
-    <a href="{{ site.baseurl }}/lessons/{{ lesson.prevlesson }}/cover.html"><img src="{{site.baseurl}}/resources/images/arrow_left2.png" style="margin-right:15px;"></a>
-	<a href="{{ site.baseurl }}/">Back to list</a>
-    <a href="{{ site.baseurl }}/lessons/{{ lesson.nextlesson }}/cover.html"><img src="{{site.baseurl}}/resources/images/arrow_right2.png" style="margin-left:15px;"></a>
+    <a href="{{ site.baseurl }}/lessons/{{ lesson.prevlesson }}/cover.html"><img src="{{site.baseurl}}/resources/images/arrow_left3.png" style="margin-right:10px; max-height:20px"></a>
+	<a href="{{ site.baseurl }}/"><strong>Home</strong></a>
+    <a href="{{ site.baseurl }}/lessons/{{ lesson.nextlesson }}/cover.html"><img src="{{site.baseurl}}/resources/images/arrow_right3.png" style="margin-left:10px; max-height:20px;"></a>
   </article>
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
   <footer>
     <div>
     	Version date: {{ page.update | date: '%b %d, %Y' }}<br>

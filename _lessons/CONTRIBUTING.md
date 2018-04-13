@@ -1,3 +1,8 @@
+---
+title: Contributing to Lessons
+layout: layout
+---
+
 
 # Guidelines for contributors and content editors
 
@@ -5,7 +10,7 @@ Thank you for your interest in contributing to this educational material! This d
 introduction to the ways the lessons are organized, the tools we use to display
 them, and the type of modifications we expect.
 
-This repository was developed by the DataONE Community Engagement and Outreach Working Group and continues to be maintained by members of this team. Information about suggesting changes or adding new content may be found below. 
+This repository was developed by the DataONE Community Engagement and Outreach Working Group and continues to be maintained by members of this team. Information about suggesting changes or adding new content may be found below.
 
 ## Structure of the modules
 
@@ -71,9 +76,9 @@ lesson) is in quotes.
 ### Workflow for suggesting changes
 
 1. Open an [*Issue*][issue] on this repository.
-2. Your suggestions will be reviewed by a member of the DataONE CEO Working Group. 
-3. Changes will be pushed to the repository by a CEO Working Group team member regularly/as needed. 
+2. Your suggestions will be reviewed by a member of the DataONE CEO Working Group.
+3. Changes will be pushed to the repository by a CEO Working Group team member regularly/as needed.
 
-[issue]: https://github.com/DataONEorg/dataone_lessons/issues
+[issue]: https://github.com/DataONEorg/Education/issues
 
 Thank you for your interest in making these data management education modules more useful!

@@ -27,8 +27,8 @@ a brief description of the lesson. The slides themselves are in a file called
 lesson][demolessonhtml] markdown file can be [viewed here][demolessonmd]. This
 demonstration lesson showcases most of the features you can use in your slides.
 
-[demolessonhtml]: https://dataoneorg.github.io/Education/pages/00_markdown/index.html "Rendered demonstration lesson"
-[demolessonmd]: https://github.com/DataONEorg/Education/blob/master/pages/00_markdown/index.md "Raw markdown file for the demonstration lesson"
+[demolessonhtml]: https://dataoneorg.github.io/Education/lessons/00_markdown/index.html "Rendered demonstration lesson"
+[demolessonmd]: https://github.com/DataONEorg/Education/blob/master/lessons/00_markdown/index.md "Raw markdown file for the demonstration lesson"
 
 You are free to add other directories to your lesson. Images go in `images`, and
 PDF files in `pdf`. For example, a lesson repository could look like:

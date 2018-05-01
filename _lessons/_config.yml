@@ -1,13 +1,11 @@
-title: Your awesome title
-email: your-email@domain.com
+title: Community Education Resources for Data Management
+email: https://www.dataone.org/contact
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This GitHub page contains education resources for better data management and is open to community input and update. These resources are intended for researchers, teachers, librarians, or anyone who needs to learn better data management practices.
 baseurl: "/Education" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: DataONEorg
+github_username:  DataONEorg
 analytics_code: "UA-15017327-22"
 
 # Format for the slides, can be either 16:9 or 4:3

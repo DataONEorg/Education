@@ -15,7 +15,7 @@
 <!--[if IE]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-  <link rel="stylesheet" href="{{ site.baseurl }}/resources/css/normalize.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/resources/normalize.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
   <script src="{{ site.baseurl }}/js/vendor/modernizr-2.8.3.min.js"></script>
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/resources/cover_page.css" />
@@ -69,6 +69,7 @@
       right:40px;
       text-align: left;
       color: #660033;
+      font-weight: 400;
     }
 
     /* Add a plum background color to the top navigation */
@@ -133,7 +134,7 @@
       <div class=border1><a href='index.html'><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/Cover.png" style="max-width: 100%; max-height:203px" class="mainimage" /></a></div>
 <!-- images -->
 
-  <!-- MEGAN ATTEMPTS TO CREATE TOP FLOATEING PRESENTATION, COPY OF ORIGINAL HTML
+  <!-- MEGAN ATTEMPTS TO CREATE TOP FLOATING PRESENTATION, COPY OF ORIGINAL HTML
       <div style="float:left; width:550px;">
 		  <div style="float:left; width:220px; margin:10px;"><a href='index.html'><img src="{{ site.baseurl }}/resources/images/presentation.png" width=30 style="padding-right:8px;">  Presentation View</a></div>
     -->
@@ -183,7 +184,7 @@
 		<section>
       <br />
 			<strong>Cite this lesson: </strong><br />
-			{{ lesson.author }} ({{ page.update | date: '%Y' }}) "{{ lesson.title }}". Accessed at dataoneorg.github.io/Education/{{site.url}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
+			{{ lesson.author }} ({{ page.update | date: '%Y' }}) "{{ lesson.title }}". Accessed at {{site.url}}{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
       </p>
       <br />
 		</section>

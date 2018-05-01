@@ -2,7 +2,7 @@
 
 This repository is a central location for education materials focused on data management. We invite all kinds of materials, please consider [contributing][CONTRIB]. Examples include: tutorials, best practices, exercises, presentations, etc.
 
-As of April 2018 the repository contains DataONE Education Modules to serve as an example of what materials can be added to the repo. These Module have been translated from PowerPoint format to a more easily updated format that you can view in your browser. Each Education Module contains a set of slides with annotations, as well as a hands on exercise and a one-page explanatory sheet are intended to be flexible and updated by a range of users and audiences. Please let us know what you think!
+As of April 2018 the repository contains DataONE Education Modules to serve as an example of what materials can be added to the repo. These Modules have been translated from PowerPoint format to a more easily updated format that you can view in your browser. Each Education Module contains a set of slides with annotations, as well as a hands on exercise, a one-page explanatory sheet, and occasionally data. These resources are intended to be flexible and updated by a range of users and audiences. Please let us know what you think!
 
 [CONTRIB]: CONTRIBUTING.md "Contribution guidelines"
 

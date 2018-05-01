@@ -7,7 +7,7 @@ tags: ["Data Management", Policy, Plan]
 categories: ["Teaching Module"]
 status: published
 prevlesson: 09_analysis
-nextlesson: 00_markdown
+nextlesson: 01_management
 handout: L10_Exercise_LegalPolicyIssues.docx
 ppt: L10_Exercise_LegalPolicyIssues.pptx
 exercise: L10_LegalPolicy_Handout.pdf
@@ -20,7 +20,7 @@ class: center, middle
 images/image12.jpg)
   *http://www.therealestatemedia.com/wp-content/uploads/2012/05/real-estate-investment-scam.jpg*
   ]
- 
+
 ---
 
 # Learning Outcomes
@@ -42,7 +42,7 @@ After completing this lesson, participants will be able to:
  * e.g., Institutional Review Board (IRB) & Institutional Animal Care and Use Committees (IACUC)
 * Policy -  a specified “course of action adopted for the sake of expediency, facility, etc.”
  * e.g., Paperwork Reduction Act
-  
+
 <footer>-- Definitions from Dictionary.com</footer>
 
 ???
@@ -112,7 +112,7 @@ Remember, stewardship doesn’t equal ownership.
 
 Similarly, control over data does not lead to ownership.  Rights of control over data or access to data can be given without shifting ownership.
 
-Example:  A data set, produced under a federal grant, contained within an institutional data repository may be owned by that institution.  The PI of the project that generated that data, while not the owner, maybe grants the authority to restrict or release access to that data, or limit the use of the data by others.  In this circumstance, the PI can claim control of the data without the ability to claim ownership. 
+Example:  A data set, produced under a federal grant, contained within an institutional data repository may be owned by that institution.  The PI of the project that generated that data, while not the owner, maybe grants the authority to restrict or release access to that data, or limit the use of the data by others.  In this circumstance, the PI can claim control of the data without the ability to claim ownership.
 
 ---
 
@@ -133,12 +133,12 @@ Example:  A data set, produced under a federal grant, contained within an instit
 ???
 
 Does the funder who paid for the research own the data?  Check the funder agreement to see who maintains ownership of the data.
- 
+
 The Bayh-Dole Act of 1980 made it possible for universities to maintain ownership of outputs from federally funded research projects.
 
 Does the graduate student who collected the data have ownership? What about the Principle Investigator?  Check the IP policy of your institution.  Some institutions have clear policies on what students may take with them when they move on.  IP policies should also indicate when research outputs belong to the institution and when they belong to the researcher.
 If access to the data for your research is provided through a private company, you will need to check the data use agreement to identify if they are maintaining ownership of that data.
-Is there a license already attached to the data?  If there is a CC0 license attached, the data owner has waived all claims and it is in the public domain. This applies if you are using someone else’s data for your research. 
+Is there a license already attached to the data?  If there is a CC0 license attached, the data owner has waived all claims and it is in the public domain. This applies if you are using someone else’s data for your research.
 
 Most universities and government agencies have written policies that state that they retain ownership over all products produced by employees and contractors.  Faculty, staff, and students (usually graduate students) might retain copyright over their “traditional scholarly products”, but that term may refer to a narrow range of products and may not pertain to data or data products.  Rights may vary by discipline.
 
@@ -195,7 +195,7 @@ Reference: http://fairuse.stanford.edu/overview/faqs/copyright-basics/
 
 .center[![Image Attribution: http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg](images/image06.jpg)
   *http://www.romakerlaw.com/blog/wp-content/uploads/2015/07/doctelportal.jpg*]
-  
+
 ???
 
 Feist vs. Rural:
@@ -300,7 +300,7 @@ When using data:
 
 ???
 
-Norms are standards agreed upon by the community to guide behaviors and conduct. 
+Norms are standards agreed upon by the community to guide behaviors and conduct.
 Resource: http://www.vertnet.org/resources/norms.html
 
 ---
@@ -350,7 +350,7 @@ National Security
 The restrictions surrounding this data should be explicitly understood from the beginning of your research
 
 Export controls
-These regulations are crafted in such a manner that publicly available, fundamental research results are excluded from the regulatory requirements for approvals or licenses. 
+These regulations are crafted in such a manner that publicly available, fundamental research results are excluded from the regulatory requirements for approvals or licenses.
 Reference: http://vcresearch.berkeley.edu/export-controls
 
 Human subjects
@@ -395,8 +395,8 @@ Re: Open vs. Proprietary.  Universities and other umbrella entities may retain o
 ]
 
 .one-half[
-Involves: 
-* What we can collect and how 
+Involves:
+* What we can collect and how
 * How we share data, results and outcomes
 * Reuse of human subject data
 * Data storage and destruction
@@ -435,7 +435,7 @@ Locking doors and drawing curtains are actions to control others’ access to ou
 ---
 
 # Summary
- 
+
 * Know who can claim ownership or control over data products
 * Assign licenses or waivers appropriately
 * Behave ethically and in accordance with established community norms
@@ -476,5 +476,3 @@ DataONE Education Module: Legal & Policy Issues. DataONE. Retrieved November 12,
 No rights reserved; you may enhance and reuse for your own purposes.  We do ask that you provide appropriate citation and attribution to DataONE.
 
 ![CCBY0](images/CC0PublicDomain.png)
-
-

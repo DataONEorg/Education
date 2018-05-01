@@ -43,7 +43,7 @@ PDF files in `pdf`. For example, a lesson repository could look like:
     one-pager.pdf
 ~~~
 
-## Informations about the tools used
+## Information about the tools used
 
 The markdown documents are rendered into a website using [*Jekyll*][jekyll]. The slides
 themselves are rendered using [*remarkjs*][remark]. The rendering is done using github

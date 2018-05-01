@@ -6,7 +6,7 @@ layout: slides
 status: published
 tags: ["Data Management", Plan, Collect, Integrate, Assure, Preserve, Describe, Discover, Analyze]
 categories: ["Teaching Module"]
-prevlesson: 00_markdown
+prevlesson: 10_policy
 nextlesson: 02_datasharing
 handout: L01_DataManagement_Handout.pdf
 ppt: L01_DataManagement.pptx
@@ -176,7 +176,7 @@ being backed up as it would have been if stored on a server.*
 ![](images/image34.jpeg)
 *CC Image by ruffin_Ready on Flickr* ]
 
-.two-third[In preparation for a Resource Management Plan, an office discovered 14 duplicate GPS inventories of roads. However, because none of the inventories had enough metadata, it was impossible to know which inventory was best or if any of the inventories actually met their requirements. 
+.two-third[In preparation for a Resource Management Plan, an office discovered 14 duplicate GPS inventories of roads. However, because none of the inventories had enough metadata, it was impossible to know which inventory was best or if any of the inventories actually met their requirements.
 
 **Solution:**  Re-Inventory roads
 
@@ -190,7 +190,7 @@ being backed up as it would have been if stored on a server.*
 # Importance of Data Management
 
 
->"Please forgive my paranoia about protocols, standards, and data review. I'm in the latter stages of a long career with USGS (30 years, and counting), and have experienced much. Experience is the knowledge you get just after you needed it. Several times, I've seen colleagues called to court in order to testify about conditions they have observed. Without a strong tradition of constant review and approval of basic data, they would've been in deep trouble under cross-examination. 
+>"Please forgive my paranoia about protocols, standards, and data review. I'm in the latter stages of a long career with USGS (30 years, and counting), and have experienced much. Experience is the knowledge you get just after you needed it. Several times, I've seen colleagues called to court in order to testify about conditions they have observed. Without a strong tradition of constant review and approval of basic data, they would've been in deep trouble under cross-examination.
 Instead, they were able to produce field notes, data approval records, and the like, to back up their testimony. It's one thing to be questioned by a college student who is working on a project for school. It's another entirely to be grilled by an attorney under oath with the media present.”
 
 <footer>Nelson Williams, Scientist US Geological Survey</footer>
@@ -246,7 +246,7 @@ Manage your data for yourself:
 ---
 
 # Why Data Management:
-## Foundation to Advance Science 
+## Foundation to Advance Science
 
 Data should be managed to:
 * Maximize the effective use and value of data & information assets

@@ -82,3 +82,7 @@ lesson) is in quotes.
 [issue]: https://github.com/DataONEorg/Education/issues
 
 Thank you for your interest in making these data management education modules more useful!
+
+
+Adding a Webinar
+Add a new subfolder in the lessons folder.

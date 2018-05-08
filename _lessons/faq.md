@@ -11,10 +11,10 @@ layout: layout
 
 ### What materials can I find on the Community Education Resources page?
 
-You will find a series of resources that help users better manage their data, broken down by data life-cylce. Each resource is comprised of supporting materials, such a set of slides with presenter notes, a one-page explanatory sheet, and a hands-on exercise. These materials are meant to be flexible, usable and adaptable for use in a range of contexts. For example, they can be used for personal education, in classroom settings, by librarians teaching data management workshops, and more. 
+You will find a series of resources that help users better manage their data, broken down by data life-cycle. Each resource is comprised of supporting materials, such a set of slides with presenter notes, a one-page explanatory sheet, and a hands-on exercise. These materials are meant to be flexible, usable and adaptable for use in a range of contexts. For example, they can be used for personal education, in classroom settings, by librarians teaching data management workshops, and more. 
 
 ### How did you decide what information to include in the Community Education Resources?
-The education resources were initially developed in 2011-2012 and went through a process of peer review and revision in 2015. In 2016, the  resources were moved to an open git repository (GitHub) to increase community engagement around the materials, and also to build interest in shared maintenance and ongoing sustainability. The decisions and process are described more fully in the publication [Using Peer Review to Support Development of Community Resources for Research Data Management].
+The education resources were initially developed in 2011-2012 and went through a process of peer review and revision in 2015. In 2016, the  resources were moved to an open git repository (GitHub) to increase community engagement around the materials, and also to build interest in shared maintenance and ongoing sustainability. The decisions and process are described more fully in the publication [Using Peer Review to Support Development of Community Resources for Research Data Management][MnmgtPub].
 
 ### How do I access and view the materials associated with each topic?
 
@@ -46,3 +46,4 @@ The Community Education Resources are maintained by the Community Engagement and
 
 [website]: ./ "Lessons homepage"
 [CONTRIB]: ./CONTRIBUTING.html "Contribution guidelines"
+[MnmgtPub]: http://dx.doi.org/10.7191/jeslib.2017.1114 "Peer-review in Data Management"

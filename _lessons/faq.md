@@ -6,25 +6,25 @@ layout: layout
 
 # Frequently Asked Questions
 
-This repository contains DataONE Education Modules that have been updated and translated from PowerPoint format to a more easily updated format. Each Education Module contains a set of slides with annotations, as well as a hands on exercise and a one-page explanatory sheet that distills the main points and lessons to take away. The Education Modules are intended to be flexible and updated by a range of users and audiences. Please let us know what you think!
 
-## Guidelines for presenters
+## Information for presenters
 
-### Where to find the material?
+### What material can I find on the Community Education Resources page?
 
-A list of the lessons can be found on [the website associated][website] with this
-repository. The first page will present you with a list of the available lessons, and
-clicking on each lesson will launch the presentations.
+You will find a series of resources that contain best practices for better data management, broken down by topic. Each topic is comprised of three parts: a set of slides with presenter notes, a one-page explanatory sheet, and a hands-on exercise. These materials are meant to be flexible, usable and adaptable for use in a range of contexts. For example, they can be used for personal education, in classroom settings, by librarians teaching data management workshops, and more. 
 
-### What material is included?
 
-Each of the DataONE Education Modules is comprised of three parts: a set of slides with presenter notes, a one-page explanatory sheet, and a hands-on exercise. These materials are meant to be flexible. They are usable and adaptable for use in a range of contexts-- for personal education, in classroom settings, by librarians teaching data management workshops, and more.
+### How do I access and view the materials associated with each topic?
 
-### How does this work?
+You can access the materials by clicking on each individual topic tile on the Community Education Resources Home page [the website associated][website]. The slides are provided as HTML documents that you can view and present in your browser, with or without the annotated notes. Please note that your browser needs to allow Javascript, and that Firefox, Chrome, and Safari browsers should be up-to-date. 
 
-The slides are provided as HTML documents that you can view and present in your browser, with or without the annotated notes. Everything should work in recent versions of the Firefox, Chrome, and Safari browsers. Please note that your browser needs to allow Javascript.
 
-### Presentation mode
+### Can I edit or modify the existing content within the Community Education Resources page?
+
+Yes. It is okay for you to make changes to the content and redistribute in ways that suit your needs, such as PowerPoint. We just ask that you provide appropriate citation and attribution to DataONE. 
+
+
+### How do I give a presentation using these slides?
 
 Every slide deck can be opened or "cloned," in Github speak by pressing `c`. This will open it in another
 pop-up window. Your browser may prompt you to allow or reject this pop-up window. Presentation mode can be activated by pressing 'p' on the slides page. This mode should open the "presentation view" on your screen, and the viewer mode on the screen for your audience. You can also press `f` for fullscreen.
@@ -32,12 +32,17 @@ pop-up window. Your browser may prompt you to allow or reject this pop-up window
 You can change slides by pressing the left and right arrows, or by swiping left
 or right on a touch-enabled device.
 
-## Guidelines for content editors
+### How should I cite this content?
+
+Within each topic, a citation to the lessen is provided.
+
+
+## Information for content editors
 
 See [the contribution guidelines][CONTRIB].
 
-## Maintainers
-The DataONE Education Modules are maintained by the Community Engagement and Outreach Working Group at DataONE. Please contact Amber Budden [aebudden at dataone.unm.edu] or Megan Mach [mach at unm.edu] with questions or updates.
+## Who maintains the Community Education Resources content?
+The Community Education Resources are maintained by the Community Engagement and Outreach Working Group at DataONE. Please contact Amber Budden [aebudden at dataone.unm.edu] or Megan Mach [mach at unm.edu] with questions or updates.
 <!-- TODO -->
 
 [website]: ./ "Lessons homepage"

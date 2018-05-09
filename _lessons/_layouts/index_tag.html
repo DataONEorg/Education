@@ -301,6 +301,7 @@ Removes duplicated tags
     <p> Click to see more about each resource. You can limit resources by each <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a> stage. Comprehensive information is available in the <a href="./faq.html">FAQ</a>. </p>
     <br/>
 <!-- Megan commented this out, add if you want the different category options back -->
+    {% if site.show_content_type_filter == 1 %}
     <div class="row">
       <div class="twelve columns">
         <div id="filterbuttons" style="margin-left:0px;">
@@ -314,7 +315,7 @@ Removes duplicated tags
         </div>
       </div>
     </div>
-
+    {% endif %}
 
     <div class="row">
       <div class="twelve columns">

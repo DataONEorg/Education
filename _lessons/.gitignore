@@ -2,3 +2,5 @@
 _site/
 _config.yml 
 Gemfile.lock
+.idea
+

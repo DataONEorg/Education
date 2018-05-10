@@ -32,7 +32,7 @@ Clear, descriptive, and unique file names may be important when your data file i
 - Confirm a match between data and their description in metadata
 - Describe the contents of data files
 
-### Additional Information:
+## Additional Information
 
 Hook, Les A., Suresh K. Santhana Vannan, Tammy W. Beaty, Robert B. Cook, and Bruce E. Wilson. 2010. Best Practices for Preparing Environmental Data Sets to Share and Archive. Available online http://daac.ornl.gov/PI/BestPractices-2010.pdf from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A. doi:10.3334/ORNLDAAC/BestPractices-2010
 

@@ -10,10 +10,10 @@ tags:
   - preserve
 related:
   - provide-a-citation
-  - provid-identifier
+  - provide-identifier-for
 ---
 
-## Best practice
+## Best Practice
 When creating the data management plan, review all who may have a stake in the data so future users of the data can easily track who may need to give permission. Possible stakeholders include but are not limited to:
 
 -Funding body
@@ -32,5 +32,4 @@ Eisenberg, Rebecca S. R. A. K. "Harnessing and Sharing the Benefits of State-Spo
 Evans, James. "Industry Collaboration, Scientific Sharing, and the Dissemination of Knowledge." Social Studies of Science. 40.5 (2010): 757-791.
 
 ## Examples
-
 Example of citation for a database: Gregory, S. 2010. Aquatic Vertebrate Population Study, Mack Creek, Andrews Experimental Forest. Long-Term Ecological Research. Forest Science Data Bank, Corvallis, OR. [Database]. Available: http://andrewsforest.oregonstate.edu/data/abstract.cfm?dbcode=AS006 (11 May 2011).

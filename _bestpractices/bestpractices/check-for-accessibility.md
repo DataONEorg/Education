@@ -46,4 +46,5 @@ Ensure flexible data services for virtual datasets
 ## Additional Information
 
 Best Practices for Web Accessibility from W3C: http://www.w3.org/WAI/WCAG20/glance/
+
 You can also check your images with Vischeck http://vischeck.com

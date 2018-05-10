@@ -43,8 +43,11 @@ The consistent use of well-defined, referenced terminology in describing data pr
 ## Additional Information: 
 
 Controlled vocabulary: http://www.nlm.nih.gov/mesh/meshhome.html
+
 SWEET Web Site: http://sweet.jpl.nasa.gov/ontology/
+
 Biological ontologies: http://www.obofoundry.org/
+
 Taxonomy: http://www.biodiversitylibrary.org/
 
 ## Examples

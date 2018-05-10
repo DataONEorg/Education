@@ -5,6 +5,8 @@ tags:
   - access
   - data services
   - discover
+step:
+  - discover
 related:
   - provide-a-citation
   - provide-identifier-for

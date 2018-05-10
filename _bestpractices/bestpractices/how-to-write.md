@@ -3,11 +3,11 @@ title: How to write a Best Practice file
 layout: bestpractice
 tags:
   - data source
- step:
+step:
   - preserve
   - describe
 related:
-  - how-to-cite
+  - first-three-words
 ---
 
 ## Filename

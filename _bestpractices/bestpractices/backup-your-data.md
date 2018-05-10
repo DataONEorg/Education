@@ -5,7 +5,7 @@ tags:
   - access
   - preserve
   - disaster recovery
- step:
+step:
   - access
   - preserve
 related:

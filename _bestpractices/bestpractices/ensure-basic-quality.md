@@ -57,7 +57,7 @@ Quality control procedures identify potential problems with data that could affe
 - Ensure datasets used are reproducible
 - Consider the compatibility of the data you are integrating
 
-### Additional Information:
+## Additional Information:
 
 Chapman, Arthur D. 2005. Principles of Data Quality, version 1.0. Report for the Global Biodiversity Information Facility, Copenhagen.
 

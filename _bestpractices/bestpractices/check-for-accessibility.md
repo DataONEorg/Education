@@ -9,8 +9,8 @@ step:
   - access
   - discover
 related:
-  - Describe the contents of data files
-  - Ensure flexible data services for virtual datasets
+  - describe-the-contents
+  - ensure-flexible-data
 ---
 
 ## Best practice

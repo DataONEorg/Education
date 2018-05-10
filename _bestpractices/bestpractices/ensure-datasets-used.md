@@ -38,6 +38,6 @@ In order to reproduce a data set or result set, it is necessary to document whic
 - Define the parameters
 - Mark data with quality control flags
 
-### Additional Information:
+## Additional Information:
 
 A query example can either be formatted as a URL string (http://www.google.com/#sclient=psy&hl=en&site=&source=hp&q=data+backup+p...) or a database string (select * from database_name where collection_data IS NOT NULL).

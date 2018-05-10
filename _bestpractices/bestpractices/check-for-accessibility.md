@@ -5,6 +5,12 @@ tags:
   - access
   - discover
   - standards
+step:
+  - access
+  - discover
+related:
+  - Describe the contents of data files
+  - Ensure flexible data services for virtual datasets
 ---
 
 ## Best practice
@@ -12,7 +18,6 @@ tags:
 To maximize usability of your data or outputs, ensure that those with impairments or disabilities will still be able to access and understand them. The Web Accessibility Initiative, from the W3C, suggests that those producing content for others consider the following (text from their website):
 
 Make your outputs perceivable
-
 - Provide text alternatives for non-text content.
 - Provide captions and other alternatives for multimedia.
 - Create content that can be presented in different ways, including by assistive technologies, without losing meaning.
@@ -25,13 +30,11 @@ Make all functionality available from a keyboard.
 - Help users navigate and find content.
 
 Make your outputs understandable
-
 - Make text readable and understandable.
 - Make content appear and operate in predictable ways.
 - Help users avoid and correct mistakes.
 
 Make your outputs robust
-
 - Maximize compatibility with current and future user tools.
 
 ## Description Rationale
@@ -39,10 +42,8 @@ Make your outputs robust
 By ensuring your data and other outputs are accessible by all, you are maximizing their potential for re-use and preventing misuse.
 
 ## Related Best Practices
-
-Describe the contents of data files
-
-Ensure flexible data services for virtual datasets
+- Describe the contents of data files
+- Ensure flexible data services for virtual datasets
 
 ## Additional Information
 

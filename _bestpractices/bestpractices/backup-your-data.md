@@ -18,26 +18,26 @@ related:
 ## Best Practice
 To avoid accidental loss of data you should:
 
--Backup your data at regular frequencies
-  -When you complete your data collection activity
-  -After you make edits to your data
--Streaming data should be backed up at regularly scheduled points in the collection process
-  -High-value data should be backed up daily or more often
-  -Automation simplifies frequent backups
--Backup strategies (e.g., full, incremental, differential, etc…) should be optimized for the data collection process
--Create, at a minimum, 2 copies of your data
--Place one copy at an “off-site” and “trusted” location
-  -Commercial storage facility
-  -Campus file-server
-  -Cloud fire-server (e.g., Amazon S3, Carbonite)
--Use a reliable device when making backups
-  -External USB drive (avoid the use of “light-weight” devices e.g., floppy disks, USB stick-drive; avoid network drives that are intermittently accessible)
-  -Managed network drive
-  -Managed cloud file-server (e.g., Amazon S3, Carbonite)
--Ensure backup copies are identical to the original copy
-  -Perform differential checks
-  -Perform “checksum” check
--Document all procedures to ensure a successful recovery from a backup copy
+- Backup your data at regular frequencies
+  - When you complete your data collection activity
+  - After you make edits to your data
+- Streaming data should be backed up at regularly scheduled points in the collection process
+  - High-value data should be backed up daily or more often
+  - Automation simplifies frequent backups
+- Backup strategies (e.g., full, incremental, differential, etc…) should be optimized for the data collection process
+- Create, at a minimum, 2 copies of your data
+- Place one copy at an “off-site” and “trusted” location
+  - Commercial storage facility
+  - Campus file-server
+  - Cloud fire-server (e.g., Amazon S3, Carbonite)
+- Use a reliable device when making backups
+  - External USB drive (avoid the use of “light-weight” devices e.g., floppy disks, USB stick-drive; avoid network drives that are intermittently accessible)
+  - Managed network drive
+  - Managed cloud file-server (e.g., Amazon S3, Carbonite)
+- Ensure backup copies are identical to the original copy
+  - Perform differential checks
+  - Perform “checksum” check
+- Document all procedures to ensure a successful recovery from a backup copy
 
 ##Description Rationale
 

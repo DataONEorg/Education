@@ -26,6 +26,11 @@ Document the geospatial parameters of any output dataset derived from combining 
 ## Description Rationale
 Awareness and proper use of geospatial data parameters can affect the ability to interpret or produce sound analysis results.
 
+## Related Best Practices
+- Consider the compatibility of the data you are integrating
+- Identify and use relevant metadata standards
+- Use consistent codes
+
 ## Additional Information
 Burley, T.E., and Peine, J.D., 2009' NBII-SAIN Data Management Toolikit, U.S. Geological Survey Open-File Report 2009-1170, 96p. Available from: http://pubs.usgs.gov/of/2009/1170/
 

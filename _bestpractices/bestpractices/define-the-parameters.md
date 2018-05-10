@@ -9,9 +9,9 @@ tags:
 step:
 - describe
 related:
-- Define-the-data
-- Plan-data-management
-- Use-consistent-codes
+- define-the-data
+- plan-data-management
+- use-consistent-codes
 ---
 
 ## Best Practice
@@ -28,7 +28,7 @@ Also, be sure to use consistent capitalization (not temp, Temp, and TEMP in the 
 ## Description Rationale
 In order for others to use your data, they must fully understand the parameters in the data set, including the parameter name, unit of measure, and format.
 
-## Related Best Practices: 
+## Related Best Practices
 - Define the data model
 - Plan data management early in your project
 - Use consistent codes

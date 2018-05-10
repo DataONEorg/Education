@@ -5,12 +5,15 @@
 {% assign ldeck = ldeck[2] %}
 {% capture index_url %}/lessons/{{ ldeck }}/slides.html{% endcapture %}
 {% assign lesson = site.lessons | where: "url", index_url | first %}
+{% unless page.title  %}
+  {% assign page.title = lesson.title %}
+{% endunless %}
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>{{ lesson.title }}</title>
-  <meta name="description" content="">
+  {% include citation_meta.html %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--[if IE]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -148,16 +151,16 @@
     <div style="float:left; width:440px; margin:0px; font-size:120%;"><p></p></div>
     <div style="float:left; width:440px; margin:0px; font-size:100%;"><p><strong>Supporting downloads:</strong></p></div>
 		  <div style="float:left; width:220px; margin:5px; "><a href='{{ldeck}}.pdf'><img src="{{ site.baseurl }}/resources/images/pdf.png" width=30  style="padding-right:8px;">  PDF Download</a></div>
-		  {% if lesson.ppt %}
+		  {% if page.ppt %}
 		  	<div style="float:left; width:220px; margin:5px; "><a href='https://www.dataone.org/sites/all/documents/education-modules/pptx/{{lesson.ppt}}'><img src="{{ site.baseurl }}/resources/images/doc_ppt.png" width=30  style="padding-right:8px;">  PPT Download</a></div>
 		  {% endif %}
-		  {% if lesson.handout %}
+		  {% if page.handout %}
 			  <div style="float:left; width:220px; margin:5px; "><a href='{{lesson.handout}}'><img src="{{ site.baseurl }}/resources/images/handout.png" width=30  style="padding-right:8px;">  Handout</a></div>
 		  {% endif %}
-		  {% if lesson.exercise %}
+		  {% if page.exercise %}
 			  <div style="float:left; width:220px; margin:5px; "><a href='{{lesson.exercise}}'><img src="{{ site.baseurl }}/resources/images/doc.png" width=30  style="padding-right:8px;">  Hands on Exercise</a></div>
 		  {% endif %}
-      {% if lesson.datafiles %}
+      {% if page.datafiles %}
         <div style="float:left; width:220px; margin:5px; "><a href='{{lesson.datafiles}}'><img src="{{ site.baseurl }}/resources/images/data.png" width=30  style="padding-right:8px;">  Supporting Data Files</a></div>
       {% endif %}
 		</div>
@@ -187,6 +190,7 @@
     </section>
 		<section>
       <br />
+      <!-- The lesson.* properties come from the slides.md front matter.  The page.* properties come from the index.md front matter -->
 			<strong>Cite this lesson: </strong><br />
 			{{ lesson.author }} ({{ page.update | date: '%Y' }}) "{{ lesson.title }}". Accessed at {{site.url}}{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
       </p>
@@ -196,9 +200,9 @@
 <!--    << <a href="{{ site.baseurl }}/lessons/{{ lesson.prevlesson }}/cover.html">Previous lesson</a> | <a href="{{ site.baseurl }}/lessons/{{ lesson.nextlesson }}/cover.html">Next lesson</a> >><br>
     <a href="{{ site.baseurl }}/">Home</a>
     -->
-    <a href="{{ site.baseurl }}/lessons/{{ lesson.prevlesson }}/cover.html"><img src="{{site.baseurl}}/resources/images/arrow_left3.png" style="margin-right:10px; max-height:20px"></a>
+    <a href="{{ site.baseurl }}/lessons/{{ page.prevlesson }}"><img src="{{site.baseurl}}/resources/images/arrow_left3.png" style="margin-right:10px; max-height:20px"></a>
 	<a href="{{ site.baseurl }}/"><strong>Home</strong></a>
-    <a href="{{ site.baseurl }}/lessons/{{ lesson.nextlesson }}/cover.html"><img src="{{site.baseurl}}/resources/images/arrow_right3.png" style="margin-left:10px; max-height:20px;"></a>
+    <a href="{{ site.baseurl }}/lessons/{{ page.nextlesson }}"><img src="{{site.baseurl}}/resources/images/arrow_right3.png" style="margin-left:10px; max-height:20px;"></a>
   </article>
 
 

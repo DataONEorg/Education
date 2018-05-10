@@ -6,6 +6,10 @@ tags:
   - data archives
   - plan
   - preserve
+ step:
+  - access
+  - plan
+  - preserve
 related:
   - provide-a-citation
 ---
@@ -44,6 +48,5 @@ The identification of the sensitivity and importance of data or information proc
 FIPS Pub 199, Standards for Security Categorization of Federal Information and Information Systems: http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf
 
 Guide for Mapping Types of Information and Information Systems to Security Categories: (2 Volumes) - Volume 1: Guide Volume 2: Appendices
-http://csrc.nist.gov/publications/nistpubs/800-60-rev1/SP800-60_Vol1-Rev...
-http://csrc.nist.gov/publications/nistpubs/800-60-rev1/SP800-60_Vol2-Rev...
-ov/
+https://csrc.nist.gov/publications/detail/sp/800-60/vol-1-rev-1/final
+https://csrc.nist.gov/publications/detail/sp/800-60/vol-2-rev-1/final

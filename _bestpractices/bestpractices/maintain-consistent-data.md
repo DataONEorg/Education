@@ -7,6 +7,12 @@ tags:
   - documentation
   - format
   - metadata
+step:
+  - describe
+related:
+  - create-a-data
+  - preserve-information-keep
+  - use-consistant-codes
 ---
 
 ## Best Practice 
@@ -19,7 +25,7 @@ Strict data typing provides quality control and enables extended analytical proc
 
 ## Related Best Practices
 
-- [Create a data dictionary](https://www.dataone.org/best-practices/create-data-dictionary)
-- [Preserve information: keep your raw data raw](https://www.dataone.org/best-practices/preserve-information-keep-your-raw-data-raw)
-- [Use consistent codes](https://www.dataone.org/best-practices/use-consistent-codes)
+- Create a data dictionary
+- Preserve information: keep your raw data raw
+- Use consistent codes
 

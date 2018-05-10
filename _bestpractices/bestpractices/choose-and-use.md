@@ -13,9 +13,9 @@ step:
   - describe
   - preserve
 related:
-  - Assign descriptive file names
-  - Identify and use relevant metadata standards
-  - Plan data management early in your project
+  - assign-descriptive-file
+  - identify-and-use
+  - plan-data-management
 ---
 
 ## Best practice

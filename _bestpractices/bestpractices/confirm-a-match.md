@@ -12,9 +12,9 @@ step:
   - assure
   - describe
 related:
-  - Consider the compatibility of the data you are integrating
-  - Describe the contents of data files
-  - Define the data model
+  - consider-the-compatibility
+  - describe-the-contents
+  - define-the-data
 ---
 
 ## Best practice

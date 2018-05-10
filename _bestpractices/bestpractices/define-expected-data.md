@@ -9,10 +9,10 @@ tags:
 step:
 - plan
 related:
-- Define-roles-and
-- Identify-data-sensitivity
-- Plan-for-effective
-- Revisit-data-management
+- define-roles-and
+- identify-data-sensitivity
+- plan-for-effective
+- revisit-data-management
 ---
 
 

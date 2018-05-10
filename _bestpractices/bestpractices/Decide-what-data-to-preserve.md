@@ -1,22 +1,22 @@
-+---
-+title: Decide what data to preserve
-+layout: bestpractice
-+tags:
-+  - data archives
-+  - disaster recovery
-+  - image
-+  - preserve
-+  - storage
-+ step:
-+  - preserve
-+related:
-+  - Create-and-document
-+  - Identify-data-sensitivity
-+  - Identify-data-with
-+---
+---
+title: Decide what data to preserve
+layout: bestpractice
+tags:
+- data archives
+- disaster recovery
+- image
+- preserve
+- storage
+step:
+- preserve
+related:
+- Create-and-document
+- Identify-data-sensitivity
+- Identify-data-with
+---
 
 
-# Best Practice:
+## Best Practice:
 The process of science generates a variety of products that are worthy of preservation. Researchers should consider all elements of the scientific process in deciding what to preserve:
 
 - Raw data
@@ -42,10 +42,10 @@ Researchers should consider the following goals and benefits of preservation:
 - Enabling re-use of the products for new analysis and discovery
 - Enabling restoration of original products in the case that working datasets are lost
 
-# Description Rationale: 
+## Description Rationale: 
 - To meet multiple goals for preservation, researchers should think broadly about the digital products that their project generates, preserve as many as possible, and plan the appropriate preservation methods for each.
 
-# Related Best Practices: 
+## Related Best Practices: 
 - Create and document a data backup policy
 - Identify data sensitivity
 - Identify data with long-term value

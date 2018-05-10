@@ -8,7 +8,7 @@ tags:
 - geospatial
 - location
 step:
-- preserve
+- describe
 related:
 - describe-formats-for
 - describe-method-to

@@ -5,6 +5,11 @@ tags:
   - assure
   - flag
   - qualify
+step:
+  - assure
+related:
+  - Ensure basic quality control
+  - Ensure datasets used are reproducible
 ---
 
 ## Best practice
@@ -21,10 +26,8 @@ Information about quality control and quality assurance are important components
 Data quality and any methods used for quality control should be communicated so others can assess the data independently.
 
 ## Related Best Practices
-
-Ensure basic quality control
-
-Ensure datasets used are reproducible
+- Ensure basic quality control
+- Ensure datasets used are reproducible
 
 ## Additional Information
 

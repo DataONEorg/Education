@@ -26,6 +26,10 @@ It is considered a matter of professional ethics to acknowledge the work of othe
 ## Description Rationale
 Researchers are more willing to share their data if they are receive appropriate recognition for their contributions, and project sponsors, host institutions, data repositories, and researchers’ home institution may all have a stake in data ownership and require acknowledgment.
 
+## Related Best Practices
+- Provide a citation and document provenance for your dataset
+- Provide identifier for dataset used
+
 ## Additional Information
 Eisenberg, Rebecca S. R. A. K. "Harnessing and Sharing the Benefits of State-Sponsored Research: Intellectual Property Rights and Data Sharing in California's Stem Cell Initiative." Berkeley Technology Law Journal. 21.3 (2006): 1187.
 

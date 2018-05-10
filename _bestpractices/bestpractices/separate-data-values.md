@@ -25,3 +25,8 @@ A separate column should be used for data qualifiers, descriptions, and flags, o
 
 ## Description Rationale
 Mixing numeric and textual data in one column will cause problems with analysis. Sometimes it is necessary to have both, the value and a qualifier.
+
+## Related Best Practices
+- Develop a quality assurance and quality control plan
+- Identify and use relevant metadata standards
+- Plan data management early in your project

@@ -2,6 +2,7 @@
 update: 2017-04-06
 layout: cover_page
 status: published
+version: 1.0
 tags: ["Data Management", Plan, Collect, Integrate, Assure, Preserve, Describe, Discover, Analyze]
 categories: ["Teaching Module"]
 prevlesson: 10_policy

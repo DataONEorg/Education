@@ -3,20 +3,21 @@ title: Contributing to Lessons
 layout: layout
 ---
 
-
 # Guidelines for contributors and content editors
 
-Thank you for your interest in contributing to this educational material! This document provides an
-introduction to the ways the lessons are organized, the tools we use to display
-them, and the type of modifications we expect.
+Thank you for your interest in contributing to this educational
+material!
 
-This repository was developed by the DataONE Community Engagement and Outreach Working Group and continues to be maintained by members of this team. Information about suggesting changes or adding new content may be found below.
+This repository was developed by the DataONE Community Engagement and
+Outreach Working Group and continues to be maintained by members of this
+team. Information about suggesting changes or adding new content may be
+found below.
 
 ## Structure of the modules
 
-Each of the educational modules is generated from markdown documents. These guidelines will walk
-you through the repository organization, the markdown basics, and any additional
-information.
+Each of the educational modules is generated from markdown documents.
+These guidelines will walk you through the repository organization, the
+markdown basics, and additional useful information.
 
 ## Repository organization
 

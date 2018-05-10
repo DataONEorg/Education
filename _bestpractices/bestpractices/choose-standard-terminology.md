@@ -40,7 +40,7 @@ The consistent use of well-defined, referenced terminology in describing data pr
 - Identify and use relevant metadata standards
 - Plan data management early in your project
 
-## Additional Information: 
+## Additional Information
 
 Controlled vocabulary: http://www.nlm.nih.gov/mesh/meshhome.html
 

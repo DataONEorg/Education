@@ -10,7 +10,7 @@ As of April 2018 the repository contains DataONE Education Modules to serve as a
 
 A list of the available materials can be found on [the repository's website][website]. The first page will present you with a list of the available resources. Clicking on any given resource will bring you to the resource page, where you can launch included materials. These may include a presentation, a PDF download of the slides, a handout, and/or exercises.
 
-[website]: https://dataoneorg.github.io/Education/ "Homepage for the Community Education Resources website"
+[website]: https://dataoneorg.github.io/Education/ "Homepage for the Data Management Skillbuilding Hub website"
 
 
 ## Guidelines for content editors
@@ -21,4 +21,4 @@ informations in our [contribution guidelines][CONTRIB].
 
 ## Maintainers
 
-The Community Education Resources for Data Management webpage and repository are maintained by the Community Engagement and Outreach Working Group at DataONE. Please contact Amber Budden [aebudden at dataone.unm.edu] or Megan Mach [mach at unm.edu] with questions or updates.
+The Data Management Skillbuilding Hub for Data Management webpage and repository are maintained by the Community Engagement and Outreach Working Group at DataONE. Please contact Amber Budden [aebudden at dataone.unm.edu] or Megan Mach [mach at unm.edu] with questions or updates.

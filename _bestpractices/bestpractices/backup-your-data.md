@@ -44,9 +44,9 @@ To avoid accidental loss of data you should:
 To avoid data loss, and to retain information held in earlier versions, it is valuable to back-up your data at frequent intervals and in multiple locations.
 
 ##Related Best Practices
--Create and document a data backup policy
--Define the data model
--Identify suitable repositories for the data
+- Create and document a data backup policy
+- Define the data model
+- Identify suitable repositories for the data
 
 ##Additional Information: 
 http://en.wikipedia.org/wiki/Backup

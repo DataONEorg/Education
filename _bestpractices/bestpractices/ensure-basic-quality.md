@@ -5,10 +5,12 @@ tags:
   - assure
   - coding
   - quality
+step:
+  - assure
 related:
-  - Confirm-a-match
-  - Ensure-datasets-used
-  - Consider-the-compatibility
+  - confirm-a-match
+  - ensure-datasets-used
+  - consider-the-compatibility
 ---
 
 ## Best practice

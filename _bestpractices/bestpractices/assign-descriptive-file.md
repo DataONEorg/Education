@@ -6,10 +6,13 @@ tags:
   - describe
   - discover
   - format
+step:
+  - describe
+  - discover
 related:
-  - Choose-and-use
-  - Confirm-a-match
-  - Describe-the-contents
+  - choose-and-use
+  - confirm-a-match
+  - describe-the-contents
 ---
 
 ## Best practice

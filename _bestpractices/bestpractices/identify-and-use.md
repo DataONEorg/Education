@@ -8,6 +8,12 @@ tags:
   - format
   - metadata
   - preserve
+step:
+  - preserve
+  - describe
+related:
+  - confirm-a-match
+  - define-the-data
 ---
 
 ## Best practice

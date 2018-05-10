@@ -8,8 +8,8 @@ tags:
 step:
   - assure
 related:
-  - Ensure basic quality control
-  - Ensure datasets used are reproducible
+  - ensure-basic-quality
+  - ensure-datasets-used
 ---
 
 ## Best practice
@@ -17,7 +17,7 @@ related:
 Information about quality control and quality assurance are important components of the metadata:
 
 - Qualify (flag) data that have been identified as questionable by including a flagging_column next to the column of data values. The two columns should be properly associated through a naming convention such as Temperature, flag_Temperature.
-- Describe the qality control methods applied and their assumptions in the metadata. Describe any software used when performing the quality analysis, including code where practical. Include in the metadata who did the quality control analysis, when it was done, and what changes were made to the dataset.
+- Describe the quality control methods applied and their assumptions in the metadata. Describe any software used when performing the quality analysis, including code where practical. Include in the metadata who did the quality control analysis, when it was done, and what changes were made to the dataset.
 - Describe standards or test data used for the quality analysis. For instance, include, when practical, the data used to make a calibration curve.
 - If data with qualifier flags are summarized to create a derived data set, include the percent flagged data and percent missing data in the metadata of the derived data file. High frequency observations are often downsampled, and it is critical to know how much of the data were rejected in the primary data.
 

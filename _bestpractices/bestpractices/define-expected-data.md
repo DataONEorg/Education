@@ -19,7 +19,7 @@ related:
 ## Best Practice 
 In the planning process, researchers should carefully consider what data will be produced in the course of their project.
 
-Consider the following
+Consider the following:
 
 - What types of data will be collected? E.g. Spatial, temporal, instrument-generated, models, simulations, images, video etc.
 - How many data files of each type are likely to be generated during the project? What size will they be?

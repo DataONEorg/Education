@@ -24,4 +24,4 @@ Data measurement descriptions should:
 Describe how data were collected in enough detail for others to reproduce the measurements, assess the appropriateness of the measurements, and/or assess comparability of the data with other datasets.
 
 ## Additional Information
-R.H.G., J., Ter Braak, C. J., & Van Tongeren, O. F. ( 1995). Data Analysis in Community and Landscape Ecology. Cambridge University Press
+R.H.G., J., Ter Braak, C. J., & Van Tongeren, O. F. (1995). Data Analysis in Community and Landscape Ecology. Cambridge University Press.

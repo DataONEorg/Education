@@ -8,7 +8,7 @@ step:
 - plan
 related:
 - plan-data-management
-- plan-for-effective multimedia management
+- plan-for-effective
 - provide-budget-information
 - revisit-data-management
 ---
@@ -50,7 +50,7 @@ A successful data management plan requires that the appropriate staffing resourc
 ## Additional Information
 Search on the web for information on "Project Planning: Roles and Responsibilities for developing specific staffing/training plans"
 
-Van den Eynden, V., Corti, L., Woollard, M. & Bishop, L. (2011). Managing and Sharing Data: A Best Practice Guide for Researchers. Last updated May 2011. http://www.data-archive.ac.uk/media/2894/managingsharing.pdf.
+Van den Eynden, V., Corti, L., Woollard, M. & Bishop, L. (2011). Managing and Sharing Data: A Best Practice Guide for Researchers. Last updated May 2011. http://www.data-archive.ac.uk/media/2894/managingsharing.pdf
 
 ## Examples
 Task: complete metadata record  

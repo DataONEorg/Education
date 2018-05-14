@@ -1,5 +1,5 @@
 ---
-title: Mark dta with quality control flags
+title: Mark data with quality control flags
 layout: bestpractice
 tags:
   - assure

@@ -6,7 +6,7 @@ tags:
   - coding
   - data quality
   - flag
-steps:
+step:
   - assure
 related:
   - choose-and-use

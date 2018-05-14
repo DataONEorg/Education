@@ -34,4 +34,4 @@ Data management requires an effective strategy for data organization.
 
 ## Additional Information
 
-Borer, E. T., E. W. Seabloom, M. B. Jones, and M. Schildhauer. 2009. Some simple guidelines for effective data management. ESA Bulletin 90:205-214. http://www.esajournals.org/doi/abs/10.1890/0012-9623-90.2.205.
+Borer, E. T., E. W. Seabloom, M. B. Jones, and M. Schildhauer. 2009. Some simple guidelines for effective data management. ESA Bulletin 90:205-214. https://doi.org/10.1890/0012-9623-90.2.205 

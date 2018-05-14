@@ -1,5 +1,5 @@
 ---
-title: Plan for Effective Multimedia Management
+title: Plan for effective multimedia management
 layout: bestpractice
 tags:
   - documentation
@@ -11,6 +11,11 @@ tags:
   - storage
 step: 
   - preserve
+  - plan
+related:
+  - create-manage-and
+  - define-expected-data
+  - define-roles-and
 ---
 
 ## Best Practice
@@ -31,7 +36,7 @@ Sustainability of Digital Formats Planning for Library of Congress Collections:
 - [Sound](https://www.loc.gov/preservation/digital/formats/content/sound.shtml)
 - [Moving Images](https://www.loc.gov/preservation/digital/formats/content/video.shtml)
 
-Online, generic multimedia repositories and tools (e.g. [YouTube](https://www.youtube.com), [Vimeo](https://vimeo.com), [Flickr](https://www.flickr.com), [Picasa](http://picasa.google.com))
+Online, generic multimedia repositories and tools (e.g. [YouTube](https://www.youtube.com), [Vimeo](https://vimeo.com), [Flickr](https://www.flickr.com), [Google Photos](https://photos.google.com)):
 
 - are low-cost (can be free)
 - are open to all
@@ -44,7 +49,7 @@ Online, generic multimedia repositories and tools (e.g. [YouTube](https://www.yo
 - may have limits on file size or resolution
 - may have unclear access, backup, and reliability policies, so ensure you are aware of them before you rely upon them
 
-Specialized multimedia repositories (e.g. [MorphBank](http://www.morphbank.net), LIFE)
+Specialized multimedia repositories (e.g. [MorphBank](http://www.morphbank.net), LIFE):
 
 - provide domain-specific metadata fields and controlled vocabularies customized for expert users
 - are highly discoverable for those in the same domain
@@ -58,7 +63,7 @@ Specialized multimedia repositories (e.g. [MorphBank](http://www.morphbank.net),
 - may migrate multimedia to new formats (e.g. analog to digital)
 - may have restrictions on bandwidth usage
 
-Some institutions or projects maintain digital asset management systems, content management systems, or other collections management software (e.g. [Specify](http://www.sustain.specifysoftware.org), [KE Emu](https://alm.axiell.com)) which can manage multimedia along with other kinds of data projects or institutions should provide assistance
+Some institutions or projects maintain digital asset management systems, content management systems, or other collections management software (e.g. [Specify](http://www.sustain.specifysoftware.org), [KE Emu](https://alm.axiell.com/collections-management-solutions/technology/emu-collections-management/)) which can manage multimedia along with other kinds of data projects or institutions should provide assistance:
 
 - may be mandated by institution
 - may be more convenient, e.g. when multiple data types result from a project
@@ -77,7 +82,7 @@ Multimedia metadata is particularly important for discovery as the objects do no
 - Define roles and assign responsibilities for data management
 
 ## Additional Information
-"Multimedia Semantics - The Role of Metadata": http://www.springer.com/engineering/computational+intelligence+and+compl...
+"Multimedia Semantics - The Role of Metadata": http://www.springer.com/engineering/computational+intelligence+and+complexity/book/978-3-540-77472-3
 
 "Multimedia Semantics: Metadata, Analysis and Interaction": http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470747005.html
 

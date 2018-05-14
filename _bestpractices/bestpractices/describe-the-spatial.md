@@ -41,9 +41,7 @@ Describing the spatial boundaries of a data collection as a whole allows users t
 
 ## Additional Information
 
-NASA: http://gcmd.nasa.gov/User/difguide/spatial_coverage.html
-NASA: http://gcmd.nasa.gov/User/difguide/data_resolution.html
-
+NASA-GCMD (spatial coverage & data resolution): https://gcmd.nasa.gov/add/difguide/index.html 
 
 ## Examples
 

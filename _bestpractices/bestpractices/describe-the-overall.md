@@ -11,8 +11,8 @@ step:
 - describe
 related:
 - consider-the-compatibility
-- cocument-your-data
-- Use-consistent-codes
+- document-your-data
+- use-consistent-codes
 ---
 
 ## Best Practice

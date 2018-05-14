@@ -26,4 +26,4 @@ Do not use abbreviations when describing the units. For example the units for re
 ## Additional Information
 
 National Institute for Standards and Technology guide to SI units: http://physics.nist.gov/Pubs/SP330/sp330.pdf
-BIPM Bureau International des Poids et Mesures (SI meaintenance agacy) http://www.bipm.org/en/si/
+BIPM Bureau International des Poids et Mesures (SI maintenance agency) http://www.bipm.org/en/si/

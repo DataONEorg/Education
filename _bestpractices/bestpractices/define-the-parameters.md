@@ -34,8 +34,8 @@ In order for others to use your data, they must fully understand the parameters 
 - Use consistent codes
 
 ## Additional Information
-Hook, Les A., Suresh K. Santhana Vannan, Tammy W. Beaty, Robert B. Cook, and Bruce E. Wilson. 2010. Best Practices for Preparing Environmental Data Sets to Share and Archive. Available online (http://daac.ornl.gov/PI/BestPractices-2010.pdf) from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A. doi:10.3334/ORNLDAAC/BestPractices-2010.
+Hook, Les A., Suresh K. Santhana Vannan, Tammy W. Beaty, Robert B. Cook, and Bruce E. Wilson. 2010. Best Practices for Preparing Environmental Data Sets to Share and Archive. Available online (http://daac.ornl.gov/PI/BestPractices-2010.pdf) from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A. http://doi.org/10.3334/ORNLDAAC/BestPractices-2010
 
 Cook et al., 2001. Best Practices for Preparing Ecological and Ground-Based Data Sets to Share and Archive. Bulletin of ESA 82: 138-141.
 
-Borer et al. 2009. Some Simple Guidelines for Effective Data Management. Bulletin of ESA 90: 209-214. doi:10.1890/0012-9623-90.2.205
+Borer et al. 2009. Some Simple Guidelines for Effective Data Management. Bulletin of ESA 90: 209-214. http://doi.org/10.1890/0012-9623-90.2.205

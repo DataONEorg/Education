@@ -5,12 +5,12 @@ tags:
   - analyze
   - data processing
   - data services
-step
+step:
   - analyze
 related:
-  - Consider the compatibility of the data you are integrating
-  - Define expected data outcomes and types
-  - Document steps used in data processing
+  - consider-the-compatibility
+  - define-expected-data
+  - document-steps-used
 ---
 
 ## Best Practice
@@ -32,11 +32,11 @@ Follow the steps below to choose the most appropriate software to meet your need
 By carefully considering software choice before a project begins, costs, requirements, and limitations can be addressed early in the data life cycle.
 
 ## Related Best Practices
-Consider the compatibility of the data you are integrating
-Define expected data outcomes and types
-Document steps used in data processing
+- Consider the compatibility of the data you are integrating
+- Define expected data outcomes and types
+- Document steps used in data processing
 
 ## Additional Information: 
 
-Open source sites: sourceforge.net, http://git-scm.com, etc.
+Open source sites: https://sourceforge.net/, http://git-scm.com, etc.  
 Forums: http://stackoverflow.com

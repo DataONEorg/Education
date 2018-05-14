@@ -1,11 +1,17 @@
 ---
-title: Mark Data with Quality Control Flags
+title: Mark dta with quality control flags
 layout: bestpractice
 tags:
   - assure
   - coding
   - data quality
   - flag
+steps:
+  - assure
+related:
+  - choose-and-use
+  - define-the-data
+  - develop-a-quality
 ---
 
 ## Best Practice 
@@ -20,9 +26,9 @@ Data quality should be able to be assessed by potential data users so that any p
 
 ## Related Best Practices
 
-- [Choose and use standard terminology to enable discovery](https://www.dataone.org/best-practices/choose-and-use-standard-terminology-enable-discovery)
-- [Define the data model](https://www.dataone.org/best-practices/define-data-model)
-- [Develop a quality assurance and quality control plan](https://www.dataone.org/best-practices/develop-quality-assurance-and-quality-control-plan)
+- Choose and use standard terminology to enable discovery
+- Define the data model
+- Develop a quality assurance and quality control plan
 
 ## Examples
 

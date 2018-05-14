@@ -11,9 +11,9 @@ step:
   - plan
   - preserve
 related:
-  - Create and document a data backup policy
-  - Create, manage, and document your data storage system
-  - Define roles and assign responsibilities for data management
+  - create-and-document
+  - create-manage-and
+  - define-roles-and
 
 ---
 
@@ -33,8 +33,8 @@ Shaping the data management plan towards a specific desired repository will incr
 - Define roles and assign responsibilities for data management
 
 ## Additional Information
-Digging into Data List of Repositories: http://www.diggingintodata.org/Repositories/tabid/167/Default.aspx
-Registry of Research Data Repositories: http://www.r3data.org
+Digging into Data List of Repositories: https://diggingintodata.org/Repositories
+Registry of Research Data Repositories: https://www.re3data.org
 Simmons list of repositories: http://oad.simmons.edu/oadwiki/data_repositories
 
 ## Examples

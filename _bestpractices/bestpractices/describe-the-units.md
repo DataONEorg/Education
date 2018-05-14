@@ -10,7 +10,7 @@ step:
 related:
 - choose-and-use
 - consider-the-compatibility
-- Use-consistent-codes
+- use-consistent-codes
 ---
 ## Best Practice
 
@@ -25,5 +25,5 @@ Do not use abbreviations when describing the units. For example the units for re
 
 ## Additional Information
 
-National Institute for Standards and Technology guide to SI units: http://physics.nist.gov/Pubs/SP330/sp330.pdf
+National Institute for Standards and Technology guide to SI units: https://www.nist.gov/document/special-publication-330  
 BIPM Bureau International des Poids et Mesures (SI meaintenance agacy) http://www.bipm.org/en/si/

@@ -42,10 +42,10 @@ Steps for assigning data management responsibilities:
 A successful data management plan requires that the appropriate staffing resources are available and trained. Identifying specific tasks and responsible parties will help with budgeting, implementation, and preservation of the data resources.
 
 ## Related Best Practices
-Plan data management early in your project
-Plan for effective multimedia management
-Provide budget information for your data management plan
-Revisit data management plan throughout the project life cycle
+- Plan data management early in your project
+- Plan for effective multimedia management
+- Provide budget information for your data management plan
+- Revisit data management plan throughout the project life cycle
 
 ## Additional Information
 Search on the web for information on "Project Planning: Roles and Responsibilities for developing specific staffing/training plans"
@@ -53,11 +53,11 @@ Search on the web for information on "Project Planning: Roles and Responsibiliti
 Van den Eynden, V., Corti, L., Woollard, M. & Bishop, L. (2011). Managing and Sharing Data: A Best Practice Guide for Researchers. Last updated May 2011. http://www.data-archive.ac.uk/media/2894/managingsharing.pdf.
 
 ## Examples
-Task: complete metadata record
-Skills: knowledge of EML, and XML editing (Morpho), knowledge of the data to be documented
-Responsible party: Jane Smith
-Training needed: attend XML training on-line
-Personnel time or %fte: 1/4 time for 1 month for Smith
-Estimated cost: $1,000
-Additional resources: $100 to travel to remote site to meet with researcher
-Deadlines: one month after data is collected or end of fiscal year
+Task: complete metadata record  
+Skills: knowledge of EML, and XML editing (Morpho), knowledge of the data to be documented  
+Responsible party: Jane Smith  
+Training needed: attend XML training on-line  
+Personnel time or %fte: 1/4 time for 1 month for Smith  
+Estimated cost: $1,000  
+Additional resources: $100 to travel to remote site to meet with researcher  
+Deadlines: one month after data is collected or end of fiscal year  

@@ -1,13 +1,16 @@
 ---
-title: ---
 title: Identify data with long-term value
 layout: bestpractice
 tags:
   - data archives
   - preserve
   - storage
+steps:
+  - preserve
 related:
-  - provide-a-citation
+  - backup-your-data
+  - decide-what-data
+  - preserve-information-keep
 ---
 
 ## Best practice

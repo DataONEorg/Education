@@ -39,8 +39,8 @@ Considering and creating the data model helps with data planning and identifies 
 - Identify suitable repositories for the data
 
 ## Additional Information
-Wikipedia: http://en.wikipedia.org/wiki/Data_model
-IBM: http://publib.boulder.ibm.com/infocenter/tivihelp/v8r1/index.jsp?topic=/...
+Wikipedia: http://en.wikipedia.org/wiki/Data_model  
+IBM: http://publib.boulder.ibm.com/infocenter/tivihelp/v8r1/index.jsp?topic=/com.ibm.netcool_impact.doc/im31sg/xF1996378.html  
 Agile Data: http://www.agiledata.org/essays/dataModeling101.html
 
 ## Examples

@@ -33,5 +33,5 @@ Relationships among data entities should be described documented to enable under
 - Use consistent codes
 
 ## Additional Information
-Specimen repositories: http://www.biorepositories.org/  
-Describing data table constraints with Ecological Metadata Language (EML): http://knb.ecoinformatics.org/software/eml/eml-2.1.0/eml-constraint.html
+Specimen repositories: http://www.biorepositories.org/
+Describing data table constraints with Ecological Metadata Language (EML): https://knb.ecoinformatics.org/#external//emlparser/docs/eml-2.1.1/./eml-constraint.html

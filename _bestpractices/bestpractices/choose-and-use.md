@@ -21,7 +21,7 @@ related:
 ## Best practice
 
 Terms and phrases that are used to represent categorical data values or for creating content in metadata records should reflect appropriate and accepted vocabularies in your community or institution. Methods used to identify and select the proper terminology include:
- - Identify the relevant descriptive terms used as categorical values in your community prior to start of the project (ex: standard terms describing soil horizons, plant taxonomy, sampling methodology or equipment, etc.)
+ - Identify the relevant descriptive terms used as categorical values in your community prior to start of the project (e.g., standard terms describing soil horizons, plant taxonomy, sampling methodology or equipment, etc.)
  - Identify locations in metadata where standardized terminology should be used and sources for the terms. Terminology should reflect both data type/content and access methods.
  - Review existing thesauri, ontologies, and keyword lists for your use before making up a new terms. Potential sources include: Semantic Web for Earth and Environmental Terminology (SWEET), Planetary Ontologies, and NASA Global Change Master Directory (GCMD)
  - Enforce use of standard terminology in your workflow, including:

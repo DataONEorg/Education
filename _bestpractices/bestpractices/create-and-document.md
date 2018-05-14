@@ -52,5 +52,5 @@ Collecting information about backing data up before it is needed helps prevent p
 - Plan data management early in your project
 
 ## Examples
-- http://www.aub.edu.lb/info/data-backup.html
+- http://website.aub.edu.lb/it/policies/Pages/data-backup.aspx
 - http://dept.wofford.edu/it/Data%20Backup%20Policy.pdf

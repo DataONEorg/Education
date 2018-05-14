@@ -43,4 +43,4 @@ Successful preservation depends in great part on storage media that are in good 
 http://www.digitalfaq.com/guides/media/longevity.htm
 
 "Reliability and Availability Basics." EventHelix.com. Accessed 2011-05-11.
-http://www.eventhelix.com/RealtimeMantra/FaultHandling/reliability_avail...
+http://www.eventhelix.com/RealtimeMantra/FaultHandling/reliability_availability_basics.htm

@@ -54,7 +54,7 @@ For long term preservation is it necessary to store data in file formats that wi
 
 ## Additional Information
 
-Data Management and Publishing (MIT Libraries) http://libraries.mit.edu/guides/subjects/data-management/
+Data Management and Publishing (MIT Libraries) https://libraries.mit.edu/data-management/
 
 Burley, T.E., and Peine, J.D., 2009, NBII-SAIN Data Management Toolkit, U.S. Geological Survey Open-File Report 2009-1170, 96 p. Available from: http://pubs.usgs.gov/of/2009/1170/
 

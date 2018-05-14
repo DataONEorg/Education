@@ -24,7 +24,7 @@ Make your outputs perceivable
 - Make it easier for users to see and hear content.
 - Make your outputs operable
 
-Make all functionality available from a keyboard.
+Make all functionality available from a keyboard
 - Give users enough time to read and use content.
 - Do not use content that causes seizures.
 - Help users navigate and find content.

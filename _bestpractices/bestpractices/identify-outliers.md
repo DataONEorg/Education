@@ -10,8 +10,8 @@ step:
   - analyze
   - assure
 related:
-  - Develop a quality assurance and quality control plan
-  - Identify missing values and define missing value codes
+  - develop-a-quality
+  - identify-missing-values
 
 ---
 
@@ -33,18 +33,16 @@ Comparison to related observations:
 No outliers should be removed without careful consideration and verification that they are not representing true phenomena.
 Description Rationale: 
 
-Outliers may represent data contamination, a violation of the assumptions of the study, or failure of the instrumentation. Although outliers may be valid observations it is important to identify and examine their validity.
-
 ## Description Rationale
 
 Outliers may represent data contamination, a violation of the assumptions of the study, or failure of the instrumentation. Although outliers may be valid observations it is important to identify and examine their validity.
 
 ## Related Best Practices
-Develop a quality assurance and quality control plan
-Identify missing values and define missing value codes
+- Develop a quality assurance and quality control plan
+- Identify missing values and define missing value codes
 
 ## Additional Information
 
 V. Barnett and T. Lewis, Outliers in Statistical Data (John Wiley & Sons, 2d ed., New York, NY, 1985).
 
-Edwards, D. 2000. Data Quality Assurance. Pages 70-91 in: Ecological Data: design, management, and processing. Michener, W. and Brunt, J., eds. Blackwell Science Ltd. (ISBN: 0-682-05231-7)
+Edwards, D. 2000. Data Quality Assurance. Pages 70-91 in: Ecological Data: design, management, and processing. Michener, W. and Brunt, J., eds. Blackwell Science Ltd. (ISBN: 0-682-05231-7).

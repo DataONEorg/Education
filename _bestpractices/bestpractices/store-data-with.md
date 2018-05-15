@@ -6,7 +6,7 @@ tags:
   - measurement
   - preserve
   - storage
- step:
+step:
   - analyze
   - preserve
 related:

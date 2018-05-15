@@ -55,4 +55,4 @@ Preserve the information content of your original raw data.
 
 ## Additional Information
 
-Borer et al. 2009. Some Simple Guidelines for Effective Data Management. Bull. of ESA 90: 209-214
+Borer, E. T., Seabloom, E. W., Jones, M. B., & Schildhauer, M. 2009. Some Simple Guidelines for Effective Data Management. Bull. of ESA 90: 209-214. https://doi.org/10.1890/0012-9623-90.2.205

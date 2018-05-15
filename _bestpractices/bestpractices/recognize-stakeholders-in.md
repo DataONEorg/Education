@@ -5,7 +5,7 @@ tags:
   - access
   - preserve
   - provenance
- step:
+step:
   - access
   - preserve
 related:
@@ -36,4 +36,4 @@ Eisenberg, Rebecca S. R. A. K. "Harnessing and Sharing the Benefits of State-Spo
 Evans, James. "Industry Collaboration, Scientific Sharing, and the Dissemination of Knowledge." Social Studies of Science. 40.5 (2010): 757-791.
 
 ## Examples
-Example of citation for a database: Gregory, S. 2010. Aquatic Vertebrate Population Study, Mack Creek, Andrews Experimental Forest. Long-Term Ecological Research. Forest Science Data Bank, Corvallis, OR. [Database]. Available: http://andrewsforest.oregonstate.edu/data/abstract.cfm?dbcode=AS006 (11 May 2011).
+Example of citation for a database: Gregory, S. 2016. Aquatic Vertebrate Population Study, Mack Creek, Andrews Experimental Forest, 1987 to Present. Long-Term Ecological Research. Forest Science Data Bank, Corvallis, OR. [Database]. Available: http://andlter.forestry.oregonstate.edu/data/abstract.aspx?dbcode=AS006 (14 May 2018).

@@ -49,6 +49,6 @@ Some datasets are too large to efficiently deliver in their entirety, or are not
 
 ## Additional Information:
 
-Web Service Definition Language: http://www.w3.org/TR/wsdl
-Service Casting via RSS/Atom: http://wiki.esipfed.org/index.php/Atom_ServiceCasting_to_advertise_Web_S...
+Web Service Definition Language: http://www.w3.org/TR/wsdl  
+Service Casting via RSS/Atom: http://wiki.esipfed.org/index.php/Atom_ServiceCasting_to_advertise_Web_Services
 

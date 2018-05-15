@@ -30,7 +30,7 @@ Quality control practices are specific to the type of data being collected, but 
   - Range checks and comparisons with historic maxima will help identify anomalous values that require further investigation.
   - Comparing current and past measurements help identify highly unlikely events. For example, it is unlikely that the girth of a tree will decrease from one year to the next.
 
-- Codes should be used to indicate quality of data.
+- Codes should be used to indicate quality of data:
 
   - Codes should be checked against the list of allowed values to validate code entries
   - When coded data are digitized, they should be re-checked against the original source. Double data entry, or having another person check and validate the data entered, is a good mechanism for identifying data entry errors.

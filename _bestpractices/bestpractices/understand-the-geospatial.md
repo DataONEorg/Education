@@ -9,7 +9,7 @@ tags:
   - integrate
   - metadata
   - provenance
- step:
+step:
   - analyze
   - integrate
 related:

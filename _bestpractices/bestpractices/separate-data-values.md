@@ -8,7 +8,7 @@ tags:
   - flag
   - format
   - metadata
- step:
+step:
   - describe
 related:
   - develop-quality-assurance
@@ -19,9 +19,9 @@ related:
 ## Best Practice
 A separate column should be used for data qualifiers, descriptions, and flags, otherwise there is the potential for problems to develop during analyses. Potential entries in the descriptor column:
 
--Potential sources of error
--Missing value justification (e.g. sensor off line, human error, data rejected outside of range, data not recorded
--Flags for values outside of expected range, questionable etc.
+- Potential sources of error
+- Missing value justification (e.g. sensor off line, human error, data rejected outside of range, data not recorded
+- Flags for values outside of expected range, questionable etc.
 
 ## Description Rationale
 Mixing numeric and textual data in one column will cause problems with analysis. Sometimes it is necessary to have both, the value and a qualifier.

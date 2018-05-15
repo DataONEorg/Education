@@ -11,9 +11,9 @@ tags:
 step:
   - assure
 related:
-  - Confirm-a-match 
-  - Document-steps-used
-  - Define-the-data 
+  - confirm-a-match 
+  - document-steps-used
+  - define-the-data 
 ---
 
 ## Best practice

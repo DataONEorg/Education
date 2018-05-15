@@ -55,6 +55,6 @@ UK Digital Curation Centre (DCC) Disciplinary Metadata Catalog
 http://www.dcc.ac.uk/resources/metadata-standards
 
 Seeing Standards: A Visualization of the Metadata Universe
-http://www.dlib.indiana.edu/~jenlrile/metadatamap/
+http://jennriley.com/metadatamap/ 
 
 Xu W, and M Okada. 2007. "EBM metadata based on Dublin Core better presenting validity of clinical trials". Journal of Medical Systems. 31 (5): 337-43.

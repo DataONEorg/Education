@@ -7,17 +7,15 @@ tags:
   - metadata
   - provenance
   - quality
- step:
+step:
   - assure
   - quality
-related:
 ---
 
 ## Best Practice
-Provide versions of data products with defined identifiers to enable discovery and use
+Provide versions of data products with defined identifiers to enable discovery and use.
 
 Items to consider when versioning data products:
-
 - Develop definition of what constitutes a new version of the data, for example:
   - New processing algorithms
   - Additions or removal of data points
@@ -33,4 +31,6 @@ Data products potentially change through time as they are developed using new or
 
 ## Additional Information
 NASA Modis versioning using processing levels and collections:
-http://landweb.nascom.nasa.gov/QA_WWW/forPage/MOD13_VI_C5_Changes_Docume...
+- https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table
+- https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/myd13a1_v006
+- [http://landweb.nascom.nasa.gov/QA_WWW/forPage/MOD13_VI_C5_Changes_Docume...](http://landweb.nascom.nasa.gov/QA_WWW/forPage/MOD13_VI_C5_Changes_Document_06_28_06.pdf)

@@ -40,4 +40,4 @@ In order to reproduce a data set or result set, it is necessary to document whic
 
 ## Additional Information:
 
-A query example can either be formatted as a URL string (http://www.google.com/#sclient=psy&hl=en&site=&source=hp&q=data+backup+p...) or a database string (select * from database_name where collection_data IS NOT NULL).
+A query example can either be formatted as a URL string (http://www.google.com/#sclient=psy&hl=en&site=&source=hp&q=data+backup+policy&aq=f&aqi=p-p2g3&aql=f&oq=&pbx=1&bav=on.2,or.r_gc.r_pw.&fp=d6a6fda25e240d6) or a database string (select * from database_name where collection_data IS NOT NULL).

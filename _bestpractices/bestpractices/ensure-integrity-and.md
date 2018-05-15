@@ -53,4 +53,4 @@ For successful preservation a backup data file should contain the same informati
 
 ## Additional Information:
 
-Data Management and Publishing (MIT Libraries) http://libraries.mit.edu/guides/subjects/data-management/
+Data Management and Publishing (MIT Libraries) https://libraries.mit.edu/data-management/

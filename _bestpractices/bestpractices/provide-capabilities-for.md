@@ -7,7 +7,7 @@ tags:
   - describe
   - documentation
   - metadata
- step:
+step:
   - describe
 related:
   - assign-descriptive-file

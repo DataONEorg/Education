@@ -48,4 +48,4 @@ Digital objects should utilize a standard, stable identifier to access a specifi
 
 ## Additional Information
 
-ESIP Federation Preservation and Stewardship Cluster: http://wiki.esipfed.org/index.php/Preservation_and_Stewardship#Data_Iden...
+ESIP Federation Preservation and Stewardship Cluster: http://wiki.esipfed.org/index.php/Preservation_and_Stewardship#Data_Identifiers_Testbed

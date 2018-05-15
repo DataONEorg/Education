@@ -7,7 +7,7 @@ tags:
   - controlled vocabulary
   - describe
   - ontologies
- step:
+step:
   - collect
   - describe
 related:

@@ -39,16 +39,16 @@ To avoid accidental loss of data you should:
   - Perform “checksum” check
 - Document all procedures to ensure a successful recovery from a backup copy
 
-##Description Rationale
+## Description Rationale
 
 To avoid data loss, and to retain information held in earlier versions, it is valuable to back-up your data at frequent intervals and in multiple locations.
 
-##Related Best Practices
+## Related Best Practices
 - Create and document a data backup policy
 - Define the data model
 - Identify suitable repositories for the data
 
-##Additional Information: 
+## Additional Information: 
 http://en.wikipedia.org/wiki/Backup
 http://www.carbonite.com/
 http://aws.amazon.com/s3/

@@ -1,5 +1,5 @@
 ---
-title: Decide what data to preserve
+title: Describe the research project
 layout: bestpractice
 tags:
 - annotation
@@ -22,7 +22,7 @@ The research project description should contain the following information:
 - Where: location and description of study site or sites
 - When: range of dates for the project
 - Why: rational for the project (abstract)
-- How: description of project methods
+- How: description of project methods  
 Other useful information might include the project title, the overarching project (if any), institution(s) involved, and source of funding.
 
 ## Description Rationale

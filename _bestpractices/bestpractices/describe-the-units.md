@@ -10,7 +10,7 @@ step:
 related:
 - choose-and-use
 - consider-the-compatibility
-- Use-consistent-codes
+- use-consistent-codes
 ---
 ## Best Practice
 

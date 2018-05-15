@@ -34,9 +34,9 @@ Sometimes mistakes in either data or metadata preparation cause discrepancies be
 ## Additional Information
 
 - Lin, C.C, Porter JH, Hsiao C.W, Lu S.S, Jeng M.R. Establishing an EML-based Data Management System for Automating Analysis of Field Sensor Data. Taiwan J For Sci. 23(3):279-285, 2008.
-http://www.tfri.gov.tw/enu/pub_science_in.aspx?pid=895&catid0=43&catid1=140&pg0=&pg1=1
+https://www.tfri.gov.tw/main/science_in.aspx?siteid=&ver=&usid=&mnuid=5470&modid=3&mode=&noframe=&cid=165&cid2=939&nid=3565
 - Long, J.B. Validating Metadata at the VCR/LTER. LTER Databits, Spring 2011.
-http://databits.lternet.edu/spring-2011/validating-metadata-vcrlter
+https://lternet.edu/?taxonomy=document-types&term=databits
 
 ## Examples
 

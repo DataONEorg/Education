@@ -11,9 +11,9 @@ tags:
 step:
 - describe
 related:
-- Choose-and-use 
-- Consider-the-compatibility 
-- Use-consistent-codes
+- choose-and-use 
+- consider-the-compatibility 
+- use-consistent-codes
 
 ---
 
@@ -40,8 +40,7 @@ Describing the temporal boundaries of a data collection as a whole allows users 
 
 ## Additional Information
 
-NASA: http://gcmd.nasa.gov/User/difguide/temporal_coverage.html
-NASA: http://gcmd.nasa.gov/User/difguide/data_resolution.html
+NASA-GCMD (temporal coverage & data resolution): https://gcmd.nasa.gov/add/difguide/index.html 
 
 ## Examples
 

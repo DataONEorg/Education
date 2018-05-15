@@ -6,7 +6,7 @@ tags:
   - collect
   - describe
   - format
- step:
+step:
   - collect
   - describe
 related:

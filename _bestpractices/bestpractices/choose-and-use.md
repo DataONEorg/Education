@@ -57,9 +57,9 @@ The consistent use of well-defined, referenced terminology in describing data pr
 
 Ecological Informatics, Volume 2, Issue 3, October 2007, Pages 279-296 Meta-information systems and ontologies. A Special Feature from the 5th International Conference on Ecological Informatics ISEI5, Santa Barbara, CA, Dec. 4–7, 2006 - Novel Concepts of Ecological Data Management S.I.
 
-Guidelines for the Construction, Format, and Management of Monolingual Controlled Vocabularies. 2010. ANSI/NISO Z39.19. (http://www.niso.org/kst)
+Guidelines for the Construction, Format, and Management of Monolingual Controlled Vocabularies. 2010. ANSI/NISO Z39.19. (https://www.niso.org/publications/ansiniso-z3919-2005-r2010)
 
 Olsen, L.M., G. Major, K. Shein, J. Scialdone, R. Vogel, S. Leicester, H. Weir, S. Ritz, T. Stevens, M. Meaux, C.Solomon, R. Bilodeau, M. Holland, T. Northcutt, R. A. Restrepo, 2007 . NASA/Global Change Master Directory
 
 (GCMD) Earth Science Keywords. Version 6.0.0.0.0
-Citing GCMD Keywords (http://gcmd.nasa.gov/Resources/valids/)
+Citing GCMD Keywords (https://earthdata.nasa.gov/about/gcmd/global-change-master-directory-gcmd-keywords)

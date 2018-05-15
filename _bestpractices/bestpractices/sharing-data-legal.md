@@ -1,15 +1,13 @@
 ---
-title: Sharing data: legal and policy considerations
+title: "Sharing data: legal and policy considerations"
 layout: bestpractice
 tags:
   - access
   - citation
   - data creators
   - data sources
- step:
+step:
   - access
-related:
-
 ---
 
 ## Best Practice
@@ -23,7 +21,7 @@ There are three primary areas that need to be addressed when producing sharable 
 
 1. Privacy and confidentiality: Adhere to your institution's policy
 2. Copyright and intellectual property (IP): Data is not copyrightable. Ensure that you have the appropriate permissions when using data that has multiple owners or copyright layers. Keep in mind that information documenting the context of data collection may be under copyright.
-3. Licensing: Data can be licensed. The manner in which you license your data can determine its ability to be consumed by other scholars. For example the Creative Commons Zero License provides for very broad access.
+3. Licensing: Data can be licensed. The manner in which you license your data can determine its ability to be consumed by other scholars. For example the [Creative Commons Zero License](https://creativecommons.org/choose/zero/) provides for very broad access.
 
 If your data falls under any of the categories below there are additional considerations regarding sharing:
 

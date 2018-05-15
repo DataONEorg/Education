@@ -1,5 +1,5 @@
 ---
-title: Provide a citation and document provenance for your dataset
+title: Plan data management early in your project
 layout: bestpractice
 tags:
   - backup
@@ -8,6 +8,10 @@ tags:
 step:
   - plan
   - preserve
+related:
+  - create-and-document
+  - create-manage-and
+  - define-roles-and
 ---
 
 ## Best Practice
@@ -47,8 +51,8 @@ When you develop hypotheses and the design of sample collection for your new pro
 
 ## Additional Information
 
-Australian National University Data Management Planning: http://ilp.anu.edu.au/dm/
+Australian National University Data Management Planning: http://www.ands.org.au/working-with-data/data-management/data-management-plans
 
-MIT Data Management Planning: http://libraries.mit.edu/data-management/
+MIT Data Management Planning: https://libraries.mit.edu/data-management/
 
 UK Data Archive Data Management and Sharing Plan: http://www.data-archive.ac.uk/news/publications/managingsharing.pdf

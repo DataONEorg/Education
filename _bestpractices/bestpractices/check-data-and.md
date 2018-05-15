@@ -49,4 +49,4 @@ By ensuring your data and other outputs are accessible by all, you are maximizin
 
 Best Practices for Web Accessibility from W3C: http://www.w3.org/WAI/WCAG20/glance/
 
-You can also check your images with Vischeck http://vischeck.com
+You can also check your images with Vischeck to see how they look to someone colorblind: http://vischeck.com

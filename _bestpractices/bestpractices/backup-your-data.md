@@ -49,7 +49,7 @@ To avoid data loss, and to retain information held in earlier versions, it is va
 - Identify suitable repositories for the data
 
 ## Additional Information: 
-http://en.wikipedia.org/wiki/Backup
-http://www.carbonite.com/
-http://aws.amazon.com/s3/
-http://en.wikipedia.org/wiki/Incremental_backup
+http://en.wikipedia.org/wiki/Backup  
+http://www.carbonite.com/  
+http://aws.amazon.com/s3/  
+http://en.wikipedia.org/wiki/Incremental_backup  

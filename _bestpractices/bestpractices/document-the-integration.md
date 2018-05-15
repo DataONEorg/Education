@@ -43,11 +43,11 @@ Provide enough information about the process used to integrate disparate dataset
 
 Some proposed guidelines and methods of citing datasets and data elements can be found at:
 
-- DataCite: Cite your data (http://www.datacite.org.s3-website-eu-west-1.amazonaws.com/cite-your-data.html)
-- Dryad: Citing Data
-- A Proposed Standard for the Scholarly Citation of Quantitative Data
-- Dataverse Network Data Citation Standard (https://dataverse.org/)
+- [DataCite: Cite your data](http://www.datacite.org.s3-website-eu-west-1.amazonaws.com/cite-your-data.html)
+- [Dryad: Citing Data](http://wiki.datadryad.org/Citing_Data)
+- [A Proposed Standard for the Scholarly Citation of Quantitative Data](http://www.dlib.org/dlib/march07/altman/03altman.html)
+- [Dataverse Network Data Citation Standard](https://dataverse.org/)
 
 ## Additional Information (Biblio)
 
-A survey of approaches to automatic schema matching.
+[A survey of approaches to automatic schema matching.](https://doi.org/10.1007/s007780100057)

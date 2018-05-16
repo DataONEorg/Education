@@ -376,6 +376,7 @@ Removes duplicated tags
       <div class="twelve columns">
         <ul class="courses" id="mix-wrapper">
           {% for lesson in site.lessons %}
+            {% unless lesson.hide %}
             {% assign ldeck = lesson.url | split: '/' %}
             {% if ldeck.last == 'index.html' %}
               {% assign ldeck = ldeck[2] %}
@@ -396,6 +397,7 @@ Removes duplicated tags
                   data-year="4">
                   <a href="{{ site.baseurl }}/lessons/{{ ldeck }}/index.html"><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/index.png"></a></li>
             {% endif %}
+            {% endunless %}
           {% endfor %}
         </ul>
       </div>

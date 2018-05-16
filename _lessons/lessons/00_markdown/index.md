@@ -4,6 +4,7 @@ author: DataONE Community Engagement & Outreach
 layout: cover_page
 update: 2017-04-07T12:00:00Z
 version: 0.1
+hide: 1
 tags: [GitHub]
 categories: ["Technical Tutorial"]
 status: draft

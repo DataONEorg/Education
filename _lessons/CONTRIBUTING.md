@@ -3,16 +3,14 @@ title: Contributing to Lessons
 layout: layout
 ---
 
-
 # Guidelines for contributors and content editors
 
-Thank you for your interest in contributing to these educational materials. This document provides an
-introduction to the ways the content is organized, the tools we use to display
-content, and advice for [updating current content](#update), [suggesting changes](#suggest), and [forking content for your own use](#fork).
+Thank you for your interest in contributing to these educational materials. This document provides advice for [updating current content](#update), [suggesting changes to content](#suggest), and [forking content for your own use](#fork), as well as an introduction to [how the content is organized](#structure) and the [tools we use to display content](#tools) .
 
-See the [structure of education materials](#structure) for help updating, editing, and forking content.
-
-This repository was developed by the DataONE Community Engagement and Outreach Working Group and continues to be maintained by members of this team. Information about suggesting changes or adding new content may be found below.
+This repository was developed by the DataONE Community Engagement and
+Outreach Working Group and continues to be maintained by members of this
+team. Information about suggesting changes or adding new content may be
+found below.
 
 ## Update current content <a id="update"></a>
 Want to update to link or method? See a spelling error? Changes can be easily proposed by opening the [GitHub Education page](http://github.com/DataONEorg/Education) and editing content directly.
@@ -76,7 +74,7 @@ PDF files in `pdf`. For example, a lesson repository could look like:
     one-pager.pdf
 ~~~
 
-### Information about the tools used
+### Information about the tools used <a id="tools"></a>
 
 The markdown documents are rendered into a website using [*Jekyll*][jekyll]. When sharing presentations, slides
 themselves are rendered using [*remarkjs*][remark]. The rendering is done using GitHub

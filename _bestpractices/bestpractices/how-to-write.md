@@ -3,11 +3,11 @@ title: How to write a Best Practice file
 layout: bestpractice
 tags:
   - data source
- step:
+step:
   - preserve
   - describe
 related:
-  - how-to-cite
+  - first-three-words
 ---
 
 ## Filename
@@ -29,3 +29,31 @@ The header for best practices has the following fields:
 `step`: a list of one or more steps of the data lifecycle to which this best practice applies
 
 `related`: a list of related best practices identifiers -- an identifier is the first three words of the title, separated by dashes (optional)
+
+## in 'Raw' view, these are the headers you should have
+
+## Best practice
+
+content
+- thing 1
+- thing 2
+  - another thing
+  - one last thing
+
+## Description Rationale
+
+content 
+
+## Related Best Practices
+
+- one
+- two
+- three
+
+## Additional Information
+
+a few things
+
+## Examples
+
+content

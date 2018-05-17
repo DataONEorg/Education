@@ -8,6 +8,9 @@ tags:
   - describe
   - preserve
   - provenance
+step:
+  - describe
+  - preserve
 ---
 
 ## Best practice
@@ -44,6 +47,21 @@ data, if the data in one dataset were derived from data in another dataset.
 Documenting the dataset origin, history, and contact information allows for
 proper citation of datasets. By encouraging the proper citation of datasets,
 data providers and publishers receive appropriate credit for their efforts.
+
+## Related Best Practices
+
+- Assign descriptive file names
+- Confirm a match between data and their description in metadata
+- Provide identifier for dataset used
+
+## Additional Information
+
+The Oak Ridge National Laboratory Distributed Active Archive Center has guidance and rational for citing data sets:
+[Editorial: Citations to Published Data Sets](http://daac.ornl.gov/ornl_daac_citations_200812.pdf)
+
+Buneman P, Khanna S, Tan W. 2001. Why and Where: A Characterization of Data Provenance. Pp. 316-330 in Lecture Notes in Computer Science. Springer Berlin/Heidelberg. https://doi.org/10.1007/3-540-44503-X_20  
+Osterweil LJ, Clarke LA, Ellison AM, Boose E, Podorozhny R, Wise A. 2010. Clear and precise specification of ecological data management processes and dataset provenance. IEEE Transations on Automation Science and Engineering 7(1):189-195. https://doi.org/10.1109/TASE.2009.2021774  
+Simmhan YL, Plale B, Gannon D. 2005. A survey of data provenance in e-science. ACM SIGMOD 34(3):31-36. https://doi.org/10.1145/1084805.1084812  
 
 ## Examples
 

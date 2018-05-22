@@ -9,16 +9,17 @@ Thank you for your interest in contributing to these educational materials. This
 
 This repository was developed by the DataONE Community Engagement and
 Outreach Working Group and continues to be maintained by members of this
-team. Information about suggesting changes or adding new content may be
-found below.
+team.
+
+---
 
 ## Update current content <a id="update"></a>
-Want to update to link or method? See a spelling error? Changes can be easily proposed by opening the [GitHub Education page](http://github.com/DataONEorg/Education) and editing content directly.
+Want to update to link or method? See a spelling error? Changes can be easily proposed by opening the [GitHub Education page](http://github.com/DataONEorg/Education) and editing content directly. For help, try this brief [GitHub tutorial](https://guides.github.com/activities/forking/) on forking and editing content.
 
 ### Editing content
 
 1. Create a fork of the repository into your github account
-2. Modify the files that you want to change
+2. Modify the files that you want to change ([See "Structure" below for tips on making changes](#structure))
 3. Submit a pull-request against the `master` branch of this repository
 4. Your changes will be reviewed
 
@@ -37,10 +38,12 @@ lesson) is in quotes.
 
 ## Fork content for your own use <a id="fork"></a>
 
-Forking and editing content through GitHub, rather than downloading and privately editing, enables others to use your edited comment and track how these materials are being used.
+Forking and editing content through GitHub, rather than downloading and privately editing, enables others to use your edited content and track how these materials are being used.
 
 1. Create a fork of the repository into your github account
-2. Modify the files that you want to change
+2. Modify the files that you want to change ([See "Structure" below for tips on making changes](#structure))
+
+___
 
 ## Structure of the education materials <a id="structure"></a>
 
@@ -55,7 +58,7 @@ folder is called `XX_keyword`, where `XX` is the order content is displayed via 
 a brief description of the content. Edits can be made to the descriptive information contained in the `cover_page.md` (the page that opens when a tile is selected on the home page).  If education materials include slides, these slides are in a file called
 `slides.md`. Do not use another filename. For example, the [demonstration
 lesson][demolessonhtml] markdown file can be [viewed here][demolessonmd]. This
-demonstration lesson showcases most of the features you can use in your slides.
+demonstration lesson showcases most of the features you can use if publishing slides.
 
 [demolessonhtml]: https://dataoneorg.github.io/Education/lessons/00_markdown/index.html "Rendered demonstration lesson"
 [demolessonmd]: https://github.com/DataONEorg/Education/blob/master/lessons/00_markdown/index.md "Raw markdown file for the demonstration lesson"

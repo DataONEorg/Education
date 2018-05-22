@@ -11,7 +11,7 @@ layout: layout
 
 ### What materials can I find on the Data Management Skillbuilding Hub page?
 
-You will find a series of resources that help users learn to better manage their data; each is focused on one stage of the data lifecycle. Each resource is comprised of supporting materials, such a set of slides with presenter notes, a one-page explanatory sheet, and a hands-on exercise. These materials are meant to be flexible, usable and adaptable for use in a range of contexts. For example, they can be used for personal education, in classroom settings, by librarians teaching data management workshops, and more.
+You will find a series of resources that help users learn to better manage their data; each is focused on one stage of the data lifecycle. Each resource is comprised of supporting materials, such a set of slides with presenter notes, a one-page explanatory sheet, and a hands-on exercise. These materials are meant to be flexible and adaptable for use in a range of contexts. For example, they can be used for personal education, in classroom settings, by librarians teaching data management workshops, and more.
 
 ### How did you decide what information to include in the Data Management Skillbuilding Hub?
 The education resources were initially developed in 2011-2012 and were peer reviewed and revised in 2015. In 2016, the  resources were moved to an open git repository (GitHub) to increase community engagement around the materials, and also to build interest in shared maintenance and ongoing sustainability. The decisions and process are described more fully in the publication [Using Peer Review to Support Development of Community Resources for Research Data Management][MnmgtPub].
@@ -22,11 +22,11 @@ Each suite of materials can be accessed by clicking on its associated tile on th
 
 ### Can I add, edit or modify content within the Data Management Skillbuilding Hub page?
 
-Yes. It is okay for you add new content, or to make changes to existing content and redistribute in ways that suit your needs, such as PowerPoint. We ask that you provide appropriate citation and attribution to DataONE.
+Yes. It is okay for you add new content, or to make changes to existing content and redistribute in ways that suit your needs, such as PowerPoint. For more information visit our [Contribute][CONTRIB] page. We ask that you provide appropriate citation and attribution to DataONE.
 
 ### How should I cite this content?
 
-Within each topic, a citation to the lessen is provided.
+Within each topic, a citation to the lesson is provided.
 
 ### How do I give a slide presentation?
 
@@ -42,7 +42,7 @@ See [the contribution guidelines][CONTRIB].
 
 ## Who maintains the Data Management Skillbuilding Hub content?
 The Data Management Skillbuilding Hub are maintained by the Community Engagement and Outreach Working Group at DataONE. Please contact Amber Budden [aebudden at dataone.unm.edu] or Megan Mach [mach at unm.edu] with questions or updates.
-<!-- TODO -->
+
 
 [website]: ./ "Lessons homepage"
 [CONTRIB]: ./CONTRIBUTING.html "Contribution guidelines"

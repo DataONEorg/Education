@@ -51,28 +51,32 @@
   		color: #660032;
   	}
   	article, footer {
-  		margin:30px;
+  		margin:0px;
   	}
 
     header {
   		border-bottom: 0px solid #660032;
   		background-color:#fff;
+      width:100%;
   	}
 
 
   	header img.pagelogo {
-    padding: 4px 0px 0px 15px;
+    padding: 4px 83px 0px 15px;
     float: right;
   	}
+
+
 
     header h1 {
       top: 10px;
       left: 0px;
       right:40px;
+      font-size: 213%;
       margin-bottom: 1px;
       text-align: left;
       color: #660033;
-      font-weight: 400;
+      font-weight: 550;
     }
 
     /* Add a plum background color to the top navigation */
@@ -134,7 +138,7 @@
 </div>
 
     {% include header.html %}
-
+<div style="width:90%; padding:30px; margin:0px 0px 0px 32px; ">
   <article class='container'>
     <section role='complimentary' class='keep-together'>
       <div class=border1><a href='slides.html'><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/index.png" style="max-width: 100%; max-height:203px" class="mainimage" /></a></div>
@@ -192,7 +196,7 @@
       <br />
       <!-- The lesson.* properties come from the slides.md front matter.  The page.* properties come from the index.md front matter -->
 			<strong>Cite this lesson: </strong><br />
-			{{ lesson.author }} ({{ page.update | date: '%Y' }}) "{{ lesson.title }}". Accessed at {{site.url}}{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
+			{{ lesson.author }} ({{ page.update | date: '%Y' }}) "{{ lesson.title }}". Accessed at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
       </p>
       <br />
 		</section>
@@ -203,11 +207,12 @@
     <a href="{{ site.baseurl }}/lessons/{{ page.prevlesson }}"><img src="{{site.baseurl}}/resources/images/arrow_left3.png" style="margin-right:10px; max-height:20px"></a>
 	<a href="{{ site.baseurl }}/"><strong>Home</strong></a>
     <a href="{{ site.baseurl }}/lessons/{{ page.nextlesson }}"><img src="{{site.baseurl}}/resources/images/arrow_right3.png" style="margin-left:10px; max-height:20px;"></a>
+
   </article>
 
 
 
-
+<!-- this should be the full url to the site for the citation (instead of hand typing the dataoneorg.io), but when pushed through site.url is just blank... {{site.url}}{{site.baseurl}}{{ page.url }} -->
 
 
 
@@ -215,10 +220,13 @@
   <footer>
 
     <div>
+      <br />
     	Version date: {{ page.update | date: '%b %d, %Y' }}<br>
         <!-- Build revision: <a href='{{ site.github.repository_url}}/commit/{{ site.github.build_revision }}'>{{ site.github.build_revision }}</a> -->
     </div>
   </footer>
+
+</div>
 </main>
 
 <!-- Google Analytics Code-->

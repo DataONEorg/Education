@@ -41,7 +41,7 @@ You can change slides by pressing the left and right arrows, or by swiping left 
 See [the contribution guidelines][CONTRIB].
 
 ## Who maintains the Data Management Skillbuilding Hub content?
-The Data Management Skillbuilding Hub are maintained by the Community Engagement and Outreach Working Group at DataONE. Please contact Amber Budden [aebudden at dataone.unm.edu] or Megan Mach [mach at unm.edu] with questions or updates.
+The Data Management Skillbuilding Hub are maintained by the Community Engagement and Outreach Working Group at DataONE. If you have a question or concern, please open an <a href="https://github.com/DataONEorg/Education/issues" target="_blank">Issue</a> in this repository on GitHub.<br />
 
 
 [website]: ./ "Lessons homepage"

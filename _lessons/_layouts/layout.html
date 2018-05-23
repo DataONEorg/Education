@@ -51,13 +51,15 @@
     header {
   		border-bottom: 0px solid #660032;
   		background-color:#fff;
+      width:100%;
   	}
 
 
   	header img.pagelogo {
-    padding: 4px 0px 0px 15px;
+    padding: 4px 78px 0px 15px;
     float: right;
   	}
+
 
     header h1 {
       top: 10px;
@@ -66,8 +68,10 @@
       margin-bottom: 8px;
       text-align: left;
       color: #660033;
-      font-weight: 400;
+      font-weight: 550;
+      font-size: 212.5%;
     }
+
 
     /* Add a plum background color to the top navigation */
     .topnav {
@@ -178,9 +182,11 @@
 
     {% include header.html %}
 
-  <div id=wrapper>
+
+  <div id=wrapper style= "width:90%; padding:0px; margin:0px 0px 0px 62px; ">
   {{ content }}
   </div>
+
   <div>
       {% include footer.html %}
   </div>

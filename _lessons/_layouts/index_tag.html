@@ -65,11 +65,12 @@
     header {
   		border-bottom: 0px solid #660032;
   		background-color:#fff;
+      width:100%;
   	}
 
 
   	header img.pagelogo {
-    padding: 4px 0px 0px 15px;
+    padding: 4px 83px 0px 15px;
     float: right;
   	}
 
@@ -80,13 +81,15 @@
       margin-bottom: 8px;
       text-align: left;
       color: #660033;
-      font-weight: 400;
+      font-weight: 550;
     }
 
-    /* Add a plum background color to the top navigation */
+
+    /* Add a plum background color to the top navigation. Plum color from h1 #660033; topnav color #f2f2f2; weight was : 400 */
     .topnav {
         background-color: #660032;
         overflow: hidden;
+
     }
 
     /* Style the links inside the navigation bar */
@@ -97,6 +100,7 @@
         padding: 10px 12px;
         text-decoration: none;
         font-size: 17px;
+
     }
 
     /* Change the color of links on hover */
@@ -112,8 +116,10 @@
     }
 
 
+
   	footer {
   		font-size: .8em;
+      bottom: 0;
   	}
 
   	h2 {
@@ -223,6 +229,7 @@
 
     {% include header.html %}
 
+
 {% comment %}
 The following part extracts all the tags from the lessons
 {% endcomment %}
@@ -263,7 +270,7 @@ Removes duplicated tags
 	{% endif %}
 {% endfor %}
 
-<div style="width:90%; padding:20px; margin:0px 0px 20px 40px; ">
+<div style="width:90%; padding:20px; margin:0px 0px 20px 42px; ">
     <p> This GitHub page contains education resources for better data management and is open to community input and update. These resources are useable and adaptable for use in a range of contexts by researchers, teachers, librarians, or anyone who wants to learn better data management practices. Each square below contains a lesson in slide format with annotations, a one page handout that distills the main message, and a supporting hands-on exercise. <br /> <br />
 
       The Data Management Skillbuilding Hub are intended to be flexible and updated by a range of users and audiences, and also build interest in shared maintenance and sustainability.
@@ -295,11 +302,11 @@ Removes duplicated tags
         </div>
       </div>
     </div-->
-<div style="width:100%; padding:20px; margin:0px 0px 0px 0px; background:#ececec">
-  <div style = "width:95%; padding:0px; margin:0px 10px 0px 40px;">
+<div style= "width:100%; margin:20px 0px 10px 0px; background:#ececec">
+  <div style = "width:90%; padding:20px; margin:0px 10px 0px 42px;">
     <h3><i>Using This Resource</i></h3>
     <p> Click to see more about each resource. You can limit resources by each <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a> stage. Comprehensive information is available in the <a href="./faq.html">FAQ</a>. </p>
-    <br/>
+
 <!-- Megan commented this out, add if you want the different category options back -->
     {% if site.show_content_type_filter == 1 %}
     <div class="row">
@@ -320,7 +327,7 @@ Removes duplicated tags
     <div class="row">
       <div class="twelve columns">
         <div style="margin-left:0px; " >
-         Filter by stage of the Data Life Cycle
+         &#9654; Filter by stage of the Data Life Cycle
 
 <!-- THIS IS COMMENTED OUT EVEN WHEN SHOWING THE DATA LIFE CYCLE FILTER, just this middle text
         <div cla-ss="styled-select blue semi-square" >

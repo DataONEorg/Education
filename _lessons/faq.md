@@ -14,7 +14,10 @@ layout: layout
 You will find a series of resources that help users learn to better manage their data; each is focused on one stage of the data lifecycle. Each resource is comprised of supporting materials, such a set of slides with presenter notes, a one-page explanatory sheet, and a hands-on exercise. These materials are meant to be flexible and adaptable for use in a range of contexts. For example, they can be used for personal education, in classroom settings, by librarians teaching data management workshops, and more.
 
 ### How did you decide what information to include in the Data Management Skillbuilding Hub?
-The education resources were initially developed in 2011-2012 and were peer reviewed and revised in 2015. In 2016, the  resources were moved to an open git repository (GitHub) to increase community engagement around the materials, and also to build interest in shared maintenance and ongoing sustainability. The decisions and process are described more fully in the publication [Using Peer Review to Support Development of Community Resources for Research Data Management][MnmgtPub].
+The education resources were initially developed in 2011-2012 by the DataONE Community Engagement and Outreach Working Group and published online at https://www.dataone.org/education-modules. In 2015-2016 the modules underwent peer-review and substantial revision. They were later moved to an open git repository (GitHub) to increase community engagement around the materials, and also to build interest in shared maintenance and ongoing sustainability. The decisions and process are described more fully in the publication [Using Peer Review to Support Development of Community Resources for Research Data Management][MnmgtPub].
+
+### Are these materials the same as the DataONE Education Modules?
+Yes, and perhaps no. The resources on the Data Management Skillbuilding Hub were sourced from the [DataONE Education Modules][Modules]. To enable them to be formated as an HTML slide, minor layout changes needed to be made. Further, as a community resource we encourage contributed changes that will enhance the resources. As such, these Github modules will be more 'up-to-date' and inclusive of community input than the DataONE Educaiton Modules. We will periodically incporporate the changes made here back into the powerpoint Education Modules on the DataONE website. You can learn more about contributing [here][CONTRIB].
 
 ### How do I access and view the materials associated with each topic?
 
@@ -26,7 +29,7 @@ Yes. It is okay for you add new content, or to make changes to existing content 
 
 ### How should I cite this content?
 
-Within each topic, a citation to the lesson is provided.
+Within each topic, a citation to the lesson is provided. Click on the file to view it.
 
 ### How do I give a slide presentation?
 
@@ -35,15 +38,17 @@ Those materials containing slides are provided as HTML documents that you can vi
 You can change slides by pressing the left and right arrows, or by swiping left or right on a touch-enabled device.
 
 
-
 ## Information for content editors
 
 See [the contribution guidelines][CONTRIB].
 
+
 ## Who maintains the Data Management Skillbuilding Hub content?
-The Data Management Skillbuilding Hub are maintained by the Community Engagement and Outreach Working Group at DataONE. If you have a question or concern, please open an <a href="https://github.com/DataONEorg/Education/issues" target="_blank">Issue</a> in this repository on GitHub.<br />
+The Data Management Skillbuilding Hub are maintained by the [Community Engagement and Outreach Working Group][CEO-WG] at DataONE. If you have a question or concern, please open an <a href="https://github.com/DataONEorg/Education/issues" target="_blank">Issue</a> in this repository on GitHub.<br />
 
 
 [website]: ./ "Lessons homepage"
 [CONTRIB]: ./CONTRIBUTING.html "Contribution guidelines"
 [MnmgtPub]: http://dx.doi.org/10.7191/jeslib.2017.1114 "Peer-review in Data Management"
+[Modules]: https://www.dataone.org/education-modules
+[CEO-WG]: https://www.dataone.org/working_groups/community-engagement-and-outreach

@@ -14,14 +14,14 @@ team.
 ---
 
 ## Update current content <a id="update"></a>
-Want to update to link or method? See a spelling error? Changes can be easily proposed by opening the [GitHub Education page](http://github.com/DataONEorg/Education) and editing content directly. For help, try this brief [GitHub tutorial](https://guides.github.com/activities/forking/) on forking and editing content.
+Want to update a link or method? See a spelling error? Changes can be easily proposed by opening the [GitHub Education page](http://github.com/DataONEorg/Education) and editing content directly. For help, try this brief [GitHub tutorial](https://guides.github.com/activities/forking/) on forking and editing content.
 
 ### Editing content
 
-1. Create a fork of the repository into your github account
-2. Modify the files that you want to change ([See "Structure" below for tips on making changes](#structure))
-3. Submit a pull-request against the `master` branch of this repository
-4. Your changes will be reviewed
+1. Create a fork of the repository into your github account.
+2. Modify the files that you want to change ([See "Structure" below for tips on making changes](#structure)).
+3. Submit a pull-request against the `master` branch of this repository.
+4. Your changes will be reviewed by the repository admins.
 
 ### Page not rendering?
 
@@ -31,8 +31,9 @@ lesson) is in quotes.
 ## Suggest changes to content <a id="suggest"></a>
 
 1. Open an [*Issue*][issue] on this repository.
-2. Your suggestions will be reviewed by a member of the DataONE CEO Working Group.
-3. Changes will be pushed to the repository by a CEO Working Group team member regularly/as needed.
+2. Provide your suggested changes with as much detail and guidance as possible. Be specific.
+3. Your suggestions will be reviewed by the repository admins.
+4. Changes will be pushed to the repository by the repository admins regularly/as needed.
 
 [issue]: https://github.com/DataONEorg/Education/issues
 

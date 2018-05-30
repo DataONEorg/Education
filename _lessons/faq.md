@@ -7,7 +7,7 @@ layout: layout
 # Frequently Asked Questions
 
 
-## Information for presenters
+## Information for learners and instructors
 
 ### What materials can I find on the Data Management Skillbuilding Hub page?
 

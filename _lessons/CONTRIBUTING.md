@@ -5,18 +5,16 @@ layout: layout
 
 # Guidelines for contributors and content editors
 
-Thank you for your interest in contributing to these educational materials. This document provides advice for [updating current content](#update), [suggesting changes to content](#suggest), and [forking content for your own use](#fork), as well as an introduction to [how the content is organized](#structure) and the [tools we use to display content](#tools) .
+This document details our recommended processes to [update current content](#update), [suggest changes to content](#suggest), and [fork content for your own use](#fork), as well as an introduction to [how the content is organized](#structure) and the [tools we use to display content](#tools).
 
-This repository was developed by the DataONE Community Engagement and
-Outreach Working Group and continues to be maintained by members of this
-team.
+Thank you for your interest in contributing to these educational materials. This repository was developed by the DataONE Community Engagement and Outreach Working Group and continues to be maintained by members of this team.
 
 ---
 
 ## Update current content <a id="update"></a>
 Want to update a link or method? See a spelling error? Changes can be easily proposed by opening the [GitHub Education page](http://github.com/DataONEorg/Education) and editing content directly. For help, try this brief [GitHub tutorial](https://guides.github.com/activities/forking/) on forking and editing content.
 
-### Editing content
+### Edit content
 
 1. Create a fork of the repository into your github account.
 2. Modify the files that you want to change ([See "Structure" below for tips on making changes](#structure)).
@@ -39,7 +37,7 @@ lesson) is in quotes.
 
 ## Fork content for your own use <a id="fork"></a>
 
-Forking and editing content through GitHub, rather than downloading and privately editing, enables others to use your edited content and track how these materials are being used.
+Fork and edit content through GitHub, rather than editing privately, to enable others to use your edited content and to track how these materials are used.
 
 1. Create a fork of the repository into your github account
 2. Modify the files that you want to change ([See "Structure" below for tips on making changes](#structure))

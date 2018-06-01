@@ -7,7 +7,7 @@ status: published
 prevlesson: 09_analysis
 nextlesson: 01_management
 handout: L10_Exercise_LegalPolicyIssues.docx
-ppt: L10_Exercise_LegalPolicyIssues.pptx
+ppt: L10_Policies.pptx
 exercise: L10_LegalPolicy_Handout.pdf
 ---
 

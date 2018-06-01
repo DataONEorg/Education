@@ -7,7 +7,7 @@ layout: layout
 
 This document details our recommended processes to [update current content](#update), [suggest changes to content](#suggest), and [fork content for your own use](#fork), as well as an introduction to [how the content is organized](#structure) and the [tools we use to display content](#tools).
 
-Thank you for your interest in contributing to these educational materials. This repository was developed by the DataONE Community Engagement and Outreach Working Group and continues to be maintained by members of this team.
+This repository was developed by the DataONE Community Engagement and Outreach Working Group and continues to be maintained by members of this team. Thank you for your interest in contributing to these educational materials.
 
 ---
 

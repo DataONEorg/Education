@@ -154,18 +154,18 @@
     <div style="float:left; width:440px; margin:0px; font-size:80%;"><p><em>Quick tips: Press p for presentation; f for full screen</em></p></div>
     <div style="float:left; width:440px; margin:0px; font-size:120%;"><p></p></div>
     <div style="float:left; width:440px; margin:0px; font-size:100%;"><p><strong>Supporting downloads:</strong></p></div>
-		  <div style="float:left; width:220px; margin:5px; "><a href='{{ldeck}}.pdf'><img src="{{ site.baseurl }}/resources/images/pdf.png" width=30  style="padding-right:8px;">  PDF Download</a></div>
+		  <div style="float:left; width:220px; margin:5px; "><a href='{{ldeck}}.pdf' target='_blank'><img src="{{ site.baseurl }}/resources/images/pdf.png" width=30  style="padding-right:8px;">  PDF Download</a></div>
 		  {% if page.ppt %}
-		  	<div style="float:left; width:220px; margin:5px; "><a href='https://www.dataone.org/sites/all/documents/education-modules/pptx/{{lesson.ppt}}'><img src="{{ site.baseurl }}/resources/images/doc_ppt.png" width=30  style="padding-right:8px;">  PPT Download</a></div>
+		  	<div style="float:left; width:220px; margin:5px; "><a href='https://www.dataone.org/sites/all/documents/education-modules/pptx/{{page.ppt}}'><img src="{{ site.baseurl }}/resources/images/doc_ppt.png" width=30  style="padding-right:8px;">  PPT Download</a></div>
 		  {% endif %}
 		  {% if page.handout %}
-			  <div style="float:left; width:220px; margin:5px; "><a href='{{lesson.handout}}'><img src="{{ site.baseurl }}/resources/images/handout.png" width=30  style="padding-right:8px;">  Handout</a></div>
+			  <div style="float:left; width:220px; margin:5px; "><a href='{{page.handout}}' target='_blank'><img src="{{ site.baseurl }}/resources/images/handout.png" width=30  style="padding-right:8px;">  Handout</a></div>
 		  {% endif %}
 		  {% if page.exercise %}
-			  <div style="float:left; width:220px; margin:5px; "><a href='{{lesson.exercise}}'><img src="{{ site.baseurl }}/resources/images/doc.png" width=30  style="padding-right:8px;">  Hands on Exercise</a></div>
+			  <div style="float:left; width:220px; margin:5px; "><a href='{{page.exercise}}' target='_blank'><img src="{{ site.baseurl }}/resources/images/doc.png" width=30  style="padding-right:8px;">  Hands on Exercise</a></div>
 		  {% endif %}
       {% if page.datafiles %}
-        <div style="float:left; width:220px; margin:5px; "><a href='{{lesson.datafiles}}'><img src="{{ site.baseurl }}/resources/images/data.png" width=30  style="padding-right:8px;">  Supporting Data Files</a></div>
+        <div style="float:left; width:220px; margin:5px; "><a href='{{page.datafiles}}'><img src="{{ site.baseurl }}/resources/images/data.png" width=30  style="padding-right:8px;">  Supporting Data Files</a></div>
       {% endif %}
 		</div>
 		<br clear=all>

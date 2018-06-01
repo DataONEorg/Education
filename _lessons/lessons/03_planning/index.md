@@ -7,7 +7,7 @@ categories: ["Teaching Module" ]
 prevlesson: 02_datasharing
 nextlesson: 04_entry
 handout: L03_DataManagement_Handout.pdf
-ppt: L03_DataManagement.pptx
+ppt: L03_DataManagementPlanning.pptx
 exercise: L03_Exercise.pdf
 ---
 

@@ -20,6 +20,7 @@ exclude:
   - "node_modules"
   - "_bestpractices/README.md"
   - "_bestpractices/_config.yml"
+  - "_bestpractices/index.md"
   - "_lessons/_includes"
   - "_lessons/_layouts"
   - "_lessons/_lessons"
@@ -43,12 +44,12 @@ format: '4:3'
 collections:
   lessons:
     output: true
-    output_ext: html
-    permalink: /lessons/:path
+    output_ext: .html
+    permalink: :path
   bestpractices:
     output: true
-    output_ext: html
-    permalink: /bestpractices/:path
+    output_ext: .html
+    permalink: :path
 
 # Build settings
 markdown: kramdown

@@ -224,12 +224,6 @@
   </div>
 -->
 
-<pre>
-{% for item in site.lessons %}
-  {{ item.title }}
-  {{ item.tags | jsonify }}</p>
-{% endfor %}
-</pre>
 
     {% include header.html %}
 
@@ -273,6 +267,16 @@ Removes duplicated tags
 		{% endunless %}
 	{% endif %}
 {% endfor %}
+
+<!--
+<pre>
+{% for tag in tags %}
+ * {{ tag | jsonify }}{% endfor %}
+===
+{% for item in site.lessons %}
+* {{ item.url }}{% endfor %}
+</pre>
+-->
 
 <div style="width:90%; padding:20px; margin:0px 0px 20px 42px; ">
     <p>The Data Management Skillbuilding Hub contains resources for better data management and is open to community input and update. These resources are adaptable across a range of contexts and intended for use by researchers, teachers, librarians, or anyone who wants to learn better data management practices. Each tile below contains a lesson in slide format with annotations, a one page handout that distills the main message, and a hands-on exercise. <br /> <br />
@@ -387,10 +391,9 @@ Removes duplicated tags
       <div class="twelve columns">
         <ul class="courses" id="mix-wrapper">
           {% for lesson in site.lessons %}
-            <p>LESSON!</p>
             {% unless lesson.hide %}
             {% assign ldeck = lesson.url | split: '/' %}
-            {% if ldeck.last == 'index.html' %}
+            {% if ldeck.last == 'index' and ldeck[1] == 'lessons' %}
               {% assign ldeck = ldeck[2] %}
               {% assign catclasses = "" %}
               {% for cat in lesson.categories %}

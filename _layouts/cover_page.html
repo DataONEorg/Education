@@ -3,13 +3,14 @@
 
 {% assign ldeck = page.url | split: '/' %}
 {% assign ldeck = ldeck[2] %}
-{% capture index_url %}/lessons/{{ ldeck }}/slides.html{% endcapture %}
+{% capture index_url %}/lessons/{{ ldeck }}/slides{% endcapture %}
 {% assign lesson = site.lessons | where: "url", index_url | first %}
 {% unless page.title  %}
   {% assign page.title = lesson.title %}
 {% endunless %}
 
 <head>
+
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>{{ lesson.title }}</title>
@@ -125,8 +126,6 @@
   </style>
 
 </head>
-
-
 <body>
 <main role='main'>
   <!--MEGAN PUT IN NEW HEADER, THIS IS THE ORIGINAL FOR REFERENCE

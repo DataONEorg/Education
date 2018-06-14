@@ -1,6 +1,7 @@
 # EducationUI
 
-This repository provides a Jekyll site that renders content from the 
+This repository provides a Jekyll site that renders content from other Git
+repositories where the content is located.
 
 
 UI generation for education. Content included as submodules.

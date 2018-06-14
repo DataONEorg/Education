@@ -53,3 +53,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "lessons"
+    values:
+      layout: "slides"

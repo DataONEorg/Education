@@ -1,6 +1,6 @@
 [submodule "bestpractices"]
-	path = bestpractices
+	path = ui/_bestpractices
 	url = https://github.com/DataONEorg/BestPractices.git
 [submodule "lessons"]
-	path = lessons
+	path = ui/_lessons
 	url = https://github.com/DataONEorg/Education.git

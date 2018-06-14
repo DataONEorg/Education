@@ -9,7 +9,6 @@ github_username:  DataONEorg
 analytics_code: "UA-15017327-22"
 show_content_type_filter: 0   #Set this to 1 to show the "Filter by content type" option on the home page.
 
-source: "ui"
 
 exclude: 
   - "Gemfile"

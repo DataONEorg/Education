@@ -1,0 +1,23 @@
+{%- comment -%}
+The following part extracts all the categories from the_collection
+{%- endcomment -%}
+{%- assign rawcats = "" -%}
+{%- for lesson in site[ include.the_collection ] -%}
+  {%- assign ccats = lesson.categories | join:'|' | append:'|' -%}
+  {%- assign rawcats = rawcats | append:ccats -%}
+{%- endfor -%}
+{%- assign rawcats = rawcats | split:'|' | sort -%}
+{%- comment -%}
+Removes duplicated categories
+{%- endcomment -%}
+{%- assign cats = "" -%}
+{%- for cat in rawcats -%}
+  {%- if cat != "" -%}
+    {%- if cats == "" -%}
+      {%- assign cats = cat | split:'|' -%}
+    {%- endif -%}
+    {%- unless cats contains cat -%}
+      {%- assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}

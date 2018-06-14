@@ -1,0 +1,23 @@
+{%- comment -%}
+The following part extracts all the tags from the_collection
+{%- endcomment -%}
+{%- assign rawtags = "" -%}
+{%- for item in site[ include.the_collection ] -%}
+  {%- assign ttags = item.tags | join:'|' | append:'|' -%}
+  {%- assign rawtags = rawtags | append:ttags -%}
+{%- endfor -%}
+{%- assign rawtags = rawtags | split:'|' | sort -%}
+{%- comment -%}
+Removes duplicated tags
+{%- endcomment -%}
+{%- assign tags = "" -%}
+{%- for tag in rawtags -%}
+  {%- if tag != "" -%}
+    {%- if tags == "" -%}
+      {%- assign tags = tag | split:'|' -%}
+    {%- endif -%}
+    {%- unless tags contains tag -%}
+      {%- assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}

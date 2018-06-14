@@ -1,0 +1,25 @@
+<!--
+Generate citation meta tags based on page front matter properties.
+
+Expects:
+author:[list of authors]
+title: title of the page
+update: date page was updated, used as the publication date, format as YYYY-MM-DDThh:mm:ssZ
+version: version indicator of the resource, use semantic versioning like "1.0"
+-->
+{% unless page.abstract %}
+{% assign abstract=page.content | split: "<abstract/>" %}
+{% assign abstract=abstract[0] | strip_newlines %}
+{% endunless %}
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+<meta name="DC.title" content="{{ page.title }}" />
+{% for author in page.author %}
+<meta name="DC.creator" content="{{ author }}" />
+{% endfor %}
+<meta name="DC.date" content="{{ page.update | date: "%Y-%m-%d"}}" />
+<meta name="DC.publisher" content="https://github.com/dataoneorg/Education" />
+<meta name="DC.identifier" content="{{ site.url}}{{site.baseurl}}{{page.url }}" />
+<meta name="DC.version" content="{{ page.version }}" />
+<meta name="DC.abstract" content="{{ abstract }}" />
+<meta name="description" content="{{ abstract }}" />

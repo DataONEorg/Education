@@ -1,0 +1,58 @@
+title: Data Management Skillbuilding Hub for Data Management
+email: https://www.dataone.org/contact
+description: > # this means to ignore newlines until "baseurl:"
+  The Data Management Skillbuilding Hub contains resources for better data management and is open to community input and update. These resources are intended for researchers, teachers, librarians, or anyone who needs to learn better data management practices.
+baseurl: "/Education" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: DataONEorg
+github_username:  DataONEorg
+analytics_code: "UA-15017327-22"
+show_content_type_filter: 0   #Set this to 1 to show the "Filter by content type" option on the home page.
+
+source: "ui"
+
+include:
+  - "_lessons"
+  
+exclude: 
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "_bestpractices/README.md"
+  - "_bestpractices/_config.yml"
+  - "_lessons/_includes"
+  - "_lessons/_layouts"
+  - "_lessons/_lessons"
+  - "_lessons/css"
+  - "_lessons/img"
+  - "_lessons/js"
+  - "_lessons/MegansEditing"
+  - "_lessons/resources"
+  - "_lessons/templates"
+  - "_lessons/_config.yml"
+  - "_lessons/Gemfile"
+  - "_lessons/LICENSE"
+  - "_lessons/Makefile"
+  - "_lessons/README.md"
+  - "_lessons/remark2pdf"
+
+# Format for the slides, can be either 16:9 or 4:3
+format: '4:3'
+
+# Collections
+collections:
+  lessons:
+    output: true
+    output_ext: html
+    permalink: /lessons/:path
+  bestpractices:
+    output: true
+    output_ext: html
+    permalink: /bestpractices/:path
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+

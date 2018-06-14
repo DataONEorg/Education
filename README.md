@@ -1,5 +1,8 @@
 # EducationUI
 
+This repository provides a Jekyll site that renders content from the 
+
+
 UI generation for education. Content included as submodules.
 
 ```

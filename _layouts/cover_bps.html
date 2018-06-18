@@ -11,14 +11,13 @@ layout: layout
 <!-- HERE ADD LIST AND LINKS TO "RELATED" TAG IN FRONT MATTER OF BPs-->
 <div class="related">
           <h2>Related Best Practices</h2>
+          <pre>{{page.id}} {{site.bestpractices[page.id]}}</pre>
           <ul>
-            {% for page in page.related %}
-            [Link to a page]({% link {{ site.baseurl }}/bestpractices/{{ page.related }}/index.html %})
-                <a href="{{ site.baseurl }}/bestpractices/{{ page.related }}index.html">
-                    <li>
-                    <h3>{{ page.related }}</h3>
-                  </li>
-                </a>
+            {% for item in page.related %}
+            <li><a href="{{ site.baseurl }}/bestpractices/{{ item }}.html">
+            {{ item }}</a>
+            <pre>
+          </li>
             {% endfor %}
           </ul>
 </div>

@@ -35,7 +35,7 @@
 
 <h2>Item by Steps</h2>
 {% for step in steps %}
-<h3><a href="#{{step}}">{{ step }}</a></h3>
+<h3><a name="{{step}}">{{ step }}</a></h3>
 <ul>
 {%- comment -%}Filter the collection by the current category {%- endcomment -%}
 {%- assign items = site[ the_collection ] | where: "step", step -%}

@@ -1,0 +1,23 @@
+---
+layout: layout
+---
+
+<h1>{{ page.step }}</h1>
+
+<ul>
+{% for page in site.bestpractices[page.step] %}
+
+  <li>
+    <a href="{{ post.url }}">{{ page.title }}</a>
+  </li>
+{% endfor %}
+</ul>
+
+
+stored here for cover_bps
+{% comment %}  [Link to a page]({% link {{site.baseurl}}{{ page.related }} %})
+    <a href="{{site.baseurl}}{{ page.related }}">
+        <li>
+        <h3>{{ page.related }}</h3>
+      </li>
+    </a> {% endcomment %}

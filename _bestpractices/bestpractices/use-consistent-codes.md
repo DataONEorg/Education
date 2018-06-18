@@ -1,6 +1,6 @@
 ---
 title: Use consistent codes
-layout: bestpractice
+layout: cover_bps
 tags:
   - coding
   - collect
@@ -14,6 +14,11 @@ related:
   - consider-the-compatability
   - identify-and-use
   - maintain-consistent-data
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

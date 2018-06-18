@@ -1,6 +1,6 @@
 ---
 title: Document steps used in data processing
-layout: bestpractice
+layout: cover_bps
 tags:
 - analyze
 - data processing
@@ -15,6 +15,11 @@ step:
 related:
 - consider-the-compatibility
 - develop-a-quality
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

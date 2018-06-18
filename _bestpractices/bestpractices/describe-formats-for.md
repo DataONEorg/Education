@@ -1,6 +1,6 @@
 ---
 title: Describe formats for date and time
-layout: bestpractice
+layout: cover_bps
 tags:
 - date
 - describe
@@ -13,6 +13,11 @@ related:
 - choose-and-use
 - consider-the-compatibility
 - use-consistent-codes
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice
@@ -34,5 +39,5 @@ The date and time are important pieces of contextual information for observation
 - Consider the compatibility of the data you are integrating
 - Use consistent codes
 
-## Additional Information 
+## Additional Information
 ISO 8601 format date: YYYY-MM-DD time: HH:MM:SS datatime: YYYYMMDDTHHMMSS

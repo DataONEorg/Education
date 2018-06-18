@@ -1,6 +1,6 @@
 ---
 title: Define expected data outcomes and types
-layout: bestpractice
+layout: cover_bps
 tags:
 - data model
 - data source
@@ -13,10 +13,15 @@ related:
 - identify-data-sensitivity
 - plan-for-effective
 - revisit-data-management
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 
-## Best Practice 
+## Best Practice
 In the planning process, researchers should carefully consider what data will be produced in the course of their project.
 
 Consider the following:

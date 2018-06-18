@@ -1,6 +1,6 @@
 ---
 title: Ensure flexible data services for virtual datasets
-layout: bestpractice
+layout: cover_bps
 tags:
   - data archives
   - data services
@@ -12,6 +12,11 @@ step:
 related:
   - consider-the-compatibility
   - describe-the-contents
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -26,13 +31,13 @@ In order for a large dataset to be effectively used by a variety of end users, t
   - Parameter subsetting
   - Coordinate transformation
   - Statistical characterization
-  
+
 - Define service interfaces based upon Open Standards. For example:
 
   - Open Geospatial Consortium (OGC WMS, WFS, WCS)
   - W3C (SOAP)
   - IETF (REST – derived from Hypertext Transfer Protocol [HTTP])
-  
+
 - Publish service metadata for published services based upon Open Standards. For example:
 
   - Web Services Definition Language (WSDL)
@@ -51,4 +56,3 @@ Some datasets are too large to efficiently deliver in their entirety, or are not
 
 Web Service Definition Language: http://www.w3.org/TR/wsdl  
 Service Casting via RSS/Atom: http://wiki.esipfed.org/index.php/Atom_ServiceCasting_to_advertise_Web_Services
-

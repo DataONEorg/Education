@@ -1,6 +1,6 @@
 ---
 title: Plan data management early in your project
-layout: bestpractice
+layout: cover_bps
 tags:
   - backup
   - plan
@@ -12,6 +12,11 @@ related:
   - create-and-document
   - create-manage-and
   - define-roles-and
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

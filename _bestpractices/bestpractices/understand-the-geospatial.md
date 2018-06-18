@@ -1,6 +1,6 @@
 ---
 title: Understand the geospatial parameters of multiple data sources
-layout: bestpractice
+layout: cover_bps
 tags:
   - analyze
   - documentation
@@ -16,6 +16,11 @@ related:
   - consider-the-compatability
   - identify-and-use
   - use-consistent-codes
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

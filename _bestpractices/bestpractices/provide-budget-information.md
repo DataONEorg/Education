@@ -1,6 +1,6 @@
 ---
 title: Provide budget information for your data management plan
-layout: bestpractice
+layout: cover_bps
 tags:
 - data management plan
 - integrate
@@ -11,7 +11,12 @@ step:
 related:
 - create-and-document
 - create-manage-and
-- define-roles-and 
+- define-roles-and
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice
@@ -41,7 +46,7 @@ Phases of the Data Life Cycle (see Primer on Data Management on the DataONE webs
 - Preserve: Likely both in-sourced and out-sourced costs. Coordinate with central IT services or community repository environments that are equipped to provide preservation services. This phase will be tied closely to the costs of the collection phase.
 - Discover: Likely in-sourced costs. Coordinate with librarians, IT service providers, or repository providers to identify and access data sources.
 - Integrate: Likely in-sourced costs. Coordinate with IT service providers or other service groups to merge and prepare data sources for analysis phase.
-- Analyze: Likely in-sourced costs. Coordinate with central IT services or other workspace providers to connect data sources with appropriate analysis and visualization software. 
+- Analyze: Likely in-sourced costs. Coordinate with central IT services or other workspace providers to connect data sources with appropriate analysis and visualization software.
 
 ## Description Rationale
 

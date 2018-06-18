@@ -1,6 +1,6 @@
 ---
 title: Document and store data using stable file formats
-layout: bestpractice
+layout: cover_bps
 tags:
 - documentation
 - format
@@ -13,7 +13,12 @@ step:
 related:
 - create-and-document
 - identify-suitable-repositories
-- plan-data-management 
+- plan-data-management
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

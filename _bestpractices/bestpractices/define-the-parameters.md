@@ -1,6 +1,6 @@
 ---
 title: Define the parameters
-layout: bestpractice
+layout: cover_bps
 tags:
 - describe
 - documentation
@@ -12,6 +12,11 @@ related:
 - define-the-data
 - plan-data-management
 - use-consistent-codes
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

@@ -1,6 +1,6 @@
 ---
 title: Ensure basic quality control
-layout: bestpractice
+layout: cover_bps
 tags:
   - assure
   - coding
@@ -11,6 +11,11 @@ related:
   - confirm-a-match
   - ensure-datasets-used
   - consider-the-compatibility
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -64,4 +69,3 @@ Quality control procedures identify potential problems with data that could affe
 Chapman, Arthur D. 2005. Principles of Data Quality, version 1.0. Report for the Global Biodiversity Information Facility, Copenhagen.
 
 US Environmental Protection Agency. 2002. Guidance on Environmental Data Verification and Data Validation. http://www.epa.gov/quality/qs-docs/g8-final.pdf.
-

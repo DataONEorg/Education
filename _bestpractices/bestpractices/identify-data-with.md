@@ -1,6 +1,6 @@
 ---
 title: Identify data with long-term value
-layout: bestpractice
+layout: cover_bps
 tags:
   - data archives
   - preserve
@@ -11,6 +11,11 @@ related:
   - backup-your-data
   - decide-what-data
   - preserve-information-keep
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -20,7 +25,7 @@ In order to focus resources and attention on these core datasets, the project te
 - Only the datasets which have significant long-term value should be contributed to a repository, requiring decisions about which datasets need to be kept.
 - If data cannot be recreated or it is costly to reproduce, it should be saved.
 - Four different categories of potential data to save are observational, experimental, simulation, and derived (or compiled).
-- Your funder or institution may have requirements and policies governing contribution to repositories. 
+- Your funder or institution may have requirements and policies governing contribution to repositories.
 
 Given the amount of data produced by scientific research, keeping everything is neither practical nor economically feasible.
 

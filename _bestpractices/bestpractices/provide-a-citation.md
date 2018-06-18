@@ -1,6 +1,6 @@
 ---
 title: Provide a citation and document provenance for your dataset
-layout: bestpractice
+layout: cover_bps
 tags:
   - citation
   - data creators
@@ -11,6 +11,11 @@ tags:
 step:
   - describe
   - preserve
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice

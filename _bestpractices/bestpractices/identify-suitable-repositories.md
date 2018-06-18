@@ -1,6 +1,6 @@
 ---
 title: Identify suitable repositories for the data
-layout: bestpractice
+layout: cover_bps
 tags:
   - access
   - data archives
@@ -14,7 +14,11 @@ related:
   - create-and-document
   - create-manage-and
   - define-roles-and
-
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

@@ -1,21 +1,26 @@
 ---
 title: Plan for effective multimedia management
-layout: bestpractice
+layout: cover_bps
 tags:
   - documentation
   - format
   - image
-  - metadata 
+  - metadata
   - plan
   - preserve
   - storage
-step: 
+step:
   - preserve
   - plan
 related:
   - create-manage-and
   - define-expected-data
   - define-roles-and
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice
@@ -86,7 +91,7 @@ Multimedia metadata is particularly important for discovery as the objects do no
 
 "Multimedia Semantics: Metadata, Analysis and Interaction": http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470747005.html
 
-## Examples 
+## Examples
 
 http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf
 

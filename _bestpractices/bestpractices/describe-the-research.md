@@ -1,6 +1,6 @@
 ---
 title: Describe the research project
-layout: bestpractice
+layout: cover_bps
 tags:
 - annotation
 - data creators
@@ -14,6 +14,11 @@ related:
 - choose-and-use
 - confirm-a-match
 - document-your-data
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 ## Best Practice
 The research project description should contain the following information:

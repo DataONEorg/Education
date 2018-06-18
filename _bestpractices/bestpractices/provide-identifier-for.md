@@ -1,6 +1,6 @@
 ---
 title: Provide identifier for dataset used
-layout: bestpractice
+layout: cover_bps
 tags:
   - access
   - data consistency
@@ -15,6 +15,11 @@ related:
   - consider-the-compatibility
   - provide-a-citation
   - identify-and-use
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice

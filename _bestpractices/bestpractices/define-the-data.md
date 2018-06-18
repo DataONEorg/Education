@@ -1,6 +1,6 @@
 ---
 title: Define the data model
-layout: bestpractice
+layout: cover_bps
 tags:
 - access
 - data model
@@ -13,6 +13,11 @@ related:
 - create-and-document
 - create-manage-and
 - identify-suitable-repositories
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

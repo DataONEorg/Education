@@ -1,6 +1,6 @@
 ---
 title: How to write a Best Practice file
-layout: bestpractice
+layout: cover_bps
 tags:
   - data source
 step:
@@ -8,6 +8,11 @@ step:
   - describe
 related:
   - first-three-words
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Filename
@@ -42,7 +47,7 @@ content
 
 ## Description Rationale
 
-content 
+content
 
 ## Related Best Practices
 

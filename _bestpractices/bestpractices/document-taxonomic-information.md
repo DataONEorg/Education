@@ -1,6 +1,6 @@
 ---
 title: Describe the overall organization of your dataset
-layout: bestpractice
+layout: cover_bps
 tags:
 - describe
 - metadata
@@ -10,9 +10,14 @@ tags:
 step:
 - describe
 related:
-- choose-and-use 
-- consider-the-compatibility 
+- choose-and-use
+- consider-the-compatibility
 - use-consistent-codes
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

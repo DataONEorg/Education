@@ -1,6 +1,6 @@
 ---
 title: Double-check the data you enter
-layout: bestpractice
+layout: cover_bps
 tags:
 - assure
 - data consistency
@@ -8,9 +8,14 @@ tags:
 step:
 - assure
 related:
-- identify-missing-values 
+- identify-missing-values
 - identify-outliers
 - identify-values-that
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice
@@ -30,5 +35,3 @@ Manually entered data can suffer from a high error rate. Double data entry and/o
 - Identify missing values and define missing value codes
 - Identify outliers
 - Identify values that are estimated
-
-

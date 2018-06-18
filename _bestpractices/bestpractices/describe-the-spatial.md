@@ -1,6 +1,6 @@
 ---
 title: Describe the spatial extent and resolution of your dataset
-layout: bestpractice
+layout: cover_bps
 tags:
   - describe
   - documentation
@@ -14,6 +14,11 @@ related:
   - choose-and-use
   - consider-the-compatibility
   - use-consistent-codes
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -41,7 +46,7 @@ Describing the spatial boundaries of a data collection as a whole allows users t
 
 ## Additional Information
 
-NASA-GCMD (spatial coverage & data resolution): https://gcmd.nasa.gov/add/difguide/index.html 
+NASA-GCMD (spatial coverage & data resolution): https://gcmd.nasa.gov/add/difguide/index.html
 
 ## Examples
 

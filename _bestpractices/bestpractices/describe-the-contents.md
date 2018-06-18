@@ -1,6 +1,6 @@
 ---
 title: Describe the contents of data files
-layout: bestpractice
+layout: cover_bps
 tags:
 - describe
 - documentation
@@ -14,6 +14,11 @@ related:
 - choose-and-use
 - consider-the-compatibility
 - use-consistent-codes
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 

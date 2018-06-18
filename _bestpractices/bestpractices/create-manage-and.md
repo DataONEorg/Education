@@ -1,6 +1,6 @@
 ---
 title: Create, manage, and document your data storage system
-layout: bestpractice
+layout: cover_bps
 tags:
   - access
   - documentation
@@ -14,6 +14,11 @@ related:
   - create-and-document
   - plan-data-management
   - plan-for-effective
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice

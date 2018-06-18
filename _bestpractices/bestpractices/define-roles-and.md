@@ -1,6 +1,6 @@
 ---
 title: Define roles and assign responsibilities for data management
-layout: bestpractice
+layout: cover_bps
 tags:
 - data management plan
 - plan
@@ -11,6 +11,11 @@ related:
 - plan-for-effective
 - provide-budget-information
 - revisit-data-management
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 
@@ -38,7 +43,7 @@ Steps for assigning data management responsibilities:
 4. Develop staffing/training budget and incorporate into project budget
 5. Assign responsible parties and monitor results
 
-## Description Rationale 
+## Description Rationale
 A successful data management plan requires that the appropriate staffing resources are available and trained. Identifying specific tasks and responsible parties will help with budgeting, implementation, and preservation of the data resources.
 
 ## Related Best Practices

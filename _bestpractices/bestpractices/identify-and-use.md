@@ -1,6 +1,6 @@
 ---
 title: Identify and use relevant metadata standards
-layout: bestpractice
+layout: cover_bps
 tags:
   - controlled vocabulary
   - describe
@@ -14,6 +14,11 @@ step:
 related:
   - confirm-a-match
   - define-the-data
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -55,6 +60,6 @@ UK Digital Curation Centre (DCC) Disciplinary Metadata Catalog
 http://www.dcc.ac.uk/resources/metadata-standards
 
 Seeing Standards: A Visualization of the Metadata Universe
-http://jennriley.com/metadatamap/ 
+http://jennriley.com/metadatamap/
 
 Xu W, and M Okada. 2007. "EBM metadata based on Dublin Core better presenting validity of clinical trials". Journal of Medical Systems. 31 (5): 337-43.

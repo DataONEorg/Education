@@ -1,6 +1,6 @@
 ---
 title: Separate data values from annotations
-layout: bestpractice
+layout: cover_bps
 tags:
   - annotation
   - describe
@@ -14,6 +14,11 @@ related:
   - develop-quality-assurance
   - identify-and-use
   - plan-data-management
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

@@ -1,6 +1,6 @@
 ---
 title: Describe the overall organization of your dataset
-layout: bestpractice
+layout: cover_bps
 tags:
 - data model
 - database
@@ -13,6 +13,11 @@ related:
 - consider-the-compatibility
 - document-your-data
 - use-consistent-codes
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

@@ -1,6 +1,6 @@
 ---
 title: Communicate data quality
-layout: bestpractice
+layout: cover_bps
 tags:
   - assure
   - flag
@@ -10,6 +10,11 @@ step:
 related:
   - ensure-basic-quality
   - ensure-datasets-used
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice

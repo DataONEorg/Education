@@ -1,6 +1,6 @@
 ---
 title: Identify values that are estimated
-layout: bestpractice
+layout: cover_bps
 tags:
   - analyze
   - assure
@@ -13,6 +13,11 @@ related:
   - develop-a-quality
   - identify-outliers
   - identify-missing-values
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

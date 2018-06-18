@@ -1,8 +1,13 @@
 ---
 title: Describe the sensor network
-layout: bestpractice
+layout: cover_bps
 tags:
 - calibration
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

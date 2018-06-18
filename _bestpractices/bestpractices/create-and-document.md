@@ -1,6 +1,6 @@
 ---
 title: How to write a Best Practice file
-layout: bestpractice
+layout: cover_bps
 tags:
   - backup
   - disaster recovery
@@ -15,6 +15,11 @@ related:
   - define-roles-and
   - identify-suitable-repositories
   - plan-data-management
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -43,7 +48,7 @@ If this information is located in one place, it makes it easier for anyone needi
 
 ## Description Rationale
 
-Collecting information about backing data up before it is needed helps prevent problems and delays that may be encountered when a user needs data from a backup. 
+Collecting information about backing data up before it is needed helps prevent problems and delays that may be encountered when a user needs data from a backup.
 
 ## Related Best Practices
 - Create, manage, and document your data storage system

@@ -1,6 +1,6 @@
 ---
 title: "Sharing data: legal and policy considerations"
-layout: bestpractice
+layout: cover_bps
 tags:
   - access
   - citation
@@ -8,6 +8,11 @@ tags:
   - data sources
 step:
   - access
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

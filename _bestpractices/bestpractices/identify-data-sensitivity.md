@@ -1,6 +1,6 @@
 ---
 title: Identify data sensitivity
-layout: bestpractice
+layout: cover_bps
 tags:
   - access
   - data archives
@@ -12,6 +12,11 @@ step:
   - preserve
 related:
   - provide-a-citation
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -25,15 +30,15 @@ Steps for the identification of the sensitivity of data and the determination of
   - Would it create confusion or controversy in the user community?
   - Would a potentially life-threatening decision be made based on the data or analysis of the data?
   - Are there any availability concerns about the data?
-  - Is the information time-critical? Will another individual or system be relying on the data to make a time-sensitive decision (i.e. sensing data for earthquakes, floods, etc.)? 
-    
+  - Is the information time-critical? Will another individual or system be relying on the data to make a time-sensitive decision (i.e. sensing data for earthquakes, floods, etc.)?
+
 - Document data concerns identified and determine overall sensitivity (Low, Moderate, High)
   - Low criticality would result in a limited adverse effect to an organization as a result of the loss of confidentiality, integrity, or availability of the data. It might mean degradation in mission capability or result in minor harm to individuals.
   - Moderate criticality would result in a serious adverse effect to an organization as a result of the loss of confidentiality, integrity, or availability of the data. It might mean a severe degradation or loss of mission capability or result in significant harm to individuals that does not involve loss of life or serious life threatening injuries.
-  - High criticality would result in a severe or catastrophic adverse effect as a result of the loss of confidentiality, integrity, or availability of the data. It might cause a severe degradation in or loss of mission capability or result in severe or catastrophic harm to individuals involving loss of life or serious life threatening injuries. 
-    
+  - High criticality would result in a severe or catastrophic adverse effect as a result of the loss of confidentiality, integrity, or availability of the data. It might cause a severe degradation in or loss of mission capability or result in severe or catastrophic harm to individuals involving loss of life or serious life threatening injuries.
+
 - Develop data access and dissemination policies and procedures based on sensitivity of the data and need-to-know.
-- Develop data protection policies, procedures and mechanisms based on sensitivity of the data. 
+- Develop data protection policies, procedures and mechanisms based on sensitivity of the data.
 
 ## Description Rationale
 The identification of the sensitivity and importance of data or information processed on an information system is essential to the determination of the appropriate security and privacy considerations to ensure the confidentiality, integrity, and availability of the data as well as data sharing decisions.
@@ -43,7 +48,7 @@ The identification of the sensitivity and importance of data or information proc
 - Plan data management early in your project
 - Revisit data management plan throughout the project life cycle
 
-## Additional Information: 
+## Additional Information:
 
 FIPS Pub 199, Standards for Security Categorization of Federal Information and Information Systems: http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf
 

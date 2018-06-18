@@ -1,6 +1,6 @@
 ---
 title: Describe the temporal extent and resolution of your dataset
-layout: bestpractice
+layout: cover_bps
 tags:
 - date
 - describe
@@ -11,10 +11,14 @@ tags:
 step:
 - describe
 related:
-- choose-and-use 
-- consider-the-compatibility 
+- choose-and-use
+- consider-the-compatibility
 - use-consistent-codes
-
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice
@@ -40,7 +44,7 @@ Describing the temporal boundaries of a data collection as a whole allows users 
 
 ## Additional Information
 
-NASA-GCMD (temporal coverage & data resolution): https://gcmd.nasa.gov/add/difguide/index.html 
+NASA-GCMD (temporal coverage & data resolution): https://gcmd.nasa.gov/add/difguide/index.html
 
 ## Examples
 
@@ -54,5 +58,3 @@ A data set collected daily since February 1, 1990 should be described as
 If collection of data ended on March 19, 2002 the temporal extent would be:
 - Start date: 1990-02-01
 - Stop date: 2002-03-19
-
-

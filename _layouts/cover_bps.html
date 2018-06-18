@@ -9,17 +9,20 @@ layout: layout
   {{ page.content | markdownify }}
 
 <!-- HERE ADD LIST AND LINKS TO "RELATED" TAG IN FRONT MATTER OF BPs-->
+
 <div class="related">
-          <h2>Related Best Practices</h2>
-          <pre>{{page.id}} {{site.bestpractices[page.id]}}</pre>
-          <ul>
-            {% for item in page.related %}
-            <li><a href="{{ site.baseurl }}/bestpractices/{{ item }}.html">
-            {{ item }}</a>
-            <pre>
-          </li>
-            {% endfor %}
-          </ul>
+  <h2>Related Best Practices</h2>
+  <ul>
+    {%- comment -%}Loop the the list of related items listed on the page {%- endcomment -%}
+    {% for item in page.related %}
+      {%- comment -%}Find the related page in the collection {%- endcomment -%}
+      {%- assign item_id = "/bestpractices/" | append: item -%}
+      {%- assign related_page = site.bestpractices | where:"id", item_id | first -%}
+    <li>
+      <a href="{{ site.baseurl }}/bestpractices/{{ item }}.html">{{ related_page.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
 
 

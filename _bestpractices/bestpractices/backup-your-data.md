@@ -1,6 +1,6 @@
 ---
 title: Backup your data
-layout: bestpractice
+layout: cover_bps
 tags:
   - access
   - preserve
@@ -12,6 +12,11 @@ related:
   - create-and-document
   - define-the-data
   - identify-suitable-repositories
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 
@@ -48,7 +53,7 @@ To avoid data loss, and to retain information held in earlier versions, it is va
 - Define the data model
 - Identify suitable repositories for the data
 
-## Additional Information: 
+## Additional Information:
 http://en.wikipedia.org/wiki/Backup  
 http://www.carbonite.com/  
 http://aws.amazon.com/s3/  

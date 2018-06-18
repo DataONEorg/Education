@@ -1,6 +1,6 @@
 ---
 title: Check data and other outputs for print and web accessibility
-layout: bestpractice
+layout: cover_bps
 tags:
   - access
   - discover
@@ -11,6 +11,11 @@ step:
 related:
   - describe-the-contents
   - ensure-flexible-data
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -47,6 +52,6 @@ By ensuring your data and other outputs are accessible by all, you are maximizin
 
 ## Additional Information
 
-Best Practices for Web Accessibility from W3C: http://www.w3.org/WAI/WCAG20/glance/
+Best Practices for Web Accessibility from W3C: [http://www.w3.org/WAI/WCAG20/glance/](http://www.w3.org/WAI/WCAG20/glance/)
 
-You can also check your images with Vischeck to see how they look to someone colorblind: http://vischeck.com
+You can also check your images with Vischeck to see how they look to someone colorblind: [http://vischeck.com](http://vischeck.com)

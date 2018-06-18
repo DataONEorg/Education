@@ -1,0 +1,37 @@
+---
+layout: layout
+---
+
+  <div id=wrapper style= "width:90%; padding:0px; margin:40px 0px 0px 62px; ">
+
+  <h1>{{ page.title }}</h1>
+
+  {{ page.content | markdownify }}
+
+<!-- HERE ADD LIST AND LINKS TO "RELATED" TAG IN FRONT MATTER OF BPs-->
+<div class="related">
+          <h2>Related Best Practices</h2>
+          <ul>
+            {% for page in page.related %}
+            [Link to a page]({% link {{ site.baseurl }}/bestpractices/{{ page.related }}/index.html %})
+                <a href="{{ site.baseurl }}/bestpractices/{{ page.related }}index.html">
+                    <li>
+                    <h3>{{ page.related }}</h3>
+                  </li>
+                </a>
+            {% endfor %}
+          </ul>
+</div>
+
+
+  <section>
+    <br />
+    <strong>Cite this best practice: </strong><br />
+    {{ page.author }} ({{ page.update | date: '%Y' }}) "Best practice: {{ page.title }}". Accessed at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
+    </p>
+    <br />
+  </section>
+
+  	<a href="{{ site.baseurl }}/"><strong>Home</strong></a>
+
+  </div>

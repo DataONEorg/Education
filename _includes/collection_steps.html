@@ -1,0 +1,23 @@
+{%- comment -%}
+The following part extracts all the steps from the_collection
+{%- endcomment -%}
+{%- assign rawsteps = "" -%}
+{%- for item in site[ include.the_collection ] -%}
+  {%- assign ssteps = item.step | join:'|' | append:'|' -%}
+  {%- assign rawsteps = rawsteps | append:ssteps -%}
+{%- endfor -%}
+{%- assign rawsteps = rawsteps | split:'|' | sort -%}
+{%- comment -%}
+Removes duplicted steps
+{%- endcomment -%}
+{%- assign steps = "" -%}
+{%- for step in rawsteps -%}
+  {%- if step != "" -%}
+    {%- if steps == "" -%}
+      {%- assign steps = step | split:'|' -%}
+    {%- endif -%}
+    {%- unless steps contains step -%}
+      {%- assign steps = steps | join:'|' | append:'|' | append:step | split:'|' -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}

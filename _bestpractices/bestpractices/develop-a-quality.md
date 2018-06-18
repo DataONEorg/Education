@@ -1,6 +1,6 @@
 ---
 title: Develop a quality assurance and quality control plan
-layout: bestpractice
+layout: cover_bps
 tags:
 - assure
 - data consistency
@@ -12,7 +12,12 @@ step:
 related:
 - communicate-data-quality
 - confirm-a-match
-- define-the-data 
+- define-the-data
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 ## Best Practice
 

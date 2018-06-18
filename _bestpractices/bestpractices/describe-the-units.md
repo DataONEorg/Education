@@ -1,6 +1,6 @@
 ---
 title: Describe the units of measurement for each observation
-layout: bestpractice
+layout: cover_bps
 tags:
 - describe
 - measurement
@@ -11,6 +11,11 @@ related:
 - choose-and-use
 - consider-the-compatibility
 - use-consistent-codes
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 ## Best Practice
 

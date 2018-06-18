@@ -1,6 +1,6 @@
 ---
 title: Advertise your data using datacasting tools
-layout: bestpractice
+layout: cover_bps
 tags:
   - access
   - data services
@@ -11,6 +11,11 @@ related:
   - provide-a-citation
   - provide-identifier-for
   - recognize-stakeholders-in
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -29,5 +34,5 @@ To make your data available using standard and open software tools you should:
 
 ## Examples
 
-- http://www.nsidc.org/libre/
-- http://datacasting.jpl.nasa.gov/
+- [http://www.nsidc.org/libre/](http://www.nsidc.org/libre/)
+- [http://datacasting.jpl.nasa.gov/](http://datacasting.jpl.nasa.gov/)

@@ -1,9 +1,14 @@
 ---
 title: Describe measurement techniques
-layout: bestpractice
+layout: cover_bps
 tags:
 - access
 - calibration
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 

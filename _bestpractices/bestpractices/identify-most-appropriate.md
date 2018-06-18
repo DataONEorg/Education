@@ -1,6 +1,6 @@
 ---
 title: Identify most appropriate software
-layout: bestpractice
+layout: cover_bps
 tags:
   - analyze
   - data processing
@@ -11,6 +11,11 @@ related:
   - consider-the-compatibility
   - define-expected-data
   - document-steps-used
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice
@@ -26,8 +31,8 @@ Follow the steps below to choose the most appropriate software to meet your need
      - Follow-up with independent assessment
    5. Generate a list of software candidates
    6. Evaluate the list; iterate back to Step 1 as needed
-   7. As feasible, try a few software candidates that seem promising 
-   
+   7. As feasible, try a few software candidates that seem promising
+
 ## Description Rationale
 By carefully considering software choice before a project begins, costs, requirements, and limitations can be addressed early in the data life cycle.
 
@@ -36,7 +41,7 @@ By carefully considering software choice before a project begins, costs, require
 - Define expected data outcomes and types
 - Document steps used in data processing
 
-## Additional Information: 
+## Additional Information:
 
 Open source sites: https://sourceforge.net/, http://git-scm.com, etc.  
 Forums: http://stackoverflow.com

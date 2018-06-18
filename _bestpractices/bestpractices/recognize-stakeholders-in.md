@@ -1,6 +1,6 @@
 ---
 title: Recognize stakeholders in data ownership
-layout: bestpractice
+layout: cover_bps
 tags:
   - access
   - preserve
@@ -11,6 +11,11 @@ step:
 related:
   - provide-a-citation
   - provide-identifier-for
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

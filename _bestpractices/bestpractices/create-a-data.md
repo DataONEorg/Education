@@ -1,6 +1,6 @@
 ---
 title: Create a data dictionary
-layout: bestpractice
+layout: cover_bps
 tags:
   - controlled vocabulary
   - describe
@@ -14,6 +14,11 @@ related:
   - define-the-parameters
   - describe-the-contents
   - use-consistent-codes
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -22,7 +27,7 @@ A data dictionary provides a detailed description for each element or variable i
 
 ## Description Rationale
 
-A data dictionary is an effective and concise way to describe the elements or variables that make up your dataset. 
+A data dictionary is an effective and concise way to describe the elements or variables that make up your dataset.
 
 ## Related Best Practices
 

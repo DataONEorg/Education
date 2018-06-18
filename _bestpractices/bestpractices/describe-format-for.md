@@ -1,6 +1,6 @@
 ---
 title: Describe format for spatial location
-layout: bestpractice
+layout: cover_bps
 tags:
 - access
 - describe
@@ -13,6 +13,11 @@ related:
 - describe-formats-for
 - describe-method-to
 - use-consistent-codes
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

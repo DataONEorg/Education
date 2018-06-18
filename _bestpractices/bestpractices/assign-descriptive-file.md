@@ -1,6 +1,6 @@
 ---
 title: Assign descriptive file names
-layout: bestpractice
+layout: cover_bps
 tags:
   - access
   - describe
@@ -13,6 +13,11 @@ related:
   - choose-and-use
   - confirm-a-match
   - describe-the-contents
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -44,12 +49,12 @@ Borer et al. 2009. Some Simple Guidelines for Effective Data Management. Bull. o
 ## Examples
 
 An example of a good data file name:  
-  
+
 Sevilleta_LTER_NM_2001_NPP.csv  
 - *Sevilleta_LTER is the project name*  
 - *NM is the state abbreviation*  
 - *2001 is the calendar year*  
 - *NPP represents Net Primary Productivity data*  
 - *csv stands for the file type—ASCII comma separated variable*  
-  
+
 Instead of "data May2011" use "data_May2011" or "data-May2011"  

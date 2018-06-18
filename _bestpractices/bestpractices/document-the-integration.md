@@ -1,6 +1,6 @@
 ---
 title: Document the integration of multiple datasets
-layout: bestpractice
+layout: cover_bps
 tags:
 - citation
 - data consistency
@@ -11,9 +11,14 @@ tags:
 step:
 - integrate
 related:
-- consider-the-compatibility 
+- consider-the-compatibility
 - document-steps-used
-- preserve-information-keep 
+- preserve-information-keep
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

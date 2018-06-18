@@ -1,6 +1,6 @@
 ---
 title: Confirm a match between data and their description in metadata
-layout: bestpractice
+layout: cover_bps
 tags:
   - assure
   - data consistency
@@ -15,6 +15,11 @@ related:
   - consider-the-compatibility
   - describe-the-contents
   - define-the-data
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -23,7 +28,7 @@ To assure that metadata correctly describes what is actually in a data file, vis
 
 ## Description Rationale
 
-Sometimes mistakes in either data or metadata preparation cause discrepancies between the two. These can include missing (or extra) columns of data, mis-ordered columns of data, or discrepant values. 
+Sometimes mistakes in either data or metadata preparation cause discrepancies between the two. These can include missing (or extra) columns of data, mis-ordered columns of data, or discrepant values.
 
 ## Related Best Practices
 

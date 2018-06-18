@@ -1,6 +1,6 @@
 ---
 title: Store data with appropriate precision
-layout: bestpractice
+layout: cover_bps
 tags:
   - analyze
   - measurement
@@ -13,6 +13,11 @@ related:
   - backup-your-data
   - create-manage-and
   - define-roles-and
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

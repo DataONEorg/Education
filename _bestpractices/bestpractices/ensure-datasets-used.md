@@ -1,6 +1,6 @@
 ---
 title: Ensure datasets used are reproducible
-layout: bestpractice
+layout: cover_bps
 tags:
   - analyze
   - assure
@@ -16,6 +16,11 @@ step:
 related:
   - define-the-parameters
   - mark-data-with
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice

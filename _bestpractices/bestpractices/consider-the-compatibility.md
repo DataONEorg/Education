@@ -1,6 +1,6 @@
 ---
 title: Consider the compatibility of the data you are integrating
-layout: bestpractice
+layout: cover_bps
 tags:
   - analyze
   - assure
@@ -11,9 +11,14 @@ tags:
 step:
   - assure
 related:
-  - confirm-a-match 
+  - confirm-a-match
   - document-steps-used
-  - define-the-data 
+  - define-the-data
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -22,7 +27,7 @@ The integration of multiple data sets from different sources requires that they 
 
 ## Description Rationale
 
-When using integrated data sets, it is crucial that the data are comparable and compatible to avoid mistakes in analyses and interpretation. 
+When using integrated data sets, it is crucial that the data are comparable and compatible to avoid mistakes in analyses and interpretation.
 
 ## Related Best Practices
 

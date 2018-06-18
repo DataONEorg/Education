@@ -1,6 +1,6 @@
 ---
 title: Identify missing values and define missing value codes
-layout: bestpractice
+layout: cover_bps
 tags:
   - assure
   - coding

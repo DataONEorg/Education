@@ -1,6 +1,6 @@
 ---
 title: Choose and use standard terminology to enable discovery
-layout: bestpractice
+layout: cover_bps
 tags:
   - controlled vocabulary
   - describe
@@ -16,6 +16,11 @@ related:
   - assign-descriptive-file
   - identify-and-use
   - plan-data-management
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -40,7 +45,7 @@ If you must use an unconventional or unique vocabulary, it should be identified 
 
 The consistent use of well-defined, referenced terminology in describing data products, their parameters, and access methods improves the ability to discover those products for specific uses and access via well-known methods. Determine if there are controlled vocabulary terms, scientific taxonomies, and ontologies used by your community, and use those when creating metadata for your dataset.
 
-## Related Best Practices 
+## Related Best Practices
 
 - Assign descriptive file names
 - Identify and use relevant metadata standards

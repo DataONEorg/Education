@@ -1,6 +1,6 @@
 ---
 title: Describe method to create derived data products
-layout: bestpractice
+layout: cover_bps
 tags:
 - analyze
 - data processing
@@ -13,6 +13,11 @@ related:
 - consider-the-compatibility
 - document-your-data
 - use-consistent-codes
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

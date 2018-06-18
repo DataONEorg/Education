@@ -1,5 +1,5 @@
 ---
 title: Best Practices Index
-layout: bestpractice_index
+layout: cover_bps_index
 depth: 1
 ---

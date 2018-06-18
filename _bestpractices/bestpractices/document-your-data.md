@@ -1,6 +1,6 @@
 ---
 title: Document your data organization strategy
-layout: bestpractice
+layout: cover_bps
 tags:
 - data management plan
 - data model
@@ -10,9 +10,14 @@ tags:
 step:
 - describe
 related:
-- define-the-data 
-- develop-a-quality 
-- ensure-flexible-data 
+- define-the-data
+- develop-a-quality
+- ensure-flexible-data
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice
@@ -34,4 +39,4 @@ Data management requires an effective strategy for data organization.
 
 ## Additional Information
 
-Borer, E. T., E. W. Seabloom, M. B. Jones, and M. Schildhauer. 2009. Some simple guidelines for effective data management. ESA Bulletin 90:205-214. https://doi.org/10.1890/0012-9623-90.2.205 
+Borer, E. T., E. W. Seabloom, M. B. Jones, and M. Schildhauer. 2009. Some simple guidelines for effective data management. ESA Bulletin 90:205-214. https://doi.org/10.1890/0012-9623-90.2.205

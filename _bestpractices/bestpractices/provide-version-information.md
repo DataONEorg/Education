@@ -1,6 +1,6 @@
 ---
 title: Provide version information for use and discovery
-layout: bestpractice
+layout: cover_bps
 tags:
   - assure
   - documentation
@@ -10,6 +10,11 @@ tags:
 step:
   - assure
   - quality
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

@@ -1,0 +1,470 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>{{ page.title }}</title>
+
+  <script src="{{ site.baseurl }}/js/vendor/modernizr-2.8.3.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/resources/tags_index.css" />
+   <link rel="shortcut icon" href="https://dataone.org/sites/all/images/favicon.ico" type="image/vnd.microsoft.icon" />
+<!--
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></link>
+-->
+	<!-- link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap.min.css">
+	<link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-theme.min.css" -->
+	<!-- link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like_dropdowns.css" -->
+	<link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like-select.css"> <!-- https://codepen.io/ericrasch/pen/zjDBx -->
+
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{ site.analytics_code }}', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+  <style>
+  	section img.mainimage {
+  		float: left;
+  		border:1px solid #888;
+  		padding:5px;
+  		margin:0px 20px 10px 0px;
+  	}
+  	body {
+  		padding:0px; margin:0px;
+  		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  	}
+
+	a { color: #2285A0; text-decoration: none; }
+	a:visited { color: #2285a0; }
+	a:hover { color: #111; text-decoration: underline; }
+
+  	section {
+  		clear:both;
+  	}
+  	section h1 {
+  		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  		color: #660032;
+  	}
+  	article, footer {
+  		margin:30px;
+  	}
+
+
+    header {
+  		border-bottom: 0px solid #660032;
+  		background-color:#fff;
+      width:100%;
+  	}
+
+
+  	header img.pagelogo {
+    padding: 4px 83px 0px 15px;
+    float: right;
+  	}
+
+    header h1 {
+      top: 10px;
+      left: 0px;
+      right:40px;
+      margin-bottom: 8px;
+      text-align: left;
+      color: #660033;
+      font-weight: 550;
+    }
+
+
+    /* Add a plum background color to the top navigation. Plum color from h1 #660033; topnav color #f2f2f2; weight was : 400 */
+    .topnav {
+        background-color: #660032;
+        overflow: hidden;
+
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 10px 12px;
+        text-decoration: none;
+        font-size: 17px;
+
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+        background-color: #2285A0;
+        color: white;
+    }
+
+
+
+  	footer {
+  		font-size: .8em;
+      bottom: 0;
+  	}
+
+  	h2 {
+		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    font-style: normal;
+    font-style: normal;
+    font-size: 300%;
+    color: #660033;
+    font-weight: 600;
+    margin-left: 0px;
+  	}
+
+    h3 {
+		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-style: normal;
+    font-style: normal;
+    font-size: 120%;
+    color: #660033;
+    font-weight: 600;
+    margin-left: 0px;
+  	}
+
+    p {
+		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-style: normal;
+    font-size: 100%;
+    color: #000;
+    font-weight: 400;
+  	}
+
+	a.filterbutton {
+		padding: .25em 2em .25em 2em;
+		margin-top: .5em;
+		margin-left: 10px;
+		clear: none;
+		display: inline-block;
+		color:#660033;
+		border: solid thin #660033;
+		font-weight: 600;
+		font-size: 90%;
+		text-transform: uppercase;
+		text-align:center;
+		border-radius:.2em;
+	}
+	a.filterbutton:hover {
+	  background-color:#660033;
+	  color:#fff;
+	}
+
+	a.programs-filter-btn-active {
+	  background-color:#660033;
+	  color:#fff;
+	}
+	a.programs-control-active {
+	  background-color:#660033;
+	  color:#fff;
+	}
+
+	a.programs-filter-btn-active.btn_teaching_module { background-color:#84353e; }
+	a.programs-filter-btn-active.btn_technical_tutorial { background-color:#3c6855; }
+	a.programs-filter-btn-active.btn_best_practice { background-color:#6179a8; }
+	a.programs-filter-btn-active.btn_video_tutorial { background-color:#dd912e; }
+
+	a.btn_teaching_module:hover { background-color:#84353e; }
+	a.btn_technical_tutorial:hover { background-color:#3c6855; }
+	a.btn_best_practice:hover { background-color:#6179a8; }
+	a.btn_video_tutorial:hover { background-color:#dd912e; }
+
+
+	a.tagbutton {
+		text-transform: none;
+	}
+
+	.btn_teaching_module { background-color: #ebdadc; } /* ad7279 */
+	.btn_technical_tutorial { background-color: #d0e3db; } /* 84a396 */
+	.btn_best_practice { background-color: #e8effc; } /* 9faecc */
+	.btn_video_tutorial { background-color: #ffe6c6; } /* bc8743  */
+
+
+
+
+
+
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Megan removed to try new logo header text -->
+    <!--<div class="header" role ="banner">
+    <img src="{{ site.baseurl }}/img/logo.jpg" alt="DataONE.org" style='max-height:30px' />
+    <h1>Data Management Skillbuilding Hub</h1>
+  </div>
+-->
+
+
+
+
+    {% include header.html %}
+
+
+{% comment %}
+The following part extracts all the tags from the lessons
+{% endcomment %}
+{% assign rawtags = "" %}
+{% assign rawcats = "" %}
+{% for lesson in site.lessons %}
+	{% assign ttags = lesson.tags | join:'|' | append:'|' %}
+	{% assign rawtags = rawtags | append:ttags %}
+	{% assign ccats = lesson.categories | join:'|' | append:'|' %}
+	{% assign rawcats = rawcats | append:ccats %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+{% assign rawcats = rawcats | split:'|' | sort %}
+
+{% comment %}
+Removes duplicated tags
+{% endcomment %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+	{% if tag != "" %}
+		{% if tags == "" %}
+			{% assign tags = tag | split:'|' %}
+		{% endif %}
+		{% unless tags contains tag %}
+			{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+		{% endunless %}
+	{% endif %}
+{% endfor %}
+{% assign cats = "" %}
+{% for cat in rawcats %}
+	{% if cat != "" %}
+		{% if cats == "" %}
+			{% assign cats = cat | split:'|' %}
+		{% endif %}
+		{% unless cats contains cat %}
+			{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
+		{% endunless %}
+	{% endif %}
+{% endfor %}
+
+<div style="width:90%; padding:20px; margin:0px 0px 20px 42px; ">
+    <p>The Data Management Skillbuilding Hub contains resources for better data management and is open to community input and update. These resources are adaptable across a range of contexts and intended for use by researchers, teachers, librarians, or anyone who wants to learn better data management practices. Each tile below contains a lesson in slide format with annotations, a one page handout that distills the main message, and a hands-on exercise. <br /> <br />
+
+      The resources presented on the Data Management Skillbuilding Hub can be updated by users to promote a current, well-maintained, and sustainable educational tool.
+
+
+       Learn more about how you can <a href="/Education/CONTRIBUTING">contribute</a>.</p>
+
+</div>
+
+
+<div class="wrap">
+  <div class="container">
+
+<!-- Megan commented this out, add if you want the category buttons back -->
+    <!--<div class="row">
+      <div class="twelve columns">
+        <h2>Resource List</h2>
+      </div>
+    </div> -->
+
+<!-- This was already commented out, do not remove -->
+  <!--div class="row">
+      <div class="twelve columns">
+        <div class="programs">
+          <button class="filter-btn" data-filter="all">All</button>
+          {% for cat in cats %}
+          <button class="filter-btn" data-filter=".{{ cat | downcase | replace: ' ','_' }}">{{ cat }}</button>
+           {% endfor %}
+        </div>
+      </div>
+    </div-->
+<div style= "width:100%; margin:20px 0px 10px 0px; background:#ececec">
+  <div style = "width:90%; padding:20px; margin:0px 10px 0px 42px;">
+    <h3><i>Using This Resource</i></h3>
+    <p> Click individual tiles to learn more and use each resource. You can limit resources by each <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a> stage. Comprehensive information is available in the <a href="./faq.html">FAQ</a>. </p>
+
+<!-- Megan commented this out, add if you want the different category options back -->
+    {% if site.show_content_type_filter == 1 %}
+    <div class="row">
+      <div class="twelve columns">
+        <div id="filterbuttons" style="margin-left:0px;">
+          Filter by content type:
+          <a href="#" class="filterbutton" data-filter="all">All</a>
+          {% for cat in cats %}
+          <a href="#" class="filterbutton btn_{{ cat | downcase | replace: ' ','_' }}" data-filter=".{{ cat | downcase | replace: ' ','_' }}">{{ cat }}</a>
+          {% endfor %}
+		<a href="#" class="filterbutton btn_best_practice" data-filter=".best_practice">Best Practice</a>
+		<a href="#" class="filterbutton btn_video_tutorial" data-filter=".video_tutorial">Video Tutorial</a>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    <div class="row">
+      <div class="twelve columns">
+        <div style="margin-left:0px; " >
+         &#9654; Filter by stage of the Data Life Cycle
+
+<!-- THIS IS COMMENTED OUT EVEN WHEN SHOWING THE DATA LIFE CYCLE FILTER, just this middle text
+        <div cla-ss="styled-select blue semi-square" >
+          <a href="#" class="filterbutton tagbutton" data-filter="all">All</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".plan">Plan</a>  (switch to data-toggle for checkbox behavior)
+          <a href="#" class="filterbutton tagbutton" data-filter=".collect">Collect</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".assure">Assure</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".describe">Describe</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".preserve">Preserve</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".discover">Discover</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".integrate">Integrate</a>
+          <a href="#" class="filterbutton tagbutton" data-filter=".analyze">Analyze</a>
+-->
+
+		  <select id="soflow">
+			<option value="all">All</option>
+			<option value=".plan">Plan</option>
+			<option value=".collect">Collect</option>
+			<option value=".assure">Assure</option>
+			<option value=".describe">Describe</option>
+			<option value=".preserve">Preserve</option>
+			<option value=".discover">Discover</option>
+			<option value=".integrate">Integrate</option>
+			<option value=".analyze">Analyze</option>
+		  </select>
+
+
+<!--THIS IS COMMENTED OUT EVEN WHEN SHOWING THE DATA LIFE CYCLE FILTER, leave commented out
+		<span class="dropdown">
+		  <button>Action</button>
+		  <label>
+			<input type="checkbox">
+			<ul>
+			  <li onclick="console.log(1)">Action</li>
+			  <li>Another Action</li>
+			  <li>Something else here</li>
+			  <li class="divider"></li>
+			  <li>Separated link</li>
+			</ul>
+		  </label>
+		</span>
+		text after<br/>mono mono mono mono mono mono
+
+</div>
+-->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="row">
+      <div class="twelve columns">
+        <ul class="courses" id="mix-wrapper">
+          {% for lesson in site.lessons %}
+            {% unless lesson.hide %}
+            {% assign ldeck = lesson.url | split: '/' %}
+            {% if ldeck.last == 'index.html' %}
+              {% assign ldeck = ldeck[2] %}
+              {% assign catclasses = "" %}
+              {% for cat in lesson.categories %}
+                {% assign cleancat = cat | downcase | replace: ' ', '_' %}
+                {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
+              {% endfor %}
+
+              {% assign tagclasses = "" %}
+              {% for tag in lesson.tags %}
+                {% assign cleantag = tag | downcase | replace: ' ', '_' %}
+                {% assign tagclasses = tagclasses | append: ' ' | append: cleantag %}
+              {% endfor %}
+
+              <li class="mix-target {{ catclasses }} {{ tagclasses }}"
+                  data-order="{{ ldeck }}"
+                  data-year="4">
+                  <a href="{{ site.baseurl }}/lessons/{{ ldeck }}/index.html"><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/index.png"></a></li>
+            {% endif %}
+            {% endunless %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div><!-- end of row -->
+  </div><!-- end of container -->
+</div><!-- end of wrap -->
+
+
+  {% include footer.html %}
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="{{ site.baseurl }}/resources/lib/mixitup.3.1.9.min.js"></script>
+	<script src="{{ site.baseurl }}/resources/lib/mixitup-multifilter.min.js"></script>
+
+    <!-- script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script -->
+
+
+  <script>
+    mixitup('#mix-wrapper', {
+      load: {
+        sort: 'order:asc' /* default:asc */
+      },
+      animation: {
+        effects: 'fade', /* fade scale */
+        duration: 700 /* 600 */
+      },
+      classNames: {
+        block: 'programs', /* mixitup */
+        elementFilter: 'filter-btn', /* control */
+        elementSort: 'sort-btn' /* control */
+      },
+      selectors: {
+        target: '.mix-target' /* .mix */
+      }
+    });
+
+
+
+	$(function(){
+	  var $filterSelect = $('#soflow'),
+		  $container = $('#mix-wrapper');
+
+	  //$container.mixItUp();
+
+	  $filterSelect.on('change', function(){
+		$container.mixItUp('filter', this.value);
+	  });
+
+  	  $('body').on('click', '#filterbuttons a', function(e) {
+  	  	 $("select#soflow").prop('selectedIndex', 0);
+  	  });
+
+	});
+
+
+  </script>
+
+</body>
+</html>

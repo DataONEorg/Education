@@ -1,6 +1,6 @@
 ---
 title: Use appropriate field delimiters
-layout: bestpractice
+layout: cover_bps
 tags:
   - access
   - collect
@@ -13,6 +13,11 @@ related:
   - consider-the-compatability
   - identify-and-use
   - use-consistent-codes
+update:
+- May 08, 2018
+author:
+- DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice
@@ -27,10 +32,10 @@ Date, Avg Temperature, Precipitation
 04Jan2010, 33.2, 0.0
 
 ## Description Rationale
-Description Rationale: 
+Description Rationale:
 Consistent use of preferred field delimiters (e.g., comma separated variables) enables data tables to be easily incorporated into analytical and other software programs and ensures that the data content and structure are preserved.
 
-## Related Best Practices 
+## Related Best Practices
 - Consider the compatibility of the data you are integrating
 - Identify and use relevant metadata standards
 - Use consistent codes

@@ -1,6 +1,6 @@
 ---
 title: Identify outliers
-layout: bestpractice
+layout: cover_bps
 tags:
   - analyze
   - annotation
@@ -12,7 +12,11 @@ step:
 related:
   - develop-a-quality
   - identify-missing-values
-
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice
@@ -31,7 +35,7 @@ Comparison to related observations:
 - Comparisons of two parameters that should covary can indicate data contamination. Example: Declining soil moisture and increasing temperature are likely to result in decreasing evapotranspiration.
 
 No outliers should be removed without careful consideration and verification that they are not representing true phenomena.
-Description Rationale: 
+Description Rationale:
 
 ## Description Rationale
 

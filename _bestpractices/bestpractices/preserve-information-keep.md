@@ -1,6 +1,6 @@
 ---
 title: "Preserve information: keep raw data raw"
-layout: bestpractice
+layout: cover_bps
 tags:
   - collect
   - data consistency
@@ -8,11 +8,16 @@ tags:
   - preserve
 step:
   - collect
-  - preserve 
+  - preserve
 related:
   - backup-your-data
   - use-appropriate-field
   - use-consistent-codes
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best Practice

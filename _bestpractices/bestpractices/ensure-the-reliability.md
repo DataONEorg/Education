@@ -1,6 +1,6 @@
 ---
 title: Ensure the reliability of your storage media
-layout: bestpractice
+layout: cover_bps
 tags:
   - access
   - backup
@@ -15,6 +15,11 @@ related:
   - create-and-document
   - ensure-integrity-and
   - identify-suitable-repositories
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
 ---
 
 ## Best practice

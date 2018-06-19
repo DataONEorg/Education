@@ -1,6 +1,6 @@
 ---
 title: Best Practices Collection Index
-layout: bestpracitice_index
+layout: bestpractice_index
 depth: 1
 entries_layout: list
 show_excerpts: true

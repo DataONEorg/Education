@@ -20,7 +20,6 @@ resource: true
 ---
 
 
-## Best Practice
 To avoid accidental loss of data you should:
 
 - Backup your data at regular frequencies

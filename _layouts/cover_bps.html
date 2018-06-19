@@ -2,9 +2,19 @@
 layout: layout
 ---
 
+
   <div id=wrapper style= "width:90%; padding:0px; margin:40px 0px 0px 62px; ">
 
   <h1>{{ page.title }}</h1>
+
+<div class="collection-tags">
+  {% assign tags = page.tags %}
+
+  {% for tag in tags %}
+  <a href="{{ site.baseurl }}/bptags/#{{ tag|slugize }}">{{tag}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
 
   {{ page.content | markdownify }}
 

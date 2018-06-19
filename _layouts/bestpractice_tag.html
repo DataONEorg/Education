@@ -1,0 +1,29 @@
+---
+layout: layout
+title: Tags for Best Practices
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+{% comment %}
+  This section calls out to collection_tags and collection_categories to build
+  a list of categories and tags used by all the pages in this collection. The
+  variable "cats" contains all the categories, and "tags" contains all the tags.
+{% endcomment %}
+{% assign the_collection = "bestpractices" %}
+{% include collection_tags.html the_collection=the_collection %}
+{% include collection_categories.html the_collection=the_collection %}
+{% include collection_steps.html the_collection=the_collection %}
+</head>
+
+<body>
+
+  {{ content }}
+
+
+
+</body>
+</html>

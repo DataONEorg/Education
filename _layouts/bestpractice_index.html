@@ -1,70 +1,37 @@
+---
+layout: layout
+---
+
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
 {% comment %}
-  This section calls out to collection_tags and collection_categories to build
-  a list of categories and tags used by all the pages in this collection. The
-  variable "cats" contains all the categories, and "tags" contains all the tags.
+  This section calls out to collection_steps to build a list of steps (i.e., steps of the data life cycle) used by all the pages in this collection. The variable "steps" contains all the steps
 {% endcomment %}
 {% assign the_collection = "bestpractices" %}
-{% include collection_tags.html the_collection=the_collection %}
-{% include collection_categories.html the_collection=the_collection %}
 {% include collection_steps.html the_collection=the_collection %}
 </head>
 <body>
-  <h1>Index for {{the_collection}} collection</h1>
-<h2>All Items</h2>
-<ul>
-{%- for item in site[ the_collection ] -%}
-  {%- if page.depth == 1 -%}
-    <li><a href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
-  {%- else -%}
-    {%- assign ldeck = item.url | split: '/' -%}
-    {%- if ldeck[3] == "index" -%}
-      {%- assign ldeck = ldeck[2] -%}
-      {%- capture slides_url %}/{{ the_collection }}/{{ ldeck }}/slides{% endcapture -%}
-      {%- assign slides = site[ the_collection ] | where: "url", slides_url | first -%} 
-      {%- assign slidestitle = slides.title -%}
-      <li><a href="{{ site.baseurl }}/{{ item.url }}">{{ slidestitle }}</a></li>
-    {% endif %}
-  {%- endif -%}
-{%- endfor -%}
-</ul>
 
-<h2>Item by Steps</h2>
-{% for step in steps %}
-<h3><a name="{{step}}">{{ step }}</a></h3>
-<ul>
-{%- comment -%}Filter the collection by the current category {%- endcomment -%}
-{%- assign items = site[ the_collection ] | where: "step", step -%}
-{%- for item in items %}
-  <li><a href="{{ site.baseurl }}/{{ item.url }}">{{item.title}}</a></li>{% endfor %}
-</ul>
-{% endfor %}
+  <h1>{{the_collection}} by Data Life Cycle</h1>
 
+    <h2>Item by Steps</h2>
+      {% for step in steps %}
+      <h3><a name="{{step}}">{{ step }}</a></h3>
+        <ul>
+        {%- comment -%}Filter the collection by the current category {%- endcomment -%}
+        {%- assign items = site[ the_collection ] | where: "step", step -%}
+        {%- for item in items %}
+          <li><a href="{{ site.baseurl }}/{{ item.url }}">{{item.title}}</a></li>{% endfor %}
+        </ul>
+      {% endfor %}
 
-<h2>Item by Category</h2>
-{% for cat in cats %}
-<h3>{{ cat }}</h3>
-<ul>
-{%- comment -%}Filter the collection by the current category {%- endcomment -%}
-{%- assign items = site[ the_collection ] | where: "categories", cat -%}
-{%- for item in items %}
-  <li><a href="{{ site.baseurl }}/{{ item.url }}">{{ site.baseurl }}/{{ item.url }}</a></li>{% endfor %}
-</ul>
-{% endfor %}
-
-<h2>Item by Tag</h2>
-{% for tag in tags %}
-<h3>{{ tag }}</h3>
-<ul>
-{%- assign items = site[ the_collection ] | where: "tags", tag -%}
-{%- for item in items %}
-  <li><a href="{{ site.baseurl }}/{{ item.url }}">{{ site.baseurl }}/{{ item.url }}</a></li>{% endfor %}
-</ul>
-{% endfor %}
+<div class="entries-{{ page.entries_layout | default: 'list' }}">
+  {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order %}
+</div>
+</div>
 
 </body>
 </html>

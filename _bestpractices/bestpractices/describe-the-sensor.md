@@ -6,7 +6,7 @@ tags:
 step:
 - describe
 related:
--describe-method-to
+- describe-method-to
 update:
 - May 08, 2018
 author:

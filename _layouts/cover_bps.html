@@ -11,7 +11,7 @@ layout: layout
   {% assign tags = page.tags %}
 
   {% for tag in tags %}
-  <a href="{{ site.baseurl }}/bptags/#{{ tag|slugize }}">{{tag}}</a>
+  <a href="{{ site.baseurl }}/bestpractices/index_tag#{{ tag|slugize }}">{{tag}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>

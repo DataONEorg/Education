@@ -3,6 +3,10 @@ title: Describe the sensor network
 layout: cover_bps
 tags:
 - calibration
+step:
+- describe
+related:
+-describe-method-to
 update:
 - May 08, 2018
 author:

@@ -387,6 +387,10 @@ Removes duplicated tags
   </div>
 </div>
 
+{% assign the_collection = "bestpractices" %}
+{% include collection_steps.html the_collection=the_collection %}
+
+
     <div class="row">
       <div class="twelve columns">
         <ul class="courses" id="mix-wrapper">
@@ -414,6 +418,16 @@ Removes duplicated tags
             {% endif %}
             {% endunless %}
           {% endfor %}
+
+          {% for step in steps %}
+
+          <li class="mix-target {{ step }}"
+              data-order="{{ step }}"
+              data-year="4">
+              <a href="{{ site.baseurl }}/bestpractices/index#{{ step }}"><img src="{{ site.baseurl }}/bestpractices/images/{{ step }}.png"></a></li>
+
+          {% endfor %}
+
         </ul>
       </div>
     </div><!-- end of row -->

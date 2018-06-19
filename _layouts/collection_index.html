@@ -62,7 +62,7 @@
 <ul>
 {%- assign items = site[ the_collection ] | where: "tags", tag -%}
 {%- for item in items %}
-  <li><a href="{{ site.baseurl }}/{{ item.url }}">{{ site.baseurl }}/{{ item.url }}</a></li>{% endfor %}
+  <li><a href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>{% endfor %}
 </ul>
 {% endfor %}
 

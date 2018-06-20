@@ -17,7 +17,7 @@ author:
 - DataONE Community Engagement & Outreach Working Group
 resource: true
 ---
-## Best Practice
+
 
 The units of reported parameters need to be explicitly stated in the data file and in the documentation. We recommend SI units (The International System of Units) but recognize that each discipline has its own commonly used units of measure. The critical aspect here is that the units be defined so that others understand what is reported.
 

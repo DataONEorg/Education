@@ -18,7 +18,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 
 Follow the steps below to choose the most appropriate software to meet your needs.
   1. Identify what you want to achieve (discover data, analyze data, write a paper, etc.)

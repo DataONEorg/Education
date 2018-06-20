@@ -21,7 +21,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 A data dictionary provides a detailed description for each element or variable in your dataset and data model. Data dictionaries are used to document important and useful information such as a descriptive name, the data type, allowed values, units, and text description. A data dictionary provides a concise guide to understanding and using the data.
 

@@ -17,7 +17,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 Information about quality control and quality assurance are important components of the metadata:
 

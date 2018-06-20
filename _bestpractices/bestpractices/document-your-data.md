@@ -20,7 +20,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 
 The following are strategies for effective data organization:
 - Sparse matrix: Optimal data models for storing data avoid sparse matrices, i.e. if many data points within a matrix are empty a data table with a column for parameters and a column for values may be more appropriate.

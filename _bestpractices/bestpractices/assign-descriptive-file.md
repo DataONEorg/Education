@@ -20,7 +20,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 File names should reflect the contents of the file and include enough information to uniquely identify the data file. File names may contain information such as project acronym, study title, location, investigator, year(s) of study, data type, version number, and file type.
 

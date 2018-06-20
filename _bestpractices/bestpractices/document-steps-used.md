@@ -22,7 +22,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 
 Different types of new data may be created in the course of a project, for instance visualizations, plots, statistical outputs, a new dataset created by integrating multiple datasets, etc. Whenever possible, document your workflow (the process used to clean, analyze and visualize data) noting what data products are created at each step. Depending on the nature of the project, this might be as a computer script, or it may be notes in a text file documenting the process you used (i.e. process metadata). If workflows are preserved along with data products, they can be executed and enable the data product to be reproduced.
 

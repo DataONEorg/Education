@@ -19,7 +19,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 In order for a large dataset to be effectively used by a variety of end users, the following procedures for preparing a virtual dataset are recommended:
 

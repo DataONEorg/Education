@@ -22,7 +22,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 A backup policy helps manage users' expectations and provides specific guidance on the "who, what, when, and how" of the data backup and restore process. There are several benefits to documenting your data backup policy:
 - Helps clarify the policies, procedures, and responsibilities

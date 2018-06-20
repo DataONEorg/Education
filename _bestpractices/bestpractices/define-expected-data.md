@@ -21,7 +21,7 @@ resource: true
 ---
 
 
-## Best Practice
+
 In the planning process, researchers should carefully consider what data will be produced in the course of their project.
 
 Consider the following:

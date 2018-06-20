@@ -20,7 +20,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 Data sets or collections are often composed of multiple files that are related. Files may have come from (or still be stored in) a relational database, and the relationships among the data tables or other entities are important if the data are to be reused. These relationships should be documented for a repository.
 
 Describe the overall organization of your data set or collection. Often, a data set or collection contains a large number of files, perhaps organized into a number of directories or database tables. By describing and documenting this organization, files and data can be easily located and used.

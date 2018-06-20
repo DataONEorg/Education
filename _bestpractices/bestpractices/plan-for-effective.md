@@ -23,7 +23,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 
 Multimedia data present unique challenges for data discovery, accessibility, and metadata formatting and should be thoughtfully managed. Researchers should establish their own requirements for management of multimedia during and after a research project using the following guidelines. Multimedia data includes still images, moving images, and sound. The Library of Congress has a set of web pages discussing many of the issues to be considered when creating and working with multimedia data. Researchers should consider quality, functionality and formats for multimedia data. Transcriptions and captioning are particularly important for improving discovery and accessibility.
 

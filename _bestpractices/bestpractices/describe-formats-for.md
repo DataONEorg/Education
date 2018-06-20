@@ -20,7 +20,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 For date, always include four digit year and use numbers for months. For example, the date format yyyy-mm-dd would appear as 2011-03-15 (March 15, 2011).
 
 If Julian day is used, make sure the year field is also supplied. For example, mmm.yyyy would appear as 122.2011, where mmm is the Julian day.

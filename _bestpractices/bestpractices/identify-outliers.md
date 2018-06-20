@@ -19,7 +19,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 
 Outliers may not be the result of actual observations, but rather the result of errors in data collection, data recording, or other parts of the data life cycle. The following can be used to identify outliers for closer examination:
 

@@ -20,7 +20,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 People have different perspectives on what data means to them, and how it can be used and interpreted in different contexts. Data users ranging from community participants to researchers in different domains can provide unique and valuable insights into data through the use of annotation and tagging. The community-generated notes and tags should be discoverable through the data search engine to enhance discovery and use.
 
 When providing capabilities for community tagging and annotations, you should consider the following:

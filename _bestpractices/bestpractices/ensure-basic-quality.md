@@ -18,7 +18,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 Quality control practices are specific to the type of data being collected, but some generalities exist:
 

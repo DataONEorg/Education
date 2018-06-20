@@ -6,7 +6,6 @@ tags:
   - discover
   - standards
 step:
-  - access
   - discover
 related:
   - describe-the-contents
@@ -18,7 +17,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 To maximize usability of your data or outputs, ensure that those with impairments or disabilities will still be able to access and understand them. The Web Accessibility Initiative, from the W3C, suggests that those producing content for others consider the following (text from their website):
 

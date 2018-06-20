@@ -20,7 +20,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 Delimit the columns within a data table using commas or tabs; these are listed in order of preference. Semicolons are used in many systems as line end delimiters and may cause problems if data are imported into those systems (e.g. SAS, PHP scripts). Avoid delimiters that also occur in the data fields. If this cannot be avoided, enclose data fields that also contain a delimiter in single or double quotes.
 
 An example of a consistently delimited data file with a header row:

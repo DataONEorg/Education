@@ -6,7 +6,6 @@ tags:
   - preserve
   - disaster recovery
 step:
-  - access
   - preserve
 related:
   - create-and-document

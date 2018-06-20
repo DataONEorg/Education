@@ -19,7 +19,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 A Data Management Plan should include the following information:
 
 - Types of data to be produced and their volume

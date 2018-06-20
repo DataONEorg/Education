@@ -20,7 +20,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 A data model documents and organizes data, how it is stored and accessed, and the relationships among different types of data. The model may be abstract or concrete.
 
 Use these guidelines to create a data model:

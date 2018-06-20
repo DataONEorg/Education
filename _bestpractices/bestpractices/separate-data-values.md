@@ -21,7 +21,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 A separate column should be used for data qualifiers, descriptions, and flags, otherwise there is the potential for problems to develop during analyses. Potential entries in the descriptor column:
 
 - Potential sources of error

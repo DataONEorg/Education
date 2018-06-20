@@ -21,7 +21,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 
 File formats are important for understanding how data can be used and possibly integrated. The following issues need to be documented:
 - Does the file format of the data adhere to one or more standards?

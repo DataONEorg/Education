@@ -9,7 +9,7 @@ step:
   - assure
 ---
 
-## Best Practice
+
 Missing values should be handled carefully to avoid their affecting analyses. The content and structure of data tables are best maintained when consistent codes are used to indicate that a value is missing in a data field. Commonly used approaches for coding missing values include:
 - Use a missing value code that matches the reporting format for the specific parameter. For example, use ""-999.99"", when the reporting format is a FORTRAN-like F7.2.
 - For character fields, it may be appropriate to use ""Not applicable"" or ""None"" depending upon the organization of the data file.

@@ -21,7 +21,7 @@ resource: true
 ---
 
 
-## Best Practice
+
 The process of science generates a variety of products that are worthy of preservation. Researchers should consider all elements of the scientific process in deciding what to preserve:
 
 - Raw data

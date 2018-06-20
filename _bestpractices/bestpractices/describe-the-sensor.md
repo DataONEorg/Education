@@ -14,7 +14,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 If your project uses a sensor network, you should describe and document that network and the instruments it uses. This information is essential to understanding and interpreting the data you use, and should be included as a part of the metadata generated for your project's data.
 
 - Describe the basic set-up of the sensor network installation, including such details as mount, power source, enclosures, wiring protection, etc.

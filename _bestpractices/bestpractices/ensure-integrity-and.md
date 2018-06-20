@@ -21,7 +21,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 For successful data replication and backup:
 

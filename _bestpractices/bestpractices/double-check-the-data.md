@@ -18,7 +18,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 
 Ensuring accuracy of your data is critical to any analysis that follows.
 

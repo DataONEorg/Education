@@ -20,7 +20,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 
 In order to preserve the raw data for future use:
 

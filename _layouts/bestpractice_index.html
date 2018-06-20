@@ -24,7 +24,7 @@ layout: layout
         {%- comment -%}Filter the collection by the current category {%- endcomment -%}
         {%- assign items = site[ the_collection ] | where: "step", step -%}
         {%- for item in items %}
-          <li><a href="{{ site.baseurl }}/{{ item.url }}">{{item.title}}</a><br />
+          <li><a href="{{ site.baseurl }}{{ item.url }}">{{item.title}}</a><br />
             {{ item.excerpt | strip_html | truncate: 256 }}
           <p>{% for tag in item.tags %}
           <a href="{{ site.baseurl }}/bestpractices/index_tag#{{ tag|slugize }}">{{tag}}</a>

@@ -11,11 +11,12 @@ layout: layout
 <!-- Adds a list of the tags, with links back to the tag archive, anchored at that specific tag-->
 <div class="collection-tags">
   {% assign tags = page.tags %}
-Tags:
+  <p> Tags:
   {% for tag in tags %}
   <a href="{{ site.baseurl }}/bestpractices/index_tag#{{ tag|slugize }}">{{tag}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
+  </p>
 </div>
 
   {{ page.content | markdownify }}
@@ -49,11 +50,12 @@ Tags:
 <!-- Adds a list of the data life cycle steps, with links back to the steps index page, anchored at that specific step-->
 <div class="collection-steps">
   {% assign steps = page.step %}
-  Best Practices in the Data Life Cycle:
+  <p>Best Practices in the Data Life Cycle:
   {% for step in steps %}
-  <a href="{{ site.baseurl }}/bestpractices/index#{{ step|slugize }}">{{step}}</a>
+  <a href="{{ site.baseurl }}/step/{{ step|slugize }}">{{step | capitalize}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
+  </p>
 </div>
 
   	<a href="{{ site.baseurl }}/"><strong>Home</strong></a>

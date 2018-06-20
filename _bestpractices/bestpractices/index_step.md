@@ -6,4 +6,4 @@ entries_layout: list
 show_excerpts: true
 ---
 
-Content
+<!-- unnecessary file, i think. duplicates index.md in this folder  -->

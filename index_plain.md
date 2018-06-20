@@ -65,7 +65,7 @@ Show the tags which are now in the tags list.
 ```
 {% for lesson in site.lessons %}
   {{ lesson.url }}
-  {{ lesson.keys() | jsonify  }}
+  {{ lesson.keys() | jsonify }}
 {% endfor %}
 ```
 {% assign idx = 0 %}

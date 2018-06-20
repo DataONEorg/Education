@@ -5,11 +5,13 @@ layout: layout
 
   <div id=wrapper style= "width:90%; padding:0px; margin:40px 0px 0px 62px; ">
 
-  <h1>{{ page.title }}</h1>
+  <h1>Best Practice</h1>
+  <h2>{{ page.title }}</h2>
 
+<!-- Adds a list of the tags, with links back to the tag archive, anchored at that specific tag-->
 <div class="collection-tags">
   {% assign tags = page.tags %}
-
+Tags:
   {% for tag in tags %}
   <a href="{{ site.baseurl }}/bestpractices/index_tag#{{ tag|slugize }}">{{tag}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
@@ -43,6 +45,16 @@ layout: layout
     </p>
     <br />
   </section>
+
+<!-- Adds a list of the data life cycle steps, with links back to the steps index page, anchored at that specific step-->
+<div class="collection-steps">
+  {% assign steps = page.step %}
+  Best Practices in the Data Life Cycle:
+  {% for step in steps %}
+  <a href="{{ site.baseurl }}/bestpractices/index#{{ step|slugize }}">{{step}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
 
   	<a href="{{ site.baseurl }}/"><strong>Home</strong></a>
 

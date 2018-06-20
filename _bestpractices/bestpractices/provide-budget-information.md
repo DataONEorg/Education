@@ -19,7 +19,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 
 As a best practice, one must first acknowledge that the process of managing data will incur costs. Researchers should plan to address these costs and the allocation of resources in the early planning phases of the project. This best practice focuses on data management costs during the life cycle of the project, and does not aim to address costs of data beyond the end of the project.
 

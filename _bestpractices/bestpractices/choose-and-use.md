@@ -23,7 +23,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 Terms and phrases that are used to represent categorical data values or for creating content in metadata records should reflect appropriate and accepted vocabularies in your community or institution. Methods used to identify and select the proper terminology include:
  - Identify the relevant descriptive terms used as categorical values in your community prior to start of the project (e.g., standard terms describing soil horizons, plant taxonomy, sampling methodology or equipment, etc.)

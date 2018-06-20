@@ -12,7 +12,7 @@ resource: true
 ---
 
 
-## Best Practice
+
 Data measurement descriptions should:
 
 - Describe data collection methods or protocols(can include diagrams, images, schematics, etc.)

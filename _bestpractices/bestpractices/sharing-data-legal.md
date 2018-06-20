@@ -7,7 +7,7 @@ tags:
   - data creators
   - data sources
 step:
-  - access
+  - describe
 update:
 - May 08, 2018
 author:
@@ -15,7 +15,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 All research requires the sharing of information and data. The general philosophy is that data are freely and openly shared. However, funding organizations and institutions may require that their investigators cite the impact of their work, including shared data. By creating a usage rights statement and including it in data documentation, users of your data will be clear what the conditions of use are, and how to acknowledge the data source.
 
 Include a statement describing the "usage rights" management, or reference a service that provides the information. Rights information encompasses Intellectual Property Rights (IPR), copyright, cost, or various Property Rights. For data, rights might include requirements for use, requirements for attribution, or other requirements the owner would like to impose. If there are no requirements for re-use, this should be stated.

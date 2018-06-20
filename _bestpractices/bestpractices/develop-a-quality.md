@@ -19,7 +19,7 @@ author:
 - DataONE Community Engagement & Outreach Working Group
 resource: true
 ---
-## Best Practice
+
 
 Just as data checking and review are important components of data management, so is the step of documenting how these tasks were accomplished. Creating a plan for how to review the data before it is collected or compiled allows a researcher to think systematically about the kinds of errors, conflicts, and other data problems they are likely to encounter in a given data set. When associated with the resulting data and metadata, these documented quality control procedures help provide a complete picture of the content of the dataset. A helpful approach to documenting data checking and review (often called Quality Assurance, Quality Control, or QA/QC) is to list the actions taken to evaluate the data, how decisions were made regarding problem resolution, and what actions were taken to resolve the problems at each step in the data life cycle. Quality control and assurance should include:
 

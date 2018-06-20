@@ -18,7 +18,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 The plan will be created at the conceptual stage of the project. It should be considered a living document and a road map for the project, and should be closely followed. Any changes to the data management plan should be made deliberately, and the plan should be updated throughout the data life cycle.
 
 Data management planning provides crucial guidance to all stages of the data life cycle. It provides continuity for operations within the research group. The data management plan will define roles for all project participants and workflows for data collection, quality assurance, description, and deposit for preservation and access. The data management plan is a tool to communicate requirements and restrictions to all members of the project team, including researchers, archivists, librarians, IT staff and repository managers. The plan governs the active research phase of the project life cycle and makes provisions for the hand-off to a repository for preservation and data delivery.

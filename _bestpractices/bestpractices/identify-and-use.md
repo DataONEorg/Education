@@ -21,7 +21,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 Many times significant overlap exists among metadata content standards. You should identify those standards that include the fields needed to describe your data. In order to describe your data, you need to decide what information is required for data users to discover, use, and understand your data. The who, what, when, where, how, why, and a description of quality should be considered. The description should provide enough information so that users know what can and cannot be done with your data.
 - Who: The person and/or organization responsible for collecting and processing the data. Who should be contacted if there are questions about your data?

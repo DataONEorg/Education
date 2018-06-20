@@ -20,7 +20,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 
 Identification of any species represented in the data set should be as complete as possible.
 

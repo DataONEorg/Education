@@ -21,7 +21,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 Be consistent in the use of codes to indicate categorical variables, for example species names, sites, or land cover types. Codes should always be the same within one data set. Pay particular attention to spelling and case; most frequent problems are with abbreviations for species names and sites.
 
 Consistent codes can be achieved most easily by defining standard categorical variables (codes) and using drop down lists (excel, database). Frequently a code is needed for ‘none of the above’ or ‘unknown’ or ‘other’ to avoid imprecise code assignment.

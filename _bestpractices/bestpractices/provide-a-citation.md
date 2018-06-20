@@ -18,7 +18,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 For appropriate attribution and provenance of a dataset, the following
 information should be included in the data documentation or the companion

@@ -22,7 +22,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 In order to ensure replicable data access:
 

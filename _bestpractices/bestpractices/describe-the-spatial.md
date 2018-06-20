@@ -21,7 +21,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 The spatial extent of your data set or collection as a whole should be described. The minimum acceptable description would be a bounding box describing the northern most, southern most, western most, and eastern most limits of the data.
 

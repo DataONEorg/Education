@@ -20,7 +20,7 @@ author:
 - DataONE Community Engagement & Outreach Working Group
 resource: true
 ---
-## Best Practice
+
 The research project description should contain the following information:
 
 - Who: project personnel (principal investigator, researchers, technicians, others)

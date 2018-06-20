@@ -18,7 +18,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 As part of the data life cycle, research data will be contributed to a repository to support preservation and discovery. A research project may generate many different iterations of the same dataset - for example, the raw data from the instruments, as well as datasets which already include computational transformations of the data.
 
 In order to focus resources and attention on these core datasets, the project team should define these core data assets as early in the process as possible, preferably at the conceptual stage and in the data management plan. It may be helpful to speak with your local data archivist or librarian in order to determine which datasets (or iterations of datasets) should be considered core, and which datasets should be discarded. These core datasets will be the basis for publications, and require thorough documentation and description.

@@ -7,7 +7,6 @@ tags:
   - plan
   - preserve
 step:
-  - access
   - plan
   - preserve
 related:
@@ -19,7 +18,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 Steps for the identification of the sensitivity of data and the determination of the appropriate security or privacy level are:
 - Determine if the data has any confidentiality concerns
   - Can an unauthorized individual use the information to do limited, serious, or severe harm to individuals, assets or an organization’s operations as a result of data disclosure?

@@ -21,7 +21,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 
 Document that steps used to integrate disparate datasets.
 - Ideally, one would adopt mechanisms to systematically capture the integration process, e.g. in an executable form such as a script or workflow, so that it can be reproduced

@@ -20,7 +20,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 When describing the process for creating derived data products, the following information should be included in the data documentation or the companion metadata file:
 
 - Description of primary input data and derived data

@@ -23,7 +23,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 When searching for data, whether locally on one's machine or in external repositories, one may use a variety of search terms. In addition, data are often housed in databases or clearinghouses where a query is required in order access data. In order to reproduce the search results and obtain similar, if not the same results, it is necessary to document which terms and queries were used.
 

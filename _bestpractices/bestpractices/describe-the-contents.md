@@ -22,7 +22,7 @@ resource: true
 ---
 
 
-## Best Practice
+
 A description of the contents of the data file should contain the following:
 
 - Define the parameters and the units on the parameter

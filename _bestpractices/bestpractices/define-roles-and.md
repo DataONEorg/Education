@@ -19,7 +19,7 @@ resource: true
 ---
 
 
-## Best Practice
+
 In addition to the primary researcher(s), there might be others involved in the research process that take part in aspects of data management. By clearly defining the roles and responsibilities of the parties involved, data are more likely to be available for use by the primary researchers and anyone re-using the data. Roles and responsibilities should be clearly defined, rather than assumed; this is especially important for collaborative projects that involve many researchers, institutions, and/or groups.
 
 Examples of roles in data management:

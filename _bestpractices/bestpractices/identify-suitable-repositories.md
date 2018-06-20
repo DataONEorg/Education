@@ -21,7 +21,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 Shaping the data management plan towards a specific desired repository will increase the likelihood that the data will be accepted into that repository and increase the discoverability of the data within the desired repository. When beginning a data management plan:
 - Look to the data management guidelines of the project/grant for a required repository
 - Ask colleagues what repositories are used in the community

@@ -22,7 +22,7 @@ author:
 resource: true
 ---
 
-## Best practice
+
 
 All storage media, whether hard drives, discs or data tapes, will wear out over time, rendering your data files inaccessible. To ensure ongoing access to both your active data files and your data archives, it is important to continually monitor the condition of your storage media and track its age. Older storage media and media that show signs of wear should be replaced immediately. Use the following guidelines to ensure the ongoing integrity and accessibility of your data:
 

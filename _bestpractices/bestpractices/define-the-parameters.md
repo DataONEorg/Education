@@ -19,7 +19,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 The parameters reported in the data set need to have names that clearly describe the contents. Ideally, the names should be standardized across files, data sets, and projects, in order that others can readily use the information.
 
 The documentation should contain a full description of the parameter, including the parameter name, how it was measured, the units, and the abbreviation used in the data file.

@@ -23,7 +23,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 Understand the input geospatial data parameters, including scale, map projection, geographic datum, and resolution, when integrating data from multiple sources. Care should be taken to ensure that the geospatial parameters of the source datasets can be legitimately combined. If working with raster data, consider the data type of the raster cell values as well as if the raster data represent discrete or continuous values. If working with vector data, consider feature representation (e.g., points, polygons, lines). It may be necessary to re-project your source data into one common projection appropriate to your intended analysis. Data product quality degradation or loss of data product utility can result when combining geospatial data that contain incompatible geospatial parameters. Spatial analysis of a dataset created from combining data having considerably different scales or map projections may result in erroneous results.
 
 Document the geospatial parameters of any output dataset derived from combining multiple data products. Include this information in the final data product's metadata as part of the product's provenance or origin.

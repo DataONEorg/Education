@@ -8,7 +8,6 @@ tags:
   - metadata
   - plan
 step:
-  - access
   - plan
 related:
   - create-and-document
@@ -21,7 +20,6 @@ author:
 resource: true
 ---
 
-## Best practice
 
 Data files should be managed to avoid disorder. To facilitate access to files, all storage devices, locations and access accounts should be documented and accessible to team members. Use appropriate tools, such as version control tools, to keep track of the history of the data files. This will help with maintaining files in different locations, such as at multiple off-site backup locations or servers.
 

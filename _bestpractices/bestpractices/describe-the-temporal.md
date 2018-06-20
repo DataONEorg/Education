@@ -21,7 +21,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 
 The temporal extent over which the data within your dataset or collection was acquired or collected should be described. Normally this is done by providing
 

@@ -6,7 +6,6 @@ tags:
   - preserve
   - provenance
 step:
-  - access
   - preserve
 related:
   - provide-a-citation
@@ -18,7 +17,7 @@ author:
 resource: true
 ---
 
-## Best Practice
+
 When creating the data management plan, review all who may have a stake in the data so future users of the data can easily track who may need to give permission. Possible stakeholders include but are not limited to:
 
 -Funding body

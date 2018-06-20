@@ -9,7 +9,7 @@ tags:
   - quality
 step:
   - assure
-  - quality
+  - preserve
 update:
 - May 08, 2018
 author:
@@ -17,7 +17,6 @@ author:
 resource: true
 ---
 
-## Best Practice
 Provide versions of data products with defined identifiers to enable discovery and use.
 
 Items to consider when versioning data products:

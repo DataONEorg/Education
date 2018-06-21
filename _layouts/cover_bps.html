@@ -52,7 +52,7 @@ layout: layout
   {% assign steps = page.step %}
   <p>Best Practices in the Data Life Cycle:
   {% for step in steps %}
-  <a href="{{ site.baseurl }}/step/{{ step|slugize }}">{{step | capitalize}}</a>
+  <a href="{{ site.baseurl }}/bestpractices/{{ step|slugize }}">{{step | capitalize}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
   </p>

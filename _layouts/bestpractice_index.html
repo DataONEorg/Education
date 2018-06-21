@@ -15,9 +15,17 @@ layout: layout
 </head>
 <body>
 
-  <h1>{{the_collection}} by Data Life Cycle</h1>
+  <h1>Best Practices of Data Management</h1>
+    <p>The DataONE Best Practices database provides individuals with recommendations on how to effectively work with their data through all stages of the data lifecycle. Users can access best practices within the database by clicking on a stage of the lifecycle or scrolling down.</p>
 
-    <h2>Item by Steps</h2>
+      <h3><a href="https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf" target="_blank">Best Practices Primer</a></h3><p>For students and others new to data management, DataONE provides a <a href="https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf" target="_blank">Best Practices Primer</a> as an introduction to this Best Practices database and data management in general.</p>
+
+      <h3><a href="https://www.dataone.org/sites/all/documents/DataONE-PPSR-DataManagementGuide.pdf" target="_blank">Public Participation in Science Research Data Management</a></h3>
+        <p>DataONE also provides a <a href="https://www.dataone.org/sites/all/documents/DataONE-PPSR-DataManagementGuide.pdf" target="_blank">Data Management Guide</a> written specifically for the Citizen Science community that takes the users through the steps of the data lifecycle and links to various DataONE Best Practices online.</p> <!--if we include this, need to update links back to Education.io-->
+<hr>
+<!-- add drop down menu or links to anchors below at each life cycle step -->
+
+    <h2>Best Practice by Data Life Cycle step</h2>
       {% for step in steps %}
       <h3><a name="{{step}}">{{ step | capitalize }}</a></h3>
         <ul>
@@ -27,7 +35,7 @@ layout: layout
           <li><a href="{{ site.baseurl }}{{ item.url }}">{{item.title}}</a><br />
             {{ item.excerpt | strip_html | truncate: 256 }}
           <p>{% for tag in item.tags %}
-          <a href="{{ site.baseurl }}/bestpractices/index_tag#{{ tag|slugize }}">{{tag}}</a>
+          <a href="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}">{{tag}}</a>
           {% unless forloop.last %}&nbsp;{% endunless %}
           {% endfor %}
         </p>

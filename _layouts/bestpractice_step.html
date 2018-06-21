@@ -17,20 +17,38 @@ description: Layout for creating a single page with all best practices under one
 {% endcomment %}
 {% assign the_collection = "bestpractices" %}
 {% include collection_steps.html the_collection=the_collection %}
+
 </head>
 <body>
 
 <h1>{{ page.tag | capitalize }}</h1>
+
+
+<!-- Megan attempts a drop down menu of data life cycle steps -->
+<!--    <nav class="horizontal-menu">
+        <ul>
+          <li>
+            <a class="dropdown-toggle" href="#">Data Life Cycle ::after</a>
+              <ul class="dropdown-menu" data-show="hover" data-role="dropdown" style="display: none;">
+                  <li><a href="{{ site.baseurl }}/bestpractices/">All</a></li>
+                  {% for step in steps %}
+                  <li><a href="{{ site.baseurl }}/bp_step/{{ step | capitalize }}">{{ step }}</a></li>{% endfor %}
+                </ul>
+              </li>
+            </ul>
+    </nav>
+-->
+
 
 {% assign step = page.tag %}
 <ul>
 {%- assign items = site[ the_collection ] | where: "step", step -%}
 {%- for item in items %}
   <li>
-    <a href="{{ site.baseurl }}/{{ item.url }}">{{item.title}}</a><br />
+    <a href="{{ site.baseurl }}{{ item.url }}">{{item.title}}</a><br />
       {{ item.excerpt | strip_html | truncate: 256 }}
     <p>{% for tag in item.tags %}
-    <a href="{{ site.baseurl }}/bestpractices/index_tag#{{ tag|slugize }}">{{tag}}</a>
+    <a href="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}">{{tag}}</a>
     {% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
     </p>

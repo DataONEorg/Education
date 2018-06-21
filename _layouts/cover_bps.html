@@ -13,7 +13,7 @@ layout: layout
   {% assign tags = page.tags %}
   <p> Tags:
   {% for tag in tags %}
-  <a href="{{ site.baseurl }}/bestpractices/index_tag#{{ tag|slugize }}">{{tag}}</a>
+  <a href="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}">{{tag}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
   </p>
@@ -52,7 +52,7 @@ layout: layout
   {% assign steps = page.step %}
   <p>Best Practices in the Data Life Cycle:
   {% for step in steps %}
-  <a href="{{ site.baseurl }}/bestpractices/{{ step|slugize }}">{{step | capitalize}}</a>
+  <a href="{{ site.baseurl }}/bp_step/{{ step|slugize }}">{{step | capitalize}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
   </p>

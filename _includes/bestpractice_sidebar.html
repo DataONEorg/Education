@@ -1,0 +1,69 @@
+  <style>
+  /* Fixed sidenav, full height */
+  .sidenav {
+    float: right;
+    text-align: left;
+    width: 160px; /* Set the width of the sidebar */
+    background-color: #ececec;
+    padding-top: 0px;
+}
+
+
+/* The navigation menu links */
+/* Style the sidenav links  */
+.sidenav a, {
+  padding: 0px 0px 0px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, {
+    padding: 0px 0px 0px 16px;
+    color: #f1f1f1;
+}
+
+.sidenav h2 {
+    padding: 0px 0px 6px 16px;
+    color: #f1f1f1;
+}
+
+.sidenav h3 {
+    color: #660032;
+    padding: 0px 0px 3px 16px;
+    font-weight: 550;
+}
+
+
+
+
+  </style>
+
+</head>
+<body>
+<div class="sidenav">
+  <h3>Best Practices by Data Life Cycle</h3>
+      {% for step in steps | sort: 'weight' %}
+      <ul>
+        <a href="{{ site.baseurl }}/bp_step/{{ step }}">{{step | capitalize}}</a>
+          {%- comment -%}  <div class="dropdown-container">
+            {%- comment -%}Filter the collection by the current category {%- endcomment -%}
+            {%- assign items = site[ the_collection ] | where: "step", step -%}
+            {%- for item in items %}
+            <li><a href="{{ site.baseurl }}{{ item.url }}">{{item.title}}</a>
+            {% unless forloop.last %}&nbsp;{% endunless %}
+            </li>
+            {% endfor %}
+            </div>{%- endcomment -%}
+            </ul>
+        {% endfor %}
+</div>
+</body>

@@ -1,0 +1,23 @@
+---
+---
+
+{%- comment -%} This creates an instant jekyll search as per -> https://blog.webjeda.com/instant-jekyll-search/. So far it is built to only search the "best practices" repository. Need to figure out how to add search of the "lessons" folder. Maybe look a the index_tag.html layout and see how Dave got the tiles to function for both. {%- endcomment -%}
+
+
+[
+  {% assign the_collection = "bestpractices" %}
+  {%- for item in site[ the_collection ] -%}
+
+    {
+      {% if item.step != "NA" %}
+      {% if item.step != nil %}
+      "title"    : "{{ item.title | escape }}",
+      "url"      : "{{ site.baseurl }}{{ item.url }}",
+      "step"     : "{{ item.step | join: ', ' }}",
+      "tags"     : "{{ item.tags | join: ', ' }}",
+      "related"  : "{{ item.related | join: ', ' }}"
+      {% endif %}
+      {% endif %}
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

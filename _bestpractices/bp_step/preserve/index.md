@@ -1,7 +1,7 @@
 ---
 layout: bestpractice_step
 tag: preserve
-search: exclude
+weight: 5
 ---
 
 Preserve: data are submitted to an appropriate long-term archive (i.e. data center)

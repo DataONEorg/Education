@@ -2,7 +2,6 @@
 title: Best Practices Index
 layout: bestpractice_index
 depth: 1
-step: NA
 search: exclude
 ---
 

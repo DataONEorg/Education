@@ -1,8 +1,7 @@
 ---
 layout: bestpractice_step
 tag: discover
-search: exclude
-
+weight: 6
 ---
 
 ## Best Practices for the Data Life Cycle Step: Discover

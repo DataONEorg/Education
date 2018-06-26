@@ -1,7 +1,7 @@
 ---
 layout: bestpractice_step
 tag: analyze
-search: exclude
+weight: 8
 ---
 
 Analyze: data are analyzed

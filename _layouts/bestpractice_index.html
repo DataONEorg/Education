@@ -12,9 +12,19 @@ layout: layout
 {% endcomment %}
 {% assign the_collection = "bestpractices" %}
 {% include collection_steps.html the_collection=the_collection %}
+
+  <style>
+        /* Style page content for .site_nav */
+        .main {
+            margin-right: 200px; /* Same as the width of the sidebar */
+            padding: 0px 10px;
+        }
+  </style>
 </head>
 <body>
 
+    {% include bestpractice_sidebar.html %}
+<div class="main">
   <h1>Best Practices of Data Management</h1>
     <p>The DataONE Best Practices database provides individuals with recommendations on how to effectively work with their data through all stages of the data lifecycle. Users can access best practices within the database by clicking on a stage of the lifecycle or scrolling down.</p>
 

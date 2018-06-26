@@ -26,7 +26,7 @@ window.simpleJekyllSearch = new SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '{{ site.baseurl }}/search.json',
-  searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a><span>{step}</span></li>',
+  searchResultTemplate: '<p><a href="{url}" title="{desc}">{title}</a><br><span> Type: {categories}</span><span> Step: {step}</span></p>',
   noResultsText: 'No results found',
   limit: 10,
   fuzzy: false,

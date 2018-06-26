@@ -15,6 +15,7 @@ update:
 author:
 - DataONE Community Engagement & Outreach Working Group
 resource: true
+categories: ["Best Practice"]
 ---
 
 Provide versions of data products with defined identifiers to enable discovery and use.

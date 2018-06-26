@@ -16,6 +16,7 @@ update:
 author:
   - DataONE Community Engagement & Outreach Working Group
 resource: true
+categories: ["Best Practice"]
 ---
 
 To make your data available using standard and open software tools you should:

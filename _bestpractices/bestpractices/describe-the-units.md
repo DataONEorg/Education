@@ -16,6 +16,7 @@ update:
 author:
 - DataONE Community Engagement & Outreach Working Group
 resource: true
+categories: ["Best Practice"]
 ---
 
 

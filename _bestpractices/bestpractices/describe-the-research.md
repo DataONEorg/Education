@@ -19,6 +19,7 @@ update:
 author:
 - DataONE Community Engagement & Outreach Working Group
 resource: true
+categories: ["Best Practice"]
 ---
 
 The research project description should contain the following information:

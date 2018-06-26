@@ -37,16 +37,10 @@ All storage media, whether hard drives, discs or data tapes, will wear out over 
 
 Successful preservation depends in great part on storage media that are in good physical and operational condition.
 
-## Related Best Practices
-
-- Create and document a data backup policy
-- Ensure integrity and accessibility when making backups of data
-- Identify suitable repositories for the data
-
 ## Additional Information:
 
 "Longevity: How Long Do CDs/DVDs/Tapes Last?" DigitalFAQ.com. Last updated April, 2008.
-http://www.digitalfaq.com/guides/media/longevity.htm
+[http://www.digitalfaq.com/guides/media/longevity.htm](http://www.digitalfaq.com/guides/media/longevity.htm)
 
 "Reliability and Availability Basics." EventHelix.com. Accessed 2011-05-11.
-http://www.eventhelix.com/RealtimeMantra/FaultHandling/reliability_availability_basics.htm
+[http://www.eventhelix.com/RealtimeMantra/FaultHandling/reliability_availability_basics.htm](http://www.eventhelix.com/RealtimeMantra/FaultHandling/reliability_availability_basics.htm)

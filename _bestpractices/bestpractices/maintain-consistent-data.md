@@ -28,9 +28,3 @@ Choose the right data type and precision for data in each column. As examples: (
 ## Description Rationale
 
 Strict data typing provides quality control and enables extended analytical procedures such as date calculations and quality assurance procedures.
-
-## Related Best Practices
-
-- Create a data dictionary
-- Preserve information: keep your raw data raw
-- Use consistent codes

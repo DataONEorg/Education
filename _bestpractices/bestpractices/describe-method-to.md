@@ -40,10 +40,6 @@ When describing the process for creating derived data products, the following in
   - Provide a numeric estimate of uncertainty
 - How processing technique changes over time, if applicable
 
-## Related Best Practices
-- Consider the compatibility of the data you are integrating
-- Document your data organization strategy
-- Use consistent codes
-
 ## Additional Information
+
 Bourque, Linda B., Clark, Virginia A. Processing Data: The Survey Example (Quantitative Applications in the Social Sciences), Sage Publications, Inc. (December 14, 2008), ISBN 08056781901

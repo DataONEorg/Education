@@ -40,9 +40,3 @@ Examples of standardized identification systems:
 ## Description Rationale
 
 Many ecological studies involve at least one species; identifying the species used in a study is critical for its evaluation. The most complete information possible should be provided since taxonomic names and classifications shift over time with new information.
-
-## Related Best Practices
-
-- Choose and use standard terminology to enable discovery
-- Consider the compatibility of the data you are integrating
-- Use consistent codes

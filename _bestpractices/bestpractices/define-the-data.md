@@ -37,17 +37,15 @@ Use these guidelines to create a data model:
 Repeat these steps to optimize the model
 
 ## Description Rationale
+
 Considering and creating the data model helps with data planning and identifies potential problems that future data users might encounter.
 
-## Related Best Practices
-- Create and document a data backup policy
-- Create, manage, and document your data storage system
-- Identify suitable repositories for the data
-
 ## Additional Information
-Wikipedia: http://en.wikipedia.org/wiki/Data_model  
-IBM: http://publib.boulder.ibm.com/infocenter/tivihelp/v8r1/index.jsp?topic=/com.ibm.netcool_impact.doc/im31sg/xF1996378.html  
-Agile Data: http://www.agiledata.org/essays/dataModeling101.html
+
+[Wikipedia]http://en.wikipedia.org/wiki/Data_model)  
+[IBM](http://publib.boulder.ibm.com/infocenter/tivihelp/v8r1/index.jsp?topic=/com.ibm.netcool_impact.doc/im31sg/xF1996378.html)  
+[Agile Data](http://www.agiledata.org/essays/dataModeling101.html)
 
 ## Examples
-Different types of data model examples can be found here: http://www.databaseanswers.org/data_models/index.htm
+
+Different types of data model examples can be found here: [http://www.databaseanswers.org/data_models/index.htm](http://www.databaseanswers.org/data_models/index.htm)

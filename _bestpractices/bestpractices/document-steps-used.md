@@ -31,11 +31,6 @@ Different types of new data may be created in the course of a project, for insta
 
 To enable others to verify the quality of a given data product, and ideally, to reproduce it, it is critical that the steps followed to create that product be properly documented.
 
-## Related Best Practices
-
-- Consider the compatibility of the data you are integrating
-- Develop a quality assurance and quality control plan
-
 ## Additional Information
 
 This best practice is also applicable to other categories including Analysis and Visualization and Data Documentation.

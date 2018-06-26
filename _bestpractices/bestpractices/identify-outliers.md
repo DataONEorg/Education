@@ -42,10 +42,6 @@ Description Rationale:
 
 Outliers may represent data contamination, a violation of the assumptions of the study, or failure of the instrumentation. Although outliers may be valid observations it is important to identify and examine their validity.
 
-## Related Best Practices
-- Develop a quality assurance and quality control plan
-- Identify missing values and define missing value codes
-
 ## Additional Information
 
 V. Barnett and T. Lewis, Outliers in Statistical Data (John Wiley & Sons, 2d ed., New York, NY, 1985).

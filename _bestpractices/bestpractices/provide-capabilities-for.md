@@ -37,14 +37,9 @@ When providing capabilities for community tagging and annotations, you should co
 ## Description Rationale
 Others' perceptions and views of your dataset might differ; by providing the ability for the community to annotate your data, the data are more likely to be discovered by a broad range of potential users.
 
-## Related Best Practices
-- Assign descriptive file names
-- Ensure flexible data services for virtual datasets
-- Identify and use relevant metadata standards
-
 ## Examples
-http://www.galaxyzoo.org/  
-http://www.myexperiment.org/  
-http://www.flickr.com/  
-http://www.plosbiology.org/static/ratingGuidelines.action  
-http://www.youtube.com/
+[http://www.galaxyzoo.org/](http://www.galaxyzoo.org/)  
+[http://www.myexperiment.org/](http://www.myexperiment.org/)  
+[http://www.flickr.com/](http://www.flickr.com/)  
+[http://www.plosbiology.org/static/ratingGuidelines.action](http://www.plosbiology.org/static/ratingGuidelines.action)  
+[http://www.youtube.com/](http://www.youtube.com/)

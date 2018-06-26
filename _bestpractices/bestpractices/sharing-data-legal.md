@@ -39,9 +39,11 @@ If your data falls under any of the categories below there are additional consid
 If you use data from other sources, you should review your rights to use the data and be sure you have the appropriate licenses and permissions.
 
 ## Description Rationale
+
 When sharing data, or using data shared by others, researchers should be aware of any policies that might affect the use of the data. Including a usage rights statement makes clear to data repository users what the conditions of use are, and how to acknowledge the data source.
 
 ## Additional Information
+
 [ICPSR Confidentiality Review](https://www.icpsr.umich.edu/icpsrweb/content/datamanagement/confidentiality/)
 
 [17 U.S.C. Sec. 102](https://www.copyright.gov/title17/92chap1.html#102)
@@ -55,4 +57,5 @@ When sharing data, or using data shared by others, researchers should be aware o
 [LTER Data Policy](https://lternet.edu/data-access-policy/)
 
 ## Examples
+
 Copyright 2001 Regents of the University of California Santa Barbara. Free for use by all individuals provided that the owners are acknowledged in any use or publication.

@@ -33,12 +33,9 @@ For time, use 24-hour notation (13:30 hrs instead of 1:30 p.m. and 04:30 instead
 Be consistent in date and time formats within one data set.
 
 ## Description Rationale
+
 The date and time are important pieces of contextual information for observations. A complete description of date and time allows the observation to be used and interpreted properly.
 
-## Related Best Practices
-- Choose and use standard terminology to enable discovery
-- Consider the compatibility of the data you are integrating
-- Use consistent codes
-
 ## Additional Information
+
 ISO 8601 format date: YYYY-MM-DD time: HH:MM:SS datatime: YYYYMMDDTHHMMSS

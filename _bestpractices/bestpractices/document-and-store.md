@@ -53,16 +53,11 @@ When choosing a file format, data collectors should select a consistent format t
 
 For long term preservation is it necessary to store data in file formats that will be readable in the future. It is also important to provide descriptive information on these data file types and formats. This will facilitate data retrieval and reuse.
 
-## Related Best Practices
-- Create and document a data backup policy
-- Identify suitable repositories for the data
-- Plan data management early in your project
-
 ## Additional Information
 
-Data Management and Publishing (MIT Libraries) https://libraries.mit.edu/data-management/
+Data Management and Publishing (MIT Libraries): [https://libraries.mit.edu/data-management/](https://libraries.mit.edu/data-management/)
 
-Burley, T.E., and Peine, J.D., 2009, NBII-SAIN Data Management Toolkit, U.S. Geological Survey Open-File Report 2009-1170, 96 p. Available from: http://pubs.usgs.gov/of/2009/1170/
+Burley, T.E., and Peine, J.D., 2009, NBII-SAIN Data Management Toolkit, U.S. Geological Survey Open-File Report 2009-1170, 96 p. Available from: [http://pubs.usgs.gov/of/2009/1170/](http://pubs.usgs.gov/of/2009/1170/)
 
 ## Examples
 

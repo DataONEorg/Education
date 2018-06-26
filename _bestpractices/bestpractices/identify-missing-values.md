@@ -25,6 +25,6 @@ Missing values are common in environmental data and affect the interpretation, a
 
 Monitoring programs like EPA, USGS, etc. have online documentation on how do handle missing values and can be consulted.
 
-L. A. Hook, L.A., T.W. Beaty, S. SanthanaVannan, L. Baskaran, and R. B. Cook. 2007. Best Practices for Preparing Environmental Data Sets to Share and Archive. http://dx.doi.org/10.3334/ORNLDAAC/BestPractices-2010
-Cook, R. B., Olson, R. J., Kanciruk, P., and Hook, L. A. 2001. Best Practices for Preparing Ecological and Ground-Based Data Sets to Share and Archive. Bulletin of ESA 82: 138-141. http://www.jstor.org/stable/20168543
-Borer, E. T., Seabloom, E. W., Jones, M. B., & Schildhauer, M. 2009. Some Simple Guidelines for Effective Data Management. Bull. of ESA 90: 209-214. https://doi.org/10.1890/0012-9623-90.2.205
+L. A. Hook, L.A., T.W. Beaty, S. SanthanaVannan, L. Baskaran, and R. B. Cook. 2007. Best Practices for Preparing Environmental Data Sets to Share and Archive. [http://dx.doi.org/10.3334/ORNLDAAC/BestPractices-2010](http://dx.doi.org/10.3334/ORNLDAAC/BestPractices-2010)
+Cook, R. B., Olson, R. J., Kanciruk, P., and Hook, L. A. 2001. Best Practices for Preparing Ecological and Ground-Based Data Sets to Share and Archive. Bulletin of ESA 82: 138-141. [http://www.jstor.org/stable/20168543](http://www.jstor.org/stable/20168543)
+Borer, E. T., Seabloom, E. W., Jones, M. B., & Schildhauer, M. 2009. Some Simple Guidelines for Effective Data Management. Bull. of ESA 90: 209-214. [https://doi.org/10.1890/0012-9623-90.2.205](https://doi.org/10.1890/0012-9623-90.2.205)

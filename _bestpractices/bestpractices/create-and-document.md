@@ -51,12 +51,6 @@ If this information is located in one place, it makes it easier for anyone needi
 
 Collecting information about backing data up before it is needed helps prevent problems and delays that may be encountered when a user needs data from a backup.
 
-## Related Best Practices
-- Create, manage, and document your data storage system
-- Define roles and assign responsibilities for data management
-- Identify suitable repositories for the data
-- Plan data management early in your project
-
 ## Examples
-- http://website.aub.edu.lb/it/policies/Pages/data-backup.aspx
-- http://dept.wofford.edu/it/Data%20Backup%20Policy.pdf
+- [http://website.aub.edu.lb/it/policies/Pages/data-backup.aspx](http://website.aub.edu.lb/it/policies/Pages/data-backup.aspx)
+- [http://dept.wofford.edu/it/Data%20Backup%20Policy.pdf](http://dept.wofford.edu/it/Data%20Backup%20Policy.pdf)

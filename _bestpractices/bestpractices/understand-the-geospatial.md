@@ -30,15 +30,13 @@ Understand the input geospatial data parameters, including scale, map projection
 Document the geospatial parameters of any output dataset derived from combining multiple data products. Include this information in the final data product's metadata as part of the product's provenance or origin.
 
 ## Description Rationale
+
 Awareness and proper use of geospatial data parameters can affect the ability to interpret or produce sound analysis results.
 
-## Related Best Practices
-- Consider the compatibility of the data you are integrating
-- Identify and use relevant metadata standards
-- Use consistent codes
-
 ## Additional Information
-Burley, T.E., and Peine, J.D., 2009' NBII-SAIN Data Management Toolikit, U.S. Geological Survey Open-File Report 2009-1170, 96p. Available from: http://pubs.usgs.gov/of/2009/1170/
+
+Burley, T.E., and Peine, J.D., 2009' NBII-SAIN Data Management Toolikit, U.S. Geological Survey Open-File Report 2009-1170, 96p. Available from: [http://pubs.usgs.gov/of/2009/1170/](http://pubs.usgs.gov/of/2009/1170/)
 
 ## Examples
+
 Combining geospatial data created at a 1:24,000 scale with data that were created at a 1:100,000 scale results in data that are only as accurate as the least accurate input (essentially resolution is lost). Combining geospatial data that have considerably differing map projections can also result in spatial errors and potentially erroneous results. Combining raster data with a 10m resolution with raster data that have a 100m resolution will result in data that are only as accurate as the least accurate input (essentially resolution is lost).

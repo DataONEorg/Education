@@ -45,20 +45,17 @@ Steps for assigning data management responsibilities:
 5. Assign responsible parties and monitor results
 
 ## Description Rationale
+
 A successful data management plan requires that the appropriate staffing resources are available and trained. Identifying specific tasks and responsible parties will help with budgeting, implementation, and preservation of the data resources.
 
-## Related Best Practices
-- Plan data management early in your project
-- Plan for effective multimedia management
-- Provide budget information for your data management plan
-- Revisit data management plan throughout the project life cycle
-
 ## Additional Information
+
 Search on the web for information on "Project Planning: Roles and Responsibilities for developing specific staffing/training plans"
 
-Van den Eynden, V., Corti, L., Woollard, M. & Bishop, L. (2011). Managing and Sharing Data: A Best Practice Guide for Researchers. Last updated May 2011. http://www.data-archive.ac.uk/media/2894/managingsharing.pdf
+Van den Eynden, V., Corti, L., Woollard, M. & Bishop, L. (2011). Managing and Sharing Data: A Best Practice Guide for Researchers. Last updated May 2011. [http://www.data-archive.ac.uk/media/2894/managingsharing.pdf](http://www.data-archive.ac.uk/media/2894/managingsharing.pdf)
 
 ## Examples
+
 Task: complete metadata record  
 Skills: knowledge of EML, and XML editing (Morpho), knowledge of the data to be documented  
 Responsible party: Jane Smith  

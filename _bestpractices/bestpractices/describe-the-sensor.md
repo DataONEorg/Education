@@ -31,7 +31,9 @@ If your project uses a sensor network, you should describe and document that net
 - As part of metadata, create a human-readable document that describes sampling frequency and data processing performed by the data logger
 
 ## Description Rationale
+
 Data users need the ability to account for site conditions and equipment choices that may exert a strong influence on the character and/or quality of collected data; this includes significant data processing and selection that happens at the instrument and data logger levels, which is often forgotten.
 
 ## Additional Information
-N.E.O.N. Site Prospectus: http://www.neoninc.org/sites/default/files/Prospectus_FINAL_med%20res.pdf
+
+[N.E.O.N. Site Prospectus](http://www.neoninc.org/sites/default/files/Prospectus_FINAL_med%20res.pdf

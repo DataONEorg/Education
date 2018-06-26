@@ -53,12 +53,6 @@ Many contemporary software applications that advertise forward compatibility for
 
 Preserve the information content of your original raw data.
 
-## Related Best Practices
-
-- Backup your data
-- Use appropriate field delimiters
-- Use consistent codes
-
 ## Additional Information
 
-Borer, E. T., Seabloom, E. W., Jones, M. B., & Schildhauer, M. 2009. Some Simple Guidelines for Effective Data Management. Bull. of ESA 90: 209-214. https://doi.org/10.1890/0012-9623-90.2.205
+Borer, E. T., Seabloom, E. W., Jones, M. B., & Schildhauer, M. 2009. Some Simple Guidelines for Effective Data Management. Bull. of ESA 90: 209-214. [https://doi.org/10.1890/0012-9623-90.2.205](https://doi.org/10.1890/0012-9623-90.2.205)

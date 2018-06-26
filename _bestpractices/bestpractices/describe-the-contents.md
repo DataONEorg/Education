@@ -33,9 +33,5 @@ A description of the contents of the data file should contain the following:
 - Define missing values
 
 ## Description Rationale
-The contents of the data files should be described in the data file and in the documentation
 
-## Related Best Practices
-- Choose and use standard terminology to enable discovery
-- Consider the compatibility of the data you are integrating
-- Use consistent codes
+The contents of the data files should be described in the data file and in the documentation

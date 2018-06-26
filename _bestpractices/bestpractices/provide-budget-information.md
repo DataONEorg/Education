@@ -53,14 +53,8 @@ Phases of the Data Life Cycle (see Primer on Data Management on the DataONE webs
 
 This best practice activity is intended to articulate the necessary steps involved in budgeting and resourcing a research data management plan.
 
-## Related Best Practices
-
-- Create and document a data backup policy
-- Create, manage, and document your data storage system
-- Define roles and assign responsibilities for data management
-
 ## Additional Information
 
 - Charles Beagrie Ltd and JISC. “Keeping Research Data Safe Factsheet: Cost issues in digital preservation of research data.” Neil Beagrie’s Blog. Last modified Sepetember 18, 2010.
-https://beagrie.com/static/resource/KRDS2_selectioncriteria.pdf
-- “Activity-based data management costing tool for researchers.” UK Data Archive. Last modified http://www.data-archive.ac.uk/media/247429/costing_v3.docx
+[https://beagrie.com/static/resource/KRDS2_selectioncriteria.pdf](https://beagrie.com/static/resource/KRDS2_selectioncriteria.pdf)
+- “Activity-based data management costing tool for researchers.” UK Data Archive. Last modified [http://www.data-archive.ac.uk/media/247429/costing_v3.docx](http://www.data-archive.ac.uk/media/247429/costing_v3.docx)

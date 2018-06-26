@@ -39,11 +39,6 @@ When searching for data, whether locally on one's machine or in external reposit
 
 In order to reproduce a data set or result set, it is necessary to document which terms were originally used to capture that data. By documenting this information while the search is being conducted, one greatly enhances the chance of being able to reproduce the results at a later date.
 
-## Related Best Practices
-
-- Define the parameters
-- Mark data with quality control flags
-
 ## Additional Information:
 
-A query example can either be formatted as a URL string (http://www.google.com/#sclient=psy&hl=en&site=&source=hp&q=data+backup+policy&aq=f&aqi=p-p2g3&aql=f&oq=&pbx=1&bav=on.2,or.r_gc.r_pw.&fp=d6a6fda25e240d6) or a database string (select * from database_name where collection_data IS NOT NULL).
+A query example can either be formatted as a URL string [http://www.google.com/#sclient=psy&hl=en&site=&source=hp&q=data+backup+policy&aq=f&aqi=p-p2g3&aql=f&oq=&pbx=1&bav=on.2,or.r_gc.r_pw.&fp=d6a6fda25e240d6](http://www.google.com/#sclient=psy&hl=en&site=&source=hp&q=data+backup+policy&aq=f&aqi=p-p2g3&aql=f&oq=&pbx=1&bav=on.2,or.r_gc.r_pw.&fp=d6a6fda25e240d6) or a database string (select * from database_name where collection_data IS NOT NULL).

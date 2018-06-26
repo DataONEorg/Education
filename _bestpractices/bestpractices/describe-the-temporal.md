@@ -37,15 +37,9 @@ Describe the temporal resolution of your dataset collection. The temporal resolu
 
 Describing the temporal boundaries of a data collection as a whole allows users to assess the collection for applicability to their research needs without having to individually assess the relevance of each measurement within the collection. Describing the temporal resolution of your data set or collection allows users to assess the utility of your data set against their needs without examining each component of your data set individually.
 
-## Related Best Practices
-
-- Choose and use standard terminology to enable discovery
-- Consider the compatibility of the data you are integrating
-- Use consistent codes
-
 ## Additional Information
 
-NASA-GCMD (temporal coverage & data resolution): https://gcmd.nasa.gov/add/difguide/index.html
+NASA-GCMD (temporal coverage & data resolution): [https://gcmd.nasa.gov/add/difguide/index.html](https://gcmd.nasa.gov/add/difguide/index.html)
 
 ## Examples
 

@@ -32,9 +32,5 @@ The research project description should contain the following information:
 Other useful information might include the project title, the overarching project (if any), institution(s) involved, and source of funding.
 
 ## Description Rationale
-The project description provides essential background information and context for the dataset.
 
-## Related Best Practices
-- Choose and use standard terminology to enable discovery
-- Confirm a match between data and their description in metadata
-- Document your data organization strategy
+The project description provides essential background information and context for the dataset.

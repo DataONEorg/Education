@@ -48,12 +48,7 @@ In order for a large dataset to be effectively used by a variety of end users, t
 
 Some datasets are too large to efficiently deliver in their entirety, or are not directly usable by some users. To enable their effective use by a variety of end users, data collections may be published as "virtual" datasets that are extracted and/or processed based upon source data and pre-defined functions that deliver products derived from the source data.
 
-## Related Best Practices
-
-- Consider the compatibility of the data you are integrating
-- Describe the contents of data files
-
 ## Additional Information:
 
-Web Service Definition Language: http://www.w3.org/TR/wsdl  
-Service Casting via RSS/Atom: http://wiki.esipfed.org/index.php/Atom_ServiceCasting_to_advertise_Web_Services
+[Web Service Definition Language](http://www.w3.org/TR/wsdl)  
+[Service Casting via RSS/Atom](http://wiki.esipfed.org/index.php/Atom_ServiceCasting_to_advertise_Web_Services)

@@ -49,9 +49,5 @@ Researchers should consider the following goals and benefits of preservation:
 - Enabling restoration of original products in the case that working datasets are lost
 
 ## Description Rationale
-To meet multiple goals for preservation, researchers should think broadly about the digital products that their project generates, preserve as many as possible, and plan the appropriate preservation methods for each.
 
-## Related Best Practices
-- Create and document a data backup policy
-- Identify data sensitivity
-- Identify data with long-term value
+To meet multiple goals for preservation, researchers should think broadly about the digital products that their project generates, preserve as many as possible, and plan the appropriate preservation methods for each.

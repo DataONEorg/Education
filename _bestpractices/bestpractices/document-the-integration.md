@@ -39,12 +39,6 @@ Document that steps used to integrate disparate datasets.
 
 Provide enough information about the process used to integrate disparate datasets so that others can properly use your data and/or your process to integrate similar data sources.
 
-## Related Best Practices
-
-- Consider the compatibility of the data you are integrating
-- Document steps used in data processing
-- Preserve information: keep your raw data raw
-
 ## Examples
 
 Some proposed guidelines and methods of citing datasets and data elements can be found at:

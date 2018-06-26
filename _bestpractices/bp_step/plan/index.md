@@ -3,4 +3,9 @@ layout: bestpractice_step
 tag: plan
 weight: 1
 ---
-􏰣􏰁􏰏 􏰐􏰈􏰂 􏰂􏰗􏰓 􏰏􏰍􏰐􏰌􏰓􏰖􏰖􏰓􏰖 􏰁􏰑􏰥 􏰍􏰓􏰖􏰐􏰈􏰍􏰌􏰓􏰖 􏰦􏰐􏰍 􏰂􏰗􏰓 􏰓􏰑􏰎􏰍􏰓 􏰥􏰁􏰂􏰁 Use text from page 2 and 3. https://www.dataone.org/sites/all/documents/DataONE-PPSR-DataManagementGuide.pdf
+􏰣
+## Best Practices for the Data Life Cycle Step: Plan
+
+Map out the processes and resources for the entire data life cycle. Start with the project goals (desired outputs, outcomes, and impacts) and work backwards to build a data management plan, supporting data policies, and sustainability plans. More information can be found in the [Best Practices Primer](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf) and [Data Management Guide](https://www.dataone.org/sites/all/documents/DataONE-PPSR-DataManagementGuide.pdf)
+
+Select a Best Practice below to learn more about the "Plan" step to data management.

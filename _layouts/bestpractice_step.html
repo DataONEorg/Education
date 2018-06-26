@@ -20,8 +20,8 @@ description: Layout for creating a single page with all best practices under one
   <style>
         /* Style page content for .site_nav */
         .main {
-            margin-right: 160px; /* Same as the width of the sidebar */
-            padding: 0px 10px;
+            margin-right: 200px; /* Same as the width of the sidebar + right body margin (in layout) */
+            padding: 0px 0px;
         }
   </style>
 </head>
@@ -50,17 +50,17 @@ description: Layout for creating a single page with all best practices under one
     </nav>
 -->
 
-<hr>
+<hr >
 {% assign step = page.tag %}
+
 <ul>
 {%- assign items = site[ the_collection ] | where: "step", step -%}
 {%- for item in items %}
   <li>
     <a href="{{ site.baseurl }}{{ item.url }}"><strong>{{item.title}}</strong></a><br />
-      <p class="small light-font">
-      {{ item.excerpt | strip_html | truncate: 256 }}</p>
-    <p>{% for tag in item.tags %}
-    <a href="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}">{{tag}}</a>
+      <p>{{ item.excerpt | strip_html | truncate: 256 }}</p>
+    <p>Tags: {% for tag in item.tags %}
+     <a href="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}">{{tag}}</a>
     {% unless forloop.last %}&nbsp;{% endunless %}
     {% endfor %}
     </p>

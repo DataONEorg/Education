@@ -12,7 +12,7 @@
 /* The navigation menu links */
 /* Style the sidenav links  */
 .sidenav a, {
-  padding: 0px 0px 0px 16px;
+  padding: 0px 0px 0px 8px;
   text-decoration: none;
   font-size: 20px;
   color: #818181;
@@ -27,7 +27,7 @@
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, {
-    padding: 0px 0px 0px 16px;
+    padding: 0px 0px 0px 8px;
     color: #f1f1f1;
 }
 
@@ -42,28 +42,34 @@
     font-weight: 550;
 }
 
-
+.sidenav ul {
+    padding: 0px 0px 0px 24px;
+    margin: 0 0 0 0;
+}
 
 
   </style>
 
 </head>
 <body>
-<div class="sidenav">
-  <h3>Best Practices by Data Life Cycle</h3>
-      {% for step in steps | sort: 'weight' %}
-      <ul>
-        <a href="{{ site.baseurl }}/bp_step/{{ step }}">{{step | capitalize}}</a>
-          {%- comment -%}  <div class="dropdown-container">
-            {%- comment -%}Filter the collection by the current category {%- endcomment -%}
-            {%- assign items = site[ the_collection ] | where: "step", step -%}
-            {%- for item in items %}
-            <li><a href="{{ site.baseurl }}{{ item.url }}">{{item.title}}</a>
-            {% unless forloop.last %}&nbsp;{% endunless %}
-            </li>
-            {% endfor %}
-            </div>{%- endcomment -%}
-            </ul>
-        {% endfor %}
-</div>
+  <div class="sidenav" >
+
+
+
+    <h3>Best Practices by Data Life Cycle</h3>
+          <ul><strong> <a href="{{ site.baseurl }}/bestpractices/">All</a></strong> </ul>
+          <ul> <a href="{{ site.baseurl }}/bp_step/plan">Plan</a> </ul>
+          <ul> <a href="{{ site.baseurl }}/bp_step/collect">Collect</a> </ul>
+          <ul> <a href="{{ site.baseurl }}/bp_step/assure">Assure</a> </ul>
+          <ul> <a href="{{ site.baseurl }}/bp_step/describe">Describe</a> </ul>
+          <ul> <a href="{{ site.baseurl }}/bp_step/preserve">Preserve</a> </ul>
+          <ul> <a href="{{ site.baseurl }}/bp_step/discover">Discover</a> </ul>
+          <ul> <a href="{{ site.baseurl }}/bp_step/integrate">Integrate</a> </ul>
+          <ul> <a href="{{ site.baseurl }}/bp_step/analyze">Analyze</a> </ul>
+
+          <hr style="width:100%; border-top: 1px solid #fff; background-color: #fff; color: #fff; border: 0; height: 3px;">
+            <ul> Learn more: <br>
+              <a target="_blank"  href="https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf">BP Primer</a> </ul>
+              <br/>
+    </div>
 </body>

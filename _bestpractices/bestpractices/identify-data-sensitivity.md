@@ -41,17 +41,13 @@ Steps for the identification of the sensitivity of data and the determination of
 - Develop data protection policies, procedures and mechanisms based on sensitivity of the data.
 
 ## Description Rationale
-The identification of the sensitivity and importance of data or information processed on an information system is essential to the determination of the appropriate security and privacy considerations to ensure the confidentiality, integrity, and availability of the data as well as data sharing decisions.
 
-## Related Best Practices
-- Define expected data outcomes and types
-- Plan data management early in your project
-- Revisit data management plan throughout the project life cycle
+The identification of the sensitivity and importance of data or information processed on an information system is essential to the determination of the appropriate security and privacy considerations to ensure the confidentiality, integrity, and availability of the data as well as data sharing decisions.
 
 ## Additional Information:
 
-FIPS Pub 199, Standards for Security Categorization of Federal Information and Information Systems: http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf
+FIPS Pub 199, Standards for Security Categorization of Federal Information and Information Systems: [http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf)
 
-Guide for Mapping Types of Information and Information Systems to Security Categories: (2 Volumes) - Volume 1: Guide Volume 2: Appendices
-https://csrc.nist.gov/publications/detail/sp/800-60/vol-1-rev-1/final
-https://csrc.nist.gov/publications/detail/sp/800-60/vol-2-rev-1/final
+Guide for Mapping Types of Information and Information Systems to Security Categories: (2 Volumes) - Volume 1: Guide, Volume 2: Appendices
+[https://csrc.nist.gov/publications/detail/sp/800-60/vol-1-rev-1/final](https://csrc.nist.gov/publications/detail/sp/800-60/vol-1-rev-1/final)
+[https://csrc.nist.gov/publications/detail/sp/800-60/vol-2-rev-1/final](https://csrc.nist.gov/publications/detail/sp/800-60/vol-2-rev-1/final)

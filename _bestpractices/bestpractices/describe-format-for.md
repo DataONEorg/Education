@@ -33,9 +33,5 @@ If locating field sites is more convenient using the Universal Transverse Mercat
 To assure the quality of the geospatial data, plot the locations on a map and visually check the location.
 
 ## Description Rationale
-Spatial information is necessary to describe where on Earth an observation was made.
 
-## Related Best Practices
-1. Describe formats for date and time
-2. Describe method to create derived data products
-3. Use consistent codes
+Spatial information is necessary to describe where on Earth an observation was made.

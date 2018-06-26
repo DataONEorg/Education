@@ -27,7 +27,7 @@ categories: ["Best Practice"]
 For successful data replication and backup:
 
 - Users should ensure that backup copies have the same content as the original data file
-  - Calculate a checksum for both the original and the backup copies and compare; if different back up the file again MD5: algorithm to determine check sum http://en.wikipedia.org/wiki/MD5
+  - Calculate a checksum for both the original and the backup copies and compare; if different back up the file again MD5: algorithm to determine check sum [http://en.wikipedia.org/wiki/MD5](http://en.wikipedia.org/wiki/MD5)
   - Compare files to ensure that there are no differences
 
 - Document all procedures (e.g., compression / decompression process) to ensure a successful recovery from a backup copy
@@ -46,17 +46,10 @@ For successful data replication and backup:
     - Depending upon the backup schedule, each iteration of the backup may be located in different locations (for example, more recent backups may be located on-site and older backups may be located off-site)
   - Have instructions and training available so that others know how to pull the backup and access the necessary data in case you are unavailable
 
-
 ## Description Rationale
 
 For successful preservation a backup data file should contain the same information as the original.
 
-## Related Best Practices
-
-- Create and document a data backup policy
-- Document and store data using stable file formats
-- Identify suitable repositories for the data
-
 ## Additional Information:
 
-Data Management and Publishing (MIT Libraries) https://libraries.mit.edu/data-management/
+[Data Management and Publishing (MIT Libraries)](https://libraries.mit.edu/data-management/)

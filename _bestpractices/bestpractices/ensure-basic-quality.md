@@ -59,14 +59,8 @@ Geographic coordinates:
 
 Quality control procedures identify potential problems with data that could affect its use.
 
-## Related Best Practices
-
-- Confirm a match between data and their description in metadata
-- Ensure datasets used are reproducible
-- Consider the compatibility of the data you are integrating
-
 ## Additional Information:
 
 Chapman, Arthur D. 2005. Principles of Data Quality, version 1.0. Report for the Global Biodiversity Information Facility, Copenhagen.
 
-US Environmental Protection Agency. 2002. Guidance on Environmental Data Verification and Data Validation. http://www.epa.gov/quality/qs-docs/g8-final.pdf.
+US Environmental Protection Agency. 2002. Guidance on Environmental Data Verification and Data Validation. [http://www.epa.gov/quality/qs-docs/g8-final.pdf](http://www.epa.gov/quality/qs-docs/g8-final.pdf)

@@ -30,9 +30,3 @@ In addition to transcription accuracy, data compiled from multiple sources may n
 ## Description Rationale
 
 Manually entered data can suffer from a high error rate. Double data entry and/or double checking of data can dramatically improve data quality.
-
-## Related Best Practices
-
-- Identify missing values and define missing value codes
-- Identify outliers
-- Identify values that are estimated

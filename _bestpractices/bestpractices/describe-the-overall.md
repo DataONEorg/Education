@@ -31,13 +31,10 @@ At a minimum, the organization and relationships between the directories and fil
 Associated specimens: if specimens (e.g., taxonomic vouchers, DNA samples) were collected with the data, include the name of the repository in which these specimens reside.
 
 ## Description Rationale
+
 Relationships among data entities should be described documented to enable understanding by future users and repositories.
 
-## Related Best Practices
-- Consider the compatibility of the data you are integrating
-- Document your data organization strategy
-- Use consistent codes
-
 ## Additional Information
-Specimen repositories: http://www.biorepositories.org/
-Describing data table constraints with Ecological Metadata Language (EML): https://knb.ecoinformatics.org/#external//emlparser/docs/eml-2.1.1/./eml-constraint.html
+
+Specimen repositories: [http://www.biorepositories.org/](http://www.biorepositories.org/)
+Describing data table constraints with Ecological Metadata Language (EML): [https://knb.ecoinformatics.org/#external//emlparser/docs/eml-2.1.1/./eml-constraint.html](https://knb.ecoinformatics.org/#external//emlparser/docs/eml-2.1.1/./eml-constraint.html)

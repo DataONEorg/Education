@@ -33,13 +33,9 @@ Date, Avg Temperature, Precipitation
 04Jan2010, 33.2, 0.0
 
 ## Description Rationale
-Description Rationale:
+
 Consistent use of preferred field delimiters (e.g., comma separated variables) enables data tables to be easily incorporated into analytical and other software programs and ensures that the data content and structure are preserved.
 
-## Related Best Practices
-- Consider the compatibility of the data you are integrating
-- Identify and use relevant metadata standards
-- Use consistent codes
-
 ## Additional Information
-Best Practices for Preparing Environmental Data Sets to Share and Archive, (formerly Cook et al., 2001) Updated by L. A. Hook, T. W. Beaty, S. Santhana-Vannan, L. Baskaran, and R. B. Cook. June 2007. http://daac.ornl.gov/PI/bestprac.html
+
+Best Practices for Preparing Environmental Data Sets to Share and Archive, (formerly Cook et al., 2001) Updated by L. A. Hook, T. W. Beaty, S. Santhana-Vannan, L. Baskaran, and R. B. Cook. June 2007. [http://daac.ornl.gov/PI/bestprac.html](http://daac.ornl.gov/PI/bestprac.html)

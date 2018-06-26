@@ -30,11 +30,6 @@ Data sets that result in many files structured in a file directory can be diffic
 
 Keeping a managed file storage system will help prevent inconsistencies, e.g., duplicated, lost, or misplaced files.
 
-## Related Best Practices
-- Create and document a data backup policy
-- Plan data management early in your project
-- Plan for effective multimedia management
-
 ## Examples
 
 A time series of image files from several remote cameras might be organized so that images from each camera are in different folders. These are, in turn, collected in a folder named "images". Each folder would be named with the identifier for the camera. The file names for images might reflect the time the image was taken.

@@ -34,11 +34,6 @@ Given the amount of data produced by scientific research, keeping everything is 
 
 Decisions about what data to keep will help to focus project resources on those data that should be stored for long-term preservation.
 
-## Related Best Practices
-- Backup your data
-- Decide what data to preserve
-- Preserve information: keep your raw data raw
-
 ## Additional Information
 
-Whyte, Angus. Appraise and Select Research Data for Curation. Digital Curation Centre. http://www.dcc.ac.uk/resources/how-guides/appraise-select-research-data
+Whyte, Angus. Appraise and Select Research Data for Curation. Digital Curation Centre. [http://www.dcc.ac.uk/resources/how-guides/appraise-select-research-data](http://www.dcc.ac.uk/resources/how-guides/appraise-select-research-data)

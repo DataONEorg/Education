@@ -49,16 +49,10 @@ A Data Management Plan should include the following information:
 
 When you develop hypotheses and the design of sample collection for your new project, you should also plan for data management. Careful planning for data management before you begin your research and throughout the data's life cycle is essential to improve the data's usability, and ensure data's preservation and access both during the project and well into the future.
 
-## Related Best Practices
-
-- Create and document a data backup policy
-- Create, manage, and document your data storage system
-- Define roles and assign responsibilities for data management
-
 ## Additional Information
 
-Australian National University Data Management Planning: http://www.ands.org.au/working-with-data/data-management/data-management-plans
+[Australian National University Data Management Planning](http://www.ands.org.au/working-with-data/data-management/data-management-plans)
 
-MIT Data Management Planning: https://libraries.mit.edu/data-management/
+[MIT Data Management Planning](https://libraries.mit.edu/data-management/)
 
-UK Data Archive Data Management and Sharing Plan: http://www.data-archive.ac.uk/news/publications/managingsharing.pdf
+[UK Data Archive Data Management and Sharing Plan](http://www.data-archive.ac.uk/news/publications/managingsharing.pdf)

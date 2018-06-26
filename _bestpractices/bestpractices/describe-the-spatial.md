@@ -39,15 +39,9 @@ If your data collection or dataset as a whole contains data acquired over a rang
 
 Describing the spatial boundaries of a data collection as a whole allows users to assess the collection for applicability to their research needs without having to individually assess the relevance of each individual component of the collection.
 
-## Related best practices
-
-- Choose and use standard terminology to enable discovery
-- Consider the compatibility of the data you are integrating
-- Use consistent codes
-
 ## Additional Information
 
-NASA-GCMD (spatial coverage & data resolution): https://gcmd.nasa.gov/add/difguide/index.html
+NASA-GCMD (spatial coverage & data resolution): [https://gcmd.nasa.gov/add/difguide/index.html](https://gcmd.nasa.gov/add/difguide/index.html)
 
 ## Examples
 

@@ -32,7 +32,7 @@ Storage of images solely on local hard drives or servers is not recommended. Una
 
 Ensure that the policies of the multimedia repository are consistent with your general data management plan.
 
-There are a number of options for metadata for multimedia data, with many MPEG standards (http://mpeg.chiariglione.org/), and other standards such as PBCore (http://pbcore.org/).
+There are a number of options for metadata for multimedia data, with many MPEG standards ([http://mpeg.chiariglione.org/](http://mpeg.chiariglione.org/)), and other standards such as PBCore ([http://pbcore.org](http://pbcore.org/)).
 
 The following web pages have sections describing considerations for quality and functionality and formats for each of still images, sound (audio) and moving images (video).
 
@@ -81,21 +81,16 @@ Some institutions or projects maintain digital asset management systems, content
 
 Multimedia metadata is particularly important for discovery as the objects do not contain text that can be indexed.
 
-## Related Best Practices
-
-- Create, manage, and document your data storage system
-- Define expected data outcomes and types
-- Define roles and assign responsibilities for data management
-
 ## Additional Information
-"Multimedia Semantics - The Role of Metadata": http://www.springer.com/engineering/computational+intelligence+and+complexity/book/978-3-540-77472-3
 
-"Multimedia Semantics: Metadata, Analysis and Interaction": http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470747005.html
+"Multimedia Semantics - The Role of Metadata": [http://www.springer.com/engineering/computational+intelligence+and+complexity/book/978-3-540-77472-3](http://www.springer.com/engineering/computational+intelligence+and+complexity/book/978-3-540-77472-3)
+
+"Multimedia Semantics: Metadata, Analysis and Interaction": [http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470747005.html](http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470747005.html)
 
 ## Examples
 
-http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf
+[http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf](http://www.metadataworkinggroup.org/pdf/mwg_guidance.pdf)
 
-http://images.nbii.gov/life/pdf/Acceptable.pdf
+[http://images.nbii.gov/life/pdf/Acceptable.pdf](http://images.nbii.gov/life/pdf/Acceptable.pdf)
 
-http://macaulaylibrary.org/building-the-archive
+[http://macaulaylibrary.org/building-the-archive](http://macaulaylibrary.org/building-the-archive)

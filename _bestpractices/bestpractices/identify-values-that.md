@@ -33,12 +33,9 @@ Day, Avg Temperature, Flag
 4, 35.8, actual
 
 ## Description Rationale
+
 Correct interpretation of the content of a data table typically depends on knowing which data values were actually recorded in the field or estimate using other approaches.
 
-## Related Best Practices
-- Develop a quality assurance and quality control plan
-- Identify outliers
-- Identify missing values and define missing value codes
-
 ## Additional Information
-Hook, Les A., Suresh K. Santhana Vannan, Tammy W. Beaty, Robert B. Cook, and Bruce E. Wilson. 2010. Best Practices for Preparing Environmental Data Sets to Share and Archive. Available online (http://daac.ornl.gov/PI/BestPractices-2010.pdf) from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A. doi:10.3334/ORNLDAAC/BestPractices-2010
+
+Hook, Les A., Suresh K. Santhana Vannan, Tammy W. Beaty, Robert B. Cook, and Bruce E. Wilson. 2010. Best Practices for Preparing Environmental Data Sets to Share and Archive. Available online [http://daac.ornl.gov/PI/BestPractices-2010.pdf](http://daac.ornl.gov/PI/BestPractices-2010.pdf) from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A. doi:10.3334/ORNLDAAC/BestPractices-2010

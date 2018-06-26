@@ -38,8 +38,6 @@ The header for best practices has the following fields:
 
 ## in 'Raw' view, these are the headers you should have
 
-
-
 content
 - thing 1
 - thing 2
@@ -49,12 +47,6 @@ content
 ## Description Rationale
 
 content
-
-## Related Best Practices
-
-- one
-- two
-- three
 
 ## Additional Information
 

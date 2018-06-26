@@ -43,11 +43,6 @@ The plan should be reviewed by others to make sure the plan is comprehensive.
 
 A plan for QA/QC is needed so that others can understand how to best use the data, and avoid potential mistakes that might occur due to use of poor quality data. Explicitly documenting how you check your data for errors and conflicts can also help resolve current and future questions about the data.
 
-## Related Best Practices
-- Communicate data quality
-- Confirm a match between data and their description in metadata
-- Define the data model
-
 ## Examples
 
 Water quality data for EPA is collected with a QA/QC plan often called QAPP Quality Assurance Project Plan.
@@ -56,4 +51,4 @@ See Quality Management Tools - QA Project Plans
 
 A Quality Assurance Project Plan documents the planning, implementation, and assessment procedures for a particular project, as well as any specific quality assurance and quality control activities. It integrates all the technical and quality aspects of the project in order to provide a "blueprint" for obtaining the type and quality of environmental data and information needed for a specific decision or use. All work performed or funded by EPA that involves the acquisition of environmental data must have an approved Quality Assurance Project Plan.
 
-http://www.epa.gov/QUALITY/qapps.html
+[http://www.epa.gov/QUALITY/qapps.html](http://www.epa.gov/QUALITY/qapps.html)

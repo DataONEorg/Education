@@ -30,15 +30,10 @@ The integration of multiple data sets from different sources requires that they 
 
 When using integrated data sets, it is crucial that the data are comparable and compatible to avoid mistakes in analyses and interpretation.
 
-## Related Best Practices
-
-- Confirm a match between data and their description in metadata
-- Document steps used in data processing
-- Define the data model
 
 ## Additional Information
 
-Burley, T.E., and Peine, J.D., 2009, NBII-SAIN Data Management Toolkit, U.S. Geological Survey Open-File Report 2009-1170, 96 p. Available from: http://pubs.usgs.gov/of/2009/1170/
+Burley, T.E., and Peine, J.D., 2009, NBII-SAIN Data Management Toolkit, U.S. Geological Survey Open-File Report 2009-1170, 96 p. Available from: [http://pubs.usgs.gov/of/2009/1170/](http://pubs.usgs.gov/of/2009/1170/)
 
 ## Examples
 

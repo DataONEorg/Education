@@ -47,10 +47,6 @@ Useful Definitions:
 
 The metadata standards that you use determine the communities that can easily use your data.
 
-## Related Best Practices
-- Confirm a match between data and their description in metadata
-- Define the data model
-
 ## Additional Information
 
 Beall, Jeffrey. 2007. "Metadata for Digitization Projects: Discrete Criteria for Selecting and Comparing Metadata Schemes - Reflecting further on schema selection, Jeffrey enumerates twelve points of comparison to help one decide which of the many schemas available best suits one digital project". Against the Grain. 19 (1): 28.
@@ -58,9 +54,9 @@ Beall, Jeffrey. 2007. "Metadata for Digitization Projects: Discrete Criteria for
 Eichenlaub, N. 2010. "Metadata for Digital Resources: Implementation, Systems Design and Interoperability, by Muriel Foulonneau and Jenn Riley". CATALOGING AND CLASSIFICATION QUARTERLY. 48 (4): 348-351.
 
 UK Digital Curation Centre (DCC) Disciplinary Metadata Catalog
-http://www.dcc.ac.uk/resources/metadata-standards
+[http://www.dcc.ac.uk/resources/metadata-standards](http://www.dcc.ac.uk/resources/metadata-standards)
 
 Seeing Standards: A Visualization of the Metadata Universe
-http://jennriley.com/metadatamap/
+[http://jennriley.com/metadatamap/](http://jennriley.com/metadatamap/)
 
 Xu W, and M Okada. 2007. "EBM metadata based on Dublin Core better presenting validity of clinical trials". Journal of Medical Systems. 31 (5): 337-43.

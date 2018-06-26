@@ -18,8 +18,6 @@ resource: true
 categories: ["Best Practice"]
 ---
 
-
-
 To maximize usability of your data or outputs, ensure that those with impairments or disabilities will still be able to access and understand them. The Web Accessibility Initiative, from the W3C, suggests that those producing content for others consider the following (text from their website):
 
 Make your outputs perceivable
@@ -45,10 +43,6 @@ Make your outputs robust
 ## Description Rationale
 
 By ensuring your data and other outputs are accessible by all, you are maximizing their potential for re-use and preventing misuse.
-
-## Related Best Practices
-- Describe the contents of data files
-- Ensure flexible data services for virtual datasets
 
 ## Additional Information
 

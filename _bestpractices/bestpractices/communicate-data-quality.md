@@ -31,10 +31,6 @@ Information about quality control and quality assurance are important components
 
 Data quality and any methods used for quality control should be communicated so others can assess the data independently.
 
-## Related Best Practices
-- Ensure basic quality control
-- Ensure datasets used are reproducible
-
 ## Additional Information
 
 Hook, L.A., Beaty, T.W., Santhana-Vannan, S., Baskaran, L. and Cook, R.B. 2007. Best practices for preparing environmental data sets to share and archive. Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A. (daac.ornl.gov/PI/bestprac.html)

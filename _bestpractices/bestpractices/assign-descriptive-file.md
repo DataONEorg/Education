@@ -35,15 +35,9 @@ Avoid using file names such as mydata.dat or 1998.dat.
 
 Clear, descriptive, and unique file names may be important when your data file is combined in a directory or FTP site with your own data files or with the data files of other investigators. File names that reflect the contents of the file and uniquely identify the data file enable precise search and discovery of particular files.
 
-## Related Best Practices
-
-- Choose and use standard terminology to enable discovery
-- Confirm a match between data and their description in metadata
-- Describe the contents of data files
-
 ## Additional Information
 
-Hook, Les A., Suresh K. Santhana Vannan, Tammy W. Beaty, Robert B. Cook, and Bruce E. Wilson. 2010. Best Practices for Preparing Environmental Data Sets to Share and Archive. Available online http://daac.ornl.gov/PI/BestPractices-2010.pdf from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A. doi:10.3334/ORNLDAAC/BestPractices-2010
+Hook, Les A., Suresh K. Santhana Vannan, Tammy W. Beaty, Robert B. Cook, and Bruce E. Wilson. 2010. Best Practices for Preparing Environmental Data Sets to Share and Archive. Available online [http://daac.ornl.gov/PI/BestPractices-2010.pdf](http://daac.ornl.gov/PI/BestPractices-2010.pdf) from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, U.S.A. doi:10.3334/ORNLDAAC/BestPractices-2010
 
 Borer et al. 2009. Some Simple Guidelines for Effective Data Management. Bull. of ESA 90: 209-214.
 

@@ -30,15 +30,9 @@ The marine community has many examples of quality control flags that can be foun
 
 Data quality should be able to be assessed by potential data users so that any problems are identified early in a project.
 
-## Related Best Practices
-
-- Choose and use standard terminology to enable discovery
-- Define the data model
-- Develop a quality assurance and quality control plan
-
 ## Examples
 
 Some marine examples - Several standards and cross walk between standards at
 solar radiation data:
-- http://solardat.uoregon.edu/QualityControlFlags.html
-- www.oceandatastandards.org
+- [http://solardat.uoregon.edu/QualityControlFlags.html](http://solardat.uoregon.edu/QualityControlFlags.html)
+- [http://www.oceandatastandards.org](http://www.oceandatastandards.org)

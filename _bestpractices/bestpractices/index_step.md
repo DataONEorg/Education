@@ -3,7 +3,6 @@ title: Best Practices Collection Index
 layout: bestpractice_index
 depth: 1
 entries_layout: list
-step: NA
 show_excerpts: true
 search: exclude
 ---

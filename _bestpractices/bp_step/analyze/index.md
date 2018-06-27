@@ -1,6 +1,6 @@
 ---
 layout: bestpractice_step
-step: analyze
+lifecycle: analyze
 weight: 8
 categories: ["Best Practice"]
 ---

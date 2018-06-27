@@ -1,6 +1,6 @@
 ---
 layout: bestpractice_step
-step: plan
+lifecycle: plan
 weight: 1
 categories: ["Best Practice"]
 ---

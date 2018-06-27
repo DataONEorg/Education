@@ -1,6 +1,6 @@
 ---
 layout: bestpractice_step
-step: discover
+lifecycle: discover
 weight: 6
 categories: ["Best Practice"]
 ---

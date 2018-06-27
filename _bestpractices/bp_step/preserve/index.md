@@ -1,6 +1,6 @@
 ---
 layout: bestpractice_step
-step: preserve
+lifecycle: preserve
 weight: 5
 categories: ["Best Practice"]
 ---

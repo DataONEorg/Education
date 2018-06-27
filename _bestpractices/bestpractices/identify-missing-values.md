@@ -7,6 +7,12 @@ tags:
   - missing values
 step:
   - assure
+update:
+  - May 08, 2018
+author:
+  - DataONE Community Engagement & Outreach Working Group
+resource: true
+categories: ["Best Practice"]
 ---
 
 

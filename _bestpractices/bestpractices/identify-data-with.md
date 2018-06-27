@@ -5,7 +5,7 @@ tags:
   - data archives
   - preserve
   - storage
-steps:
+step:
   - preserve
 related:
   - backup-your-data

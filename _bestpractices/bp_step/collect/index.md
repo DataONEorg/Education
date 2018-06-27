@@ -1,7 +1,8 @@
 ---
 layout: bestpractice_step
-tag: collect
+step: collect
 weight: 2
+categories: ["Best Practice"]
 ---
 
 *Select a Best Practice below to learn more about the "Collect" step to data management.*

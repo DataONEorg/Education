@@ -1,7 +1,8 @@
 ---
 layout: bestpractice_step
-tag: preserve
+step: preserve
 weight: 5
+categories: ["Best Practice"]
 ---
 
 *Select a Best Practice below to learn more about the "Preserve" step to data management.*

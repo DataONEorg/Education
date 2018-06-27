@@ -1,7 +1,8 @@
 ---
 layout: bestpractice_step
-tag: analyze
+step: analyze
 weight: 8
+categories: ["Best Practice"]
 ---
 
 *Select a Best Practice below to learn more about the "Analyze" step to data management.*

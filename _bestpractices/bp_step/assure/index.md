@@ -1,7 +1,8 @@
 ---
 layout: bestpractice_step
-tag: assure
+step: assure
 weight: 3
+categories: ["Best Practice"]
 ---
 
 *Select a Best Practice below to learn more about the "Assure" step to data management.*

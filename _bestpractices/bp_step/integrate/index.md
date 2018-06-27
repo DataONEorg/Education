@@ -1,6 +1,6 @@
 ---
 layout: bestpractice_step
-step: integrate
+lifecycle: integrate
 weight: 7
 categories: ["Best Practice"]
 ---

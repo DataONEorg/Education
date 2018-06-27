@@ -1,6 +1,6 @@
 ---
 layout: bestpractice_step
-step: collect
+lifecycle: collect
 weight: 2
 categories: ["Best Practice"]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: bestpractice_step
-step: assure
+lifecycle: assure
 weight: 3
 categories: ["Best Practice"]
 ---

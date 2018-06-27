@@ -1,6 +1,6 @@
 ---
 layout: bestpractice_step
-step: describe
+lifecycle: describe
 weight: 4
 categories: ["Best Practice"]
 ---

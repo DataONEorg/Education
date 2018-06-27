@@ -11,7 +11,7 @@ description: Layout for creating a single page with all best practices under one
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Data Life Cycle: {{ page.tag }}</title>
+  <title>Data Life Cycle: {{ page.lifecycle }}</title>
 {% comment %}
   This section calls out to collection_steps to build a list of steps (i.e., steps of the data life cycle) used by all the pages in this collection. The variable "steps" contains all the steps
 {% endcomment %}
@@ -31,7 +31,7 @@ description: Layout for creating a single page with all best practices under one
     {% include bestpractice_sidebar.html %}
 
 <div class="main">
-<h1>{{ page.tag | capitalize }}</h1>
+<h1>{{ page.lifecycle | capitalize }}</h1>
 {{ content }}
 
 <!-- Megan attempts a drop down menu of data life cycle steps -->
@@ -50,7 +50,7 @@ description: Layout for creating a single page with all best practices under one
 -->
 
 <hr >
-{% assign step = page.tag %}
+{% assign step = page.lifecycle %}
 
 <ul>
 {%- assign items = site[ the_collection ] | where: "step", step -%}

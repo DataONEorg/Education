@@ -3,17 +3,16 @@ layout: layout
 ---
 
 
-  <div id=wrapper style= "width:90%; padding:0px; margin:40px 0px 0px 62px; ">
 
-  <h1>Best Practice</h1>
-  <h2>{{ page.title }}</h2>
+  <h1>{{ page.title }}</h1>
+
 
 <!-- Adds a list of the tags, with links back to the tag archive, anchored at that specific tag-->
 
 
 <div class="collection-steps">
   {% assign steps = page.step %}
-  <p>Data Life Cycle step(s): 
+  <p>Data Life Cycle step(s):
   {% for step in steps %}
   <a href="{{ site.baseurl }}/bp_step/{{ step|slugize }}">{{step | capitalize}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
@@ -21,6 +20,7 @@ layout: layout
   </p>
 </div>
 
+<h2>Best Practice</h2>
 
   {{ page.content | markdownify }}
 
@@ -41,25 +41,37 @@ layout: layout
   </ul>
 </div>
 
-
-  <section>
-    <br />
-    <h3>Cite this best practice: </h3><br />
-    {{ page.author }} ({{ page.update | date: '%Y' }}) "Best practice: {{ page.title }}". Accessed at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
-    </p>
-  </section>
-
 <!-- Adds a list of the data life cycle steps, with links back to the steps index page, anchored at that specific step-->
+<!-- original version with just LINKS
+  <div class="collection-tags">
+  {% assign tags = page.tags %}
+  <p> <strong>Tags:&nbsp</strong>
+  {% for tag in tags %}
+  <a href="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}" class="link_button"> {{tag}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+  </p>
+</div>-->
+
 <div class="collection-tags">
   {% assign tags = page.tags %}
-  <p> Tags:
+  <p > <h2 style="margin-bottom:16px;">Tags</h2>
   {% for tag in tags %}
-  <a href="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}">{{tag}}</a>
+  <form style="display: inline;" action="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}" method="get">
+    <button>{{tag}}</button></form>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
   </p>
 </div>
 
-  	<a href="{{ site.baseurl }}/"><strong>Home</strong></a>
 
-  </div>
+  <section>
+
+    <h3 style="margin-top:24px;">Cite this best practice: </h3>
+    {{ page.author }} ({{ page.update | date: '%Y' }}) "Best practice: {{ page.title }}". Accessed at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
+    </p>
+  </section>
+
+<br />
+
+  	<a href="{{ site.baseurl }}/"><strong>Home</strong></a>

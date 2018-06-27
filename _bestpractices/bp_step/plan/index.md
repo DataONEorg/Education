@@ -1,7 +1,8 @@
 ---
 layout: bestpractice_step
-tag: plan
+step: plan
 weight: 1
+categories: ["Best Practice"]
 ---
 􏰣
 *Select a Best Practice below to learn more about the "Plan" step to data management.*

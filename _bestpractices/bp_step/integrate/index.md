@@ -1,7 +1,8 @@
 ---
 layout: bestpractice_step
-tag: integrate
+step: integrate
 weight: 7
+categories: ["Best Practice"]
 ---
 
 *Select a Best Practice below to learn more about the "Integrate" step to data management.*

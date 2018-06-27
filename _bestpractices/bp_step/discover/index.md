@@ -1,7 +1,8 @@
 ---
 layout: bestpractice_step
-tag: discover
+step: discover
 weight: 6
+categories: ["Best Practice"]
 ---
 
 *Select a Best Practice below to learn more about the "Discover" step to data management.*

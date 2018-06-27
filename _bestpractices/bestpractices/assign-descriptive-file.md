@@ -25,7 +25,7 @@ categories: ["Best Practice"]
 
 File names should reflect the contents of the file and include enough information to uniquely identify the data file. File names may contain information such as project acronym, study title, location, investigator, year(s) of study, data type, version number, and file type.
 
-When choosing a file name, check for any database management limitations on file name length and use of special characters. Also, in general, lower-case names are less software and platform dependent. Avoid using spaces and special characters in file names, directory paths and field names. Automated processing, URLs and other systems often use spaces and special characters for parsing text string. Instead, consider using underscore ( _ ) or dashes ( - ) to separate meaningful parts of file names. Avoid $ % ^ & # | : and similar.
+When choosing a file name, check for any database management limitations on file name length and use of special characters. Also, in general, lower-case names are less software and platform dependent. Avoid using spaces and special characters in file names, directory paths and field names. Automated processing, URLs and other systems often use spaces and special characters for parsing text string. Instead, consider using underscore ( _ ) or dashes ( - ) to separate meaningful parts of file names. Avoid $ % ^ & # | and similar.
 
 If versioning is desired a date string within the file name is recommended to indicate the version.
 

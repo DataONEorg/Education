@@ -1,7 +1,8 @@
 ---
 layout: bestpractice_step
-tag: describe
+step: describe
 weight: 4
+categories: ["Best Practice"]
 ---
 
 *Select a Best Practice below to learn more about the "Describe" step to data management.*

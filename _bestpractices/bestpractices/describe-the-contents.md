@@ -1,6 +1,6 @@
 ---
 title: Describe the contents of data files
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - describe
 - documentation

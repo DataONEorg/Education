@@ -1,6 +1,6 @@
 ---
 title: Identify outliers
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - analyze
   - annotation

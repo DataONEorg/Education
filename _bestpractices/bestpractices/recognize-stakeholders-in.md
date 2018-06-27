@@ -1,6 +1,6 @@
 ---
 title: Recognize stakeholders in data ownership
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - access
   - preserve

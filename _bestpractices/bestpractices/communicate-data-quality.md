@@ -1,6 +1,6 @@
 ---
 title: Communicate data quality
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - assure
   - flag

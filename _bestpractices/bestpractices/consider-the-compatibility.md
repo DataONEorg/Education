@@ -1,6 +1,6 @@
 ---
 title: Consider the compatibility of the data you are integrating
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - analyze
   - assure

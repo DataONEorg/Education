@@ -1,6 +1,6 @@
 ---
 title: Describe the overall organization of your dataset
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - data model
 - database

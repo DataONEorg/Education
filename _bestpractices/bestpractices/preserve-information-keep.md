@@ -1,6 +1,6 @@
 ---
 title: "Preserve information: keep raw data raw"
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - collect
   - data consistency

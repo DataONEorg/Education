@@ -1,6 +1,6 @@
 ---
 title: Describe method to create derived data products
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - analyze
 - data processing

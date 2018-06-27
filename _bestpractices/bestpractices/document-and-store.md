@@ -1,6 +1,6 @@
 ---
 title: Document and store data using stable file formats
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - documentation
 - format

@@ -1,6 +1,6 @@
 ---
 title: Decide what data to preserve
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - data archives
 - disaster recovery

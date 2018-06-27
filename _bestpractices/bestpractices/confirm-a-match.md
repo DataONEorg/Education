@@ -1,6 +1,6 @@
 ---
 title: Confirm a match between data and their description in metadata
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - assure
   - data consistency

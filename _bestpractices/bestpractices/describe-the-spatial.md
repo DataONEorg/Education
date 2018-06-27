@@ -1,6 +1,6 @@
 ---
 title: Describe the spatial extent and resolution of your dataset
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - describe
   - documentation

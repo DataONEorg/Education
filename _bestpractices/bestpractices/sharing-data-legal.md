@@ -1,6 +1,6 @@
 ---
 title: "Sharing data: legal and policy considerations"
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - access
   - citation

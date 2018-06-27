@@ -1,6 +1,6 @@
 ---
 title: Mark data with quality control flags
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - assure
   - coding

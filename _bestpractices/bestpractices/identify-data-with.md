@@ -1,6 +1,6 @@
 ---
 title: Identify data with long-term value
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - data archives
   - preserve

@@ -1,6 +1,6 @@
 ---
 title: Describe the units of measurement for each observation
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - describe
 - measurement

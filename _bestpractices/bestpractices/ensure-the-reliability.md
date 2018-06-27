@@ -1,6 +1,6 @@
 ---
 title: Ensure the reliability of your storage media
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - access
   - backup

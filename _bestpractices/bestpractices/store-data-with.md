@@ -1,6 +1,6 @@
 ---
 title: Store data with appropriate precision
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - analyze
   - measurement

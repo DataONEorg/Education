@@ -1,6 +1,6 @@
 ---
 title: Identify suitable repositories for the data
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - access
   - data archives

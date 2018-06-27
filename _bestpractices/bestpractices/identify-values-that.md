@@ -1,6 +1,6 @@
 ---
 title: Identify values that are estimated
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - analyze
   - assure

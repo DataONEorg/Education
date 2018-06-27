@@ -1,6 +1,6 @@
 ---
 title: Ensure integrity and accessibility when making backups of data
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - access
   - backup

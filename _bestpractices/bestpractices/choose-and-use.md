@@ -1,6 +1,6 @@
 ---
 title: Choose and use standard terminology to enable discovery
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - controlled vocabulary
   - describe

@@ -1,6 +1,6 @@
 ---
 title: Provide a citation and document provenance for your dataset
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - citation
   - data creators

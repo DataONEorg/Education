@@ -1,6 +1,6 @@
 ---
 title: Create, manage, and document your data storage system
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - access
   - documentation

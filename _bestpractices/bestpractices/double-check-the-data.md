@@ -1,6 +1,6 @@
 ---
 title: Double-check the data you enter
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - assure
 - data consistency

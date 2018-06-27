@@ -1,6 +1,6 @@
 ---
 title: Ensure datasets used are reproducible
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - analyze
   - assure

@@ -1,6 +1,6 @@
 ---
 title: Provide version information for use and discovery
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - assure
   - documentation

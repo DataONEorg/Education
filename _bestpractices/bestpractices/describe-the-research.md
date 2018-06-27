@@ -1,6 +1,6 @@
 ---
 title: Describe the research project
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - annotation
 - data creators

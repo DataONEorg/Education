@@ -1,6 +1,6 @@
 ---
 title: Advertise your data using datacasting tools
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - access
   - data services

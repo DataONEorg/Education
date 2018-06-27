@@ -1,6 +1,6 @@
 ---
 title: Check data and other outputs for print and web accessibility
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - access
   - discover

@@ -1,6 +1,6 @@
 ---
 title: Plan data management early in your project
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - backup
   - plan

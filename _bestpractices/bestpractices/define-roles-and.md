@@ -1,6 +1,6 @@
 ---
 title: Define roles and assign responsibilities for data management
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - data management plan
 - plan

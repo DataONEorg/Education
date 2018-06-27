@@ -1,6 +1,6 @@
 ---
 title: Develop a quality assurance and quality control plan
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - assure
 - data consistency

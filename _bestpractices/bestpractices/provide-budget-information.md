@@ -1,6 +1,6 @@
 ---
 title: Provide budget information for your data management plan
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - data management plan
 - integrate

@@ -1,6 +1,6 @@
 ---
 title: Ensure flexible data services for virtual datasets
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - data archives
   - data services

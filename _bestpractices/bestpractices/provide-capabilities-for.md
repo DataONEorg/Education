@@ -1,6 +1,6 @@
 ---
 title: Provide capabilities for tagging and annotation of your data by the community
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - annotation
   - controlled vocabulary

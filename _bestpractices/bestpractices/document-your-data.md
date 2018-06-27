@@ -1,6 +1,6 @@
 ---
 title: Document your data organization strategy
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - data management plan
 - data model

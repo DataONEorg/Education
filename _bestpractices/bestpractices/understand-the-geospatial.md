@@ -1,6 +1,6 @@
 ---
 title: Understand the geospatial parameters of multiple data sources
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - analyze
   - documentation

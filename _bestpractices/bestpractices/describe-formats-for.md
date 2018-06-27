@@ -1,6 +1,6 @@
 ---
 title: Describe formats for date and time
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - date
 - describe

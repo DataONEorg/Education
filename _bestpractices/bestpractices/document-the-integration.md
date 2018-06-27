@@ -1,6 +1,6 @@
 ---
 title: Document the integration of multiple datasets
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - citation
 - data consistency

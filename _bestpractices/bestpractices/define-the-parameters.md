@@ -1,6 +1,6 @@
 ---
 title: Define the parameters
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - describe
 - documentation

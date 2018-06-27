@@ -1,6 +1,6 @@
 ---
 title: Assign descriptive file names
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - access
   - describe

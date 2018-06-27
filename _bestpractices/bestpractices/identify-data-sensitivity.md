@@ -1,6 +1,6 @@
 ---
 title: Identify data sensitivity
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - access
   - data archives

@@ -1,6 +1,6 @@
 ---
 title: Revisit data management plan throughout the project life cycle
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - data management plan
   - documentation

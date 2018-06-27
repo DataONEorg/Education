@@ -1,6 +1,6 @@
 ---
 title: How to write a Best Practice file
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - data source
 step:

@@ -1,6 +1,6 @@
 ---
 title: Define expected data outcomes and types
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - data model
 - data source

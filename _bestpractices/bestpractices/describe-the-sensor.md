@@ -1,6 +1,6 @@
 ---
 title: Describe the sensor network
-layout: cover_bps
+layout: bestpractice_cover
 tags:
 - calibration
 step:

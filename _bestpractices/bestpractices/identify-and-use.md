@@ -1,6 +1,6 @@
 ---
 title: Identify and use relevant metadata standards
-layout: cover_bps
+layout: bestpractice_cover
 tags:
   - controlled vocabulary
   - describe

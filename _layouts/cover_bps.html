@@ -9,15 +9,18 @@ layout: layout
   <h2>{{ page.title }}</h2>
 
 <!-- Adds a list of the tags, with links back to the tag archive, anchored at that specific tag-->
-<div class="collection-tags">
-  {% assign tags = page.tags %}
-  <p> Tags:
-  {% for tag in tags %}
-  <a href="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}">{{tag}}</a>
+
+
+<div class="collection-steps">
+  {% assign steps = page.step %}
+  <p>Data Life Cycle step(s): 
+  {% for step in steps %}
+  <a href="{{ site.baseurl }}/bp_step/{{ step|slugize }}">{{step | capitalize}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
   </p>
 </div>
+
 
   {{ page.content | markdownify }}
 
@@ -41,18 +44,17 @@ layout: layout
 
   <section>
     <br />
-    <strong>Cite this best practice: </strong><br />
+    <h3>Cite this best practice: </h3><br />
     {{ page.author }} ({{ page.update | date: '%Y' }}) "Best practice: {{ page.title }}". Accessed at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
     </p>
-    <br />
   </section>
 
 <!-- Adds a list of the data life cycle steps, with links back to the steps index page, anchored at that specific step-->
-<div class="collection-steps">
-  {% assign steps = page.step %}
-  <p>Best Practices in the Data Life Cycle:
-  {% for step in steps %}
-  <a href="{{ site.baseurl }}/bp_step/{{ step|slugize }}">{{step | capitalize}}</a>
+<div class="collection-tags">
+  {% assign tags = page.tags %}
+  <p> Tags:
+  {% for tag in tags %}
+  <a href="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}">{{tag}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
   </p>

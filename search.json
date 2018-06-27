@@ -11,13 +11,32 @@
     {
       {% if item.step != "NA" %}
       {% if item.step != nil %}
+      {% if item.title != "How to write a Best Practice file" %}
       "title"    : "{{ item.title | escape }}",
       "url"      : "{{ site.baseurl }}{{ item.url }}",
       "step"     : "{{ item.step | join: ', ' }}",
       "tags"     : "{{ item.tags | join: ', ' }}",
-      "related"  : "{{ item.related | join: ', ' }}"
+      "categories"  : "{{ item.categories | join: ', ' }}"
+      {% endif %}
       {% endif %}
       {% endif %}
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
+
+
+
+  {% assign the_collection = "lessons" %}
+  {%- for page in site[ the_collection ] -%}
+
+      {
+        {% if page.layout != "slides" %}
+          "title"    : "{{ page.title | escape }}",
+          "url"      : "{{ site.baseurl }}{{ page.url }}",
+          "tags"     : "{{ page.tags | join: ', ' }}",
+          "categories"  : "{{ page.categories | join: ', ' }}"
+        {% endif %}
+      } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+
 ]
+{% comment %} the problem with the lesson code is that it pulls titles from the lesson, and the tags/ categories from the index, AND includes all the other pages. But if I don't include page.tags or site.tags when they are missing I get nothing... This search works if you remove the lessons portion of the above code. {% endcomment %}

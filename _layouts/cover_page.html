@@ -1,13 +1,8 @@
 <!doctype html>
 <html lang="en">
 
-{% assign ldeck = page.url | split: '/' %}
-{% assign ldeck = ldeck[2] %}
-{% capture index_url %}/lessons/{{ ldeck }}/slides{% endcapture %}
-{% assign lesson = site.lessons | where: "url", index_url | first %}
-{% unless page.title  %}
-  {% assign page.title = lesson.title %}
-{% endunless %}
+
+
 
 <head>
 
@@ -137,6 +132,7 @@
 </div>
 
     {% include header.html %}
+
 <div style="width:90%; padding:30px; margin:0px 0px 0px 32px; ">
   <article class='container'>
     <section role='complimentary' class='keep-together'>

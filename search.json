@@ -1,42 +1,77 @@
 ---
 ---
 
-{%- comment -%} This creates an instant jekyll search as per -> https://blog.webjeda.com/instant-jekyll-search/. So far it is built to only search the "best practices" repository. Need to figure out how to add search of the "lessons" folder. Maybe look a the index_tag.html layout and see how Dave got the tiles to function for both. {%- endcomment -%}
+{%- comment -%} This creates an instant jekyll search as per -> https://blog.webjeda.com/instant-jekyll-search/. 
+So far it is built to only search the "best practices" repository. 
+Need to figure out how to add search of the "lessons" folder. 
+Maybe look a the index_tag.html layout and see how Dave got the tiles to function for both. {%- endcomment -%}
 
+{%- assign cycle_steps = 'plan,collect,assure,describe,preserve,discover,integrate,analyze' | split: ',' %}
 
 [
-  {% assign the_collection = "bestpractices" %}
-  {%- for item in site[ the_collection ] -%}
-
+  {%- assign the_collection = "bestpractices" %}
+  {%- for item in site[ the_collection ] %}
+      {%- if item.step != "NA" %}
+        {%- if item.step != nil %}
+          {%- if item.title != "How to write a Best Practice file" %}
     {
-      {% if item.step != "NA" %}
-      {% if item.step != nil %}
-      {% if item.title != "How to write a Best Practice file" %}
-      "title"    : "{{ item.title | escape }}",
+      "title"    : {{ item.title | jsonify }},
       "url"      : "{{ site.baseurl }}{{ item.url }}",
-      "step"     : "{{ item.step | join: ', ' }}",
-      "tags"     : "{{ item.tags | join: ', ' }}",
-      "categories"  : "{{ item.categories | join: ', ' }}"
-      {% endif %}
-      {% endif %}
-      {% endif %}
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+      "step"     : {{ item.step | join: ', ' | jsonify }},
+      "tags"     : {{ item.tags | join: ', ' | jsonify }},
+      "categories"  : {{ item.categories | join: ', ' | jsonify }}
+    },  {%- comment %} This only works if this list is followed by another one {%- endcomment %}
+          {%- endif %}
+        {%- endif %}
+      {%- endif %}
+  {%- endfor %}
 
+ 
+  {%- comment %}
+  --------------
+  The following is specific to the lessons. Given the number of lessons,
+  first find the documents that are in that lesson number, then select the
+  index document and slides document from those documents.
 
+  To get the steps, look at each tag and compare it with a life cycle step,
+  if it matches, then add it to a list of steps. Finally write out the steps.
 
-  {% assign the_collection = "lessons" %}
-  {%- for page in site[ the_collection ] -%}
+  It's all a bit cumbersome, but seems to work pretty well.
+  {%- endcomment %}
 
-      {
-        {% if page.layout != "slides" %}
-          "title"    : "{{ page.title | escape }}",
-          "url"      : "{{ site.baseurl }}{{ page.url }}",
-          "tags"     : "{{ page.tags | join: ', ' }}",
-          "categories"  : "{{ page.categories | join: ', ' }}"
-        {% endif %}
-      } {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+  {%- assign num_lessons=10 %}
+  {% for lesson_id in (1..num_lessons) %}
+  {
+    {%- assign lesson_tag = lesson_id | prepend: '00' | slice: -2, 2 %}
+    {%- assign lesson_tag = '/lessons/' | append: lesson_tag | append: '_' -%}
+    {%- comment -%}
+      Select the docs that are part of a specific lesson then
+      select the index document and the slides document from that 
+      set of documents
+    {%- endcomment -%}
+    {%- assign lesson_docs = site.lessons | where_exp:"item","item.id contains lesson_tag" %}
+    {%- assign lesson_slides = lesson_docs | where_exp: "item", "item.id contains '/slides'" %}
+    {%- assign lesson_slides = lesson_slides.first %}
+    {%- assign lesson_index = lesson_docs | where_exp: "item", "item.id contains '/index'" %}
+    {%- assign lesson_index = lesson_index.first %}
+    {%- assign lesson_url = site.baseurl | append: lesson_index.url %}
 
+    {%- assign lesson_steps = '' %}
+    {%- for tag in lesson_index.tags %}
+      {% assign ltag = tag | downcase %}
+      {%- for step in cycle_steps %}
+        {%- if ltag == step %}
+          {%- assign lesson_steps = lesson_steps | append: step | append: ',' %}
+        {%- endif %}
+      {%- endfor %}
+    {%- endfor %}
+    {%- assign lesson_steps = lesson_steps | split: ',' | compact %}
+
+    "title": {{ lesson_slides.title | jsonify }},
+    "url": {{ lesson_url | jsonify }},
+    "tags": {{ lesson_index.tags | join: ', ' | jsonify }},
+    "categories": {{ lesson_index.categories | join: ', ' | jsonify }},
+    "step": {{ lesson_steps | join: ', ' | jsonify }}
+  }{%- unless forloop.last %},{%- endunless %}
+  {%- endfor %}
 ]
-{% comment %} the problem with the lesson code is that it pulls titles from the lesson, and the tags/ categories from the index, AND includes all the other pages. But if I don't include page.tags or site.tags when they are missing I get nothing... This search works if you remove the lessons portion of the above code. {% endcomment %}

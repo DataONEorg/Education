@@ -1,34 +1,40 @@
 ---
 ---
 
-{%- comment -%} This creates an instant jekyll search as per -> https://blog.webjeda.com/instant-jekyll-search/. 
-So far it is built to only search the "best practices" repository. 
-Need to figure out how to add search of the "lessons" folder. 
-Maybe look a the index_tag.html layout and see how Dave got the tiles to function for both. {%- endcomment -%}
+{%- comment -%} 
+Output from this page is a JSON structure that is used by the search function, 
+which is implemented using:
 
+  https://blog.webjeda.com/instant-jekyll-search/
+
+The output from this page needs to be valid JSON in a structure like:
+
+[
+  {
+    "title": "Some title",
+    "url": "URL to page",
+    "step": "The step(s) in the lifecycle the doc applies to",
+    "categories": "Best Practices or Lesson"
+  },
+  {
+    ...
+  }
+]
+
+Take care of quoting and commas especially. There's no comma after the 
+last item in a list
+
+The search results appear to be ordered by how they appear in this JSON 
+document, so the lessons are placed first as there's a lot fewer of them. If
+they are second then they tend to get hidden a bit.
+{%- endcomment -%}
+
+{%- comment %}Create a list of life cycle steps for later use. {%- endcomment %}
 {%- assign cycle_steps = 'plan,collect,assure,describe,preserve,discover,integrate,analyze' | split: ',' %}
 
 [
-  {%- assign the_collection = "bestpractices" %}
-  {%- for item in site[ the_collection ] %}
-      {%- if item.step != "NA" %}
-        {%- if item.step != nil %}
-          {%- if item.title != "How to write a Best Practice file" %}
-    {
-      "title"    : {{ item.title | jsonify }},
-      "url"      : "{{ site.baseurl }}{{ item.url }}",
-      "step"     : {{ item.step | join: ', ' | jsonify }},
-      "tags"     : {{ item.tags | join: ', ' | jsonify }},
-      "categories"  : {{ item.categories | join: ', ' | jsonify }}
-    },  {%- comment %} This only works if this list is followed by another one {%- endcomment %}
-          {%- endif %}
-        {%- endif %}
-      {%- endif %}
-  {%- endfor %}
+  {%- comment %}+++ Start of the Lesson list generation +++
 
- 
-  {%- comment %}
-  --------------
   The following is specific to the lessons. Given the number of lessons,
   first find the documents that are in that lesson number, then select the
   index document and slides document from those documents.
@@ -72,6 +78,32 @@ Maybe look a the index_tag.html layout and see how Dave got the tiles to functio
     "tags": {{ lesson_index.tags | join: ', ' | jsonify }},
     "categories": {{ lesson_index.categories | join: ', ' | jsonify }},
     "step": {{ lesson_steps | join: ', ' | jsonify }}
-  }{%- unless forloop.last %},{%- endunless %}
+  },
   {%- endfor %}
+  {%- comment %} --- End of Lesson list generation --- {%- endcomment %}
+
+  {%- comment %} +++ Start of Best Practice list generation +++ {%- endcomment %}
+  {%- assign the_collection = "bestpractices" %}
+  {%- for item in site[ the_collection ] %}
+      {%- if item.step != "NA" %}
+        {%- if item.step != nil %}
+          {%- if item.title != "How to write a Best Practice file" %}
+            {%- assign item_category = item.categories | join: ',' %}
+            {%- if item_category == '' or item_category == nil %}
+              {%- assign item_category = 'Best Practice' %}
+            {%- endif %}
+    {
+      "title"    : {{ item.title | jsonify }},
+      "url"      : "{{ site.baseurl }}{{ item.url }}",
+      "step"     : {{ item.step | join: ', ' | jsonify }},
+      "tags"     : {{ item.tags | join: ', ' | jsonify }},
+      "categories"  : {{ item_category | jsonify }}
+    },
+          {%- endif %}
+        {%- endif %}
+      {%- endif %}
+  {%- endfor %}
+  {%- comment %} --- End of Best Practice list generation --- {%- endcomment %}
+
+{} {%- comment %} Dummy entry, does nothing except ensure no comma at the end {%- endcomment %} 
 ]

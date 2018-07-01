@@ -1,14 +1,24 @@
 <!doctype html>
 <html lang="en">
-
-
-
-
+{%- comment %}
+This section sets the "slides" variable to the slides page and gathers 
+other variables for use on the page
+{%- endcomment %}
+{%- assign lesson_id = page.id | split: "/" | slice: 2 | first %}
+{%- assign slides_id = page.id | split: "/" | slice: 0,3 | join: "/" | append: "/slides" %}
+{%- assign slides = site[ page.collection ] | where: 'id', slides_id | first %}
+{%- comment %} +++++++++++ DEBUG {%- endcomment %}
+{%- if site.show_debug %}
+<pre>
+Lesson: {{ lesson_id }}
+ID: {{ slides.id }}
+</pre>
+{%- endif %}
+{%- comment %} ----------- DEBUG {%- endcomment %}
 <head>
-
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ lesson.title }}</title>
+  <title>{{ slides.title }}</title>
   {% include citation_meta.html %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--[if IE]>
@@ -136,7 +146,7 @@
 <div style="width:90%; padding:30px; margin:0px 0px 0px 32px; ">
   <article class='container'>
     <section role='complimentary' class='keep-together'>
-      <div class=border1><a href='slides.html'><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/index.png" style="max-width: 100%; max-height:203px" class="mainimage" /></a></div>
+      <div class=border1><a href='slides.html'><img src="{{ site.baseurl }}/lessons/{{ lesson_id }}/index.png" style="max-width: 100%; max-height:203px" class="mainimage" /></a></div>
 <!-- images -->
 
   <!-- MEGAN ATTEMPTS TO CREATE TOP FLOATING PRESENTATION, COPY OF ORIGINAL HTML
@@ -149,7 +159,7 @@
     <div style="float:left; width:440px; margin:0px; font-size:80%;"><p><em>Quick tips: Press p for presentation; f for full screen</em></p></div>
     <div style="float:left; width:440px; margin:0px; font-size:120%;"><p></p></div>
     <div style="float:left; width:440px; margin:0px; font-size:100%;"><p><strong>Supporting downloads:</strong></p></div>
-		  <div style="float:left; width:220px; margin:5px; "><a href='{{ldeck}}.pdf' target='_blank'><img src="{{ site.baseurl }}/resources/images/pdf.png" width=30  style="padding-right:8px;">  PDF Download</a></div>
+		  <div style="float:left; width:220px; margin:5px; "><a href='{{ lesson_id }}.pdf' target='_blank'><img src="{{ site.baseurl }}/resources/images/pdf.png" width=30  style="padding-right:8px;">  PDF Download</a></div>
 		  {% if page.ppt %}
 		  	<div style="float:left; width:220px; margin:5px; "><a href='https://www.dataone.org/sites/all/documents/education-modules/pptx/{{page.ppt}}'><img src="{{ site.baseurl }}/resources/images/doc_ppt.png" width=30  style="padding-right:8px;">  PPT Download</a></div>
 		  {% endif %}
@@ -191,7 +201,7 @@
       <br />
       <!-- The lesson.* properties come from the slides.md front matter.  The page.* properties come from the index.md front matter -->
 			<strong>Cite this lesson: </strong><br />
-			{{ lesson.author }} ({{ page.update | date: '%Y' }}) "{{ lesson.title }}". Accessed at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
+			{{ slides.author }} ({{ page.update | date: '%Y' }}) "{{ slides.title }}". Accessed at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
       </p>
       <br />
 		</section>
@@ -223,6 +233,37 @@
 
 </div>
 </main>
+
+{%- comment %} +++++++++++ DEBUG
+This section is for debugging purposes. It doesn't do anything unless show_debug in _config.yml is set to 1.
+{%- endcomment %}
+{%- if site.show_debug == 1 %}
+<pre>
+Page Keys and truncated values:
+{%- assign keys = page.keys | sort %}
+{%- for akey in keys %}
+  {{ akey | append: "             " | slice: 0,15 }} : {{ page[akey] | slice: 0,100 | strip_html | strip_newlines | escape}}
+{%- endfor %}
+
+Slides Keys and truncated values:
+{%- assign keys = slides.keys | sort %}
+{%- for akey in keys %}
+  {{ akey | append: "             " | slice: 0,15 }} : {{ slides[akey] | slice: 0,100 | strip_html | strip_newlines | escape}}
+{%- endfor %}
+
+{%- if site.show_site_debug == 1 %}
+Site Keys and truncated values:
+{%- assign keys = site.keys | sort %}
+{%- for akey in keys %}
+  {%- if akey != "documents" %}
+    {%- assign kv = site[akey] | jsonify %}
+  {{ akey | append: "             " | slice: 0,15 }} : {{ kv | slice: 0,100 }} 
+  {%- endif %}
+{%- endfor %}
+{%- endif %}
+<pre>
+{%- endif %}
+{%- comment %} -------------- DEBUG {%- endcomment %}
 
 <!-- Google Analytics Code-->
 <script>

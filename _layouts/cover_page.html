@@ -8,7 +8,7 @@ other variables for use on the page
 {%- assign slides_id = page.id | split: "/" | slice: 0,3 | join: "/" | append: "/slides" %}
 {%- assign slides = site[ page.collection ] | where: 'id', slides_id | first %}
 {%- comment %} +++++++++++ DEBUG {%- endcomment %}
-{%- if site.show_debug %}
+{%- if site.show_debug == 1 %}
 <pre>
 Lesson: {{ lesson_id }}
 ID: {{ slides.id }}

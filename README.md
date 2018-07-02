@@ -55,7 +55,7 @@ List the available collections:
 The lesson collection is a bit odd because we need to treat each folder as an
 item, but Jekyll treats each file as an item. Metadata from both the 
 `slides.md` and `index.md` is used in rendering, but it takes a bit of extra
-work.
+work to get those metadata attributes when rendering a page.
 
 From the context of the index page, the slides page can be accessed as follows:
 
@@ -72,3 +72,15 @@ Similarly, from the slides page, the index can be accessed:
 {%- assign index = site[ page.collection ] | where: 'id', index_id | first %}
 {{ index.tags }}
 ```
+
+To get a list of tags used in a collection, include the `collection_tags.html`
+file using a liquid tag like:
+
+```
+{% include collection_tags.html the_collection="bestpractices" %}
+```
+where the value of the `the_collection` property is the name of the collection
+to evaluate. The list of tags will then be available as the `tags` liquid
+variable.
+
+

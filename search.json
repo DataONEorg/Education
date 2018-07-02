@@ -29,9 +29,6 @@ document, so the lessons are placed first as there's a lot fewer of them. If
 they are second then they tend to get hidden a bit.
 {%- endcomment -%}
 
-{%- comment %}Create a list of life cycle steps for later use. {%- endcomment %}
-{%- assign cycle_steps = 'plan,collect,assure,describe,preserve,discover,integrate,analyze' | split: ',' %}
-
 [
   {%- comment %}+++ Start of the Lesson list generation +++
 
@@ -41,6 +38,10 @@ they are second then they tend to get hidden a bit.
 
   To get the steps, look at each tag and compare it with a life cycle step,
   if it matches, then add it to a list of steps. Finally write out the steps.
+
+  The list of lifecycle steps is defined in _config.yml and is available as
+ 
+     site.life_cycle_steps
 
   It's all a bit cumbersome, but seems to work pretty well.
   {%- endcomment %}
@@ -65,7 +66,7 @@ they are second then they tend to get hidden a bit.
     {%- assign lesson_steps = '' %}
     {%- for tag in lesson_index.tags %}
       {% assign ltag = tag | downcase %}
-      {%- for step in cycle_steps %}
+      {%- for step in site.life_cycle_steps %}
         {%- if ltag == step %}
           {%- assign lesson_steps = lesson_steps | append: step | append: ',' %}
         {%- endif %}

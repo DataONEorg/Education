@@ -3,8 +3,12 @@
 This repository provides a Jekyll site that renders content from other Git
 repositories where the content is located.
 
+The output is currently rendered at:
 
-UI generation for education. Content included as submodules.
+  https://dataoneorg.github.io/EducationUI/
+
+The content rendered by the UI is contained in other GitHub repositories and
+is included in this repository through the use of Git submodules:
 
 ```
 git submodule add https://github.com/DataONEorg/BestPractices.git bestpractices
@@ -21,6 +25,32 @@ It is important to note that `/ui/bestpractices` and `/ui/lessons` are both
 separate git repositories. Git commands should not attempt to perform actions
 across repositories, e.g. attempting to `git mv` between repositories won't
 work.
+
+Committing and pushing changes to the EducationUI:
+
+```
+git commit -m "some message" files_to_commit
+git push
+```
+
+Committing and pushing local changes made to a submodule (using bestpractices as an example):
+
+```
+cd _bestpractices
+git commit -m "some message" files_to_commit
+git push
+```
+
+Note that when referring to a submodule, git refers to a **specific revision**
+of that submodule. So after committing changes to a submodule, it is necessary
+to update the specific revision of the submodule being referred to. This is
+done by committing the submodule from the EducationUI repo. For example, after 
+committing changes to best practices, in the EducationUI folder:
+
+```
+git commit -m "Updating to current revision" _bestpractices
+git push
+```
 
 
 ## Working with the liquid tags

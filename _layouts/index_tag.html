@@ -387,9 +387,6 @@ Removes duplicated tags
   </div>
 </div>
 
-{% assign the_collection = "bestpractices" %}
-{% include collection_steps.html the_collection=the_collection %}
-
 
     <div class="row">
       <div class="twelve columns">
@@ -397,7 +394,7 @@ Removes duplicated tags
           {% for lesson in site.lessons %}
             {% unless lesson.hide %}
             {% assign ldeck = lesson.url | split: '/' %}
-            {% if ldeck.last == 'index' and ldeck[1] == 'lessons' %}
+            {% if ldeck.last == 'index' and ldeck[1] == 'lessons' and ldeck.size > 3 %}
               {% assign ldeck = ldeck[2] %}
               {% assign catclasses = "" %}
               {% for cat in lesson.categories %}
@@ -419,7 +416,7 @@ Removes duplicated tags
             {% endunless %}
           {% endfor %}
 
-          {% for step in steps %}
+          {% for step in site.life_cycle_steps %}
 
           <li class="mix-target {{ step }}"
               data-order="{{ step }}"

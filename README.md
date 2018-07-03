@@ -79,7 +79,7 @@ List the available collections:
 ```
 {%- for collection in site.collections %}
   {{ collection.label }}
-{{ endfor %}
+{%- endfor %}
 ```
 
 The lesson collection is a bit odd because we need to treat each folder as an

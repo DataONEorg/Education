@@ -5,10 +5,10 @@ weight: 8
 categories: ["Best Practice"]
 ---
 
-*Select a Best Practice below to learn more about the "Analyze" step to data management.*
+*Select a Best Practice below to learn more about the "Analyze" stage in the  href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a>.*
 
 ### What is "Analyze"?
 
 Create analyses and visualizations to identify patterns, test hypotheses, and illustrate findings.
 
-More information can be found in the [Best Practices Primer](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf) and [Data Management Guide](https://www.dataone.org/sites/all/documents/DataONE-PPSR-DataManagementGuide.pdf).
+More information can be found in the href="https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf" target="_blank">Best Practices Primer</a>.

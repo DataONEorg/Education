@@ -18,7 +18,7 @@ related:
 update:
   - May 08, 2018
 author:
-  - DataONE Community Engagement & Outreach Working Group
+  - Eric Lind, John Porter, Michael Grady
 resource: true
 categories: ["Best Practice"]
 ---

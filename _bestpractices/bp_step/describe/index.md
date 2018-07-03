@@ -5,10 +5,10 @@ weight: 4
 categories: ["Best Practice"]
 ---
 
-*Select a Best Practice below to learn more about the "Describe" step to data management.*
+*Select a Best Practice below to learn more about the "Describe" stage in the  href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a>.*
 
 ### What is "Describe"?
 
  Document data by describing the why, who, what, when, where, and how of the data. Metadata, or data about data, are key to data sharing and reuse, and many tools such as standards and software are available to help describe data.
 
-  More information can be found in the [Best Practices Primer](https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf) and [Data Management Guide](https://www.dataone.org/sites/all/documents/DataONE-PPSR-DataManagementGuide.pdf).
+  More information can be found in the href="https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf" target="_blank">Best Practices Primer</a>.

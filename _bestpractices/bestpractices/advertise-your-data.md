@@ -14,9 +14,13 @@ related:
 update:
   - May 08, 2018
 author:
-  - DataONE Community Engagement & Outreach Working Group
+  - BP
+  - Cindy Parr
+organization: DataONE
+org_url: http://www.dataone.org
 resource: true
 categories: ["Best Practice"]
+
 ---
 
 To make your data available using standard and open software tools you should:

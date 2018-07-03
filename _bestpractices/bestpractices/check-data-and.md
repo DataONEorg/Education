@@ -12,8 +12,9 @@ related:
   - ensure-flexible-data
 update:
   - May 08, 2018
-author:
-  - DataONE Community Engagement & Outreach Working Group
+author: [Eric Lind], [Robert Stevenson]
+organization: DataONE
+org_url: "http://www.dataone.org"
 resource: true
 categories: ["Best Practice"]
 ---

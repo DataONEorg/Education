@@ -6,8 +6,9 @@ layout: layout
 
 # Search the Data Management Skill Building Hub
 
+Results are listed in order of find, not by best match to search word, and will be alphabetically ordered by result type.
 
-## At this time search only scans through Best Practices
+
 
 
 <!-- Html Elements for Search -->

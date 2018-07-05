@@ -1,23 +1,15 @@
 ---
 ---
 
-<<<<<<< HEAD
-{%- comment -%} This creates an instant jekyll search as per -> https://blog.webjeda.com/instant-jekyll-search/ and https://github.com/christian-fei/Simple-Jekyll-Search. So far it is built to only search the "best practices" repository. Need to figure out how to add search of the "lessons" folder. Maybe look a the index_tag.html layout and see how Dave got the tiles to function for both. {%- endcomment -%}
-=======
-{%- comment -%} 
-Output from this page is a JSON structure that is used by the search function, 
+{%- comment -%}
+Output from this page is a JSON structure that is used by the search function,
 which is implemented using:
->>>>>>> ea37885a13c9fd291071e623e1193fd0a4244299
 
   https://blog.webjeda.com/instant-jekyll-search/
 
 The output from this page needs to be valid JSON in a structure like:
 
 [
-<<<<<<< HEAD
-  {% assign the_collection = "bestpractices" %}
-  {%- for item in site[ the_collection ] -%}
-=======
   {
     "title": "Some title",
     "url": "URL to page",
@@ -29,10 +21,10 @@ The output from this page needs to be valid JSON in a structure like:
   }
 ]
 
-Take care of quoting and commas especially. There's no comma after the 
+Take care of quoting and commas especially. There's no comma after the
 last item in a list
 
-The search results appear to be ordered by how they appear in this JSON 
+The search results appear to be ordered by how they appear in this JSON
 document, so the lessons are placed first as there's a lot fewer of them. If
 they are second then they tend to get hidden a bit.
 {%- endcomment -%}
@@ -48,11 +40,11 @@ they are second then they tend to get hidden a bit.
   if it matches, then add it to a list of steps. Finally write out the steps.
 
   The list of lifecycle steps is defined in _config.yml and is available as
- 
+
      site.life_cycle_steps
 
   It's all a bit cumbersome, but seems to work pretty well.
-  {%- endcomment %}
+  {%- endcomment -%}
 
   {%- assign num_lessons=10 %}
   {% for lesson_id in (1..num_lessons) %}
@@ -61,7 +53,7 @@ they are second then they tend to get hidden a bit.
     {%- assign lesson_tag = '/lessons/' | append: lesson_tag | append: '_' -%}
     {%- comment -%}
       Select the docs that are part of a specific lesson then
-      select the index document and the slides document from that 
+      select the index document and the slides document from that
       set of documents
     {%- endcomment -%}
     {%- assign lesson_docs = site.lessons | where_exp:"item","item.id contains lesson_tag" %}
@@ -101,41 +93,9 @@ they are second then they tend to get hidden a bit.
             {%- if item_category == '' or item_category == nil %}
               {%- assign item_category = 'Best Practice' %}
             {%- endif %}
->>>>>>> ea37885a13c9fd291071e623e1193fd0a4244299
     {
       "title"    : {{ item.title | jsonify }},
       "url"      : "{{ site.baseurl }}{{ item.url }}",
-<<<<<<< HEAD
-      "step"     : "{{ item.step | join: ', ' }}",
-      "tags"     : "{{ item.tags | join: ', ' }}",
-      "categories"  : "{{ item.categories | join: ', ' }}"
-    {% endif %}
-    {% endif %}
-    {% endif %}
-    }
-      {% unless forloop.last %},{% endunless %}
-
-  {% endfor %},
-
-
-
-  {% assign the_collection = "lessons" %}
-  {%- for page in site[ the_collection ] -%}
-
-      {
-          {% if page.layout != "slides" %}
-          {% if page.categories != nil %}
-          "title"    : "{{ page.title | escape }}",
-          "url"      : "{{ site.baseurl }}{{ page.url }}",
-          "tags"     : "{{ page.tags | join: ', ' }}",
-          "categories"  : "{{ page.categories | join: ', ' }}",
-          "step"     : "{{ page.step | join: ', ' }}"
-          {% endif %}
-          {% endif %}
-      }
-    {% unless forloop.last %},{% endunless %}
-  {% endfor %}
-=======
       "step"     : {{ item.step | join: ', ' | jsonify }},
       "tags"     : {{ item.tags | join: ', ' | jsonify }},
       "categories"  : {{ item_category | jsonify }}
@@ -145,7 +105,6 @@ they are second then they tend to get hidden a bit.
       {%- endif %}
   {%- endfor %}
   {%- comment %} --- End of Best Practice list generation --- {%- endcomment %}
->>>>>>> ea37885a13c9fd291071e623e1193fd0a4244299
 
-{} {%- comment %} Dummy entry, does nothing except ensure no comma at the end {%- endcomment %} 
+{} {%- comment %} Dummy entry, does nothing except ensure no comma at the end {%- endcomment %}
 ]

@@ -1,18 +1,111 @@
 ---
 ---
 
+<<<<<<< HEAD
 {%- comment -%} This creates an instant jekyll search as per -> https://blog.webjeda.com/instant-jekyll-search/ and https://github.com/christian-fei/Simple-Jekyll-Search. So far it is built to only search the "best practices" repository. Need to figure out how to add search of the "lessons" folder. Maybe look a the index_tag.html layout and see how Dave got the tiles to function for both. {%- endcomment -%}
+=======
+{%- comment -%} 
+Output from this page is a JSON structure that is used by the search function, 
+which is implemented using:
+>>>>>>> ea37885a13c9fd291071e623e1193fd0a4244299
 
+  https://blog.webjeda.com/instant-jekyll-search/
+
+The output from this page needs to be valid JSON in a structure like:
 
 [
+<<<<<<< HEAD
   {% assign the_collection = "bestpractices" %}
   {%- for item in site[ the_collection ] -%}
+=======
+  {
+    "title": "Some title",
+    "url": "URL to page",
+    "step": "The step(s) in the lifecycle the doc applies to",
+    "categories": "Best Practices or Lesson"
+  },
+  {
+    ...
+  }
+]
+
+Take care of quoting and commas especially. There's no comma after the 
+last item in a list
+
+The search results appear to be ordered by how they appear in this JSON 
+document, so the lessons are placed first as there's a lot fewer of them. If
+they are second then they tend to get hidden a bit.
+{%- endcomment -%}
+
+[
+  {%- comment %}+++ Start of the Lesson list generation +++
+
+  The following is specific to the lessons. Given the number of lessons,
+  first find the documents that are in that lesson number, then select the
+  index document and slides document from those documents.
+
+  To get the steps, look at each tag and compare it with a life cycle step,
+  if it matches, then add it to a list of steps. Finally write out the steps.
+
+  The list of lifecycle steps is defined in _config.yml and is available as
+ 
+     site.life_cycle_steps
+
+  It's all a bit cumbersome, but seems to work pretty well.
+  {%- endcomment %}
+
+  {%- assign num_lessons=10 %}
+  {% for lesson_id in (1..num_lessons) %}
+  {
+    {%- assign lesson_tag = lesson_id | prepend: '00' | slice: -2, 2 %}
+    {%- assign lesson_tag = '/lessons/' | append: lesson_tag | append: '_' -%}
+    {%- comment -%}
+      Select the docs that are part of a specific lesson then
+      select the index document and the slides document from that 
+      set of documents
+    {%- endcomment -%}
+    {%- assign lesson_docs = site.lessons | where_exp:"item","item.id contains lesson_tag" %}
+    {%- assign lesson_slides = lesson_docs | where_exp: "item", "item.id contains '/slides'" %}
+    {%- assign lesson_slides = lesson_slides.first %}
+    {%- assign lesson_index = lesson_docs | where_exp: "item", "item.id contains '/index'" %}
+    {%- assign lesson_index = lesson_index.first %}
+    {%- assign lesson_url = site.baseurl | append: lesson_index.url %}
+
+    {%- assign lesson_steps = '' %}
+    {%- for tag in lesson_index.tags %}
+      {% assign ltag = tag | downcase %}
+      {%- for step in site.life_cycle_steps %}
+        {%- if ltag == step %}
+          {%- assign lesson_steps = lesson_steps | append: step | append: ',' %}
+        {%- endif %}
+      {%- endfor %}
+    {%- endfor %}
+    {%- assign lesson_steps = lesson_steps | split: ',' | compact %}
+
+    "title": {{ lesson_slides.title | jsonify }},
+    "url": {{ lesson_url | jsonify }},
+    "tags": {{ lesson_index.tags | join: ', ' | jsonify }},
+    "categories": {{ lesson_index.categories | join: ', ' | jsonify }},
+    "step": {{ lesson_steps | join: ', ' | jsonify }}
+  },
+  {%- endfor %}
+  {%- comment %} --- End of Lesson list generation --- {%- endcomment %}
+
+  {%- comment %} +++ Start of Best Practice list generation +++ {%- endcomment %}
+  {%- assign the_collection = "bestpractices" %}
+  {%- for item in site[ the_collection ] %}
+      {%- if item.step != "NA" %}
+        {%- if item.step != nil %}
+          {%- if item.title != "How to write a Best Practice file" %}
+            {%- assign item_category = item.categories | join: ',' %}
+            {%- if item_category == '' or item_category == nil %}
+              {%- assign item_category = 'Best Practice' %}
+            {%- endif %}
+>>>>>>> ea37885a13c9fd291071e623e1193fd0a4244299
     {
-      {% if item.step != "NA" %}
-      {% if item.step != nil %}
-      {% if item.title != "How to write a Best Practice file" %}
-      "title"    : "{{ item.title | escape }}",
+      "title"    : {{ item.title | jsonify }},
       "url"      : "{{ site.baseurl }}{{ item.url }}",
+<<<<<<< HEAD
       "step"     : "{{ item.step | join: ', ' }}",
       "tags"     : "{{ item.tags | join: ', ' }}",
       "categories"  : "{{ item.categories | join: ', ' }}"
@@ -42,6 +135,17 @@
       }
     {% unless forloop.last %},{% endunless %}
   {% endfor %}
+=======
+      "step"     : {{ item.step | join: ', ' | jsonify }},
+      "tags"     : {{ item.tags | join: ', ' | jsonify }},
+      "categories"  : {{ item_category | jsonify }}
+    },
+          {%- endif %}
+        {%- endif %}
+      {%- endif %}
+  {%- endfor %}
+  {%- comment %} --- End of Best Practice list generation --- {%- endcomment %}
+>>>>>>> ea37885a13c9fd291071e623e1193fd0a4244299
 
+{} {%- comment %} Dummy entry, does nothing except ensure no comma at the end {%- endcomment %} 
 ]
-{% comment %} the problem with the lesson code is that it pulls titles from the lesson, and the tags/ categories from the index, AND includes all the other pages. But if I don't include page.tags or site.tags when they are missing I get nothing... This search works if you remove the lessons portion of the above code. {% endcomment %}

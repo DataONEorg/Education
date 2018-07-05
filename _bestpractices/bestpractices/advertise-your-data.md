@@ -13,10 +13,8 @@ related:
   - recognize-stakeholders-in
 update:
   - May 08, 2018
-author:
-  - BP
-  - Cindy Parr
-organization: DataONE
+author: BP, Cindy Parr
+organization: dataone
 org_url: http://www.dataone.org
 resource: true
 categories: ["Best Practice"]

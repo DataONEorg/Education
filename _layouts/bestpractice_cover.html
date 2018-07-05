@@ -1,9 +1,24 @@
 ---
 layout: layout
 ---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Best Practice: {{ page.title }}</title>
 
+  <style>
+        /* Style page content for .site_nav */
+        .main {
+            margin-right: 200px; /* Same as the width of the sidebar + right body margin (in layout) */
+            padding: 0px 0px;
+        }
+  </style>
 
+<body>
+  {% include bestpractice_sidebar.html %}
 
+<div class="main">
   <h1>{{ page.title }}</h1>
 
 
@@ -12,7 +27,7 @@ layout: layout
 
 <div class="collection-steps">
   {% assign steps = page.step %}
-  <p>Data Life Cycle step(s):
+  <p>Data Life Cycle stage(s):
   {% for step in steps %}
   <a href="{{ site.baseurl }}/bp_step/{{ step|slugize }}">{{step | capitalize}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
@@ -66,12 +81,30 @@ layout: layout
 
 
   <section>
-
     <h3 style="margin-top:24px;">Cite this best practice: </h3>
-    {{ page.author }} ({{ page.update | date: '%Y' }}) "Best practice: {{ page.title }}". Accessed at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
+
+    {% for item in page.author %}
+      {%- comment -%}Find the related page in the collection {%- endcomment -%}
+      {%- assign item_id = "/bestpractices/" | append: item -%}
+      {%- assign bp_author = site.bestpractices | where:"id", item_id | first -%}
+    {{ page.author }},
+      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+      ({{ page.update | date: '%Y' }}) "Best practice: {{ page.title }}". {{ page.organization }}. Accessed at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
     </p>
+
+		  {% if page.organization %}
+      <a href="{{ page.org_url }}" target="_blank"><img class=pagelogo alt='{{ page.organization }}' src="{{ site.baseurl }}/bestpractices/logos/{{ page.organization }}.png" style='height:30px'/></a>
+      {% endif %}
+
+
+
+
   </section>
 
 <br />
 
   	<a href="{{ site.baseurl }}/"><strong>Home</strong></a>
+</div>
+</body>
+</html>

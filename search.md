@@ -29,5 +29,6 @@ window.simpleJekyllSearch = new SimpleJekyllSearch({
   searchResultTemplate: '<p><strong><span>{categories}: </span><a href="{url}" title="{desc}">{title}</a></strong><br><span> Life Cycle Step(s): {step}</span></p>',
   noResultsText: 'No results found',
   fuzzy: true,
+  limit: 100,
 })
 </script>

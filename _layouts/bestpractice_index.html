@@ -1,6 +1,6 @@
 ---
 layout: layout
-description: This layout creates a list of all best practice Data Life Cycle steps and the best practices that fall under those tags. Mostly only used if someone tried to go to the bestpractices index. 
+description: This layout creates a list of all best practice Data Life Cycle steps and the best practices that fall under those tags. Mostly only used if someone tried to go to the bestpractices index.
 ---
 
 <!doctype html>
@@ -36,7 +36,7 @@ description: This layout creates a list of all best practice Data Life Cycle ste
 <hr>
 <!-- add drop down menu or links to anchors below at each life cycle step -->
 
-    <h2>Best Practice by Data Life Cycle step</h2>
+    <h2>Best Practice by Data Life Cycle stage</h2>
       {% for step in steps %}
       <h3><a name="{{step}}">{{ step | capitalize }}</a></h3>
         <ul>

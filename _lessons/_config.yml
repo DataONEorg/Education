@@ -7,7 +7,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: DataONEorg
 github_username:  DataONEorg
 analytics_code: "UA-15017327-22"
-show_content_type_filter: 0   #Set this to 1 to show the "Filter by content type" option on the home page.
+show_content_type_filter: 1   #Set this to 1 to show the "Filter by content type" option on the home page.
 
 # Format for the slides, can be either 16:9 or 4:3
 format: '4:3'

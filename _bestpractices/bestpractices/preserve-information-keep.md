@@ -1,5 +1,5 @@
 ---
-title: "Preserve information: keep raw data raw"
+title: "Preserve information: Keep raw data raw"
 layout: bestpractice_cover
 tags:
   - collect

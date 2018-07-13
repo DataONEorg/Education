@@ -54,7 +54,7 @@ information.
 
 The content linked to each tile on the home page is held within a single folder in the `lessons` directory. Each lesson
 folder is called `XX_keyword`, where `XX` is the order content is displayed via tiles on the home page, and `keyword` is
-a brief description of the content. Edits can be made to the descriptive information contained in the `cover_page.md` (the page that opens when a tile is selected on the home page).  If education materials include slides, these slides are in a file called
+a brief description of the content. Edits can be made to the descriptive information contained in the `lesson_cover.md` (the page that opens when a tile is selected on the home page).  If education materials include slides, these slides are in a file called
 `slides.md`. Do not use another filename. For example, the [demonstration
 lesson][demolessonhtml] markdown file can be [viewed here][demolessonmd]. This
 demonstration lesson showcases most of the features you can use if publishing slides.

@@ -1,6 +1,6 @@
 ---
 update: 2017-04-06
-layout: cover_page
+layout: lesson_cover
 status: published
 tags: ["Data Management", "Data Sharing", Plan, Collect, Integrate, Assure, Preserve, Describe, Discover, Analyze]
 categories: ["Teaching Module" ]

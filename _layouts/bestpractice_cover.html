@@ -83,14 +83,11 @@ layout: layout
   <section>
     <h3 style="margin-top:24px;">Cite this best practice: </h3>
 
-    {% for item in page.author %}
-      {%- comment -%}Find the related page in the collection {%- endcomment -%}
-      {%- assign item_id = "/bestpractices/" | append: item -%}
-      {%- assign bp_author = site.bestpractices | where:"id", item_id | first -%}
-    {{ page.author }},
-      {% unless forloop.last %}&nbsp;{% endunless %}
-      {% endfor %}
-      ({{ page.update | date: '%Y' }}) "Best Practice: {{ page.title }}".
+    {%- for author in page.author %}
+      {{ author }}
+      {%- if forloop.last == false %}, {%- endif %}  
+    {%- endfor -%}
+      &nbsp;({{ page.update | date: '%Y' }}) "Best Practice: {{ page.title }}".
       		  {% if page.organization %}
             {{ page.organization }}. {% endif %}
             Accessed at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}

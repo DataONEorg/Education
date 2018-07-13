@@ -15,6 +15,9 @@ update:
 - May 08, 2018
 author:
 - DataONE Community Engagement & Outreach Working Group
+organization: DataONE
+org_url: http://www.dataone.org
+org_logo: DataONE.png
 resource: true
 categories: ["Best Practice"]
 ---

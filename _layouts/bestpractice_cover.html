@@ -18,7 +18,7 @@ layout: layout
 <body>
   {% include bestpractice_sidebar.html %}
 
-<div class="main">
+<div class="main" style="margin-top:40px;">
   <h1>{{ page.title }}</h1>
 
 
@@ -90,7 +90,10 @@ layout: layout
     {{ page.author }},
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
-      ({{ page.update | date: '%Y' }}) "Best practice: {{ page.title }}". {{ page.organization }}. Accessed at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
+      ({{ page.update | date: '%Y' }}) "Best Practice: {{ page.title }}".
+      		  {% if page.organization %}
+            {{ page.organization }}. {% endif %}
+            Accessed at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
     </p>
 
 		  {% if page.organization %}

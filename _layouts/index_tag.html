@@ -1,3 +1,6 @@
+
+<!-- description: Layout for the home page, aka: main landing page, with tiles.  -->
+
 <!doctype html>
 
 <html lang="en">
@@ -267,6 +270,10 @@ Removes duplicated tags
 		{% endunless %}
 	{% endif %}
 {% endfor %}
+
+{%- assign the_collection = "bestpractices" %}
+{% include collection_categories.html the_collection=the_collection %}
+
 
 <!--
 <pre>

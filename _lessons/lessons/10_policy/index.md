@@ -1,6 +1,6 @@
 ---
 update: 2017-04-06
-layout: cover_page
+layout: lesson_cover
 tags: ["Data Management", Policy, Plan]
 categories: ["Teaching Module"]
 status: published

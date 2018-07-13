@@ -1,6 +1,6 @@
 ---
 update: 2017-03-29
-layout: cover_page
+layout: lesson_cover
 status: published
 tags: ["Data Management", Collect, Integrate]
 categories: ["Teaching Module" ]

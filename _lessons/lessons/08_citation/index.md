@@ -1,6 +1,6 @@
 ---
 update: 2017-04-06
-layout: cover_page
+layout: lesson_cover
 tags: ["Data Management", Describe, Discover, Cite]
 categories: ["Teaching Module"]
 status: published
@@ -9,7 +9,7 @@ nextlesson: 09_analysis
 handout: L08_DataCitation_Handout.pdf
 ppt: L08_DataCitation.pptx
 exercise: L08_Exercise.pdf
-datafiles: DataFiles_L04L05L07L08.zip 
+datafiles: DataFiles_L04L05L07L08.zip
 ---
 
 

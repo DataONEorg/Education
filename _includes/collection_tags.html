@@ -10,7 +10,10 @@ The following part extracts all the tags from the_collection
 {%- comment -%}
 Removes duplicated tags
 {%- endcomment -%}
-{%- assign tags = "" -%}
+{%- if tags -%}
+{%- else -%}
+   {%- assign tags = "" -%}
+{%- endif -%}
 {%- for tag in rawtags -%}
   {%- if tag != "" -%}
     {%- if tags == "" -%}

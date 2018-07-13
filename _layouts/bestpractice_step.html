@@ -30,8 +30,10 @@ description: Layout for creating a single page with all best practices under one
 
     {% include bestpractice_sidebar.html %}
 
-<div class="main">
-<h1>{{ page.lifecycle | capitalize }}</h1>
+<div class="main" style="margin-top:40px;">
+<h1 style="display:inline">{{ page.lifecycle | capitalize }}</h1> <a href="https://www.dataone.org/data-life-cycle" target="_blank"><img alt='Data Life Cycle' src='{{ site.baseurl }}/bestpractices/images/stage_{{ page.lifecycle }}.png' style='max-height:250px; float: right; display:inline"'/></a>
+
+
 {{ content }}
 
 <!-- Megan attempts a drop down menu of data life cycle steps -->

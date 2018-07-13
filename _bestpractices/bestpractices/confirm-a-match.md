@@ -18,7 +18,12 @@ related:
 update:
   - May 08, 2018
 author:
-  - Eric Lind, John Porter, Michael Grady
+  - Eric Lind
+  - John Porter
+  - Michael Grady
+organization: DataONE
+org_url: http://www.dataone.org
+org_logo: DataONE.png
 resource: true
 categories: ["Best Practice"]
 ---

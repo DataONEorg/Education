@@ -230,49 +230,16 @@
 
     {% include header.html %}
 
+{%- assign tags="" %}
+{%- assign the_collection = "lessons" %}
+{% include collection_tags.html the_collection=the_collection %}
 
-{% comment %}
-The following part extracts all the tags from the lessons
-{% endcomment %}
-{% assign rawtags = "" %}
-{% assign rawcats = "" %}
-{% for lesson in site.lessons %}
-	{% assign ttags = lesson.tags | join:'|' | append:'|' %}
-	{% assign rawtags = rawtags | append:ttags %}
-	{% assign ccats = lesson.categories | join:'|' | append:'|' %}
-	{% assign rawcats = rawcats | append:ccats %}
-{% endfor %}
-{% assign rawtags = rawtags | split:'|' | sort %}
-{% assign rawcats = rawcats | split:'|' | sort %}
-
-{% comment %}
-Removes duplicated tags
-{% endcomment %}
-{% assign tags = "" %}
-{% for tag in rawtags %}
-	{% if tag != "" %}
-		{% if tags == "" %}
-			{% assign tags = tag | split:'|' %}
-		{% endif %}
-		{% unless tags contains tag %}
-			{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
-		{% endunless %}
-	{% endif %}
-{% endfor %}
-{% assign cats = "" %}
-{% for cat in rawcats %}
-	{% if cat != "" %}
-		{% if cats == "" %}
-			{% assign cats = cat | split:'|' %}
-		{% endif %}
-		{% unless cats contains cat %}
-			{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
-		{% endunless %}
-	{% endif %}
-{% endfor %}
+{%- assign cats="" %}
+{%- assign the_collection = "lessons" %}
+{% include collection_categories.html the_collection=the_collection %}
 
 
-<!--
+{%- if site.show_debug == 1 %}
 <pre>
 {% for tag in tags %}
  * {{ tag | jsonify }}{% endfor %}
@@ -280,7 +247,7 @@ Removes duplicated tags
 {% for item in site.lessons %}
 * {{ item.url }}{% endfor %}
 </pre>
--->
+{%- endif %}
 
 <div style="width:90%; padding:20px; margin:0px 0px 20px 42px; ">
     <p>The Data Management Skillbuilding Hub contains resources for better data management and is open to community input and update. These resources are adaptable across a range of contexts and intended for use by researchers, teachers, librarians, or anyone who wants to learn better data management practices. Each tile below contains a lesson in slide format with annotations, a one page handout that distills the main message, and a hands-on exercise. <br /> <br />
@@ -296,30 +263,11 @@ Removes duplicated tags
 <div class="wrap">
   <div class="container">
 
-<!-- Megan commented this out, add if you want the category buttons back -->
-    <!--<div class="row">
-      <div class="twelve columns">
-        <h2>Resource List</h2>
-      </div>
-    </div> -->
-
-<!-- This was already commented out, do not remove -->
-  <!--div class="row">
-      <div class="twelve columns">
-        <div class="programs">
-          <button class="filter-btn" data-filter="all">All</button>
-          {% for cat in cats %}
-          <button class="filter-btn" data-filter=".{{ cat | downcase | replace: ' ','_' }}">{{ cat }}</button>
-           {% endfor %}
-        </div>
-      </div>
-    </div-->
 <div style= "width:100%; margin:20px 0px 10px 0px; background:#ececec">
   <div style = "width:90%; padding:20px; margin:0px 10px 0px 42px;">
     <h3><i>Using This Resource</i></h3>
     <p> Click individual tiles to learn more and use each resource. You can limit resources by each <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a> stage. Comprehensive information is available in the <a href="./faq.html">FAQ</a>. </p>
 
-<!-- Megan commented this out, add if you want the different category options back -->
     {% if site.show_content_type_filter == 1 %}
     <div class="row">
       <div class="twelve columns">
@@ -327,10 +275,11 @@ Removes duplicated tags
           Filter by content type:
           <a href="#" class="filterbutton" data-filter="all">All</a>
           {% for cat in cats %}
-          <a href="#" class="filterbutton btn_{{ cat | downcase | replace: ' ','_' }}" data-filter=".{{ cat | downcase | replace: ' ','_' }}">{{ cat }}</a>
+            {%- assign category_label = cat | downcase | replace: ' ','_' %}
+            {%- if category_label != "technical_tutorial" %}
+              <a href="#" class="filterbutton btn_{{ category_label }}" data-filter=".{{ category_label }}">{{ cat }}</a>
+            {%- endif %}
           {% endfor %}
-		<a href="#" class="filterbutton btn_best_practice" data-filter=".best_practice">Best Practice</a>
-		<a href="#" class="filterbutton btn_video_tutorial" data-filter=".video_tutorial">Video Tutorial</a>
         </div>
       </div>
     </div>
@@ -340,19 +289,6 @@ Removes duplicated tags
       <div class="twelve columns">
         <div style="margin-left:0px; " >
          &#9654; Filter by stage of the Data Life Cycle
-
-<!-- THIS IS COMMENTED OUT EVEN WHEN SHOWING THE DATA LIFE CYCLE FILTER, just this middle text
-        <div cla-ss="styled-select blue semi-square" >
-          <a href="#" class="filterbutton tagbutton" data-filter="all">All</a>
-          <a href="#" class="filterbutton tagbutton" data-filter=".plan">Plan</a>  (switch to data-toggle for checkbox behavior)
-          <a href="#" class="filterbutton tagbutton" data-filter=".collect">Collect</a>
-          <a href="#" class="filterbutton tagbutton" data-filter=".assure">Assure</a>
-          <a href="#" class="filterbutton tagbutton" data-filter=".describe">Describe</a>
-          <a href="#" class="filterbutton tagbutton" data-filter=".preserve">Preserve</a>
-          <a href="#" class="filterbutton tagbutton" data-filter=".discover">Discover</a>
-          <a href="#" class="filterbutton tagbutton" data-filter=".integrate">Integrate</a>
-          <a href="#" class="filterbutton tagbutton" data-filter=".analyze">Analyze</a>
--->
 
 		  <select id="soflow">
 			<option value="all">All</option>
@@ -365,26 +301,6 @@ Removes duplicated tags
 			<option value=".integrate">Integrate</option>
 			<option value=".analyze">Analyze</option>
 		  </select>
-
-
-<!--THIS IS COMMENTED OUT EVEN WHEN SHOWING THE DATA LIFE CYCLE FILTER, leave commented out
-		<span class="dropdown">
-		  <button>Action</button>
-		  <label>
-			<input type="checkbox">
-			<ul>
-			  <li onclick="console.log(1)">Action</li>
-			  <li>Another Action</li>
-			  <li>Something else here</li>
-			  <li class="divider"></li>
-			  <li>Separated link</li>
-			</ul>
-		  </label>
-		</span>
-		text after<br/>mono mono mono mono mono mono
-
-</div>
--->
         </div>
       </div>
     </div>
@@ -422,7 +338,7 @@ Removes duplicated tags
 
           {% for step in site.life_cycle_steps %}
 
-          <li class="mix-target {{ step }}"
+          <li class="mix-target best_practice {{ step }}"
               data-order="{{ step }}"
               data-year="4">
               <a href="{{ site.baseurl }}/bp_step/{{ step }}"><img src="{{ site.baseurl }}/bestpractices/images/{{ step }}.png"></a></li>

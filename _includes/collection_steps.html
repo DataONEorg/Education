@@ -10,7 +10,10 @@ The following part extracts all the steps from the_collection
 {%- comment -%}
 Removes duplicted steps
 {%- endcomment -%}
-{%- assign steps = "" -%}
+{%- if step -%}
+{%- else -%}
+   {%- assign steps = "" -%}
+{%- endif -%}
 {%- for step in rawsteps -%}
   {%- if step != "" -%}
     {%- if steps == "" -%}

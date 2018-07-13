@@ -10,7 +10,10 @@ The following part extracts all the categories from the_collection
 {%- comment -%}
 Removes duplicated categories
 {%- endcomment -%}
-{%- assign cats = "" -%}
+{%- if cats -%}
+{%- else -%}
+   {%- assign cats = "" -%}
+{%- endif -%}
 {%- for cat in rawcats -%}
   {%- if cat != "" -%}
     {%- if cats == "" -%}

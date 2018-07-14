@@ -19,21 +19,63 @@ description: This layout creates a list of all best practice tags and the best p
 {% include collection_tags.html the_collection=the_collection %}
 {% include collection_categories.html the_collection=the_collection %}
 {% include collection_steps.html the_collection=the_collection %}
-</head>
 
+  <style>
+        /* Style page content for .site_nav */
+        .main {
+            margin-right: 200px; /* Same as the width of the sidebar + right body margin (in layout) */
+            padding: 0px 0px;
+        }
+        .tags a {
+            display: inline-block;
+            margin-right: 12px;
+        }
+        hr{
+          height:0;
+          border:0;
+          border-top: 1px solid #dbdbdb;
+        }
+        h2{
+          color:  #660033
+        }
+
+  </style>
+</head>
 <body>
 
-<h2>Item by Tag</h2>
+
+    {% include bestpractice_sidebar.html %}
+
+<div class="main" style="margin-top:40px;">
+<h1><a name="page-title" style="color:black">Best Practices: Sorted by Tag</a></h1>
+
+<!-- create list of Tags that link to anchors in list of BPs below-->
+
+
+  {%- assign items = site[ the_collection ] | where: "tags", tag -%}
+  {% for tag in tags %}
+<span class="tags">
+    <a href="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}" style="font-size: 90%;">
+      {{ tag }}
+    </a>
+</span>
+  {% endfor %}
+
+
+<hr>
+<!-- create list of best practices sorted by Tag-->
 {% for tag in tags %}
-<h3><a name="{{ tag }}">{{ tag | capitalize }}</a></h3>
+<h2><a name="{{ tag }}">{{ tag | capitalize }}</a></h2>
 <ul>
 {%- assign items = site[ the_collection ] | where: "tags", tag -%}
 {%- for item in items %}
   <li><a href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>{% endfor %}
 </ul>
+ <p align="right"><a href="#page-title" class="back-to-top" style="color:#dbdbdb;">Back to Top &uarr;</a></p>
+ <hr>
 {% endfor %}
 
 
-
+</div>
 </body>
 </html>

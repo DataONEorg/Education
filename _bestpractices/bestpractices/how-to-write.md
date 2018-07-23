@@ -2,19 +2,15 @@
 title: How to write a Best Practice file
 layout: bestpractice_cover
 tags:
-  - data source
+  - !tag here!
 step:
-  - preserve
-  - describe
+  - life cycle stage here
 related:
   - first-three-words
 update:
   - May 08, 2018
 author:
   - DataONE Community Engagement & Outreach Working Group
-organization: DataONE
-org_url: http://www.dataone.org
-org_logo: DataONE.png
 organization: DataONE
 org_url: http://www.dataone.org
 org_logo: DataONE.png

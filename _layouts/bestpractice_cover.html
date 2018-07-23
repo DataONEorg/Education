@@ -8,7 +8,7 @@ layout: layout
   <title>Best Practice: {{ page.title }}</title>
 
   <style>
-        /* Style page content for .site_nav */
+        /* Style page content for .site_nav, necessary for making room for the righthand sidebar menu*/
         .main {
             margin-right: 200px; /* Same as the width of the sidebar + right body margin (in layout) */
             padding: 0px 0px;
@@ -22,9 +22,9 @@ layout: layout
   <h1>{{ page.title }}</h1>
 
 
-<!-- Adds a list of the tags, with links back to the tag archive, anchored at that specific tag-->
 
 
+<!-- Adds a list of the data life cycle steps, with links back to the steps' index page-->
 <div class="collection-steps">
   {% assign steps = page.step %}
   <p>Data Life Cycle stage(s):
@@ -39,8 +39,7 @@ layout: layout
 
   {{ page.content | markdownify }}
 
-<!-- HERE ADD LIST AND LINKS TO "RELATED" TAG IN FRONT MATTER OF BPs-->
-
+<!-- ADDS LIST AND LINKS TO "RELATED" TAG IN FRONT MATTER OF BPs-->
 <div class="related">
   <h2>Related Best Practices</h2>
   <ul>
@@ -56,18 +55,7 @@ layout: layout
   </ul>
 </div>
 
-<!-- Adds a list of the data life cycle steps, with links back to the steps index page, anchored at that specific step-->
-<!-- original version with just LINKS
-  <div class="collection-tags">
-  {% assign tags = page.tags %}
-  <p> <strong>Tags:&nbsp</strong>
-  {% for tag in tags %}
-  <a href="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}" class="link_button"> {{tag}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-  </p>
-</div>-->
-
+<!-- Adds a list of the tags, with links back to the tag archive, anchored at that specific tag-->
 <div class="collection-tags">
   {% assign tags = page.tags %}
   <p > <h2 style="margin-bottom:16px;">Tags</h2>
@@ -81,11 +69,13 @@ layout: layout
 
 
   <section>
+
+  <!-- Adds the citation for this material, including author and organization that added this material -->
     <h3 style="margin-top:24px;">Cite this best practice: </h3>
 
     {%- for author in page.author %}
       {{ author }}
-      {%- if forloop.last == false %}, {%- endif %}  
+      {%- if forloop.last == false %}, {%- endif %}
     {%- endfor -%}
       &nbsp;({{ page.update | date: '%Y' }}) "Best Practice: {{ page.title }}".
       		  {% if page.organization %}
@@ -93,8 +83,9 @@ layout: layout
             Accessed at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
     </p>
 
+<!-- Adds the logo of the organization that added this material -->
 		  {% if page.organization %}
-      <a href="{{ page.org_url }}" target="_blank"><img class=pagelogo alt='{{ page.organization }}' src="{{ site.baseurl }}/bestpractices/logos/{{ page.organization }}.png" style='height:30px'/></a>
+      <a href="{{ page.org_url }}" target="_blank"><img class=pagelogo alt='{{ page.organization }}' src="{{ site.baseurl }}/bestpractices/logos/{{ page.org_logo }}" style='height:30px'/></a>
       {% endif %}
 
 

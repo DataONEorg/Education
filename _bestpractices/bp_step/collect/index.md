@@ -5,8 +5,6 @@ weight: 2
 categories: ["Best Practice"]
 ---
 
-Megan is the best
-
 *Select a Best Practice below to learn more about the "Collect" stage in the <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a>.*
 
 ### What is "Collect"?

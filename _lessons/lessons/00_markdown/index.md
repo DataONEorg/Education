@@ -1,6 +1,9 @@
 ---
 title: "Moving the lessons to github"
 author: DataONE Community Engagement & Outreach
+organization: DataONE
+org_url: http://www.dataone.org
+org_logo: DataONE.png
 layout: lesson_cover
 update: 2017-04-07T12:00:00Z
 version: 0.1

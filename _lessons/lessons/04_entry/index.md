@@ -1,4 +1,9 @@
 ---
+title: "Data entry and manipulation"
+author: "DataONE Community Engagement & Outreach Working Group"
+organization: DataONE
+org_url: http://www.dataone.org
+org_logo: DataONE.png
 update: 2017-03-29
 layout: lesson_cover
 status: published

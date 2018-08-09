@@ -1,4 +1,9 @@
 ---
+title: "Metadata"
+author: "DataONE Community Engagement & Outreach Working Group"
+organization: DataONE
+org_url: http://www.dataone.org
+org_logo: DataONE.png
 update: 2017-04-06
 layout: lesson_cover
 tags: ["Data Management", Describe]

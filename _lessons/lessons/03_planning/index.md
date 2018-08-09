@@ -1,4 +1,9 @@
 ---
+title: "Why data management?"
+author: "DataONE Community Engagement & Outreach Working Group"
+organization: DataONE
+org_url: http://www.dataone.org
+org_logo: DataONE.png
 update: Sept. 20, 2016
 layout: lesson_cover
 status: published

@@ -23,6 +23,8 @@ categories: ["Best Practice"]
 
 ---
 
+MEGAN CHECKS PERMISSIONS
+
 To make your data available using standard and open software tools you should:
 
 - Use standard language and terms to clearly communicate to others that your data are available for reuse and that you expect ethical and appropriate use of your data

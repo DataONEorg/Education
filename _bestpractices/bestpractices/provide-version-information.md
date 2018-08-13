@@ -10,10 +10,14 @@ tags:
 step:
   - assure
   - preserve
+related:
+  - develop-quality-assurance
+  - identify-and-use
+  - plan-data-management
 update:
-- May 08, 2018
+  - January 12, 2014
 author:
-- DataONE Community Engagement & Outreach Working Group
+  - DataONE Best Practices Working Group
 organization: DataONE
 org_url: http://www.dataone.org
 org_logo: DataONE.png

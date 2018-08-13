@@ -11,9 +11,9 @@ related:
   - ensure-basic-quality
   - ensure-datasets-used
 update:
-  - May 08, 2018
+  - Aug 30, 2011
 author:
-  - DataONE Community Engagement & Outreach Working Group
+  - DataONE Best Practices Working Group
 organization: DataONE
 org_url: http://www.dataone.org
 org_logo: DataONE.png

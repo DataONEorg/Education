@@ -12,9 +12,9 @@ related:
 - provide-budget-information
 - revisit-data-management
 update:
-- May 08, 2018
+  - May 11, 2011
 author:
-- DataONE Community Engagement & Outreach Working Group
+  - Theresa Valentine
 organization: DataONE
 org_url: http://www.dataone.org
 org_logo: DataONE.png

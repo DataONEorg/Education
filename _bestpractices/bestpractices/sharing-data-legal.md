@@ -9,9 +9,13 @@ tags:
 step:
   - describe
 update:
-- May 08, 2018
+- September 01, 2011
 author:
-- DataONE Community Engagement & Outreach Working Group
+- Margaret O'Brien
+- Rebecca Lubas
+- Ruth Duerr
+- Todd Grappone
+- Trisha Cruse
 organization: DataONE
 org_url: http://www.dataone.org
 org_logo: DataONE.png

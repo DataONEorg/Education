@@ -13,9 +13,9 @@ related:
   - develop-a-quality
   - identify-missing-values
 update:
-  - May 08, 2018
+  - July 01, 2010
 author:
-  - DataONE Community Engagement & Outreach Working Group
+  - DataONE Best Practices Working Group
 organization: DataONE
 org_url: http://www.dataone.org
 org_logo: DataONE.png

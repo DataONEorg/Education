@@ -14,9 +14,9 @@ related:
   - identify-and-use
   - use-consistent-codes
 update:
-- May 08, 2018
+  - September 01, 2011
 author:
-- DataONE Community Engagement & Outreach Working Group
+  - DataONE Best Practices Working Group
 organization: DataONE
 org_url: http://www.dataone.org
 org_logo: DataONE.png

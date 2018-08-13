@@ -12,12 +12,10 @@ tags:
 step:
   - preserve
   - plan
-related:
-  - create-manage-and
-  - define-expected-data
-  - define-roles-and
 update:
-  - May 08, 2018
+  - July 01, 2010
+author:
+  - DataONE Best Practices Working Group
 author:
   - DataONE Community Engagement & Outreach Working Group
 organization: DataONE

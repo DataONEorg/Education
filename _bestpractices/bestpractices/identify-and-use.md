@@ -15,9 +15,12 @@ related:
   - confirm-a-match
   - define-the-data
 update:
-  - May 08, 2018
+  - August 30, 2011
 author:
-  - DataONE Community Engagement & Outreach Working Group
+  - Jeff Horsburgh
+  - Rebecca Koskela
+  - Rebecca Lubas
+  - Thorny Staples
 organization: DataONE
 org_url: http://www.dataone.org
 org_logo: DataONE.png

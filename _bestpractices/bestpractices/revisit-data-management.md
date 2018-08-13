@@ -14,7 +14,8 @@ related:
 update:
 - May 08, 2018
 author:
-- DataONE Community Engagement & Outreach Working Group
+- Gunter Waibel
+- Perry Willett
 organization: DataONE
 org_url: http://www.dataone.org
 org_logo: DataONE.png

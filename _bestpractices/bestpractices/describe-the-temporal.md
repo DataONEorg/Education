@@ -15,9 +15,9 @@ related:
 - consider-the-compatibility
 - use-consistent-codes
 update:
-- May 08, 2018
+  - August 30, 2011
 author:
-- DataONE Community Engagement & Outreach Working Group
+  - Ruth Duerr
 organization: DataONE
 org_url: http://www.dataone.org
 org_logo: DataONE.png

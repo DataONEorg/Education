@@ -15,9 +15,12 @@ related:
 - document-steps-used
 - preserve-information-keep
 update:
-- May 08, 2018
+- August 30, 2011
 author:
-- DataONE Community Engagement & Outreach Working Group
+- John Porter
+- Juliana Freire
+- Marissa Strong
+- Michael Grady
 organization: DataONE
 org_url: http://www.dataone.org
 org_logo: DataONE.png

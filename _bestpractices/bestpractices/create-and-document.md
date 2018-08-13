@@ -16,9 +16,10 @@ related:
   - identify-suitable-repositories
   - plan-data-management
 update:
-  - May 08, 2018
+  - Aug 30, 2011
 author:
-  - DataONE Community Engagement & Outreach Working Group
+  - Cindy Parr
+  - Heather Henkel
 organization: DataONE
 org_url: http://www.dataone.org
 org_logo: DataONE.png

@@ -15,9 +15,10 @@ related:
   - create-manage-and
   - define-roles-and
 update:
-  - May 08, 2018
+  - May 11, 2011
 author:
-  - DataONE Community Engagement & Outreach Working Group
+  - Perry Willett
+  - Rebecca Lubas
 organization: DataONE
 org_url: http://www.dataone.org
 org_logo: DataONE.png

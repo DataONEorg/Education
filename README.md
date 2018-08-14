@@ -47,7 +47,7 @@ git commit -m "Bringing submodule to latest version" _bestpractices
 git push
 ```
 
-After this, the remote copy of the BestPractices repo will be up to date, and the remote copy of EducationUI on GitHub will be updated so that the _bestpractices submodule is pointing to the latest revision.
+After this, the remote copy of the BestPractices repo will be up to date, and the remote copy of EducationUI on GitHub will be updated so that the `_bestpractices` submodule is pointing to the latest revision.
 
 
 ## Working with the liquid tags

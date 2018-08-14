@@ -21,36 +21,33 @@ When cloning:
 git clone --recursive https://github.com/DataONEorg/EducationUI.git
 ```
 
-It is important to note that `/ui/bestpractices` and `/ui/lessons` are both
+It is important to note that `_bestpractices` and `_lessons` are both
 separate git repositories. Git commands should not attempt to perform actions
 across repositories, e.g. attempting to `git mv` between repositories won't
 work.
 
-Committing and pushing changes to the EducationUI:
+Committing and pushing changes to the EducationUI.
 
-```
-git commit -m "some message" files_to_commit
-git push
-```
+Remember you are working with three different repositories:
 
-Committing and pushing local changes made to a submodule (using bestpractices as an example):
+1. EducationUI
+2. `_bestpractices` (i.e. https://github.com/DataONEorg/BestPractices)
+3. `_lessons` (i.e. https://github.com/DataONEorg/Education)
+
+Edits made in the `_bestpractices` or `_lessons` folders are committed to their respective repositories.
+
+Example: An edit is made to `README.md` in `_bestpractices`, commit and push that change, then update the parent repo to the new version of the submodule:
 
 ```
 cd _bestpractices
-git commit -m "some message" files_to_commit
+git commit -m "Fixed everything" README.md
+git push
+cd ..
+git commit -m "Bringing submodule to latest version" _bestpractices
 git push
 ```
 
-Note that when referring to a submodule, git refers to a **specific revision**
-of that submodule. So after committing changes to a submodule, it is necessary
-to update the specific revision of the submodule being referred to. This is
-done by committing the submodule from the EducationUI repo. For example, after 
-committing changes to best practices, in the EducationUI folder:
-
-```
-git commit -m "Updating to current revision" _bestpractices
-git push
-```
+After this, the remote copy of the BestPractices repo will be up to date, and the remote copy of EducationUI on GitHub will be updated so that the `_bestpractices` submodule is pointing to the latest revision.
 
 
 ## Working with the liquid tags

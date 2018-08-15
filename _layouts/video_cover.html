@@ -1,0 +1,59 @@
+---
+layout: layout
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Video: {{ page.title }}</title>
+</head>
+
+<body>
+
+<div class="main" style="margin-top:40px;">
+  <h1>{{ page.title }}</h1>
+
+<!-- this is where the video will sit -->
+  <div style="width:90%; padding:30px; margin:0px 0px 0px 32px; ">
+        <div class=border1><iframe width="640" height="360" src="{{ page.video_embedurl }}" frameborder="0" allowfullscreen></iframe></div>
+
+
+
+    <section>
+        {{ page.content | markdownify }}
+    </section>
+
+
+
+
+  <section>
+
+  <!-- Adds the citation for this material, including author and organization that added this material -->
+    <h3 style="margin-top:24px;">Cite this video: </h3>
+
+    {%- for author in page.author %}
+      {{ author }}
+      {%- if forloop.last == false %}, {%- endif %}
+    {%- endfor -%}
+      &nbsp;({{ page.update | date: '%Y' }}) "Video: {{ page.title }}".
+      		  {% if page.organization %}
+            {{ page.organization }}. {% endif %}
+            Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
+    </p>
+
+<!-- Adds the logo of the organization that added this material -->
+		  {% if page.organization %}
+      <a href="{{ page.org_url }}" target="_blank"><img class=pagelogo alt='{{ page.organization }}' src="{{ site.baseurl }}/bestpractices/logos/{{ page.org_logo }}" style='height:30px'/></a>
+      {% endif %}
+
+
+
+
+  </section>
+
+<br />
+
+  	<a href="{{ site.baseurl }}/"><strong>Home</strong></a>
+</div>
+</body>
+</html>

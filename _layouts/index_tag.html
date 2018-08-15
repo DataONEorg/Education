@@ -241,6 +241,9 @@
 {%- assign the_collection = "bestpractices" %}
 {% include collection_categories.html the_collection=the_collection %}
 
+{%- assign the_collection = "videos" %}
+{% include collection_categories.html the_collection=the_collection %}
+
 
 {%- if site.show_debug == 1 %}
 <pre>
@@ -346,6 +349,31 @@
               data-year="4">
               <a href="{{ site.baseurl }}/bp_step/{{ step }}"><img src="{{ site.baseurl }}/bestpractices/images/{{ step }}.png"></a></li>
           {% endfor %}
+
+
+          {% for video in site.videos %}
+            {% unless video.hide %}
+            {% assign item = video.url | split: '/' %}
+              {% assign catclasses = "" %}
+              {% for cat in video.categories %}
+                {% assign cleancat = cat | downcase | replace: ' ', '_' %}
+                {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
+              {% endfor %}
+
+              {% assign tagclasses = "" %}
+              {% for tag in video.tags %}
+                {% assign cleantag = tag | downcase | replace: ' ', '_' %}
+                {% assign tagclasses = tagclasses | append: ' ' | append: cleantag %}
+              {% endfor %}
+
+              <li class="mix-target {{ catclasses }} {{ tagclasses }}"
+                  data-order="{{ item }}"
+                  data-year="4">
+                  <a href="{{ site.baseurl }}/videos/videos/{{ item }}.html"><img src="{{ site.baseurl }}/videos/videos/{{ ldeck }}/index.png"></a></li>
+            {% endunless %}
+          {% endfor %}
+
+
 
         </ul>
       </div>

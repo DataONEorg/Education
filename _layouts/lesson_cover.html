@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 {%- comment %}
-This section sets the "slides" variable to the slides page and gathers 
+This section sets the "slides" variable to the slides page and gathers
 other variables for use on the page
 {%- endcomment %}
 {%- assign lesson_id = page.id | split: "/" | slice: 2 | first %}
@@ -144,8 +144,11 @@ ID: {{ slides.id }}
     {% include header.html %}
 
 <div style="width:90%; padding:30px; margin:0px 0px 0px 32px; ">
+
   <article class='container'>
     <section role='complimentary' class='keep-together'>
+        <img class=pagelogo alt='Best Practice' src='{{ site.baseurl }}/resources/images/Teaching_icon.png' height="30" style='max-height:50px'/>
+      <br>
       <div class=border1><a href='slides.html'><img src="{{ site.baseurl }}/lessons/{{ lesson_id }}/index.png" style="max-width: 100%; max-height:203px" class="mainimage" /></a></div>
 <!-- images -->
 
@@ -257,7 +260,7 @@ Site Keys and truncated values:
 {%- for akey in keys %}
   {%- if akey != "documents" %}
     {%- assign kv = site[akey] | jsonify %}
-  {{ akey | append: "             " | slice: 0,15 }} : {{ kv | slice: 0,100 }} 
+  {{ akey | append: "             " | slice: 0,15 }} : {{ kv | slice: 0,100 }}
   {%- endif %}
 {%- endfor %}
 {%- endif %}

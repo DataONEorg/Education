@@ -191,12 +191,12 @@
   a.programs-filter-btn-active.btn_teaching_module { background-color:#84353e; }
   a.programs-filter-btn-active.btn_technical_tutorial { background-color:#3c6855; }
   a.programs-filter-btn-active.btn_best_practice { background-color:#6179a8; }
-  a.programs-filter-btn-active.btn_video_tutorial { background-color:#dd912e; }
+  a.programs-filter-btn-active.btn_video { background-color:#dd912e; }
 
   a.btn_teaching_module:hover { background-color:#84353e; }
   a.btn_technical_tutorial:hover { background-color:#3c6855; }
   a.btn_best_practice:hover { background-color:#6179a8; }
-  a.btn_video_tutorial:hover { background-color:#dd912e; }
+  a.btn_video:hover { background-color:#dd912e; }
 
 
   a.tagbutton {
@@ -206,7 +206,7 @@
   .btn_teaching_module { background-color: #ebdadc; } /* ad7279 */
   .btn_technical_tutorial { background-color: #d0e3db; } /* 84a396 */
   .btn_best_practice { background-color: #e8effc; } /* 9faecc */
-  .btn_video_tutorial { background-color: #ffe6c6; } /* bc8743  */
+  .btn_video { background-color: #ffe6c6; } /* bc8743  */
 
 
 
@@ -317,6 +317,8 @@
     <div class="row">
       <div class="twelve columns">
         <ul class="courses" id="mix-wrapper">
+
+  <!-- code for pulling the lesson tiles to the landing page-->
           {% for lesson in site.lessons %}
             {% unless lesson.hide %}
             {% assign ldeck = lesson.url | split: '/' %}
@@ -342,6 +344,7 @@
             {% endunless %}
           {% endfor %}
 
+  <!-- code for pulling the best practice tiles to the landing page-->
           {% for step in site.life_cycle_steps %}
 
           <li class="mix-target best_practice {{ step }}"
@@ -360,16 +363,16 @@
                 {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
               {% endfor %}
 
-              {% assign tagclasses = "" %}
-              {% for tag in video.tags %}
-                {% assign cleantag = tag | downcase | replace: ' ', '_' %}
-                {% assign tagclasses = tagclasses | append: ' ' | append: cleantag %}
+              {% assign stepclasses = "" %}
+              {% for step in video.step %}
+                {% assign cleanstep = step | downcase | replace: ' ', '_' %}
+                {% assign stepclasses = stepclasses | append: ' ' | append: cleanstep %}
               {% endfor %}
 
-              <li class="mix-target {{ catclasses }} {{ tagclasses }}"
+              <li class="mix-target {{ catclasses }} {{ stepclasses }}"
                   data-order="{{ item }}"
                   data-year="4">
-                  <a href="{{ site.baseurl }}/videos/videos/{{ item }}.html"><img src="{{ site.baseurl }}/videos/videos/{{ ldeck }}/index.png"></a></li>
+                  <a href="{{ site.baseurl }}/{{ item[1] }}/{{ item[2] }}/"><img src="{{ site.baseurl }}/{{ item[1] }}/{{ item[2] }}/index.png"></a></li>
             {% endunless %}
           {% endfor %}
 

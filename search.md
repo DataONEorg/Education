@@ -27,7 +27,7 @@ window.simpleJekyllSearch = new SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '{{ site.baseurl }}/search.json',
-  searchResultTemplate: '<p><strong><span>{categories}: </span><a href="{url}" title="{desc}">{title}</a></strong><br><span> Life Cycle Step(s): {step}</span></p>',
+  searchResultTemplate: '<p><strong><span>{categories}: </span><a href="{url}" title="{desc}">{title}</a></strong><br><span> Life Cycle Step(s): {step}</span><br><span> Authoring Organization: {organization}</span></p>',
   noResultsText: 'No results found',
   fuzzy: true,
   limit: 100,

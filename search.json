@@ -78,7 +78,8 @@ they are second then they tend to get hidden a bit.
     "url": {{ lesson_url | jsonify }},
     "tags": {{ lesson_index.tags | join: ', ' | jsonify }},
     "categories": {{ lesson_index.categories | join: ', ' | jsonify }},
-    "step": {{ lesson_steps | join: ', ' | jsonify }}
+    "step": {{ lesson_steps | join: ', ' | jsonify }},
+    "organization"  : {{ lesson.organization | jsonify }}
   },
   {%- endfor %}
   {%- comment %} --- End of Lesson list generation --- {%- endcomment %}
@@ -98,13 +99,34 @@ they are second then they tend to get hidden a bit.
       "url"      : "{{ site.baseurl }}{{ item.url }}",
       "step"     : {{ item.step | join: ', ' | jsonify }},
       "tags"     : {{ item.tags | join: ', ' | jsonify }},
-      "categories"  : {{ item_category | jsonify }}
+      "categories"  : {{ item_category | jsonify }},
+      "organization"  : {{ item.organization | jsonify }}
     },
           {%- endif %}
         {%- endif %}
       {%- endif %}
   {%- endfor %}
   {%- comment %} --- End of Best Practice list generation --- {%- endcomment %}
+
+  {%- comment %} +++ Start of Video list generation +++ {%- endcomment %}
+  {%- assign the_collection = "videos" %}
+  {%- for item in site[ the_collection ] %}
+      {%- if item.step != "NA" %}
+        {%- if item.step != nil %}
+            {%- assign item_category = item.categories | join: ',' %}
+    {
+      "title"    : {{ item.title | jsonify }},
+      "url"      : "{{ site.baseurl }}{{ item.url }}",
+      "step"     : {{ item.step | join: ', ' | jsonify }},
+      "tags"     : {{ item.tags | join: ', ' | jsonify }},
+      "categories"  : {{ item_category | jsonify }},
+      "organization"  : {{ item.organization | jsonify }}
+    },
+        {%- endif %}
+      {%- endif %}
+  {%- endfor %}
+  {%- comment %} --- End of Video list generation --- {%- endcomment %}
+
 
 {} {%- comment %} Dummy entry, does nothing except ensure no comma at the end {%- endcomment %}
 ]

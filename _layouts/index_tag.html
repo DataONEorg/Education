@@ -409,7 +409,7 @@
       },
       classNames: {
         block: 'programs', /* mixitup */
-        elementFilter: 'filter-btn', /* control */
+        //elementFilter: 'filter-btn', /* control */
         elementSort: 'sort-btn' /* control */
       },
       selectors: {
@@ -418,20 +418,53 @@
     });
 
 
-
+  function showCurrentFilter(life_cycle, content_type) {
+    var $container = $('#mix-wrapper');
+    var filter = [];
+    var ignores = ['all','.mix-target'];
+    var filter_string = ".mix-target";
+    if (ignores.indexOf(life_cycle) == -1) {
+      filter.push(life_cycle);
+    }
+    if (ignores.indexOf(content_type) == -1) {
+      filter.push(content_type);
+    }
+    if (filter.length > 0) {
+      filter_string = filter.join("");
+    }
+    console.log("Filter string = " + filter_string);
+    $container.mixItUp('filter', filter_string);
+  }
+  /*
+  Filter the items shown based on the selected dropdown item
+  */
   $(function(){
-    var $filterSelect = $('#soflow'),
-      $container = $('#mix-wrapper');
-
-    //$container.mixItUp();
+    var $filterSelect = $('#soflow');
+    var $container = $('#mix-wrapper');
+    $container.extra_info= {
+      'content_type_filter': 'all',
+      'life_cycle_filter': 'all'
+    };
 
     $filterSelect.on('change', function(){
-    $container.mixItUp('filter', this.value);
+      /*
+      Called wihen th dropdown selection changes
+      */
+      var life_cycle = this.value;
+      $container.extra_info.life_cycle_filter = life_cycle;
+      var content_type = $container.extra_info.content_type_filter;
+      showCurrentFilter(life_cycle, content_type);
     });
 
-      $('body').on('click', '#filterbuttons a', function(e) {
-         $("select#soflow").prop('selectedIndex', 0);
-      });
+    $('body').on('click', '#filterbuttons a', function(e) {
+      /*
+      Called when content type button is clicked.
+      */
+      var content_type = e.target.dataset.filter;
+      var life_cycle = $container.extra_info.life_cycle_filter;
+      $container.extra_info.content_type_filter = content_type;
+      showCurrentFilter(life_cycle, content_type);
+    });
 
   });
 

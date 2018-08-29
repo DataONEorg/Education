@@ -6,6 +6,8 @@
 
   <title>{{ page.title }}</title>
 
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/resources/cover_page.css" />
+  <link rel="shortcut icon" href="https://dataone.org/sites/all/images/favicon.ico" type="image/vnd.microsoft.icon" />
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -90,6 +92,16 @@
       border: 2px solid #2285A0;
     }
 
+    p {
+		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-style: normal;
+    font-style: normal;
+    font-size: 110%;
+    color: #000;
+  	}
+
     /* Add a plum background color to the top navigation */
     .topnav {
         background-color: #660032;
@@ -135,13 +147,13 @@
 
     h3 {
 		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    margin-top: 8px;
+    margin-top: 10px;
     margin-bottom: 1px;
     font-style: normal;
     font-style: normal;
-    font-size: 110%;
+    font-size: 120%;
     color: #660033;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 0px;
   	}
 
@@ -193,7 +205,6 @@
 
     {% include header.html %}
 
-  <div id=wrapper style= "width:90%; padding:0px; margin:0px 0px 0px 62px; ">
 
   {{ content }}
 

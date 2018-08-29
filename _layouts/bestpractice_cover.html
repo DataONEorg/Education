@@ -16,10 +16,17 @@ layout: layout
   </style>
 
 <body>
+
+  <div style="background:#6179a8; padding:5px 62px;">
+  <p><span style="color:#FFFFFF; font-size:18px;"><strong>BEST PRACTICE</strong></span></p>
+  </div>
+
+    <div id=wrapper style= "width:90%; padding:0px; margin:0px 0px 0px 62px; ">
+
   {% include bestpractice_sidebar.html %}
 
 <div class="main" style="margin-top:40px;">
-<img class=pagelogo alt='Best Practice' src='{{ site.baseurl }}/resources/images/BestPractice_icon.png' height="30" style='max-height:50px'/>
+
   <h1>{{ page.title }}</h1>
 
 
@@ -78,7 +85,7 @@ layout: layout
     {%- for author in page.author %}
       {{ author }}
       {%- if forloop.last == false %}, {%- endif %}
-    {%- endfor -%}, 
+    {%- endfor -%},
     {% if page.organization %}
     {{ page.organization }}
     {% endif %}

@@ -1,7 +1,7 @@
 ---
 layout: layout
-title: Best Practice by Data Life Cycle step
-description: Layout for creating a single page with all best practices under one step.
+title: Best Practice by Data Life Cycle stage_
+description: Layout for creating a single page with all best practices under one stage.
 ---
 <!--Method sourced from: christianspecht.de/2014/10/25/separate-pages-per-tag-category-with-jekyll-without-plugins/ on June 20, 2018-->
 
@@ -13,7 +13,7 @@ description: Layout for creating a single page with all best practices under one
   <meta charset="utf-8">
   <title>Data Life Cycle: {{ page.lifecycle }}</title>
 {% comment %}
-  This section calls out to collection_steps to build a list of steps (i.e., steps of the data life cycle) used by all the pages in this collection. The variable "steps" contains all the steps
+  This section calls out to collection_steps to build a list of stages (i.e., stages of the data life cycle) used by all the pages in this collection. The variable "steps" contains all the stages
 {% endcomment %}
 {% assign the_collection = "bestpractices" %}
 {% include collection_steps.html the_collection=the_collection %}

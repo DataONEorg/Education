@@ -78,10 +78,12 @@ layout: layout
     {%- for author in page.author %}
       {{ author }}
       {%- if forloop.last == false %}, {%- endif %}
-    {%- endfor -%}
+    {%- endfor -%}, 
+    {% if page.organization %}
+    {{ page.organization }}
+    {% endif %}
       &nbsp;({{ page.update | date: '%Y' }}) "Best Practice: {{ page.title }}".
-      		  {% if page.organization %}
-            {{ page.organization }}. {% endif %}
+      		  Data Management Skillbuilding Hub.
             Accessed at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
     </p>
 

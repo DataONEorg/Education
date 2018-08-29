@@ -52,10 +52,12 @@ ID: {{ slides.id }}
   	section {
   		clear:both;
   	}
+
   	section h1 {
   		font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   		color: #660032;
   	}
+    
   	article, footer {
   		margin:0px;
   	}
@@ -143,13 +145,19 @@ ID: {{ slides.id }}
 
     {% include header.html %}
 
+<div style="background:#84353e;border:1px solid #84353e;padding:5px 60px;">
+<p><span style="color:#FFFFFF;"><strong>TEACHING MODULE</strong></span></p>
+</div>
+
 <div style="width:90%; padding:30px; margin:0px 0px 0px 32px; ">
+
 
   <article class='container'>
     <section role='complimentary' class='keep-together'>
-        <img class=pagelogo alt='Best Practice' src='{{ site.baseurl }}/resources/images/Teaching_icon.png' height="30" style='max-height:50px'/>
+<!-- icon of content type        <img class=pagelogo alt='Teaching Module' src='{{ site.baseurl }}/resources/images/Teaching_icon.png' height="30" style='max-height:50px'/> -->
       <br>
       <div class=border1><a href='slides.html'><img src="{{ site.baseurl }}/lessons/{{ lesson_id }}/index.png" style="max-width: 100%; max-height:203px" class="mainimage" /></a></div>
+
 <!-- images -->
 
   <!-- MEGAN ATTEMPTS TO CREATE TOP FLOATING PRESENTATION, COPY OF ORIGINAL HTML

@@ -43,6 +43,11 @@ description: This layout creates a list of all best practice tags and the best p
 </head>
 <body>
 
+<div style="background:#6179a8;border:1px solid #6179a8;padding:5px 60px;">
+<p><span style="color:#FFFFFF;"><strong>BEST PRACTICE</strong></span></p>
+</div>
+
+  <div id=wrapper style= "width:90%; padding:0px; margin:0px 0px 0px 62px; ">
 
     {% include bestpractice_sidebar.html %}
 
@@ -71,7 +76,7 @@ description: This layout creates a list of all best practice tags and the best p
 {%- for item in items %}
   <li><a href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>{% endfor %}
 </ul>
- <p align="right"><a href="#page-title" class="back-to-top" style="color:#dbdbdb;">Back to Top &uarr;</a></p>
+ <p align="right"><a href="#page-title" class="back-to-top" style="color:#c5c5c5;">Back to Top &uarr;</a></p>
  <hr>
 {% endfor %}
 

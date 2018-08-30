@@ -10,10 +10,10 @@ related:
 update:
   - May 08, 2018
 author:
-  - DataONE Community Engagement & Outreach Working Group
+  - First and last name of person authoring the best practice, list separate bullet for each new person
 organization: DataONE
-org_url: http://www.dataone.org
-org_logo: DataONE.png
+org_url: http://www.your_website.org
+org_logo: org.png
 resource: true
 categories: ["Best Practice"]
 ---
@@ -26,7 +26,7 @@ This page's title is "How to write a best practice", therefore the filename is
 
 ## Header
 
-The header for best practices has the following fields:
+The header (aka: front matter) for best practices has the following fields:
 
 `title`: the title of the webpage, as it will appear in the lists
 
@@ -37,6 +37,19 @@ The header for best practices has the following fields:
 `step`: a list of one or more steps of the data lifecycle to which this best practice applies
 
 `related`: a list of related best practices identifiers -- an identifier is the first three words of the title, separated by dashes (optional)
+
+`update`: the date this best practice was created
+
+`author`: a list of authors that created the best practice
+
+`organization`: name of organization that oversaw the creation of the best practice
+
+`org_url`: website of the organization, organization logo will open this webpage when selected
+
+`org_logo`: name of the organization’s logo file, this must me a png
+
+`categories`: this must be listed as [“Best Practice”], used for sorting and accessing education materials
+
 
 ## in 'Raw' view, these are the headers you should have
 

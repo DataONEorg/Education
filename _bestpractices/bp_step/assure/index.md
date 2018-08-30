@@ -7,7 +7,7 @@ categories: ["Best Practice"]
 
 *Select a Best Practice below to learn more about the "Assure" stage in the <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a>.*
 
-### What is "Assure"?
+### What is the "Assure" stage?
 
 Employ quality assurance and quality control procedures that enhance the quality of data (e.g., training participants, routine instrument calibration) and identify potential errors and techniques to address them.
 

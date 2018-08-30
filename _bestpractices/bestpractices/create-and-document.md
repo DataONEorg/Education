@@ -1,5 +1,5 @@
 ---
-title: How to write a Best Practice file
+title: Create and document a data backup policy
 layout: bestpractice_cover
 tags:
   - backup

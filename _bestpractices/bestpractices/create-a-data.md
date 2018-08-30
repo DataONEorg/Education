@@ -15,7 +15,7 @@ related:
   - describe-the-contents
   - use-consistent-codes
 update:
-  - May 11, 2011
+  - Aug 30, 2011
 author:
   - Eric Lind
   - Steve Aulenback

@@ -14,7 +14,7 @@ related:
   - use-appropriate-field
   - use-consistent-codes
 update:
-  - July 01, 2010
+  - September 01, 2011
 author:
   - DataONE Best Practices Working Group
 organization: DataONE

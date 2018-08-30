@@ -5,7 +5,7 @@ tags:
   - access
   - citation
   - data creators
-  - data sources
+  - data source
 step:
   - describe
 update:

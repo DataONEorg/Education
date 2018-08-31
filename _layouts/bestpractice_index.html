@@ -18,48 +18,48 @@ description: This layout creates a list of all best practice Data Life Cycle ste
         /* Style page content for .site_nav */
         .main {
             margin-right: 200px; /* Same as the width of the sidebar */
-            padding: 0px 10px;
+            padding: 0px 0px;
         }
   </style>
 </head>
 <body>
-<div style="background:#e8effc;border:1px solid #e8effc;padding:2px 60px;">
-<p style = "margin-top: 2px; margin-bottom: 0px;"><span style="color:#660033;"><strong>BEST PRACTICE</strong></span></p>
-</div>
+  <div style="background:#e8effc;border:1px solid #e8effc;padding:2px 60px;">
+  <p style = "margin-top: 2px; margin-bottom: 0px;"><span style="color:#660033;"><strong>BEST PRACTICE</strong></span></p>
+  </div>
 
-  <div id=wrapper style= "width:90%; padding:0px; margin:0px 0px 0px 62px; ">
+    <div id=wrapper style= "width:90%; padding:0px; margin:0px 0px 0px 62px; ">
+      {% include bestpractice_sidebar.html %}
 
-    {% include bestpractice_sidebar.html %}
-<div class="main" style="margin-top:40px;">
-  <h1 style="display:inline">Best Practices of Data Management</h1> <a href="https://www.dataone.org/data-life-cycle" target="_blank"><img alt='Data Life Cycle' src='{{ site.baseurl }}/bestpractices/images/stage_all.png' style='max-height:200px; float: right; display:inline"'/></a>
-    <p>The DataONE Best Practices database provides individuals with recommendations on how to effectively work with their data through all stages of the data lifecycle. Users can access best practices within the database by clicking on a stage of the lifecycle or scrolling down.</p>
+      <div class="main" style="margin-top:40px;">
+        <h1 style="display:inline">Best Practices of Data Management</h1> <a href="https://www.dataone.org/data-life-cycle" target="_blank"><img alt='Data Life Cycle' src='{{ site.baseurl }}/bestpractices/images/stage_all.png' style='max-height:200px; float: right; display:inline"'/></a>
+          <p>The DataONE Best Practices database provides individuals with recommendations on how to effectively work with their data through all stages of the data lifecycle. Users can access best practices within the database by clicking on a stage of the lifecycle or scrolling down.</p>
 
-      <h3><a href="https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf" target="_blank">Best Practices Primer</a></h3><p>For students and others new to data management, DataONE provides a <a href="https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf" target="_blank">Best Practices Primer</a> as an introduction to this Best Practices database and data management in general.</p>
+          <h3><a href="https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf" target="_blank">Best Practices Primer</a></h3><p>For students and others new to data management, DataONE provides a <a href="https://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf" target="_blank">Best Practices Primer</a> as an introduction to this Best Practices database and data management in general.</p>
 
-      <h3><a href="https://www.dataone.org/sites/all/documents/DataONE-PPSR-DataManagementGuide.pdf" target="_blank">Public Participation in Science Research Data Management</a></h3>
-        <p>DataONE also provides a <a href="https://www.dataone.org/sites/all/documents/DataONE-PPSR-DataManagementGuide.pdf" target="_blank">Data Management Guide</a> written specifically for the Citizen Science community that takes the users through the steps of the data lifecycle and links to various DataONE Best Practices online.</p> <!--if we include this, need to update links back to Education.io-->
-<hr>
-<!-- add drop down menu or links to anchors below at each life cycle step -->
+          <h3><a href="https://www.dataone.org/sites/all/documents/DataONE-PPSR-DataManagementGuide.pdf" target="_blank">Public Participation in Science Research Data Management</a></h3>
+            <p>DataONE also provides a <a href="https://www.dataone.org/sites/all/documents/DataONE-PPSR-DataManagementGuide.pdf" target="_blank">Data Management Guide</a> written specifically for the Citizen Science community that takes the users through the steps of the data lifecycle and links to various DataONE Best Practices online.</p> <!--if we include this, need to update links back to Education.io-->
+          <hr>
+    <!-- add drop down menu or links to anchors below at each life cycle step -->
 
-    <h2>Best Practice by Data Life Cycle stage</h2>
-      {% for step in steps %}
-      <h3><a name="{{step}}">{{ step | capitalize }}</a></h3>
-        <ul>
-        {%- comment -%}Filter the collection by the current category {%- endcomment -%}
-        {%- assign items = site[ the_collection ] | where: "step", step -%}
-        {%- for item in items %}
-          <li><a href="{{ site.baseurl }}{{ item.url }}">{{item.title}}</a><br />
-            {{ item.excerpt | strip_html | truncate: 256 }}
-          <p>{% for tag in item.tags %}
-          <a href="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}">{{tag}}</a>
-          {% unless forloop.last %}&nbsp;{% endunless %}
+        <h2>Best Practice by Data Life Cycle stage</h2>
+          {% for step in steps %}
+          <h3><a name="{{step}}">{{ step | capitalize }}</a></h3>
+            <ul>
+            {%- comment -%}Filter the collection by the current category {%- endcomment -%}
+            {%- assign items = site[ the_collection ] | where: "step", step -%}
+            {%- for item in items %}
+              <li><a href="{{ site.baseurl }}{{ item.url }}">{{item.title}}</a><br />
+                {{ item.excerpt | strip_html | truncate: 256 }}
+              <p>{% for tag in item.tags %}
+              <a href="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}">{{tag}}</a>
+              {% unless forloop.last %}&nbsp;{% endunless %}
+              {% endfor %}
+            </p>
+              </li>{% endfor %}
+            </ul>
           {% endfor %}
-        </p>
-          </li>{% endfor %}
-        </ul>
-      {% endfor %}
 
-</div>
-</div>
+    </div>
+  </div>
 </body>
 </html>

@@ -6,9 +6,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }}</title>
-
   <script src="{{ site.baseurl }}/js/vendor/modernizr-2.8.3.min.js"></script>
    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/resources/tags_index.css" />
    <link rel="shortcut icon" href="https://dataone.org/sites/all/images/favicon.ico" type="image/vnd.microsoft.icon" />
@@ -22,9 +21,18 @@
   <link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like-select.css"> <!-- https://codepen.io/ericrasch/pen/zjDBx -->
 
 
+
+
+
+<!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<![endif]-->
+
+
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -38,94 +46,91 @@
 
 
   <style>
-    section img.mainimage {
-      float: left;
-      border:1px solid #888;
-      padding:5px;
-      margin:0px 20px 10px 0px;
+  section img.mainimage {
+    float: left;
+    border:1px solid #888;
+    padding:5px;
+    margin:0px 20px 10px 0px;
     }
-    body {
-      padding:0px; margin:0px;
-      font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  body {
+    padding:0px; margin:0px;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
 
   a { color: #2285A0; text-decoration: none; }
   a:visited { color: #2285a0; }
   a:hover { color: #111; text-decoration: underline; }
 
-    section {
-      clear:both;
-    }
-    section h1 {
-      font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      color: #660032;
-    }
-    article, footer {
-      margin:30px;
+  section {
+    clear:both;
     }
 
-
-    header {
-      border-bottom: 0px solid #660032;
-      background-color:#fff;
-      width:100%;
+  section h1 {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #660032;
     }
 
-
-    header img.pagelogo {
-    padding: 4px 83px 0px 15px;
-    float: right;
+  article, footer {
+    margin:30px;
     }
 
-    header h1 {
-      top: 10px;
-      left: 0px;
-      right:40px;
-      margin-bottom: 8px;
-      text-align: left;
-      color: #660033;
-      font-weight: 550;
-    }
-
-
-    /* Add a plum background color to the top navigation. Plum color from h1 #660033; topnav color #f2f2f2; weight was : 400 */
-    .topnav {
-        background-color: #660032;
-        overflow: hidden;
-
+  .topnav {
+    background-color: #660032;
+    overflow: hidden;
     }
 
     /* Style the links inside the navigation bar */
-    .topnav a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 10px 12px;
-        text-decoration: none;
-        font-size: 17px;
-
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-size: 17px;
     }
 
     /* Change the color of links on hover */
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
     }
 
     /* Add a color to the active/current link */
-    .topnav a.active {
-        background-color: #2285A0;
-        color: white;
+  .topnav a.active {
+    background-color: #2285A0;
+    color: white;
+    }
+
+  header {
+    border-bottom: 0px solid #660032;
+    background-color:#fff;
+    width:100%;
+    }
+
+  header img.pagelogo {
+    padding: 8px 83px 0px 15px;
+    float: right;
+    }
+
+  footer {
+    font-size: .8em;
+    bottom: 0;
+    }
+
+  header h1 {
+    top: 10px;
+    left: 0px;
+    right:40px;
+    margin-bottom: 8px;
+    text-align: left;
+    color: #660033;
+    font-weight: 700;
+    font-size: 212.5%;
     }
 
 
-
-    footer {
-      font-size: .8em;
-      bottom: 0;
-    }
-
-    h2 {
+  h2 {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-top: 3px;
     margin-bottom: 2px;
@@ -137,7 +142,7 @@
     margin-left: 0px;
     }
 
-    h3 {
+  h3 {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-top: 1px;
     margin-bottom: 1px;
@@ -149,13 +154,13 @@
     margin-left: 0px;
     }
 
-    p {
+  p {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    margin-top: 2px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom: 4px;
     font-style: normal;
     font-style: normal;
-    font-size: 100%;
+    font-size: 110%;
     color: #000;
     font-weight: 400;
     }
@@ -173,23 +178,25 @@
     text-transform: uppercase;
     text-align:center;
     border-radius: .2em;
-  }
+    }
+
   a.filterbutton:hover {
     background-color:#660033;
     border: solid thin #ececec;
     color:#fff;
-  }
+    }
 
   a.programs-filter-btn-active {
     background-color:#660033;
     border: solid thin #ececec;
     color:#fff;
-  }
+    }
+
   a.programs-control-active {
     background-color:#660033;
     border: solid thin #ececec;
     color:#fff;
-  }
+    }
 
   a.programs-filter-btn-active.btn_teaching_module { background-color:#84353e; }
   a.programs-filter-btn-active.btn_technical_tutorial { background-color:#3c6855; }
@@ -209,16 +216,12 @@
 
   a.tagbutton {
     text-transform: none;
-  }
+    }
 
   .btn_teaching_module { background-color: #ebdadc; } /* ad7279 */
   .btn_technical_tutorial { background-color: #d0e3db; } /* 84a396 */
   .btn_best_practice { background-color: #e8effc; } /* 9faecc */
   .btn_video { background-color: #ffe6c6; } /* bc8743  */
-
-
-
-
 
 
 
@@ -228,15 +231,27 @@
 
 <body>
 
-  <!-- Megan removed to try new logo header text -->
-    <!--<div class="header" role ="banner">
-    <img src="{{ site.baseurl }}/img/logo.jpg" alt="DataONE.org" style='max-height:30px' />
-    <h1>Data Management Skillbuilding Hub</h1>
-  </div>
--->
+<!-- header -->
+<div style = "width:97%; padding:0px; margin:0px 40px 0px 59px;">
+<header role='banner'>
+    <a href="https://www.dataone.org/" target="_blank"><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:30px'/></a> <a style= "text-decoration: none; " href="{{ site.baseurl }}/"><h1>Data Management Skillbuilding Hub</h1></a>
+  </header>
 
+</div>
 
-    {% include header.html %}
+<!-- Header Menu Bar-->
+<div class="topnav">
+  <div class="topnav a"; style= "margin:0px 0px 0px 49px; overflow: hidden;">
+ <a target="_top" href="{{ site.baseurl }}/">  Home</a>
+ <a target="_top" href="{{ site.baseurl }}/CONTRIBUTING">  Contribute</a>
+ <a target="_top" href="{{ site.baseurl }}/faq">  FAQ</a>
+ <a target="_blank" href="http://github.com/DataONEorg/Education" target="_blank">GitHub</a>
+ <div class="topnav-right"; style= "float:right; margin:0px 48px 0px 0px;">
+ <a href="{{ site.baseurl }}/search"><img class=svg alt='Search' src="{{ site.baseurl }}/img/search.png" style='height:17px'/></a>
+</div>
+</div>
+</div>
+<!-- Header end -->
 
 {%- assign tags="" %}
 {%- assign the_collection = "lessons" %}

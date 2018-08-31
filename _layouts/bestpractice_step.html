@@ -40,10 +40,11 @@ description: Layout for creating a single page with all best practices under one
     {% include bestpractice_sidebar.html %}
 
 <div class="main" style="margin-top:40px;">
-<h1 style="display:inline">Best Practice: {{ page.lifecycle | capitalize }}</h1> <a href="https://www.dataone.org/data-life-cycle" target="_blank"><img alt='Data Life Cycle' src='{{ site.baseurl }}/bestpractices/images/stage_{{ page.lifecycle }}.png' style='max-height:200px; float: right; display:inline"'/></a>
+  <div style="margin-bottom: 20px;">
+    <h1 style="display:inline">Best Practice: {{ page.lifecycle | capitalize }}</h1> <a href="https://www.dataone.org/data-life-cycle" target="_blank"><img alt='Data Life Cycle' src='{{ site.baseurl }}/bestpractices/images/stage_{{ page.lifecycle }}.png' style='max-height:200px; float: right; display:inline"'/></a>
 
 
-{{ content }}
+    {{ content }}
 
 <!-- Megan attempts a drop down menu of data life cycle steps -->
 <!--    <nav class="horizontal-menu">
@@ -59,8 +60,10 @@ description: Layout for creating a single page with all best practices under one
             </ul>
     </nav>
 -->
-
+</div>
 <hr >
+
+  <div style="margin-top: 20px;">
 {% assign step = page.lifecycle %}
 
 <ul>
@@ -77,6 +80,7 @@ description: Layout for creating a single page with all best practices under one
     </p>
   {% endfor %}
 </ul>
+</div>
 </div>
 </div>
 </body>

@@ -6,9 +6,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }}</title>
-
   <script src="{{ site.baseurl }}/js/vendor/modernizr-2.8.3.min.js"></script>
    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/resources/tags_index.css" />
    <link rel="shortcut icon" href="https://dataone.org/sites/all/images/favicon.ico" type="image/vnd.microsoft.icon" />
@@ -20,6 +19,15 @@
   <link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-theme.min.css" -->
   <!-- link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like_dropdowns.css" -->
   <link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like-select.css"> <!-- https://codepen.io/ericrasch/pen/zjDBx -->
+
+
+
+
+
+<!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<![endif]-->
+
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -77,7 +85,7 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 10px 12px;
+    padding: 12px 12px;
     text-decoration: none;
     font-size: 17px;
     }
@@ -101,7 +109,7 @@
     }
 
   header img.pagelogo {
-    padding: 4px 83px 0px 15px;
+    padding: 8px 83px 0px 15px;
     float: right;
     }
 
@@ -117,9 +125,10 @@
     margin-bottom: 8px;
     text-align: left;
     color: #660033;
-    font-weight: 550;
+    font-weight: 700;
     font-size: 212.5%;
     }
+
 
   h2 {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -222,7 +231,27 @@
 
 <body>
 
-    {% include header.html %}
+<!-- header -->
+<div style = "width:97%; padding:0px; margin:0px 40px 0px 59px;">
+<header role='banner'>
+    <a href="https://www.dataone.org/" target="_blank"><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:30px'/></a> <a style= "text-decoration: none; " href="{{ site.baseurl }}/"><h1>Data Management Skillbuilding Hub</h1></a>
+  </header>
+
+</div>
+
+<!-- Header Menu Bar-->
+<div class="topnav">
+  <div class="topnav a"; style= "margin:0px 0px 0px 49px; overflow: hidden;">
+ <a target="_top" href="{{ site.baseurl }}/">  Home</a>
+ <a target="_top" href="{{ site.baseurl }}/CONTRIBUTING">  Contribute</a>
+ <a target="_top" href="{{ site.baseurl }}/faq">  FAQ</a>
+ <a target="_blank" href="http://github.com/DataONEorg/Education" target="_blank">GitHub</a>
+ <div class="topnav-right"; style= "float:right; margin:0px 48px 0px 0px;">
+ <a href="{{ site.baseurl }}/search"><img class=svg alt='Search' src="{{ site.baseurl }}/img/search.png" style='height:17px'/></a>
+</div>
+</div>
+</div>
+<!-- Header end -->
 
 {%- assign tags="" %}
 {%- assign the_collection = "lessons" %}

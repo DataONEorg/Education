@@ -279,7 +279,7 @@
 {%- endif %}
 
 <div style="width:90%; padding:20px; margin:0px 0px 20px 42px; ">
-    <p>The Data Management Skillbuilding Hub contains resources for better data management and is open to community input and update. These resources are adaptable across a range of contexts and intended for use by researchers, teachers, librarians, or anyone who wants to learn better data management practices. Each tile below contains a lesson in slide format with annotations, a one page handout that distills the main message, and a hands-on exercise. <br /> <br />
+    <p>The Data Management Skillbuilding Hub contains resources for better data management and is open to community input and update. These resources are adaptable across a range of contexts and intended for use by researchers, teachers, librarians, or anyone who wants to learn better data management practices. Each tile below links to community contributed education materials, such as best practices and lesson plans <br /> <br />
 
       The resources presented on the Data Management Skillbuilding Hub can be updated by users to promote a current, well-maintained, and sustainable educational tool.
 
@@ -295,13 +295,13 @@
 <div style= "width:100%; margin:20px 0px 10px 0px; background:#ececec">
   <div style = "width:90%; padding:20px; margin:0px 10px 0px 42px;">
     <h3><i>Using This Resource</i></h3>
-    <p> Click individual tiles to learn more and use each resource. You can limit resources by each <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a> stage. Comprehensive information is available in the <a href="./faq.html">FAQ</a>. </p>
+    <p> Click individual tiles to learn more and use each resource. You can limit resources by content type and <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a> stage. Comprehensive information is available in the <a href="./faq.html">FAQ</a>. </p>
 
     {% if site.show_content_type_filter == 1 %}
     <div class="row">
       <div class="twelve columns">
         <div id="filterbuttons" style="margin-left:0px;">
-          Filter by content type:
+          &#187; Filter by content type:
           <a href="#" class="filterbutton" data-filter="all">All</a>
           {% for cat in cats %}
             {%- assign category_label = cat | downcase | replace: ' ','_' %}
@@ -317,7 +317,7 @@
     <div class="row">
       <div class="twelve columns">
         <div style="margin-left:0px; " >
-         &#9654; Filter by stage of the Data Life Cycle
+         &#187; Filter by stage of the Data Life Cycle
 
       <select id="soflow">
       <option value="all">All</option>

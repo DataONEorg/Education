@@ -5,20 +5,20 @@ repositories where the content is located.
 
 The output is currently rendered at:
 
-  https://dataoneorg.github.io/EducationUI/
+  https://dataoneorg.github.io/Education/
 
 The content rendered by the UI is contained in other GitHub repositories and
 is included in this repository through the use of Git submodules:
 
 ```
-git submodule add https://github.com/DataONEorg/BestPractices.git bestpractices
-git submodule add https://github.com/DataONEorg/Education.git lessons
+git submodule add https://github.com/DataONEorg/hub_bespractices.git bestpractices
+git submodule add https://github.com/DataONEorg/hub_lessons.git lessons
 ```
 
 When cloning:
 
 ```
-git clone --recursive https://github.com/DataONEorg/EducationUI.git
+git clone --recursive https://github.com/DataONEorg/Education.git
 ```
 
 It is important to note that `_bestpractices` and `_lessons` are both
@@ -31,8 +31,8 @@ Committing and pushing changes to the EducationUI.
 Remember you are working with three different repositories:
 
 1. EducationUI
-2. `_bestpractices` (i.e. https://github.com/DataONEorg/BestPractices)
-3. `_lessons` (i.e. https://github.com/DataONEorg/Education)
+2. `_bestpractices` (i.e. https://github.com/DataONEorg/hub_bestpractices)
+3. `_lessons` (i.e. https://github.com/DataONEorg/hub_lessons)
 
 Edits made in the `_bestpractices` or `_lessons` folders are committed to their respective repositories.
 

@@ -1,4 +1,4 @@
-# EducationUI
+# Education UI
 
 This repository provides a Jekyll site that renders content from other Git
 repositories where the content is located.

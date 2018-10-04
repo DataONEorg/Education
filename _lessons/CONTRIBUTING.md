@@ -1,6 +1,6 @@
 ---
 title: Contributing to Lessons
-layout: layout
+layout: generic
 ---
 
 # Guidelines for contributors and content editors

@@ -1,7 +1,7 @@
 ---
 title: Example video for the data management hub
 layout: video_cover
-hide: 
+
 tags:
   - example
   - help

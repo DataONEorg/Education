@@ -1,6 +1,6 @@
 ---
 title: Search page for Data Management education materials
-layout: layout
+layout: generic
 ---
 
 

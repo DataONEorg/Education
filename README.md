@@ -1,38 +1,50 @@
-# EducationUI
+<<<<<<< HEAD
+# Welcome to the Data Management Skillbuilding Hub
+=======
+# Education UI
+>>>>>>> 3f0c595a054f7a92d4a655579d715fabfd4ab999
 
-This repository provides a Jekyll site that renders content from other Git
-repositories where the content is located.
+This repository is a central location for education materials focused on data management. We invite all kinds of materials, please consider [contributing][CONTRIB]. Examples include: tutorials, best practices, exercises, presentations, etc.
 
-The output is currently rendered at:
+At launch (June 2018) the repository contains DataONE Education Modules to serve as an example of what materials can be added to the repo. These Modules have been translated from PowerPoint format to a more easily updated format that you can view in your browser. Each Education Module contains a set of slides with annotations, as well as a hands on exercise, a one-page explanatory sheet, and occasionally data. These resources are intended to be flexible and updated by a range of users and audiences. Please fork and update content for your own use.
 
-  https://dataoneorg.github.io/EducationUI/
+<<<<<<< HEAD
+[CONTRIB]: CONTRIBUTING.md "Contribution guidelines"
+=======
+  https://dataoneorg.github.io/Education/
+>>>>>>> 3f0c595a054f7a92d4a655579d715fabfd4ab999
 
-The content rendered by the UI is contained in other GitHub repositories and
-is included in this repository through the use of Git submodules:
+## Where to find the material?
 
+<<<<<<< HEAD
+A list of the available materials can be found on [the repository's website][website]. The first page will present you with a list of the available resources. Clicking on any given resource will bring you to the resource page, where you can launch included materials. These may include a presentation, a PDF download of the slides, a handout, and/or exercises.
+=======
 ```
-git submodule add https://github.com/DataONEorg/BestPractices.git bestpractices
-git submodule add https://github.com/DataONEorg/Education.git lessons
+git submodule add https://github.com/DataONEorg/hub_bespractices.git bestpractices
+git submodule add https://github.com/DataONEorg/hub_lessons.git lessons
 ```
+>>>>>>> 3f0c595a054f7a92d4a655579d715fabfd4ab999
 
-When cloning:
+[website]: https://dataoneorg.github.io/Education/ "Homepage for the Data Management Skillbuilding Hub"
 
+<<<<<<< HEAD
+=======
 ```
-git clone --recursive https://github.com/DataONEorg/EducationUI.git
+git clone --recursive https://github.com/DataONEorg/Education.git
 ```
+>>>>>>> 3f0c595a054f7a92d4a655579d715fabfd4ab999
 
-It is important to note that `_bestpractices` and `_lessons` are both
-separate git repositories. Git commands should not attempt to perform actions
-across repositories, e.g. attempting to `git mv` between repositories won't
-work.
+## Guidelines for content editors
 
-Committing and pushing changes to the EducationUI.
+We are glad that you want to contribute to the material! You will find more information in our [contribution guidelines][CONTRIB].
 
+<<<<<<< HEAD
+=======
 Remember you are working with three different repositories:
 
 1. EducationUI
-2. `_bestpractices` (i.e. https://github.com/DataONEorg/BestPractices)
-3. `_lessons` (i.e. https://github.com/DataONEorg/Education)
+2. `_bestpractices` (i.e. https://github.com/DataONEorg/hub_bestpractices)
+3. `_lessons` (i.e. https://github.com/DataONEorg/hub_lessons)
 
 Edits made in the `_bestpractices` or `_lessons` folders are committed to their respective repositories.
 
@@ -109,5 +121,8 @@ file using a liquid tag like:
 where the value of the `the_collection` property is the name of the collection
 to evaluate. The list of tags will then be available as the `tags` liquid
 variable.
+>>>>>>> 3f0c595a054f7a92d4a655579d715fabfd4ab999
 
+## Maintainers
 
+The Data Management Skillbuilding Hub webpage and repository are maintained by the Community Engagement and Outreach Working Group at DataONE. Please open an issue If you have a question or concern, please open an <a href="https://github.com/DataONEorg/Education/issues" target="_blank">Issue</a>.

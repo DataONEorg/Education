@@ -79,7 +79,7 @@ they are second then they tend to get hidden a bit.
     "tags": {{ lesson_index.tags | join: ', ' | jsonify }},
     "categories": {{ lesson_index.categories | join: ', ' | jsonify }},
     "step": {{ lesson_steps | join: ', ' | jsonify }},
-    "organization"  : {{ lesson.organization | jsonify }}
+    "organization"  : {{ lesson_index.organization | jsonify }}
   },
   {%- endfor %}
   {%- comment %} --- End of Lesson list generation --- {%- endcomment %}

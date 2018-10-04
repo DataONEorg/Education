@@ -1,8 +1,8 @@
 [submodule "bestpractices"]
 	path = _bestpractices
-	url = https://github.com/DataONEorg/BestPractices.git
+	url = https://github.com/DataONEorg/hub_bestpractices.git
 	branch = master
 [submodule "lessons"]
 	path = _lessons
-	url = https://github.com/DataONEorg/Education.git
+	url = https://github.com/DataONEorg/hub_lessons.git
 	branch = master

@@ -47,10 +47,10 @@ collections:
     output: true
     output_ext: .html
     permalink: :path
-#  videos:
-#    output: true
-#    output_ext: .html
-#    permalink: :path
+  videos:
+    output: true
+    output_ext: .html
+    permalink: :path
 
 # Build settings
 markdown: kramdown

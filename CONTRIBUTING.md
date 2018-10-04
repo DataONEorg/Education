@@ -52,8 +52,13 @@ information.
 
 ### Repository organization
 
-The content linked to each tile on the home page is held within a single folder in the `lessons` directory. Each lesson
-folder is called `XX_keyword`, where `XX` is the order content is displayed via tiles on the home page, and `keyword` is
+The content linked to each tile on the home page is held within a single folder in the `lessons` or `best practices` directory.
+
+For Best Practices:
+Each best practice can be found in the [bestpractices](https://github.com/DataONEorg/hub_bestpractices/tree/b10d396c32d34385d2f5a7cfe5b2fdc1e4130352/bestpractices)
+
+For Teaching Modules:
+Each teaching module is found in folder called [lessons](https://github.com/DataONEorg/hub_lessons/tree/23581c038ba70cf727ea2c31a6332fc57e49bccc/lessons) and is called `XX_keyword`, where `XX` is the order content is displayed via tiles on the home page, and `keyword` is
 a brief description of the content. Edits can be made to the descriptive information contained in the `lesson_cover.md` (the page that opens when a tile is selected on the home page).  If education materials include slides, these slides are in a file called
 `slides.md`. Do not use another filename. For example, the [demonstration
 lesson][demolessonhtml] markdown file can be [viewed here][demolessonmd]. This

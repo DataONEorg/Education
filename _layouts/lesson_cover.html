@@ -81,9 +81,14 @@ ID: {{ slides.id }}
           {% endif %}
           ({{ page.update | date: '%Y' }}) "{{ slides.title }}". Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io{{site.baseurl}}{{ page.url }} on {{ site.time | date: '%b %d, %Y' }}
         </p>
+        <!-- Adds the logo of the organization that added this material -->
+        		  {% if page.organization %}
+              <a href="{{ page.org_url }}" target="_blank"><img class=pagelogo alt='{{ page.organization }}' src="{{ site.baseurl }}/lessons/logos/{{ page.org_logo }}" style='height:30px'/></a>
+              {% endif %}
         <br />
-  		</section>
 
+  		</section>
+  <br />
       <a href="{{ site.baseurl }}/lessons/{{ page.prevlesson }}"><img src="{{site.baseurl}}/resources/images/arrow_left3.png" style="margin-right:10px; max-height:20px"></a>
       <a href="{{ site.baseurl }}/"><strong>Home</strong></a>
       <a href="{{ site.baseurl }}/lessons/{{ page.nextlesson }}"><img src="{{site.baseurl}}/resources/images/arrow_right3.png" style="margin-left:10px; max-height:20px;"></a>

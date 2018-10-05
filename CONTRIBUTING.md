@@ -16,7 +16,7 @@ Want to update a link or method? See a spelling error? Changes can be easily pro
 
 ### Edit content
 
-1. Create a fork of the repository into your github account.
+1. Create a fork of the [lessons](https://github.com/DataONEorg/hub_lessons/tree/23581c038ba70cf727ea2c31a6332fc57e49bccc/lessons) or [best practices](https://github.com/DataONEorg/hub_bestpractices/tree/b10d396c32d34385d2f5a7cfe5b2fdc1e4130352/bestpractices) repository into your github account, depending on which content you wish to edit.
 2. Modify the files that you want to change ([See "Structure" below for tips on making changes](#structure)).
 3. Submit a pull-request against the `master` branch of this repository.
 4. Your changes will be reviewed by the repository admins.
@@ -39,7 +39,7 @@ lesson) is in quotes.
 
 Fork and edit content through GitHub, rather than editing privately, to enable others to use your edited content and to track how these materials are used.
 
-1. Create a fork of the repository into your github account
+1. Create a fork of the  [lessons](https://github.com/DataONEorg/hub_lessons/tree/23581c038ba70cf727ea2c31a6332fc57e49bccc/lessons) or [best practices](https://github.com/DataONEorg/hub_bestpractices/tree/b10d396c32d34385d2f5a7cfe5b2fdc1e4130352/bestpractices) repository into your github account
 2. Modify the files that you want to change ([See "Structure" below for tips on making changes](#structure))
 
 ___
@@ -52,13 +52,14 @@ information.
 
 ### Repository organization
 
-The content linked to each tile on the home page is held within a single folder in the `lessons` or `best practices` directory.
+The content linked to each tile on the home page is held within a single folder in the `best practices` or `lessons` directory.
 
-For Best Practices:
-Each best practice can be found in the [bestpractices](https://github.com/DataONEorg/hub_bestpractices/tree/b10d396c32d34385d2f5a7cfe5b2fdc1e4130352/bestpractices)
+## For Best Practices:
+Each best practice can be found in the [bestpractices](https://github.com/DataONEorg/hub_bestpractices/tree/b10d396c32d34385d2f5a7cfe5b2fdc1e4130352/bestpractices) folder. `best practices` are named for the first three words of their title, separated by hyphens. Instructions for creating new best practices can be found in the [How to Write](https://github.com/DataONEorg/hub_bestpractices/blob/b10d396c32d34385d2f5a7cfe5b2fdc1e4130352/bestpractices/how-to-write.md) best practice example.
 
-For Teaching Modules:
-Each teaching module is found in folder called [lessons](https://github.com/DataONEorg/hub_lessons/tree/23581c038ba70cf727ea2c31a6332fc57e49bccc/lessons) and is called `XX_keyword`, where `XX` is the order content is displayed via tiles on the home page, and `keyword` is
+## For Teaching Modules:
+Teaching module are found in the folder called [lessons](https://github.com/DataONEorg/hub_lessons/tree/23581c038ba70cf727ea2c31a6332fc57e49bccc/lessons), and each teaching module `lessons`
+folder is called `XX_keyword`, where `XX` is the order content is displayed via tiles on the home page, and `keyword` is
 a brief description of the content. Edits can be made to the descriptive information contained in the `lesson_cover.md` (the page that opens when a tile is selected on the home page).  If education materials include slides, these slides are in a file called
 `slides.md`. Do not use another filename. For example, the [demonstration
 lesson][demolessonhtml] markdown file can be [viewed here][demolessonmd]. This

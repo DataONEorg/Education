@@ -1,4 +1,0 @@
-[submodule "lessons"]
-	path = _lessons
-	url = https://github.com/DataONEorg/hub_lessons.git
-	branch = master

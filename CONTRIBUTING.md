@@ -16,7 +16,7 @@ Want to update a link or method? See a spelling error? Changes can be easily pro
 
 ### Edit content
 
-1. Create a fork of the [lessons](https://github.com/DataONEorg/hub_lessons/tree/23581c038ba70cf727ea2c31a6332fc57e49bccc/lessons) or [best practices](https://github.com/DataONEorg/hub_bestpractices/tree/b10d396c32d34385d2f5a7cfe5b2fdc1e4130352/bestpractices) repository into your github account, depending on which content you wish to edit.
+1. Create a fork of the [lessons](https://github.com/DataONEorg/Education/tree/master/_lessons) or [best practices](https://github.com/DataONEorg/Education/tree/master/_bestpractices) repository into your github account, depending on which content you wish to edit.
 2. Modify the files that you want to change ([See "Structure" below for tips on making changes](#structure)).
 3. Submit a pull-request against the `master` branch of this repository.
 4. Your changes will be reviewed by the repository admins.
@@ -93,7 +93,7 @@ The stylesheets are defined in `resources/styles`, and rendered to
 
 ## Working with the liquid tags
 
-A few hints for working with Liquid tags, which are the tags using in the 
+A few hints for working with Liquid tags, which are the tags using in the
 templates.
 
 Whitespace can be controlled by adding a `-` to the opening and/or closing
@@ -109,7 +109,7 @@ Would result in a newline being output, whereas:
 {%- assign blah="foo" %}
 ```
 
-would not. 
+would not.
 
 
 List the available collections:
@@ -121,7 +121,7 @@ List the available collections:
 ```
 
 The lesson collection is a bit odd because we need to treat each folder as an
-item, but Jekyll treats each file as an item. Metadata from both the 
+item, but Jekyll treats each file as an item. Metadata from both the
 `slides.md` and `index.md` is used in rendering, but it takes a bit of extra
 work to get those metadata attributes when rendering a page.
 

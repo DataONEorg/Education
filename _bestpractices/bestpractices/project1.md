@@ -71,7 +71,8 @@ categories:
 ---
 ```
 **2. Fill out the appropriate information for each of the categories**     
-- Here is an example that follows the proper formatting. ***Note that spaces, indents, lines, and dashes are actually very important here, so be sure to follow the formatting of the example as closely as possible!***
+- Here is an example that follows the proper formatting. ***Note that spaces, indents, lines, and dashes are actually very important here, so be sure to follow the formatting of the example as closely as possible!***      
+
 ``` Example
 ---
 title: Advertise your data using datacasting tools

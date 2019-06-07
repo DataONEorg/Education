@@ -26,10 +26,6 @@ categories: ["Best Practice"]
 > **Items necessary for this step:**      
 > - [x] a text file
 > - [x] your organization's logo (.PNG only)
-<details open>
-<summary>     
-</summary>
-<br>     
 
 **The following information is needed when submitting educational materials to the data management hub:** 
 
@@ -103,16 +99,12 @@ categories: ["Best Practice"]
 Keep the completed text file for later steps in the submission process.    
 
 **3. Download a PNG file of your organizations logo and rename it appropriately.**    
-The name for the PNG should match your input for `org_logo:`. For now the PNG will be saved on your desktop, but later we will upload it to a specific location in DataONE's GitHub repository.        
-</details>     
+The name for the PNG should match your input for `org_logo:`. For now the PNG will be saved on your desktop, but later we will upload it to a specific location in DataONE's GitHub repository.             
 
 ### Step Two: Forking DataONE's Education Repository    
 ---     
 > **Items necessary for this step:**     
 > - [x] your own GitHub account online     
-<details open>
-<summary></summary>
-<br>          
 
 **1. Go to DataONEorg's Education repository**
   - https://github.com/DataONEorg/Education     
@@ -133,7 +125,6 @@ This means you will be creating a copy of the Education repository for your own 
 - If submitting a ***lesson*** or a ***video***, name your file `index.md`     
 
 **5. Copy and the metadata information from your text file and paste it here into the markdown (.md) file**
-</details>    
 
 ### Step Three: Uploading your submission     
 ---     

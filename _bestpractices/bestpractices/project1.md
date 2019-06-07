@@ -1,3 +1,21 @@
+---
+title: How to submit to the Data Management Hub
+layout: bestpractice_cover
+tags:
+ - data services
+step:
+ - discover
+related:
+ - how-to-create
+update:
+ - June 7, 2019
+author: 
+ - Saraneh Fitzgerald
+organization: DataONE
+org_url: http://www.dataone.org
+org_logo: DataONE.png
+categories: ["Best Practice"]
+---
 <p align="center">
   <img width="250" src="https://www.nmepscor.org/sites/default/files/DataONE.png">
 </p>   

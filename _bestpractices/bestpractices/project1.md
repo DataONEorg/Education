@@ -138,5 +138,6 @@ Here is where you have to determine which category your submission falls under:
 ### <a name="bestpractice"></a>Uploading a Best Practice
 ### <a name="lesson"></a>Uploading a Teaching Module
 ### <a name="video"></a>Uploading a Video
+### Existing Tags
 ---    
 access, analyze, annotation, assure, backup, calibration, citation, coding, collect, controlled vocabulary, data archives, data consistency, data creators, data management plan, data model, data normalization, data processing, data quality, data services, data source, data sources, database, date, describe, disaster, recovery, discover, documentation, file, system, flag, format, geography, geospatial, image, integrate, location, measurement, metadata, missing, values, ontologies, parameter, plan, preserve, provenance, qualify, quality, replicable data, restore, standards, storage, tabular, taxonomy, terminology, time, units

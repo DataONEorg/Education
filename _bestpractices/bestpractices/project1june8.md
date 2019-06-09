@@ -4,6 +4,7 @@ layout: generic
 tags:
  - data services
 step:
+- discover
 related:
  - how-to-create
 update:

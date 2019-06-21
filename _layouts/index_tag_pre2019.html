@@ -340,8 +340,8 @@
     <div class="row">
       <div class="twelve columns">
         <ul class="courses" id="mix-wrapper">
-  <!-- OLD VERSION - PULLS FROM LESSON INDEX, NOT STAGE
-    <!-- code for pulling the lesson tiles to the landing page-->
+
+  <!-- code for pulling the lesson tiles to the landing page-->
           {% for lesson in site.lessons %}
             {% unless lesson.hide %}
             {% assign ldeck = lesson.url | split: '/' %}
@@ -376,16 +376,7 @@
               <a href="{{ site.baseurl }}/bp_step/{{ step }}"><img src="{{ site.baseurl }}/bestpractices/images/{{ step }}.png"></a></li>
           {% endfor %}
 
-  <!-- code for pulling the best practice tiles to the landing page-->
-          {% for step in site.life_cycle_steps %}
 
-          <li class="mix-target teaching_module {{ step }}"
-              data-order="{{ step }}"
-              data-year="4">
-              <a href="{{ site.baseurl }}/lessons/lesson_step/{{ step }}"><img src="{{ site.baseurl }}/lessons/images/l_{{ step }}.png"></a></li>
-          {% endfor %}
-
-  <!-- code for pulling the video tiles to the landing page-->
           {% for video in site.videos %}
             {% unless video.hide %}
             {% assign item = video.url | split: '/' %}

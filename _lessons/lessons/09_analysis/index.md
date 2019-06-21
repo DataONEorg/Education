@@ -6,7 +6,13 @@ org_url: http://www.dataone.org
 org_logo: DataONE.png
 update: 2017-04-06
 layout: lesson_cover
-tags: ["Data Management", Analyze, Workflow, Analysis]
+tags:
+  - data management
+  - workflow
+  - analysis
+  - DataONE teaching module
+step:
+  - analyze
 categories: ["Teaching Module"]
 status: published
 prevlesson: 08_citation

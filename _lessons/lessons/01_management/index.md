@@ -8,7 +8,18 @@ update: 2017-04-06
 layout: lesson_cover
 status: published
 version: 1.0
-tags: ["Data Management", Plan, Collect, Integrate, Assure, Preserve, Describe, Discover, Analyze]
+tags:
+  - data management
+  - DataONE teaching module
+step:
+  - plan
+  - collect
+  - integrate
+  - assure
+  - preserve
+  - describe
+  - discover
+  - analyze
 categories: ["Teaching Module"]
 prevlesson: 10_policy
 nextlesson: 02_datasharing

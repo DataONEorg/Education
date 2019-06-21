@@ -7,7 +7,11 @@ org_logo: DataONE.png
 update: Sept. 20, 2016
 layout: lesson_cover
 status: published
-tags: ["Data Management", Plan]
+tags:
+  - data management
+  - DataONE teaching module
+step:
+  - plan
 categories: ["Teaching Module" ]
 prevlesson: 02_datasharing
 nextlesson: 04_entry

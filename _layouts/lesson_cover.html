@@ -20,6 +20,8 @@ ID: {{ slides.id }}
 {%- endif %}
 {%- comment %} ----------- DEBUG {%- endcomment %}
 
+
+
 <head>
   <meta charset="utf-8">
   <title>{{ slides.title }}</title>
@@ -29,15 +31,28 @@ ID: {{ slides.id }}
   {% assign cleancat = cat | downcase | replace: ' ', '_' %}
   {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
 {% endfor %}
+
+
+  <style>
+        /* Style page content for .site_nav, necessary for making room for the righthand sidebar menu*/
+        .main {
+            margin-right: 200px; /* Same as the width of the sidebar + right body margin (in layout) */
+            padding: 0px 0px;
+        }
+  </style>
 </head>
+
 
 <body>
   <div style="background:#ebdadc;border:1px solid #ebdadc;padding:2px 60px;">
-  <p style = "margin-top: 2px; margin-bottom: 0px;"><span style="color:#660033;"><strong>TEACHING MODULE</strong></span></p>
+  <p style = "margin-top: 2px; margin-bottom: 0px;"><span style="color:#660033;"><strong>LESSON</strong></span></p>
   </div>
 
+
+
+
 <main role='main'>
-  <div style="width:90%; padding:0px; margin:0px 0px 0px 32px; ">
+  <div class='main' style="width:90%; padding:0px; margin:0px 0px 0px 32px; ">
     <article class='container'>
       <section role='complimentary' class='keep-together'>
         <div class=border1><a href='slides.html'><img src="{{ site.baseurl }}/lessons/{{ lesson_id }}/index.png" style="max-width: 100%; max-height:203px" class="mainimage" /></a></div>
@@ -64,14 +79,41 @@ ID: {{ slides.id }}
     		<br clear=all>
       </section>
 
+<!-- Adds a list of the data life cycle steps, with links back to the steps' index page-->
+<hr />
+<br />
+<div class="collection-steps">
+  {% assign steps = page.step %}
+  <p>Data Life Cycle stage(s):
+  {% for step in steps %}
+  <a href="{{ site.baseurl }}/bp_step/{{ step|slugize }}">{{step | capitalize}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+  </p>
+</div>
+
       <section>
           {{ page.content | markdownify }}
       </section>
 
   		<section>
-        <br />
+
+<!-- Adds a list of the tags, with links back to the tag archive, anchored at that specific tag-->
+<div class="collection-tags">
+  {% assign tags = page.tags %}
+  <p > <h2 style="margin-bottom:16px;">Tags</h2>
+  {% for tag in tags %}
+  <form style="display: inline;" action="{{ site.baseurl }}/bestpractices/tag#{{ tag|slugize }}" method="get">
+    <button>{{tag}}</button></form>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+  </p>
+</div>
+
+
         <!-- The lesson.* properties come from the slides.md front matter.  The page.* properties come from the index.md front matter -->
-  			<strong>Cite this lesson: </strong><br />
+        <h3 style="margin-top:24px;">Cite this lesson: </h3>
+
           {%- for author in slides.author %}
             {{ author }}
             {%- if forloop.last == false %}, {%- endif %}
@@ -95,6 +137,7 @@ ID: {{ slides.id }}
     </article>
 
 <!-- this should be the full url to the site for the citation (instead of hand typing the dataoneorg.io), but when pushed through site.url is just blank... {{site.url}}{{site.baseurl}}{{ page.url }} -->
+  </div>
 
   <footer>
 

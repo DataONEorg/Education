@@ -391,7 +391,7 @@ With a lesson, you will have to submit multiple items. Consequently, you must fi
     </ul>
   <li><B>update:</B> the date this lesson was created</li>
   <li><B>author:</B> a list of authors that created the lesson</li>
-  <li><B>video_embedurl:</B></li>
+  <li><B>video_embedurl:</B>The SRC portion of your video's embed code. Instructions on where to find this can be found in step 3.</li>
   <li><B>organization:</B> name of organization that oversaw the creation of the lesson</li>
   <li><B>org_url:</B> website of the organization, organization logo will open this webpage when selected</li>
   <li><B>org_logo:</B> name of the organization’s logo file <i><B>(this must be a .png file).</B></i></li>

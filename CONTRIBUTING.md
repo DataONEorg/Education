@@ -226,7 +226,7 @@ Name your file for the first three words of the title, separated by dashes, and 
   <li><B>org_logo:</B> name of the organization’s logo file <i><B>(this must be a .png file).</B></i></li>
   <li><B>update:</B> the date this lesson was created</li>
   <li><B>layout:</B> is always <i><B>lesson_cover</B></i> for all lessons</li>
-  <li><B>status:</B></li>
+	<li><B>status:</B>is always <i><B>published</B></i></li>
   <li><B>tags:</B> a list of (short) keywords describing the content of the best practice text</li>
     <ul>
       <li>Click <a href="#tags">here</a> for a list of currently existing tags</li>
@@ -346,6 +346,7 @@ With a lesson, you will have to submit multiple items. Consequently, you must fi
 	<li>If you want to contribute a slideshow in markdown, click <B><i>"Create New File"</i></B> and name it <i><B>slides.md</B></i>.
 	  <ul>
 		  <li>Markdown is an <i>extremely lightweight, easy-to-read, easy-to-write, and easy-to-learn</i> language! <a href="https://github.com/saraneh/Education/blob/master/_lessons/lessons/00_markdown">HERE</a> is a quick and straightforward resource on creating a lesson in Markdown.</li>
+		  <li><i><B>Note that spaces, indents, lines, and dashes are actually very important here, so be sure to follow the formatting of the example as closely as possible!</B></i></li>
 	  </ul>
 	  </ul>
 
@@ -391,7 +392,7 @@ With a lesson, you will have to submit multiple items. Consequently, you must fi
     </ul>
   <li><B>update:</B> the date this lesson was created</li>
   <li><B>author:</B> a list of authors that created the lesson</li>
-  <li><B>video_embedurl:</B>The SRC portion of your video's embed code. Instructions on where to find this can be found in step 3.</li>
+  <li><B>video_embedurl:</B>The SRC portion of your video's embed code. Instructions on where to find this can be found in <a href="#embed">Step 3</a>.</li>
   <li><B>organization:</B> name of organization that oversaw the creation of the lesson</li>
   <li><B>org_url:</B> website of the organization, organization logo will open this webpage when selected</li>
   <li><B>org_logo:</B> name of the organization’s logo file <i><B>(this must be a .png file).</B></i></li>
@@ -452,7 +453,7 @@ With a lesson, you will have to submit multiple items. Consequently, you must fi
   </code>
 </pre>
 
-<B>3. Getting the Embed Link for your Video</B>
+<a name= "embed"></a><B>3. Getting the Embed Link for your Video</B>
 <ul>
   <li>When embedding a video into a webpage, there's a specific link that is needed</li>
   <li>To find that link, go to your video. When you click <B>"Share"</B>, there is an option that says <i>"Embed"</i> or <i>"Copy Embed Link"</i></li>

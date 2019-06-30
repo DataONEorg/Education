@@ -3,7 +3,7 @@ title: Contributing to Lessons
 layout: generic
 ---
 # Contributing to the Data Management Skillbuilding Hub  
-###  Step One: Forking DataONE's Education Repository    
+###  Step One: Forking DataONEorg's Education Repository    
 ---  
 > **Items necessary for this step:**      
 > - [x] your own GitHub account online     
@@ -24,7 +24,7 @@ This means you will be creating a copy of the Education repository for your own 
 <B>3. Download a PNG file of your organization's logo</B>
 <ul>
   <li>If you are associated with a university, company, or other organization you must include their logo along with your submission.</li>
-  <li>Once you have downloadeed it, make sure to name the .PNG after your organization</li>
+  <li>Once you have downloaded it, make sure to name the .PNG after your organization</li>
   <li>For now the PNG will be saved on your desktop, but later we will upload it to a specific location in DataONE's GitHub repository</li>
 </ul>
 </details>
@@ -43,7 +43,7 @@ Here is where you have to determine which category your submission falls under:
   <ul>
     <li>There are two types of slideshows you can contribute: <B>a slideshow PDF</B> OR a <B>slideshow in Markdown</B></li>
 	  <li>Contributing a <B> slideshow PDF</B> would mean that you simply upload your file into the repository. Users will have to download your PDF in order to view it.</li>
-	  <li>Contributing a <B>Markdown slideshow</B> would take a little more work because you would have to format and write your lesson in Markdown. <B>HOWEVER</B>, Markdown is an <i>extremely lightweight, easy-to-read, easy-to-write, and easy-to-learn</i> language! <a href="https://github.com/saraneh/Education/blob/master/_lessons/lessons/00_markdown">HERE</a> is a quick and straightforward resource on creating a lesson in Markdown.</li>
+	  <li>Contributing a <B>Markdown slideshow</B> would take a little more work because you would have to format and write your lesson in Markdown.</li>
 		<ul>
       <li>creating a Markdown slideshow allows viewers to play the slideshow directly from the webpage. No downloading necessary!</li>
     </ul>
@@ -70,7 +70,7 @@ Here is where you have to determine which category your submission falls under:
 
 <details>
 <summary>Instructions</summary>
-<p><b>The following information is needed when submitting educational materials to the data management hub:</b></p>
+<p><b>The following information is needed when submitting educational materials to the Data Management Skillbuilding Hub:</b></p>
 
 <ul>
   <li><B>title:</B>The full title of your best practice</li>
@@ -192,7 +192,7 @@ Name your file for the first three words of the title, separated by dashes, and 
 
 <B>9. <i>[Optional Step]</i> Adding images</B>
 <ul>
-    <li>If your best practice includes images in it, you must upload them to <B><i>your fork</i></B> of GitHub's Education Repository.</li>
+    <li>If your best practice includes images in it, you must upload them to <B><i>your fork</i></B> of the Education Repository.</li>
     <li>Go to <i><B>Education\_bestpractices\bestpractices\images</B></i> in your fork</li>
     <li>Upload your image to the <i>"images"</i> folder, and give each image a unique identifier.</li>
       <ul>
@@ -217,7 +217,7 @@ Name your file for the first three words of the title, separated by dashes, and 
 
 <details>
 <summary>Instructions</summary><br>
-<p><b>The following information is needed when submitting educational materials to the data management hub:</b></p>
+<p><b>The following information is needed when submitting educational materials to the Data Management Skillbuilding Hub:</b></p>
 <ul>
   <li><B>title:</B>The full title of your lesson</li>
   <li><B>author:</B> a list of authors that created the lesson</li>
@@ -232,8 +232,8 @@ Name your file for the first three words of the title, separated by dashes, and 
       <li>Click <a href="#tags">here</a> for a list of currently existing tags</li>
     </ul>
   <li><B>categories:</B> this must be listed as <i><B>["Teaching Module"]</B></i></li>
-  <li><B>previous lesson:</B></li>
-  <li><B>next lesson:</B></li>
+  <li><B>previous lesson:</B>The name of the previous lesson according to its numeric assignment.<a href="https://github.com/DataONEorg/Education/tree/master/_lessons/lessons">Click here to see the current list of lessons.</a></li>
+  <li><B>next lesson:</B>The name of the following lesson according to its numeric assignment</li>
   <li><B>handout:</B> <i>[Optional]</i> If you have a handout to contribute, paste the exact name of the handout here as well as its extension</li>
   <li><B>powerpoint:</B> The exact name of your powerpoint followed by its extension</li>
   <li><B>exercise:</B> <i>[Optional] </i>If you have an exercise to contribute, paste the exact name of the exercise here as well as its extension</li>
@@ -326,7 +326,28 @@ With a lesson, you will have to submit multiple items. Consequently, you must fi
 <B>8. Add your lesson and other files to your lesson folder</B>
 <ul>
   <li>Go to your lesson folder, and click <B><i>"Upload Files"</i></B>. Then just drag and drop your powerpoint, as well as any exercises or handouts that you have to contribute!</li>
-</ul>
+	<ul>
+		<li>File naming convention for <B>slideshows</B> is as follows:</B></li> 
+		<ul>
+			<li><i>(your lesson number)</i><B>_</B><i>(your lesson topic)</i><B>.</B><i>(your file extension)</i></li>
+			<li>For example: <B>01_management.pdf</B></li>
+		</ul>
+		<li>File naming convention for <B>handouts/exercises</B> is as follows:</li> 
+		<ul>
+			<li><B>L</B><i>(your lesson number)</i><B>_</B><i>(your lesson topic)</i><B>_</B><i>(handout/exercise)</i><B>.</B><i>(your file extension)</i></li>
+			<li>For example: <B>L01_management_handout.pdf</B> or <B>L01_management_exercise.pdf</B></li>
+		</ul>
+		<li>File naming convention for <B>supplementary data</B> is as follows:</li>
+		<ul>
+			<li><B>Datafiles_L</B><i>(your lesson number)</i><B>.</B><i>(your file extension)</i></li>
+			<li>For example: <B>Datafiles_L01.zip</B></li>
+		</ul>
+	</ul>
+	<li>If you want to contribute a slideshow in markdown, click <B><i>"Create New File"</i></B> and name it <i><B>slides.md</B></i>.
+	  <ul>
+		  <li>Markdown is an <i>extremely lightweight, easy-to-read, easy-to-write, and easy-to-learn</i> language! <a href="https://github.com/saraneh/Education/blob/master/_lessons/lessons/00_markdown">HERE</a> is a quick and straightforward resource on creating a lesson in Markdown.</li>
+	  </ul>
+	  </ul>
 
 <B>9. Uploading your organization's logo</B>
 <ul>
@@ -352,7 +373,7 @@ With a lesson, you will have to submit multiple items. Consequently, you must fi
 
 <details>
 <summary>Instructions</summary><br>
-<p><b>The following information is needed when submitting educational materials to the data management hub:</b></p>
+<p><b>The following information is needed when submitting educational materials to the Data Management Skillbuilding Hub:</b></p>
 <ul>
   <li><B>title:</B>The full title of your lesson</li>
   <li><B>layout:</B> is always <i><B>video_cover</B></i></li>

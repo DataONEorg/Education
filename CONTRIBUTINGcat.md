@@ -8,7 +8,7 @@ layout: generic
 > **Items necessary for this step:**      
 > - [x] your own GitHub account online     
 
-<details>
+<details open>
 <summary>Instructions</summary>
 <br>
 

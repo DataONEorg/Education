@@ -2,154 +2,71 @@
 title: Contributing to Lessons
 layout: generic
 ---
+# What are you submitting?   
+---     
+At DataONE, educational materials fall into three categories:    
+<ul>
+  <ol>
+    <B><li>best practice</li>     
+    <li>lesson</li>      
+    <li>video</li></B>
+    </ol>     
+ </ul>
+ Each of these three types has a unique submission process, so you must determine which category your submission classifies as.<br><br>   
 
-# Guidelines for contributors and content editors
+# Best Practice
+---           
+<a href="url"><img src="https://drive.google.com/uc?export=view&id=1p6_lvTJ-SLWhkkRFpXbOjmY7TsAJf9dT" align="right" height="" width="290" hspace="20"></a>
 
-This document details our recommended processes to [update current content](#update), [suggest changes to content](#suggest), and [fork content for your own use](#fork), as well as an introduction to [how the content is organized](#structure) and the [tools we use to display content](#tools).
+<ul>
+  <li>A <B>best practice</B> is a method or approach that is recognized by a community as the best or most appropriate way of acquiring, managing, analyzing, and sharing data.</li>
+  <li>A best practice communicates a <B><i>single idea</i></B> and can be likened to a single bulletin point on a topic, whereas a lesson will contain multiple points and ideas on a topic.</li>
+  <li>Consequently, a best practice is a <B>shorter, less involved</B> submission type.</li>
+  <li>A best practice is a single-document submission written in Markdown <i><B>(example given on the right)</B></i>.</li>
+  <li>Overall, a best practice should include four short sections covering the following:</li>
+    <ol>
+      <li>the <B>best practice</B> itself</li>
+      <li>a <B>description rationale</B> behind the best practice</li>
+      <li><B>additional information</B>, usually a citation of an article or website where you can learn more about the best practice</li>
+      <li><B>examples</B></li>
+    </ol>
+</ul>
 
-This repository was developed by the DataONE Community Engagement and Outreach Working Group and continues to be maintained by members of this team. Thank you for your interest in contributing to these educational materials.
+<form style="display: inline;" action="/Education/CONTRIBUTINGcat" method="get">
+  <button style="font-size:150%;">Click here to learn how to submit a best practice</button></form><br>
 
+# Lesson
 ---
+<a href="url"><img src="https://drive.google.com/uc?export=view&id=1gGOfc51-FmmfTEJDHTbdzbIc7erdTrzb" align="right" height="" width="340" hspace="10"></a>
 
-## Update current content <a id="update"></a>
-Want to update a link or method? See a spelling error? Changes can be easily proposed by opening the [GitHub Education page](http://github.com/DataONEorg/Education) and editing content directly. For help, try this brief [GitHub tutorial](https://guides.github.com/activities/forking/) on forking and editing content.
+<ul>
+<li> A <B>lesson</B> is most commonly a slideshow on a subject. It is an <B>in-depth guide</B> for learning a specific topic and is developed with <B>learning objectives</B> in mind.</li>
+<li> Consequently, a lesson may involve <B>multiple contributions</B> including, <i>but not limited to</i>, the following:</li>
+  <ul>
+    <li>a powerpoint</li>
+    <li>a handout</li>
+    <li>an exercise</li>
+    <li>supplementary data</li>
+  </ul>
+<li> In order for your submission to be considered as a lesson, you have to contribute <B><i>at least</i></B> a slideshow, a handout, or an exercise, or <B><i>any combination</i></B> of these things.</li>
+</ul>
 
-### Edit content
+<form style="display: inline;" action="/Education/CONTRIBUTINGlesson" method="get">
+  <button style="font-size:150%;">Click here to learn how to submit a lesson</button></form><br>
 
-1. Create a fork of the [lessons](https://github.com/DataONEorg/Education/tree/master/_lessons) or [best practices](https://github.com/DataONEorg/Education/tree/master/_bestpractices) repository into your github account, depending on which content you wish to edit.
-2. Modify the files that you want to change ([See "Structure" below for tips on making changes](#structure)).
-3. Submit a pull-request against the `master` branch of this repository.
-4. Your changes will be reviewed by the repository admins.
+# Video
+---
+<a href="url"><img src="https://drive.google.com/uc?export=view&id=1Rdb2IzCpits4QVmnVE3KZayshEnFhsue" align="right" height="" width="340" hspace="10"></a>
 
-### Page not rendering?
+<ul>
+  <li> There are various types of educational <B>videos</B> which can be contributed including, <i>but not limited to</i>, the following:</li>
+  <ul>
+    <li> <B>Screencast tutorials:</B> a <a href="https://www.youtube.com/watch?v=EjUFVo2G1wY" target="_blank junk=_">video</a> which is a recording of someone's computer screen, usually also accomplanied by a voice recording</li>
+    <li> <B>Webinars:</B> A <a href="https://www.youtube.com/watch?v=IwZUTAnR-_M" target="_blank junk=_">video</a> format that stands for "web seminar." This usually involves a screen recording going through a powerpoint along with a voice-over explaining the concepts in the slides.</li>
+    <li> <B>Animations:</B> an <a href="https://www.youtube.com/watch?v=PWutnWBfUSw" target="_blank junk=_">video</a> in which concepts are explained using animations</li>
+  </ul>
+  </ul>
 
-Check that the `title` field of the YAML header (the first line of each
-lesson) is in quotes.
-
-## Suggest changes to content <a id="suggest"></a>
-
-1. Open an [*Issue*][issue] on this repository.
-2. Provide your suggested changes with as much detail and guidance as possible. Be specific.
-3. Your suggestions will be reviewed by the repository admins.
-4. Changes will be pushed to the repository by the repository admins regularly/as needed.
-
-[issue]: https://github.com/DataONEorg/Education/issues
-
-## Fork content for your own use <a id="fork"></a>
-
-Fork and edit content through GitHub, rather than editing privately, to enable others to use your edited content and to track how these materials are used.
-
-1. Create a fork of the  [lessons](https://github.com/DataONEorg/hub_lessons/tree/23581c038ba70cf727ea2c31a6332fc57e49bccc/lessons) or [best practices](https://github.com/DataONEorg/hub_bestpractices/tree/b10d396c32d34385d2f5a7cfe5b2fdc1e4130352/bestpractices) repository into your github account
-2. Modify the files that you want to change ([See "Structure" below for tips on making changes](#structure))
-
-___
-
-## Structure of the education materials <a id="structure"></a>
-
-All of the content is generated from markdown documents. These guidelines will walk you through the repository organization, the markdown basics, and any additional information.
-
-### Repository organization
-
-The content linked to each tile on the home page is held within a single folder in the `best practices` or `lessons` directory.
-
-## For Best Practices:
-Each best practice can be found in the _bestpractices folder. `best practices` are named for the first three words of their title, separated by hyphens. Instructions for creating new best practices can be found in the [How to Write](_bestpractices/bestpractices/how-to-write.md) best practice example.
-
-## For Teaching Modules:
-Teaching module are found in the folder called [lessons](_lessons), and each teaching module `lessons` folder is called `XX_keyword`, where `XX` is the order content is displayed via tiles on the home page, and `keyword` is
-a brief description of the content. Edits can be made to the descriptive information contained in the `lesson_cover.md` (the page that opens when a tile is selected on the home page).  If education materials include slides, these slides are in a file called `slides.md`. Do not use another filename. For example, the [demonstration lesson][demolessonhtml] markdown file can be [viewed here][demolessonmd]. This demonstration lesson showcases most of the features you can use if publishing slides.
-
-[demolessonhtml]: https://dataoneorg.github.io/Education/lessons/00_markdown/index.html "Rendered demonstration lesson"
-[demolessonmd]: https://github.com/DataONEorg/Education/blob/master/lessons/00_markdown/index.md "Raw markdown file for the demonstration lesson"
-
-You are free to add other directories to your lesson. Images go in `images`, and PDF files in `pdf`. For example, a lesson repository could look like:
-
-~~~
-01_management/
-  index.md
-  index.png
-  images/
-    image1.png
-    image3.jpg
-  pdf/
-    one-pager.pdf
-~~~
-
-## Information about the tools used <a id="tools"></a>
-
-The markdown documents are rendered into a website using [*Jekyll*][jekyll]. When sharing presentations, slides
-themselves are rendered using [*remarkjs*][remark]. The rendering is done using GitHub
-pages, which builds the site from the `master` branch. You can build the site
-locally with `jekyll serve -w`, and it will be available at
-[`http://localhost:4000`][local] for you to review.
-
-[jekyll]: https://jekyllrb.com/ "Jekyll website"
-[remark]: https://remarkjs.com/#1 "RemarkJS website"
-[local]: http://localhost:4000
-
-The stylesheets are defined in `resources/styles`, and rendered to
-`resources/dataone.css` using `lessc` (just type `make` from the root).
-
-
-## Working with the liquid tags
-
-A few hints for working with Liquid tags, which are the tags using in the
-templates.
-
-Whitespace can be controlled by adding a `-` to the opening and/or closing
-liquid tag. e.g.
-
-```
-{% assign blah="foo" %}
-```
-
-Would result in a newline being output, whereas:
-
-```
-{%- assign blah="foo" %}
-```
-
-would not.
-
-
-List the available collections:
-
-```
-{%- for collection in site.collections %}
-  {{ collection.label }}
-{%- endfor %}
-```
-
-The lesson collection is a bit odd because we need to treat each folder as an
-item, but Jekyll treats each file as an item. Metadata from both the
-`slides.md` and `index.md` is used in rendering, but it takes a bit of extra
-work to get those metadata attributes when rendering a page.
-
-From the context of the index page, the slides page can be accessed as follows:
-
-```
-{%- assign slides_id = page.id | split: "/" | slice: 0,3 | join: "/" | append: "/slides" %}
-{%- assign slides = site[ page.collection ] | where: 'id', slides_id | first %}
-{{ slides.title }}
-```
-
-Similarly, from the slides page, the index can be accessed:
-
-```
-{%- assign index_id = page.id | split: "/" | slice: 0,3 | join: "/" | append: "/index" %}
-{%- assign index = site[ page.collection ] | where: 'id', index_id | first %}
-{{ index.tags }}
-```
-
-To get a list of tags used in a collection, include the `collection_tags.html`
-file using a liquid tag like:
-
-```
-{% include collection_tags.html the_collection="bestpractices" %}
-```
-where the value of the `the_collection` property is the name of the collection
-to evaluate. The list of tags will then be available as the `tags` liquid
-variable.
-
-
-Thank you for your interest in making these data management education modules more useful!
+<form style="display: inline;" action="/Education/CONTRIBUTINGvideo" method="get">
+<button style="font-size:150%;">Click here to learn how to submit a video</button></form>
+<br>     

@@ -6,7 +6,13 @@ org_url: http://www.dataone.org
 org_logo: DataONE.png
 update: 2017-04-06
 layout: lesson_cover
-tags: ["Data Management", Describe, Discover, Cite]
+tags:
+  - data management
+  - cite
+  - DataONE teaching module
+step:
+  - describe
+  - discover
 categories: ["Teaching Module"]
 status: published
 prevlesson: 07_metadata

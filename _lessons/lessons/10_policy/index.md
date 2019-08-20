@@ -6,7 +6,12 @@ org_url: http://www.dataone.org
 org_logo: DataONE.png
 update: 2017-04-06
 layout: lesson_cover
-tags: ["Data Management", Policy, Plan]
+tags:
+  - data management
+  - policy
+  - DataONE teaching module
+step:
+  - plan
 categories: ["Teaching Module"]
 status: published
 prevlesson: 09_analysis

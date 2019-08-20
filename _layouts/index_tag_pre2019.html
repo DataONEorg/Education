@@ -279,18 +279,12 @@
 {%- endif %}
 
 <div style="width:90%; padding:20px; margin:0px 0px 20px 42px; ">
-    <p>
-      The Data Management Skillbuilding Hub is a repository for <B><i>open educational resources</i></B> regarding data management, meaning that it is a collection of learning resources freely contributed by anyone willing to share them. Materials such as <i><B>lessons, best practices, and videos,</B></i> are stored in the <a href="https://github.com/DataONEorg/Education">DataONEorg GitHub repository</a> as well as searchable through the <a href="http://dmtclearinghouse.esipfed.org/">Data Management Training Clearinghouse</a>. We invite you submit your own educational resources so that the Data Management Skillbuilding Hub can remain an up-to-date and sustainable educational tool for all to benefit from.
-      You can easily contribute learning materials to DataONE via GitHub online.
-      <br/> <br/>
+    <p>The Data Management Skillbuilding Hub contains resources for better data management and is open to community input and update. These resources are adaptable across a range of contexts and intended for use by researchers, teachers, librarians, or anyone who wants to learn better data management practices. Each tile below links to community contributed education materials, such as best practices and lesson plans <br /> <br />
 
-      <div>
+      The resources presented on the Data Management Skillbuilding Hub can be updated by users to promote a current, well-maintained, and sustainable educational tool.
 
-        <form style="display: inline;" target="_blank"  action="/Education/CONTRIBUTING" method="get">
-          <button style="font-size:150%;"> Contribute Here! </button></form> 
 
-      </div>
-      <br/>
+       Learn more about how you can <a href="/Education/CONTRIBUTING">contribute</a>.</p>
 
 </div>
 
@@ -347,6 +341,31 @@
       <div class="twelve columns">
         <ul class="courses" id="mix-wrapper">
 
+  <!-- code for pulling the lesson tiles to the landing page-->
+          {% for lesson in site.lessons %}
+            {% unless lesson.hide %}
+            {% assign ldeck = lesson.url | split: '/' %}
+            {% if ldeck.last == 'index' and ldeck[1] == 'lessons' and ldeck.size > 3 %}
+              {% assign ldeck = ldeck[2] %}
+              {% assign catclasses = "" %}
+              {% for cat in lesson.categories %}
+                {% assign cleancat = cat | downcase | replace: ' ', '_' %}
+                {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
+              {% endfor %}
+
+              {% assign tagclasses = "" %}
+              {% for tag in lesson.tags %}
+                {% assign cleantag = tag | downcase | replace: ' ', '_' %}
+                {% assign tagclasses = tagclasses | append: ' ' | append: cleantag %}
+              {% endfor %}
+
+              <li class="mix-target {{ catclasses }} {{ tagclasses }}"
+                  data-order="{{ ldeck }}"
+                  data-year="4">
+                  <a href="{{ site.baseurl }}/lessons/{{ ldeck }}/index.html"><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/index.png"></a></li>
+            {% endif %}
+            {% endunless %}
+          {% endfor %}
 
   <!-- code for pulling the best practice tiles to the landing page-->
           {% for step in site.life_cycle_steps %}
@@ -357,16 +376,7 @@
               <a href="{{ site.baseurl }}/bp_step/{{ step }}"><img src="{{ site.baseurl }}/bestpractices/images/{{ step }}.png"></a></li>
           {% endfor %}
 
-  <!-- code for pulling the best practice tiles to the landing page-->
-          {% for step in site.life_cycle_steps %}
 
-          <li class="mix-target teaching_module {{ step }}"
-              data-order="{{ step }}"
-              data-year="4">
-              <a href="{{ site.baseurl }}/lessons/lesson_step/{{ step }}"><img src="{{ site.baseurl }}/lessons/images/l_{{ step }}.png"></a></li>
-          {% endfor %}
-
-  <!-- code for pulling the video tiles to the landing page-->
           {% for video in site.videos %}
             {% unless video.hide %}
             {% assign item = video.url | split: '/' %}

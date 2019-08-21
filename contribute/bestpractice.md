@@ -3,34 +3,38 @@ title: Contributing to Lessons
 layout: generic
 ---
 # Contributing a Best Practice to the Data Management Skillbuilding Hub  
+
 ###  Step One: Forking DataONEorg's Education Repository    
 ---
 > **Items necessary for this step:**      
 > - [x] your own GitHub account online     
 
+<head>
+<style> .indented { padding-left: 50pt; padding-right: 50pt; } </style>
+</head>
+
 <details>
 <summary style="color:teal;"><B>Instructions</B></summary>
 <br>
 
-<B>Forking a repository</B><br>
-To submit content to the Skillbuilding Hub, you need to first <B>create a fork</B> of DataONEorg's Education repository. This means you will be creating <B><i>your own private copy</i></B> of the Education repository and storing it in your <B><i>GitHub account online</i></B>. Here, <i><B>in your fork</B></i>, you can edit and upload content <B><i>without affecting the original</i></B>.<br>
+<B><img src="https://drive.google.com/uc?export=view&id=1IrXJwH3BoS_Zpb5MZi04YMjqeFHvQBTU" align="center" height="" width="5%" > Forking a repository</B><br>
+To submit content to the Skillbuilding Hub, you need to first <B>create a fork</B> of DataONEorg's Education repository. This means you will be creating <B><i>your own private copy</i></B> of the Education repository and storing it in your <B><i>GitHub account online</i></B>. Here, <i><B>in your fork</B></i>, you can edit and upload content <B><i>without affecting the original</i></B>.The forking process will take a few minutes at most. Once you've perfected your changes, you will later <B>merge</B> the changes you have made back into the original repository.<br><br>
 
-<br><B>The forking process will take a few minutes at most.</B> Once you've perfected your changes, you will later <B>merge</B> the changes you have made back into the original repository.<br><br>
+<B>1. Create an account online at <img src="https://drive.google.com/uc?export=view&id=1ovyl_eW1AhSYCqEsp8jsb0VsPebNT0EG" align="center" height="" width="1.5%" > <a href="https://github.com" target="_blank" junk="_">GitHub</a>, if you don't already have one.</B><br><br><br>
 
-<B>1.<a href="https://github.com/DataONEorg/Education" target="_blank" junk="_"> To start the forking process, go to DataONEorg's Education repository</a></B><br><br><br>
+<B>2. To start the forking process, go to DataONEorg's <a href="https://github.com/DataONEorg/Education" target="_blank" junk="_">Education repository</a>.</B><br><br><br>
 
-<B>2. In the right hand corner of DataONEorg's Education repository, click the "fork" button.</B>
+<B>3. In the right hand corner of DataONEorg's Education repository, click the "fork" button.</B>
 
 <ul>
   <li>Make sure you are logged into your GitHub account before you press fork.</li>
 </ul>
 
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=1KJ3kvkiB0WbixBEfN54GuGWhgLs-qYC6" align="center" height="" width="760" ></a>
-<br><br>
+<img src="https://drive.google.com/uc?export=view&id=1KJ3kvkiB0WbixBEfN54GuGWhgLs-qYC6" align="center" height="" width="800" class="indented"><br><br>
 
-<B>3. The forking process is complete!</B> Check "your repositories" in your account to make sure the Education repository was successfully forked.<br><br>
+<B>4. The forking process is complete!</B> Check "your repositories" in your account to make sure the Education repository was successfully forked.<br><br>
 
-<B>4. Download a PNG file of your organization's logo onto your computer</B>
+<B>5. Download a PNG file of your organization's logo onto your computer</B>
 <ul>
   <li>If you are associated with a university, company, or other organization you must include their logo along with your submission.</li>
   <li>Once you have downloaded the logo, make sure to name the .PNG after your organization</li>
@@ -39,6 +43,7 @@ To submit content to the Skillbuilding Hub, you need to first <B>create a fork</
 </details>
 
 ### Step Two: Submittting the Best Practice
+---
 ---
 > **Items necessary for this step:**     
 > - [x]  a text file (e.g. a Word document, Notepad, Google Docs, any text editor, etc.)
@@ -134,13 +139,15 @@ Now your frontmatter information is completed. <B><i>Save your text file</i></B>
 
 <ul>
   <li>Go to <i>`(yourGitHubAccount)/Education/_bestpractices/bestpractices`</i> and click <B>Create New File</B>, located in the upper right-hand corner</li>
-</ul>
+</ul><br>
 
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=1jZoNdFphcUKkZjeapXBaSOY1XqxYsaLL" align="center" height="" width="760" ></a><br>
+<img src="https://drive.google.com/uc?export=view&id=1jZoNdFphcUKkZjeapXBaSOY1XqxYsaLL" align="center" height="" width="800" class="indented"><br>
 
 <B>4. Name your file</B><br>      
 Name your file for the first three words of the title, separated by dashes, and followed by the <i>.md</i> extension.<br>
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=1nqZEBbS3ExggE45a08CevTBZDGEsLxno" align="center" height="" width="760" ></a><br>
+
+<img src="https://drive.google.com/uc?export=view&id=1nqZEBbS3ExggE45a08CevTBZDGEsLxno" align="center" height="" width="800" class="indented"><br>
+
 
 <B>5. Copy the "frontmatter" saved in your text file from Step One and paste it here into the markdown (.md) file</B>
   <ul>
@@ -164,7 +171,7 @@ Name your file for the first three words of the title, separated by dashes, and 
   <li>Scroll to the bottom of your markdown document to commit your changes</li>
   <li><B><i>Committing</i></B> will submit the markdown file to <B><i>your</i></B> fork of the Education repository</li>
 </ul>
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=1iWHzkS8vBX8svyqwiMG50K093eWCUx9y" align="center" height="" width="760" ></a><br>
+<img src="https://drive.google.com/uc?export=view&id=1iWHzkS8vBX8svyqwiMG50K093eWCUx9y" align="center" height="" width="800" class="indented"><br><br>
 
 <B>8. Uploading your organization's logo</B>
 
@@ -174,7 +181,7 @@ Name your file for the first three words of the title, separated by dashes, and 
   <li>Commit your change</li>
 </ul>
 
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=1titY7LpTJ5BLeG8OMF-V7eU2cKVHk3jd" align="center" height="" width="760" ></a><br><br>
+<img src="https://drive.google.com/uc?export=view&id=1titY7LpTJ5BLeG8OMF-V7eU2cKVHk3jd" align="center" height="" width=800 class="indented" ><br><br>
 
 <B>9. <i>[Optional Step]</i> Adding images</B>
 <ul>
@@ -191,6 +198,7 @@ Name your file for the first three words of the title, separated by dashes, and 
 
 ### Step Three: Creating a Pull Request
 ---
+---
 <details>
 <summary style="color:teal;"><B>Instructions</B></summary>
 
@@ -200,18 +208,21 @@ Name your file for the first three words of the title, separated by dashes, and 
   <li><i>Do not complete this step until <B>all</B> of the materials necessary for your submission have already been uploaded to GitHub!</i></li>
 </ul>
 
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=1LEJnnxkd2Ds8oOZPpbjUxQNqF3h1NjSl" align="center" height="" width="760" ></a>
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=1lmQpXfFXSgGT7M4_mbz4U73E44KdNwqD" align="center" height="" width="760" ></a><br>
+<img src="https://drive.google.com/uc?export=view&id=1LEJnnxkd2Ds8oOZPpbjUxQNqF3h1NjSl" align="center" height="" width="760" >
+<img src="https://drive.google.com/uc?export=view&id=1lmQpXfFXSgGT7M4_mbz4U73E44KdNwqD" align="center" height="" width="760" ><br>
 
 <B>That's it! You have completed all the steps.</B> Once someone has approved your pull request, you will be able to find your submission in DataONE's repository.
 <br>
 </details>
+
 ### How is the Data Management Skillbuilding Hub website created?
+---
 ---
 The educational resources that exist in DataONE's GitHub repository are rendered into the Data Management Skillbuilding Hub webpage using Jekyll. When sharing presentations, slides themselves are rendered using remarkjs. The rendering is done using GitHub pages, which builds the site from the master branch. You can build the site locally with jekyll serve -w, and it will be available at http://localhost:4000 for you to review.
 
 The stylesheets are defined in resources/styles, and rendered to resources/dataone.css using lessc (just type make from the root).
 
 ### <a name="tags"></a>Existing Tags
----    
+---   
+---
 access, analyze, annotation, assure, backup, calibration, citation, coding, collect, controlled vocabulary, data archives, data consistency, data creators, data management plan, data model, data normalization, data processing, data quality, data services, data source, data sources, database, date, describe, disaster, recovery, discover, documentation, file, system, flag, format, geography, geospatial, image, integrate, location, measurement, metadata, missing, values, ontologies, parameter, plan, preserve, provenance, qualify, quality, replicable data, restore, standards, storage, tabular, taxonomy, terminology, time, units

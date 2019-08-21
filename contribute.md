@@ -16,7 +16,7 @@ At DataONE, educational materials fall into three categories:
 
 # Best Practice
 ---           
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=1p6_lvTJ-SLWhkkRFpXbOjmY7TsAJf9dT" align="right" height="" width="290" hspace="20"></a>
+<img src="https://drive.google.com/uc?export=view&id=1p6_lvTJ-SLWhkkRFpXbOjmY7TsAJf9dT" align="right" height="" width="290" hspace="20">
 
 <ul>
   <li>A <B>best practice</B> is a method or approach that is recognized by a community as the best or most appropriate way of acquiring, managing, analyzing, and sharing data.</li>
@@ -33,11 +33,11 @@ At DataONE, educational materials fall into three categories:
 </ul>
 
 <form style="display: inline;" action="/Education/contribute/bestpractice" method="get">
-  <button style="font-size:150%;">Click here to learn how to submit a best practice</button></form><br>
+  <button style="font-size:150%;">Submit a best practice</button></form><br>
 
 # Lesson
 ---
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=1gGOfc51-FmmfTEJDHTbdzbIc7erdTrzb" align="right" height="" width="340" hspace="10"></a>
+<img src="https://drive.google.com/uc?export=view&id=1gGOfc51-FmmfTEJDHTbdzbIc7erdTrzb" align="right" height="" width="340" hspace="10">
 
 <ul>
 <li> A <B>lesson</B> is most commonly a slideshow on a subject. It is an <B>in-depth guide</B> for learning a specific topic and is developed with <B>learning objectives</B> in mind.</li>
@@ -52,11 +52,11 @@ At DataONE, educational materials fall into three categories:
 </ul>
 
 <form style="display: inline;" action="/Education/contribute/lesson" method="get">
-  <button style="font-size:150%;">Click here to learn how to submit a lesson</button></form><br>
+  <button style="font-size:150%;">Submit a lesson</button></form><br>
 
 # Video
 ---
-<a href="url"><img src="https://drive.google.com/uc?export=view&id=1Rdb2IzCpits4QVmnVE3KZayshEnFhsue" align="right" height="" width="340" hspace="10"></a>
+<img src="https://drive.google.com/uc?export=view&id=1Rdb2IzCpits4QVmnVE3KZayshEnFhsue" align="right" height="" width="340" hspace="10">
 
 <ul>
   <li> There are various types of educational <B>videos</B> which can be contributed including, <i>but not limited to</i>, the following:</li>
@@ -68,5 +68,5 @@ At DataONE, educational materials fall into three categories:
   </ul>
 
 <form style="display: inline;" action="/Education/contribute/video" method="get">
-<button style="font-size:150%;">Click here to learn how to submit a video</button></form>
+<button style="font-size:150%;">Submit a video</button></form>
 <br>     

@@ -1,5 +1,5 @@
 ---
-title: Contributing to Lessons
+title: Contribute
 layout: generic
 ---
 # What are you submitting?   

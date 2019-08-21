@@ -74,23 +74,6 @@ description: Layout for creating a single page with all best practices under one
     <h3><i>Using This Resource</i></h3>
     <p> Filter to search for Best Practices. You can limit resources by content type and <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a> stage. Comprehensive information is available in the <a href="./faq.html">FAQ</a>. </p>
 
-      {% if site.show_content_type_filter == 1 %}
-      <div class="row">
-        <div class="twelve columns">
-          <div id="filterbuttons" style="margin-left:0px;">
-            &#187; Filter by content type:
-            <a href="#" class="filterbutton" data-filter="all">All</a>
-            {% for cat in cats %}
-              {%- assign category_label = cat | downcase | replace: ' ','_' %}
-              {%- if category_label != "technical_tutorial" %}
-                <a href="#" class="filterbutton btn_{{ category_label }}" data-filter=".{{ category_label }}">{{ cat }}</a>
-              {%- endif %}
-            {% endfor %}
-          </div>
-        </div>
-      </div>
-      {% endif %}
-
     <div class="row">
       <div class="twelve columns">
         <div style="margin-left:0px; " >

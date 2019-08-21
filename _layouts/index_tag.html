@@ -225,6 +225,7 @@
 
 
 
+
   </style>
 
 </head>
@@ -342,28 +343,37 @@
   </div>
 </div>
 
+<!--
+   <div class="row">
+      <div class="twelve columns">
+        <ul class="courses" id="mix-wrapper">
+<li><a href="{{ site.baseurl }}/contribute"><img src="{{ site.baseurl }}/bestpractices/contribute/images/assure.png"></a></li>
+<li><a href="{{ site.baseurl }}/bp_stages"><img src="{{ site.baseurl }}/bestpractices/images/assure.png"></a></li>
+<li><a href="{{ site.baseurl }}/lessons/lesson_step/assure"><img src="{{ site.baseurl }}/lessons/images/l_assure.png"></a></li>
+<li><a href="{{ site.baseurl }}/videos/video_step/assure"><img src="{{ site.baseurl }}/videos/images/v_assure.png"></a></li>
+</ul>
+</div>
+</div> -->
+
 
     <div class="row">
       <div class="twelve columns">
         <ul class="courses" id="mix-wrapper">
-
-
   <!-- code for pulling the best practice tiles to the landing page-->
           {% for step in site.life_cycle_steps %}
-
           <li class="mix-target best_practice {{ step }}"
               data-order="{{ step }}"
               data-year="4">
               <a href="{{ site.baseurl }}/bp_step/{{ step }}"><img src="{{ site.baseurl }}/bestpractices/images/{{ step }}.png"></a></li>
           {% endfor %}
 
-  <!-- code for pulling the best practice tiles to the landing page-->
+  <!-- code for pulling the lesson tiles to the landing page-->
           {% for step in site.life_cycle_steps %}
 
           <li class="mix-target teaching_module {{ step }}"
               data-order="{{ step }}"
               data-year="4">
-              <a href="{{ site.baseurl }}/lessons/lesson_step/{{ step }}"><img src="{{ site.baseurl }}/lessons/images/l_{{ step }}.png"></a></li>
+              <a href="{{ site.baseurl }}/lesson_step/{{ step }}"><img src="{{ site.baseurl }}/lessons/images/l_{{ step }}.png"></a></li>
           {% endfor %}
 
   <!-- code for pulling the video tiles to the landing page-->

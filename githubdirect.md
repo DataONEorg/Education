@@ -11,9 +11,9 @@ layout: generic
 
 <div>
 
-  <form style="display: inline;" target="_blank"  action="https://github.com/DataONEorg/Education/tree/master/_lessons" method="get">
+  <form style="display: inline;" target="_blank"  action="https://github.com/DataONEorg/Education/tree/master/_lessons/lessons" method="get">
     <button style="font-size:150%;"> Teaching Module </button></form>   
-    <form style="display: inline;" target="_blank"  action="https://github.com/DataONEorg/Education/tree/master/_bestpractices" method="get">
+    <form style="display: inline;" target="_blank"  action="https://github.com/DataONEorg/Education/tree/master/_bestpractices/bestpractices" method="get">
         <button style="font-size:150%;"> Best Practice </button></form>
 
 </div>

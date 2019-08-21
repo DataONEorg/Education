@@ -8,8 +8,8 @@ layout: generic
 > **Items necessary for this step:**      
 > - [x] your own GitHub account online     
 
-<details open>
-<summary>Instructions</summary>
+<details>
+<summary style="color:teal;"><B>Instructions</B></summary>
 <br>
 
 <B>Forking a repository</B><br>
@@ -45,8 +45,8 @@ To submit content to the Skillbuilding Hub, you need to first <B>create a fork</
 > - [x]  your organization's logo (.PNG only)
 > - [x] your lesson, and any additional files
 
-<details open>
-<summary><B>Instructions</B></summary><br>
+<details>
+<summary style="color:teal;"><B>Instructions</B></summary><br>
 
 <B>Creating the "frontmatter" file</B><br>
 
@@ -136,7 +136,7 @@ With a lesson, you will have to submit multiple items. Consequently, you must fi
 <ul>
   <li><B>The folder naming convention is as follows:</B> <i>(a number) _ (the name of your lesson)</i></li>
     <ul>
-      <li>The number at the beginning should be the next one in the sequence according to the number of lessons that already exist in the repository. <a href="https://github.com/DataONEorg/Education/tree/master/_lessons/lessons">Click here to see the current list of lessons.</a></li>
+      <li>The number at the beginning should be the next one in the sequence according to the number of lessons that already exist in the repository. <a href="https://github.com/DataONEorg/Education/tree/master/_lessons/lessons" target="_blank" junk="_">Click here to see the current list of lessons.</a></li>
     </ul>
   <li><B>To create the folder</B>, go to <i>`(yourGitHubAccount)/Education/_lessons/lessons`</i> and click <B>"Create New File"</B></li>
   <ul>
@@ -166,7 +166,7 @@ With a lesson, you will have to submit multiple items. Consequently, you must fi
 </ul>
 <a href="url"><img src="https://drive.google.com/uc?export=view&id=1J1MJUBcvpyMSRFGOKy8I2-JT2i6Vyb8v" align="center" height="" width="760" ></a><br>
 
-<B>7. Uploading lesson files</B>
+<B>7. Upload lesson files</B>
 <ul>
   <li>If you are contributing files that are already created, simply click <B><i>"Upload Files"</i></B> in the upper right-hand corner, and drag and drop all the files you are submitting.</li>
   <li><B>Before</B> you drag and drop your items, <B>rename</B> them so that they follow the correct <B>file naming convention.</B></li>
@@ -198,17 +198,21 @@ With a lesson, you will have to submit multiple items. Consequently, you must fi
 	  </ul>
 	 </ul><br>
 
-<B>8. Uploading your organization's logo</B>
+<B>8. Upload your organization's logo</B>
 <ul>
   <li>Go to `(yourGitHubAccount)/Education/_lessons/lessons/logos` in your fork of the Education repository.</li>
   <li>Click on "Upload Files" and drag your logo here.</li>
   <li>Commit your change</li>
 </ul>
+
 </details>
 
 ### <a name= "pullrequest"></a>Step Three: Creating a Pull Request
 ---
-***Creating a pull request*** means that you are requesting the original repository to *"pull"* or accept all the changes you just made.
+<details>
+<summary style="color:teal;"><B>Instructions</B></summary><br>
+
+<B><i>Creating a pull request</i></B> means that you are requesting the original repository to <B>"pull"</B> or accept all the changes you just made.
 
 <ul>
   <li><i>Do not complete this step until <B>all</B> of the materials necessary for your submission have already been uploaded to GitHub!</i></li>
@@ -220,6 +224,32 @@ With a lesson, you will have to submit multiple items. Consequently, you must fi
 <B>That's it! You have completed all the steps.</B> Once someone has approved your pull request, you will be able to find your submission in DataONE's repository.
 <br><br>
 
+</details>
+
+### Step Four: Submitting to the Data Management Training Clearinghouse
+---
+<details>
+<summary style="color:teal"><B>Instructions</B></summary>
+
+<B>The Data Management Training (DMT) Clearinghouse</B> is an online registry for learning resources regarding data management. In other words, listing your submission on the Clearinghouse is required because it increases the amount of people who discover and benefit from your submission.
+
+<ul>
+  <li>To submit to the Clearinghouse, you need:</li>
+    <ol>
+      <li>The <B>title</B> of your submission</li>
+      <li>The <B>URL</B> for your submission</li>
+        <ul>
+          <li>Your URL does not actually exist yet until the DataONEorg branch has approved your submission.</li>
+          <li>Once you have received an email that your submission has been merged with DataONEorg's repository, go to the <B><i>folder where your lesson</i></B> exists and use the folder address as the URL for submitting to the Clearinghouse.</li>
+        </ul>
+      </ol>
+  </ul><br>
+
+<a href="url"><img src="https://drive.google.com/uc?export=view&id=1Pvhh-cMX6ZbR3fuXSd4tGtB7_Ge9HQlL" align="center" height="" width="760" ></a><br><br>
+
+<button style="font-size:150%;" onclick="window.location.href = 'https://dmtclearinghouse.esipfed.org/submit';">Submit to the Clearinghouse</button>
+
+</details>
 ### How is the Data Management Skillbuilding Hub website created?
 ---
 The educational resources that exist in DataONE's GitHub repository are rendered into the Data Management Skillbuilding Hub webpage using Jekyll. When sharing presentations, slides themselves are rendered using remarkjs. The rendering is done using GitHub pages, which builds the site from the master branch. You can build the site locally with jekyll serve -w, and it will be available at http://localhost:4000 for you to review.

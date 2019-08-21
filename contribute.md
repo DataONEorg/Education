@@ -32,7 +32,7 @@ At DataONE, educational materials fall into three categories:
     </ol>
 </ul>
 
-<form style="display: inline;" action="/Education/CONTRIBUTINGcat" method="get">
+<form style="display: inline;" action="/Education/contribute/bestpractice" method="get">
   <button style="font-size:150%;">Click here to learn how to submit a best practice</button></form><br>
 
 # Lesson
@@ -51,7 +51,7 @@ At DataONE, educational materials fall into three categories:
 <li> In order for your submission to be considered as a lesson, you have to contribute <B><i>at least</i></B> a slideshow, a handout, or an exercise, or <B><i>any combination</i></B> of these things.</li>
 </ul>
 
-<form style="display: inline;" action="/Education/CONTRIBUTINGlesson" method="get">
+<form style="display: inline;" action="/Education/contribute/lesson" method="get">
   <button style="font-size:150%;">Click here to learn how to submit a lesson</button></form><br>
 
 # Video
@@ -67,6 +67,6 @@ At DataONE, educational materials fall into three categories:
   </ul>
   </ul>
 
-<form style="display: inline;" action="/Education/CONTRIBUTINGvideo" method="get">
+<form style="display: inline;" action="/Education/contribute/video" method="get">
 <button style="font-size:150%;">Click here to learn how to submit a video</button></form>
 <br>     

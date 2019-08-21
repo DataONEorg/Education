@@ -5,13 +5,11 @@ layout: generic
 # Contributing a Video to the Data Management Skillbuilding Hub
 ### Step One: Forking DataONEorg's Education repository
 ---
-
----  
 > **Items necessary for this step:**      
 > - [x] your own GitHub account online     
 
-<details open>
-<summary>Instructions</summary>
+<details>
+<summary style="color:teal"><B>Instructions</B></summary>
 <br>
 
 <B>Forking a repository</B><br>
@@ -47,8 +45,8 @@ To submit content to the Skillbuilding Hub, you need to first <B>create a fork</
 > - [x]  your organization's logo (.PNG only)
 > - [x] the embed link for your video
 
-<details open>
-<summary>Instructions</summary><br>
+<details>
+<summary style="color:teal"><B>Instructions</B></summary><br>
 
 <B>Submitting a Video</B><br>
 
@@ -192,12 +190,14 @@ With a video, you will have to create folder in your fork as well as a markdown 
   <li>Click on "Upload Files" and drag your logo here.</li>
   <li>Commit your change</li>
 </ul>
-
 </details>
 
 ### <a name= "pullrequest"></a>Step Three: Creating a Pull Request
 ---
-***Creating a pull request*** means that you are requesting the original repository to *"pull"* or accept all the changes you just made.
+<details>
+<summary style="color:teal"><B>Instructions</B></summary><br>
+
+<B><i>Creating a pull request</i></B> means that you are requesting the original repository to <B>"pull"</B> or accept all the changes you just made.
 
 <ul>
   <li><i>Do not complete this step until <B>all</B> of the materials necessary for your submission have already been uploaded to GitHub!</i></li>
@@ -207,8 +207,8 @@ With a video, you will have to create folder in your fork as well as a markdown 
 <a href="url"><img src="https://drive.google.com/uc?export=view&id=1lmQpXfFXSgGT7M4_mbz4U73E44KdNwqD" align="center" height="" width="760" ></a><br>
 
 <B>That's it! You have completed all the steps.</B> Once someone has approved your pull request, you will be able to find your submission in DataONE's repository.
-<br><br>
-
+<br>
+</details>
 
 ### How is the Data Management Skillbuilding Hub website created?
 ---

@@ -1,5 +1,5 @@
 ---
-title: Contributing to Lessons
+title: Contribute
 layout: generic
 ---
 # Contributing a Best Practice to the Data Management Skillbuilding Hub  

@@ -6,7 +6,12 @@ org_url: http://www.dataone.org
 org_logo: DataONE.png
 update: 2017-04-06
 layout: lesson_cover
-tags: ["Data Management", Preserve, Assure]
+tags:
+  - data management
+  - DataONE teaching module
+step:
+  - assure
+  - preserve
 categories: ["Teaching Module"]
 status: published
 prevlesson: 05_qaqc

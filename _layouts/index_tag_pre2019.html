@@ -1,0 +1,498 @@
+
+<!-- description: Layout for the home page, aka: main landing page, with tiles.  -->
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <script src="{{ site.baseurl }}/js/vendor/modernizr-2.8.3.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/resources/tags_index.css" />
+   <link rel="shortcut icon" href="https://dataone.org/sites/all/images/favicon.ico" type="image/vnd.microsoft.icon" />
+<!--
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></link>
+-->
+  <!-- link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap.min.css">
+  <link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-theme.min.css" -->
+  <!-- link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like_dropdowns.css" -->
+  <link rel="stylesheet" media="all" href="{{ site.baseurl }}/css/bootstrap-like-select.css"> <!-- https://codepen.io/ericrasch/pen/zjDBx -->
+
+
+
+
+
+<!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<![endif]-->
+
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{ site.analytics_code }}', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+  <style>
+  section img.mainimage {
+    float: left;
+    border:1px solid #888;
+    padding:5px;
+    margin:0px 20px 10px 0px;
+    }
+
+  body {
+    padding:0px; margin:0px;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+
+  a { color: #2285A0; text-decoration: none; }
+  a:visited { color: #2285a0; }
+  a:hover { color: #111; text-decoration: underline; }
+
+  section {
+    clear:both;
+    }
+
+  section h1 {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #660032;
+    }
+
+  article, footer {
+    margin:30px;
+    }
+
+  .topnav {
+    background-color: #660032;
+    overflow: hidden;
+    }
+
+    /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+
+    /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+
+    /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #2285A0;
+    color: white;
+    }
+
+  header {
+    border-bottom: 0px solid #660032;
+    background-color:#fff;
+    width:100%;
+    }
+
+  header img.pagelogo {
+    padding: 8px 83px 0px 15px;
+    float: right;
+    }
+
+  footer {
+    font-size: .8em;
+    bottom: 0;
+    }
+
+  header h1 {
+    top: 10px;
+    left: 0px;
+    right:40px;
+    margin-bottom: 8px;
+    text-align: left;
+    color: #660033;
+    font-weight: 700;
+    font-size: 212.5%;
+    }
+
+
+  h2 {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    font-style: normal;
+    font-style: normal;
+    font-size: 300%;
+    color: #660033;
+    font-weight: 600;
+    margin-left: 0px;
+    }
+
+  h3 {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-style: normal;
+    font-style: normal;
+    font-size: 120%;
+    color: #660033;
+    font-weight: 600;
+    margin-left: 0px;
+    }
+
+  p {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-style: normal;
+    font-style: normal;
+    font-size: 110%;
+    color: #000;
+    font-weight: 400;
+    }
+
+  a.filterbutton {
+    padding: .25em 2em .25em 2em;
+    margin-top: .5em;
+    margin-left: 10px;
+    clear: none;
+    display: inline-block;
+    color:#660033;
+    border: solid thin #660033;
+    font-weight: 600;
+    font-size: 90%;
+    text-transform: uppercase;
+    text-align:center;
+    border-radius: .2em;
+    }
+
+  a.filterbutton:hover {
+    background-color:#660033;
+    border: solid thin #ececec;
+    color:#fff;
+    }
+
+  a.programs-filter-btn-active {
+    background-color:#660033;
+    border: solid thin #ececec;
+    color:#fff;
+    }
+
+  a.programs-control-active {
+    background-color:#660033;
+    border: solid thin #ececec;
+    color:#fff;
+    }
+
+  a.programs-filter-btn-active.btn_teaching_module { background-color:#84353e; }
+  a.programs-filter-btn-active.btn_technical_tutorial { background-color:#3c6855; }
+  a.programs-filter-btn-active.btn_best_practice { background-color:#6179a8; }
+  a.programs-filter-btn-active.btn_video { background-color:#dd912e; }
+
+  a.programs-control-active.btn_teaching_module { background-color:#84353e; }
+  a.programs-control-active.btn_technical_tutorial { background-color:#3c6855; }
+  a.programs-control-active.btn_best_practice { background-color:#6179a8; }
+  a.programs-control-active.btn_video { background-color:#dd912e; }
+
+  a.btn_teaching_module:hover { background-color:#84353e; }
+  a.btn_technical_tutorial:hover { background-color:#3c6855; }
+  a.btn_best_practice:hover { background-color:#6179a8; }
+  a.btn_video:hover { background-color:#dd912e; }
+
+
+  a.tagbutton {
+    text-transform: none;
+    }
+
+  .btn_teaching_module { background-color: #ebdadc; } /* ad7279 */
+  .btn_technical_tutorial { background-color: #d0e3db; } /* 84a396 */
+  .btn_best_practice { background-color: #e8effc; } /* 9faecc */
+  .btn_video { background-color: #ffe6c6; } /* bc8743  */
+
+
+
+  </style>
+
+</head>
+
+<body>
+
+<!-- header -->
+<div style = "width:97%; padding:0px; margin:0px 40px 0px 59px;">
+<header role='banner'>
+    <a href="https://www.dataone.org/" target="_blank"><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:30px'/></a> <a style= "text-decoration: none; " href="{{ site.baseurl }}/"><h1>Data Management Skillbuilding Hub</h1></a>
+  </header>
+
+</div>
+
+<!-- Header Menu Bar-->
+<div class="topnav">
+  <div class="topnav a"; style= "margin:0px 0px 0px 49px; overflow: hidden;">
+ <a target="_top" href="{{ site.baseurl }}/">  Home</a>
+ <a target="_top" href="{{ site.baseurl }}/CONTRIBUTING">  Contribute</a>
+ <a target="_top" href="{{ site.baseurl }}/faq">  FAQ</a>
+ <a target="_top" href="{{ site.baseurl }}/githubdirect" target="_blank">GitHub</a>
+ <div class="topnav-right"; style= "float:right; margin:0px 50px 0px 0px;">
+ <a href="{{ site.baseurl }}/search"><img class=svg alt='Search' src="{{ site.baseurl }}/img/search.png" style='height:17px'/></a>
+</div>
+</div>
+</div>
+<!-- Header end -->
+
+{%- assign tags="" %}
+{%- assign the_collection = "lessons" %}
+{% include collection_tags.html the_collection=the_collection %}
+
+{%- assign cats="" %}
+{%- assign the_collection = "lessons" %}
+{% include collection_categories.html the_collection=the_collection %}
+
+{%- assign the_collection = "bestpractices" %}
+{% include collection_categories.html the_collection=the_collection %}
+
+{%- assign the_collection = "videos" %}
+{% include collection_categories.html the_collection=the_collection %}
+
+
+{%- if site.show_debug == 1 %}
+<pre>
+{% for tag in tags %}
+ * {{ tag | jsonify }}{% endfor %}
+===
+{% for item in site.lessons %}
+* {{ item.url }}{% endfor %}
+</pre>
+{%- endif %}
+
+<div style="width:90%; padding:20px; margin:0px 0px 20px 42px; ">
+    <p>The Data Management Skillbuilding Hub contains resources for better data management and is open to community input and update. These resources are adaptable across a range of contexts and intended for use by researchers, teachers, librarians, or anyone who wants to learn better data management practices. Each tile below links to community contributed education materials, such as best practices and lesson plans <br /> <br />
+
+      The resources presented on the Data Management Skillbuilding Hub can be updated by users to promote a current, well-maintained, and sustainable educational tool.
+
+
+       Learn more about how you can <a href="/Education/CONTRIBUTING">contribute</a>.</p>
+
+</div>
+
+
+<div class="wrap">
+  <div class="container">
+
+<div style= "width:100%; margin:20px 0px 10px 0px; background:#ececec">
+  <div style = "width:90%; padding:20px; margin:0px 10px 0px 42px;">
+    <h3><i>Using This Resource</i></h3>
+    <p> Click individual tiles to learn more and use each resource. You can limit resources by content type and <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a> stage. Comprehensive information is available in the <a href="./faq.html">FAQ</a>. </p>
+
+    {% if site.show_content_type_filter == 1 %}
+    <div class="row">
+      <div class="twelve columns">
+        <div id="filterbuttons" style="margin-left:0px;">
+          &#187; Filter by content type:
+          <a href="#" class="filterbutton" data-filter="all">All</a>
+          {% for cat in cats %}
+            {%- assign category_label = cat | downcase | replace: ' ','_' %}
+            {%- if category_label != "technical_tutorial" %}
+              <a href="#" class="filterbutton btn_{{ category_label }}" data-filter=".{{ category_label }}">{{ cat }}</a>
+            {%- endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    <div class="row">
+      <div class="twelve columns">
+        <div style="margin-left:0px; " >
+         &#187; Filter by stage of the Data Life Cycle
+
+      <select id="soflow">
+      <option value="all">All</option>
+      <option value=".plan">Plan</option>
+      <option value=".collect">Collect</option>
+      <option value=".assure">Assure</option>
+      <option value=".describe">Describe</option>
+      <option value=".preserve">Preserve</option>
+      <option value=".discover">Discover</option>
+      <option value=".integrate">Integrate</option>
+      <option value=".analyze">Analyze</option>
+      </select>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="row">
+      <div class="twelve columns">
+        <ul class="courses" id="mix-wrapper">
+
+  <!-- code for pulling the lesson tiles to the landing page-->
+          {% for lesson in site.lessons %}
+            {% unless lesson.hide %}
+            {% assign ldeck = lesson.url | split: '/' %}
+            {% if ldeck.last == 'index' and ldeck[1] == 'lessons' and ldeck.size > 3 %}
+              {% assign ldeck = ldeck[2] %}
+              {% assign catclasses = "" %}
+              {% for cat in lesson.categories %}
+                {% assign cleancat = cat | downcase | replace: ' ', '_' %}
+                {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
+              {% endfor %}
+
+              {% assign tagclasses = "" %}
+              {% for tag in lesson.tags %}
+                {% assign cleantag = tag | downcase | replace: ' ', '_' %}
+                {% assign tagclasses = tagclasses | append: ' ' | append: cleantag %}
+              {% endfor %}
+
+              <li class="mix-target {{ catclasses }} {{ tagclasses }}"
+                  data-order="{{ ldeck }}"
+                  data-year="4">
+                  <a href="{{ site.baseurl }}/lessons/{{ ldeck }}/index.html"><img src="{{ site.baseurl }}/lessons/{{ ldeck }}/index.png"></a></li>
+            {% endif %}
+            {% endunless %}
+          {% endfor %}
+
+  <!-- code for pulling the best practice tiles to the landing page-->
+          {% for step in site.life_cycle_steps %}
+
+          <li class="mix-target best_practice {{ step }}"
+              data-order="{{ step }}"
+              data-year="4">
+              <a href="{{ site.baseurl }}/bp_step/{{ step }}"><img src="{{ site.baseurl }}/bestpractices/images/{{ step }}.png"></a></li>
+          {% endfor %}
+
+
+          {% for video in site.videos %}
+            {% unless video.hide %}
+            {% assign item = video.url | split: '/' %}
+              {% assign catclasses = "" %}
+              {% for cat in video.categories %}
+                {% assign cleancat = cat | downcase | replace: ' ', '_' %}
+                {% assign catclasses = catclasses | append: ' ' | append: cleancat %}
+              {% endfor %}
+
+              {% assign stepclasses = "" %}
+              {% for step in video.step %}
+                {% assign cleanstep = step | downcase | replace: ' ', '_' %}
+                {% assign stepclasses = stepclasses | append: ' ' | append: cleanstep %}
+              {% endfor %}
+
+              <li class="mix-target {{ catclasses }} {{ stepclasses }}"
+                  data-order="{{ item }}"
+                  data-year="4">
+                  <a href="{{ site.baseurl }}/{{ item[1] }}/{{ item[2] }}/"><img src="{{ site.baseurl }}/{{ item[1] }}/{{ item[2] }}/index.png"></a></li>
+            {% endunless %}
+          {% endfor %}
+
+
+
+        </ul>
+      </div>
+    </div><!-- end of row -->
+  </div><!-- end of container -->
+</div><!-- end of wrap -->
+
+
+  {% include footer.html %}
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="{{ site.baseurl }}/resources/lib/mixitup.3.1.9.min.js"></script>
+  <script src="{{ site.baseurl }}/resources/lib/mixitup-multifilter.min.js"></script>
+
+    <!-- script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script -->
+
+
+  <script>
+    mixitup('#mix-wrapper', {
+      load: {
+        sort: 'order:asc' /* default:asc */
+      },
+      animation: {
+        effects: 'fade', /* fade scale */
+        duration: 700 /* 600 */
+      },
+      classNames: {
+        block: 'programs', /* mixitup */
+        //elementFilter: 'filter-btn', /* control */
+        elementSort: 'sort-btn' /* control */
+      },
+      selectors: {
+        target: '.mix-target' /* .mix */
+      }
+    });
+
+
+  function showCurrentFilter(life_cycle, content_type) {
+    var $container = $('#mix-wrapper');
+    var filter = [];
+    var ignores = ['all','.mix-target'];
+    var filter_string = ".mix-target";
+    if (ignores.indexOf(life_cycle) == -1) {
+      filter.push(life_cycle);
+    }
+    if (ignores.indexOf(content_type) == -1) {
+      filter.push(content_type);
+    }
+    if (filter.length > 0) {
+      filter_string = filter.join("");
+    }
+    console.log("Filter string = " + filter_string);
+    $container.mixItUp('filter', filter_string);
+  }
+  /*
+  Filter the items shown based on the selected dropdown item
+  */
+  $(function(){
+    var $filterSelect = $('#soflow');
+    var $container = $('#mix-wrapper');
+    $container.extra_info= {
+      'content_type_filter': 'all',
+      'life_cycle_filter': 'all'
+    };
+
+    $filterSelect.on('change', function(){
+      /*
+      Called wihen th dropdown selection changes
+      */
+      var life_cycle = this.value;
+      $container.extra_info.life_cycle_filter = life_cycle;
+      var content_type = $container.extra_info.content_type_filter;
+      showCurrentFilter(life_cycle, content_type);
+    });
+
+    $('body').on('click', '#filterbuttons a', function(e) {
+      /*
+      Called when content type button is clicked.
+      */
+      var content_type = e.target.dataset.filter;
+      var life_cycle = $container.extra_info.life_cycle_filter;
+      $container.extra_info.content_type_filter = content_type;
+      showCurrentFilter(life_cycle, content_type);
+    });
+
+  });
+
+
+  </script>
+
+</body>
+</html>

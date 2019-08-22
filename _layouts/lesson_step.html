@@ -1,0 +1,87 @@
+---
+layout: layout
+title: Lessons by Data Life Cycle stage_
+description: Layout for creating a single page with all lessons under one stage.
+---
+<!--Method sourced from: christianspecht.de/2014/10/25/separate-pages-per-tag-category-with-jekyll-without-plugins/ on June 20, 2018-->
+
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Data Life Cycle: {{ page.lifecycle }}</title>
+
+{% comment %}
+  This section calls out to collection_steps to build a list of stages (i.e., stages of the data life cycle) used by all the pages in this collection. The variable "steps" contains all the stages
+{% endcomment %}
+{% assign the_collection = "lessons" %}
+{% include collection_steps.html the_collection=the_collection %}
+
+  <style>
+        /* Style page content for .site_nav */
+        .main {
+            margin-right: 200px; /* Same as the width of the sidebar + right body margin (in layout) */
+            padding: 0px 0px;
+        }
+  </style>
+</head>
+
+<body>
+
+<div style="background:#e8effc;border:1px solid #e8effc;padding: 2px 60px;">
+<p style = "margin-top: 2px; margin-bottom: 0px;"><span style="color:#660033;"><strong>LESSONS</strong></span></p>
+</div>
+
+  <div id=wrapper style= "width:90%; padding:0px; margin:0px 0px 0px 62px; ">
+
+    {% include lesson_sidebar.html %}
+
+<div class="main" style="margin-top:40px;">
+  <div style="margin-bottom: 20px;">
+    <h1 style="display:inline">Lesson: {{ page.lifecycle | capitalize }}</h1> <a href="https://www.dataone.org/data-life-cycle" target="_blank"><img alt='Data Life Cycle' src='{{ site.baseurl }}/bestpractices/images/stage_{{ page.lifecycle }}.png' style='max-height:200px; float: right; display:inline"'/></a>
+
+
+    {{ content }}
+
+<!-- Megan attempts a drop down menu of data life cycle steps -->
+<!--    <nav class="horizontal-menu">
+        <ul>
+          <li>
+            <a class="dropdown-toggle" href="#">Data Life Cycle ::after</a>
+              <ul class="dropdown-menu" data-show="hover" data-role="dropdown" style="display: none;">
+                  <li><a href="{{ site.baseurl }}/bestpractices/">All</a></li>
+                  {% for step in steps %}
+                  <li><a href="{{ site.baseurl }}/bp_step/{{ step | capitalize }}">{{ step }}</a></li>{% endfor %}
+                </ul>
+              </li>
+            </ul>
+    </nav>
+-->
+</div>
+<hr >
+
+  <div style="margin-top: 20px;">
+{% assign step = page.lifecycle %}
+
+<ul>
+{%- assign items = site[ the_collection ] | where: "step", step -%}
+{%- for item in items %}
+
+    <a style = "font-size: 120%;" href="{{ site.baseurl }}{{ item.url }}"><strong>{{item.title}}</strong></a><br />
+      <p style = "margin-left: 15px; margin-top: 4px; margin-bottom: 3px;" >{{ item.excerpt | strip_html | truncate: 256 }}
+        <a style = "color: #c5c5c5" href="{{ site.baseurl }}{{ item.url }}"> (click for more)</a> </p>
+    <p style= "margin-left: 15px; margin-top: 3px; margin-bottom: 16px; font-weight: 500;" >Tags: {% for tag in item.tags %}
+     <a href="{{ site.baseurl }}/lessons/tag#{{ tag|slugize }}">{{tag}}</a>
+    {% unless forloop.last %}&nbsp;{% endunless %}
+    {% endfor %}
+    </p>
+  {% endfor %}
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>

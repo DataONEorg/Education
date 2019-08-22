@@ -7,7 +7,19 @@ org_logo: DataONE.png
 update: 2017-04-06
 layout: lesson_cover
 status: published
-tags: ["Data Management", "Data Sharing", Plan, Collect, Integrate, Assure, Preserve, Describe, Discover, Analyze]
+tags:
+  - data management
+  - data sharing
+  - DataONE teaching module
+step:
+  - plan
+  - collect
+  - integrate
+  - assure
+  - preserve
+  - describe
+  - discover
+  - analyze
 categories: ["Teaching Module" ]
 prevlesson: 01_management
 nextlesson: 03_planning

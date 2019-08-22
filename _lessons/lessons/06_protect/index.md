@@ -12,7 +12,7 @@ tags:
 step:
   - assure
   - preserve
-categories: ["Teaching Module"]
+categories: ["Lesson"]
 status: published
 prevlesson: 05_qaqc
 nextlesson: 07_metadata

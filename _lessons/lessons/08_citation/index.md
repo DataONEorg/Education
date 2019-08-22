@@ -13,7 +13,7 @@ tags:
 step:
   - describe
   - discover
-categories: ["Teaching Module"]
+categories: ["Lesson"]
 status: published
 prevlesson: 07_metadata
 nextlesson: 09_analysis

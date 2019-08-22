@@ -12,7 +12,7 @@ tags:
   - DataONE teaching module
 step:
   - plan
-categories: ["Teaching Module" ]
+categories: ["Lesson" ]
 prevlesson: 02_datasharing
 nextlesson: 04_entry
 handout: L03_DataManagement_Handout.pdf

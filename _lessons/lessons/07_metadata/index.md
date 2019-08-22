@@ -11,7 +11,7 @@ tags:
   - DataONE teaching module
 step:
   - describe
-categories: ["Teaching Module"]
+categories: ["Lesson"]
 status: published
 prevlesson: 06_protect
 nextlesson: 08_citation

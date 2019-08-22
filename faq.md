@@ -50,7 +50,7 @@ The development of content through DataONE was a collaborative effort across man
 
 
 [website]: ./ "Lessons homepage"
-[CONTRIB]: ./CONTRIBUTING.html "Contribution guidelines"
+[CONTRIB]: ./contribute "Contribution guidelines"
 [MnmgtPub]: http://dx.doi.org/10.7191/jeslib.2017.1114 "Peer-review in Data Management"
 [Modules]: https://www.dataone.org/education-modules
 [BestPrac]: https://www.dataone.org/best-practices

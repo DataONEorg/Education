@@ -1,9 +1,10 @@
 ---
-title: Contribute
+title: Contributing to Lessons
 layout: generic
 ---
 # What are you submitting?   
----     
+---   
+
 At DataONE, educational materials fall into three categories:    
 <ul>
   <ol>

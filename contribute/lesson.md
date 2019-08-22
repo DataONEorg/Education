@@ -1,5 +1,5 @@
 ---
-title: Contribute
+title: Contributing to Lessons
 layout: generic
 ---
 # Contributing a Lesson to the Data Management Skillbuilding Hub
@@ -18,10 +18,10 @@ layout: generic
 <summary style="color:teal;"><B>Instructions</B></summary>
 <br>
 
-<B><img src="https://drive.google.com/uc?export=view&id=1IrXJwH3BoS_Zpb5MZi04YMjqeFHvQBTU" align="center" height="" width="5%" > Forking a repository</B><br>
+<B><img src="https://drive.google.com/uc?export=view&id=1IrXJwH3BoS_Zpb5MZi04YMjqeFHvQBTU" align="center" height="" width="75" > Forking a repository</B><br>
 To submit content to the Skillbuilding Hub, you need to first <B>create a fork</B> of DataONEorg's Education repository. This means you will be creating <B><i>your own private copy</i></B> of the Education repository and storing it in your <B><i>GitHub account online</i></B>. Here, <i><B>in your fork</B></i>, you can edit and upload content <B><i>without affecting the original</i></B>.The forking process will take a few minutes at most. Once you've perfected your changes, you will later <B>merge</B> the changes you have made back into the original repository.<br><br><br>
 
-<B>1. Create an account online at <img src="https://drive.google.com/uc?export=view&id=1ovyl_eW1AhSYCqEsp8jsb0VsPebNT0EG" align="center" height="" width="1.5%" > <a href="https://github.com" target="_blank" junk="_">GitHub</a>, if you don't already have one.</B><br><br><br>
+<B>1. Create an account online at <img src="https://drive.google.com/uc?export=view&id=1ovyl_eW1AhSYCqEsp8jsb0VsPebNT0EG" align="center" height="" width="25" > <a href="https://github.com" target="_blank" junk="_">GitHub</a>, if you don't already have one.</B><br><br><br>
 
 <B>2. To start the forking process, go to DataONEorg's <a href="https://github.com/DataONEorg/Education" target="_blank" junk="_">Education repository</a>.</B><br><br><br>
 
@@ -31,7 +31,7 @@ To submit content to the Skillbuilding Hub, you need to first <B>create a fork</
   <li>Make sure you are logged into your GitHub account before you press fork.</li>
 </ul>
 
-<img src="https://drive.google.com/uc?export=view&id=1KJ3kvkiB0WbixBEfN54GuGWhgLs-qYC6" align="center" height="" width="50%" class="indented"><br><br>
+<img src="https://drive.google.com/uc?export=view&id=1KJ3kvkiB0WbixBEfN54GuGWhgLs-qYC6" align="center" height="" width="800" class="indented"><br><br>
 
 <B>4. The forking process is complete!</B> Check "your repositories" in your account to make sure the Education repository was successfully forked.<br><br>
 
@@ -59,7 +59,7 @@ To submit content to the Skillbuilding Hub, you need to first <B>create a fork</
 
 For every lesson submitted to the Skillbuilding Hub, an additional file, named <B>index.md</B>, must be submitted with it. This document contains the metadata and formatting information for the lesson. This information is also called the <B><i>"frontmatter"</i></B>.<br><br>
 
-<B>The following information is needed when submitting educational materials to the Data Management Skillbuilding Hub:</B><br><br>
+<B>The following information is needed when submitting a lesson to the Data Management Skillbuilding Hub:</B><br><br>
 
 <ul>
   <li><B>title:</B>The full title of your lesson</li>
@@ -136,7 +136,7 @@ For every lesson submitted to the Skillbuilding Hub, an additional file, named <
 Now your frontmatter information is completed. <B><i>Save your text file</i></B>, and we will copy and paste this text at a later step in the submission process.<br><br>
 
 
-<B>4. Create a folder for your files in your fork of the Education repository on GitHub.</B><br><br>
+<B>4. Create a folder for your files in your fork of the Education repository on GitHub.</B><br>
 
 With a lesson, you will have to submit multiple items. Consequently, you must first make a <B>folder</B> to contain everything!<br><br>
 
@@ -154,7 +154,7 @@ With a lesson, you will have to submit multiple items. Consequently, you must fi
   </ul>
 </ul>
 
-<img src="https://drive.google.com/uc?export=view&id=1YUdOwtm0FK6z0WqFVjlHLYk_DhHAdfDa" align="center" height="" width="50%" class="indented"><br><br>  
+<img src="https://drive.google.com/uc?export=view&id=1YUdOwtm0FK6z0WqFVjlHLYk_DhHAdfDa" align="center" height="" width="800" class="indented"><br><br>  
 
 <B>5. Copy the "frontmatter" saved in your text file from Step One and paste it here into the markdown (.md) file</B>
   <ul>
@@ -171,7 +171,7 @@ With a lesson, you will have to submit multiple items. Consequently, you must fi
   <li>Scroll to the bottom of your markdown document to commit your changes</li>
   <li><B><i>Committing</i></B> will save the markdown file to <B><i>your</i></B> fork of the Education repository</li>
 </ul>
-<img src="https://drive.google.com/uc?export=view&id=1J1MJUBcvpyMSRFGOKy8I2-JT2i6Vyb8v" align="center" height="" width="50%" class="indented"><br>
+<img src="https://drive.google.com/uc?export=view&id=1J1MJUBcvpyMSRFGOKy8I2-JT2i6Vyb8v" align="center" height="" width="800" class="indented"><br>
 
 <B>7. Upload lesson files</B>
 <ul>
@@ -263,7 +263,7 @@ With a lesson, you will have to submit multiple items. Consequently, you must fi
 ### How is the Data Management Skillbuilding Hub website created?
 ---
 ---
-The educational resources that exist in DataONE's GitHub repository are rendered into the Data Management Skillbuilding Hub webpage using Jekyll. When sharing presentations, slides themselves are rendered using remarkjs. The rendering is done using GitHub pages, which builds the site from the master branch. You can build the site locally with jekyll serve -w, and it will be available at http://localhost:4000 for you to review.
+The educational resources that exist in DataONE's GitHub repository are rendered into the Data Management Skillbuilding Hub webpage using <a href="https://jekyllrb.com/" target="_blank" junk="_">Jekyll</a>. When sharing presentations, slides themselves are rendered using <a href="https://github.com/gnab/remark" target="_blank" junk="_">remarkjs</a>. The rendering is done using <a href="https://pages.github.com/" target="_blank" junk="_">GitHub pages</a>, which builds the site from the master branch. You can build the site locally with jekyll serve -w, and it will be available at http://localhost:4000 for you to review.
 
 The stylesheets are defined in resources/styles, and rendered to resources/dataone.css using lessc (just type make from the root).
 

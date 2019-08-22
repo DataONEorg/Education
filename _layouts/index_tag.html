@@ -223,8 +223,34 @@
   .btn_best_practice { background-color: #e8effc; } /* 9faecc */
   .btn_video { background-color: #ffe6c6; } /* bc8743  */
 
+  .container {
+    position: relative;
+    width: 100%;
+  }
 
+  .container img {
+    width: 100%;
+    height: auto;
+  }
 
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .container .btn:hover {
+    background-color: black;
+  }
 
   </style>
 
@@ -237,7 +263,6 @@
 <header role='banner'>
     <a href="https://www.dataone.org/" target="_blank"><img class=pagelogo alt='DataONE.org' src='{{ site.baseurl }}/img/logo.jpg' style='max-height:30px'/></a> <a style= "text-decoration: none; " href="{{ site.baseurl }}/"><h1>Data Management Skillbuilding Hub</h1></a>
   </header>
-
 </div>
 
 <!-- Header Menu Bar-->
@@ -279,22 +304,11 @@
 </pre>
 {%- endif %}
 
-<div style="width:90%; padding:20px; margin:0px 0px 20px 42px; ">
-    <p>
-      The Data Management Skillbuilding Hub is a repository for <B><i>open educational resources</i></B> regarding data management, meaning that it is a collection of learning resources freely contributed by anyone willing to share them. Materials such as <i><B>lessons, best practices, and videos,</B></i> are stored in the <a href="https://github.com/DataONEorg/Education">DataONEorg GitHub repository</a> as well as searchable through the <a href="http://dmtclearinghouse.esipfed.org/">Data Management Training Clearinghouse</a>. We invite you submit your own educational resources so that the Data Management Skillbuilding Hub can remain an up-to-date and sustainable educational tool for all to benefit from.
-      You can easily contribute learning materials to DataONE via GitHub online.
-      <br/> <br/>
-
-      <div>
-
-        <form style="display: inline;" target="_blank"  action="/Education/contribute" method="get">
-          <button style="font-size:150%;"> Contribute Here! </button></form>
-
-      </div>
-      <br/>
-
+<div class="container">
+  <img src="https://drive.google.com/uc?export=view&id=1tmKBdSl2gBCmwrD6Za-xKvIegMROM6kB" alt="banner">
+  <form style="display: inline;" action="/Education/contribute" method="get">
+  <button class="btn">Contribute to the Skillbuilding Hub</button>
 </div>
-
 
 <div class="wrap">
   <div class="container">

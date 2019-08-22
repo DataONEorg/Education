@@ -1,5 +1,5 @@
 ---
-title: Contribute
+title: Contributing to Lessons
 layout: generic
 ---
 # Contributing a Video to the Data Management Skillbuilding Hub
@@ -18,11 +18,11 @@ layout: generic
 <summary style="color:teal"><B>Instructions</B></summary>
 <br>
 
-<B><img src="https://drive.google.com/uc?export=view&id=1IrXJwH3BoS_Zpb5MZi04YMjqeFHvQBTU" align="center" height="" width="5%" > Forking a repository</B><br>
+<B><img src="https://drive.google.com/uc?export=view&id=1IrXJwH3BoS_Zpb5MZi04YMjqeFHvQBTU" align="center" height="" width="75" > Forking a repository</B><br>
 
 To submit content to the Skillbuilding Hub, you need to first <B>create a fork</B> of DataONEorg's Education repository. This means you will be creating <B><i>your own private copy</i></B> of the Education repository and storing it in your <B><i>GitHub account online</i></B>. Here, <i><B>in your fork</B></i>, you can edit and upload content <B><i>without affecting the original</i></B>.The forking process will take a few minutes at most. Once you've perfected your changes, you will later <B>merge</B> the changes you have made back into the original repository.<br><br>
 
-<B>1. Create an account online at <img src="https://drive.google.com/uc?export=view&id=1ovyl_eW1AhSYCqEsp8jsb0VsPebNT0EG" align="center" height="" width="1.5%" > <a href="https://github.com" target="_blank" junk="_">GitHub</a>, if you don't already have one.</B><br><br><br>
+<B>1. Create an account online at <img src="https://drive.google.com/uc?export=view&id=1ovyl_eW1AhSYCqEsp8jsb0VsPebNT0EG" align="center" height="" width="25" > <a href="https://github.com" target="_blank" junk="_">GitHub</a>, if you don't already have one.</B><br><br><br>
 
 <B>2. To start the forking process, go to DataONEorg's <a href="https://github.com/DataONEorg/Education" target="_blank" junk="_">Education repository</a>.</B><br><br><br>
 
@@ -57,11 +57,11 @@ To submit content to the Skillbuilding Hub, you need to first <B>create a fork</
 
 <B>Submitting a Video</B><br>
 
-Videos are too large to be stored directly in DataONEorg's repository. Consequently, your video submission <i><B>must already be uploaded to a video streaming platform,</B></i> such as <B>YouTube, Vimeo, Facebook,</B> etc.
+Videos are too large to be stored directly in DataONEorg's repository. Consequently, your video submission <i><B>must already be uploaded to a video streaming platform,</B></i> such as <img src="https://drive.google.com/uc?export=view&id=1TV4kZgGk-PDEJtaxoUpMGoRIxvFThUKG" align="center" height="" width="35" ><B>YouTube</B>, <img src="https://drive.google.com/uc?export=view&id=1VCHKXdEVNn7k8nut6_h50nyaa5o_ynhW" align="center" height="" width="25" > <B>Vimeo</B>, <img src="https://drive.google.com/uc?export=view&id=11DcjxPptG0PpDN1bOxoYDOiYByVwUGE1" align="center" height="" width="25" > <B>Facebook,</B> etc.<br>
 
-Instead of uploading a video to DataONEorg's repository, <B>you will be submitting a document</B> which contains the video metadata (also known as <B><i>"frontmatter"</i></B>) and the source code (also known as <B><i>SRC</i></B>) for the video. The source code is what allows the video to be displayed on the Skillbuilding Hub website.<br><br>
+You will be able to embed your video into DataONE's website simply by <B>submitting a markdown document</B> which contains the video metadata (also known as <B><i>"frontmatter"</i></B>) and the source code (also known as <B><i>SRC</i></B>) for the video..<br><br>
 
-<p><b>The following information is needed when submitting educational materials to the Data Management Skillbuilding Hub:</b></p>
+<b>The following information is needed when submitting a video to the Data Management Skillbuilding Hub:</b><br><br>
 <ul>
   <li><B>title:</B> the full title of your video</li>
   <li><B>layout:</B> is always <i><B>video_cover</B></i></li>
@@ -157,7 +157,7 @@ Now your frontmatter information is completed. <B><i>Save your text file</i></B>
     </ul>
   <li>This portion of the code that you just copied is what you will paste next to <B>video_embedurl:</B> in the metadata section above.</li>
   </ul>
-<img src="https://drive.google.com/uc?export=view&id=1eufRbGbD3OrM-3uPlb0Pag5KuhzTsByO" align="center" height="" width="50%" class="indented"> <br><br>
+<img src="https://drive.google.com/uc?export=view&id=1eufRbGbD3OrM-3uPlb0Pag5KuhzTsByO" align="center" height="" width="800" class="indented"> <br><br>
 
 <B>4. Create a folder for your files</B><br>
 
@@ -172,7 +172,7 @@ With a video, you will have to create folder in your fork as well as a markdown 
     </ul>
 </ul>
 
-<img src="https://drive.google.com/uc?export=view&id=14dxAQYLrVWMqJ160hEiVOvsUPpExRlfj" align="center" height="" width="50%" class="indented" ><br><br>
+<img src="https://drive.google.com/uc?export=view&id=14dxAQYLrVWMqJ160hEiVOvsUPpExRlfj" align="center" height="" width="800" class="indented" ><br><br>
 
 <B>5. Copy the "frontmatter" saved in your text file from Step One and paste it here into the markdown (.md) file</B>
   <ul>
@@ -182,14 +182,14 @@ With a video, you will have to create folder in your fork as well as a markdown 
 <B>6. Add a brief summary of your video</B>
 <ul>
   <li>After the <B><i>frontmatter</i></B> section, simply provide a brief description of the video's content and its creators.</li>
-</ul>
+</ul><br>
 
 <B>7. Commit your Changes</B>
 <ul>
   <li>Scroll to the bottom of your markdown document to commit your changes</li>
   <li><B><i>Committing</i></B> will submit the markdown file to <B><i>your</i></B> fork of the Education repository</li>
 </ul>
-<img src="https://drive.google.com/uc?export=view&id=1sm_ngCHroF7m1Yd8ozPmXRI044ON_6ta" align="center" height="" width="50%" class="indented"><br><br>
+<img src="https://drive.google.com/uc?export=view&id=1sm_ngCHroF7m1Yd8ozPmXRI044ON_6ta" align="center" height="" width="800" class="indented"><br><br>
 
 <B>8. Uploading your organization's logo</B>
 <ul>
@@ -221,7 +221,8 @@ With a video, you will have to create folder in your fork as well as a markdown 
 ### How is the Data Management Skillbuilding Hub website created?
 ---
 ---
-The educational resources that exist in DataONE's GitHub repository are rendered into the Data Management Skillbuilding Hub webpage using Jekyll. When sharing presentations, slides themselves are rendered using remarkjs. The rendering is done using GitHub pages, which builds the site from the master branch. You can build the site locally with jekyll serve -w, and it will be available at http://localhost:4000 for you to review.
+
+The educational resources that exist in DataONE's GitHub repository are rendered into the Data Management Skillbuilding Hub webpage using <a href="https://jekyllrb.com/" target="_blank" junk="_">Jekyll</a>. When sharing presentations, slides themselves are rendered using <a href="https://github.com/gnab/remark" target="_blank" junk="_">remarkjs</a>. The rendering is done using <a href="https://pages.github.com/" target="_blank" junk="_">GitHub pages</a>, which builds the site from the master branch. You can build the site locally with jekyll serve -w, and it will be available at http://localhost:4000 for you to review.
 
 The stylesheets are defined in resources/styles, and rendered to resources/dataone.css using lessc (just type make from the root).
 

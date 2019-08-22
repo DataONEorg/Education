@@ -1,5 +1,5 @@
 ---
-title: Contribute
+title: Contributing to Lessons
 layout: generic
 ---
 # Contributing a Best Practice to the Data Management Skillbuilding Hub  
@@ -10,17 +10,47 @@ layout: generic
 > - [x] your own GitHub account online     
 
 <head>
-<style> .indented { padding-left: 50pt; padding-right: 50pt; } </style>
+<style> .indented { padding-left: 50pt; padding-right: 50pt; }
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+</style>
 </head>
+
 
 <details>
 <summary style="color:teal;"><B>Instructions</B></summary>
 <br>
 
-<B><img src="https://drive.google.com/uc?export=view&id=1IrXJwH3BoS_Zpb5MZi04YMjqeFHvQBTU" align="center" height="" width="5%" > Forking a repository</B><br>
+<B><img src="https://drive.google.com/uc?export=view&id=1IrXJwH3BoS_Zpb5MZi04YMjqeFHvQBTU" align="center" height="" width="75" > Forking a repository</B><br>
 To submit content to the Skillbuilding Hub, you need to first <B>create a fork</B> of DataONEorg's Education repository. This means you will be creating <B><i>your own private copy</i></B> of the Education repository and storing it in your <B><i>GitHub account online</i></B>. Here, <i><B>in your fork</B></i>, you can edit and upload content <B><i>without affecting the original</i></B>.The forking process will take a few minutes at most. Once you've perfected your changes, you will later <B>merge</B> the changes you have made back into the original repository.<br><br>
 
-<B>1. Create an account online at <img src="https://drive.google.com/uc?export=view&id=1ovyl_eW1AhSYCqEsp8jsb0VsPebNT0EG" align="center" height="" width="1.5%" > <a href="https://github.com" target="_blank" junk="_">GitHub</a>, if you don't already have one.</B><br><br><br>
+<B>1. Create an account online at <img src="https://drive.google.com/uc?export=view&id=1ovyl_eW1AhSYCqEsp8jsb0VsPebNT0EG" align="center" height="" width="25" > <a href="https://github.com" target="_blank" junk="_">GitHub</a>, if you don't already have one.</B><br><br><br>
 
 <B>2. To start the forking process, go to DataONEorg's <a href="https://github.com/DataONEorg/Education" target="_blank" junk="_">Education repository</a>.</B><br><br><br>
 
@@ -56,7 +86,7 @@ To submit content to the Skillbuilding Hub, you need to first <B>create a fork</
 
 For every best practice submitted to the Skillbuilding Hub, the document must also have a front section containing metadata information about the best practice. This section of the best practice is also called the <B><i>"frontmatter"</i></B>.<br><br>
 
-<p><b>The following metadata information is needed when submitting educational materials to the Data Management Skillbuilding Hub:</b></p>
+<b>The following information is needed when submitting a best practice to the Data Management Skillbuilding Hub:</b><br><br>
 
 <ul>
   <li><B>title:</B>The full title of your best practice</li>
@@ -181,7 +211,7 @@ Name your file for the first three words of the title, separated by dashes, and 
   <li>Commit your change</li>
 </ul>
 
-<img src="https://drive.google.com/uc?export=view&id=1titY7LpTJ5BLeG8OMF-V7eU2cKVHk3jd" align="center" height="" width=800 class="indented" ><br><br>
+<img src="https://drive.google.com/uc?export=view&id=1titY7LpTJ5BLeG8OMF-V7eU2cKVHk3jd" align="center" height="" width="800" class="indented" ><br><br>
 
 <B>9. <i>[Optional Step]</i> Adding images</B>
 <ul>
@@ -218,7 +248,7 @@ Name your file for the first three words of the title, separated by dashes, and 
 ### How is the Data Management Skillbuilding Hub website created?
 ---
 ---
-The educational resources that exist in DataONE's GitHub repository are rendered into the Data Management Skillbuilding Hub webpage using Jekyll. When sharing presentations, slides themselves are rendered using remarkjs. The rendering is done using GitHub pages, which builds the site from the master branch. You can build the site locally with jekyll serve -w, and it will be available at http://localhost:4000 for you to review.
+The educational resources that exist in DataONE's GitHub repository are rendered into the Data Management Skillbuilding Hub webpage using <a href="https://jekyllrb.com/" target="_blank" junk="_">Jekyll</a>. When sharing presentations, slides themselves are rendered using <a href="https://github.com/gnab/remark" target="_blank" junk="_">remarkjs</a>. The rendering is done using <a href="https://pages.github.com/" target="_blank" junk="_">GitHub pages</a>, which builds the site from the master branch. You can build the site locally with jekyll serve -w, and it will be available at http://localhost:4000 for you to review.
 
 The stylesheets are defined in resources/styles, and rendered to resources/dataone.css using lessc (just type make from the root).
 

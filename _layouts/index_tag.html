@@ -390,16 +390,22 @@
               {% for step in video.step %}
                 {% assign cleanstep = step | downcase | replace: ' ', '_' %}
                 {% assign stepclasses = stepclasses | append: ' ' | append: cleanstep %}
+
+          <li class="mix-target teaching_module {{ step }}"
+              data-order="{{ step }}"
+              data-year="4">
+              <a href="{{ site.baseurl }}/video_step/{{ step }}"><img src="{{ site.baseurl }}/videos/images/v_{{ step }}.png"></a></li>
               {% endfor %}
 
-              <li class="mix-target {{ catclasses }} {{ stepclasses }}"
-                  data-order="{{ item }}"
-                  data-year="4">
-                  <a href="{{ site.baseurl }}/{{ item[1] }}/{{ item[2] }}/"><img src="{{ site.baseurl }}/{{ item[1] }}/{{ item[2] }}/index.png"></a></li>
+
             {% endunless %}
           {% endfor %}
 
-
+<!--  Pulled old video example file that pulls image from folder. Now by stage
+<li class="mix-target {{ catclasses }} {{ stepclasses }}"
+      data-order="{{ item }}"
+      data-year="4">
+      <a href="{{ site.baseurl }}/{{ item[1] }}/{{ item[2] }}/"><img src="{{ site.baseurl }}/{{ item[1] }}/{{ item[2] }}/index.png"></a></li> -->
 
         </ul>
       </div>

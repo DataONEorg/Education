@@ -1,5 +1,5 @@
 ---
-title: DataONE lessons
+title: Tag extraction
 layout: index
 ---
 

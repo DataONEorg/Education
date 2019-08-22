@@ -2,7 +2,7 @@
 layout: lesson_step
 lifecycle: assure
 weight: 3
-categories: ["Teaching Module"]
+categories: ["Lesson"]
 ---
 
 *Select a Lesson below to get help teaching about the "Assure" stage in the <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a>.*

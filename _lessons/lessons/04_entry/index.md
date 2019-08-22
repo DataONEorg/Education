@@ -13,7 +13,7 @@ tags:
 step:
   - collect
   - integrate
-categories: ["Teaching Module" ]
+categories: ["Lesson" ]
 prevlesson: 03_planning
 nextlesson: 05_qaqc
 exercise: L04_Exercise.pdf

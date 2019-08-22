@@ -2,7 +2,7 @@
 layout: lesson_step
 lifecycle: plan
 weight: 1
-categories: ["Teaching Module"]
+categories: ["Lesson"]
 ---
 􏰣
 *Select a Best Practice below to learn more about the "Plan" stage in the <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a>.*

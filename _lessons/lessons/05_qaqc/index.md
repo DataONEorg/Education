@@ -14,7 +14,7 @@ step:
   - collect
   - assure
   - preserve
-categories: ["Teaching Module"]
+categories: ["Lesson"]
 status: published
 prevlesson: 04_entry
 nextlesson: 06_protect

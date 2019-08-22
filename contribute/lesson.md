@@ -67,7 +67,7 @@ For every lesson submitted to the Skillbuilding Hub, an additional file, named <
     <ul>
       <li> Click <a href="#tags">here</a> for a list of currently existing tags</li>
     </ul>
-  <li><B>categories:</B> this must be listed as <i><B>["Teaching Module"]</B></i></li>
+  <li><B>categories:</B> this must be listed as <i><B>["Lesson"]</B></i></li>
   <li><B>previous lesson:</B> The name of the previous lesson according to its numeric assignment. <a href="https://github.com/DataONEorg/Education/tree/master/_lessons/lessons" target="_blank" junk="_" >Click here to see the current list of lessons.</a></li>
   <li><B>next lesson:</B> The name of the following lesson according to its numeric assignment</li>
   <li><B>handout:</B> <i>[Optional]</i> If you have a handout to contribute, paste the exact name of the handout here as well as its extension</li>
@@ -116,7 +116,7 @@ For every lesson submitted to the Skillbuilding Hub, an additional file, named <
   layout: lesson_cover
   status: published
   tags: ["Data Management", Plan]
-  categories: ["Teaching Module" ]
+  categories: ["Lesson" ]
   prevlesson: 02_datasharing
   nextlesson: 04_entry
   handout: L03_DataManagement_Handout.pdf

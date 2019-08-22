@@ -13,7 +13,7 @@ tags:
   - DataONE teaching module
 step:
   - analyze
-categories: ["Teaching Module"]
+categories: ["Lesson"]
 status: published
 prevlesson: 08_citation
 nextlesson: 10_policy

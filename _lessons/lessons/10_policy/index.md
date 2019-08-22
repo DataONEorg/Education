@@ -12,7 +12,7 @@ tags:
   - DataONE teaching module
 step:
   - plan
-categories: ["Teaching Module"]
+categories: ["Lesson"]
 status: published
 prevlesson: 09_analysis
 nextlesson: 01_management

@@ -2,7 +2,7 @@
 layout: lesson_step
 lifecycle: analyze
 weight: 8
-categories: ["Teaching Module"]
+categories: ["Lesson"]
 ---
 
 *Select a Lesson below to learn more about the "Analyze" stage in the <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a>.*

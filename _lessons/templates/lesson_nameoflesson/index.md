@@ -3,7 +3,7 @@ update: 2017-04-06
 layout: lesson_cover
 status: published
 tags: ["Data Management", Plan, Collect, Integrate, Assure, Preserve, Describe, Discover, Analyze]
-categories: ["Teaching Module"]
+categories: ["Lesson"]
 prevlesson: 10_policy
 nextlesson: 02_datasharing
 handout: lesson_nameoflesson_Handout.pdf

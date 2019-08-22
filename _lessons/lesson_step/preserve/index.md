@@ -2,7 +2,7 @@
 layout: lesson_step
 lifecycle: preserve
 weight: 5
-categories: ["Teaching Module"]
+categories: ["Lesson"]
 ---
 
 *Select a Best Practice below to learn more about the "Preserve" stage in the <a href="https://www.dataone.org/data-life-cycle" target="_blank">Data Life Cycle</a>.*

@@ -20,7 +20,7 @@ step:
   - describe
   - discover
   - analyze
-categories: ["Teaching Module" ]
+categories: ["Lesson" ]
 prevlesson: 01_management
 nextlesson: 03_planning
 handout: L02_DataSharing_Handout.pdf

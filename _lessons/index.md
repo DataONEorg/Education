@@ -1,5 +1,5 @@
 ---
-title: DataONE lessons
+title: Lessons
 layout: index_tag
 ---
 

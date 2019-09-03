@@ -223,23 +223,32 @@
   .btn_best_practice { background-color: #e8effc; } /* 9faecc */
   .btn_video { background-color: #ffe6c6; } /* bc8743  */
 
-  .container {
+  .container2 {
     position: relative;
     width: 100%;
+    text-align: center;
+    color: white;
   }
 
-  .container img {
+  .container2 img {
     width: 100%;
     height: auto;
   }
 
-  .container .btn {
+  .centered {
     position: absolute;
-    top: 50%;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container2 .btn {
+    position: absolute;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: #600;
     color: white;
     font-size: 16px;
     padding: 12px 24px;
@@ -247,10 +256,25 @@
     cursor: pointer;
     border-radius: 5px;
   }
-
-  .container .btn:hover {
+  .container2 .btn:hover {
     background-color: black;
+    transparency: 50%;
   }
+
+  .transbox {
+  position: absolute;
+  top: 30%;
+  left: 17%;
+  right: 17%;
+  background-color: #ffffff;
+  opacity: 0.6;
+}
+
+  .transbox p {
+  margin: 1%;
+  font-weight: 500;
+  color: #000000;
+}
 
   </style>
 
@@ -304,8 +328,15 @@
 </pre>
 {%- endif %}
 
-<div class="container">
-  <img src="https://drive.google.com/uc?export=view&id=1tmKBdSl2gBCmwrD6Za-xKvIegMROM6kB" alt="banner">
+<div class="container2">
+  <img src="https://drive.google.com/uc?export=view&id=1te24N6ZNfHEHvfJHsniJmP8q8dx3xtyy" alt="banner">
+  <div class="transbox"><p>The <B>Data Management Skillbuilding Hub</B> is a repository for open
+    educational resources regarding data management, meaning that
+    learning resources are freely contributed by anyone willing to share them. Materials such
+    as <i>lessons,best practices, and videos,</i> are stored in the <a href="https://github.com/DataONEorg/Education" target="_blank" junk="_"><B>DataONE
+    GitHub repository</B></a> as well as searchable through the <a href="http://dmtclearinghouse.esipfed.org/" target="_blank" junk="_"><B>Data Management
+    Training Clearinghouse.</B></a> <B><i>We invite you submit your own educational resources</i></B> so that the Data Management
+    Skillbuilding Hub can remain an up-to-date and sustainable educational tool for all to benefit from.</p> </div>
   <form style="display: inline;" action="/Education/contribute" method="get">
   <button class="btn">Contribute to the Skillbuilding Hub</button>
 </div>

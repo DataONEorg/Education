@@ -1,5 +1,5 @@
 ---
-title: DataONE lessons
+title: Skillbuilding Hub
 layout: index_tag
 ---
 

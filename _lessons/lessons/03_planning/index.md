@@ -1,5 +1,5 @@
 ---
-title: "Why data management?"
+title: "Data Management Planning"
 author: "DataONE Community Engagement & Outreach Working Group"
 organization: DataONE
 org_url: http://www.dataone.org

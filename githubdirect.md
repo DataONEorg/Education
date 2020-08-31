@@ -6,7 +6,7 @@ layout: generic
 
 
 # Edit or fork content for your own use
-## Select one of the buttons below to open the appropriate GitHub repository:
+## Select one of the buttons below to open the appropriate GitHub repository folder:
 <br/>
 
 <div>

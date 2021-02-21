@@ -48,9 +48,9 @@ layout: slides
 Data management planning is the starting point in the data life cycle.
 
 .center[![dlc](images/DataONE_Module3_LifeCycle.png)
-]
 
-???
+
+
 
 Data management planning is the starting point in the data life cycle.
 However the plan should be revisited often throughout the project to ensure proper data documentation and management.
@@ -76,17 +76,17 @@ Data management plans are meant to ensure that the data will be preserved and us
 
 # Why Prepare a DMP?
 
-.two-third[
+
 Saves time
   - Less reorganization later
 
 Increase research efficiency
  - Ensures you and others will be able to understand and use data in future
-]
 
-.one-third[![Photo Attribution: CC image Cathdew on Flickr](images/image6.jpeg)
-*CC image Cathdew on Flickr*
-]
+
+(images/image6.jpeg)
+
+
 
 ???
 
@@ -107,13 +107,11 @@ If data are documented well both before and during data collection, it prevents 
 - Increases visibility of research
 - Makes research and data more relevant
 - Funding agency requirement
-]
 
 .one-third[![Photo Attribution: CC0 image from The Noun Project](images/image7.png)
 *CC0 image from The Noun Project*
-]
 
-???
+
 
 Another reason to prepare a DMP is that it makes the data easier to preserve and archive.  Some data centers and repositories have specific requirements for data documentation, and knowing these requirements in advance saves time and effort that might be spent trying to append data after they are collected.
 
@@ -138,11 +136,11 @@ Finally, data management plans are now required by most funding agencies. In 201
 6. Budget
 ]
 
-.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image8.png)
-*CC0 image from The Noun Project*
-]
+(images/image8.png)
 
-???
+
+
+
 
 For a general DMP, there are five main categories of information that should be included.  Some funders or institutions may require specific elements in a data management plan; you should check with the agency or group for which you are preparing your DMP before beginning.
 

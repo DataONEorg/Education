@@ -38,8 +38,8 @@ layout: slides
   - Recognize the DMP elements required for an NSF proposal
 
 
-.one-third[![CC image by cybrarian77 on Flickr](images/image5.jpeg)
- *CC image by cybrarian77 on Flickr*
+(images/image5.jpeg)
+ 
 
 ---
 

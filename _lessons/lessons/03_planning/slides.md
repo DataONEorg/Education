@@ -98,7 +98,7 @@ If data are documented well both before and during data collection, it prevents 
 
 # Why Prepare a DMP?, continued
 
-[
+
 - Easier to preserve data
 - Prevents duplication of effort
 - Can lead to new, unanticipated discoveries

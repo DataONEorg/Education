@@ -63,7 +63,7 @@ However the plan should be revisited often throughout the project to ensure prop
 - Outlines what you will do with the data **during** and **after** you complete your research
 - Ensures the data is safe for the **present** and the **future**
 
-(images/rsz_image28.jpg)
+.center[![dlc](images/rsz_image28.jpg)
 
 
 
@@ -82,7 +82,7 @@ Increase research efficiency
  - Ensures you and others will be able to understand and use data in future
 
 
-(images/image6.jpeg)
+.center[![dlc](images/image6.jpeg)
 
 
 

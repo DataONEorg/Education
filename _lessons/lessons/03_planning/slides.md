@@ -98,7 +98,7 @@ If data are documented well both before and during data collection, it prevents 
 
 # Why Prepare a DMP?, continued
 
-.two-third[
+[
 - Easier to preserve data
 - Prevents duplication of effort
 - Can lead to new, unanticipated discoveries
@@ -148,7 +148,7 @@ The slides that follow will go into more detail for each of the general categori
 
 # Information About Data & Data Format
 
-.one-half[
+[
 What type of data will be produced?
   - Experimental
   - Observational
@@ -161,11 +161,11 @@ What type of data will be produced?
   - Images
 ]
 
-.one-half[![Photo Attribution: CC image by Jeffery Beall on Flickr](images/image9.jpeg)
-*CC image by Jeffery Beall on Flickr*
+[![Photo Attribution: CC image by Jeffery Beall on Flickr](images/image9.jpeg)
+
 ]
 
-???
+
 
 There are many different types of data that may be produced by a research study. Consider this list when describing data that will be produced by the project. These include experimental and observational data, raw or derived data, physical collections, models and their outputs, outputs from simulations, curriculum materials for courses, software, images, etcetera.
 
@@ -186,11 +186,11 @@ How data will be processed
   - Workflows
 ]
 
-.one-half[![CC image by Ryan Sandridge on Flickr](images/image10.jpeg)
-*CC image by Ryan Sandridge on Flickr*
+[![CC image by Ryan Sandridge on Flickr](images/image10.jpeg)
+*
 ]
 
-???
+
 
 In addition to a description of the data that will be generated, the methods of data acquisition should be specified.  Include the who, what, when, where of your collection.
 

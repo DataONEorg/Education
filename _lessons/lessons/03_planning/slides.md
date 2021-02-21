@@ -38,7 +38,7 @@ layout: slides
   - Recognize the DMP elements required for an NSF proposal
 
 
-(images/image5.jpeg)
+![dlc](images/image5.jpeg)
  
 
 ---
@@ -82,7 +82,7 @@ Increase research efficiency
  - Ensures you and others will be able to understand and use data in future
 
 
-.center[![dlc](images/image6.jpeg)
+![dlc](images/image6.jpeg)
 
 
 
@@ -106,7 +106,7 @@ If data are documented well both before and during data collection, it prevents 
 - Makes research and data more relevant
 - Funding agency requirement
 
-.one-third[![Photo Attribution: CC0 image from The Noun Project](images/image7.png)
+![Photo Attribution: CC0 image from The Noun Project](images/image7.png)
 *CC0 image from The Noun Project*
 
 

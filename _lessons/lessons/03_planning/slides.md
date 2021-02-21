@@ -86,7 +86,7 @@ Increase research efficiency
 
 
 
-???
+
 
 Why would you want to prepare a data management plan? First and foremost, they save you time. If your data organization scheme is decided on early in the project, or even before data collection begins, you are less likely to spend time organizing the data later.
 
@@ -107,7 +107,7 @@ If data are documented well both before and during data collection, it prevents 
 - Funding agency requirement
 
 ![Photo Attribution: CC0 image from The Noun Project](images/image7.png)
-*CC0 image from The Noun Project*
+
 
 
 
@@ -125,7 +125,7 @@ Finally, data management plans are now required by most funding agencies. In 201
 
 # Components of a General DMP
 
-.two-third[
+[
 1. Information about data type & data format
 2. Metadata content and format
 3. Policies for access, sharing and re-use
@@ -134,7 +134,7 @@ Finally, data management plans are now required by most funding agencies. In 201
 6. Budget
 ]
 
-(images/image8.png)
+![dlc](images/image8.png)
 
 
 

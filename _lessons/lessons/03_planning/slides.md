@@ -47,7 +47,7 @@ layout: slides
 
 Data management planning is the starting point in the data life cycle.
 
-.center[![dlc](images/DataONE_Module3_LifeCycle.png)
+![dlc](images/DataONE_Module3_LifeCycle.png)
 
 
 

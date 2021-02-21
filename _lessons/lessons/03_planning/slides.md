@@ -63,11 +63,9 @@ However the plan should be revisited often throughout the project to ensure prop
 - Outlines what you will do with the data **during** and **after** you complete your research
 - Ensures the data is safe for the **present** and the **future**
 
-.center[![CC image by Hope House Press on Unsplash](images/rsz_image28.jpg)
- *CC image by Hope House Press on Unsplash*
-]
+(images/rsz_image28.jpg)
 
-???
+
 
 A DMP is a formal document that outlines what you will do with the data both during and after your research project.  
 Data management plans are meant to ensure that the data will be preserved and useful both now and in the future, by both you and other researchers. They should be considered an active doucment, and updated throughout the project to reflect changes in needs or practice.

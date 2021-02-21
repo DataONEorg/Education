@@ -1,7 +1,7 @@
 ---
 title: "Data Management Planning"
 author: "DataONE Community Engagement & Outreach Working Group"
-update: Sept. 20, 2016
+update: Feb. 21, 2021
 layout: slides
 
 
@@ -18,7 +18,7 @@ layout: slides
 
 <!-- These are notes for the presenter -->
 
-???
+
 
 - The topics covered in this module will answer the questions:
 - What is a data management plan, or DMP?
@@ -30,17 +30,16 @@ layout: slides
 
 # Learning Objectives
 
-.two-third[
+
 - After completing this lesson, the participant will be able to:
   - Define a DMP
   - Understand the importance of preparing a DMP
   - Identify the key components of a DMP
   - Recognize the DMP elements required for an NSF proposal
-]
+
 
 .one-third[![CC image by cybrarian77 on Flickr](images/image5.jpeg)
  *CC image by cybrarian77 on Flickr*
-]
 
 ---
 

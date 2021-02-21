@@ -125,14 +125,14 @@ Finally, data management plans are now required by most funding agencies. In 201
 
 # Components of a General DMP
 
-[
+
 1. Information about data type & data format
 2. Metadata content and format
 3. Policies for access, sharing and re-use
 4. Long-term storage and preservation
 5. Roles and responsibilities
 6. Budget
-]
+
 
 ![dlc](images/image8.png)
 
@@ -148,7 +148,7 @@ The slides that follow will go into more detail for each of the general categori
 
 # Information About Data & Data Format
 
-[
+
 What type of data will be produced?
   - Experimental
   - Observational
@@ -159,11 +159,11 @@ What type of data will be produced?
   - Curriculum materials
   - Software
   - Images
-]
+
 
 [![Photo Attribution: CC image by Jeffery Beall on Flickr](images/image9.jpeg)
 
-]
+
 
 
 

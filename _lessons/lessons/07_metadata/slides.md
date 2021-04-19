@@ -36,7 +36,7 @@ In this segment of the course we will cover:
 What is metadata?
 What are examples of metadata in our daily lives?
 And what information needs to be included in a metadata record?
-
+Rick Thompson was here...
 ---
 
 # Learning Objectives

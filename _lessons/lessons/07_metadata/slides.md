@@ -1,5 +1,5 @@
 ---
-title: "Metadata Management"
+title: "Metadata Management Slides"
 author: DataONE Community Engagement & Outreach Working Group
 update: Oct. 25, 2016
 layout: slides

@@ -16,7 +16,7 @@ layout: slides
 - Example of requirements for a National Science Foundation DMP
 
 
-<!-- These are notes for the presenter -->
+<!-- These are notes for Karen Johnson -->
 
 ???
 

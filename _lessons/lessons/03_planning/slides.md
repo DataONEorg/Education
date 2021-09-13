@@ -257,6 +257,8 @@ You should describe how data will be managed in the short term.  How will you ke
 
 Be sure to identify who will be responsible for short-term data management. Assign roles and responsibilities for data management, archiving, version control, and backing up.
 
+Identify someone who will be responsible for coordinating the last task.
+
 ---
 
 # Metadata Content & Format

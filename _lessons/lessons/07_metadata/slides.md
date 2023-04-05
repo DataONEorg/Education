@@ -808,6 +808,7 @@ Finally, spatial reference information is essential for integrating your data wi
 ???
 
 Kim Davis
+
 ---
 
 # Tips for Writing Quality Metadata

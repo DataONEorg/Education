@@ -787,7 +787,6 @@ It is also important to inform users how and where they can access the data. Are
 ]
 
 ???
-
 Finally, spatial reference information is essential for integrating your data with other geospatial data. Spatial reference information includes information about both horizontal and vertical coordinate systems.
 
 ---
@@ -805,6 +804,8 @@ Finally, spatial reference information is essential for integrating your data wi
 5. **Revise** the record, based on comments from your reviewer
 6. **Review** once more before you publish
 
+???
+Kimberly Kertis
 ---
 
 # Tips for Writing Quality Metadata

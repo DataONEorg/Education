@@ -804,7 +804,7 @@ Finally, spatial reference information is essential for integrating your data wi
 4. Have **someone else** read your record
 5. **Revise** the record, based on comments from your reviewer
 6. **Review** once more before you publish
-
+Speaker notes: Kristina Anderson, adding this as part of a RDMLA class.
 ---
 
 # Tips for Writing Quality Metadata

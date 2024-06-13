@@ -94,6 +94,7 @@ Metadata records answer questions such as:
 	What scale was used?
 	What fields are in the table?
 	What do the values in those fields mean?
+	What data standard is being used if any?
 	Who do I contact about getting more information about the data?
 	How do I obtain a copy of the data?
 	Do the data cost anything?
@@ -805,6 +806,7 @@ Finally, spatial reference information is essential for integrating your data wi
 5. **Revise** the record, based on comments from your reviewer
 6. **Review** once more before you publish
 
+Speaker Notes: Alex
 ---
 
 # Tips for Writing Quality Metadata

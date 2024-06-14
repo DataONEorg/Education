@@ -794,6 +794,8 @@ Finally, spatial reference information is essential for integrating your data wi
 
 # Steps to Create Quality Metadata
 
+Speaker: Alanna Campbell
+
 1. **Organize** your information
  - Did you write a project abstract to obtain funding for your proposal? Re-use it in your metadata!
   - Did you use a lab notebook or other notes during the data development process that define measurements and other parameters?

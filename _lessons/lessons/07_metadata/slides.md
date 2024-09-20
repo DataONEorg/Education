@@ -805,6 +805,10 @@ Finally, spatial reference information is essential for integrating your data wi
 5. **Revise** the record, based on comments from your reviewer
 6. **Review** once more before you publish
 
+???
+
+Maggie Marchant
+
 ---
 
 # Tips for Writing Quality Metadata

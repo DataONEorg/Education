@@ -641,7 +641,7 @@ Refer to the appropriate documentation and/or schema for the standard you are us
 
 ???
 
-When possible, theme keywords should be drawn from thesauri or keyword lists. The use of authority files and standard vocabulary will help to make your metadata more discoverable, understandable, and interoperable. Make sure you reference the thesaurus used in your metadata record. Here are a few resources to get you started.
+When possible, theme keywords should be drawn from thesauri or keyword lists. The use of authority files and standard vocabulary will help to make your metadata more discoverable, understandable, and interoperable. Make sure you reference the thesaurus used in your metadata record. Here are a few resources to get you started. Speaker Notes: Victoria Caine
 
 ---
 

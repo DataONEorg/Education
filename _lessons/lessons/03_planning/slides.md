@@ -23,7 +23,7 @@ layout: slides
 - The topics covered in this module will answer the questions:
 - What is a data management plan, or DMP?
 - Why would you want to prepare a DMP?
-- What are the components of a DMP? And
+- What are the components of a DMP? 
 - What are the requirements for DMPs prepared for National Science Foundation (or NSF) proposals?  
 - We will also go over an example of a data management plan.
 ---
